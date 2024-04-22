@@ -1,58 +1,12 @@
-
-- name: Eleonora Belova
-  position: Test Automation Engineer
-  comment: Team Collaborator
-  image: assets/images/mentors/1.jpeg
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/eleonora-belova-7069baa5/
-    - name: github
-      link: https://github.com/nora-weisser
-
 - name: Lily Nguyen
   image: assets/images/collaborators/1.jpeg
   position: UX/UI Engineer
-  comment: Team Collaborator
+  comment: UX/UI Website
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/lilynguyendk/
     - name: github
       link: https://github.com/lilyndk
-
-- name: Naureen Imran
-  image: assets/images/collaborators/3.png
-  position: Full-stack Developer
-  comment: Team Collaborator
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/naureen-imran-744932227/
-    - name: github
-      link: https://github.com/goldfishdolphin
-
-- name: Airat Yusuff
-  image: assets/images/collaborators/8.jpeg
-  position: Software Engineer
-  comment: Website Collaborator
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/khairah-yusuff/
-    - name: github
-      link: https://github.com/khairahscorner
-    - name: medium
-      link: https://khairahscorner.hashnode.dev/
-
-
-- name: Sumeyya Javaid
-  image: assets/images/collaborators/2.jpeg
-  position: Full-stack Developer
-  comment: Website Collaborator
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/sumeyya-javaid/
-    - name: twitter
-      link: https://twitter.com/_jasum_
-    - name: github
-      link: https://github.com/j4sum
 
 - name: Chloe Britland-Whiting
   position: Data Analyst
@@ -64,51 +18,20 @@
     - name: github
       link: https://github.com/cribw27
 
-
 - name: Sonali Goel
   position: Lead Engineer
   comment: Team Collaborator
-  image: assets/images/mentors/50.jpg
+  image: assets/images/collaborators/2.jpg
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/sonali-goel-6b611522
 
-- name: Ying Tung (Sharon) Lau
-  image: assets/images/collaborators/4.jpeg
-  position: Front-end Developer
-  comment: Website Collaborator
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/yingtunglau/
-    - name: github
-      link: https://github.com/sharonytlau
-    - name: medium
-      link: https://blog.sharonytlau.xyz/
-
-- name: Elena Fedorova
-  position: Designer
-  comment: Website and design support
-  image: assets/images/team/2.png
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/elena-fedorova-9ab270237/
-
 - name: Neha Sharma
   image: assets/images/collaborators/5.jpeg
   position: Principal Engineer
-  comment: Website Collaborator
+  comment: Team Collaborator
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/nehha/
     - name: github
       link: https://github.com/Neha
-
-- name: Valeriia Amelchenia
-  image: assets/images/mentors/52.jpeg
-  position: Software QA Engineer
-  comment: Test Automation
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/valeriia-amelchenia
-    - name: github
-      link: https://github.com/vamelchenia
