@@ -1,0 +1,27 @@
+@include media-breakpoint-down(sm) {
+    .banner {
+        min-height: 200px;
+        
+        h1 {
+            font-size: 3.5rem;
+        }
+    }
+
+    .home {
+        .container {
+            padding: 0 !important;
+        }
+
+        .content {
+            margin: 0 0 50px 0;
+        }
+
+        .registration {
+            margin: 0;
+        }
+    }
+
+    .btn-primary {
+        font-size: revert !important;
+    }
+}

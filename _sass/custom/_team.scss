@@ -1,0 +1,45 @@
+
+.team {
+
+    .profile-photo {
+        width: 150px;
+    }
+
+    .card {
+        height: 100%;
+    }
+    
+    .card-body {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+    
+    .network {
+        a {
+            margin-left: 10px;
+            border-radius: 100%;
+
+            svg {
+                height: 30px;
+                width: 30px;
+                fill: $teal;
+            }
+        }
+    }
+
+    .contributors {
+        .row {
+            margin-bottom: 50px;
+        }
+    }
+
+    .section {
+        @extend .my-7;
+        margin: 5rem 0;
+    }
+
+    .col-12 {
+        margin-top: 20px;
+    }
+}

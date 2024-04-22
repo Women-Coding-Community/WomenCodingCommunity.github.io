@@ -1,0 +1,53 @@
+@import "menu";
+@import "footer";
+@import "home";
+@import "icons";
+@import "team";
+@import "code-of-conduct";
+@import "media-breakpoint";
+
+
+h1, h2, h3 {
+    @extend .text-center;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+p, ul, ol {
+    font-size: $font-size-md;
+}
+
+a.btn {
+    font-weight: bold;
+}
+
+.network svg:hover  {
+    fill: $teal-600 !important;
+}
+
+.btn-primary {
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    font-size: $font-size-lg;
+    padding: 0 2rem;
+    line-height: 2.5;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 6px;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-primary {
+    color: $teal
+}

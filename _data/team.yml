@@ -1,0 +1,64 @@
+- name: Madhura Chaganty
+  position: Lead
+  comment: WCC Lead
+  image: assets/images/team/3.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/madhurachaganty
+
+
+- name: Eleonora Belova
+  position: Test Automation Engineer
+  comment: WCC Lead
+  image: assets/images/team/7.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/eleonora-belova-7069baa5/
+    - name: github
+      link: https://github.com/nora-weisser
+
+- name: Adriana Zencke
+  position: Tech Lead
+  comment: WCC Director
+  image: assets/images/team/4.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/dricazenck/
+    - name: github
+      link: https://github.com/dricazenck
+    - name: medium
+      link: https://medium.com/@dricazenck
+
+- name: Idayat Sanni
+  image: assets/images/team/5.jpeg
+  position: Front-end Developer
+  comment: WCC Evangelist
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/idayat-sanni-a46b16102/
+    - name: github
+      link: https://github.com/IdayatSanni
+
+- name: Arzu Caner
+  position: Front-end Developer
+  comment: WCC Evangelist
+  image: assets/images/team/1.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/arzucaner/
+    - name: github
+      link: https://github.com/arzucaner
+    - name: medium
+      link: https://arzuguneycaner.medium.com/
+
+- name: Airat Yusuff
+  image: assets/images/team/6.jpeg
+  position: Software Engineer
+  comment: WCC Lead
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/khairah-yusuff/
+    - name: github
+      link: https://github.com/khairahscorner
+    - name: medium
+      link: https://khairahscorner.hashnode.dev/
