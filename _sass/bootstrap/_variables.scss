@@ -10,6 +10,15 @@
 
 // stylelint-disable
 $white:    #fff !default;
+$coral-10: #3A0A00 !default;
+$coral-20: #5E1600 !default;
+$coral-30: #852300 !default;
+$coral-40: #AD3306 !default;
+$coral-50: #CF4B20 !default;
+$coral-60: #F16437 !default;
+$coral-70: #FF8B67 !default;
+$coral-80: #FFB59F !default;
+$coral-90: #FFDBD0 !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -71,7 +80,7 @@ $colors: map-merge((
 ), $colors);
 
 $primary:       $purple-40 !default;
-$secondary:     $gray-600 !default;
+$secondary:     $coral-40 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
