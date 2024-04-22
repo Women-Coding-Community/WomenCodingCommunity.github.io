@@ -1,0 +1,15 @@
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass/
+
+# Settings
+title: "Women Coding Community"
+description: Our mentorship programme is open to anyone who is looking to improve their skills or advance their careers. Whether you are an experienced professional looking to give back to the community, or a student or new professional seeking guidance and support.
+author: Women Coding Community
+
+# GitHub
+github:
+  repository_url: https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io

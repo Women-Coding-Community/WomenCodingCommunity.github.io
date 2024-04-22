@@ -1,0 +1,17 @@
+- name: Home
+  link: /london
+  index: 0
+- name: Team
+  link: team
+  index: 1
+- name: Collaborators
+  link: collaborators
+  index: 2
+- name: Programms
+  index: 3
+  subfolderitems:
+      - page: TBD
+        url: index
+- name: CODE OF CONDUCT
+  link: code-of-conduct
+  index: 4

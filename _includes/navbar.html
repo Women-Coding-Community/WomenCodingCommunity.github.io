@@ -1,0 +1,33 @@
+<div class="menu">
+    <nav class="navbar navbar-expand-lg navbar-light lined">
+    
+    <a class="navbar-brand" href="/london">
+        <img class="brand" src="assets/images/logo.png">
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+        <ul class="navbar-nav ml-auto">
+            {% for item in site.data.navbar %}
+                <li class="nav-item {% if item.subfolderitems %}dropdown{% endif %}">
+                    {% if item.subfolderitems %}
+                        <a data-target="#" class="nav-link" id="drop{{item.index}}" href="{{item.link}}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="dropdown-toggle">{{ item.name }}</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="drop{{item.index}}">
+                                {% for entry in item.subfolderitems %}
+                                    <li>
+                                        <a class="nav-link" href="{{ entry.url }}">{{ entry.page }}</a>
+                                    </li>
+                                {% endfor %}
+                              </ul>
+                    {% else %}
+                        <a class="nav-link" id="nav-{{item.index}}" href="{{item.link}}">{{ item.name }}</a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
+</div>

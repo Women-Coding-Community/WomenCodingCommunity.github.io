@@ -1,0 +1,28 @@
+.code-of-conduct {
+    
+    @extend .my-7;
+
+    .section{
+        margin-bottom: 5rem;
+
+        li {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1rem;
+            max-width: 75ch;
+
+            a {
+                font-weight: bold;
+                color: $teal;
+            }
+        }
+
+        ul li {
+            margin-bottom: 0;
+        }
+    }
+
+    .btn {
+        margin-top: 1.5rem;
+    }
+}

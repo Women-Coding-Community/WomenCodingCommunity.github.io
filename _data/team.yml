@@ -1,0 +1,106 @@
+- name: Irina Kamalova
+  position: WCC Director
+  comment: Senior Software Engineer
+  image: assets/images/team/8.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/irina-kamalova/
+    - name: medium
+      link: https://iren-kamalova.medium.com/
+
+- name: Eleonora Belova
+  position: WCC Lead
+  comment: Test Automation Engineer
+  image: assets/images/team/7.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/eleonora-belova-7069baa5/
+    - name: github
+      link: https://github.com/nora-weisser
+
+- name: Elena Fedorova
+  position: WCC Lead
+  comment: Designer
+  image: assets/images/team/2.png
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/elena-fedorova-9ab270237/
+
+- name: Adriana Zencke
+  position: WCC Director
+  comment: Senior Software Engineer
+  image: assets/images/team/4.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/rajaniraog
+    - name: github
+      link: https://github.com/dricazenck
+    - name: medium
+      link: https://medium.com/@dricazenck
+
+- name: Rajani Rao
+  position: WCC Director
+  comment: CTO/Principal Technologist
+  image: assets/images/team/9.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/rajaniraog
+
+- name: Julia Babahina
+  position: WCC Director
+  comment: Lead Risk Management Specialist
+  image: assets/images/team/11.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/julia-babahina-cism-crisc-30285440
+
+- name: Ying LIU
+  position: WCC Director
+  comment: Head of AI
+  image: assets/images/team/10.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/yingliu-data/
+
+- name: Arzu Caner
+  position: WCC Evangelist
+  comment: Front-end Developer
+  image: assets/images/team/1.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/arzucaner/
+    - name: github
+      link: https://github.com/arzucaner
+    - name: medium
+      link: https://arzuguneycaner.medium.com/
+
+- name: Airat Yusuff
+  image: assets/images/team/6.jpeg
+  position: WCC Lead
+  comment: Software Engineer
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/khairah-yusuff/
+    - name: github
+      link: https://github.com/khairahscorner
+    - name: medium
+      link: https://khairahscorner.hashnode.dev/
+
+
+- name: Idayat Sanni
+  image: assets/images/team/5.jpeg
+  position: WCC Evangelist
+  comment: Front-end Developer
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/idayat-sanni-a46b16102/
+    - name: github
+      link: https://github.com/IdayatSanni
+
+- name: Madhura Chaganty
+  position: WCC Lead
+  comment: Lead Software Engineer
+  image: assets/images/team/3.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/madhurachaganty

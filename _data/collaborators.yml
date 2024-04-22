@@ -1,0 +1,37 @@
+- name: Lily Nguyen
+  image: assets/images/collaborators/1.jpeg
+  position: UX/UI Engineer
+  comment: UX/UI Website
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/lilynguyendk/
+    - name: github
+      link: https://github.com/lilyndk
+
+- name: Chloe Britland-Whiting
+  position: Data Analyst
+  comment: Team Collaborator
+  image: assets/images/collaborators/9.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/chloe-britland-whiting/
+    - name: github
+      link: https://github.com/cribw27
+
+- name: Sonali Goel
+  position: Lead Engineer
+  comment: Team Collaborator
+  image: assets/images/collaborators/2.jpg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/sonali-goel-6b611522
+
+- name: Neha Sharma
+  image: assets/images/collaborators/5.jpeg
+  position: Principal Engineer
+  comment: Team Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/nehha/
+    - name: github
+      link: https://github.com/Neha
