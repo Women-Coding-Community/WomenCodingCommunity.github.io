@@ -9,8 +9,7 @@
 
 
 h1, h2, h3 {
-    @extend .text-center;
-
+    text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -47,4 +46,24 @@ p, ul, ol {
 
 .container .section {
     margin-top: 4rem !important;
+}
+
+.container .section:last-child {
+    margin-bottom: 5rem;
+}
+
+.content-constrained {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.content-constrained h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.content-constrained h3 {
+    text-align: left;
+    margin: 1.7rem 0 1rem 0;
+    font-size: 1.6rem;
 }
