@@ -1,36 +1,60 @@
 .banner {
-    @include media-breakpoint-down(lg) {  
-        background-size: auto 100%;
-    }
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: map-get($spacers, 3) map-get($spacers, 3);
+    padding: map-get($spacers, 6) 0;
     color: $white;
-    min-height: 300px;
-    background-image: url("./../../assets/images/banner.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center top;
+    min-height: 25vw; 
 
-    h1 {
-        @extend .display-2;
+    .overlay-image {
+        background-image: url("./../../assets/images/banner.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center 25%;
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    // Dark purple overlay
+    .overlay-dark {
+        background-color: $primary-10; // Dark purple
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-content {
+        position: relative;
+        z-index: 2; // Makes sure text content stays above overlay 
+
+        h1 {
+            font-size: $display4-size;
+        }
+
+        p {
+            font-size: $h2-font-size;
+        }
+
+        hr {
+            margin: map-get($spacers, 5) auto;
+            height: 8px;
+            width: 5%;
+            background-color: $primary-90;
+        }
+    }
+
+    h1, h2 {
         margin: 0;
         font-weight: 400;
     }
-
-    h2 {
-        margin: 0;
-        font-weight: 400;
-    }
-
-    hr {
-        margin: map-get($spacers, 5) auto;
-        height: 8px;
-        width: 5%;
-        background-color: $primary-90;
-    }
-
 }
 
 .home {
@@ -38,7 +62,7 @@
     .card {
         margin-top: 10px;
     }
-    
+
     .registration {
         @extend .justify-content-around;
         @extend .my-7;
