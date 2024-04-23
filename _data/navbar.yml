@@ -1,17 +1,36 @@
 - name: Home
-  link: /london
+  link: /
   index: 0
-- name: About
-  link: about
+- name: Mentorship
+  link: mentorship
   index: 1
+  subfolderitems:
+    - page: About
+      url: mentorship
+    - page: Mentors
+      url: mentors
+    - page: Resources
+      url: mentorship-resources
+    - page: Code of Conduct
+      url: mentorship-code-of-conduct
+    - page: FAQ
+      url: faq
 - name: Programms
   index: 2
   subfolderitems:
-      - page: TBD
-        url: index
-- name: Team
-  link: team
+    - page: Book Club
+      url: program-book-club
+    - page: Interview Preparation
+      url: program-interview-preparation
+    - page: Study Group
+      url: program-study-group
+- name: About
+  link: about
   index: 3
-- name: Code of conduct
-  link: code-of-conduct
-  index: 4
+  subfolderitems:
+    - page: About WCC
+      url: about
+    - page: Team
+      url: team
+    - page: Code of Conduct
+      url: code-of-conduct
