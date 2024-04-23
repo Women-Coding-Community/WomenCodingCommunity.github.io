@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+
+@import 'bootstrap/bootstrap';
+@import 'custom/custom';
+
 $backgroundColor: #fff;
 $bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyFont: 'Roboto', sans-serif;
 
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
-}
-
-@import 'bootstrap/bootstrap';
-@import 'custom/custom';
+ } 
