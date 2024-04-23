@@ -3,10 +3,12 @@ layout: default
 title: Team
 ---
 
+<div class="page-header">
+    <h1>Meet our team</h1>
+</div>
 <div class="container team">
     <div class="section">
-        <h1>Meet our team</h1>
-
+        <h2>Core team</h2>
         <div class="row g-3">
             {% for person in site.data.team %}
             <div class="col-12 col-md-6 col-lg-3">
@@ -39,5 +41,48 @@ title: Team
             </div>
             {% endfor %}
         </div>
+    </div>
+    <div class="section contributors">
+        <h2>Collaborators</h2>
+        <div class="row g-3">
+            {% for person in site.data.collaborators %}
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="contributors card">
+                    <img src="{{person.image}}" alt="profile photo" class="profile photo card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">{{person.name}}</h5>
+                        <h6 class="card-subtitle">{{person.position}}</h6>
+                        <p class="card-text"><small class="text-muted">{{person.comment}}</small></p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="network">
+                            {% for network in person.network %}
+                                {% if network.name=="linkedin" %}
+                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
+                                {% endif %}
+                                {% if network.name=="twitter" %}
+                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
+                                {% endif %}
+                                {% if network.name=="medium" %}
+                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/medium.svg %}</a></span>
+                                {% endif %}
+                                {% if network.name=="github" %}
+                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/github.svg %}</a></span>
+                                {% endif %}
+                            {% endfor %}
+                        </span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Join us as a contributor</h2>
+
+        <p class="mt-4 d-flex justify-content-center">
+            <a href="https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io#contributing" target="_blank" class="btn btn-primary">Click here to learn more</a>
+        </p>
     </div>
 </div>
