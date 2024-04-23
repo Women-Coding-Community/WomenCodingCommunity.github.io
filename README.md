@@ -48,6 +48,22 @@ We recommend using Bundler to install and run Jekyll. Bundler manages Ruby gem d
 
 - Access the page on browser: http://127.0.0.1:4000
 
+### Run Tests Locally
+
+* Javascript Tests
+- Run on terminal `npm install`
+- Run on terminal `npm test`
+
+* Python Tests
+
+```shell script
+  cd tools 
+  ls -lah
+  python -m pip install --upgrade pip
+  pip install -r requirements.txt
+  pytest tools
+```
+
 
 ### External Links about GitHub Pages
 
