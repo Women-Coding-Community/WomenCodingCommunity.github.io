@@ -1,7 +1,7 @@
-- name: Lily Nguyen
+- name: Lily N.
   image: assets/images/collaborators/1.jpeg
-  position: UX/UI Engineer
-  comment: UX/UI Website
+  position: UX/UI Designer & Engineer
+  comment: Website Collaborator
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/lilynguyendk/
@@ -35,7 +35,6 @@
       link: https://www.linkedin.com/in/nehha/
     - name: github
       link: https://github.com/Neha
-
 
 - name: Sophy O.
   image: assets/images/collaborators/10.jpeg
