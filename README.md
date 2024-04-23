@@ -3,7 +3,7 @@
 [![Issues][issues-shield]][issues-url]
 [![Stargazers][stars-shield]][stars-url]
 
-# Welcome to Women Coding Community Community :sparkles: :computer:
+# Welcome to Women Coding Community :sparkles: :computer:
 
 The Women Coding Community is a community dedicated to inspiring women to excel in their technology careers. Our events cover various topics around software engineering.
 If you're interested in joining the community as a member or volunteer please visit our [website](https://WomenCodingCommunity.github.io/london) or join [our slack TODO](TODO).

@@ -1,6 +1,8 @@
 .menu {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   .navbar-nav .nav-link {
-      font-size: $navbar-toggler-font-size;
+      font-size: 1.1rem;
+      color: $gray-800;
   }
 
   .navbar-title {
@@ -8,15 +10,13 @@
   }
 
   .navbar {
-      text-transform: uppercase;
+      text-transform: capitalize;
       background-color: $white;
-      box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+      padding: 1rem;
 
     .navbar-brand {
-        margin-left: 40px;
-        
         img {
-            width: 120px;
+            width: 86px;
         }
     }
   }
@@ -24,11 +24,10 @@
   .navbar li {
     list-style-type: none;
     display: inline-block;
-    margin: 5px 10px;
+    margin: 0.2rem 1rem;
   }
     
   .navbar li > a {
-    color: rgba(33, 35, 38, 0.1);
     text-decoration: none;
     display: inline-block;
     position: relative;
@@ -47,7 +46,7 @@
     
   .navbar li > a:hover::after, li > a.active-nav::after {
     width: 100%;
-    background: $teal;
+    background: $primary;
   }
 
   .navbar .dropdown > a[aria-expanded="true"]:hover::after, .dropdown > a.active-nav::after {

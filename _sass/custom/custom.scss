@@ -32,5 +32,19 @@ p, ul, ol {
 }
 
 .text-primary {
-    color: $teal
+    color: $gray-900;
+}
+
+.page-header {
+    background: $primary-90;
+    color: $primary-10;
+    padding: 4rem 1rem;
+}
+
+.page-header h1 {
+    margin: 0;
+}
+
+.container .section {
+    margin-top: 4rem !important;
 }
