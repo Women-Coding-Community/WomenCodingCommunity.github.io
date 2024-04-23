@@ -5,8 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding: map-get($spacers, 3) map-get($spacers, 3);
     color: $white;
     min-height: 300px;
     background-image: url("./../../assets/images/banner.jpg");
@@ -16,12 +15,20 @@
 
     h1 {
         @extend .display-2;
-        margin: 0 !important;
+        margin: 0;
+        font-weight: 400;
     }
 
-    h3 {
-        margin: 0 !important;
-        font-weight: normal;
+    h2 {
+        margin: 0;
+        font-weight: 400;
+    }
+
+    hr {
+        margin: map-get($spacers, 5) auto;
+        height: 8px;
+        width: 5%;
+        background-color: $primary-90;
     }
 
 }
@@ -31,18 +38,7 @@
     .card {
         margin-top: 10px;
     }
-
-    .overview {
-        @extend .row;
-        @extend .h4;
-        @extend .my-7;
-
-        padding: 0 30px 0 30px;
-        text-align: center;
-        font-weight: normal;
-        line-height: 1.5;   
-    }
-
+    
     .registration {
         @extend .justify-content-around;
         @extend .my-7;
