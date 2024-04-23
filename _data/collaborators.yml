@@ -35,3 +35,14 @@
       link: https://www.linkedin.com/in/nehha/
     - name: github
       link: https://github.com/Neha
+
+
+- name: Sophy O.
+  image: assets/images/collaborators/10.jpeg
+  position: UI/UX Designer
+  comment: Team Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/sophyo/
+    - name: github
+      link: https://github.com/sssoz
