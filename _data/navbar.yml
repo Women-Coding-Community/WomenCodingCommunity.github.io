@@ -7,7 +7,7 @@
 - name: Collaborators
   link: collaborators
   index: 2
-- name: Programmes
+- name: Programms
   index: 3
   subfolderitems:
       - page: TBD
