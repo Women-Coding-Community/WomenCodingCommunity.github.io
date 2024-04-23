@@ -14,8 +14,10 @@ title: Team
                     <img src="{{person.image}}" alt="profile photo" class="profile photo card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">{{person.name}}</h5>
-                        <p class="card-text">{{person.position}}</p>
+                        <h6 class="card-subtitle">{{person.position}}</h6>
                         <p class="card-text"><small class="text-muted">{{person.comment}}</small></p>
+                    </div>
+                    <div class="card-footer">
                         <span class="network">
                             {% for network in person.network %}
                                 {% if network.name=="linkedin" %}
