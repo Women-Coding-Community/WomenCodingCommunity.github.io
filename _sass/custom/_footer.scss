@@ -1,12 +1,10 @@
 
 .footer {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: map-get($spacers, 6) 0;
     background-color: $primary-30;
-    padding-top: 40px;
     text-align: left;
     color: $white;
-    min-height: 200px;
+    min-height: 25vw;
 
     .brand {
         width: 120px;
