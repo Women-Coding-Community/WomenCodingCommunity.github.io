@@ -1,0 +1,26 @@
+.resources {
+
+    padding: 15px;
+  
+    .card {
+      height: 100%;
+    }
+  
+    .card-body {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+  
+        p {
+          margin-bottom: 30px;
+        }
+    }
+  
+    .card-title{
+        margin-bottom: 10px;
+    }
+  
+    &__block {
+      margin-bottom: 7rem;
+    }
+}
