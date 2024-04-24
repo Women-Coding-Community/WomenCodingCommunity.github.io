@@ -1,0 +1,50 @@
+name: Run Tests
+
+on: 
+  pull_request: 
+    types: [opened, synchronize, reopened]
+
+jobs:
+  test-js:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set Up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 14
+
+    - name: Install NPM Dependencies
+      run: npm install
+
+    - name: Run JS Tests
+      run: npm test
+
+  test-python:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          architecture: 'x64'
+
+      - name: Display Python version
+        run: python -c "import sys; print(sys.version)"
+
+      - name: Install dependencies
+        run: |
+          cd tools 
+          ls -lah
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Run pytest
+        run: pytest tools
