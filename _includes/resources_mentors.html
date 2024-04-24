@@ -1,0 +1,20 @@
+{% assign books = site.data.books | where:"index", mentor.index %}
+{% if books == empty %}
+    <div id="mentor-resources-{{mentor.index}}" class="card-resources d-none">
+        <p class="card-text">This mentor doesn't have resource recommendations yet.</p>
+    </div>
+{% endif %}
+{% for book in books %}
+    <div id="mentor-resources-{{mentor.index}}" class="card-resources d-none">
+        <h5>Book Recommendations</h5>
+        {% assign books = book.books %}
+        <ul class="book-recommendations">
+            {% for book in books %}
+            <li class="book">
+                <h6>{{ book.title }}</h6>
+                <p>{{ book.comments }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endfor %}

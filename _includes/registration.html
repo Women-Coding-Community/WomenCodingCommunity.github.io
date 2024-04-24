@@ -1,0 +1,25 @@
+{% assign months = mentor.availability %}
+
+{% if current_day <= days_open %}
+    
+    {% if mentor.type != 'long-term' %}
+        
+        {% if months contains current_month %}
+            <a href="#" class="btn" data-tf-popup="lADb5J9z" data-tf-iframe-props="title=Mentee Registration"
+            data-tf-medium="snippet" data-tf-hidden="mentor={{mentor.name}}">Apply for this mentor</a>
+        {% else %}
+            <p class="card-text" data-toggle="tooltip" data-placement="bottom" data-html="true" 
+                title="This mentor is not available for ad-hoc sessions in {{ site.time | date: '%B' }}">
+                 Not available 
+                <span>{% include icons/question-fill.svg %}</span>
+            </p>
+        {% endif %}
+
+    {% else %}
+        <p class="card-text" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Only available for long-term mentorship">
+            Long Term Mentor
+            <span>{% include icons/question-fill.svg %}</span>
+        </p>
+    {% endif %}
+
+{% endif %}

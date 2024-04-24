@@ -1,0 +1,19 @@
+{% assign reviews = site.data.reviews | where:"index", mentor.index %}
+{% if reviews == empty %}
+    <div id="reviews-{{mentor.index}}" class="card-reviews d-none">
+        <p class="card-text">This mentor hasn't received any reviews yet.</p>
+    </div>
+{% endif %}
+{% for review in reviews %}
+    <div id="reviews-{{mentor.index}}" class="card-reviews d-none">
+        {% assign feedbacks = review.feedback | sort: 'date' | reverse %}
+        {% for feedback in feedbacks %}
+            <div class="stars stars{{feedback.score}}"></div>
+            <p class="card-text">
+                <span>{{feedback.date-f}}</span> - {{feedback.type}}
+            </p>
+            <p class="card-text">{{feedback.feedback}}</p><small>by {{feedback.name}}</small>
+            <hr>
+        {% endfor %}
+    </div>
+{% endfor %}

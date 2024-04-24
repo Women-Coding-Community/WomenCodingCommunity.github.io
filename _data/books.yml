@@ -1,0 +1,59 @@
+- index: 1 # mentor id 1 - Eleonora
+  books:
+    - title: Thinking, Fast and Slow by Daniel Kahneman
+    - title: |
+        The Pragmatic Programmer: From Journeyman to Master by Andy Hunt and Dave Thomas
+    - title: |
+        Never Split the Difference: Negotiating as if Your Life Depended on It by Chris Voss and Tahl Raz
+    - title: |
+        The Culture Map - Breaking Through the Invisible Boundaries of Global Business by Erin Meyer
+
+- index: 7 # mentor id 7 - Irina
+  books:
+    - title: |
+        Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
+      comments: Great for learning how to level up the quality of code base.
+    - title: |
+        Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann
+      comments: So many great concepts in this book!
+    - title: |
+        Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans
+      comments: Discover concepts for creating well-designed software.
+    - title: |
+        Release it!: Design and Deploy Production-Ready Software by Michael T. Nygard
+      comments: Learn about stability patterns in software.
+    - title: |
+        No Rules Rules: Netflix and the Culture of Reinvention by Reed Hastings and Erin Meyer
+      comments: Amazing book around team culture.
+    - title: |
+        The Culture Map - Breaking Through the Invisible Boundaries of Global Business by Erin Meyer
+      comments: Another amazing book around team culture.
+
+- index: 12 # mentor id 12 - Ken
+  books:
+    - title: Turn the Ship Around! By L. David Marquet
+      comments: Turning followers into leaders. Required reading for all managers!
+    - title: Radical Candor by Kim Scott
+      comments: “How to get what you want by saying what you need”. But more to the point, a solid framework for giving and inviting meaningful, actionable feedback. EVERYBODY should read this.
+    - title: The New One Minute Manager by Ken Blanchard
+      comments: If you supervise people in any capacity, this is a no-nonsense walk-through of the basics. It`s a quick read, too!
+    - title: "Drive: The Surprising Truth About What Motivates Us by Daniel H. Pink"
+      comments: |
+          This one`s an eye-opener! Everything I thought I understood about motivation was wrong. If you`re struggling with your own motivation, this might help you understand why. If you lead others, it`s a valuable addition to your toolbox.
+    - title: Start With WHY by Simon Sink
+      comments: “How great leaders inspire everyone to take action”. But it`s not just about leaders. There`s valuable insight here to help understand yourself, too. I also recommend you look up Simon`s Ted Talks, they`re fun to watch and really on-point.
+
+- index: 33 # mentor id 33 - madhura
+  books:
+    - title: |
+        Software Engineering at Google by Titus Winters, Tom Manshreck and Hyrum Wright
+      comments: The book is comprehensive; pick and choose concepts that interest you.
+    - title: |
+        The easiest way to learn design patterns by Fiodar Sazanavets
+      comments: The book explains design patterns with real life examples (code samples in c# and javascript). It is a good book to use as a reference book.
+    - title: |
+        Atomic Habits by James Clear
+      comments: A great book to get 1 percent better every day.
+    - title: |
+        The Phoenix Project by Gene Kim, Kevin Behr, and George Spafford
+      comments: The book is written as a novel and focuses on how to improve company processes using DevOps.
