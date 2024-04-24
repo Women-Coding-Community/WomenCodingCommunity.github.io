@@ -1,0 +1,44 @@
+<p class="network">
+    {% for network in mentor.network %}
+        {% if network.linkedin %}
+            <a href="{{network.linkedin}}" target="_blank">
+                {% include icons/linkedin.svg %}
+            </a>
+        {% endif %}
+        {% if network.twitter %}
+            <a href="{{network.twitter}}" target="_blank">
+                {% include icons/twitter.svg %}
+            </a>
+        {% endif %}
+        {% if network.github %}
+            <a href="{{network.github}}" target="_blank">
+                {% include icons/github.svg %}
+            </a>
+        {% endif %}
+        {% if network.medium %}
+            <a href="{{network.medium}}" target="_blank">
+                {% include icons/medium.svg %}
+            </a>
+        {% endif %}
+        {% if network.website %}
+        <a href="{{network.website}}" target="_blank">
+            {% include icons/website.svg %}
+        </a>
+        {% endif %}
+        {% if network.instagram %}
+        <a href="{{network.instagram}}" target="_blank">
+            {% include icons/instagram.svg %}
+        </a>
+        {% endif %}
+        {% if network.telegram %}
+        <a href="{{network.telegram}}" target="_blank">
+            {% include icons/telegram.svg %}
+        </a>
+        {% endif %}
+        {% if network.youtube %}
+        <a href="{{network.youtube}}" target="_blank">
+            {% include icons/youtube.svg %}
+        </a>
+        {% endif %}
+    {% endfor %}
+</p>
