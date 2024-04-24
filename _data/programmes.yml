@@ -10,14 +10,14 @@
   icon: book_4
   url: "/book-club"
 
-- title: Resumé clinic 
+- title: CV clinic
   icon: work
-  url: "/nterview-preparation#resume-clinic"
+  url: "/program-interview-preparation#resume-clinic"
 
 - title: Mock interviews
   icon: group
-  url: "/nterview-preparation#mock-interview"
+  url: "/program-interview-preparation#mock-interview"
 
 - title: Leetcode
   icon: code_blocks
-  url: "/nterview-preparation#leetcode"
+  url: "/program-interview-preparation#leetcode"
