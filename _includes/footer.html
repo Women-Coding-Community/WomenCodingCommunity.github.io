@@ -1,21 +1,10 @@
 <div class="footer">
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-sm-7">
+            <div class="col-12 col-md-8">
                 <img class="brand" src="assets/images/logo.svg">
             </div>
-            <div class="col-sm-4">
-                <h5>Women Coding Community</h5>
-                <p><small>TBD</small></p>
-            </div>
-
-        </div>
-        <div class="row justify-content-between">
-            <div class="col-sm-7 copyright">
-                <p><small>Women Coding Community is a 501(c)(3) not-for-profit organization.</small></p>
-                <p><small>© 2024 Women Coding Community</small></p>
-            </div>
-            <div class="col-sm-4">
+            <div class="col-12 col-md-4 social">
                 <h5>Follow Us</h5>
                 <p><small>Join us on social media and stay tuned.</small></p>
                 <p class="network">
@@ -47,10 +36,15 @@
                         {% if network.slack %}
                         <span> <a href="{{network.slack}}" target="_blank"> {% include icons/slack.svg %}</a></span>
                         {% endif %}
-
                     {% endfor %}
                 </p>
              </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-12 copyright">
+                <p><small>Women Coding Community is a 501(c)(3) not-for-profit organisation.</small></p>
+                <p><small>© 2024 Women Coding Community</small></p>
+            </div>
         </div>
     </div>
 </div>
