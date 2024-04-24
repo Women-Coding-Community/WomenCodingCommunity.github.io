@@ -1,52 +1,59 @@
-<footer class="footer">
-        <div class="row">
-            <div class="col-12 social d-flex justify-content-center">
-                <div class="logo">
-                    <img src="assets/images/logo.svg" alt="Women Who Code Community Logo">
-                </div>
-                <div class="d-flex align-items-center">
-                    <h5>Follow us:</h5>
-                    <p class="network">
-                        {% for network in site.data.footer.network %}
-                            {% if network.linkedin %}
-                                <span> <a href="{{network.linkedin}}" target="_blank" rel="noopener noreferrer"> {% include icons/linkedin.svg %}</a></span>
-                            {% endif %}
-                            {% if network.twitter %}
-                                <span> <a href="{{network.twitter}}" target="_blank" rel="noopener noreferrer"> {% include icons/twitter.svg %}</a></span>
-                            {% endif %}
-                            {% if network.github %}
-                                <span> <a href="{{network.github}}" target="_blank" rel="noopener noreferrer"> {% include icons/github.svg %}</a></span>
-                            {% endif %}
-                            {% if network.medium %}
-                                <span> <a href="{{network.medium}}" target="_blank" rel="noopener noreferrer"> {% include icons/medium.svg %}</a></span>
-                            {% endif %}
-                            {% if network.meetup %}
-                                <span> <a href="{{network.meetup}}" target="_blank" rel="noopener noreferrer"> {% include icons/meetup.svg %}</a></span>
-                            {% endif %}
-                            {% if network.facebook %}
-                            <span> <a href="{{network.facebook}}" target="_blank" rel="noopener noreferrer"> {% include icons/facebook.svg %}</a></span>
-                            {% endif %}
-                            {% if network.youtube %}
-                            <span> <a href="{{network.youtube}}" target="_blank" rel="noopener noreferrer"> {% include icons/youtube.svg %}</a></span>
-                            {% endif %}
-                            {% if network.instagram %}
-                            <span> <a href="{{network.instagram}}" target="_blank" rel="noopener noreferrer"> {% include icons/instagram.svg %}</a></span>
-                            {% endif %}
-                            {% if network.slack %}
-                            <span> <a href="{{network.slack}}" target="_blank" rel="noopener noreferrer"> {% include icons/slack.svg %}</a></span>
-                            {% endif %}
-                        {% endfor %}
-                    </p>
-                </div>
+<div class="footer">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-sm-7">
+                <img class="brand" src="assets/images/logo.svg">
             </div>
+            <div class="col-sm-4">
+                <h5>Women Coding Community</h5>
+                <p><small>TBD</small></p>
+            </div>
+
         </div>
-        <div class="row">
-            <div class="copyright col-12">
-                <p><small>Women Coding Community is a 501(c)(3) non-profit organisation. &copy; 2024 Women Coding Community</small></p>
+        <div class="row justify-content-between">
+            <div class="col-sm-7 copyright">
+                <p><small>Women Coding Community is a 501(c)(3) not-for-profit organization.</small></p>
+                <p><small>© 2024 Women Coding Community</small></p>
             </div>
+            <div class="col-sm-4">
+                <h5>Follow Us</h5>
+                <p><small>Join us on social media and stay tuned.</small></p>
+                <p class="network">
+                    {% for network in site.data.footer.network %}
+                        {% if network.linkedin %}
+                            <span> <a href="{{network.linkedin}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
+                        {% endif %}
+                        {% if network.twitter %}
+                            <span> <a href="{{network.twitter}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
+                        {% endif %}
+                        {% if network.github %}
+                            <span> <a href="{{network.github}}" target="_blank"> {% include icons/github.svg %}</a></span>
+                        {% endif %}
+                        {% if network.medium %}
+                            <span> <a href="{{network.medium}}" target="_blank"> {% include icons/medium.svg %}</a></span>
+                        {% endif %}
+                        {% if network.meetup %}
+                            <span> <a href="{{network.meetup}}" target="_blank"> {% include icons/meetup.svg %}</a></span>
+                        {% endif %}
+                        {% if network.facebook %}
+                        <span> <a href="{{network.facebook}}" target="_blank"> {% include icons/facebook.svg %}</a></span>
+                        {% endif %}
+                        {% if network.youtube %}
+                        <span> <a href="{{network.youtube}}" target="_blank"> {% include icons/youtube.svg %}</a></span>
+                        {% endif %}
+                        {% if network.instagram %}
+                        <span> <a href="{{network.instagram}}" target="_blank"> {% include icons/instagram.svg %}</a></span>
+                        {% endif %}
+                        {% if network.slack %}
+                        <span> <a href="{{network.slack}}" target="_blank"> {% include icons/slack.svg %}</a></span>
+                        {% endif %}
+
+                    {% endfor %}
+                </p>
+             </div>
         </div>
     </div>
-</footer>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

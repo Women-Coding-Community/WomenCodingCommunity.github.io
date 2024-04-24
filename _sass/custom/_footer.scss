@@ -1,37 +1,35 @@
 
-footer {
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: $primary-30;
+    padding-top: 40px;
+    text-align: left;
     color: $white;
+    min-height: 200px;
 
-    .logo {
-        margin-right: 1.4rem;
-        display: inline-block;
-        img {
-            width: 60px;
-        }
+    .brand {
+        width: 120px;
     }
 
-    .social {
-        padding: 1.4rem 0 1.5rem 0;
+    p {
+        margin: 0;
+    }
+
+    .row {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .copyright {
-        text-align: center;
-        border-top: 1px solid $primary-20;
-        margin: 0 0.5rem;
-        padding-top: 1rem;
-        padding-bottom: 1.1rem;
-    }
-
-    p,
-    h5 {
-        margin: 0;
+        margin-top: 50px;
     }
 
     .network {
         margin-top: 10px;
         display: flex;
         flex-wrap: wrap;
+
         a {
             border-radius: 100%;
             padding-right: 10px;
@@ -51,8 +49,6 @@ footer {
                 fill: $gray-200 !important;
             }
         }
-        span:first-child {
-            margin-left: 0.7rem;
-        }
     }
  }
+ 
