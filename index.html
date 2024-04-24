@@ -17,27 +17,18 @@ title: Home
             <h2>Opportunities & Programmes</h2>
             <p>Discover a world of possibilities within our community. From networking events to mentorship programs and leadership opportunities, there's something for everyone to explore. Whether you're looking to sharpen your skills, expand your professional network, or take the next step in your career, we offer a wide range of opportunities to help you achieve your goals. Join us on this journey of growth and empowerment, and unlock your full potential in the tech industry.</p>
         </div>
-        <div class="col-12 col-md-8 text-center pb-6 programs">
-            <div class="row">
-                <div class="col">
-                    <a href="/mentorship">Mentorship</a>
+        <div class="col-12 container text-center pb-6">
+            <div class="row justify-content-center programs">
+                {% for programme in site.data.programmes %}
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article>
+                        <a href="{{ programme.url }}">
+                            <div class="material-symbols-outlined" aria-hidden="true">{{ programme.icon }}</div>
+                            <div>{{ programme.title }}</div>
+                        </a>
+                    </article>
                 </div>
-                <div class="col">
-                    <a href="/events">Online and in-person events</a>
-                </div>
-                <div class="col">
-                    <a href="/book-club">Book club</a>
-                </div>
-                <div class="w-100"></div>
-                <div class="col">
-                    <a href="/interview-preparation#resume-clinic">Resume clinic</a>
-                </div>
-                <div class="col">
-                    <a href="/interview-preparation#mock-interview">Mock interviews</a>
-                </div>
-                <div class="col">
-                    <a href="/interview-preparation#leetcode">Leetcode</a>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
