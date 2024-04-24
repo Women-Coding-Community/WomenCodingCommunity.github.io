@@ -15,7 +15,7 @@
       url: mentorship-code-of-conduct
     - page: FAQ
       url: faq
-- name: Programmes
+- name: Programms
   index: 2
   subfolderitems:
     - page: Book Club
