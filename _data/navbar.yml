@@ -24,13 +24,12 @@
       url: program-interview-preparation
     - page: Study Group
       url: program-study-group
-- name: About
-  link: about
+- name: About Us
   index: 3
   subfolderitems:
-    - page: About WCC
-      url: about
     - page: Team
       url: team
+    - page: About WCC
+      url: about
     - page: Code of Conduct
       url: code-of-conduct
