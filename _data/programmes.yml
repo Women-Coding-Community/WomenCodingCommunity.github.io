@@ -1,0 +1,23 @@
+- title: Mentorship
+  icon: diversity_2
+  url: "/mentorship"
+
+- title: Online and in-person events
+  icon: calendar_month
+  url: "/events"
+
+- title: Book club
+  icon: book_4
+  url: "/book-club"
+
+- title: Resumé clinic 
+  icon: work
+  url: "/nterview-preparation#resume-clinic"
+
+- title: Mock interviews
+  icon: group
+  url: "/nterview-preparation#mock-interview"
+
+- title: Leetcode
+  icon: code_blocks
+  url: "/nterview-preparation#leetcode"
