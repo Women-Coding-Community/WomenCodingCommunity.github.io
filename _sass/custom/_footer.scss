@@ -8,6 +8,10 @@
     color: $white;
     min-height: 200px;
 
+    .social {
+        margin-top: 1rem;
+    }
+
     .brand {
         width: 120px;
     }
@@ -16,13 +20,8 @@
         margin: 0;
     }
 
-    .row {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
     .copyright {
-        margin-top: 50px;
+        margin-top: 1rem;
     }
 
     .network {
@@ -51,4 +50,3 @@
         }
     }
  }
- 
