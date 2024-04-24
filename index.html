@@ -3,51 +3,47 @@ layout: default
 title: Home
 ---
 
-{% include banner.html %}
+<main class="container-fluid">
+    {% include banner.html %}
 
-<div class="home">
-    <div class="row justify-content-center intro">
-        <div class="col-12 col-md-6 text-center py-6 overview">
-            <p class="lead">Empowering women in their tech careers through education, mentorship, community building, and career services is our mission. We provide workshops and events, connect members with industry mentors, foster a supportive community through meetups and conferences, and raise awareness for more inclusive industry practices.</p>
+    <div class="home">
+        <div class="row justify-content-center intro">
+            <div class="col-12 col-md-6 text-center py-6 overview">
+                <p class="lead">Empowering women in their tech careers through education, mentorship, community building, and career services is our mission. We provide workshops and events, connect members with industry mentors, foster a supportive community through meetups and conferences, and raise awareness for more inclusive industry practices.</p>
+                <a href="/about" class="btn btn-primary">Learn more about us</a>
+            </div>
         </div>
-    </div>
 
-    <div class="row justify-content-center bg-purple">
-        <div class="col-12 col-md-6 text-center pt-6 pb-4 overview">
-            <h2>Opportunities & Programmes</h2>
-            <p>Discover a world of possibilities within our community. From networking events to mentorship programs and leadership opportunities, there's something for everyone to explore. Whether you're looking to sharpen your skills, expand your professional network, or take the next step in your career, we offer a wide range of opportunities to help you achieve your goals. Join us on this journey of growth and empowerment, and unlock your full potential in the tech industry.</p>
+        <div class="row justify-content-center bg-purple">
+            <div class="col-12 col-md-6 text-center pt-6 pb-4 overview">
+                <h2>Opportunities & Programmes</h2>
+                <p>Discover a world of possibilities within our community. From networking events to mentorship programs and leadership opportunities, there's something for everyone to explore. Whether you're looking to sharpen your skills, expand your professional network, or take the next step in your career, we offer a wide range of opportunities to help you achieve your goals. Join us on this journey of growth and empowerment, and unlock your full potential in the tech industry.</p>
+            </div>
+            <div class="col-12 container text-center pb-6">
+                <div class="row justify-content-center programs">
+                    {% for programme in site.data.programmes %}
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article>
+                            <a href="{{ programme.url }}">
+                                <div class="material-symbols-outlined" aria-hidden="true">{{ programme.icon }}</div>
+                                <div>{{ programme.title }}</div>
+                            </a>
+                        </article>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
         </div>
-        <div class="col-12 col-md-8 text-center pb-6 programs">
-            <div class="row">
-                <div class="col">
-                    <a href="/mentorship">Mentorship</a>
-                </div>
-                <div class="col">
-                    <a href="/events">Online and in-person events</a>
-                </div>
-                <div class="col">
-                    <a href="/book-club">Book club</a>
-                </div>
-                <div class="w-100"></div>
-                <div class="col">
-                    <a href="/interview-preparation#resume-clinic">Resume clinic</a>
-                </div>
-                <div class="col">
-                    <a href="/interview-preparation#mock-interview">Mock interviews</a>
-                </div>
-                <div class="col">
-                    <a href="/interview-preparation#leetcode">Leetcode</a>
+
+        <div class="row justify-content-center support">
+            <div class="col-12 col-md-6 text-center py-6">
+                <h2>Experiencing technical issues?</h2>
+                <div class="text-center">
+                    <p>
+                        <a href="https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io/issues/new?template=bug_report.md&title=bug title" target="_blank" class="btn btn-primary">Send us a report</a>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="support">
-        <h2>Experiencing technical issues?</h2>
-        <div class="text-center">
-            <p>
-                <a href="https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io/issues/new?template=bug_report.md&title=bug title" target="_blank" class="btn btn-primary">Send us a report</a>
-            </p>
-        </div>
-    </div>
-</div>
+</main>

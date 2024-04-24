@@ -5,7 +5,7 @@
     justify-content: center;
     padding: map-get($spacers, 6) 0;
     color: $white;
-    min-height: 25vw; 
+    min-height: 25vh; 
 
     .overlay-image {
         background-image: url("./../../assets/images/banner.jpg");
@@ -68,36 +68,25 @@
         margin: 1rem auto;
     }
 
-    .programs .col {
-        height: 80px;
-        align-content: center;
-        background: #fff;
-        margin: 4px;
-        padding: 0;
-        border-radius: 12px;
+    .programs article {
+        margin: 1rem .25rem;
     }
 
-    .programs .col a {
+    .programs article a {
         display: block;
-        position: relative;
-        width: 100%;
-        height: 100%;
-        align-content: center;
+        padding: 1.5rem 1rem;
+        background: #fff;
         border-radius: 12px;
-    }
 
-    .programs .col a::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
+        &:hover {
+            background-color: $primary-80;
+            color: $primary-10;
+            text-decoration: none;
+        }
 
-    .programs .col a:hover {
-        background-color: $primary-80;
-        color: $primary-10;
+        .material-symbols-outlined {
+            color: $black;
+        }
     }
 
     .card {
@@ -141,10 +130,6 @@
         p {
             margin-bottom: 30px;
         }
-    }
-
-    .support {
-        @extend .my-7;
     }
 
     .timeline {
