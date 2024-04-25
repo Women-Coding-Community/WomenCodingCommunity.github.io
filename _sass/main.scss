@@ -9,8 +9,6 @@ $bodyFont: 'Roboto', sans-serif;
 
 $container-max-width: 1376px;
 
-$bg-1: $primary-90;
-
 body {
   background: $backgroundColor;
   color: $bodyColor;
@@ -32,9 +30,5 @@ body {
     justify-content: center;
     text-align: center;
     padding: 5rem 0;
-  }
-  
-  &.bg-1 {
-    background: $bg-1;
   }
 }
