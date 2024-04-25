@@ -1,5 +1,5 @@
 - question: How do I join the mentorship program?
-  answer: You can access comprehensive information about the mentorship program's timelines and registration process by visiting our dedicated <a href="index.html"> mentorship website.</a>
+  answer: You can access comprehensive information about the mentorship program's timelines and registration process by visiting our dedicated <a href="index.html"> mentorship page.</a>
   index: 1
 
 - question: Who can participate in a mentorship programme?
@@ -11,13 +11,12 @@
   index: 3
 
 - question: I haven't mentored before. Could I sign up?
-  answer: Of course, first-time mentors are welcome in the programme! Please take a look at our Mentor’s Pocketbook on Resources Page to help you get started!
+  answer: Of course, first-time mentors are welcome in the programme! Please take a look at our Mentor’s Pocketbook on <a href="/mentorship-resources">Resources Page</a> to help you get started!
   index: 4
 
 - question: How can I choose my mentor ?
   answer: |
-   <p>Feel free to browse through our <a href="mentors.html"> Mentors page. </a> Choose a mentor whose goals and aspirations align with yours.<br></p>
-   <p>To register as a mentee, please do so within the specified window outlined on the <a href="timeline.html"> timeline. </a></p>
+   <p>Feel free to browse through our <a href="/mentors"> Mentors page. </a> Choose a mentor whose goals and aspirations align with yours.</p>
   index: 5
 
 - question: How many mentors am I allowed to select during the registration process?
@@ -35,7 +34,7 @@
   index: 8
 
 - question: What kind of support and resources will be provided to mentors and mentees?
-  answer: <p>For each mentor-mentee pair we provide a template in Notion for tracking the progress during the Mentorship Programme cycle. On the website, you can also find <a href="resources.html"> resources </a>  and guides which can help mentors and mentees to make the most of their mentorship experience.</p>
+  answer: <p>For each mentor-mentee pair we provide a template in Notion for tracking the progress during the Mentorship Programme cycle. On the website, you can also find <a href="/mentorship-resources"> resources </a>  and guides which can help mentors and mentees to make the most of their mentorship experience.</p>
   index: 9
 
 - question: Do I need to be based in London to be a mentor or mentee?
@@ -68,7 +67,7 @@
     As a mentor, you will be expected to provide guidance, advice, and support to your mentee as they navigate their professional and personal development. 
     You will be expected to share your own experiences and knowledge, and provide constructive feedback. 
     You will also be expected to help the mentee set and achieve goals, and to introduce them to new opportunities that can help them advance in their career. <br><br>
-    <a href="code-of-conduct.html">Please, find more information in Code of Conduct for Mentors</a>
+    <a href="/mentorship-code-of-conduct">Please, find more information in Code of Conduct for Mentors</a>
   index: 14
 
 - question: What are the goals and objectives of the mentorship programme?
@@ -83,23 +82,22 @@
 - question: What are the expectations for mentees in the mentorship programme?
   answer: |
     The expectations for mentees may include setting and achieving goals, being open to feedback and guidance, actively seeking out opportunities to learn, and being committed to their own personal and professional growth. Mentees are expected to actively participate in the mentorship relationship, be open to learning and be willing to share their own experiences and knowledge. <br>
-    <a href="code-of-conduct.html">Please, find more information in Code of Conduct for Mentees</a>
+    <a href="/mentorship-code-of-conduct">Please, find more information in Code of Conduct for Mentees</a>
   index: 16
 
 - question: What is the time commitment for participating in this programme? 
   answer: |
     1. Meeting frequency: Mentors and mentees are expected to meet on a regular basis, such as weekly or monthly. It should be discussed between the mentor and mentee during the introduction meeting. <br>
     2. Meeting duration: Meetings can be scheduled for different durations, usually lasting between 30 minutes to an hour depending on availability and needs. <br>
-    3. Programme duration: Mentorship programme lasts from 20th of April till 1st of November 2023. <br><br>
 
     It's important for both the mentor and mentee to have a clear understanding of the time commitment required for the mentorship programme. 
     They should also be able to set their own schedule and make adjustments as needed, as long as it is mutually agreed upon. 
     It is important for both parties to make the most of their time together and try to achieve the goals they set together. <br><br>
-    <a href="code-of-conduct.html">Please, find more information in Code of Conduct</a>
+    <a href="/mentorship-code-of-conduct">Please, find more information in Code of Conduct</a>
   index: 17
 
 - question: How long does a mentorship cycle last? 
-  answer: <p> The Mentorship programme lasts from March till November 2024, <a href="timeline.html"> More detail </a></p>
+  answer: <p> The Mentorship programme lasts from March till November 2024.</p>
   index: 18
 
 - question: What is Notion?
