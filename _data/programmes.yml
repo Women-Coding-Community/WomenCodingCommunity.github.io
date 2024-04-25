@@ -12,11 +12,11 @@
 
 - title: CV clinic
   icon: work
-  url: "/program-interview-preparation#resume-clinic"
+  url: "/program-interview-preparation#cv-clinic"
 
 - title: Mock interviews
   icon: group
-  url: "/program-interview-preparation#mock-interview"
+  url: "/program-interview-preparation#mock-interviews"
 
 - title: Leetcode
   icon: code_blocks
