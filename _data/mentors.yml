@@ -9,7 +9,7 @@
   bio: I am a passionate QA Engineer, have experience in testing Web Applications manually and using automation scripts, as well as API Testing (Postman, SOAP UI). I can support my mentees by sharing knowledge and helpful resources. I believe that testing is way more than just finding bugs and flaws, but looking at process and product from the user perspective. Since I am a big fan of exploratory testing, we can also test together during our mentorship sessions! Apart from the technical part I am interested in exploring different aspects in team communication, cross cultural collaboration and volunteering in professional communities!
   image: assets/images/mentors/eleonora_belova.jpeg
   languages: English
-  availability: []
+  availability: [ ]
   skills:
     experience: 2-4 years
     years: 4
@@ -39,7 +39,7 @@
   image: assets/images/mentors/rajani_rao.jpeg
   location: Cambridge, UK
   languages: English
-  availability: [5, 6]
+  availability: [ 5, 6 ]
   skills:
     experience: 16+ years
     years: 16
@@ -74,7 +74,7 @@
   type: both
   index: 3
   languages: Portuguese, English
-  availability: [7, 8, 9]
+  availability: [ 7, 8, 9 ]
   skills:
     experience: 10-15 years
     years: 15
@@ -109,7 +109,7 @@
   image: assets/images/mentors/irina_kamalova.jpeg
   location: London, United Kingdom
   languages: English, Russian
-  availability: []
+  availability: [ ]
   skills:
     experience: 7-10 years
     years: 10
@@ -142,7 +142,7 @@
   image: assets/images/mentors/stephanie_senoner.jpeg
   location: London
   languages: English
-  availability: []
+  availability: [ ]
   skills:
     experience: 4-5 years
     years: 5
@@ -175,7 +175,7 @@
   image: assets/images/mentors/ken_pemberton.jpeg
   location: Chesham, Buckinghamshire, UK
   languages: English
-  availability: []
+  availability: [ ]
   skills:
     experience: 16+ Years
     years: 16
@@ -236,7 +236,7 @@
     Sonali serves as a Lead Engineer at Yoox-Net-a-porter, specializing in managing and constructing extensive-scale ecommerce solutions. She leverages Java-based commerce platforms and integrates them with open-source technologies like Spring Boot and Spring Batch. As an AWS-certified Solution Architect, she possesses deep knowledge of Amazon Web Services, complemented by proficiency in implementing continuous integration and continuous deployment (CICD) practices to ensure seamless software delivery. Additionally, she excels in architecting and implementing microservices-based architectures to drive agility and modularity in software development With over 13 years of experience in the technology industry, Sonali brings a wealth of expertise in steering technical direction and fostering high-performance outcomes. Her passion lies in nurturing a culture of continuous learning and innovation. Outside of her professional endeavors, Sonali actively volunteers with Women Who Code, advocating for gender diversity. She is also a creative enthusiast, utilizing design templates to convey ideas, thoughts, and emotions visually.
   image: assets/images/mentors/sonali_goel.jpg
   languages: English
-  availability: []
+  availability: [ ]
   skills:
     experience: 10-15 Years
     years: 15
@@ -267,7 +267,7 @@
   bio: I have almost a decade experience in cyber security, infromation security and privacy. Also, last 3 years I have been working in risk in product and strategy.
   image: assets/images/mentors/julia_babahina.png
   languages: English, Russian
-  availability: []
+  availability: [ ]
   skills:
     experience: 7-10 Years
     years: 10
@@ -299,9 +299,9 @@
     Beyond my professional endeavors, I'm deeply passionate about fostering diversity and inclusion in the tech industry, particularly in empowering women to pursue and excel in STEM fields. I firmly believe that a diverse workforce leads to greater innovation and success, and I actively support initiatives aimed at bridging the gender gap in technology.<br>
     In addition to my dedication to software development, I'm an avid tennis enthusiast, finding solace and rejuvenation on the court in my spare time. This passion for tennis not only provides a welcome escape from the demands of work but also serves as a source of inspiration and motivation, fueling my drive to continuously learn and grow both personally and professionally.<br>
     Overall, I bring a unique blend of technical expertise, leadership acumen, and a commitment to diversity and personal enrichment to every project and endeavor I undertake.
-  image: assets/images/mentors/Hersi_Kopani.png
+  image: assets/images/mentors/hersi_kopani.png
   languages: English, Spanish
-  availability: [5, 6]
+  availability: [ 5, 6 ]
   skills:
     experience: 5-7 Years
     years: 7
@@ -374,7 +374,7 @@
     I am an experienced Software Engineering professional with more than 20 years of expertise in developing software systems across a broad spectrum, ranging from small-scale applications to extensive enterprise infrastructure platforms. My passion lies in teaching software engineering through a humanistic lens, emphasizing user experience while firmly adhering to the fundamental principles of core software engineering.
   image: assets/images/mentors/adegbenga_agoro.jpg
   languages: English
-  availability: [5, 6]
+  availability: [ 5, 6 ]
   skills:
     experience: 16+ Years
     years: 16
