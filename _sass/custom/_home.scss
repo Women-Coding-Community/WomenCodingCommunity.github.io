@@ -60,11 +60,24 @@
 .home {
 
     .row {
+        &.bg-purple {
+            background-color: $primary-90;
+            padding: 0 1rem;
+        }
         h2 {
             margin: 1rem auto;
         }
     }
 
+    .row.mentors-cta {
+        .btn {
+            max-width: fit-content;
+        }
+        .card-body {
+            padding: 2rem 2rem 3rem 2rem;
+            align-items: center;
+        }
+    }
 
     .programs article {
         margin: 1rem .25rem;
