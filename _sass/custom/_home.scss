@@ -59,13 +59,32 @@
 
 .home {
 
-    .row.bg-purple {
-        background: $primary-90;
-        padding: 0 1rem;
+    .row {
+        justify-content: center;
+        &.bg-purple {
+            background: $primary-90;
+            padding: 0 1rem;
+        }
+        h2 {
+            margin: 1rem auto;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            padding: 5rem 0;
+        }
     }
 
-    .row h2 {
-        margin: 1rem auto;
+    .row.mentors-cta {
+        .btn {
+            max-width: fit-content;
+        }
+        .card-body {
+            padding: 2rem 2rem 3rem 2rem;
+            align-items: center;
+        }
     }
 
     .programs article {
@@ -93,30 +112,6 @@
         margin-top: 10px;
     }
 
-    .registration {
-        @extend .justify-content-around;
-        @extend .my-7;
-
-        ul {
-            list-style: none;
-        }
-
-        li {
-            margin-left: -37px;
-        }
-
-        span {
-            font-weight: $font-weight-bold !important;
-            font-size: larger;
-        }
-
-        .mentor {
-            @include media-breakpoint-down(sm) {
-                margin-bottom: 3em;
-            }
-        }
-    }
-
     .card-header {
         background-color: transparent;
         border: none;
@@ -131,88 +126,4 @@
             margin-bottom: 30px;
         }
     }
-
-    .timeline {
-        @extend .my-7;
-        
-        .row {
-            @extend .justify-content-around;
-            position: relative;
-
-            @include media-breakpoint-up(lg) {    
-                &::after {
-                    position: absolute;
-                    content: "";
-                    background-color: $teal;
-                    top: 50px;
-                    left: 163px;
-                    height: 4px;
-                    width: 72%;
-                    display: inline-block;
-                    z-index: -1;
-                }
-            }
-        }
-
-        .circle {
-            margin: auto;
-            height: 58px;
-            width: 58px;
-            border-radius: 50%;
-            border: 4px solid $teal;  
-            display: flex;
-            background-color: $white;
-            
-            .icon {
-                &.check {
-                    height: 50px;
-                    width: 50px;
-                }
-
-                &.heart {
-                    margin-top: 12px;
-                    height: 30px;
-                    width: 30px;
-                }
-
-                &.start {
-                    height: 30px;
-                    width: 30px;
-                }
-            }
-        }
-
-        .card-wrapper {
-            background-color: transparent;
-        }
-
-        .card-transparency {
-            background-color: transparent;
-        }
-
-        .photo {
-             width: 800px;
-         }
-
-         .bi-bell {
-            width: 86% !important;
-            padding-left: 7px;
-         }
-     }
-     
-     .feedback {
-        @extend .my-7;
-
-        .carousel-indicators li {
-             background-color: $teal;
-        }
-
-        .carousel-control-prev-icon {
-             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-        }
-     
-        .carousel-control-next-icon {
-             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-        }
-     }
 }
