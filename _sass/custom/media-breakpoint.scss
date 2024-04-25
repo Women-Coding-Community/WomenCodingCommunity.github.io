@@ -27,9 +27,6 @@
 }
 
 @include media-breakpoint-up(l) {
-    .container {
-        max-width: 1376px;
-    }
     .page-header h1 {
         font-size: 3.5rem;
     }
