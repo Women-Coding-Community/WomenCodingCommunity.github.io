@@ -1,0 +1,33 @@
+
+.mentors-cta {
+    .card-header {
+        background-color: transparent;
+        border: none;
+    }
+    .card-title {
+        margin-top: 0;
+    }
+    .card-body {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 2rem 2rem 3rem 2rem;
+    }
+    .btn {
+        max-width: fit-content;
+    }
+}
+
+.mentorship {
+    .card-body {
+        align-items: baseline;
+        ol {
+            text-align: left;
+        }
+        p {
+            margin-bottom: 0.25rem;
+        }
+    }
+}
