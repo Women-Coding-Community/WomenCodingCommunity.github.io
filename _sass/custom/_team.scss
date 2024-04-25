@@ -1,6 +1,10 @@
 
 .team {
 
+    .row {
+        justify-content: flex-start;
+    }
+
     .profile-photo {
         width: 150px;
     }
