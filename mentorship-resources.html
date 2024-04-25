@@ -6,6 +6,21 @@ title: Mentorship Resources
 <div class="page-header">
     <h1>Mentorship Resources</h1>
 </div>
-<div class="container">
-    TODO
+<div class="container resources">
+    <div class="section">
+        <div class="resources__block">
+            <div class="row justify-content-center g-3">
+                {% for resources in site.data.resources %}
+                <div class="col-12 col-md-6 col-lg-3 mb-3 px-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">{{resources.title}}</h5>
+                            <a href={{resources.link}} class="stretched-link" target="_blank" rel="noopener">Open <span class="icon">{% include icons/arrow-right.svg %}</span></a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 </div>
