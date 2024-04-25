@@ -10,7 +10,7 @@ title: Team
     <div class="section">
         <h2>Core team</h2>
         <div class="row justify-content-center ">
-            <div class="col-md-8 text-center">
+            <div class="col-md-6 text-center">
                 <p>The core team of our community is composed of visionary directors and dynamic leaders, 
                     who bring a wealth of experience and dedication to empowering women in technology. 
                     These esteemed professionals are committed to fostering an environment of growth, inclusivity 
@@ -21,7 +21,7 @@ title: Team
         <div class="row g-3">
             {% for person in site.data.team %}
             <div class="col-12 col-md-6 col-lg-3">
-                <div class="card">
+                <div class="card card-s">
                     <img src="{{person.image}}" alt="profile photo" class="profile photo card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">{{person.name}}</h5>
@@ -85,7 +85,7 @@ title: Team
                                 {% if network.name=="github" %}
                                 <span> <a href="{{network.link}}" target="_blank"> {% include icons/github.svg %}</a></span>
                                 {% endif %}
-                            {% endfor %}
+                                    {% endfor %}
                         </span>
                     </div>
                 </div>

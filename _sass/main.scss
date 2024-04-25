@@ -20,3 +20,15 @@ body {
 .row .content {
   max-width: $container-max-width;
 }
+
+.row {
+  justify-content: center;
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 0;
+  }
+}

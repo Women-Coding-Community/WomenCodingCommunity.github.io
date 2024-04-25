@@ -60,20 +60,12 @@
 .home {
 
     .row {
-        justify-content: center;
         &.bg-purple {
-            background: $primary-90;
+            background-color: $primary-90;
             padding: 0 1rem;
         }
         h2 {
             margin: 1rem auto;
-        }
-        .content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            text-align: center;
-            padding: 5rem 0;
         }
     }
 
@@ -105,25 +97,6 @@
 
         .material-symbols-outlined {
             color: $black;
-        }
-    }
-
-    .card {
-        margin-top: 10px;
-    }
-
-    .card-header {
-        background-color: transparent;
-        border: none;
-    }
-
-    .card-body {
-        display: flex;
-        height: 100%;
-        flex-direction: column;
-        text-align: center;
-        p {
-            margin-bottom: 30px;
         }
     }
 }
