@@ -45,3 +45,13 @@
       link: https://www.linkedin.com/in/sophyo/
     - name: github
       link: https://github.com/sssoz
+
+- name: Chiara Pigoni
+  image: assets/images/collaborators/11.jpeg
+  position: Software Developer
+  comment: Team Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/chiarapigoni/
+    - name: github
+      link: https://github.com/kikilondon
