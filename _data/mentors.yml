@@ -394,3 +394,37 @@
     extra: System Design & Architecture, Optimal Database Design, How to work and think within an engineering team, User Psychology
   network:
     - linkedin: https://www.linkedin.com/in/adegbengaagoro
+
+- name: Ana Nogal
+  disabled: false
+  sort: 200
+  hours: 2
+  position: Senior iOS Developer, Novoda
+  type: both
+  index: 13
+  location: Barcelona, Spain
+  bio: |
+    I'm a senior iOS developer with ten years of business experience and over 25 years in software development. I spent the first 15 years working as a back-end developer in .NET and Java, but I fell in love when I discovered Mobile development. I am passionate about the quality and maintainability of the application's code and architecture.
+    I have already lived in some European cities, such as Lisbon, Madrid, Barcelona and London. This allowed me to work in different cultures and dynamics, further increasing my ability to connect, communicate and grow. I love giving back to the community, so I started collaborating with DevPass, helping guide newcomers. I'm also a mentor at MentoCruise, for those who want a more professional follow-up.
+  image: assets/images/mentors/ana_nogal.jpg
+  languages: English, Spanish, Portuguese
+  availability: []
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: Well, I like to help essentially. I have had mentees that needed more a hands on, pair-programming with them, and others that orientation was enough. I'm ok with both scenarios.
+    areas:
+      - iOS
+      - Fullstack Developer
+      - Android
+    languages: Swift, Kotlin, Javascript, C#
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+    extra: TDD, Clean code, Refactoring, Team dynamics, Mock interview, PR reviews, Code Principles
+  network:
+    - linkedin: https://www.linkedin.com/in/ananogal
+    - twitter: https://twitter.com/anainogal
+    - website: https://ananogal.com
+
