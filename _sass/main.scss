@@ -32,3 +32,8 @@ body {
     padding: 5rem 0;
   }
 }
+
+.menu .dropdown > a.active-nav::after {
+    width: 100%;
+    background: $primary;
+}

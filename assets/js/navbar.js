@@ -22,11 +22,31 @@ var controllerNavbar = (function (jQuery) {
     if (activeSubLink) {
       activeSubLink.addClass(NAVBAR_CLASS_ACTIVE);
     }
+  }
 
-  };
+  const setupDropdownMenus = function () {
+    const dropdownMenuList = jQuery('.dropdown');
+
+    dropdownMenuList.each(function () {
+      const dropdownMenu = jQuery(this);
+      const dropdownToggle = dropdownMenu.find('.dropdown-toggle');
+      const dropdownMenuContent = dropdownMenu.find('.dropdown-menu');
+
+      dropdownToggle.on('mouseenter', function () {
+        dropdownMenuContent.addClass('show');
+      })
+
+      dropdownMenu.on('mouseleave', function () {
+        dropdownMenuContent.removeClass('show');
+      })
+    });
+  }
 
   return {
-    init: selectActiveMenu
+    init: function () {
+      selectActiveMenu();
+      setupDropdownMenus();
+    }
   };
 
 }(jQuery));
