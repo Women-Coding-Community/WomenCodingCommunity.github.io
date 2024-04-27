@@ -5,47 +5,49 @@
     justify-content: flex-start;
   }
 
-  .card {
-    height: 100%;
-  }
-
-  .card-body {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    padding: 2rem;
-
-    p {
-      margin-bottom: 30px;
-    }
-
-    a.link {
-      width: fit-content;
-      border-radius: $btn-border-radius-lg;
-    }
-  }
-
-  .card-title {
-    margin-bottom: 15px;
-    line-height: 1.5;
-  }
-
   &__block {
     margin-top: 4rem;
     margin-bottom: 7rem;
   }
 }
 
-.post {
+.author {
+  &_img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
 
-  h4,
-  h5,
-  h6 {
+  &_name {
+    font-size: $small-font-size;
+  }
+}
+
+.article-date {
+  color: gray;
+  font-size: 12px;
+}
+
+$post-max-width: 1024px;
+
+.post {
+  margin: 5% auto;
+  padding: 0 5%;
+
+  @media (min-width: $post-max-width ) {
+    max-width: 60%;
+    padding: 0;
+  }
+
+  &_body {
+    margin-bottom: 7rem;
+  }
+
+  h4, h5, h6 {
     padding: 15px 0;
   }
 
-  p,
-  li {
+  p, li {
     margin-bottom: 15px;
   }
 
@@ -53,9 +55,5 @@
     font-weight: 600;
     text-decoration: underline;
     font-size: 18px;
-  }
-
-  article {
-    margin: 7rem auto;
   }
 }
