@@ -14,7 +14,7 @@ var controllerNavbar = (function (jQuery) {
       activeLink = jQuery("a.nav-link:contains('Home')");
     } else {
       var searchLinkText = stringPathSegment[0].toUpperCase() + stringPathSegment.slice(1, stringPathSegment.length);
-      activeLink = jQuery("a.nav-link:contains('" + searchLinkText + "')");
+      activeLink = jQuery("a.nav-link").filter(() => jQuery(this).text().trim() === searchLinkText)
       activeSubLink = jQuery("a.nav-link[href='" + firstPathSegment + "']")
     }
 
