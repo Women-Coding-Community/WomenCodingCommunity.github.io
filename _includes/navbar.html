@@ -14,9 +14,17 @@
             {% for item in site.data.navbar %}
                 <li class="nav-item {% if item.subfolderitems %}dropdown{% endif %}">
                     {% if item.subfolderitems %}
-                        <a class="nav-link" id="drop{{item.index}}" href="/{{item.link}}" aria-haspopup="true" aria-expanded="false">
-                           <span class="dropdown-toggle">{{ item.name }}</span>
-                        </a>
+
+                        {% if item.link %}
+                            <a class="nav-link" id="drop{{item.index}}" href="/{{item.link}}" aria-haspopup="true" aria-expanded="false">
+                            <span class="dropdown-toggle">{{ item.name }}</span>
+                            </a>
+                        {% else %}
+                            <a data-target="#" data-toggle="dropdown" class="nav-link cursor-pointer" id="drop{{item.index}}" aria-haspopup="true" aria-expanded="false">
+                                <span class="dropdown-toggle">{{ item.name }}</span>
+                            </a>
+                        {% endif %}
+
                         <ul class="dropdown-menu{% if forloop.last %} dropdown-menu-right{% endif %}" aria-labelledby="drop{{item.index}}">
                             {% for entry in item.subfolderitems %}
                                 <li>
