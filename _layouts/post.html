@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-UK" }}">
+        {% seo %}
+        {% include head.html %}
+  <body>
+    {% include navbar.html %}
+    <div class="post">
+        <div class="page-header">
+            <h1>{{ page.title }}</h1>
+            <hr class="divider">
+            <p class="text-center">
+                Written by: <span class="font-weight-bold font-italic">{{ page.author }} </span>
+            </p>
+        </div>
+
+        <article class="container">
+            {{ content }}
+        </article>
+    </div>
+  </body>
+
+  {% include footer.html %}
+</html>

@@ -1,3 +1,4 @@
+@import "blog";
 @import "buttons";
 @import "card";
 @import "menu";
@@ -72,4 +73,11 @@ p, ul, ol {
     text-align: left;
     margin: 1.7rem 0 1rem 0;
     font-size: 1.6rem;
+}
+
+.divider {
+    margin: map-get($spacers, 4) auto;
+    height: 8px;
+    width: 5%;
+    background-color: $primary-40;
 }
