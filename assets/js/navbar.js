@@ -7,8 +7,8 @@ const controllerNavbar = (function (jQuery) {
     const firstPathSegment = pathSegments[pathSegments.length - 1];
     const stringPathSegment = firstPathSegment.replaceAll('-', ' ');
 
-    const activeLink;
-    const activeSubLink;
+    let activeLink;
+    let activeSubLink;
 
     if (!stringPathSegment) {
       activeLink = jQuery("a.nav-link:contains('Home')");
