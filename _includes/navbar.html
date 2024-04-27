@@ -14,8 +14,7 @@
             {% for item in site.data.navbar %}
                 <li class="nav-item {% if item.subfolderitems %}dropdown{% endif %}">
                     {% if item.subfolderitems %}
-                        <a data-target="#" class="nav-link" id="drop{{item.index}}" href="{{item.link}}" data-toggle="dropdown" role="button"
-                           aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" id="drop{{item.index}}" href="{{item.link}}" aria-haspopup="true" aria-expanded="false">
                            <span class="dropdown-toggle">{{ item.name }}</span>
                         </a>
                         <ul class="dropdown-menu{% if forloop.last %} dropdown-menu-right{% endif %}" aria-labelledby="drop{{item.index}}">
