@@ -1,0 +1,10 @@
+- title: The Pragmatic Programmer From Journeyman to Master
+  link: https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer
+  author: Andrew Hunt & David Thomas
+  description: Essential guide for creating working and maintainable code amidst the complexities of modern software development.
+  status: reading
+- title: Example Read Book
+  link: https://www.goodreads.com/book/show
+  author: author 2
+  description: description 2
+  status: done
