@@ -24,7 +24,7 @@ p, ul, ol {
 }
 
 @include media-breakpoint-up(sm) {
-    p {
+    p, ul, ol {
         font-size: $font-size-lg;
     }
 }

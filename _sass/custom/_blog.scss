@@ -31,13 +31,6 @@
 $post-max-width: 1024px;
 
 .post {
-  margin: 5% auto;
-  padding: 0 5%;
-
-  @media (min-width: $post-max-width ) {
-    max-width: 60%;
-    padding: 0;
-  }
 
   &_body {
     margin-bottom: 7rem;
