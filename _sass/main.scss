@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
 
-@import 'bootstrap/bootstrap';
-@import 'custom/custom';
+@import "bootstrap/bootstrap";
+@import "custom/custom";
 
 $backgroundColor: #fff;
 $bodyColor: #000000;
-$bodyFont: 'Roboto', sans-serif;
+$bodyFont: "Roboto", sans-serif;
 
 $container-max-width: 1376px;
 
@@ -14,6 +14,10 @@ body {
   color: $bodyColor;
   font-family: $bodyFont;
   font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 .container,
@@ -34,6 +38,6 @@ body {
 }
 
 .menu .dropdown > a.active-nav::after {
-    width: 100%;
-    background: $primary;
+  width: 100%;
+  background: $primary;
 }
