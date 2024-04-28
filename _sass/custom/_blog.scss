@@ -1,0 +1,52 @@
+.blog {
+  padding: 15px;
+
+  .row {
+    justify-content: flex-start;
+  }
+
+  &__block {
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+  }
+}
+
+.author {
+  &_img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+
+  &_name {
+    font-size: $small-font-size;
+  }
+}
+
+.article-date {
+  color: gray;
+  font-size: 12px;
+}
+
+$post-max-width: 1024px;
+
+.post {
+
+  &_body {
+    margin-bottom: 7rem;
+  }
+
+  h4, h5, h6 {
+    padding: 15px 0;
+  }
+
+  p, li {
+    margin-bottom: 15px;
+  }
+
+  a {
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+}

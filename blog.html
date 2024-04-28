@@ -1,0 +1,49 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="page-header">
+    <h1>Community Blog</h1>
+</div>
+<div class="container blog">
+    <div class="blog__block material">
+        <div class="row g-3">
+            {% assign posts = site.posts %}
+                {% if posts.length == 0 %}
+                    <div class="text-center p-5 font-weight-bold lead">
+                        No Published Posts Yet.
+                    </div>
+
+                {% else %}
+                    {% for post in posts %}
+                        <div class="col-12 col-md-6 mb-3 px-2 blog-card">
+                            <a class="card cursor-pointer" href="{{post.url}}">
+                                {% if post.blurb_img %}
+                                    <img src="{{post.blurb_img}}" alt="header image for {{post.title}}" class="card-img-top">
+                                {% else %}
+                                    <img src="/assets/images/blog/default.jpg" alt="header image for {{post.title}}" class="card-img-top">
+                                {% endif %}
+
+                                <div class="card-body">
+                                    <h5 class="card-title">{{post.title}}</h5>
+                                    <p class="card-desc">{{post.description}}</p>
+                                    <div class="author d-flex align-items-center">
+                                        <div class="author_img">
+                                          <img src="/assets/images/blog/author.png" alt="Author picture">
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                          <div class="author_name">{{post.author}}</div>
+                                          <div class="article-date">{{ post.date | date: "%d.%m.%Y" }}
+                                        </div>
+                                        </div>
+                                    </div>
+                                      
+                                </div>
+                            </a>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+        </div>
+    </div>
+</div>

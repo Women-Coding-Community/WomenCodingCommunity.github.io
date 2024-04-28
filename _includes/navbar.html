@@ -2,7 +2,7 @@
     <nav class="container navbar navbar-expand-lg navbar-light lined">
     
     <a class="navbar-brand" href="/">
-        <img class="brand" src="assets/images/logo.svg">
+        <img class="brand" src="/assets/images/logo.svg">
     </a>
     
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,18 +14,26 @@
             {% for item in site.data.navbar %}
                 <li class="nav-item {% if item.subfolderitems %}dropdown{% endif %}">
                     {% if item.subfolderitems %}
-                        <a class="nav-link" id="drop{{item.index}}" href="{{item.link}}" aria-haspopup="true" aria-expanded="false">
-                           <span class="dropdown-toggle">{{ item.name }}</span>
-                        </a>
+
+                        {% if item.link %}
+                            <a class="nav-link" id="drop{{item.index}}" href="/{{item.link}}" aria-haspopup="true" aria-expanded="false">
+                            <span class="dropdown-toggle">{{ item.name }}</span>
+                            </a>
+                        {% else %}
+                            <a data-target="#" data-toggle="dropdown" class="nav-link cursor-pointer" id="drop{{item.index}}" aria-haspopup="true" aria-expanded="false">
+                                <span class="dropdown-toggle">{{ item.name }}</span>
+                            </a>
+                        {% endif %}
+
                         <ul class="dropdown-menu{% if forloop.last %} dropdown-menu-right{% endif %}" aria-labelledby="drop{{item.index}}">
                             {% for entry in item.subfolderitems %}
                                 <li>
-                                    <a class="nav-link" href="{{ entry.url }}">{{ entry.page }}</a>
+                                    <a class="nav-link" href="/{{ entry.url }}">{{ entry.page }}</a>
                                 </li>
                             {% endfor %}
                           </ul>
                     {% else %}
-                        <a class="nav-link" id="nav-{{item.index}}" href="{{item.link}}">{{ item.name }}</a>
+                        <a class="nav-link" id="nav-{{item.index}}" href="/{{item.link}}">{{ item.name }}</a>
                     {% endif %}
                 </li>
             {% endfor %}
