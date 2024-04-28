@@ -200,9 +200,9 @@
   hours: 3
   type: long-term
   index: 7
-  position: Lead Software Engineer, Paythru Ltd.
+  position: Engineering Manager, Paythru Ltd.
   bio: |
-    As Lead Software Engineer at Paythru, Madhura leads a team of software engineers for delivering e-mobility solutions. With over 15 years of experience, she is enthusiastic about implementing scalable, maintainable, and secure software solutions. She actively engages in code reviews, providing constructive feedback and ensuring adherence to best practices to maintain good code quality and security. She is passionate about empowering women to re-enter the world of technology, actively engaging in the process of learning and exchanging ideas.
+    As Engineering Manager at Paythru, Madhura leads a team of software engineers for delivering e-mobility solutions. With over 15 years of experience, she is enthusiastic about implementing scalable, maintainable, and secure software solutions. She actively engages in code reviews, providing constructive feedback and ensuring adherence to best practices to maintain good code quality and security. She is passionate about empowering women to re-enter the world of technology, actively engaging in the process of learning and exchanging ideas.
   image: assets/images/mentors/madhura_chaganty.jpeg
   location: United Kingdom
   languages: English
@@ -408,7 +408,7 @@
     I have already lived in some European cities, such as Lisbon, Madrid, Barcelona and London. This allowed me to work in different cultures and dynamics, further increasing my ability to connect, communicate and grow. I love giving back to the community, so I started collaborating with DevPass, helping guide newcomers. I'm also a mentor at MentoCruise, for those who want a more professional follow-up.
   image: assets/images/mentors/ana_nogal.jpg
   languages: English, Spanish, Portuguese
-  availability: []
+  availability: [ ]
   skills:
     experience: 16+ Years
     years: 16
