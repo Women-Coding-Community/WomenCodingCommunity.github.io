@@ -428,3 +428,76 @@
     - twitter: https://twitter.com/anainogal
     - website: https://ananogal.com
 
+- name: Ceri Shaw
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 3
+  type: long-term
+  index: 14
+  location: Edinburgh UK
+  position: Fractional CTO, Thistle Labs
+  bio: |-
+    I have 20+ years experience in tech, starting as a hands-on developer, manager and leader. I also have experience in product management. I've worked in a variety of languages including JS, Python, Java, Ruby and C#. I currently work supporting start-ups and small businesses with technical strategy.
+  image: "Download image from: LinkedIn"
+  languages: English
+  availability: [ ]
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: |-
+      Someone who is really interested in growing their career to a more senior level
+    areas:
+      - Engineering management
+      - Product Management
+      - Project Management
+      - Data Engineering
+      - Fullstack Developer
+    languages: JavaScript, Python
+    focus:
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Grow beyond senior level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    extra: |-
+      Technical Strategy, Engineering Culture, Engineering Process, People Management, Start-up life, Running a Business
+  network:
+    - linkedin: https://www.linkedin.com/in/ceri-shaw/
+
+- name: Kaylyn Van Norstrand
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 4
+  type: both
+  index: 15
+  location: Rochester,  NY (USA)
+  position: Software Engineer
+  bio: |-
+    8 years of experience in front end development in Angular, Head of many projects in UI and trained multiple developers
+  image: "Download image from: Slack"
+  languages: English
+  availability: [ ]
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: |-
+      Someone new to the tech world
+    areas:
+      - Frontend Developer
+      - Fullstack Developer
+      - Backend Developer
+      - Project Management
+      - QA
+    languages: JavaScript, Java
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch from IC to management position
+    extra: |-
+      Software Development Strategies
+  network:
+    - linkedin: https://www.linkedin.com/in/kaylynvannorstrand/
