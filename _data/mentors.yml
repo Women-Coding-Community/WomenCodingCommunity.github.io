@@ -428,3 +428,166 @@
     - twitter: https://twitter.com/anainogal
     - website: https://ananogal.com
 
+- name: Monal Sanghvi
+  disabled: false
+  matched: true
+  sort: 10
+  hours: 2
+  type: both
+  index: 14
+  position: Senior Engineering Manager, Zoa
+  bio: 13 years in software development, I've been lucky to grow my career from being a full stack developer to architect, then as a manager, and manager of managers. I love building software products. I have experience in FinTech (global investment banks), a bay area head quartered scale up and a UK based startup. I enjoy coaching cross-functional, product development teams and developing technical leaders.
+  image: assets/images/mentors/monal_sanghvi.png
+  location: London, UK
+  languages: English
+  availability: [ ]
+  skills:
+    experience: 10-15 years
+    years: 15
+    areas:
+      - Engineering management
+      - Product Management
+      - Fullstack Developer
+      - DevOps
+      - Distributed Systems
+    languages: Java, JavaScript
+    focus:
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch from IC to management position
+    mentee: My ideal mentee would be ambitious, people oriented and ok with tough love
+    extra: Understanding engineering management and product management, Staying technical as a manager, Strategic thinking and technical leadership
+  network:
+    - linkedin: https://www.linkedin.com/in/monalsanghvi/
+
+- name: Kaylyn Van Norstrand
+  disabled: false
+  sort: 100
+  hours: 4
+  position: Software Engineer
+  type: both
+  index: 15
+  location: Rochester, NY (USA)
+  bio: |
+    8 years of experience in front end development in Angular, Head of many projects in UI and trained multiple developers.
+  image: assets/images/mentors/kaylyn_van_norstrand.jpg
+  languages: English
+  availability: [ ]
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: Someone new to the tech world
+    areas:
+      - Frontend Developer
+      - Fullstack Developer
+      - Backend Developer
+      - Project Management
+      - QA
+    languages: JavaScript, Java
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch from IC to management position
+    extra: Software Development Strategies
+  network:
+    - linkedin: https://www.linkedin.com/in/kaylynvannorstrand/
+
+- name: Ceri Shaw
+  disabled: false
+  sort: 100
+  hours: 3
+  position: Fractional CTO, Thistle Labs
+  type: long-term
+  index: 16
+  location: Edinburgh, UK
+  bio: |
+    I have 20+ years experience in tech, starting as a hands-on developer, manager and leader. I also have experience in product management. I've worked in a variety of languages including JS, Python, Java, Ruby and C#. I currently work supporting start-ups and small businesses with technical strategy.
+  image: assets/images/mentors/ceri_shaw.jpg
+  languages: English
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: Someone who is really interested in growing their career to a more senior level
+    areas:
+      - Engineering management
+      - Product management
+      - Project Management
+      - Data Engineering
+      - Fullstack Developer
+    languages: JavaScript, Python
+    focus:
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Grow beyond senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    extra: Technical Strategy, Engineering Culture, Engineering Process, People Management, Start-up life, Running a Business
+  network:
+    - linkedin: https://www.linkedin.com/in/ceri-shaw/
+
+- name: Minsang Kim
+  disabled: false
+  sort: 100
+  hours: 4
+  position: CTO/Co-founder (previously Machine Learning Scientist at Amazon), Radiant AI
+  type: both
+  index: 17
+  location: London
+  bio: Hi! My name is Min, I’m a kiwi, and I am a senior Machine Learning / Full-stack Software Engineer of 7 years experience who has worked in a wide range of work environments including a FAANG, a Unicorn, a small startup, and most recently my own startup. From my experience, I’ve seen time and time again how the skewed gender ratio in tech negatively impacts everything we do in tech, and what we build. To combat this, I have mentored with WomenWhoCode before, and I have taught a few courses with CodeFirstGirls before. I would like to continue supporting more women to get into tech industry and moreover succeed in the industry until we have truly achieved gender equality and equity in the tech industry.
+  image: assets/images/mentors/minsang_kim.jpg
+  languages: English
+  availability: [ ]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: Someone who is open minded, open to learn, LGBTQ+ friendly, inexperienced is OK!
+    areas:
+      - Machine Learning
+      - Fullstack Developer
+      - Data Science
+      - Backend Developer
+      - Security
+    languages: Python, JavaScript, Rust
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+    extra: Anything they’d like to discuss! Here are some examples if they may be helpful; how to get into tech, how to climb up the ladder in tech, how to learn new languages / skills, how to leverage LLMs (chatGPT) to their advantage, guidance around starting and completing a personal hobby project that can lead to a job offer, culture in tech industry, setting boundaries in tech industry
+  network:
+    - linkedin: https://www.linkedin.com/in/minsangkim142/
+
+- name: Kirthikka Devi Venkataram
+  disabled: false
+  sort: 100
+  hours: 2
+  position: Lead, Women Who Code Data Science
+  type: long-term
+  index: 18
+  location: India, Coimbatore
+  bio: |
+    I am Kirthikka Devi Venkataram, an experienced Manager who has launched embedded system products for 10 years, working for B2B segments leveraging design thinking, resulting in the product's growth and increasing revenue. I have enhanced the system's product features while practicing Scrum and Agile methodologies working in cutting-edge technologies. There has been a keen dissection of business outcomes, engineering design, and empathizing with customers in my career journey. Out of my work, I took organization focused prospects tours, which awarded me presenting the business unit's technical expertise towards acquiring more projects. I work towards empowering women working in external forums and offer mentorship.
+  image: assets/images/mentors/kirthikka_devi_venkataram.jpg
+  languages: English
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: I look for an individual who is interested in enhancing her career structured by the step by step approach provided to her. Interested and passionate about growing skills specific to Tech industry. Individual interested in transition to Management.
+    areas:
+      - Product Management
+      - Data Science
+      - Engineering management
+      - Project Management
+      - Machine Learning
+    languages: C, Python
+    focus:
+      - Grow from beginner to mid-level
+      - Switch from IC to management position
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+      - Change specialisation within IT
+    extra: Resume Review, Prepare for interview, Product Management, Transition into Tech.
+  network:
+    - linkedin: https://www.linkedin.com/in/kirthikka-devi-v
+    - Medium: https://medium.com/@rithik18
