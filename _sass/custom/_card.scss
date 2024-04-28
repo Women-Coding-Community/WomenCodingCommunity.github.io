@@ -64,3 +64,45 @@
         }
     }
 }
+
+.blog-card {
+    height: 100%;
+
+    a {
+      color: $gray-800;
+      &:hover {
+        text-decoration: none;
+        background-color: $gray-100;
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+      }
+    }
+  
+    .card-img-top {
+      max-height: 300px;
+      object-fit: cover;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+  
+    .card-body {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      padding: 1.5rem;
+    }
+  
+    .card-title {
+      font-size: 22px;
+      margin-bottom: 15px;
+      color: $primary-40;
+    }
+
+    .card-desc {
+      font-size: 16px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+    }
+}

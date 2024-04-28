@@ -17,7 +17,7 @@ title: Blog
 
                 {% else %}
                     {% for post in posts %}
-                        <div class="col-12 col-md-6 mb-3 px-2 custom-card-wrapper">
+                        <div class="col-12 col-md-6 mb-3 px-2 blog-card">
                             <a class="card cursor-pointer" href="{{post.url}}">
                                 {% if post.blurb_img %}
                                     <img src="{{post.blurb_img}}" alt="header image for {{post.title}}" class="card-img-top">
