@@ -14,6 +14,10 @@ body {
   color: $bodyColor;
   font-family: $bodyFont;
   font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 .container,
@@ -34,8 +38,8 @@ body {
 }
 
 .menu .dropdown > a.active-nav::after {
-    width: 100%;
-    background: $primary;
+  width: 100%;
+  background: $primary;
 }
 
 // Basic page 'content constrained' container width size adjustments to ensure 50-75 char per line for optimal readability  
