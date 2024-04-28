@@ -2,27 +2,15 @@ const controllerNavbar = (function (jQuery) {
   const NAVBAR_CLASS_ACTIVE = 'active-nav'
 
   const selectActiveMenu = function () {
-    const pathSegments = jQuery(location).attr('pathname').split('/');
+    const currentPath = window.location.pathname;
   
-    const firstPathSegment = pathSegments[pathSegments.length - 1];
-    const stringPathSegment = firstPathSegment.replaceAll('-', ' ');
-
-    let activeLink;
-    let activeSubLink;
-
-    if (!stringPathSegment) {
-      activeLink = jQuery("a.nav-link:contains('Home')");
-    } else {
-      const searchLinkText = stringPathSegment[0].toUpperCase() + stringPathSegment.slice(1, stringPathSegment.length);
-      activeLink = jQuery("a.nav-link").filter(() => jQuery(this).text().trim() === searchLinkText)
-      activeSubLink = jQuery("a.nav-link[href='" + firstPathSegment + "']")
-    }
-
-    activeLink.addClass(NAVBAR_CLASS_ACTIVE);
-    if (activeSubLink) {
-      activeSubLink.addClass(NAVBAR_CLASS_ACTIVE);
-    }
-  }
+    jQuery('.nav-link').each(function () {
+      const menuItemHref = jQuery(this).attr('href');
+      if (currentPath === menuItemHref) {
+        jQuery(this).addClass(NAVBAR_CLASS_ACTIVE);
+      }
+    });
+  };
 
   const setupDropdownMenus = function () {
     const dropdownMenuList = jQuery('.dropdown');
