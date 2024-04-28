@@ -23,6 +23,12 @@ p, ul, ol {
     font-size: $font-size-md;
 }
 
+@include media-breakpoint-up(sm) {
+    p {
+        font-size: $font-size-lg;
+    }
+}
+
 .network svg:hover  {
     fill: $primary-50 !important;
 }
@@ -56,11 +62,6 @@ p, ul, ol {
 
 .container .section:last-child {
     margin-bottom: 5rem;
-}
-
-.content-constrained {
-    max-width: 768px;
-    margin: 0 auto;
 }
 
 .content-constrained h2 {

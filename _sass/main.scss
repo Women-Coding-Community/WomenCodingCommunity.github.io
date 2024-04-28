@@ -37,3 +37,35 @@ body {
     width: 100%;
     background: $primary;
 }
+
+// Basic page 'content constrained' container width size adjustments to ensure 50-75 char per line for optimal readability  
+
+$custom-container-columns-l: 8;
+$custom-container-columns-m: 7;
+$custom-container-columns-s: 6;
+
+$container-width-l: percentage($custom-container-columns-l / $grid-columns);
+$container-width-m: percentage($custom-container-columns-m / $grid-columns);
+$container-width-s: percentage($custom-container-columns-s / $grid-columns);
+
+$custom-auto-margin: auto;
+
+.content-constrained {
+  @include media-breakpoint-up(md) {
+    width: $container-width-l;
+    margin-right: $custom-auto-margin;
+    margin-left: $custom-auto-margin;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: $container-width-m;
+    margin-right: $custom-auto-margin;
+    margin-left: $custom-auto-margin;
+  }
+
+  @include media-breakpoint-up(xl) {
+    width: $container-width-s;
+    margin-right: $custom-auto-margin;
+    margin-left: $custom-auto-margin;
+  }
+}
