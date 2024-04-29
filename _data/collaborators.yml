@@ -55,3 +55,13 @@
       link: https://www.linkedin.com/in/chiarapigoni/
     - name: github
       link: https://github.com/kikilondon
+
+- name: Nevena Verbič
+  image: assets/images/collaborators/12.jpeg
+  position: Software Developer
+  comment: Team Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/nevena-verbič-83a16ab/
+    - name: github
+      link: https://github.com/nverbic
