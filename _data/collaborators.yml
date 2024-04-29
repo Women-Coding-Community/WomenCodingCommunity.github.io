@@ -18,14 +18,6 @@
     - name: github
       link: https://github.com/cribw27
 
-- name: Sonali Goel
-  position: Lead Engineer
-  comment: Team Collaborator
-  image: assets/images/collaborators/2.jpg
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/sonali-goel-6b611522
-
 - name: Neha Sharma
   image: assets/images/collaborators/5.jpeg
   position: Principal Engineer
