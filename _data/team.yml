@@ -120,3 +120,9 @@
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/madhurachaganty
+
+- name: Sonali Goel
+  position: WCC Lead
+  comment: Senior/Lead Engineer at Yoox-Net-a-porter
+  image: assets/images/team/14.jpeg
+  network:
