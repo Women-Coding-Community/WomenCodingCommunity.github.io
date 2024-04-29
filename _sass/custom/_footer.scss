@@ -1,52 +1,58 @@
-
 .footer {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: $primary-30;
-    padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: $primary-30;
+  padding-top: 40px;
+  text-align: left;
+  color: $white;
+  min-height: 200px;
+
+  .follow-us-title {
+    font-size: 1.25rem;
     text-align: left;
-    color: $white;
-    min-height: 200px;
+    margin: 0;
+  }
 
-    .social {
-        margin-top: 1rem;
-    }
+  .social {
+    margin-top: 1rem;
+  }
 
-    .brand {
-        width: 120px;
-    }
+  .brand {
+    width: 120px;
+  }
 
-    p {
-        margin: 0;
-    }
+  p {
+    margin: 0;
+  }
 
-    .copyright {
-        margin-top: 1rem;
-    }
+  .copyright {
+    margin-top: 1rem;
+  }
 
-    .network {
-        margin-top: 10px;
-        display: flex;
-        flex-wrap: wrap;
+  .network {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
 
-        a {
-            border-radius: 100%;
-            padding-right: 10px;
+    a {
+      border-radius: 100%;
+      padding-right: 10px;
 
-            svg, svg:hover {
-                height: 30px;
-                width: 30px;
-                fill: $white !important;
+      svg,
+      svg:hover {
+        height: 30px;
+        width: 30px;
+        fill: $white !important;
 
-                @include media-breakpoint-down(md) {  
-                    height: 20px;
-                    width: 20px;
-                }
-            }
-
-            svg:hover {
-                fill: $gray-200 !important;
-            }
+        @include media-breakpoint-down(md) {
+          height: 20px;
+          width: 20px;
         }
+      }
+
+      svg:hover {
+        fill: $gray-200 !important;
+      }
     }
- }
+  }
+}
