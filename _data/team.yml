@@ -26,6 +26,14 @@
     - name: linkedin
       link: https://www.linkedin.com/in/elena-fedorova-9ab270237/
 
+- name: Abhipsa Mishra
+  position: WCC Lead
+  comment: Senior Software Engineer
+  image: assets/images/team/13.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/abhipsa-mishra-684a4326
+
 - name: Adriana Zencke
   position: WCC Director
   comment: Senior Software Engineer
@@ -74,6 +82,14 @@
     - name: medium
       link: https://arzuguneycaner.medium.com/
 
+- name: Silke Nodwell
+  position: WCC Lead
+  comment: Data Scientist
+  image: assets/images/team/12.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/silke-nodwell-763681172
+
 - name: Airat Yusuff
   image: assets/images/team/6.jpeg
   position: WCC Lead
@@ -104,19 +120,3 @@
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/madhurachaganty
-
-- name: Silke Nodwell
-  position: WCC Lead
-  comment: Data Scientist
-  image: assets/images/team/12.jpeg
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/silke-nodwell-763681172
-
-- name: Abhipsa Mishra
-  position: WCC Lead
-  comment: Senior Software Engineer
-  image: assets/images/team/13.jpeg
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/abhipsa-mishra-684a4326
