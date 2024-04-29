@@ -104,3 +104,19 @@
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/madhurachaganty
+
+- name: Silke Nodwell
+  position: WCC Lead
+  comment: Data Scientist
+  image: assets/images/team/12.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/silke-nodwell-763681172
+
+- name: Abhipsa Mishra
+  position: WCC Lead
+  comment: Senior Software Engineer
+  image: assets/images/team/13.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/abhipsa-mishra-684a4326
