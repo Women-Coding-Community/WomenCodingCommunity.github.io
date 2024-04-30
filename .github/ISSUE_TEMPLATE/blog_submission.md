@@ -13,6 +13,7 @@ Please provide the following information:
 
 * Title:
 * Author:
+* Position / Company: 
 * Date:
 * Short description:
 * Google doc Link with the content:
