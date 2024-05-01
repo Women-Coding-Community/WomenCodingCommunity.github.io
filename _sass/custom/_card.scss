@@ -32,6 +32,9 @@
 }
 
 .card-m {
+    &.card {
+        height: 100%;
+    }
     .card-header {
         background-color: transparent;
         border: none;
