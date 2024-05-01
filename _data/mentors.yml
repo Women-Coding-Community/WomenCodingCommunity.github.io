@@ -838,3 +838,34 @@
     extra: Preparation for Technical interviews, Project review
   network:
     - linkedin: https://www.linkedin.com/in/sahana-venkatesh/
+
+
+- name: Agrin Hilmkil
+  disabled: false
+  matched: true
+  sort: 10
+  hours: 4
+  position: Senior Research Engineer, Microsoft Research
+  type: long-term
+  index: 27
+  location: London, UK
+  bio: Research engineer in DL since 2017 in both start-ups and big tech. I'm particularly interested in generative models, NLP and have enjoyed scaling up training and deployments efficiently. Recently moved to London from Stockholm, Sweden, and having mentored previously I'm looking for ways to contribute here as well.
+  image: assets/images/mentors/agrin_hilmkil.jpg
+  languages: English
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: Motivated individuals who are eager to grow. I'm happy to provide both technical guidance and advice on how to build their careers.
+    areas:
+      - Machine Learning
+      - Data Science
+      - Backend Developer
+    languages: Python
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
+    extra: Machine learning projects, Scaling up Deep Learning, Software Development, Building a career in Tech
+  network:
+    - linkedin: https://www.linkedin.com/in/agrinhilmkil/
