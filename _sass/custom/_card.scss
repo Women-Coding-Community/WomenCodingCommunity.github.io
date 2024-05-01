@@ -85,7 +85,8 @@
         &:first-child {
             padding-top: 3rem;
             border-top: 16px solid $primary;
-            border-image: linear-gradient(to right, $purple-40, $purple-60, $purple-80);            border-image-slice: 1; // Ensure the gradient covers the entire border
+            border-image: linear-gradient(to right, $purple-40, $purple-60, $purple-80);
+            border-image-slice: 1; // Ensure the gradient covers the entire border
         }
         &:last-child {
             border-bottom: 2px solid $primary;
