@@ -1,11 +1,13 @@
 .card {
     border-radius: 1rem;
+    height: 100%;
+}
+
+.card-date {
+    color: $gray-600;
 }
 
 .card-s {
-    &.card {
-        height: 100%;
-    }
     .card-title {
         font-size: 1.3rem;
         margin-bottom: 0.25rem;
@@ -32,9 +34,6 @@
 }
 
 .card-m {
-    &.card {
-        height: 100%;
-    }
     .card-header {
         background-color: transparent;
         border: none;
@@ -52,6 +51,62 @@
     }
     .btn {
         max-width: fit-content;
+    }
+}
+
+.card-l {
+    border: none;
+    flex-direction: column;
+    text-align: left;
+    h3 {
+        text-align: left;
+        margin: 0 0 0.25rem 0;
+    }
+    .card-media {
+        padding: 0;
+    }
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .card-l {
+        flex-direction: row;
+    }
+}
+
+.announcements {
+    .card-l {
+        border-top: 1px solid $gray-300;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+        padding: 2rem 0;
+        &:first-child {
+            padding-top: 3rem;
+            border-top: 16px solid $primary;
+            border-image: linear-gradient(to right, $purple-40, $purple-60, $purple-80);
+            border-image-slice: 1; // Ensure the gradient covers the entire border
+        }
+        &:last-child {
+            border-bottom: 2px solid $primary;
+        }
+        img {
+            border-radius: 4px;
+        }
+    }
+    .card-body {
+        padding: 0 0 1rem 0;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .announcements {
+        .card-body {
+            padding: 0 1.6rem 0 0;
+        }
     }
 }
 

@@ -3,14 +3,16 @@
 @import 'bootstrap/bootstrap';
 @import 'custom/custom';
 
-$backgroundColor: #fff;
+$bg-1: $primary-90;
+$bg-2: #f7f7f7;
+
 $bodyColor: #000000;
 $bodyFont: 'Roboto', sans-serif;
 
 $container-max-width: 1376px;
 
 body {
-  background: $backgroundColor;
+  background: #fff;
   color: $bodyColor;
   font-family: $bodyFont;
   font-weight: 400;
@@ -27,6 +29,14 @@ body {
 
 .row {
   justify-content: center;
+
+  &.bg-1 {
+    background-color: $bg-1;
+  }
+
+  &.bg-2 {
+    background-color: $bg-2;
+  }
 
   .content {
     display: flex;

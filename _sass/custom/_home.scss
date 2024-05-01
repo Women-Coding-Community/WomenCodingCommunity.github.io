@@ -60,22 +60,29 @@
 .home {
 
     .row {
-        &.bg-purple {
-            background-color: $primary-90;
-            padding: 0 1rem;
-        }
         h2 {
             margin: 1rem auto;
+            font-size: $h1-font-size;
+        }
+        &.mentors-cta {
+            h2 {
+                font-size: $h2-font-size;
+            }
+            .btn {
+                max-width: fit-content;
+            }
+            .card-body {
+                padding: 2rem 2rem 3rem 2rem;
+                align-items: center;
+            }
         }
     }
 
-    .row.mentors-cta {
-        .btn {
-            max-width: fit-content;
-        }
-        .card-body {
-            padding: 2rem 2rem 3rem 2rem;
+    .announcements {
+        .content {
+            flex-direction: column;
             align-items: center;
+            height: 100%;
         }
     }
 
