@@ -59,7 +59,7 @@
     text-align: left;
     h3 {
         text-align: left;
-        margin-top: 0;
+        margin: 0 0 0.25rem 0;
     }
     .card-media {
         padding: 0;
@@ -77,15 +77,18 @@
 
 .announcements {
     .card-l {
-        border-bottom: 1px solid $primary;
+        border-top: 1px solid $gray-300;
         border-left: none;
         border-right: none;
         border-radius: 0;
         padding: 2rem 0;
         &:first-child {
+            padding-top: 3rem;
             border-top: 16px solid $primary;
-            border-image: linear-gradient(to right, $purple-40, $purple-60, $purple-80); // Apply gradient
-            border-image-slice: 1; // Ensure the gradient covers the entire border
+            border-image: linear-gradient(to right, $purple-40, $purple-60, $purple-80);            border-image-slice: 1; // Ensure the gradient covers the entire border
+        }
+        &:last-child {
+            border-bottom: 2px solid $primary;
         }
         img {
             border-radius: 4px;
