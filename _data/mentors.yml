@@ -737,3 +737,101 @@
     extra: Data Engineering, Data modeling and design, CV Review, Career advice
   network:
     - linkedin: https://www.linkedin.com/in/nonna-shakhova/
+
+- name: Sakirat Kehinde Usman
+  disabled: false
+  sort: 10
+  hours: 5
+  position: Frontend Development Trainer, Niyo Group Ltd
+  type: long-term
+  index: 24
+  location: Manchester, England
+  bio: |
+    I am a frontend engineer with over 3 years of experience in frontend development. I am excellent at building user interfaces and bringing web functionalities to life. I have worked on various projects ranging from fintech to agriculture. 
+  image: assets/images/mentors/sakirat_kehinde_usman.jpg
+  languages: English
+  skills:
+    experience: 4-5 years
+    years: 5
+    mentee: I am looking for a mentee who is enthusiastic and curious in learning new things.
+    areas:
+      - Frontend Developer
+      - Business Analysis
+      - Data Science
+      - Backend Developer
+      - Grow from beginner to mid-level
+    languages: JavaScript, Python
+    focus:
+      - Switch career to IT
+    extra: HTML, CSS, JavaScript, React, Redux, Resume Review, Thinking in React, Interview Preparation
+  network:
+    - linkedin: https://linkedin.com/in/sakirat-Kehinde-usman-3a4600117
+
+- name: Tvisha Dholakia
+  disabled: false
+  sort: 200
+  hours: 5
+  position: Co-founder and CBO, apibanking.com
+  type: both
+  index: 25
+  location: London, UK
+  bio: |
+    I'm a co-founder, building in the open banking and developer experience space. apibanking.com is young - for ~2.5 years, we have been developing tech offerings in the financial services space, to solve the friction at the point of integration between traditional banks and the fintech ecosystem. I pursued my undergraduate coursework in Mathematics and Computer Science, and since then, I've spent 5+ years in enterprise technology as a developer as well as a business leader building scale products, and another 5+ years in business building, including product strategy, private equity and venture investments for tech-first players. I have mentored startup founders on product scaling, new market opportunities and fundraising. I'm also exploring angel investing, focusing on next-gen software tech startups.
+  image: assets/images/mentors/tvisha_dholakia.jpg
+  languages: English
+  availability: [ 5 ]
+  skills:
+    experience: 7-10 years
+    years: 10
+    mentee: I want to work on unlocking potential for people, as mentors and coaches have done for me - help my mentees analyze their ambitions, explore their true capabilities and get equipped with the necessary resources and skills to realize their dreams.
+    areas:
+      - Product Management
+      - Project Management
+      - Business Analysis
+      - Data Science
+      - Engineering management
+      - Switch from IC to management position
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+    languages: Java, Python, JavaScript
+    focus:
+      - Switch career to IT
+    extra: Resume review, Career transitions, Leadership in technology
+  network:
+    - linkedin: https://www.linkedin.com/in/tvisha/
+    - twitter: https://twitter.com/_tvisha_
+    - website: https://apibanking.substack.com/
+
+- name: Sahana Venkatesh
+  disabled: false
+  sort: 10
+  hours: 2
+  position: Machine learning Engineer, JLR
+  type: long-term
+  index: 26
+  location: London, UK
+  bio: |
+    I hold Masters degree in Electrical Engineering specializing in Datascience. I have worked in tech startups and automotive company. I have have given a lot of interviews and learned through my failures that preparation and practice are the key and I would like to help someone else.
+  image: assets/images/mentors/sahana_venkatesh.jpg
+  languages: English
+  skills:
+    experience: 5-7 years
+    years: 7
+    mentee: Anyone looking for Mock Interview guidance
+    areas:
+      - Machine Learning
+      - Data Science
+      - Backend Developer
+      - Distributed Systems
+      - Project Management
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Grow from mid-level to senior-level
+    languages: Python
+    focus:
+      - Switch from IC to management position
+    extra: Preparation for Technical interviews, Project review
+  network:
+    - linkedin: https://www.linkedin.com/in/sahana-venkatesh/
