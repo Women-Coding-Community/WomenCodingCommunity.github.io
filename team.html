@@ -28,24 +28,26 @@ title: Team
                         <h6 class="card-subtitle">{{person.position}}</h6>
                         <p class="card-text"><small class="text-muted">{{person.comment}}</small></p>
                     </div>
-                    <div class="card-footer">
-                        <span class="network">
-                            {% for network in person.network %}
-                                {% if network.name=="linkedin" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
-                                {% endif %}
-                                {% if network.name=="twitter" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
-                                {% endif %}
-                                {% if network.name=="medium" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/medium.svg %}</a></span>
-                                {% endif %}
-                                {% if network.name=="github" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/github.svg %}</a></span>
-                                {% endif %}
-                            {% endfor %}
-                        </span>
-                    </div>
+                    {% if person.network %}
+                        <div class="card-footer">
+                            <span class="network">
+                                {% for network in person.network %}
+                                    {% if network.name=="linkedin" %}
+                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
+                                    {% endif %}
+                                    {% if network.name=="twitter" %}
+                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
+                                    {% endif %}
+                                    {% if network.name=="medium" %}
+                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/medium.svg %}</a></span>
+                                    {% endif %}
+                                    {% if network.name=="github" %}
+                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/github.svg %}</a></span>
+                                    {% endif %}
+                                {% endfor %}
+                            </span>
+                        </div>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
@@ -70,24 +72,26 @@ title: Team
                         <h6 class="card-subtitle">{{person.position}}</h6>
                         <p class="card-text"><small class="text-muted">{{person.comment}}</small></p>
                     </div>
-                    <div class="card-footer">
-                        <span class="network">
-                            {% for network in person.network %}
-                                {% if network.name=="linkedin" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
-                                {% endif %}
-                                {% if network.name=="twitter" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
-                                {% endif %}
-                                {% if network.name=="medium" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/medium.svg %}</a></span>
-                                {% endif %}
-                                {% if network.name=="github" %}
-                                <span> <a href="{{network.link}}" target="_blank"> {% include icons/github.svg %}</a></span>
-                                {% endif %}
-                                    {% endfor %}
-                        </span>
-                    </div>
+                    {% if person.network %}
+                        <div class="card-footer">
+                            <span class="network">
+                                {% for network in person.network %}
+                                    {% if network.name=="linkedin" %}
+                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
+                                    {% endif %}
+                                    {% if network.name=="twitter" %}
+                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
+                                    {% endif %}
+                                    {% if network.name=="medium" %}
+                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/medium.svg %}</a></span>
+                                    {% endif %}
+                                    {% if network.name=="github" %}
+                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/github.svg %}</a></span>
+                                    {% endif %}
+                                {% endfor %}
+                            </span>
+                        </div>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
