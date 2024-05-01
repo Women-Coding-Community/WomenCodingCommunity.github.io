@@ -63,8 +63,8 @@
 
 - name: Adriana Zencke Zimmermann
   disabled: false
-  matched: true
-  sort: 10
+  matched: false
+  sort: 100
   hours: 2
   bio: |
     I am a mother, a wife, and a Software Engineer. I graduated in Computer Science and have over 14 years of experience working in tech companies in Brazil, Germany, and Spain. As Backend Engineer, I found this to be my passion which I focused on in the last six years of my career. I am always excited to help others, and my goal is to empower women and support them with the difficulties I had as an engineer, and I still have from time to time.
@@ -74,7 +74,7 @@
   type: both
   index: 3
   languages: Portuguese, English
-  availability: [ 7, 8, 9 ]
+  availability: [ 5 ]
   skills:
     experience: 10-15 years
     years: 15
@@ -99,7 +99,7 @@
 
 - name: Irina Kamalova
   disabled: false
-  sort: 100
+  sort: 10
   hours: 2
   type: both
   index: 4
@@ -133,7 +133,7 @@
 - name: Stephanie Senoner
   disabled: false
   sort: 10
-  matched: true
+  matched: false
   hours: 5
   type: both
   index: 5
@@ -166,7 +166,7 @@
 
 - name: Ken Pemberton
   disabled: false
-  sort: 100
+  sort: 10
   hours: 4
   type: long-term
   index: 6
@@ -195,7 +195,7 @@
 
 - name: Madhura Chaganty
   disabled: false
-  matched: true
+  matched: false
   sort: 10
   hours: 3
   type: long-term
@@ -225,18 +225,18 @@
 
 - name: Sonali Goel
   disabled: false
-  matched: true
-  sort: 10
+  matched: false
+  sort: 100
   hours: 4
   position: Lead Engineer, Yoox-Net-A-Porter
-  type: long-term
+  type: both
   index: 8
   location: London, UK
   bio: |
     Sonali serves as a Lead Engineer at Yoox-Net-a-porter, specializing in managing and constructing extensive-scale ecommerce solutions. She leverages Java-based commerce platforms and integrates them with open-source technologies like Spring Boot and Spring Batch. As an AWS-certified Solution Architect, she possesses deep knowledge of Amazon Web Services, complemented by proficiency in implementing continuous integration and continuous deployment (CICD) practices to ensure seamless software delivery. Additionally, she excels in architecting and implementing microservices-based architectures to drive agility and modularity in software development With over 13 years of experience in the technology industry, Sonali brings a wealth of expertise in steering technical direction and fostering high-performance outcomes. Her passion lies in nurturing a culture of continuous learning and innovation. Outside of her professional endeavors, Sonali actively volunteers with Women Who Code, advocating for gender diversity. She is also a creative enthusiast, utilizing design templates to convey ideas, thoughts, and emotions visually.
   image: assets/images/mentors/sonali_goel.jpg
   languages: English
-  availability: [ ]
+  availability: [ 5 ]
   skills:
     experience: 10-15 Years
     years: 15
@@ -258,7 +258,7 @@
 
 - name: Julia Babahina
   disabled: false
-  sort: 100
+  sort: 10
   hours: 4
   position: Lead Risk Management Specialist, Swift
   type: Both
@@ -408,7 +408,7 @@
     I have already lived in some European cities, such as Lisbon, Madrid, Barcelona and London. This allowed me to work in different cultures and dynamics, further increasing my ability to connect, communicate and grow. I love giving back to the community, so I started collaborating with DevPass, helping guide newcomers. I'm also a mentor at MentoCruise, for those who want a more professional follow-up.
   image: assets/images/mentors/ana_nogal.jpg
   languages: English, Spanish, Portuguese
-  availability: [ ]
+  availability: [ 5 ]
   skills:
     experience: 16+ Years
     years: 16
@@ -430,8 +430,8 @@
 
 - name: Monal Sanghvi
   disabled: false
-  matched: true
-  sort: 10
+  matched: false
+  sort: 100
   hours: 2
   type: both
   index: 14
@@ -440,7 +440,7 @@
   image: assets/images/mentors/monal_sanghvi.png
   location: London, UK
   languages: English
-  availability: [ ]
+  availability: [ 5 ]
   skills:
     experience: 10-15 years
     years: 15
@@ -472,7 +472,7 @@
     8 years of experience in front end development in Angular, Head of many projects in UI and trained multiple developers.
   image: assets/images/mentors/kaylyn_van_norstrand.jpg
   languages: English
-  availability: [ ]
+  availability: [ 5 ]
   skills:
     experience: 7-10 Years
     years: 10
@@ -496,7 +496,7 @@
 
 - name: Ceri Shaw
   disabled: false
-  sort: 100
+  sort: 10
   hours: 3
   position: Fractional CTO, Thistle Labs
   type: long-term
@@ -538,7 +538,7 @@
   bio: Hi! My name is Min, I’m a kiwi, and I am a senior Machine Learning / Full-stack Software Engineer of 7 years experience who has worked in a wide range of work environments including a FAANG, a Unicorn, a small startup, and most recently my own startup. From my experience, I’ve seen time and time again how the skewed gender ratio in tech negatively impacts everything we do in tech, and what we build. To combat this, I have mentored with WomenWhoCode before, and I have taught a few courses with CodeFirstGirls before. I would like to continue supporting more women to get into tech industry and moreover succeed in the industry until we have truly achieved gender equality and equity in the tech industry.
   image: assets/images/mentors/minsang_kim.jpg
   languages: English
-  availability: [ ]
+  availability: [ 5 ]
   skills:
     experience: 5-7 Years
     years: 7
@@ -560,7 +560,7 @@
 
 - name: Kirthikka Devi Venkataram
   disabled: false
-  sort: 100
+  sort: 10
   hours: 2
   position: Lead, Women Who Code Data Science
   type: long-term
