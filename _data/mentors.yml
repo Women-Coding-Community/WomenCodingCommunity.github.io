@@ -619,7 +619,7 @@
 
 - name: Andrew King 
   disabled: false
-  sort: 100
+  sort: 10
   hours: 4
   position:  DevOps Engineer, DRW
   type: long-term
