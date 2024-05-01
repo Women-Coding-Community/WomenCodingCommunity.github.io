@@ -5,6 +5,8 @@ plugins:
 sass:
   sass_dir: _sass/
 
+registration: 7
+
 # Settings
 title: "Women Coding Community"
 description: Our community is open to anyone who is looking to improve their skills or advance their careers. Whether you are an experienced professional looking to give back to the community, or a student or new professional seeking guidance and support.
