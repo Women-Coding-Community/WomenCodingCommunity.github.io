@@ -869,3 +869,129 @@
     extra: Machine learning projects, Scaling up Deep Learning, Software Development, Building a career in Tech
   network:
     - linkedin: https://www.linkedin.com/in/agrinhilmkil/
+
+- name: Jenny Johnson
+  disabled: false
+  sort: 100
+  matched: true
+  hours: 2
+  position: Senior Software Engineer, Isla Healthcare
+  type: both
+  index: 28
+  location: London
+  bio: I have 9+ years of software development experience across start-ups, corporates, and non-profits. I currently work at Islacare, a healthcare startup, with primary focus on front-end development. I career switched into software development and now have been working longer in this field than anything else. I am passionate about diversifying STEM and helping people transition into tech.
+  image: assets/images/mentors/jenny_johnson.jpeg
+  languages: English
+  availability: [ 5 ]
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: Driven, ready to learn, and has grit
+    areas:
+      - Frontend Developer
+      - Fullstack Developer
+      - Engineering management
+    languages: JavaScript, Java
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+    extra: UI development, leveling-up, career switching
+  network:
+    - linkedin: https://www.linkedin.com/in/jjohnson001
+
+- name: Shailaja Koppu
+  disabled: false
+  matched: false
+  hours: 2
+  position: Principal software engineer, Apple
+  sort: 10
+  type: long-term
+  index: 29
+  location: United Kingdom, London
+  bio: 18 years of experience in developing highly scalable distributed systems, majorly in data storage systems and fintech domains. Experience driving projects and leading teams
+  image: assets/images/mentors/shailaja_koppu.svg
+  languages: English
+  availability: []
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: Career growth, establishing connections and influencing in the org, managing work life balance, interview preparation for senior roles
+    areas:
+      - Distributed Systems
+      - Backend Developer
+      - Engineering management
+      - Fullstack Developer
+      - Data Engineering
+    languages: C, Java, C++
+    focus:
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+    extra: Preparation for system design interviews, resume review, influencing teams, driving projects end to end, designing complex distributed systems
+  network:
+    - linkedin: https://uk.linkedin.com/in/shailajakoppu
+
+- name: Claudia Lee
+  disabled: false
+  matched: true
+  sort: 10
+  hours: 2
+  position: Backend Java Software Engineer, Lloyds Banking Group
+  type: long-term
+  index: 30
+  location: London, United Kingdom
+  bio: |
+    I have around 3 years of experience in IT. I am currently working as a Backend Java Software Engineer (Java, Spring, Kafka). Previously I worked as a data analyst (Python, SQL, Power BI) and graduated from Accounting and Finance.
+  image: assets/images/mentors/claudia_lee.jpg
+  languages: English
+  skills:
+    experience: 1-2 Years
+    years: 2
+    mentee: Someone who's still new to the industry and would either like to get into tech or grow from beginner to mid.
+    areas:
+      - Backend Developer
+    languages: Java
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+    extra: Resume review; Agile Methodologies; Introduction to Java, Spring Framework and Kafka; SQL; OOP; Software Development Lifecycle.
+  network:
+    - linkedin: https://www.linkedin.com/in/claudialsm/
+
+- name: Bryan Boreham
+  disabled: false
+  hours: 4
+  sort: 200
+  type: ad-hoc
+  index: 31
+  position: Distinguished Engineer, Grafana Labs
+  bio: |
+    I've done a lot of mentoring, and am keen to continue, to help more people and especially women progress in the industry. I've worked in technology for 40 years, about half in startups and half in giant banks. I'm currently an individual contributor, but have managed teams and departments, so have a perspective on both those careers. I am active in the Open Source world and as a conference speaker.
+  image: assets/images/mentors/bryan_boreham.jpeg
+  location: London, UK
+  languages: English
+  availability: [ 5 , 6 ]
+  skills:
+    experience: 16+ Years
+    years: 16
+    areas:
+      - Backend Developer
+      - Site Reliability
+      - Engineering
+      - Engineering management
+      - Distributed Systems
+      - DevOps
+    languages: Go, C++, C, Java, C#
+    focus:
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+    mentee: Someone looking to advance their career, who needs advice either on navigating organisations or on understanding techology.
+    extra: Software Engineering, SRE, Leadership, Technical Interviews, Communication, Presentation Skills, Kubernetes, CV Review.
+  network:
+    - linkedin: https://www.linkedin.com/in/bryanboreham
+    - twitter: https://twitter.com/bboreham
