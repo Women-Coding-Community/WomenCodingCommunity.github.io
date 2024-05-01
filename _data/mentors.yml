@@ -1,6 +1,6 @@
 - name: Eleonora Belova
   disabled: false
-  sort: 100
+  sort: 10
   hours: 3
   position: QA Engineer, ReaQta, an IBM Company
   type: both
@@ -28,7 +28,7 @@
 
 - name: Rajani Rao
   disabled: false
-  matched: true
+  matched: false
   sort: 200
   hours: 5
   type: both
@@ -604,6 +604,7 @@
     I'm a Recruitment professional and start-up scaling specialist. I can help mentees with the soft-skills development to really make impact in their role and in the workplace.
   image: assets/images/mentors/mona_ahluwalia.jpg
   languages: English
+  availability: [ 5 ]
   skills:
     experience: 5-7 Years
     years: 7
@@ -691,6 +692,7 @@
     ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
   image: assets/images/mentors/anastasia.jpeg
   languages: English, Ukrainian, Russian
+  availability: [ 5 ]
   skills:
     experience: 7-10 years
     years: 10
@@ -722,6 +724,7 @@
     Experienced Data Engineer with over 7 years experience in SQL, Python, AWS and BigQuery. Focus on ETL processes and data pipelines for reliable and high quality data. Currently working on data modelling and data catalogue solutions.
   image: assets/images/mentors/nonna_shakhova.jpg
   languages: English, Russian
+  availability: [ 5 ]
   skills:
     experience: 7-10 years
     years: 10
