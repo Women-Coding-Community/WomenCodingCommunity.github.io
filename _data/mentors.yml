@@ -591,3 +591,149 @@
   network:
     - linkedin: https://www.linkedin.com/in/kirthikka-devi-v
     - Medium: https://medium.com/@rithik18
+
+- name: Mona Ahluwalia
+  disabled: false
+  sort: 100
+  hours: 3
+  position:  Talent Director, Chapter 2 
+  type: ad-hoc
+  index: 19
+  location: London, UK
+  bio: |
+    I'm a Recruitment professional and start-up scaling specialist. I can help mentees with the soft-skills development to really make impact in their role and in the workplace.
+  image: assets/images/mentors/mona_ahluwalia.jpg
+  languages: English
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: I can help with all soft-skills related coaching
+    areas:
+      - 
+    languages: 
+    focus:
+      - Switch from IC to management position
+    extra: Resume review, emotional intelligence, communication, interviewing
+  network:
+    - linkedin: https://www.linkedin.com/in/mona-ahluwalia-certrp-7754767a/
+
+- name: Andrew King 
+  disabled: false
+  sort: 10
+  hours: 4
+  position:  DevOps Engineer, DRW
+  type: long-term
+  index: 20
+  location: Yorkshire, UK
+  bio: |
+    Over 30 years in commercial IT, 40 years of coding experience, 20 years in financial firms. Know how to manage, manage up, team building, finding team fit. Many years of experience interviewing (on both side of the table).
+  image: assets/images/mentors/andrew_king.jpeg
+  languages: English
+  skills:
+    experience: 16+ years
+    years: 16
+    mentee: Someone who wants to engage in meaningful and useful conversations
+    areas:
+      - Site Reliability Engineering
+      - Engineering management
+      - Distributed systems
+      - Security
+      - Data Science
+      - Grow from mid-level to senior-level
+      - Switch from IC to a management position
+      - Change specialisation within IT
+      - Grow beyond senior level
+    languages: C, Go, Python, JavaScript
+    focus:
+      - Grow from beginner to mid-level
+    extra: Systems design for reliability and risk minimisation. SDLC in practice with CI/CD in production. Interview techniques. When to fix, vs. when to seek a change.
+  network:
+    - linkedin: https://www.linkedin.com/in/andrewkingit/
+    
+- name: Adeola Adekoyejo
+  disabled: false
+  sort: 100
+  hours: 3
+  position:  Full stack Engineer
+  type: ad-hoc
+  index: 21
+  location: London, UK
+  bio: |
+    I am Frontend engineer with 4years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
+  image: assets/images/mentors/adeola_adekoyejo.jpg
+  languages: English
+availability: [ 5 ]
+skills:
+    experience: 4-5 years
+    years: 5
+    mentee: You don’t have to know so much as long as you are willing to learn and do the work from your end
+    areas:
+      - Frontend Developer
+      - Engineering management
+      - Backend Developer
+      - Switch career to IT
+    languages: Python, JavaScript
+    focus:
+      - Grow from beginner to mid-level
+    extra: Frontend interview prep, technical writing, system design, web accessibility, testing
+  network:
+    - linkedin: https://www.linkedin.com/in/adeola-adekoyejo-405799115?trk=contact-info
+    
+- name: Anastasia
+  disabled: false
+  sort: 200
+  hours: 5
+  position: QA Specialist and Mentor, Trivago
+  type: both
+  index: 22
+  location: Düsseldorf, Germany
+  bio: |
+    ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
+  image: assets/images/mentors/anastasia.jpeg
+  languages: English, Ukrainian, Russian
+  skills:
+    experience: 7-10 years
+    years: 10
+    mentee: Sometimes you understand you need a change but need a veiw from another perspective, because we don't know what we don't know. I'm looking for a proactive individual, who wants a change, ready to apply, open to share and exchange.
+    areas:
+      - QA
+      - Project Management
+      - Product Management
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    languages: Java, Javascript
+    focus:
+      - Change specialisation within IT
+    extra: | 
+      Resume Review, Preparation for the Interviews, Career development and job search in Germany, QA management: tools and process organization in the product company.
+  network:
+    - linkedin: https://www.linkedin.com/in/qa-anastasia
+
+- name: Nonna Shakhova
+  disabled: false
+  sort: 200
+  hours: 4
+  position: Data Engineer, Kindred Group
+  type: both
+  index: 23
+  location: London, UK
+  bio: |
+    Experienced Data Engineer with over 7 years experience in SQL, Python, AWS and BigQuery. Focus on ETL processes and data pipelines for reliable and high quality data. Currently working on data modelling and data catalogue solutions.
+  image: assets/images/mentors/nonna_shakhova.jpg
+  languages: English, Russian
+  skills:
+    experience: 7-10 years
+    years: 10
+    mentee: Return to work after maternity leave
+    areas:
+      - Project Management
+      - Data Science
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    languages: Python
+    focus:
+      - Change specialisation within IT
+    extra: Data Engineering, Data modeling and design, CV Review, Career advice
+  network:
+    - linkedin: https://www.linkedin.com/in/nonna-shakhova/
