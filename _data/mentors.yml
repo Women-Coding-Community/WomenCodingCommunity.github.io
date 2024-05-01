@@ -662,20 +662,20 @@
     I am Frontend engineer with 4years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
   image: assets/images/mentors/adeola_adekoyejo.jpg
   languages: English
-availability: [ 5 ]
-skills:
-    experience: 4-5 years
-    years: 5
-    mentee: You don’t have to know so much as long as you are willing to learn and do the work from your end
-    areas:
-      - Frontend Developer
-      - Engineering management
-      - Backend Developer
-      - Switch career to IT
-    languages: Python, JavaScript
-    focus:
-      - Grow from beginner to mid-level
-    extra: Frontend interview prep, technical writing, system design, web accessibility, testing
+  availability: [ 5 ]
+  skills:
+      experience: 4-5 years
+      years: 5
+      mentee: You don’t have to know so much as long as you are willing to learn and do the work from your end
+      areas:
+        - Frontend Developer
+        - Engineering management
+        - Backend Developer
+        - Switch career to IT
+      languages: Python, JavaScript
+      focus:
+        - Grow from beginner to mid-level
+      extra: Frontend interview prep, technical writing, system design, web accessibility, testing
   network:
     - linkedin: https://www.linkedin.com/in/adeola-adekoyejo-405799115?trk=contact-info
     
