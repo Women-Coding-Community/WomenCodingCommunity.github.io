@@ -1,7 +1,6 @@
 .btn {
     text-decoration: none;
-    border: none;
-    font-size: $font-size-lg;
+    font-size: $font-size-md;
     padding: 0 2rem;
     line-height: 2.5;
     max-width: 100%;
@@ -9,4 +8,8 @@
     overflow: hidden;
     text-overflow: ellipsis;
     border-radius: 2rem;
+}
+
+.btn-primary {
+    border: none;
 }
