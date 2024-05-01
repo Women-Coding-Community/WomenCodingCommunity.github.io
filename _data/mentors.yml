@@ -681,7 +681,7 @@ skills:
     
 - name: Anastasia
   disabled: false
-  sort: 100
+  sort: 200
   hours: 5
   position: QA Specialist and Mentor, Trivago
   type: both
@@ -712,7 +712,7 @@ skills:
 
 - name: Nonna Shakhova
   disabled: false
-  sort: 100
+  sort: 200
   hours: 4
   position: Data Engineer, Kindred Group
   type: both
