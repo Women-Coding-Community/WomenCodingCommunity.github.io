@@ -90,6 +90,14 @@
     - name: linkedin
       link: https://www.linkedin.com/in/silke-nodwell-763681172
 
+- name: Ekaterine Oshkhereli
+  position: WCC Lead
+  comment: Data Analyst
+  image: assets/images/team/15.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/ekaterine-oshkhereli-46266559/
+
 - name: Airat Yusuff
   image: assets/images/team/6.jpeg
   position: WCC Lead
@@ -126,3 +134,5 @@
   comment: Senior/Lead Engineer
   image: assets/images/team/14.jpeg
   network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/sonali-goel-6b611522/

@@ -1,0 +1,62 @@
+//
+// Color palette
+//
+
+$purple-10: #260058;
+$purple-20: #3F0F81;
+$purple-30: #572E99;
+$purple-40: #6F48B2;
+$purple-50: #8962CD;
+$purple-60: #A37CEA;
+$purple-70: #BE99FF;
+$purple-80: #D4BBFF;
+$purple-90: #EBDCFF;
+$purple-95: #F7EDFF;
+$purple-99: #FFFBFF;
+
+$neutral-10: #1D1B1E;
+$neutral-20: #323033;
+$neutral-30: #48464A;
+$neutral-40: #605D61;
+$neutral-50: #79767A;
+$neutral-60: #938F94;
+$neutral-70: #AEAAAE;
+$neutral-80: #CAC5CA;
+$neutral-90: #E6E1E6;
+$neutral-95: #F5EFF4;
+$neutral-99: #FFFBFF;
+
+$black: $neutral-10;
+
+$primary-10: $purple-10;
+$primary-20: $purple-20;
+$primary-30: $purple-30;
+$primary-40: $purple-40;
+$primary-50: $purple-50;
+$primary-60: $purple-60;
+$primary-70: $purple-70;
+$primary-80: $purple-80;
+$primary-90: $purple-90;
+$primary-95: $purple-95;
+$primary-99: $purple-99;
+
+$primary: $primary-40;
+
+//
+// Backgrounds
+//
+
+$bg-1: $primary-90;
+$bg-2: #F7F7F7;
+
+//
+// Components
+//
+
+$border-color: $neutral-90;
+
+//
+// Typography
+//
+
+$link-color: $primary-40;

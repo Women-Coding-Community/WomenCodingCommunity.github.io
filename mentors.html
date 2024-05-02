@@ -58,6 +58,7 @@ title: Mentors
                             <h4 class="card-title">
                                 {{mentor.name}}
                             </h4>
+
                             <div id="presentation-{{mentor.index}}" class="card-presentation" data-index="{{mentor.index}}">
                                 <h5 class="position">{{mentor.position}}</h5>
                                 <p class="card-text"><label>Based in</label>: {{mentor.location}}</p>
@@ -74,7 +75,6 @@ title: Mentors
                                 {% endif %}
 
                                 {% include networks_mentors.html %}
-
                             </div>
 
                             <div id="mentees-{{mentor.index}}" class="card-mentees d-none">
