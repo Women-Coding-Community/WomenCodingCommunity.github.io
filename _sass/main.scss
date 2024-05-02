@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
 
+@import 'custom/variables'; // needs to be imported before bootstrap to work
 @import 'bootstrap/bootstrap';
 @import 'custom/custom';
 
-$bg-1: $primary-90;
-$bg-2: #f7f7f7;
-
-$bodyColor: #000000;
 $bodyFont: 'Roboto', sans-serif;
 
 $container-max-width: 1376px;
 
 body {
-  background: #fff;
-  color: $bodyColor;
+  background: $white;
+  color: $black;
   font-family: $bodyFont;
   font-weight: 400;
   display: flex;
