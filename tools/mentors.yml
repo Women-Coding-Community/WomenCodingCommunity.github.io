@@ -1,0 +1,153 @@
+- name: Adriana Zencke Zimmermann
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 5
+  type: both
+  index: 1
+  location: Valencia / Spain
+  position: Tech Lead, Centric Software
+  bio: |
+    I am a mother, a wife, and a Software Engineer. I graduated in Computer Science and have over 14 years of experience working in tech companies in Brazil, Germany, and Spain. As Backend Engineer, I found this to be my passion which I focused on in the last six years of my career. I am always excited to help others, and my goal is to empower women and support them with the difficulties I had as an engineer, and I still have from time to time.
+  image: "Download image from: Slack"
+  languages: English, Portuguese
+  availability: []
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      Someone willing to learn new technologies or to improve current skills, looking for guidance on how to navigate the initial years in the industry or in a new company. Also someone able to invest time in learning.
+    areas:
+      - Backend Developer
+      - Fullstack Developer
+      - Distributed Systems
+      - Frontend Developer
+      - QA
+    languages: Java, Javascript, Kotlin, Python
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    extra: |
+      Java, Spring Boot and Best Practices
+  network:
+    - linkedin: https://www.linkedin.com/in/dricazenck/
+    - twitter: https://twitter.com/DricaZenck
+    - medium: https://medium.com/@dricazenck
+    - github: https://github.com/dricazenck
+
+- name: A A
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 5
+  type: long-term
+  index: 2
+  location: London, UK
+  position: Tech Lead, A A
+  bio: |
+    Currently working as Lead Engineer for Hubspot. I have 12 years for Software development experience (Backend and Fullstack).I have worked with tech giants for 7 years - Microsoft, Expedia, Salesforce and have worked in startup industry for 5 years.Hence i understand working in both in environments. 
+    I have worked wide variety of technologies - Java, AWS, Azure, Python, Distributed systems, Scaling applications.
+  image: "Download image from: Slack"
+  languages: English
+  availability: []
+  skills:
+    experience: 10 Years
+    years: 10
+    mentee: |
+      Someone willing to learn new technologies or to improve current skills, looking for guidance on how to navigate the initial years in the industry or in a new company. Also someone able to invest time in learning.
+    areas:
+      - Backend Developer
+      - Fullstack Developer
+      - QA
+    languages: Kotlin, C++
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    extra: |
+      CV review
+      Technical Interview
+      Different roles in tech
+  network:
+    - linkedin: https://www.linkedin.com/in/aa/
+    - medium: https://medium.com/@aa
+
+- name: B B
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 2
+  type: ad-hoc
+  index: 3
+  location: Helsinki/Finland
+  position: Tech Lead, B B
+  bio: |
+    8 years of learning how to build software
+
+    Experienced Data Scientist. PyData Stack, A/B Testing, Algorithms and Optimizations.
+
+    Every day tasks include Statistical Data Analysis and significance calculations, data cleaning, data munging, model development etc.
+
+    Skills include: 
+
+    - Machine Learning
+    - Python
+    - SQL
+    - Data Analysis
+    - Predictive Modeling
+  image: "Download image from: LinkedIn"
+  languages: English, Finish
+  availability: []
+  skills:
+    experience: 5 - 7 Years
+    years: 7
+    mentee: |
+      Someone willing to learn new technologies or to improve current skills, looking for guidance on how to navigate the initial years in the industry or in a new company. Also someone able to invest time in learning.
+    areas:
+      - Fullstack Developer
+      - Distributed Systems
+      - Frontend Developer
+      - QA
+    languages: Java, Javascript, Kotlin, Python
+    focus:
+      - Grow from beginner to mid-level
+      - Grow beyond senior level
+    extra: |
+      - System Design & Architecture
+      - Optimal Database Design
+      - How to work and think within an engineering team
+      - User Psychology
+  network:
+    - linkedin: https://www.linkedin.com/in/bb/
+    - twitter: https://twitter.com/bb
+
+- name: C C
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 0
+  type: both
+  index: 4
+  location: Toronto
+  position: Tech Lead, C C
+  bio: ""
+  image: "Download image from: nan"
+  languages: English      German
+  availability: []
+  skills:
+    experience: 3
+    years: 3
+    mentee: |
+      Someone willing to learn new technologies or to improve current skills, looking for guidance on how to navigate the initial years in the industry or in a new company. Also someone able to invest time in learning.
+    areas:
+      - Backend Developer
+      - Distributed Systems
+      - Frontend Developer
+      - QA
+    languages: Java, Kotlin, Python
+    focus:
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+    extra: |
+      Resume Review, Preparation for Technical Invterview, Case Studies, Projects for github
+  network:
+    - linkedin: https://www.linkedin.com/in/cc/
