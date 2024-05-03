@@ -43,27 +43,22 @@ title: Home
             <div class="content">
                 <h2>Announcements</h2>
                 <div class="col-12 col-lg-8">
-                    <article class="card card-l">
-                        <div class="card-body col-md-8">
-                            <div class="card-date">01.05.2024</div>
-                            <h3 class="card-title">Mentorship ad-hoc registration is now open for mentees</h3>
-                            <p class="card-desc">Sign up for this unique opportunity of one-time mentoring sessions with personalised guidance from experienced mentors.</p>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeoMLS2K-DYF16uXALXrJtHJMqQZSNDYcFh0nYmBFV2GHM6ig/viewform" target="_blank" class="btn btn-outline-primary">Join now</a>
-                        </div>
-                        <div class="card-media col-md-4">
-                            <img src="/assets/images/announcements/stock-unsplash-computer-typing.jpg">
-                        </div>
-                    </article>
-                    <article class="card card-l">
-                        <div class="card-body col-md-8">
-                            <div class="card-date">30.04.2024</div>
-                            <h3 class="card-title">New Women Coding Community website!</h3>
-                            <p class="card-desc">We are thrilled to introduce our brand-new website. Created with dedication and passion by our incredible team of volunteers, this platform serves as your gateway to a diverse array of resources, programs, mentorship opportunities, and more.</p>
-                        </div>
-                        <div class="card-media col-md-4">
-                            <img src="/assets/images/announcements/stock-copilot-designer_celebrate.jpg">
-                        </div>
-                    </article>
+                    {% for announcement in site.data.announcement %}
+                        <article class="card card-l">
+                            <div class="card-body col-md-8">
+                                <div class="card-date">{{ announcement.date }}</div>
+                                <h3 class="card-title">{{ announcement.title }}</h3>
+                                <p class="card-desc">{{ announcement.description }}</p>
+                                {% if announcement.link %}
+                                    <a href="{{ announcement.link.path }}" class="btn btn-outline-primary">{{ announcement.link.title }}</a>
+                                {% endif %}
+                            </div>
+                            
+                            <div class="card-media col-md-4">
+                                <img src="{{ announcement.image }}" alt="{{ announcement.title }} image">
+                            </div>
+                        </article>
+                    {% endfor %}
                 </div>
             </div>
         </div>
