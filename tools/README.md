@@ -15,7 +15,7 @@
 
 - Execute setup_venv_template.bat
   ```
-  setup_venv_template.bat
+  setup_python_venv.bat
   ```
 
 3. Update mentors.yml
