@@ -1,9 +1,5 @@
 """
     Create a script that will convert mentor's data from mentors.xlsx to mentors.yml file
-
-    Run script:
-        \tools>run_mentors_automation.bat
-        Enter arguments for Python script:mentors.xlsx mentors.yml a
 """
 #!/usr/bin/env python
 
@@ -42,18 +38,32 @@ class WriteMode(Enum):
     APPEND = "a"
 
 
+def fallback_link(link):
+    """
+        Use "webpage" keyword as fallback in case of unknown link.
+     """
+    return {WEBSITE: link}
+
+
+def strings_to_list(*string_args):
+    """
+    Clean strings and create to list
+    """
+    data_str = ""
+
+    for item in string_args:
+        if not pd.isna(item) and len(item):
+            data_str += item + " "
+
+    return data_str.split()
+
+
 def get_social_media_links(*links_args):
     """
     Prepare mentor's social media links for yaml network sequence.
     """
     network_list = []
-    links_str = ""
-
-    for item in links_args:
-        if not pd.isna(item):
-            links_str += item + " "
-
-    social_media_links_list = links_str.split()
+    social_media_links_list = strings_to_list(*links_args)
 
     for link in social_media_links_list:
         found = 0
@@ -65,9 +75,9 @@ def get_social_media_links(*links_args):
                     network_list.append({name: link})
                 found = 1
                 break
-        if found == 0 and len(link):
-            # Use "webpage" as fallback in case of unknown link.
-            network_list.append({WEBSITE: link})
+        if found == 0:
+            network_list.append(fallback_link(link))
+
     return network_list
 
 
@@ -124,8 +134,7 @@ def get_mentorship_type(mentorship_type_str):
         return TYPE_LONG_TERM
     elif TYPE_BOTH in mentorship_type:
         return TYPE_BOTH
-
-    return ""
+    return "NOT_FOUND"
 
 
 def update_yml_file_formatting(s):
@@ -190,7 +199,6 @@ def xlsx_to_yaml_parser(mentor_row, mentor_index):
     hours_per_month = extract_numbers_from_string(mentor_row.iloc[29])
     max_experience = extract_numbers_from_string(mentor_row.iloc[9])
 
-    # TODO: After testing phase change to mentor_disabled to True
     # TODO: If the complete yml is generated, these fields should be read from the old yml
     mentor_disabled = False
     mentor_matched = False

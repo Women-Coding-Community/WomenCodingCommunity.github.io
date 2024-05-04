@@ -3,8 +3,7 @@
 ### On your machine install Python (version 3.11.3 or above).
 
 - Windows: https://www.python.org/downloads/windows/
-- iOS:
-- Linux:
+- Linux: $ sudo apt install python3.11
 
 ### Set up for Visual Studio Code
 
@@ -23,9 +22,9 @@
 
 ### Set up for PyCharm
 
-In development.
+TBD
 
-### Execute run_mentors_automation.bat
+### Execute on Windows
 
 1. Run CMD
 2. Go to project's \tools folder
