@@ -1,12 +1,16 @@
 - title: Mentorship ad-hoc registration is now open for mentees
   description: Sign up for this unique opportunity of one-time mentoring sessions with personalised guidance from experienced mentors.
   date: 01.05.2024
-  image: /assets/images/announcements/stock-unsplash-computer-typing.jpg
-  link: 
+  image:
+    path: "/assets/images/announcements/stock-unsplash-computer-typing.jpg"
+    alt: Image decorative
+  link:
     path: /mentors
     title: Join now
 
 - title: New Women Coding Community website!
   description: We are thrilled to introduce our brand-new website. Created with dedication and passion by our incredible team of volunteers, this platform serves as your gateway to a diverse array of resources, programs, mentorship opportunities, and more.
   date: 30.04.2024
-  image: /assets/images/announcements/stock-copilot-designer_celebrate.jpg
+  image:
+    path: "/assets/images/announcements/stock-copilot-designer_celebrate.jpg"
+    alt: Image decorative

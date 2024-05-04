@@ -44,20 +44,21 @@ title: Home
                 <h2>Announcements</h2>
                 <div class="col-12 col-lg-8">
                     {% for announcement in site.data.announcement %}
-                        <article class="card card-l">
-                            <div class="card-body col-md-8">
-                                <div class="card-date">{{ announcement.date }}</div>
-                                <h3 class="card-title">{{ announcement.title }}</h3>
-                                <p class="card-desc">{{ announcement.description }}</p>
-                                {% if announcement.link %}
-                                    <a href="{{ announcement.link.path }}" class="btn btn-outline-primary">{{ announcement.link.title }}</a>
-                                {% endif %}
-                            </div>
-                            
-                            <div class="card-media col-md-4">
-                                <img src="{{ announcement.image }}" alt="{{ announcement.title }} image">
-                            </div>
-                        </article>
+                    <article class="card card-l">
+                        <div class="card-body col-md-8">
+                            <div class="card-date">{{ announcement.date }}</div>
+                            <h3 class="card-title">{{ announcement.title }}</h3>
+                            <p class="card-desc">{{ announcement.description }}</p>
+                            {% if announcement.link %}
+                            <a href="{{ announcement.link.path }}" class="btn btn-outline-primary">{{
+                                announcement.link.title }}</a>
+                            {% endif %}
+                        </div>
+
+                        <div class="card-media col-md-4">
+                            <img src="{{ announcement.image.path }}" alt="{{ announcement.image.alt }}">
+                        </div>
+                    </article>
                     {% endfor %}
                 </div>
             </div>
