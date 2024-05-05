@@ -6,7 +6,7 @@ python 3.11 or above
 
 ### Execute on Mac
 
-Execute mentor's automation to re-create mentors yml file
+Execute mentor's automation to append mentors into yml file
   
 ```shell
 sh run_automation.sh 
