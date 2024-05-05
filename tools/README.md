@@ -1,11 +1,22 @@
 ## How to Run Python Scripts
 
-### On your machine install Python (version 3.11.3 or above).
+### Dependencies
 
-- Windows: https://www.python.org/downloads/windows/
-- Linux: $ sudo apt install python3.11
+python 3.11 or above
 
-### Setup for Windows
+### Execute on Mac
+
+Execute mentor's automation to re-create mentors yml file
+  
+```shell
+sh run_automation.sh 
+```
+
+to change default values [go to](run_automation.sh) and adjust the necessary params.
+
+### Setup and Execute on Windows
+
+* [Install python](https://www.python.org/downloads/windows)
 
 1. Navigate to the project's \tools directory:
 
