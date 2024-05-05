@@ -1,0 +1,22 @@
+- name: Mentor1
+  location: City, Country
+  bio: 
+  I am a passionate QA Engineer, have experience in testing Web Applications.
+  image: assets/images/mentors/mentor_name_lowercase.jpeg
+  languages: English
+  availability: [ 5 ]
+  skills:
+    experience: 2-4 years
+    years: 4
+    areas:
+      - Quality Assurance
+    mentee: I would love to connect with an open-minded early-career engineer.
+    languages: Python, Html, CSS, JavaScript
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+    extra: Test Automation, Quality Assurance, Starting career in IT, CV Review, Preparation for the Interview,
+  network:
+    - linkedin: https://www.linkedin.com/in/id
+    - github: https://github.com/id

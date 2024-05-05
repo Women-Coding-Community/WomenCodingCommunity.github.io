@@ -13,6 +13,8 @@ import pandas as pd
 from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import LiteralScalarString
 
+import yml_utils
+
 SHEET_NAME = "Form Responses 1"
 TELEGRAM_WEB_SITE = '//t.'
 SOCIAL_MEDIA = ['linkedin', 'twitter', 'github', 'medium', 'youtube', 'instagram', TELEGRAM_WEB_SITE, 'meetup', 'slack',
@@ -171,18 +173,6 @@ def write_yml_file(file_path, mentors_data, mode: WriteMode):
     logging.info(f"File: {file_path} is successfully written.")
 
 
-def read_yml_file(file_path):
-    """
-    Read yml file
-    """
-    with open(file_path, 'r', encoding="utf-8") as input_yml:
-        yaml = YAML(typ='safe')
-        yml_dict = yaml.load(input_yml)
-        logging.info(f"File: {file_path} is successfully read.")
-
-    return yml_dict
-
-
 def xlsx_to_yaml_parser(mentor_row, mentor_index):
     """
     Prepare mentor's excel data for yaml format
@@ -261,7 +251,7 @@ def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=1):
     mentors = []
 
     # Get mentors' names and indexes from yml file
-    mentors_yml_dict = read_yml_file(yml_file_path)
+    mentors_yml_dict = yml_utils.read_yml_to_dict(yml_file_path)
 
     df_mentors = pd.read_excel(xlsx_file_path, sheet_name=SHEET_NAME, skiprows=skip_rows)
 
