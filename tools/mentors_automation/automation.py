@@ -34,7 +34,9 @@ IMAGE_FILE_PATH = "assets/images/mentors/"
 IMAGE_SUFFIX = ".jpeg"
 
 class WriteMode(Enum):
+    # Create new file file
     WRITE = "w"
+    # Append in existent yml file
     APPEND = "a"
 
 
@@ -146,13 +148,13 @@ def update_yml_file_formatting(s):
     return updated_string
 
 
-def write_yml_file(file_path, mentors_data, mode):
+def write_yml_file(file_path, mentors_data, mode: WriteMode):
     """
     Create new or append to mentors.yml file
     :mentors_data: list of dictionaries
     :mode: write or append
     """
-    with open(file_path, mode, encoding = "utf-8") as output_yml:
+    with open(file_path, mode.value, encoding = "utf-8") as output_yml:
         yaml = YAML()
 
         # Display yaml content in block style (not inline)
@@ -207,7 +209,7 @@ def xlsx_to_yaml_parser(mentor_row, mentor_index):
     # Left commented since the code might be used in the later versions (if decided to
     # add default picture until the mentor's image is not available)
     # mentor_image = os.path.join(IMAGE_FILE_PATH, str(mentor_index) + IMAGE_SUFFIX)
-    mentor_image =  f"Download image from: {mentor_row.iloc[12]}"
+    mentor_image =  f"{IMAGE_FILE_PATH}/mentor_name_lowercase.jpeg # take from: {mentor_row.iloc[12]}"
 
     mentor = {'name': mentor_row.iloc[1],
             'disabled': mentor_disabled,
@@ -294,31 +296,22 @@ def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skiprows=1):
     return mentors
 
 
-def main():
+def run_automation(xlsx_file_path = "samples/mentors.xlsx", 
+                   yml_file_path = "samples/mentors.yml", 
+                   mode = WriteMode.APPEND, 
+                   skiprows = 1):
+    
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-    if len(sys.argv) != 4:
-        logging.error("Usage: python SCRIPT_NAME FILE_PATH_MENTORS_XLSX FILE_PATH_MENTORS_YML MODE")
-        sys.exit(1)
 
-    xlsx_file_path = sys.argv[1]
-    yml_file_path = sys.argv[2]
-    mode = sys.argv[3]
-    # TODO: skiprows = sys.argv[4]
-    skiprows = 1
-
-    # Append new mentors to the current mentors.yml file
-    if mode == WriteMode.APPEND.value:
+    if mode == WriteMode.APPEND:
         list_of_mentors = get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skiprows)
         if list_of_mentors:
             write_yml_file(yml_file_path, list_of_mentors, WriteMode.APPEND.value)
-    # Create new mentors.yml file
-    elif mode == WriteMode.WRITE.value:
-        # TODO: When writing new file, indexes of the mentors
-        # from the current yml file must be used in the newly created yml file.
-        # Currently index is generated from the mentor's row number from the xlsx table
+    
+    elif mode == WriteMode.WRITE:
         list_of_mentors = get_all_mentors_in_yml_format(xlsx_file_path)
-        write_yml_file(yml_file_path, list_of_mentors, WriteMode.WRITE.value)
+        write_yml_file(yml_file_path, list_of_mentors, WriteMode.WRITE)
 
 
 if __name__ == "__main__":
-    main()
+    run_automation()
