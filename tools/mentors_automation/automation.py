@@ -164,8 +164,7 @@ def write_yml_file(file_path, mentors_data, mode: WriteMode):
         # yaml.indent(mapping=2, sequence=4, offset=2)
 
         yaml.dump(mentors_data, output_yml, transform=update_yml_file_formatting)
-    print(f"File: {file_path} is successfully written.")
-
+    logging.info(f"File: {file_path} is successfully written.")
 
 def read_yml_file(file_path):
     """
@@ -174,7 +173,9 @@ def read_yml_file(file_path):
     with open(file_path, 'r', encoding="utf-8") as input_yml:
         yaml=YAML(typ='safe')
         yml_dict = yaml.load(input_yml)
-        print(f"File: {file_path} is successfully read.")
+        
+        logging.info(f"File: {file_path} is successfully read.")
+
     return yml_dict
 
 
@@ -224,7 +225,7 @@ def xlsx_to_yaml_parser(mentor_row, mentor_index):
             'image': mentor_image,
             'languages': mentor_row.iloc[6],
             'availability': [],
-            'skills':{
+            'skills': {
                 'experience': mentor_row.iloc[9],
                 'years': max_experience,
                 'mentee': mentee_str,
@@ -248,11 +249,14 @@ def get_all_mentors_in_yml_format(xlsx_file_path, skiprows=0):
 
     df_mentors = pd.read_excel(xlsx_file_path, sheet_name=SHEET_NAME, skiprows=skiprows)
 
+    logging.info(f"Excel read {len(df_mentors)} mentors")
+
     for row in range(0, len(df_mentors)):
         mentor =  xlsx_to_yaml_parser(df_mentors.iloc[row], row+1)
         mentors.append(mentor)
 
-    print(f"Added {len(mentors)} mentors to the mentors.yml file")
+    logging.info(f"Added {len(mentors)} mentors to the mentors.yml file")
+
     return mentors
 
 
@@ -279,6 +283,8 @@ def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skiprows=1):
 
         df_mentors = pd.read_excel(xlsx_file_path, sheet_name=SHEET_NAME, skiprows=skiprows)
 
+        logging.info(f"Excel read {len(df_mentors)} mentors")
+
         # Get mentors' names from xlsx file
         mentors_names_xlsx = {}
         for i in range(0, len(df_mentors)):
@@ -290,25 +296,46 @@ def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skiprows=1):
                 new_index += 1
                 mentors.append(mentor)
 
-        print(f"Added {len(mentors)} mentors to the mentors.yml file")
+        logging.info(f"Added {len(mentors)} mentors to the mentors.yml file")
     else:
         mentors = get_all_mentors_in_yml_format(xlsx_file_path, skiprows)
     return mentors
 
 
-def run_automation(xlsx_file_path = "samples/mentors.xlsx", 
-                   yml_file_path = "samples/mentors.yml", 
-                   mode = WriteMode.APPEND, 
-                   skiprows = 1):
+def run_automation():
     
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+    if len(sys.argv) == 4:
+        xlsx_file_path = sys.argv[1]
+        yml_file_path = sys.argv[2]
+        mode = WriteMode(sys.argv[3])
+
+        logging.info("Params: xlsx_file_path %s yml_file_path: %s mode: %s", xlsx_file_path, yml_file_path, mode)
+    else: 
+        xlsx_file_path = "samples/mentors.xlsx"
+        yml_file_path = "samples/mentors.yml"
+        mode = WriteMode.APPEND
+
+        logging.info("Default values: xlsx_file_path %s yml_file_path: %s mode: %s", xlsx_file_path, yml_file_path, mode)
+
+
+    # TODO: skiprows = sys.argv[4]
+    skiprows = 1
+
     if mode == WriteMode.APPEND:
+        logging.info("Appending ")
+
         list_of_mentors = get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skiprows)
+        
+        logging.info("New Mentors size: %d", len(list_of_mentors))
+
         if list_of_mentors:
-            write_yml_file(yml_file_path, list_of_mentors, WriteMode.APPEND.value)
+            write_yml_file(yml_file_path, list_of_mentors, WriteMode.APPEND)
     
-    elif mode == WriteMode.WRITE:
+    elif mode == WriteMode.WRITE.value:
+        logging.info("Recreate yml file")
+
         list_of_mentors = get_all_mentors_in_yml_format(xlsx_file_path)
         write_yml_file(yml_file_path, list_of_mentors, WriteMode.WRITE)
 
