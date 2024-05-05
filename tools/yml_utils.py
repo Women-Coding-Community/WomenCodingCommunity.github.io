@@ -17,5 +17,5 @@ def read_yml_to_dict(file_path):
 
             return yml_dict
     except ScannerError as ex:
-        logging.info("Invalid yml file %s.", file_path)
+        logging.error("Invalid yml file %s.", file_path)
         return {}
