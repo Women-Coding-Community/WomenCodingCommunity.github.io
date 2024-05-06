@@ -14,7 +14,7 @@ sh run_automation.sh
 
 to change default values [go to](run_automation.sh) and adjust the necessary params.
 
-### Setup and Execute on Windows
+### Execute on Windows
 
 * [Install python](https://www.python.org/downloads/windows)
 
