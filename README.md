@@ -108,7 +108,7 @@ As an alternative way, remove Gemfile.lock if setting Ruby version didn't help.
 
 ## How to Run End-To-End Testing Locally
 
-1. Open your Terminal in the `e2e-tests` folder, e.g. `cd ~/workspace/london/e2e-tests`
+1. Open your Terminal in the root directory.
 2. `npm install cypress --save-dev` - This will install Cypress locally as a dev dependency for your project.
 3. Run `npx cypress open` from your project root
 4. Select E2E testing
