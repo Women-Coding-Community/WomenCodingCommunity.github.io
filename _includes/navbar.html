@@ -25,10 +25,10 @@
                             </a>
                         {% endif %}
 
-                        <ul class="dropdown-menu sub-navbar{% if forloop.last %} dropdown-menu-right{% endif %}" aria-labelledby="drop{{item.index}}">
+                        <ul class="dropdown-menu{% if forloop.last %} dropdown-menu-right{% endif %}" aria-labelledby="drop{{item.index}}">
                             {% for entry in item.subfolderitems %}
                                 <li>
-                                    <a class="nav-sublink" href="/{{ entry.url }}">{{ entry.page }}</a>
+                                    <a class="dropdown-item" href="/{{ entry.url }}">{{ entry.page }}</a>
                                 </li>
                             {% endfor %}
                           </ul>
