@@ -1,5 +1,10 @@
 .idea
 _site
 *.DS_Store
-node_modules/*
+node_modules
 tools/__pycache__
+tools/venv
+bin/
+lib/
+.venv
+pyvenv.cfg
