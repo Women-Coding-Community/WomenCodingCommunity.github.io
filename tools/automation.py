@@ -291,7 +291,7 @@ def run_automation():
         xlsx_file_path = sys.argv[1]
         yml_file_path = sys.argv[2]
         mode = WriteMode(sys.argv[3])
-        skip_rows = sys.argv[4]
+        skip_rows = int(sys.argv[4])
 
         logging.info("Params: xlsx: %s yml: %s mode: %s skip_rows: %s", xlsx_file_path, yml_file_path, mode, skip_rows)
     else:
