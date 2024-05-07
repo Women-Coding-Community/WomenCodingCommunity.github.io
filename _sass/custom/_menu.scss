@@ -21,19 +21,19 @@
     }
   }
 
-  .nav-item {
+  .navbar li {
     list-style-type: none;
     display: inline-block;
     margin: 0.2rem 1rem;
   }
     
-  .nav-item > a {
+  .navbar li > a {
     text-decoration: none;
     display: inline-block;
     position: relative;
   }
   
-  .nav-item > .nav-link::after {
+  .navbar li > a::after {
     content: "";
     display: block;
     margin: auto;
@@ -44,17 +44,13 @@
     transition: all 0.3s;
   }
     
-  .nav-item > a:hover::after, .nav-item > a.active-nav::after {
+  .navbar li > a:hover::after, li > a.active-nav::after {
     width: 100%;
     background: $primary;
   }
 
   .navbar .dropdown > a[aria-expanded="true"]:hover::after, .dropdown > a.active-nav::after {
     background: transparent;
-  }
-
-  .dropdown-menu {
-    padding: 0;
   }
 
   .dropdown-menu li {
