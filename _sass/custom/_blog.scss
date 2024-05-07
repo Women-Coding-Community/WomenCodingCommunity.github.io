@@ -49,4 +49,22 @@ $post-max-width: 1024px;
     text-decoration: underline;
     font-size: 18px;
   }
+
+  img {
+    padding: 25px;
+  }
+
+  blockquote {
+    padding: 2rem 0rem;
+    color: #164863;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  blockquote p:before {
+    content: '"'
+  }
+  blockquote p:after {
+    content: '"'; 
+  }
 }
