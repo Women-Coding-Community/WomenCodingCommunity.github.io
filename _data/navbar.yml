@@ -7,12 +7,32 @@
   subfolderitems:
     - page: Mentors
       url: mentors
+      breadcrumbs: 
+        - name: Home
+          link: 
+        - name: Mentorship
+          link: mentorship
     - page: Resources
       url: mentorship-resources
+      breadcrumbs: 
+        - name: Home
+          link: 
+        - name: Mentorship
+          link: mentorship
     - page: Code of Conduct
       url: mentorship-code-of-conduct
+      breadcrumbs: 
+        - name: Home
+          link: 
+        - name: Mentorship
+          link: mentorship
     - page: FAQ
       url: faq
+      breadcrumbs: 
+        - name: Home
+          link: 
+        - name: Mentorship
+          link: mentorship
 - name: Programmes
   index: 2
   subfolderitems:
@@ -31,5 +51,15 @@
   subfolderitems:
     - page: Team
       url: team
+      breadcrumbs: 
+        - name: Home
+          link: 
+        - name: About Us
+          link: about
     - page: Code of Conduct
       url: code-of-conduct
+      breadcrumbs: 
+        - name: Home
+          link: 
+        - name: About Us
+          link: about

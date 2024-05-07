@@ -1,14 +1,45 @@
 <nav aria-label="Breadcrumb" class="breadcrumb">
     <div class="container">
-        <ol>
+        <!-- <ol>
             <li class="breadcrumb-item"><a href="/">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Mentorship</li>
-        </ol>
+        </ol> -->
         <!-- <div clas="breadcrumb-back__wrapper">
             <div class="breadcrumb__back">
                 <div class="material-symbols-outlined" aria-hidden="true">arrow_back</div>
                 <a href="/blog">Back to blog</a>
             </div>
         </div> -->
+
+        
+        <ol>
+            {% for item in site.data.navbar %}
+                {% if item.breadcrumbs %}
+                    {% for itembreadcrumbs in item.breadcrumbs %}
+                        <li class="breadcrumb-item">
+                            <a href="/{{ itembreadcrumbs.link }}">{{ itembreadcrumbs.name }}</a>
+                        </li>
+                    {% endfor %}
+                    {% else %}
+                        {% if item.subfolderitems %}
+        
+                            {% for entry in item.subfolderitems %}
+                                {% if entry.breadcrumbs %}
+                                    {% for entrybreadcrumbs in entry.breadcrumbs %}
+                                        <li class="breadcrumb-item">
+                                            <a href="/{{ entrybreadcrumbs.link }}">{{ entrybreadcrumbs.name }}</a>
+                                        </li>
+                                    {% endfor %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
+                {% endif %}
+                
+
+                <li class="breadcrumb-item">
+                    <a href="/{{ item.url }}">{{ item.page }}</a>
+                </li>
+            {% endfor %}
+        </ol>
     </div>
-  </nav>
+</nav>
