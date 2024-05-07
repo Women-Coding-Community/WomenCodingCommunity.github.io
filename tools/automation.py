@@ -322,10 +322,10 @@ def run_automation():
         if list_of_mentors:
             write_yml_file(yml_file_path, list_of_mentors, WriteMode.APPEND)
 
-    elif mode == WriteMode.WRITE.value:
+    elif mode == WriteMode.WRITE:
         logging.info("Recreate yml - Write option selected.")
 
-        list_of_mentors = get_all_mentors_in_yml_format(xlsx_file_path)
+        list_of_mentors = get_all_mentors_in_yml_format(xlsx_file_path, skip_rows=skip_rows)
         write_yml_file(yml_file_path, list_of_mentors, WriteMode.WRITE)
 
 
