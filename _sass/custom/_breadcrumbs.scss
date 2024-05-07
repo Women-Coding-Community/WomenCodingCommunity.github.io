@@ -26,6 +26,10 @@
     }
 }
 
+.breadcrumb-item.active {
+    color: inherit;
+}
+
 .breadcrumb-back__wrapper {
     display: flex;
     align-items: center;
