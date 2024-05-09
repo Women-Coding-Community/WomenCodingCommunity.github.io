@@ -1,0 +1,55 @@
+//
+// Backgrounds
+//
+
+@mixin gradient-background($start-color, $end-color) {
+    background: linear-gradient(to right, $start-color, $end-color);
+}
+
+.bg-gradient-1 {
+    @include gradient-background($coral-80, $yellow-90);
+}
+
+//
+// Typography
+//
+
+@mixin font-display-l {
+    font-size: $font-display-m;
+    line-height: 1.1;
+    font-weight: 500;
+
+    @include media-breakpoint-up(lg) {
+        font-size: $font-display-l;
+    }
+}
+
+@mixin font-display-m {
+    font-size: $font-display-s;
+    line-height: 1.1;
+
+    @include media-breakpoint-up(md) {
+        font-size: $font-display-m;
+    }
+}
+
+@mixin font-headline-l {
+    font-size: $font-headline-s;
+    line-height: 1.4;
+
+    @include media-breakpoint-up(md) {
+        font-size: $font-headline-m;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: $font-headline-l;
+    }
+}
+
+@mixin font-body {
+    font-size: $font-body-m;
+
+    @include media-breakpoint-up(sm) {
+        font-size: $font-body-l;
+    }
+}
