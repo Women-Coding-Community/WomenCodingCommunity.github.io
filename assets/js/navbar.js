@@ -20,13 +20,22 @@ const controllerNavbar = (function (jQuery) {
       const dropdownToggle = dropdownMenu.find('.dropdown-toggle');
       const dropdownMenuContent = dropdownMenu.find('.dropdown-menu');
 
-      dropdownToggle.on('mouseenter', function () {
-        dropdownMenuContent.addClass('show');
-      })
+      // Toggle dropdown menu when clicking the dropdown toggle
+      dropdownToggle.on('click', function (e) {
+        e.preventDefault(); // Prevent default anchor behavior
+        
+        // Close all other dropdowns
+        jQuery('.dropdown-menu').not(dropdownMenuContent).removeClass('show');
+        
+        dropdownMenuContent.toggleClass('show');
+      });
 
-      dropdownMenu.on('mouseleave', function () {
-        dropdownMenuContent.removeClass('show');
-      })
+      // Hide dropdown menu when clicking outside the dropdown menu
+      jQuery(document).on('click', function (e) {
+        if (!dropdownMenu.is(e.target) && dropdownMenu.has(e.target).length === 0 && !dropdownToggle.is(e.target) && dropdownToggle.has(e.target).length === 0) {
+          dropdownMenuContent.removeClass('show');
+        }
+      });
     });
   }
 
