@@ -1,17 +1,21 @@
 
 .team {
 
-    .row {
-        justify-content: flex-start;
+    .card-deck {
+        .card {
+            margin: 0 0 map-get($spacers, 4) 0;
+        }
     }
 
-    .profile-photo {
-        width: 150px;
+    .card-media {
+        padding: map-get($spacers, 4) map-get($spacers, 4) map-get($spacers, 2) map-get($spacers, 4);
+        img {
+            border-radius: 100%;
+        }
     }
     
     .network {
         a {
-            border-radius: 100%;
             display: inline-block;
             margin-right: 0.5rem;
             svg {
@@ -22,18 +26,20 @@
         }
     }
 
-    .contributors {
-        .row {
-            margin-bottom: 50px;
+    .featured-content {
+
+        .row-content {
+            display: flex;
+            justify-content: center;
         }
-    }
 
-    .section {
-        @extend .my-7;
-    }
+        .card-l {
+            border: none;
+            text-align: center;
 
-    .col-12 {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+            p {
+                text-align: center;
+            }
+        }
     }
 }
