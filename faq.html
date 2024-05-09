@@ -1,32 +1,33 @@
 ---
 layout: default
-title: FAQ
+title: Mentorship FAQ
 ---
 
-
-<div class="page-header">
-    <h1>FAQ</h1>
-</div>
-<div class="faq container my-5">
-    <div class="content-constrained">
-        {% for faq in site.data.faq %}
-        <section class="container my-4">
-            <section id="accordion">
-                <a class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top" aria-controls="faq-{{faq.index}}" aria-expanded="false" data-toggle="collapse" href="#faq-{{faq.index}}" role="button">
-                    <div class="position-relative d-flex align-items-left">
-                        <h2 class="h4 m-0 pr-3">{{faq.question}}</h2>
-                        <div class="position-absolute top-0 right-0 h-100 d-flex align-items-center">
-                            {% include icons/plus.svg %}
+<div class="page faq">
+    {% include page-header.html %}
+    <div class="container">
+        <div class="row">
+            <div class="content-constrained">
+                <section>
+                    {% for faq in site.data.faq %}
+                    <div class="accordion">
+                        <a class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top" aria-controls="faq-{{faq.index}}" aria-expanded="false" data-toggle="collapse" href="#faq-{{faq.index}}" role="button">
+                            <div class="position-relative d-flex align-items-left">
+                                <h2 class="accordion-title">{{faq.question}}</h2>
+                                <div class="position-absolute top-0 right-0 h-100 d-flex align-items-center">
+                                    {% include icons/plus.svg %}
+                                </div>
+                            </div>
+                        </a>
+                        <div class="collapse" id="faq-{{faq.index}}">
+                            <div class="card card-body border-0 p-0">
+                                <p>{{faq.answer}}</p>
+                            </div>
                         </div>
                     </div>
-                </a>
-                <div class="collapse" id="faq-{{faq.index}}">
-                    <div class="card card-body border-0 p-0">
-                        <p>{{faq.answer}}</p>
-                    </div>
-                </div>
-            </section>
-        </section>
-    {% endfor %}
+                    {% endfor %}
+                </section>
+            </div>
+        </div>
     </div>
 </div>
