@@ -1,114 +1,115 @@
 ---
 layout: default
-title: Team
+title: Meet our team
 ---
 
-<div class="page-header">
-    <h1>Meet our team</h1>
-</div>
-<div class="container team">
-    <div class="section" id="team-core">
-        <h2>Core team</h2>
-        <div class="row justify-content-center ">
-            <div class="col-md-6 text-center">
-                <p>The core team of our community is composed of visionary directors and dynamic leaders, 
-                    who bring a wealth of experience and dedication to empowering women in technology. 
-                    These esteemed professionals are committed to fostering an environment of growth, inclusivity 
-                    and support, guiding our community toward achieving its mission and goals.
-                </p>
-            </div>               
-        </div>
-        <div class="row g-3">
-            {% for person in site.data.team %}
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card card-s">
-                    <img src="{{person.image}}" alt="profile photo" class="profile photo card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">{{person.name}}</h5>
-                        <h6 class="card-subtitle">{{person.position}}</h6>
-                        <p class="card-text"><small class="text-muted">{{person.comment}}</small></p>
-                    </div>
-                    {% if person.network %}
-                        <div class="card-footer">
-                            <span class="network">
-                                {% for network in person.network %}
-                                    {% if network.name=="linkedin" %}
-                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
-                                    {% endif %}
-                                    {% if network.name=="twitter" %}
-                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
-                                    {% endif %}
-                                    {% if network.name=="medium" %}
-                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/medium.svg %}</a></span>
-                                    {% endif %}
-                                    {% if network.name=="github" %}
-                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/github.svg %}</a></span>
-                                    {% endif %}
-                                {% endfor %}
-                            </span>
-                        </div>
-                    {% endif %}
+<div class="page team">
+    {% include page-header.html %}
+    <div class="container">
+        <div class="row">
+            <section id="team-core">
+                <div class="content-constrained text-center">
+                    <h2>Core team</h2>
+                    <p>The core team of our community is composed of visionary directors and dynamic leaders, 
+                        who bring a wealth of experience and dedication to empowering women in technology. 
+                        These esteemed professionals are committed to fostering an environment of growth, inclusivity 
+                        and support, guiding our community toward achieving its mission and goals.
+                    </p>
                 </div>
-            </div>
-            {% endfor %}
+                <div class="card-deck mt-5">
+                    {% for person in site.data.team %}
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card card-s">
+                            <div class="card-media">
+                                <img src="{{person.image}}" alt="profile photo" class="profile photo card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">{{person.name}}</h5>
+                                <h6 class="card-subtitle">{{person.position}}</h6>
+                                <p class="card-text"><small class="text-muted">{{person.comment}}</small></p>
+                            </div>
+                            {% if person.network %}
+                                <div class="card-footer">
+                                    <span class="network">
+                                        {% for network in person.network %}
+                                            {% if network.name=="linkedin" %}
+                                            <span> <a href="{{network.link}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
+                                            {% endif %}
+                                            {% if network.name=="twitter" %}
+                                            <span> <a href="{{network.link}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
+                                            {% endif %}
+                                            {% if network.name=="medium" %}
+                                            <span> <a href="{{network.link}}" target="_blank"> {% include icons/medium.svg %}</a></span>
+                                            {% endif %}
+                                            {% if network.name=="github" %}
+                                            <span> <a href="{{network.link}}" target="_blank"> {% include icons/github.svg %}</a></span>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </span>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+            <section id="team-collaborators">
+                <div class="content-constrained text-center">
+                    <h2>Collaborators</h2>
+                    <p>Our collaborators are the backbone of our community, 
+                        offering vital expertise and support that drive our initiatives forward and enhance our digital presence. 
+                    </p>             
+                </div>
+                <div class="card-deck mt-5">
+                    {% for person in site.data.collaborators %}
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card card-s">
+                            <div class="card-media">
+                                <img src="{{person.image}}" alt="profile photo" class="profile photo card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">{{person.name}}</h5>
+                                <h6 class="card-subtitle">{{person.position}}</h6>
+                                <p class="card-text"><small class="text-muted">{{person.comment}}</small></p>
+                            </div>
+                            {% if person.network %}
+                                <div class="card-footer">
+                                    <span class="network">
+                                        {% for network in person.network %}
+                                            {% if network.name=="linkedin" %}
+                                            <span> <a href="{{network.link}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
+                                            {% endif %}
+                                            {% if network.name=="twitter" %}
+                                            <span> <a href="{{network.link}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
+                                            {% endif %}
+                                            {% if network.name=="medium" %}
+                                            <span> <a href="{{network.link}}" target="_blank"> {% include icons/medium.svg %}</a></span>
+                                            {% endif %}
+                                            {% if network.name=="github" %}
+                                            <span> <a href="{{network.link}}" target="_blank"> {% include icons/github.svg %}</a></span>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </span>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
         </div>
     </div>
-    <div class="section" id="team-collaborators">
-        <h2>Collaborators</h2>
-        <div class="row justify-content-center ">
-            <div class="col-md-6 text-center">
-                <p>Our collaborators are the backbone of our community, 
-                    offering vital expertise and support that drive our initiatives forward and enhance our digital presence. 
-                </p>
-            </div>               
-        </div>
-        <div class="row g-3">
-            {% for person in site.data.collaborators %}
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card card-s">
-                    <img src="{{person.image}}" alt="profile photo" class="profile photo card-img-top">
+    <div class="container">
+        <div class="row featured-content">
+            <div class="row-content col-12">
+                <div class="card card-l col-12 col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">{{person.name}}</h5>
-                        <h6 class="card-subtitle">{{person.position}}</h6>
-                        <p class="card-text"><small class="text-muted">{{person.comment}}</small></p>
+                        <h2>Join us as a contributor</h2>
+                        <p>Come contribute and make a difference! Join our vibrant community to help shape the future of technology and amplify the impact of our collective efforts.</p>
+                        <a href="https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io#contributing" target="_blank" class="btn btn-primary">Click here to learn more</a>
                     </div>
-                    {% if person.network %}
-                        <div class="card-footer">
-                            <span class="network">
-                                {% for network in person.network %}
-                                    {% if network.name=="linkedin" %}
-                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
-                                    {% endif %}
-                                    {% if network.name=="twitter" %}
-                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
-                                    {% endif %}
-                                    {% if network.name=="medium" %}
-                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/medium.svg %}</a></span>
-                                    {% endif %}
-                                    {% if network.name=="github" %}
-                                    <span> <a href="{{network.link}}" target="_blank"> {% include icons/github.svg %}</a></span>
-                                    {% endif %}
-                                {% endfor %}
-                            </span>
-                        </div>
-                    {% endif %}
                 </div>
             </div>
-            {% endfor %}
         </div>
-    </div>
-
-    <div class="section">
-        <h2>Join us as a contributor</h2>
-        <div class="row justify-content-center ">
-            <div class="col-md-6 text-center">
-                <p>Come contribute and make a difference! 
-                    Join our vibrant community to help shape the future of technology and amplify the impact of our collective efforts. 
-                </p>
-            </div>               
-        </div>
-        <p class="mt-4 d-flex justify-content-center">
-            <a href="https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io#contributing" target="_blank" class="btn btn-primary">Click here to learn more</a>
-        </p>
     </div>
 </div>
