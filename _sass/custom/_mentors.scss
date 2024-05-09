@@ -1,7 +1,4 @@
-
-.mentors {
-    @extend .mt-7;
-
+.mentors-search {
     .card-img {
         border-radius: 50%;
         padding: 20px;
@@ -217,6 +214,8 @@
 .search {
     @extend .mentors;
     @extend .container;
+
+    margin-top: map-get($spacers,6);
 
     .mentor-total-description {
         @extend .my-4, .h5, .font-weight-bold;
