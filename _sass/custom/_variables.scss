@@ -2,83 +2,43 @@
 // Color palette
 //
 
-$blue-10: #001E2E;
-$blue-20: #00344C;
-$blue-30: #1A4B66;
-$blue-40: #36637F;
-$blue-50: #507C99;
-$blue-60: #6A96B4;
-$blue-70: #84B1D0;
-$blue-80: #9FCCEC;
-$blue-90: #C7E7FF;
-$blue-95: #E5F2FF;
-$blue-98: #EBEEF3;
-$coral-10: #390C00;
-$coral-20: #5D1800;
-$coral-30: #822702;
-$coral-40: #A23E19;
-$coral-50: #C3562F;
-$coral-60: #E46E45;
-$coral-70: #FF8B64;
-$coral-80: #FFB59D;
-$coral-90: #FFDBD0;
-$coral-95: #FFEDE8;
-$yellow-10: #271900;
-$yellow-20: #402D04;
-$yellow-30: #594319;
-$yellow-40: #735B2E;
-$yellow-50: #8D7344;
-$yellow-60: #A98D5B;
-$yellow-70: #C5A773;
-$yellow-80: #E2C28C;
-$yellow-90: #FFDEA6;
-$yellow-95: #FFEFD7;
+$purple-10: #260058;
+$purple-20: #3F0F81;
+$purple-30: #572E99;
+$purple-40: #6F48B2;
+$purple-50: #8962CD;
+$purple-60: #A37CEA;
+$purple-70: #BE99FF;
+$purple-80: #D4BBFF;
+$purple-90: #EBDCFF;
+$purple-95: #F7EDFF;
+$purple-99: #FFFBFF;
 
 $neutral-10: #1D1B1E;
-$neutral-20: #313030;
-$neutral-30: #484646;
-$neutral-40: #605E5D;
-$neutral-50: #797776;
-$neutral-60: #92908F;
-$neutral-70: #ADAAAA;
-$neutral-80: #C9C6C5;
-$neutral-90: #E5E2E1;
-$neutral-95: #F4F0EF;
+$neutral-20: #323033;
+$neutral-30: #48464A;
+$neutral-40: #605D61;
+$neutral-50: #79767A;
+$neutral-60: #938F94;
+$neutral-70: #AEAAAE;
+$neutral-80: #CAC5CA;
+$neutral-90: #E6E1E6;
+$neutral-95: #F5EFF4;
+$neutral-99: #FFFBFF;
 
 $black: $neutral-10;
 
-$primary-10: $blue-10;
-$primary-20: $blue-20;
-$primary-30: $blue-30;
-$primary-40: $blue-40;
-$primary-50: $blue-50;
-$primary-60: $blue-60;
-$primary-70: $blue-70;
-$primary-80: $blue-80;
-$primary-90: $blue-90;
-$primary-95: $blue-95;
-
-$secondary-10: $coral-10;
-$secondary-20: $coral-20;
-$secondary-30: $coral-30;
-$secondary-40: $coral-40;
-$secondary-50: $coral-50;
-$secondary-60: $coral-60;
-$secondary-70: $coral-70;
-$secondary-80: $coral-80;
-$secondary-90: $coral-90;
-$secondary-95: $coral-95;
-
-$tertiary-10: $yellow-10;
-$tertiary-20: $yellow-20;
-$tertiary-30: $yellow-30;
-$tertiary-40: $yellow-40;
-$tertiary-50: $yellow-50;
-$tertiary-60: $yellow-60;
-$tertiary-70: $yellow-70;
-$tertiary-80: $yellow-80;
-$tertiary-90: $yellow-90;
-$tertiary-95: $yellow-95;
+$primary-10: $purple-10;
+$primary-20: $purple-20;
+$primary-30: $purple-30;
+$primary-40: $purple-40;
+$primary-50: $purple-50;
+$primary-60: $purple-60;
+$primary-70: $purple-70;
+$primary-80: $purple-80;
+$primary-90: $purple-90;
+$primary-95: $purple-95;
+$primary-99: $purple-99;
 
 $primary: $primary-40;
 
@@ -86,60 +46,17 @@ $primary: $primary-40;
 // Backgrounds
 //
 
-$bg-1: $blue-98;
-$bg-2: $neutral-90;
-
-$bg-hover: $neutral-90;
+$bg-1: $primary-90;
+$bg-2: #F7F7F7;
 
 //
 // Components
 //
 
 $border-color: $neutral-90;
-$border-radius: 1rem;
 
 //
 // Typography
 //
 
 $link-color: $primary-40;
-
-$text-primary: $black;
-$text-secondary: $neutral-40;
-
-// bootstrap overrides
-$display1-size: 3.6rem;
-$display2-size: 2.8rem;
-$display3-size: 2.25rem;
-
-$font-display-l: $display1-size;
-$font-display-m: $display2-size;
-$font-display-s: $display3-size;
-
-$h1-font-size: 2rem;
-$h2-font-size: 1.74rem;
-$h3-font-size: 1.5rem;
-
-$font-headline-l: $h1-font-size;
-$font-headline-m: $h2-font-size;
-$font-headline-s: $h3-font-size;
-
-$h4-font-size: 1.375rem;
-$h5-font-size: 1rem;
-$h6-font-size: 0.875rem;
-
-$font-title-l: $h4-font-size;
-$font-title-m: $h5-font-size;
-$font-title-s: $h6-font-size;
-
-$font-size-lg: 1.25rem;
-$font-size-md: 1rem;
-$font-size-sm: 0.875rem;
-
-$font-body-l: $font-size-lg;
-$font-body-m: $font-size-md;
-$font-body-s: $font-size-sm;
-
-$font-label-l: $font-size-md;
-$font-label-m: $font-size-sm;
-$font-label-s: 0.6875rem;
