@@ -3,8 +3,11 @@
   {% seo %}
   {% include head.html %}
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     {% include navbar.html %}
-    {{ content}}
+    <main id="main-content">
+      {{ content}}
+    </main>
     {% include footer.html %}
   </body>
 </html>
