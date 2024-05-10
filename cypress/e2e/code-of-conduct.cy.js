@@ -1,6 +1,6 @@
-describe('Tests Code of Conduct page', () => {
+describe('Tests Mentorship Code of Conduct page', () => {
     beforeEach(() => {
-      cy.visit('https://womencodingcommunity.com/mentorship-code-of-conduct');
+      cy.visit(`${Cypress.config().baseUrl}/mentorship-code-of-conduct`);
     });
   
     describe('Verify UI elements from Header and Main content', () => {
@@ -24,13 +24,13 @@ describe('Tests Code of Conduct page', () => {
   
     describe('Test "Show more," "Show less," for mentee and mentor', () => {
       
-      it('should verify the existence of the anchor tag with id "#btn-mentee-learn-more" and text "Show More"', () => {
+      it('should verify the existence of the anchor tag with mentee bottom learn more and Show More text', () => {
         cy.get('a#btn-mentee-learn-more').should('be.visible').contains('Show More').should('be.visible');
         cy.get('a#btn-mentee-learn-more').click();    
-        cy.get('a#btn-mentee-show-less:contains("Show Less")', { timeout: 10000 }).should('be.visible');
+        cy.get('a#btn-mentee-show-less:contains("Show Less")', { defaultCommandTimeout: 1000 }).should('be.visible');
       });
     
-      it('should verify the existence of the anchor tag with id "#btn-mentee-learn-more" and text "Show More"', () => {
+      it('should verify the existence of the anchor tag with mentor bottom learn more and Show More text', () => {
         cy.get('a#btn-mentor-learn-more').should('be.visible').contains('Show More').should('be.visible');
         cy.get('a#btn-mentor-learn-more').click();
         cy.get('a#btn-mentee-show-less:contains("Show Less")', { timeout: 10000 }).should('exist');    
@@ -38,10 +38,10 @@ describe('Tests Code of Conduct page', () => {
   
     })
   
-    describe('Test "read" functionality', () => {
-      it('should open another page when clicking on the "Read" link', () => {
+    describe('Test navigation to the community Code of Conduct page', () => {
+      it('should redirect from mentorship code of conduct to the community code of conduct', () => {
         cy.contains('Read').click();  
-        cy.url().should('eq', 'https://womencodingcommunity.com/code-of-conduct');
+        cy.url().should('eq', `${Cypress.config().baseUrl}/code-of-conduct`);
       });
     })
   
@@ -98,5 +98,4 @@ describe('Tests Code of Conduct page', () => {
       });
     });
   });
-  
   
