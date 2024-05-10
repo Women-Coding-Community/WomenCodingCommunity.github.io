@@ -33,7 +33,7 @@
     position: relative;
   }
   
-  .nav-item > .nav-link::after {
+  .nav-item > a::after {
     content: "";
     display: block;
     margin: auto;
@@ -44,7 +44,7 @@
     transition: all 0.3s;
   }
     
-  .nav-item > a:hover::after, .nav-item > a.active-nav::after {
+  .nav-item > a:hover::after, li > a.active-nav::after {
     width: 100%;
     background: $primary;
   }
@@ -55,10 +55,13 @@
 
   .dropdown-menu {
     padding: 0;
+    li {
+      display: block;
+    }
   }
 
-  .dropdown-menu li {
-    display: block;
+  .dropdown-item {
+    padding: 0.5rem 1rem;
   }
 
   @include media-breakpoint-down(lg) { 

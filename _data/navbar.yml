@@ -2,9 +2,10 @@
   link: #empty because now using absolute paths
   index: 0
 - name: Mentorship
-  link: mentorship
   index: 1
   subfolderitems:
+    - page: Overview
+      url: mentorship
     - page: Mentors
       url: mentors
       breadcrumbs: 
@@ -46,9 +47,10 @@
   link: blog
   index: 3
 - name: About Us
-  link: about
   index: 4
   subfolderitems:
+    - page: Overview
+      url: about
     - page: Team
       url: team
       breadcrumbs: 
