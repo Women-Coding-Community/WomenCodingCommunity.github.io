@@ -1,32 +1,10 @@
-//
-// Global card styles
-//
-
 .card {
-    padding: 0;
+    border-radius: 1rem;
     height: 100%;
-    border: 1px solid $border-color;
-
-    .btn {
-        max-width: fit-content;
-    }
-}
-
-.card,
-.card-deck > .card:first-child,
-.card-deck > .card:last-child {
-    border-radius: $border-radius;
-}
-
-.card-deck {
-    > * {
-        height: 100%;
-    }
 }
 
 .card-date {
-    color: $text-secondary;
-    font-size: $font-label-m;
+    color: $gray-600;
 }
 
 .card-s {
@@ -34,24 +12,21 @@
         font-size: 1.3rem;
         margin-bottom: 0.25rem;
     }
-
     .card-subtitle {
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 0.6rem;
         font-size: 1.1rem;
     }
-
-    p {
-        font-size: $font-body-m;
+    .card p {
+        line-height: 1;
     }
-
     .card-img-top {
         border-radius: 100%;
+        padding: 1.25rem;
     }
-
     .card-body {
-        padding: map-get($spacers, 3);
+        padding-top: 0;
         display: flex;
         height: 100%;
         flex-direction: column;
@@ -59,187 +34,83 @@
 }
 
 .card-m {
+    .card-header {
+        background-color: transparent;
+        border: none;
+    }
+    .card-title {
+        margin-top: 0;
+    }
     .card-body {
         display: flex;
+        height: 100%;
         flex-direction: column;
+        text-align: center;
         align-items: center;
         padding: 2rem 2rem 3rem 2rem;
     }
-
-    .card-title {
-        @include font-headline-l;
-        text-align: center;
-    }
-
-    p {
-        @include font-body;
-        text-align: center;
+    .btn {
+        max-width: fit-content;
     }
 }
 
 .card-l {
-    .card-title {
-        font-size: $font-display-s;
-    }
-
-    .card-body {
-        justify-content: center;
-        padding: map-get($spacers, 5);
-    }
-
-    p {
-        @include font-body;
+    border: none;
+    flex-direction: column;
+    text-align: left;
+    h3 {
         text-align: left;
+        margin: 0 0 0.25rem 0;
     }
-}
-
-.card-horizontal {
-    display: flex;
-    flex-direction: row;
-    border-radius: $border-radius;
-
-    .card-body {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        flex: none;
-    }
-
     .card-media {
-        flex: none;
-        padding-left: 0;
-        padding-right: 0;
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 0 $border-radius $border-radius 0;
-        }
+        padding: 0;
+    }
+    img {
+        max-width: 100%;
+        max-height: 100%;
     }
 }
 
-@include media-breakpoint-up(sm) {
-    .card-deck {
-        .card-horizontal {
-            flex-direction: row;
-        } 
-    }
-
-    .card-horizontal {
-        .card-media {
-            img {
-                max-height: 100%;
-            }
-        }
+@include media-breakpoint-up(md) {
+    .card-l {
+        flex-direction: row;
     }
 }
-
-//
-// Custom card styles
-//
 
 .announcements {
-    .card-horizontal {
-        border: none;
-        background: transparent;
-        margin: 0 1rem;
-        p {
-            font-size: $font-body-m;
+    .card-l {
+        border-top: 1px solid $gray-300;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+        padding: 2rem 0;
+        &:first-child {
+            padding-top: 3rem;
+            border-top: 16px solid $primary;
+            border-image: linear-gradient(to right, $purple-40, $purple-60, $purple-80);
+            border-image-slice: 1; // Ensure the gradient covers the entire border
         }
-        .card-media {
-            img {
-                border-radius: 0;
-            }
+        &:last-child {
+            border-bottom: 2px solid $primary;
         }
-    }
-
-    .card-body {
-        padding: 0 map-get($spacers, 3);
-    }
-
-    .card-deck {
-        margin-right: auto;
-        margin-left: auto;
-        flex-direction: column;
-        
-        .card-horizontal {
-            &:not(:only-child) {
-                margin-bottom: map-get($spacers, 5);
-            }
-        }
-    }
-}
-
-.list-blog {
-    .card {
-        a {
-            &:hover {
-                text-decoration: none;
-                background-color: $neutral-95;
-                border-radius: $border-radius;
-            }
-        }
-    }
-
-    .card-media {
         img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            border-top-left-radius: $border-radius;
-            border-top-right-radius: $border-radius;    
+            border-radius: 4px;
         }
     }
-
     .card-body {
-        align-items: baseline;
-
-        p {
-            color: $black;
-            text-align: left;
-        }
+        padding: 0 0 1rem 0;
     }
+}
 
-    .card-title {
-        text-align: left;
-        color: $link-color;
-    }
-
-    .card-desc {
-        overflow: hidden;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        text-overflow: ellipsis;
-    }
-
-    .card-author {
-        &-image {
-          width: 32px;
-          height: 32px;
-          margin-right: 10px;
-        }
-    
-        &-name {
-          font-size: $font-label-m;
-          color: $text-primary;
+@include media-breakpoint-up(md) {
+    .announcements {
+        .card-body {
+            padding: 0 1.6rem 0 0;
         }
     }
 }
 
-.mentorship-resources {
-    .card-deck {
-        margin-right: auto;
-        margin-left: auto;
-        flex-direction: column;
-    }
-    .card-media {
-        border-left: 1px solid $border-color;
-    }
-}
-
-.mentorship-overview {
+.mentorship-about {
     .card-body {
         align-items: baseline;
         ol {
@@ -248,132 +119,48 @@
         }
         p {
             margin-bottom: 0.25rem;
-            text-align: left;
-        }
-    }
-
-    .card-deck {
-        flex-flow: column wrap;
-    }
-}
-
-.mission {
-    .card-horizontal {
-        .card-media img {
-            border-radius: 0;
         }
     }
 }
 
-.programmes {
-    .card {
-        text-align: center;
-        border: none;
-        p {
-            @include font-body;
-            text-align: center;
-        }
-        a {
-            display: block;
-            font-size: $font-title-l;
-            padding: map-get($spacers, 3);
-            border-radius: $border-radius;
-        }
-        .material-symbols-outlined {
-            color: $black;
-        }
-        figure {
-            margin-bottom: map-get($spacers, 1);
-        }
+.blog-card {
+    height: 100%;
+
+    a {
+      color: $gray-800;
+      &:hover {
+        text-decoration: none;
+        background-color: $gray-100;
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+      }
+    }
+  
+    .card-img-top {
+      max-height: 300px;
+      object-fit: cover;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+  
+    .card-body {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      padding: 1.5rem;
+    }
+  
+    .card-title {
+      font-size: 22px;
+      margin-bottom: 15px;
+      color: $primary-40;
     }
 
-    .card-deck {
-        width: 100%;
-        margin-top: map-get($spacers, 4);
-        .card {
-            margin-left: 0;
-            margin-right: 0;
-        }
-    }
-}
-
-.support {
-    .card-l {
-        border: none;
-        .card-body {
-            padding: 0;
-        }
-    }
-}
-
-@include media-breakpoint-down(sm) {
-    .mission {
-        .card-horizontal {
-            flex-direction: column;
-            .card-body {
-                padding: map-get($spacers, 3) 0;
-            }
-        }
-    }
-}
-
-@include media-breakpoint-up(md) {
-    .mentorship-overview {
-        .card-deck {
-            flex-flow: row wrap;
-        }
-    }
-
-    .mission {
-        .card-horizontal {
-            .card-body {
-                padding: map-get($spacers, 2);
-            }
-        }
-    }
-
-    .programmes {
-        .card {
-            a {
-                &:hover {
-                    background-color: $neutral-90;
-                    border-color: $neutral-90;
-                    text-decoration: none;
-                }
-            }
-        }
-    }
-}
-
-@include media-breakpoint-up(lg) {
-    .mentorship-resources,
-    .announcements {
-        .card-body {
-            flex: 1 1 auto;
-        }
-
-        .card-deck {
-            flex-direction: row;
-        }
-    }
-
-    .announcements {
-        .card {
-            img {
-                max-height: 100%;
-            }
-        }
-
-        .card-body {
-            padding: 0 map-get($spacers, 5) 0 map-get($spacers, 3);
-        }
-    }
-
-    .mission {
-        .card-horizontal {
-            .card-body {
-                padding: map-get($spacers, 4);
-            }
-        }
+    .card-desc {
+      font-size: 16px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
     }
 }
