@@ -1,3 +1,5 @@
+{% assign current_path = page.url | remove: '.html' | remove_first: '/' %}
+
 <nav aria-label="Breadcrumb" class="breadcrumb">
     <div class="container">
         <!-- <ol>
@@ -11,34 +13,20 @@
             </div>
         </div> -->
 
-        
         <ol>
+            <!-- <li>Home</li> -->
             {% for item in site.data.navbar %}
-                {% if item.breadcrumbs %}
-                    {% for itembreadcrumbs in item.breadcrumbs %}
-                        <li class="breadcrumb-item">
-                            <a href="/{{ itembreadcrumbs.link }}">{{ itembreadcrumbs.name }}</a>
-                        </li>
-                    {% endfor %}
-                    {% else %}
-                        {% if item.subfolderitems %}
-        
-                            {% for entry in item.subfolderitems %}
-                                {% if entry.breadcrumbs %}
-                                    {% for entrybreadcrumbs in entry.breadcrumbs %}
-                                        <li class="breadcrumb-item">
-                                            <a href="/{{ entrybreadcrumbs.link }}">{{ entrybreadcrumbs.name }}</a>
-                                        </li>
-                                    {% endfor %}
-                                {% endif %}
-                            {% endfor %}
-                        {% endif %}
-                {% endif %}
                 
-
-                <li class="breadcrumb-item">
-                    <a href="/{{ item.url }}">{{ item.page }}</a>
-                </li>
+                {% for subitem in item.subfolderitems %}
+                    <li class="breadcrumb-item">{{subitem.page}}</li>
+                    {% if item.breadcrumbs and item.link == current_path %}
+                        {% for itembreadcrumbs in item.breadcrumbs %}
+                            <li class="breadcrumb-item">
+                                <a href="/{{ itembreadcrumbs.link }}">{{ itembreadcrumbs.name }}</a>
+                            </li>
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
             {% endfor %}
         </ol>
     </div>
