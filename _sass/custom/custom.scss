@@ -1,34 +1,17 @@
+@import "accordion";
 @import "blog";
 @import "buttons";
 @import "card";
-@import "hero";
-@import "menu";
-@import "faq";
+@import "code-of-conduct";
 @import "footer";
+@import "hero";
 @import "home";
 @import "icons";
-@import "team";
-@import "code-of-conduct";
 @import "mentors";
+@import "menu";
+@import "team";
 @import "media-breakpoint";
 @import "mixins";
-
-
-h1, h2, h3 {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-p, ul, ol {
-    font-size: $font-size-md;
-}
-
-@include media-breakpoint-up(sm) {
-    p, ul, ol {
-        font-size: $font-size-lg;
-    }
-}
 
 .network svg:hover  {
     fill: $primary-50 !important;
@@ -40,39 +23,4 @@ p, ul, ol {
 
 .cursor-pointer {
     cursor: pointer;
-}
-
-.text-primary {
-    color: $gray-900;
-}
-
-.page-header {
-    background: $primary-90;
-    color: $primary-10;
-    padding: 4rem 1rem;
-}
-
-.page-header h1 {
-    margin: 0;
-    font-size: 2.85rem;
-}
-
-.container .section {
-    margin-top: 4rem !important;
-}
-
-.container .section:last-child {
-    margin-bottom: 5rem;
-}
-
-.content-constrained h2 {
-    text-align: left;
-    margin-bottom: 1rem;
-    font-size: 2.25rem;
-}
-
-.content-constrained h3 {
-    text-align: left;
-    margin: 1.7rem 0 1rem 0;
-    font-size: 1.6rem;
 }

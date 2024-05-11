@@ -9,7 +9,7 @@ title: Home
     <div class="container mission bg-1">
         <div class="row featured-content">
             <div class="row-content col-12">
-                <div class="card card-l card-horizontal">
+                <div class="card-mission card card-l card-horizontal">
                     <div class="card-media col-12 col-md-6">
                         <img src="./assets/images/home/stock-unsplash-mission-cta_16x9.jpg" alt="{{ announcement.image.alt }}">
                     </div>
@@ -61,15 +61,15 @@ title: Home
                 </div>
                 <div class="card-deck">
                     {% for programme in site.data.programmes %}
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <article class="card-programme card card-s">
+                        <div class="card-column col-12 col-md-6 col-lg-4">
+                            <div class="card-programme card card-s">
                                 <a href="{{ programme.url }}">
                                     <figure>
                                         <div class="material-symbols-outlined" aria-hidden="true">{{ programme.icon }}</div>
                                         <figcaption>{{ programme.title }}</figcaption>
                                     </figure>
                                 </a>
-                            </article>
+                            </div>
                         </div>
                     {% endfor %}
                 </div>
@@ -103,9 +103,9 @@ title: Home
     <div class="container support">
         <div class="row featured-content">
             <div class="row-content col-12">
-                <div class="card card-l">
+                <div class="card-support card card-l">
                     <div class="card-body col-12">
-                        <h2 class="card-title">Experiencing technical issues?</h2>
+                        <h2 class="card-title">Experiencing Technical Issues?</h2>
                         <a href="https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io/issues/new?template=bug_report.md&title=bug title" target="_blank" class="btn btn-outline-primary">Send us a report</a>
                     </div>
                 </div>

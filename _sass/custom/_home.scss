@@ -6,24 +6,6 @@
             padding-bottom: map-get($spacers, 6);
             justify-content: center;
         }
-
-        .card-deck {
-            > * {
-                margin-bottom: 1rem;
-            }
-        }
-        
-        &.mentors-cta {
-            h2 {
-                font-size: $h2-font-size;
-            }
-            .btn {
-                max-width: fit-content;
-            }
-            .card-body {
-                align-items: center;
-            }
-        }
     }
 
     .row-content {
@@ -39,7 +21,22 @@
     }
 
     .row-description {
-        margin-bottom: map-get($spacers, 3);
+        margin-bottom: map-get($spacers, 4);
+    }
+
+    .announcements {
+        .card-deck {
+            margin-right: auto;
+            margin-left: auto;
+            flex-direction: column;
+        }
+    }    
+
+    .mission {
+        .row-content {
+            flex-direction: column;
+            text-align: center;
+        }
     }
 
     .programmes {
@@ -47,29 +44,21 @@
             @include font-body;
             text-align: center;
         }
-    }
 
-    .mission {
-        .row-content {
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .card {
-            background-color: transparent;
-            border: none;
-        }
-    }
-
-    .programmes {
         .row-content {
             flex-direction: column;
             align-items: center;
             height: 100%;
         }
     }
+}
 
-    .support {
-        text-align: center;
+@include media-breakpoint-up(lg) {
+    .home {
+        .announcements {
+            .card-deck {
+                flex-direction: row;
+            }
+        }
     }
 }
