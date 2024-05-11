@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
 
 @import 'custom/variables';
+@import 'custom/mixins';
 @import 'bootstrap/bootstrap';
 @import 'custom/custom';
 
@@ -12,35 +13,73 @@ body {
   background: $white;
   color: $black;
   font-family: $bodyFont;
-  font-weight: 400;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   min-height: 100vh;
+  @include font-body;
 }
 
-.container,
-.row .content {
+main {
+  flex-grow: 1
+}
+
+.skip-link {
+  position: absolute;
+  left: -999em;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.skip-link:focus,
+.skip-link:active {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+}
+
+.site-footer .container,
+nav.container {
   max-width: $container-max-width;
 }
 
-.row {
-  justify-content: center;
-
-  &.bg-1 {
-    background-color: $bg-1;
+.about,
+.blog,
+.code-of-conduct,
+.events,
+.faq,
+.mentors,
+.resources,
+.mentorship-about,
+.book-club,
+.interview-preparation,
+.study-group {
+  .container,
+  .row .content {
+    max-width: $container-max-width;
   }
 
-  &.bg-2 {
-    background-color: $bg-2;
-  }
-
-  .content {
-    display: flex;
-    flex-wrap: wrap;
+  .row {
     justify-content: center;
-    text-align: center;
-    padding: 5rem 0;
+
+    &.bg-1 {
+      background-color: $bg-1;
+    }
+
+    &.bg-2 {
+      background-color: $bg-2;
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      padding: 5rem 0;
+    }
   }
 }
 
@@ -79,4 +118,100 @@ $custom-auto-margin: auto;
     margin-right: $custom-auto-margin;
     margin-left: $custom-auto-margin;
   }
+}
+
+// TEMPORARY: To be refactored to not only apply to homepage
+
+.page-intro {
+  display: flex;
+  justify-content: center;
+  p {
+    @include font-body;
+    text-align: center;
+  }
+}
+
+.home {
+  .bg-1 {
+    background-color: $bg-1;
+  }
+  
+  .bg-2 {
+    background-color: $bg-2;
+  }
+  
+  //
+  // Layout
+  //
+  
+  // Global containers
+  
+  .row,
+  .mentors .search,
+  nav.container {
+    max-width: $container-max-width;
+  }
+  
+  .row {
+    margin: 0 auto;
+  }
+  
+  .container {
+    max-width: 100%;
+  }
+  
+  .row-header {
+    text-align: center;
+  
+    h2 {
+      @include font-display-m;
+    }
+  }
+  
+  // Interior pages
+  
+  .page-header {
+    background: $primary-90;
+    color: $primary;
+    text-align: center;
+    padding: map-get($spacers, 5) map-get($spacers, 2);
+  
+    h1 {
+      @include font-display-m;
+      margin-bottom: 0;
+    }
+  }
+  
+  .page {
+    p, ul, ol {
+      @include font-body;
+    }
+    
+    section {
+      margin-top: map-get($spacers, 5);
+      margin-bottom: map-get($spacers, 5);
+    }
+  
+    .featured-content {
+      padding-top: map-get($spacers, 5);
+      padding-bottom: map-get($spacers, 5);
+  
+      .row {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    
+    .content-constrained {
+      h2 {
+        @include font-headline-l;
+        margin-bottom: 1rem;
+      }
+    
+      h3 {
+        font-size: $font-headline-m;
+        margin: 1.7rem 0 1rem 0;
+      }
+    }
+  }  
 }
