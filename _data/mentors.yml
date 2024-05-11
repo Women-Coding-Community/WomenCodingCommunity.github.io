@@ -995,3 +995,35 @@
   network:
     - linkedin: https://www.linkedin.com/in/bryanboreham
     - twitter: https://twitter.com/bboreham
+
+- name: Liliia Rafikova
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 5
+  type: both
+  index: 32
+  position: Software Engineer, Amazon
+  bio: |
+    I'm a seasoned backend software engineer with over 8 years of hands-on experience specializing in cloud technologies. My expertise lies in JVM languages, and I've expanded my skill set to include proficiency in C++ and Rust. My background in data structures and algorithms, coupled with extensive work in developing distributed systems at massive scales, equips me with the tools to tackle complex technical challenges effectively. I'm deeply passionate about delving into the intricacies of low-level programming and optimizing operational systems for peak performance. Would love to see more women in tech.
+  image: assets/images/mentors/liliia_rafikova.png
+  location: London, UK
+  languages: English, Russian
+  availability: []
+  skills:
+    experience: 10-15 Years
+    years: 15
+    areas:
+      - Backend Developer
+      - Distributed Systems
+      - Site Reliability Engineering
+    languages: Java, Rust, C, C++, Kotlin
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    mentee: |
+      Any will work. I'm actually single mother too.
+    extra: |
+      Software Development Strategies, Resume Review, Preparation for The Technical Interview
+  network:
+    - linkedin: https://www.linkedin.com/in/liliia-rafikova-635328104/

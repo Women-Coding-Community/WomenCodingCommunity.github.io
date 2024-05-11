@@ -1,0 +1,65 @@
+- name: Mentor1
+  disabled: false
+  sort: 100
+  hours: 3
+  position: Position, at CompanyName
+  type: both
+  index: 1
+  location: City, Country
+  bio: I am a passionate QA Engineer, have experience in testing Web Applications.
+  image: assets/images/mentors/mentor_name_lowercase.jpeg
+  languages: English
+  availability: [ 5 ]
+  skills:
+    experience: 2-4 years
+    years: 4
+    areas:
+      - Quality Assurance
+    mentee: I would love to connect with an open-minded early-career engineer.
+    languages: Python, Html, CSS, JavaScript
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+    extra: Test Automation, Quality Assurance, Starting career in IT, CV Review, Preparation for the Interview, 
+  network:
+    - linkedin: https://www.linkedin.com/in/id
+    - github: https://github.com/id
+
+
+- name: Adriana Zencke Zimmermann
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 5
+  type: both
+  index: 2
+  location: Valencia / Spain
+  position: Tech Lead, Centric Software
+  bio: |
+    I am a mother, a wife, and a Software Engineer. I graduated in Computer Science and have over 14 years of experience working in tech companies in Brazil, Germany, and Spain. As Backend Engineer, I found this to be my passion which I focused on in the last six years of my career. I am always excited to help others, and my goal is to empower women and support them with the difficulties I had as an engineer, and I still have from time to time.
+  image: 'assets/images/mentors/mentor_name_lowercase.jpeg # TODO take it from Slack'
+  languages: English, Portuguese
+  availability: []
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      Someone willing to learn new technologies or to improve current skills, looking for guidance on how to navigate the initial years in the industry or in a new company. Also someone able to invest time in learning.
+    areas:
+    - Backend Developer
+    - Fullstack Developer
+    - Distributed Systems
+    - Frontend Developer
+    - QA
+    languages: Java, Javascript, Kotlin, Python
+    focus:
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    extra: |
+      Java, Spring Boot and Best Practices
+  network:
+  - linkedin: https://www.linkedin.com/in/dricazenck/
+  - twitter: https://twitter.com/DricaZenck
+  - medium: https://medium.com/@dricazenck
+  - github: https://github.com/dricazenck
