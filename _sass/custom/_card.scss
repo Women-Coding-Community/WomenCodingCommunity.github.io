@@ -1,158 +1,338 @@
-.about,
-.blog,
-.code-of-conduct,
-.events,
-.faq,
-.mentors,
-.resources,
-.mentorship-about,
-.book-club,
-.interview-preparation,
-.study-group {
-    .card {
-        border-radius: 1rem;
-        height: 100%;
-    }
+//
+// Global card styles
+//
 
-    .card-date {
-        color: $gray-600;
-    }
-
-    .card-s {
-        .card-title {
-            font-size: 1.3rem;
-            margin-bottom: 0.25rem;
-        }
-
-        .card-subtitle {
-            font-weight: 400;
-            margin-top: 0;
-            margin-bottom: 0.6rem;
-            font-size: 1.1rem;
-        }
-
-        .card p {
-            line-height: 1;
-        }
-
-        .card-img-top {
-            border-radius: 100%;
-            padding: 1.25rem;
-        }
-
-        .card-body {
-            padding-top: 0;
-            display: flex;
-            height: 100%;
-            flex-direction: column;
-        }
-    }
-
-    .card-m {
-        .card-header {
-            background-color: transparent;
-            border: none;
-        }
-
-        .card-title {
-            margin-top: 0;
-        }
-
-        .card-body {
-            display: flex;
-            height: 100%;
-            flex-direction: column;
-            text-align: center;
-            align-items: center;
-            padding: 2rem 2rem 3rem 2rem;
-        }
-
-        .btn {
-            max-width: fit-content;
-        }
-    }
-
-    .card-l {
-        border: none;
-        flex-direction: column;
-        text-align: left;
-
-        h3 {
-            text-align: left;
-            margin: 0 0 0.25rem 0;
-        }
-
-        .card-media {
-            padding: 0;
-        }
-
-        img {
-            max-width: 100%;
-            max-height: 100%;
-        }
-    }
-
-    @include media-breakpoint-up(md) {
-        .card-l {
-            flex-direction: row;
-        }
-    }
-}
-
-.mentorship-about {
-    .card-body {
-        align-items: baseline;
-
-        ol {
-            text-align: left;
-            padding-left: 1.4rem;
-        }
-
-        p {
-            margin-bottom: 0.25rem;
-        }
-    }
-}
-
-.blog-card {
+.card {
+    padding: 0;
     height: 100%;
+    border: 1px solid $border-color;
 
-    a {
-        color: $gray-800;
-        
-        &:hover {
-            text-decoration: none;
-            background-color: $gray-100;
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
-        }
+    .btn {
+        max-width: fit-content;
     }
-  
-    .card-img-top {
-        max-height: 300px;
-        object-fit: cover;
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
+}
+
+.card {
+    border-radius: $border-radius;
+}
+
+.card-deck {
+    .card-column {
+        height: 100%;
+        padding: 0;
     }
-  
+
+    .card {
+        margin-bottom: map-get($spacers, 4);
+    }
+}
+
+.card-date {
+    color: $text-secondary;
+    font-size: $font-label-m;
+}
+
+.card-s {
+    .card-title {
+        font-size: 1.3rem;
+        margin-bottom: 0.25rem;
+        margin-top: 0;
+    }
+
+    .card-subtitle {
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 0.6rem;
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: $font-body-m;
+    }
+
     .card-body {
+        padding: map-get($spacers, 3);
         display: flex;
         height: 100%;
         flex-direction: column;
-        padding: 1.5rem;
     }
-  
-    .card-title {
-        font-size: 22px;
-        margin-bottom: 15px;
-        color: $primary-40;
+}
+
+.card-m {
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 2rem 3rem 2rem;
     }
 
-    .card-desc {
-        font-size: 16px;
-        overflow: hidden;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        text-overflow: ellipsis;
+    .card-title {
+        @include font-headline-l;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    p {
+        @include font-body;
+        text-align: center;
+    }
+}
+
+.card-l {
+    .card-title {
+        font-size: $font-display-s;
+    }
+
+    .card-body {
+        justify-content: center;
+        padding: map-get($spacers, 5);
+    }
+
+    p {
+        @include font-body;
+        text-align: left;
+    }
+}
+
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    border-radius: $border-radius;
+
+    .card-title {
+        text-align: left;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        flex: none;
+    }
+
+    .card-media {
+        flex: none;
+        padding-left: 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: $border-radius 0 0 $border-radius;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .card-deck {
+        .card-horizontal {
+            flex-direction: row;
+        }
+    }
+
+    .card-horizontal {
+        .card-media {
+            img {
+                max-height: 100%;
+            }
+        }
+    }
+}
+
+//
+// Custom card styles
+//
+
+.announcements {
+    .card-deck {
+        margin-right: auto;
+        margin-left: auto;
+        flex-direction: column;
+    }
+
+    .card-horizontal {
+        border: none;
+        background: transparent;
+        margin: 0 1rem;
+        &:not(:only-child) {
+            margin-bottom: map-get($spacers, 5);
+        }
+        
+        p {
+            font-size: $font-body-m;
+        }
+
+        .card-media {
+            img {
+                border-radius: 0;
+            }
+        }
+    }
+
+    .card-body {
+        padding: 0 map-get($spacers, 3);
+    }
+
+    .card-title {
+        margin: map-get($spacers, 1) 0 map-get($spacers, 3) 0;
+    }
+}
+
+.card-blog {
+    .card-body {
+        align-items: baseline;
+    }
+
+    .card-title {
+        @include font-headline-m;
+        text-align: left;
+    }
+
+    p {
+        font-size: $font-body-m;
+        text-align: left;
+        color: $text-primary;
+    }
+
+    a {
+        height: 100%;
+    }
+
+    .card-author-name,
+    .card-author-date {
+        font-size: $font-body-s;
+        color: $text-secondary;
+    }
+
+    .card-author-name {
+        color: $text-primary;
+    }
+
+    .card-author-date {
+        color: $text-secondary;
+    }
+
+    .card-author-image {
+        margin-right: 0.5rem;
+    }
+
+    .card-media {
+        img {
+            width: 100%;
+            height: 360px;
+            border-radius: $border-radius $border-radius 0 0;
+        }
+    }
+}
+
+.mission {
+    .card-horizontal {
+        .card-media {
+            img {
+                border-radius: 0;
+            }
+        }
+
+        .card-title {
+            margin-top: 0;
+        }
+    }
+}
+
+.card-person {
+
+    .card-media {
+        padding: map-get($spacers, 4) map-get($spacers, 3) map-get($spacers, 2) map-get($spacers, 3);
+    }
+
+    img {
+        border-radius: 100%;
+        width: 100%;
+    }
+
+    p {
+        color: $text-secondary;
+        font-size: $font-body-s;
+    }
+}
+
+.programmes {
+    .card-deck {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card {
+        border: none;
+        margin: 0 0 map-get($spacers, 3) 0;
+        padding: map-get($spacers, 3);
+
+        figure {
+            margin: 0;
+        }
+    }
+}
+
+.support {
+    .card-l {
+        border: none;
+
+        .card-body {
+            padding: 0;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .mission {
+        .card-horizontal {
+            flex-direction: column;
+
+            .card-body {
+                padding: map-get($spacers, 3) 0;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .mission {
+        .card-horizontal {
+            .card-body {
+                padding: map-get($spacers, 3);
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .announcements {
+        .card-body {
+            flex: 1 1 auto;
+        }
+
+        .card-deck {
+            flex-direction: row;
+        }
+    }
+
+    .announcements {
+        .card {
+            img {
+                max-height: 100%;
+            }
+        }
+
+        .card-body {
+            padding: 0 map-get($spacers, 5) 0 map-get($spacers, 3);
+        }
+    }
+
+    .mission {
+        .card-horizontal {
+            .card-body {
+                padding-left: map-get($spacers, 4);
+            }
+        }
     }
 }
