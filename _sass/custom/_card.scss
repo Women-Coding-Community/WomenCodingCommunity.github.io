@@ -1,111 +1,100 @@
-.card {
-    border-radius: 1rem;
-    height: 100%;
-}
-
-.card-date {
-    color: $gray-600;
-}
-
-.card-s {
-    .card-title {
-        font-size: 1.3rem;
-        margin-bottom: 0.25rem;
-    }
-    .card-subtitle {
-        font-weight: 400;
-        margin-top: 0;
-        margin-bottom: 0.6rem;
-        font-size: 1.1rem;
-    }
-    .card p {
-        line-height: 1;
-    }
-    .card-img-top {
-        border-radius: 100%;
-        padding: 1.25rem;
-    }
-    .card-body {
-        padding-top: 0;
-        display: flex;
+.about,
+.blog,
+.code-of-conduct,
+.events,
+.faq,
+.mentors,
+.resources,
+.mentorship-about,
+.book-club,
+.interview-preparation,
+.study-group {
+    .card {
+        border-radius: 1rem;
         height: 100%;
-        flex-direction: column;
     }
-}
 
-.card-m {
-    .card-header {
-        background-color: transparent;
-        border: none;
+    .card-date {
+        color: $gray-600;
     }
-    .card-title {
-        margin-top: 0;
-    }
-    .card-body {
-        display: flex;
-        height: 100%;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        padding: 2rem 2rem 3rem 2rem;
-    }
-    .btn {
-        max-width: fit-content;
-    }
-}
 
-.card-l {
-    border: none;
-    flex-direction: column;
-    text-align: left;
-    h3 {
-        text-align: left;
-        margin: 0 0 0.25rem 0;
-    }
-    .card-media {
-        padding: 0;
-    }
-    img {
-        max-width: 100%;
-        max-height: 100%;
-    }
-}
-
-@include media-breakpoint-up(md) {
-    .card-l {
-        flex-direction: row;
-    }
-}
-
-.announcements {
-    .card-l {
-        border-top: 1px solid $gray-300;
-        border-left: none;
-        border-right: none;
-        border-radius: 0;
-        padding: 2rem 0;
-        &:first-child {
-            padding-top: 3rem;
-            border-top: 16px solid $primary;
-            border-image: linear-gradient(to right, $purple-40, $purple-60, $purple-80);
-            border-image-slice: 1; // Ensure the gradient covers the entire border
+    .card-s {
+        .card-title {
+            font-size: 1.3rem;
+            margin-bottom: 0.25rem;
         }
-        &:last-child {
-            border-bottom: 2px solid $primary;
-        }
-        img {
-            border-radius: 4px;
-        }
-    }
-    .card-body {
-        padding: 0 0 1rem 0;
-    }
-}
 
-@include media-breakpoint-up(md) {
-    .announcements {
+        .card-subtitle {
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 0.6rem;
+            font-size: 1.1rem;
+        }
+
+        .card p {
+            line-height: 1;
+        }
+
+        .card-img-top {
+            border-radius: 100%;
+            padding: 1.25rem;
+        }
+
         .card-body {
-            padding: 0 1.6rem 0 0;
+            padding-top: 0;
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+        }
+    }
+
+    .card-m {
+        .card-header {
+            background-color: transparent;
+            border: none;
+        }
+
+        .card-title {
+            margin-top: 0;
+        }
+
+        .card-body {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            padding: 2rem 2rem 3rem 2rem;
+        }
+
+        .btn {
+            max-width: fit-content;
+        }
+    }
+
+    .card-l {
+        border: none;
+        flex-direction: column;
+        text-align: left;
+
+        h3 {
+            text-align: left;
+            margin: 0 0 0.25rem 0;
+        }
+
+        .card-media {
+            padding: 0;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        .card-l {
+            flex-direction: row;
         }
     }
 }
@@ -113,10 +102,12 @@
 .mentorship-about {
     .card-body {
         align-items: baseline;
+
         ol {
             text-align: left;
             padding-left: 1.4rem;
         }
+
         p {
             margin-bottom: 0.25rem;
         }
@@ -127,40 +118,41 @@
     height: 100%;
 
     a {
-      color: $gray-800;
-      &:hover {
-        text-decoration: none;
-        background-color: $gray-100;
-        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
-      }
+        color: $gray-800;
+        
+        &:hover {
+            text-decoration: none;
+            background-color: $gray-100;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+        }
     }
   
     .card-img-top {
-      max-height: 300px;
-      object-fit: cover;
-      border-top-left-radius: 1rem;
-      border-top-right-radius: 1rem;
+        max-height: 300px;
+        object-fit: cover;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
     }
   
     .card-body {
-      display: flex;
-      height: 100%;
-      flex-direction: column;
-      padding: 1.5rem;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        padding: 1.5rem;
     }
   
     .card-title {
-      font-size: 22px;
-      margin-bottom: 15px;
-      color: $primary-40;
+        font-size: 22px;
+        margin-bottom: 15px;
+        color: $primary-40;
     }
 
     .card-desc {
-      font-size: 16px;
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      text-overflow: ellipsis;
+        font-size: 16px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
     }
 }
