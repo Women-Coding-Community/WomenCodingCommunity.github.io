@@ -1,0 +1,53 @@
+name: Super-Linter
+
+on:
+  pull_request:
+    types: [ opened, synchronize, reopened ]
+
+jobs:
+  lint:
+    name: Lint codebase
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Super-Linter
+        uses: github/super-linter@v4
+        env:
+          VALIDATE_ALL_CODEBASE: true
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  comment:
+    name: Comment on Pull Request
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'pull_request' }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Get Super-Linter errors
+        run: |
+          if [ -f linting-errors.txt ]; then
+            cat linting-errors.txt
+          else
+            echo "No linting errors found."
+          fi
+        id: get_errors
+
+      - name: Comment on Pull Request
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue_number = context.payload.pull_request.number;
+            const errors = ${{ steps.get_errors.outputs.stdout }};
+            if (errors !== "No linting errors found.") {
+              github.issues.createComment({
+                issue_number: issue_number,
+                body: "### Super-Linter Errors\n\n" + errors
+              });
+            }
