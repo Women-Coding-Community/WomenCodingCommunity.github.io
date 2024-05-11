@@ -3,30 +3,37 @@
         {% seo %}
         {% include head.html %}
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     {% include navbar.html %}
-    <div class="container">
-      <article class="post">
-          <div>
-              <h1>{{ page.title }}</h1>
-              <hr>
-              <div class="author d-flex align-items-center">
-                  <div class="author_img">
-                    <img src="/assets/images/blog/author.png" alt="Author picture">
-                  </div>
-                  <div class="d-flex flex-column">
-                    <div class="author_name">{{page.author}}</div>
-                    <div class="article-date">{{ page.date | date: "%d.%m.%Y" }}
-                  </div>
-                  </div>
-              </div>
-              <hr>
-          </div>
+    <main id="main-content">
+      <div class="page article-blog">
+        <div class="container">
+          <div class="row">
+            <article>
+                <header class="page-header">
+                    <h1>{{ page.title }}</h1>
+                    <hr>
+                    <div class="author">
+                        <div class="author-media">
+                          <img src="/assets/images/blog/author.png" alt="Author picture">
+                        </div>
+                        <div class="author-content">
+                          <div class="author-name">{{page.author}}</div>
+                          <div class="article-date">{{ page.date | date: "%d.%m.%Y" }}
+                        </div>
+                        </div>
+                    </div>
+                    <hr>
+                </header>
 
-          <div class="post_body content-constrained">
-              {{ content }}
+                <div class="article-blog-content content-constrained">
+                    {{ content }}
+                </div>
+            </article>
           </div>
-      </article>
-    </div>
+        </div>
+      </div>
+    </main>
   </body>
 
   {% include footer.html %}

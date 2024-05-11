@@ -6,7 +6,7 @@ title: Community Blog
 <div class="page list-blog">
     {% include page-header.html %}
     <div class="container featured-content">
-        <div class="row">
+        <div class="row mt-6 mb-6">
             <div class="row-content col-12">
                 <div class="card-deck">
                     {% assign posts = site.posts %}
@@ -18,7 +18,7 @@ title: Community Blog
                         {% else %}
                             {% for post in posts %}
                             <div class="col-12 col-md-6">
-                                <div class="card card-m">
+                                <div class="card-blog card card-m">
                                     <a class="cursor-pointer" href="{{post.url}}">
                                         <div class="card-media">
                                             {% if post.blurb_img %}
@@ -29,8 +29,8 @@ title: Community Blog
                                         </div>
 
                                         <div class="card-body">
-                                            <h5 class="card-title">{{post.title}}</h5>
-                                            <p class="card-desc">{{post.description}}</p>
+                                            <h2 class="card-title">{{post.title}}</h2>
+                                            <p>{{post.description}}</p>
                                             <div class="card-author d-flex align-items-center">
                                                 <div class="card-author-image">
                                                     <img src="/assets/images/blog/author.png" alt="Author picture">
