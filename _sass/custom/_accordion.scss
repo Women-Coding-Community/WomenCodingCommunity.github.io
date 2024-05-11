@@ -1,8 +1,52 @@
 .content-constrained {
     .accordion {
+        border-top: 1px solid $border-color;
+        padding: map-get($spacers, 3) 0 map-get($spacers, 2) 0;
+
+        a {
+            text-decoration: none;
+        }
+
+        .accordion-header {
+            position: relative;
+        }
+
+        .accordion-body {
+            a {
+                text-decoration: underline;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
         .accordion-title {
             font-size: $font-title-l;
             color: $link-color;
+            margin-top: 0;
+            padding-right: map-get($spacers, 3);
         }
+
+        .accordion-icon {
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            svg {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+
+    .accordion .accordion-icon {
+        transition: -webkit-transform 0.25s ease-in-out;
+        transition: transform 0.25s ease-in-out;
+        transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+    }
+
+    .accordion .accordion-header[aria-expanded=true] .accordion-icon {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
     }
 }

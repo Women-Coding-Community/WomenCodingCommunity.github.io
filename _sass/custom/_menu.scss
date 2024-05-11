@@ -1,5 +1,10 @@
 .menu {
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+
+  a {
+    text-decoration: none;
+  }
+
   .navbar-nav .nav-link {
       font-size: 1.1rem;
       color: $gray-800;

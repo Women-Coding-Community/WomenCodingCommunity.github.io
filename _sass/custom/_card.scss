@@ -7,6 +7,10 @@
     height: 100%;
     border: 1px solid $border-color;
 
+    a {
+        text-decoration: none;
+    }
+
     .btn {
         max-width: fit-content;
     }
@@ -17,6 +21,8 @@
 }
 
 .card-deck {
+    width: 100%;
+
     .card-column {
         height: 100%;
         padding: 0;
@@ -143,14 +149,8 @@
 // Custom card styles
 //
 
-.announcements {
-    .card-deck {
-        margin-right: auto;
-        margin-left: auto;
-        flex-direction: column;
-    }
-
-    .card-horizontal {
+.card-announcement {
+    &.card-horizontal {
         border: none;
         background: transparent;
         margin: 0 1rem;
@@ -219,28 +219,27 @@
     .card-media {
         img {
             width: 100%;
-            height: 360px;
             border-radius: $border-radius $border-radius 0 0;
         }
     }
 }
 
-.mission {
-    .card-horizontal {
-        .card-media {
-            img {
-                border-radius: 0;
-            }
-        }
+.card-mission {
+    background-color: transparent;
+    border: none;
 
-        .card-title {
-            margin-top: 0;
+    .card-media {
+        img {
+            border-radius: 0;
         }
+    }
+
+    .card-title {
+        margin-top: 0;
     }
 }
 
 .card-person {
-
     .card-media {
         padding: map-get($spacers, 4) map-get($spacers, 3) map-get($spacers, 2) map-get($spacers, 3);
     }
@@ -256,36 +255,46 @@
     }
 }
 
-.programmes {
-    .card-deck {
-        width: 100%;
-        text-align: center;
-    }
+.card-programme {
+    border: none;
+    margin: 0 0 map-get($spacers, 3) 0;
+    text-align: center;
 
-    .card {
-        border: none;
-        margin: 0 0 map-get($spacers, 3) 0;
+    a {
         padding: map-get($spacers, 3);
 
-        figure {
-            margin: 0;
+        &:hover {
+            color: $text-primary;
+            background: $bg-hover;
+            border-radius: $border-radius;
+        }
+    }
+
+    figure {
+        margin: 0;
+    }
+}
+
+.card-resource {
+    a {
+        &:hover {
+            text-decoration: underline;
         }
     }
 }
 
-.support {
-    .card-l {
-        border: none;
+.card-support {
+    border: none;
+    text-align: center;
 
-        .card-body {
-            padding: 0;
-        }
+    .card-body {
+        padding: 0;
     }
 }
 
 @include media-breakpoint-down(sm) {
-    .mission {
-        .card-horizontal {
+    .card-mission {
+        &.card-horizontal {
             flex-direction: column;
 
             .card-body {
@@ -296,8 +305,8 @@
 }
 
 @include media-breakpoint-up(md) {
-    .mission {
-        .card-horizontal {
+    .card-mission {
+        &.card-horizontal {
             .card-body {
                 padding: map-get($spacers, 3);
             }
@@ -306,30 +315,20 @@
 }
 
 @include media-breakpoint-up(lg) {
-    .announcements {
+    .card-announcement {
+
+        img {
+            max-height: 100%;
+        }
+
         .card-body {
             flex: 1 1 auto;
-        }
-
-        .card-deck {
-            flex-direction: row;
-        }
-    }
-
-    .announcements {
-        .card {
-            img {
-                max-height: 100%;
-            }
-        }
-
-        .card-body {
             padding: 0 map-get($spacers, 5) 0 map-get($spacers, 3);
         }
     }
 
-    .mission {
-        .card-horizontal {
+    .card-mission {
+        &.card-horizontal {
             .card-body {
                 padding-left: map-get($spacers, 4);
             }

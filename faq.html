@@ -10,19 +10,15 @@ title: Mentorship FAQ
             <div class="content-constrained">
                 <section>
                     {% for faq in site.data.faq %}
-                    <div class="accordion">
-                        <a class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top" aria-controls="faq-{{faq.index}}" aria-expanded="false" data-toggle="collapse" href="#faq-{{faq.index}}" role="button">
-                            <div class="position-relative d-flex align-items-left">
-                                <h2 class="accordion-title">{{faq.question}}</h2>
-                                <div class="position-absolute top-0 right-0 h-100 d-flex align-items-center">
-                                    {% include icons/plus.svg %}
-                                </div>
+                    <div class="accordion" id="accordion">
+                        <a class="accordion-header" aria-controls="faq-{{faq.index}}" aria-expanded="false" data-toggle="collapse" href="#faq-{{faq.index}}" role="button">
+                            <h2 class="accordion-title">{{faq.question}}</h2>
+                            <div class="accordion-icon">
+                                {% include icons/plus.svg %}
                             </div>
                         </a>
-                        <div class="collapse" id="faq-{{faq.index}}">
-                            <div class="card card-body border-0 p-0">
-                                <p>{{faq.answer}}</p>
-                            </div>
+                        <div class="accordion-body collapse" id="faq-{{faq.index}}">
+                            <p>{{faq.answer}}</p>
                         </div>
                     </div>
                     {% endfor %}
