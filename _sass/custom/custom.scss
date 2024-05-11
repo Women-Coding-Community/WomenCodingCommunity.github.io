@@ -1,7 +1,6 @@
 @import "blog";
 @import "buttons";
 @import "card";
-@import "card-home";
 @import "hero";
 @import "menu";
 @import "faq";
@@ -12,7 +11,7 @@
 @import "code-of-conduct";
 @import "mentors";
 @import "media-breakpoint";
-@import "resources";
+@import "mixins";
 
 
 h1, h2, h3 {
