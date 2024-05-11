@@ -1,7 +1,6 @@
 .home {
 
     .row {
-
         &.featured-content {
             padding-top: map-get($spacers, 6);
             padding-bottom: map-get($spacers, 6);
@@ -30,6 +29,17 @@
     .row-content {
         display: flex;
         flex-direction: column;
+    }
+
+    .row-header {
+        h2 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    .row-description {
+        margin-bottom: map-get($spacers, 3);
     }
 
     .programmes {

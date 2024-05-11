@@ -31,7 +31,7 @@ title: Home
             <div class="row-content">
                 <div class="card-deck">
                     {% for announcement in site.data.announcement %}
-                    <article class="card card-horizontal">
+                    <article class="card-announcement card card-horizontal">
                         <div class="card-media col-4">
                             <img src="{{ announcement.image.path }}" alt="{{ announcement.image.alt }}">
                         </div>
@@ -56,13 +56,13 @@ title: Home
                 <h2>Opportunities & Programmes</h2>
             </div>
             <div class="row-content col-12">
-                <div class="col-12 col-md-8 col-lg-6">
+                <div class="row-description col-12 col-md-8 col-lg-6">
                     <p>Discover a world of possibilities within our community. From networking events to mentorship programs and leadership opportunities, there's something for everyone to explore. Whether you're looking to sharpen your skills, expand your professional network, or take the next step in your career, we offer a wide range of opportunities to help you achieve your goals. Join us on this journey of growth and empowerment, and unlock your full potential in the tech industry.</p>
                 </div>
                 <div class="card-deck">
                     {% for programme in site.data.programmes %}
                         <div class="col-12 col-md-6 col-lg-4">
-                            <article class="card">
+                            <article class="card-programme card">
                                 <a href="{{ programme.url }}">
                                     <figure>
                                         <div class="material-symbols-outlined" aria-hidden="true">{{ programme.icon }}</div>

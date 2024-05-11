@@ -1,8 +1,7 @@
 .hero {
-    padding: 0 map-get($spacers, 3);
 
     .row {
-        padding: map-get($spacers, 3) 0 map-get($spacers, 6) 0;
+        padding: map-get($spacers, 4) 0 map-get($spacers, 6) 0;
     }
 
     h1,
@@ -13,6 +12,7 @@
     h1 {
         @include font-display-l;
         color: $primary;
+        margin: 0;
     }
     
     p {
@@ -68,8 +68,9 @@
 
 @include media-breakpoint-up(md) {
     .hero {
+        
         .row {
-            padding: map-get($spacers, 5) 0 map-get($spacers, 6) 0;
+            padding: map-get($spacers, 6) 0;
             align-items: center;
             flex-direction: row;
         }
