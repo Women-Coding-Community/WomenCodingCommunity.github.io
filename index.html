@@ -3,70 +3,84 @@ layout: default
 title: Home
 ---
 
-<main class="container-fluid">
-    {% include banner.html %}
+<div class="home">
+    {% include hero.html %}
 
-    <div class="home">
-        <div class="row mission">
-            <div class="content">
-                <div class="col-12 col-md-6">
-                    <p class="lead">Empowering women in their tech careers through education, mentorship, community building, and career services is our mission. We provide workshops and events, connect members with industry mentors, foster a supportive community through meetups and conferences, and raise awareness for more inclusive industry practices.</p>
-                    <a href="/about" class="btn btn-primary">Learn more about us</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="row programmes bg-1">
-            <div class="content">
-                <div class="col-12 col-md-6 pb-4">
-                    <h2>Opportunities & Programmes</h2>
-                    <p>Discover a world of possibilities within our community. From networking events to mentorship programs and leadership opportunities, there's something for everyone to explore. Whether you're looking to sharpen your skills, expand your professional network, or take the next step in your career, we offer a wide range of opportunities to help you achieve your goals. Join us on this journey of growth and empowerment, and unlock your full potential in the tech industry.</p>
-                </div>
-                <div class="col-12">
-                    <div class="row programs">
-                        {% for programme in site.data.programmes %}
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <article>
-                                <a href="{{ programme.url }}">
-                                    <div class="material-symbols-outlined" aria-hidden="true">{{ programme.icon }}</div>
-                                    <div>{{ programme.title }}</div>
-                                </a>
-                            </article>
-                        </div>
-                        {% endfor %}
+    <div class="container mission bg-1">
+        <div class="row featured-content">
+            <div class="row-content col-12">
+                <div class="card card-l card-horizontal">
+                    <div class="card-media col-12 col-md-6">
+                        <img src="./assets/images/home/stock-unsplash-mission-cta_16x9.jpg" alt="{{ announcement.image.alt }}">
+                    </div>
+                    <div class="card-body col-12 col-md-6">
+                        <h2 class="card-title">Join Our Community</h2>
+                        <p>Empowering women in their tech careers through education, mentorship, community building, and career services is our mission. We provide workshops and events, connect members with industry mentors, foster a supportive community through meetups and conferences, and raise awareness for more inclusive industry practices.</p>
+                        <a href="/about" class="btn btn-primary">Learn more about us</a>    
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="row announcements">
-            <div class="content">
+    <div class="container announcements">
+        <div class="row featured-content">
+            <div class="row-header pb-5">
                 <h2>Announcements</h2>
-                <div class="col-12 col-lg-8">
+            </div>
+            <div class="row-content">
+                <div class="card-deck">
                     {% for announcement in site.data.announcement %}
-                    <article class="card card-l">
-                        <div class="card-body col-md-8">
+                    <article class="card-announcement card card-horizontal">
+                        <div class="card-media col-4">
+                            <img src="{{ announcement.image.path }}" alt="{{ announcement.image.alt }}">
+                        </div>
+                        <div class="card-body col-8">
                             <div class="card-date">{{ announcement.date }}</div>
                             <h3 class="card-title">{{ announcement.title }}</h3>
-                            <p class="card-desc">{{ announcement.description }}</p>
+                            <p>{{ announcement.description }}</p> 
                             {% if announcement.link %}
-                            <a href="{{ announcement.link.path }}" class="btn btn-outline-primary">{{
-                                announcement.link.title }}</a>
+                                <a href="{{ announcement.link.path }}" class="btn btn-outline-primary">{{announcement.link.title }}</a>
                             {% endif %}
-                        </div>
-
-                        <div class="card-media col-md-4">
-                            <img src="{{ announcement.image.path }}" alt="{{ announcement.image.alt }}">
                         </div>
                     </article>
                     {% endfor %}
                 </div>
             </div>
         </div>
+    </div>
+    
+    <div class="container programmes bg-gradient-1">
+        <div class="row featured-content">
+            <div class="row-header pb-3">
+                <h2>Opportunities & Programmes</h2>
+            </div>
+            <div class="row-content col-12">
+                <div class="row-description col-12 col-md-8 col-lg-6">
+                    <p>Discover a world of possibilities within our community. From networking events to mentorship programs and leadership opportunities, there's something for everyone to explore. Whether you're looking to sharpen your skills, expand your professional network, or take the next step in your career, we offer a wide range of opportunities to help you achieve your goals. Join us on this journey of growth and empowerment, and unlock your full potential in the tech industry.</p>
+                </div>
+                <div class="card-deck">
+                    {% for programme in site.data.programmes %}
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <article class="card-programme card">
+                                <a href="{{ programme.url }}">
+                                    <figure>
+                                        <div class="material-symbols-outlined" aria-hidden="true">{{ programme.icon }}</div>
+                                        <figcaption>{{ programme.title }}</figcaption>
+                                    </figure>
+                                </a>
+                            </article>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <div class="row mentors-cta bg-2">
-            <div class="content">
-                <div class="col-12 col-md-6">
+    <div class="container mentors-cta bg-1">
+        <div class="row featured-content">
+            <div class="row-content col-12">
+                <div class="card-deck">
                     <div class="card card-m">
                         <div class="card-body">
                             <h2 class="card-title">Meet Our Dedicated Mentors</h2>
@@ -74,8 +88,6 @@ title: Home
                             <a href="/mentors" class="btn btn-primary">Check our mentors</a>    
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6">
                     <div class="card card-m">
                         <div class="card-body">
                             <h2 class="card-title">Become a Mentor</h2>
@@ -86,12 +98,16 @@ title: Home
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="row support bg-1">
-            <div class="content">
-                <div class="col-12">
-                    <h2>Experiencing technical issues?</h2>
-                    <a href="https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io/issues/new?template=bug_report.md&title=bug title" target="_blank" class="btn btn-primary">Send us a report</a>
+    <div class="container support">
+        <div class="row featured-content">
+            <div class="row-content col-12">
+                <div class="card card-l">
+                    <div class="card-body col-12">
+                        <h2 class="card-title">Experiencing technical issues?</h2>
+                        <a href="https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io/issues/new?template=bug_report.md&title=bug title" target="_blank" class="btn btn-outline-primary">Send us a report</a>
+                    </div>
                 </div>
             </div>
         </div>
