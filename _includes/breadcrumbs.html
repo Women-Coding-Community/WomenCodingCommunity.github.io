@@ -17,14 +17,16 @@
             <!-- <li>Home</li> -->
             {% for item in site.data.navbar %}
                 
-                {% for subitem in item.subfolderitems %}
-                    <li class="breadcrumb-item">{{subitem.page}}</li>
-                    {% if item.breadcrumbs and item.link == current_path %}
-                        {% for itembreadcrumbs in item.breadcrumbs %}
+                {% for subfolderitem in item.subfolderitems %}
+                    {% if subfolderitem.breadcrumbs and subfolderitem.url == current_path %}
+                        {% for subfolderitembreadcrumb in subfolderitem.breadcrumbs %}
                             <li class="breadcrumb-item">
-                                <a href="/{{ itembreadcrumbs.link }}">{{ itembreadcrumbs.name }}</a>
+                                <a href="/{{ subfolderitembreadcrumb.link }}">{{ subfolderitembreadcrumb.name }}</a>
                             </li>
                         {% endfor %}
+                        <li class="breadcrumb-item active" aria-current="page">
+                            {{ subfolderitem.page }}
+                        </li>
                     {% endif %}
                 {% endfor %}
             {% endfor %}
