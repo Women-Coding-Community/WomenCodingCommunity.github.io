@@ -1,47 +1,37 @@
-.blog {
-  padding: 15px;
-
-  .row {
-    justify-content: flex-start;
+.article-blog {
+  &-content {
+    padding-bottom: map-get($spacers, 6);
   }
 
-  &__block {
-    margin-top: 4rem;
-    margin-bottom: 7rem;
-  }
-}
+  .page-header {
+    background: transparent;
+    color: $text-primary;
+    padding-bottom: map-get($spacers, 3);
 
-.author {
-  &_img {
-    width: 32px;
-    height: 32px;
-    margin-right: 10px;
+    h1 {
+      margin-bottom: map-get($spacers, 5);
+    }
   }
 
-  &_name {
-    font-size: $small-font-size;
-  }
-}
-
-.article-date {
-  color: gray;
-  font-size: 12px;
-}
-
-$post-max-width: 1024px;
-
-.post {
-
-  &_body {
-    margin-bottom: 7rem;
+  .article-date {
+    font-size: $font-title-s;
+    color: $text-secondary;
   }
 
-  h4, h5, h6 {
-    padding: 15px 0;
+  .article-media {
+    margin: map-get($spacers, 4) 0;
   }
 
-  p, li {
-    margin-bottom: 15px;
+  .author {
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    font-size: $font-title-s;
+  }
+
+  .author-media {
+    margin-right: 0.5rem;
+    padding-top: 0.25rem;
   }
 
   a {
@@ -50,21 +40,25 @@ $post-max-width: 1024px;
     font-size: 18px;
   }
 
-  .post_body img {
-    padding: 25px;
+  blockquote {
+    padding: map-get($spacers, 3) 0;
+    color: $primary;
+    font-style: italic;
+
+    p {
+      font-size: $font-headline-s;
+
+      &:before {
+        content: '"'
+      }
+
+      &:after {
+        content: '"'
+      }
+    }
   }
 
-  blockquote {
-    padding: 2rem 0;
-    color: #164863;
-    font-weight: bold;
-    font-style: italic;
-  }
-  
-  blockquote p:before {
-    content: '"'
-  }
-  blockquote p:after {
-    content: '"'; 
+  .blockquote-footer {
+    font-size: $font-title-m;
   }
 }

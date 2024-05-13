@@ -1,32 +1,63 @@
+//
+// Global card styles
+//
+
 .card {
-    border-radius: 1rem;
+    padding: 0;
     height: 100%;
+    border: 1px solid $border-color;
+
+    a {
+        text-decoration: none;
+    }
+
+    .btn {
+        max-width: fit-content;
+    }
+}
+
+.card {
+    border-radius: $border-radius;
+}
+
+.card-deck {
+    width: 100%;
+
+    .card-column {
+        height: 100%;
+        padding: 0;
+    }
+
+    .card {
+        margin-bottom: map-get($spacers, 4);
+    }
 }
 
 .card-date {
-    color: $gray-600;
+    color: $text-secondary;
+    font-size: $font-label-m;
 }
 
 .card-s {
     .card-title {
         font-size: 1.3rem;
         margin-bottom: 0.25rem;
+        margin-top: 0;
     }
+
     .card-subtitle {
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 0.6rem;
         font-size: 1.1rem;
     }
-    .card p {
-        line-height: 1;
+
+    p {
+        font-size: $font-body-m;
     }
-    .card-img-top {
-        border-radius: 100%;
-        padding: 1.25rem;
-    }
+
     .card-body {
-        padding-top: 0;
+        padding: map-get($spacers, 3);
         display: flex;
         height: 100%;
         flex-direction: column;
@@ -34,133 +65,273 @@
 }
 
 .card-m {
-    .card-header {
-        background-color: transparent;
-        border: none;
-    }
-    .card-title {
-        margin-top: 0;
-    }
     .card-body {
         display: flex;
-        height: 100%;
         flex-direction: column;
-        text-align: center;
         align-items: center;
         padding: 2rem 2rem 3rem 2rem;
     }
-    .btn {
-        max-width: fit-content;
+
+    .card-title {
+        @include font-headline-l;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    p {
+        @include font-body;
+        text-align: center;
     }
 }
 
 .card-l {
-    border: none;
-    flex-direction: column;
-    text-align: left;
-    h3 {
-        text-align: left;
-        margin: 0 0 0.25rem 0;
+    .card-title {
+        font-size: $font-display-s;
     }
-    .card-media {
-        padding: 0;
-    }
-    img {
-        max-width: 100%;
-        max-height: 100%;
-    }
-}
 
-@include media-breakpoint-up(md) {
-    .card-l {
-        flex-direction: row;
-    }
-}
-
-.announcements {
-    .card-l {
-        border-top: 1px solid $gray-300;
-        border-left: none;
-        border-right: none;
-        border-radius: 0;
-        padding: 2rem 0;
-        &:first-child {
-            padding-top: 3rem;
-            border-top: 16px solid $primary;
-            border-image: linear-gradient(to right, $purple-40, $purple-60, $purple-80);
-            border-image-slice: 1; // Ensure the gradient covers the entire border
-        }
-        &:last-child {
-            border-bottom: 2px solid $primary;
-        }
-        img {
-            border-radius: 4px;
-        }
-    }
     .card-body {
-        padding: 0 0 1rem 0;
+        justify-content: center;
+        padding: map-get($spacers, 5);
+    }
+
+    p {
+        @include font-body;
+        text-align: left;
     }
 }
 
-@include media-breakpoint-up(md) {
-    .announcements {
-        .card-body {
-            padding: 0 1.6rem 0 0;
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    border-radius: $border-radius;
+
+    .card-title {
+        text-align: left;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        flex: none;
+    }
+
+    .card-media {
+        flex: none;
+        padding-left: 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: $border-radius 0 0 $border-radius;
         }
     }
 }
 
-.mentorship-about {
+@include media-breakpoint-up(sm) {
+    .card-deck {
+        .card-horizontal {
+            flex-direction: row;
+        }
+    }
+
+    .card-horizontal {
+        .card-media {
+            img {
+                max-height: 100%;
+            }
+        }
+    }
+}
+
+//
+// Custom card styles
+//
+
+.card-announcement {
+    &.card-horizontal {
+        border: none;
+        background: transparent;
+        margin: 0 1rem;
+        &:not(:only-child) {
+            margin-bottom: map-get($spacers, 5);
+        }
+        
+        p {
+            font-size: $font-body-m;
+        }
+
+        .card-media {
+            img {
+                border-radius: 0;
+            }
+        }
+    }
+
+    .card-body {
+        padding: 0 map-get($spacers, 3);
+    }
+
+    .card-title {
+        margin: map-get($spacers, 1) 0 map-get($spacers, 3) 0;
+    }
+}
+
+.card-blog {
     .card-body {
         align-items: baseline;
-        ol {
-            text-align: left;
-            padding-left: 1.4rem;
-        }
-        p {
-            margin-bottom: 0.25rem;
+    }
+
+    .card-title {
+        @include font-headline-m;
+        text-align: left;
+    }
+
+    p {
+        font-size: $font-body-m;
+        text-align: left;
+        color: $text-primary;
+    }
+
+    a {
+        height: 100%;
+    }
+
+    .card-author-name,
+    .card-author-date {
+        font-size: $font-body-s;
+        color: $text-secondary;
+    }
+
+    .card-author-name {
+        color: $text-primary;
+    }
+
+    .card-author-date {
+        color: $text-secondary;
+    }
+
+    .card-author-image {
+        margin-right: 0.5rem;
+    }
+
+    .card-media {
+        img {
+            width: 100%;
+            border-radius: $border-radius $border-radius 0 0;
         }
     }
 }
 
-.blog-card {
-    height: 100%;
+.card-mission {
+    background-color: transparent;
+    border: none;
+
+    .card-media {
+        img {
+            border-radius: 0;
+        }
+    }
+
+    .card-title {
+        margin-top: 0;
+    }
+}
+
+.card-person {
+    .card-media {
+        padding: map-get($spacers, 4) map-get($spacers, 3) map-get($spacers, 2) map-get($spacers, 3);
+    }
+
+    img {
+        border-radius: 100%;
+        width: 100%;
+    }
+
+    p {
+        color: $text-secondary;
+        font-size: $font-body-s;
+    }
+}
+
+.card-programme {
+    border: none;
+    margin: 0 0 map-get($spacers, 3) 0;
+    text-align: center;
 
     a {
-      color: $gray-800;
-      &:hover {
-        text-decoration: none;
-        background-color: $gray-100;
-        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
-      }
-    }
-  
-    .card-img-top {
-      max-height: 300px;
-      object-fit: cover;
-      border-top-left-radius: 1rem;
-      border-top-right-radius: 1rem;
-    }
-  
-    .card-body {
-      display: flex;
-      height: 100%;
-      flex-direction: column;
-      padding: 1.5rem;
-    }
-  
-    .card-title {
-      font-size: 22px;
-      margin-bottom: 15px;
-      color: $primary-40;
+        padding: map-get($spacers, 3);
+
+        &:hover {
+            color: $text-primary;
+            background: $bg-hover;
+            border-radius: $border-radius;
+        }
     }
 
-    .card-desc {
-      font-size: 16px;
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      text-overflow: ellipsis;
+    figure {
+        margin: 0;
+    }
+}
+
+.card-resource {
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.card-support {
+    border: none;
+    text-align: center;
+
+    .card-body {
+        padding: 0;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .card-mission {
+        &.card-horizontal {
+            flex-direction: column;
+
+            .card-body {
+                padding: map-get($spacers, 3) 0;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .card-mission {
+        &.card-horizontal {
+            .card-body {
+                padding: map-get($spacers, 3);
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .card-announcement {
+
+        img {
+            max-height: 100%;
+        }
+
+        .card-body {
+            flex: 1 1 auto;
+            padding: 0 map-get($spacers, 5) 0 map-get($spacers, 3);
+        }
+    }
+
+    .card-mission {
+        &.card-horizontal {
+            .card-body {
+                padding-left: map-get($spacers, 4);
+            }
+        }
     }
 }
