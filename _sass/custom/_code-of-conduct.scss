@@ -1,10 +1,13 @@
-.code-of-conduct {
-    
-    @extend .my-7;
+.mentorship-code-of-conduct {
+    .row {
+        justify-content: center;
+    }
 
-    .section{
-        margin-bottom: 5rem;
+    h2 {
+        text-align: center;
+    }
 
+    .section {
         li {
             margin-left: auto;
             margin-right: auto;
@@ -16,13 +19,16 @@
                 color: $primary;
             }
         }
-
-        ul li {
-            margin-bottom: 0;
-        }
     }
 
-    .btn {
-        margin-top: 1.5rem;
+    .btn-show-more {
+        margin-bottom: map-get($spacers, 4);
+    }
+
+    .featured-content {
+        .card-l {
+            border: none;
+            text-align: center;
+        }
     }
 }
