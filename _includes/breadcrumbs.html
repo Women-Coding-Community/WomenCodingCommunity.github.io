@@ -1,5 +1,6 @@
 {% assign current_path = page.url | remove: '.html' | remove_first: '/' %}
 
+{% if current_path and current_path != '' %}
 <nav aria-label="Breadcrumb" class="breadcrumb">
     <div class="container">
         <!-- <ol>
@@ -14,22 +15,41 @@
         </div> -->
 
         <ol>
-            <!-- <li>Home</li> -->
+            <li class="breadcrumb-item">
+                <a href="/">Home</a>
+            </li>
             {% for item in site.data.navbar %}
-                
-                {% for subfolderitem in item.subfolderitems %}
-                    {% if subfolderitem.breadcrumbs and subfolderitem.url == current_path %}
-                        {% for subfolderitembreadcrumb in subfolderitem.breadcrumbs %}
+                {% if item.subfolderitems %}
+                    {% for subfolderitem in item.subfolderitems %}
+                        {% if subfolderitem.breadcrumbs and subfolderitem.url == current_path %}
+                            {% for subfolderitembreadcrumb in subfolderitem.breadcrumbs %}
+                                <li class="breadcrumb-item">
+                                    {% if subfolderitembreadcrumb.link %}
+                                        <a href="/{{ subfolderitembreadcrumb.link }}">{{ subfolderitembreadcrumb.name }}</a>
+                                    {% else %}
+                                        {{ subfolderitembreadcrumb.name }}
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                            <li class="breadcrumb-item active" aria-current="page">
+                                {{ subfolderitem.page }}
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                {% else %}
+                    {% if item.breadcrumbs and item.link == current_path %}
+                        {% for itembreadcrumb in item.breadcrumbs %}
                             <li class="breadcrumb-item">
-                                <a href="/{{ subfolderitembreadcrumb.link }}">{{ subfolderitembreadcrumb.name }}</a>
+                                <a href="/{{ itembreadcrumb.link }}">{{ itembreadcrumb.name }}</a>
                             </li>
                         {% endfor %}
                         <li class="breadcrumb-item active" aria-current="page">
-                            {{ subfolderitem.page }}
+                            {{ item.name }}
                         </li>
                     {% endif %}
-                {% endfor %}
+                {% endif %}
             {% endfor %}
         </ol>
     </div>
 </nav>
+{% endif %}

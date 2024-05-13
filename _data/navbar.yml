@@ -9,29 +9,21 @@
     - page: Mentors
       url: mentors
       breadcrumbs: 
-        - name: Home
-          link: 
         - name: Mentorship
           link: mentorship
     - page: Resources
       url: mentorship-resources
       breadcrumbs: 
-        - name: Home
-          link: 
         - name: Mentorship
           link: mentorship
     - page: Code of Conduct
       url: mentorship-code-of-conduct
       breadcrumbs: 
-        - name: Home
-          link: 
         - name: Mentorship
           link: mentorship
     - page: FAQ
       url: faq
       breadcrumbs: 
-        - name: Home
-          link: 
         - name: Mentorship
           link: mentorship
 - name: Programmes
@@ -39,10 +31,19 @@
   subfolderitems:
     - page: Book Club
       url: program-book-club
+      breadcrumbs: 
+        - name: Programmes
+          link: 
     - page: Interview Preparation
       url: program-interview-preparation
+      breadcrumbs: 
+        - name: Programmes
+          link: 
     - page: Study Group
       url: program-study-group
+      breadcrumbs: 
+        - name: Programmes
+          link: 
 - name: Blog
   link: blog
   index: 3
@@ -54,14 +55,10 @@
     - page: Team
       url: team
       breadcrumbs: 
-        - name: Home
-          link: 
         - name: About Us
           link: about
     - page: Code of Conduct
       url: code-of-conduct
       breadcrumbs: 
-        - name: Home
-          link: 
         - name: About Us
           link: about
