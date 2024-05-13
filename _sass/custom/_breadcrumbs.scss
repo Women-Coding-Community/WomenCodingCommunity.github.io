@@ -1,5 +1,6 @@
 .breadcrumb {
     margin-bottom: 0;
+    border-radius: 0;
     border-top: 1px solid $neutral-90;
     border-bottom: 1px solid $neutral-90;
     align-items: center;
@@ -23,6 +24,10 @@
             }
             
         }
+    }
+
+    .container {
+        max-width: 1376px;
     }
 }
 
