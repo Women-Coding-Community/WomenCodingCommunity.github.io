@@ -26,12 +26,14 @@
                         {% endif %}
                     {% endfor %}
                 {% else %}
-                    {% if item.breadcrumbs and item.link == current_path %}
-                        {% for itembreadcrumb in item.breadcrumbs %}
-                            <li class="breadcrumb-item">
-                                <a href="/{{ itembreadcrumb.link }}">{{ itembreadcrumb.name }}</a>
-                            </li>
-                        {% endfor %}
+                    {% if item.link == current_path %}
+                        {% if item.breadcrumbs %}
+                            {% for itembreadcrumb in item.breadcrumbs %}
+                                <li class="breadcrumb-item">
+                                    <a href="/{{ itembreadcrumb.link }}">{{ itembreadcrumb.name }}</a>
+                                </li>
+                            {% endfor %}
+                        {% endif %}
                         <li class="breadcrumb-item active" aria-current="page">
                             {{ item.name }}
                         </li>
