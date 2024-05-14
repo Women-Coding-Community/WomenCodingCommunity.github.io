@@ -1,16 +1,13 @@
-- title: Mentorship ad-hoc registration is now open for mentees
-  description: Sign up for this unique opportunity of one-time mentoring sessions with personalised guidance from experienced mentors.
-  date: 01.05.2024
+- title: |
+    Book Club Online Event: The Pragmatic Programmer
+  description: | 
+    Join us for a discussion of this essential guide to writing clear and maintainable code. On Thursday, May 30, 2024 at <b>8:00 PM to 9:30 PM CEST.</b>
+    We recommend that our attendees read the book before the event, however you are welcome to join us, even if you have only read the first chapter. The more, the merrier!
+  date: 30.05.2024 Thursday
   image:
-    path: "/assets/images/announcements/stock-unsplash-computer-typing.jpg"
-    alt: hands typing on a laptop keyboard
+    path: "/assets/images/announcements/book-club-banner.webp"
+    alt: The Pragmatic Programmer book banner with the event details
   link:
-    path: /mentors
-    title: Join now
-
-- title: New Women Coding Community website!
-  description: We are thrilled to introduce our brand-new website. Created with dedication and passion by our incredible team of volunteers, this platform serves as your gateway to a diverse array of resources, programs, mentorship opportunities, and more.
-  date: 30.04.2024
-  image:
-    path: "/assets/images/announcements/stock-copilot-designer_celebrate.jpg"
-    alt: confetti illustration
+    path: https://www.meetup.com/women-coding-community/events/300856519/
+    title: Join us
+    target: _blank
