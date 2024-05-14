@@ -8,38 +8,36 @@
             <h2>Follow Us</h2>
             <p><small>Join us on social media and stay tuned.</small></p>
             <p class="network">
-                {% for network in site.data.footer.network %}
-                {% if network.linkedin %}
-                <span> <a href="{{network.linkedin}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
-                {% endif %}
-                {% if network.twitter %}
-                <span> <a href="{{network.twitter}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
-                {% endif %}
-                {% if network.github %}
-                <span> <a href="{{network.github}}" target="_blank"> {% include icons/github.svg %}</a></span>
-                {% endif %}
-                {% if network.medium %}
-                <span> <a href="{{network.medium}}" target="_blank"> {% include icons/medium.svg %}</a></span>
-                {% endif %}
-                {% if network.meetup %}
-                <span> <a href="{{network.meetup}}" target="_blank"> {% include icons/meetup.svg %}</a></span>
-                {% endif %}
-                {% if network.facebook %}
-                <span> <a href="{{network.facebook}}" target="_blank"> {% include icons/facebook.svg %}</a></span>
-                {% endif %}
-                {% if network.youtube %}
-                <span> <a href="{{network.youtube}}" target="_blank"> {% include icons/youtube.svg %}</a></span>
-                {% endif %}
-                {% if network.instagram %}
-                <span> <a href="{{network.instagram}}" target="_blank"> {% include icons/instagram.svg %}</a></span>
-                {% endif %}
-                {% if network.mail %}
-                <span> <a href="{{network.mail}}" target="_blank"> {% include icons/envelope.svg %}</a></span>
-                {% endif %}
-                {% if network.slack %}
-                <span> <a href="{{network.slack}}" target="_blank"> {% include icons/slack.svg %}</a></span>
-                {% endif %}
-                {% endfor %}
+              {% if site.network.linkedin %}
+                <span> <a href="{{site.network.linkedin}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
+              {% endif %}
+              {% if site.network.twitter %}
+                <span> <a href="{{site.network.twitter}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
+              {% endif %}
+              {% if site.network.github %}
+                <span> <a href="{{site.network.github}}" target="_blank"> {% include icons/github.svg %}</a></span>
+              {% endif %}
+              {% if site.network.medium %}
+                <span> <a href="{{site.network.medium}}" target="_blank"> {% include icons/medium.svg %}</a></span>
+              {% endif %}
+              {% if site.network.meetup %}
+                <span> <a href="{{site.network.meetup}}" target="_blank"> {% include icons/meetup.svg %}</a></span>
+              {% endif %}
+              {% if site.network.facebook %}
+                <span> <a href="{{site.network.facebook}}" target="_blank"> {% include icons/facebook.svg %}</a></span>
+              {% endif %}
+              {% if site.network.youtube %}
+                <span> <a href="{{site.network.youtube}}" target="_blank"> {% include icons/youtube.svg %}</a></span>
+              {% endif %}
+              {% if site.network.instagram %}
+                <span> <a href="{{site.network.instagram}}" target="_blank"> {% include icons/instagram.svg %}</a></span>
+              {% endif %}
+              {% if site.network.mail %}
+                <span> <a href="{{site.network.mail}}" target="_blank"> {% include icons/envelope.svg %}</a></span>
+              {% endif %}
+              {% if site.network.slack %}
+                <span> <a href="{{site.network.slack}}" target="_blank"> {% include icons/slack.svg %}</a></span>
+              {% endif %}
             </p>
         </div>
     </div>
