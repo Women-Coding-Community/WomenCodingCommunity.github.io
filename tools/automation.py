@@ -28,7 +28,7 @@ FOCUS_END_INDEX = 22
 PROG_LANG_START_INDEX = 23
 PROG_LANG_END_INDEX = 27
 
-TYPE_AD_HOC = "ad hoc"
+TYPE_AD_HOC = "ad-hoc"
 TYPE_LONG_TERM = "long-term"
 TYPE_BOTH = "both"
 IMAGE_FILE_PATH = "assets/images/mentors"
@@ -134,7 +134,7 @@ def get_mentorship_type(mentorship_type_str):
     mentorship_type = mentorship_type_str.lower()
 
     if TYPE_AD_HOC in mentorship_type:
-        return TYPE_AD_HOC.replace(' ', '-')
+        return TYPE_AD_HOC
     elif TYPE_LONG_TERM in mentorship_type:
         return TYPE_LONG_TERM
     elif TYPE_BOTH in mentorship_type:
