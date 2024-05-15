@@ -1,5 +1,5 @@
 - title: |
-    Book Club Online Event: The Pragmatic Programmer
+    Book Club: The Pragmatic Programmer
   description: | 
     Join us for a discussion of this essential guide to writing clear and maintainable code. We recommend that our attendees read the book before the event, however you are welcome to join us, even if you have only read the first chapter. The more, the merrier!
   category: category-book-club
@@ -14,7 +14,7 @@
     title: View meetup event
     target: _blank
 - title: |
-    Getting Started with IaC - An Introduction To Terraform
+    Getting Started with IaC - An Intro to Terraform
   description: | 
     Join Women Coding Community for an introductory session on Infrastructure-as-code (IaC) and Terraform with speaker Sonali Goel, Senior/Lead Engineer at Yoox-Net-a-porter. Whether you're a seasoned developer, a systems administrator, or just curious about cloud infrastructure, this talk is designed to equip you with the knowledge to start using Terraform effectively.
   category: category-tech-talk
