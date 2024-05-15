@@ -7,6 +7,9 @@ describe('Tests Mentorship Code of Conduct page', () => {
 
     describe('Verify UI elements from Header and Main content', () => {
         it('should verify UI elements on the Code of Conduct page', () => {
+            cy.contains("Mentorship Code of Conduct", {matchCase: false}).should('be.visible');
+            cy.contains("Code Of Conduct for Mentees", {matchCase: false}).should('be.visible');
+            cy.contains("Code Of Conduct for Mentors", {matchCase: false}).should('be.visible');
             cy.contains('Show More').should('be.visible');
             cy.contains('Read').should('be.visible');
         });
