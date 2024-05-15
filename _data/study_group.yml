@@ -1,0 +1,28 @@
+- title: Data Analytics and Generative AI concepts
+  mentor: Kirthikka Devi Venkataram
+  description: The study group focuses more on the Data Analytics and Generative AI concepts and guiding on the insights across the span of industries upskilling on relevant knowledge and practical work.
+  participants: 3
+  status: active
+  linkedin: https://www.linkedin.com/in/kirthikka-devi-v
+  index: 1
+- title: Frontend Javascript
+  mentor: Stephanie Senoner
+  description: Project based study group, working towards a shared application (including SDLC introduction, gaining more experience in reviewing PR, git etc), with guidance on different aspects like testing, CI/CD.
+  participants: 2
+  status: active
+  linkedin: https://www.linkedin.com/in/stephanie-senoner
+  index: 2
+- title: Backend with Java and Rust
+  mentor: Liliia Rafikova
+  description: Focus on Java including the whole developing process with creating projects and push them to git doing pairing review.
+  participants: 5
+  status: active
+  linkedin: https://www.linkedin.com/in/liliia-rafikova-635328104/
+  index: 3
+- title: Fullstack - Reactjs,Nodejs and Backend in Java
+  mentor: Hersi Kopani
+  description: Focus on fullstack development using Java as backend
+  participants: 6
+  status: active
+  linkedin: https://www.linkedin.com/in/hersi-kopani
+  index: 4
