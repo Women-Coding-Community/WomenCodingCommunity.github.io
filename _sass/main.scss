@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
 
 @import 'custom/variables';
 @import 'custom/mixins.scss';
@@ -13,20 +13,30 @@ body {
   background: $white;
   color: $black;
   font-family: $bodyFont;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   @include font-body;
 }
 
+h1, h2 {
+  font-weight: 500;
+}
+
 a {
   color: $link-color;
   text-decoration: underline;
+  font-weight: 400;
 
   &:hover {
     color: $link-color;
     text-decoration: none;
   }
+}
+
+img {
+  border-radius: $border-radius;
 }
 
 main {
@@ -96,6 +106,7 @@ nav.container {
 
 .page-header {
   background: $primary-90;
+  color: $black;
   text-align: center;
   padding: map-get($spacers, 5) map-get($spacers, 2);
 
@@ -123,16 +134,6 @@ nav.container {
     margin-top: map-get($spacers, 5);
     margin-bottom: map-get($spacers, 5);
   }
-
-  .featured-content {
-    padding-top: map-get($spacers, 5);
-    padding-bottom: map-get($spacers, 5);
-
-    .row {
-      display: flex;
-      justify-content: center;
-    }
-  }
   
   .content-constrained {
     h2 {
@@ -144,6 +145,25 @@ nav.container {
       font-size: $font-headline-m;
       margin: 1.7rem 0 1rem 0;
     }
+  }
+
+  .featured-content {
+      padding-top: 0;
+      padding-bottom: map-get($spacers, 5);
+
+      > section {
+          margin-top: 0;
+      }
+
+      .row {
+          display: flex;
+          justify-content: center;
+      }
+
+      .card-deck-title {
+          text-align: center;
+          margin-bottom: map-get($spacers, 4);
+      }
   }
 }
 
