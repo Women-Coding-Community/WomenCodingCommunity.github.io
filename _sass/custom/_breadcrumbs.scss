@@ -6,7 +6,6 @@
     align-items: center;
     min-height: 3.5rem;
     background-color: #fff;
-    font-size: $font-title-s;
     color: $neutral-30;
     box-shadow: $box-shadow;
 
@@ -19,6 +18,7 @@
         font-size: inherit;
 
         li {
+            font-size: $font-title-m;
             &:before {
                 color: inherit;
             }
@@ -28,6 +28,9 @@
 
     a {
         text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     .container {
