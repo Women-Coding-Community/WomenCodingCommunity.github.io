@@ -23,6 +23,11 @@
                                 <a href="{{ announcement.link.path }}" target="{{ announcement.link.target }}" class="btn btn-outline-primary">{{announcement.link.title }}</a>
                             {% endif %}
                         </div>
+                        {% if announcement.link %}
+                        <div class="card-footer col-12">
+                            <a href="{{ announcement.link.path }}" target="{{ announcement.link.target }}" class="btn btn-outline-primary">{{announcement.link.title }}</a>
+                        </div>
+                        {% endif %}
                     </article>
                 </div>
                 {% endfor %}

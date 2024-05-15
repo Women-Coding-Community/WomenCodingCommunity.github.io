@@ -12,15 +12,31 @@
         text-decoration: none;
     }
 
+    p {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
     .btn {
         max-width: fit-content;
     }
+}
+
+.card-date {
+    color: $text-secondary;
+    font-size: $font-label-m;
 }
 
 .card-deck {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+
+    p {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 
     .card-column {
         display: flex;
@@ -39,11 +55,16 @@
             flex-direction: row;
         }
     }
-}
 
-.card-date {
-    color: $text-secondary;
-    font-size: $font-label-m;
+    .card-footer {
+        flex: none;
+    }
+
+    .card-body {
+        &:not(:last-child) {
+            padding-bottom: 0;
+        }
+    }
 }
 
 .card-s {
@@ -61,7 +82,7 @@
     }
 
     .card-body {
-        padding: map-get($spacers, 3);
+        padding: map-get($spacers, 4) map-get($spacers, 3) map-get($spacers, 3) map-get($spacers, 3);
         display: flex;
         flex-direction: column;
         flex-grow: 1;
@@ -82,14 +103,14 @@
 
 .card-m {
     .card-header {
-        padding: 2rem;
+        padding: map-get($spacers, 5);
     }
 
     .card-body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 2rem;
+        padding: map-get($spacers, 5);
     }
 
     .card-title {
@@ -205,6 +226,12 @@
         margin: map-get($spacers, 1) 0 map-get($spacers, 3) 0;
     }
 
+    .card-footer {
+        border: none;
+        background: transparent;
+        padding: 0 map-get($spacers, 5) map-get($spacers, 5) map-get($spacers, 5);
+    }
+
     &.event {
         .card-category {
             font-size: $font-title-l;
@@ -280,12 +307,16 @@
 }
 
 .card-mission {
-    background-color: transparent;
-    border: none;
+    background-color: $white;
+
+    p {
+        flex: none;
+        margin-bottom: map-get($spacers, 3);
+    }
 
     .card-media {
         img {
-            border-radius: $border-radius;
+            border-radius: $border-radius 0 0 $border-radius;
         }
     }
 
