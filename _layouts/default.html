@@ -2,11 +2,12 @@
 <html lang="{{ site.lang | default: "en-UK" }}">
   {% seo %}
   {% include head.html %}
-  <body>
+  <body class="{{ page.body_class }}">
     <a href="#main-content" class="skip-link">Skip to main content</a>
     {% include navbar.html %}
     {% include breadcrumbs.html %}
     <main id="main-content">
+      {% include page-header.html %}
       {{ content}}
     </main>
     {% include footer.html %}

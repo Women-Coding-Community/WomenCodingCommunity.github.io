@@ -53,3 +53,14 @@
         font-size: 24px;
     }
 }
+
+/* Hide breadcrumb on parent landing pages */
+.list-page-blog,
+.list-page-events,
+.page-about,
+.page-mentorship,
+.page-programmes {
+    .breadcrumb {
+        display: none;
+    }
+}
