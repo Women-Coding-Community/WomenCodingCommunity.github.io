@@ -316,7 +316,7 @@
 
     .card-media {
         img {
-            border-radius: $border-radius 0 0 $border-radius;
+            border-radius: $border-radius $border-radius 0 0;
         }
     }
 
@@ -383,10 +383,6 @@
     .card-mission {
         &.card-horizontal {
             flex-direction: column;
-
-            .card-body {
-                padding: map-get($spacers, 3) 0;
-            }
         }
     }
 }
@@ -406,19 +402,9 @@
 
 @include media-breakpoint-up(md) {
     .card-mission {
-        &.card-horizontal {
-            .card-body {
-                padding: map-get($spacers, 3);
-            }
-        }
-    }
-}
-
-@include media-breakpoint-up(lg) {
-    .card-mission {
-        &.card-horizontal {
-            .card-body {
-                padding-left: map-get($spacers, 4);
+        .card-media {
+            img {
+                border-radius: $border-radius 0 0 $border-radius;
             }
         }
     }
