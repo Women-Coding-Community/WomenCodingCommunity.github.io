@@ -1,28 +1,26 @@
 ---
 layout: default
 title: Mentorship Resources
+body_class: page page-mentorship-resources
 ---
 
-<div class="page mentorship-resources">
-    {% include page-header.html %}
-    <div class="container featured-content">
-        <div class="row">
-            <div class="row-content col-12">
-                <div class="card-deck">
-                    {% for resources in site.data.resources %}
-                    <div class="card-column col-12 col-lg-4">
-                        <div class="card-resource card card-s card-horizontal">
-                            <div class="card-media col-4">
-                                <img src="{{ resources.image.path }}" alt="{{ resources.image.alt }}">
-                            </div>
-                            <div class="card-body col-8">
-                                <h2 class="card-title">{{resources.title}}</h2>
-                                <a href={{resources.link}} class="ext-link" target="_blank" rel="noopener">Open <span class="icon">{% include icons/arrow-right.svg %}</span></a>
-                            </div>
+<div class="container featured-content">
+    <div class="row">
+        <div class="row-content col-12">
+            <div class="card-deck">
+                {% for resources in site.data.resources %}
+                <div class="card-column col-12 col-lg-4">
+                    <div class="card-resource card card-s card-horizontal">
+                        <div class="card-media col-4">
+                            <img src="{{ resources.image.path }}" alt="{{ resources.image.alt }}">
+                        </div>
+                        <div class="card-body col-8">
+                            <h2 class="card-title">{{resources.title}}</h2>
+                            <a href={{resources.link}} class="ext-link" target="_blank" rel="noopener">Open <span class="icon">{% include icons/arrow-right.svg %}</span></a>
                         </div>
                     </div>
-                    {% endfor %}
                 </div>
+                {% endfor %}
             </div>
         </div>
     </div>
