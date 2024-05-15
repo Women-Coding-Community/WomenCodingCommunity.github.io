@@ -19,8 +19,9 @@
 
     .row-header {
         h2 {
+            @include font-display-l;
             margin-top: 0;
-            margin-bottom: map-get($spacers, 4);
+            margin-bottom: map-get($spacers, 5);
         }
     }
 
