@@ -12,6 +12,7 @@
 @import "team";
 @import "media-breakpoint";
 @import "mixins";
+@import "breadcrumbs";
 
 .network svg:hover  {
     fill: $primary-50 !important;
