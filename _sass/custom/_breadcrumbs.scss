@@ -27,6 +27,7 @@
     }
 
     a {
+        font-size: $font-title-m;
         text-decoration: none;
         &:hover {
             text-decoration: underline;
@@ -53,7 +54,7 @@
 
     .material-symbols-outlined {
         color: $neutral-30;
-        font-size: 24px;
+        font-size: $icon-size-s;
     }
 }
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-body_class: page page-home
+body_class: home
 
 ---
 
@@ -12,7 +12,7 @@ body_class: page page-home
         <div class="row-content col-12">
             <div class="card-mission card card-l card-horizontal">
                 <div class="card-media col-12 col-md-6">
-                    <img src="./assets/images/home/stock-unsplash-mission-cta_16x9.jpg" alt="{{ announcement.image.alt }}">
+                    <img src="./assets/images/home/stock-unsplash-mission-cta_16x9.jpg" alt="three women sitting and working together with their laptops">
                 </div>
                 <div class="card-body col-12 col-md-6">
                     <h2 class="card-title">Join Our Community</h2>
@@ -24,36 +24,11 @@ body_class: page page-home
     </div>
 </div>
 
-<div class="container announcements">
-    <div class="row featured-content">
-        <div class="row-header pb-5">
-            <h2>Announcements</h2>
-        </div>
-        <div class="row-content">
-            <div class="card-deck">
-                {% for announcement in site.data.announcement %}
-                <article class="card-announcement card card-horizontal">
-                    <div class="card-media col-4">
-                        <img src="{{ announcement.image.path }}" alt="{{ announcement.image.alt }}">
-                    </div>
-                    <div class="card-body col-8">
-                        <div class="card-date">{{ announcement.date }}</div>
-                        <h3 class="card-title">{{ announcement.title }}</h3>
-                        <p>{{ announcement.description }}</p> 
-                        {% if announcement.link %}
-                            <a href="{{ announcement.link.path }}" target="{{ announcement.link.target }}" class="btn btn-outline-primary">{{announcement.link.title }}</a>
-                        {% endif %}
-                    </div>
-                </article>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</div>
+{% include featured-events.html %}
 
 <div class="container programmes bg-gradient-1">
     <div class="row featured-content">
-        <div class="row-header pb-3">
+        <div class="row-header">
             <h2>Opportunities & Programmes</h2>
         </div>
         <div class="row-content col-12">
@@ -113,4 +88,3 @@ body_class: page page-home
         </div>
     </div>
 </div>
-
