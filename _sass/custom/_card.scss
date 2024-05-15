@@ -275,6 +275,24 @@
     }
 }
 
+.card-study {
+    border: 3px solid $link-color;
+    margin: 0 0 map-get($spacers, 3) 0;
+
+    h3 {
+        color: $link-color;
+    }
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    h7 {
+        color: $text-secondary;
+    }
+
+}
+
 .card-resource {
     a {
         &:hover {

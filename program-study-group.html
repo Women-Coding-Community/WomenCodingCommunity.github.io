@@ -19,11 +19,29 @@ title: Study Group Programme
                         to expand your expertise, there's a study group for you.</p>
                     <p>These study groups typically last anywhere from 1-2 months to longer durations, allowing participants to
                         delve
-                        deeply into the subject matter and benefit from the guidance of experienced mentors.</p>
-                    <p>Stay tuned for exciting news about upcoming study groups! We'll be announcing new opportunities soon, so
-                        be sure
-                        to check back frequently for updates.</p>
+                        deeply into the subject matter and benefit from the guidance of experienced mentors.</p>                    
                 </section>
+                <section id="active_study_group">
+                    <h2> Active Study Groups </h2>
+                    {% for stgroup in site.data.study_group %}
+                    {% if stgroup.status == 'active' %}   
+                    <div class="card-study card" id="active-{{stgroup.index}}">                 
+                        <div class="row">                                              
+                            <div class="col-md-12">
+                                <div class="card-body">
+                                    <h3>{{stgroup.title}}</h3>
+                                    <p>Mentor: <a href="{{stgroup.profile}}" target="_blank">{{stgroup.mentor}} </a></p>
+                                    <p>{{stgroup.description}}</p>        
+                                    <h7>Participants: {{stgroup.participants}}</h7>
+                                </div>  
+                            </div>        
+                        </div>
+                    </div>                   
+                    {% endif %}
+                    {% endfor %}
+                    <p>We'll be announcing new opportunities soon, So come join us in our</p>
+                    <p><a href="https://womencodingcommunity.slack.com/archives/C073W920RND" target="_blank"> Study Group Slack Channel</a></p>
+                </section>                      
             </div>
         </div>
     </div>
