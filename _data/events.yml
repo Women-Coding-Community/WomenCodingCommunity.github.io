@@ -4,6 +4,7 @@
     Join us for a discussion of this essential guide to writing clear and maintainable code. We recommend that our attendees read the book before the event, however you are welcome to join us, even if you have only read the first chapter. The more, the merrier!
   category: category-book-club
   category_name: Book Club
+  date_label: THU, MAY 30, 2024
   date: THU, MAY 30, 2024
   time: 8:00 PM to 9:30 PM CEST
   image:
@@ -19,7 +20,7 @@
     Join Women Coding Community for an introductory session on Infrastructure-as-code (IaC) and Terraform with speaker Sonali Goel, Senior/Lead Engineer at Yoox-Net-a-porter. Whether you're a seasoned developer, a systems administrator, or just curious about cloud infrastructure, this talk is designed to equip you with the knowledge to start using Terraform effectively.
   category: category-tech-talk
   category_name: Tech Talk
-  date: THU, JUN 6, 2024
+  date_label: THU, JUN 6, 2024
   time: 8:00 PM to 9:30 PM CEST
   image:
     path: "/assets/images/events/event-tech-talk-060624.jpeg"
