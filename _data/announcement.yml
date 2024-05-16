@@ -3,7 +3,7 @@
   description: | 
     Sign up for this unique opportunity of one-time mentoring sessions with personalised guidance from experienced mentors.
   date: 
-    value: "20240517"
+    value: "20240515"
     label: MAY 1, 2024
   image:
     path: "/assets/images/announcements/stock-unsplash-computer-typing.jpg"
@@ -24,15 +24,3 @@
     path: "/assets/images/announcements/stock-copilot-designer_celebrate.jpg"
     alt: confetti illustration
   status: active
-
-
-- title: Test 
-  description: | 
-    We are thrilled to introduce our brand-new website. Created with dedication and passion by our incredible team of volunteers, this platform serves as your gateway to a diverse array of resources, programs, mentorship opportunities, and more.
-  date:
-    value: "20240210"
-    label: FEB 04, 2024
-  image:
-    path: "/assets/images/announcements/stock-copilot-designer_celebrate.jpg"
-    alt: confetti illustration
-  status: disabled
