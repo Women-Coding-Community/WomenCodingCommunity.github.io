@@ -1,9 +1,9 @@
 {% assign today = "now" | date: "%Y%m%d" %}
-{% assign announcements = site.data.announcement | where: 'status', 'active' %}                
+{% assign announcements = site.data.announcement %}
 
 {% assign count = 0 %}
 {% for announcement in announcements %}
-    {% if announcement.date.value >= today %}
+    {% if announcement.expiration >= today %}
         {% assign count = count | plus: 1 %}
     {% endif %}
 {% endfor %} 
@@ -17,12 +17,12 @@
             <div class="row-content col-12">
                 <div class="card-deck">
                     {% for announcement in announcements %}
-                        {% if announcement.date.value >= today %}
+                        {% if announcement.expiration >= today %}
                             <div class="card-column col-12 col-lg-6">
                                 <article class="card-announcement card card-m">
                                     <div class="card-header">
                                         <div class="col-12 col-sm-9 col-lg-9">
-                                            <div class="card-date">{{ announcement.date.label }}</div>
+                                            <div class="card-date">{{ announcement.date }}</div>
                                             <h3 class="card-title">{{ announcement.title }}</h3>
                                         </div>
                                         <div class="card-media col-12 col-sm-3 col-lg-3">
