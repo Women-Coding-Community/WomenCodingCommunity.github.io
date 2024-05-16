@@ -1,5 +1,5 @@
 
-.mentors-search {
+.search-page.search-mentors {
     .card-img {
         border-radius: 50%;
         padding: map-get($spacers, 4);
@@ -24,16 +24,6 @@
     .link {
         font-weight: $font-weight-bold !important;
         color: $primary-40;
-    }
-
-    a {
-        @extend .link;
-    }
-
-    .btn {
-        @extend .btn-outline-dark;
-        @extend .link;
-        border-color: $primary-40;
     }
 
     .btn-outline-dark:hover {

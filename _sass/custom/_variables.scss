@@ -12,7 +12,7 @@ $blue-70: #84B1D0;
 $blue-80: #9FCCEC;
 $blue-90: #C7E7FF;
 $blue-95: #E5F2FF;
-$blue-98: #EBEEF3;
+$blue-98: #F6FAFE;
 $coral-10: #390C00;
 $coral-20: #5D1800;
 $coral-30: #822702;
@@ -57,6 +57,7 @@ $primary-70: $blue-70;
 $primary-80: $blue-80;
 $primary-90: $blue-90;
 $primary-95: $blue-95;
+$primary-98: $blue-98;
 
 $secondary-10: $coral-10;
 $secondary-20: $coral-20;
@@ -96,13 +97,23 @@ $bg-hover: $neutral-90;
 //
 
 $border-color: $neutral-90;
-$border-radius: 1rem;
+$border-radius: 0.6rem;
+
+$box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.3);
+
+//
+// Icons
+//
+
+$icon-size-s: 24px;
+$icon-size-m: 32px;
 
 //
 // Typography
 //
 
 $link-color: $primary-40;
+$link-color-dark: $primary-30;
 
 $text-primary: $black;
 $text-secondary: $neutral-40;

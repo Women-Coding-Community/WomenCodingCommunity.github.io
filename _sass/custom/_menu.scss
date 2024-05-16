@@ -1,12 +1,12 @@
 .menu {
-  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  box-shadow: $box-shadow;
 
   a {
     text-decoration: none;
   }
 
   .navbar-nav .nav-link {
-      font-size: 1.1rem;
+      font-size: $font-title-m;
       color: $gray-800;
   }
 
@@ -20,6 +20,8 @@
       padding: 1rem;
 
     .navbar-brand {
+        padding: map-get($spacers, 2);
+
         img {
             width: 86px;
         }
@@ -84,12 +86,13 @@
     }
   }
 
-  @include media-breakpoint-up(lg) { 
+  @include media-breakpoint-up(lg) {
     .dropdown-menu {
       border-radius: 0.5rem;
       border: 1px solid $border-color;
 
       li {
+        font-size: $font-title-m;
         &:first-child {
           a {
             &:hover {
