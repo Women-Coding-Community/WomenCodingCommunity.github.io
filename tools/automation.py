@@ -28,8 +28,8 @@ FOCUS_END_INDEX = 22
 PROG_LANG_START_INDEX = 23
 PROG_LANG_END_INDEX = 27
 
-TYPE_AD_HOC = "ad-hoc"
-TYPE_LONG_TERM = "long-term"
+type_ad_hoc = ("ad-hoc", "ad hoc")
+type_long_term = ("long-term", "long term")
 TYPE_BOTH = "both"
 IMAGE_FILE_PATH = "assets/images/mentors"
 IMAGE_SUFFIX = ".jpeg"
@@ -129,17 +129,20 @@ def get_multiline_string(long_text_arg):
 
 def get_mentorship_type(mentorship_type_str):
     """
-    Returns ad-hoc, long-term, both or empty str
+    Returns ad-hoc, long-term, both or NOT_FOUND str
     """
     mentorship_type = mentorship_type_str.lower()
 
-    if TYPE_AD_HOC in mentorship_type:
-        return TYPE_AD_HOC
-    elif TYPE_LONG_TERM in mentorship_type:
-        return TYPE_LONG_TERM
+    result = "NOT_FOUND"
+
+    if any(item in mentorship_type for item in type_ad_hoc):
+        result = type_ad_hoc[0]
+    elif any(item in mentorship_type for item in type_long_term):
+        result = type_long_term[0]
     elif TYPE_BOTH in mentorship_type:
-        return TYPE_BOTH
-    return "NOT_FOUND"
+        result = TYPE_BOTH
+
+    return result
 
 
 def update_yml_file_formatting(s):
