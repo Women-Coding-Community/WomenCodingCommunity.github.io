@@ -1,22 +1,200 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
 
+@import 'custom/variables';
+@import 'custom/mixins.scss';
 @import 'bootstrap/bootstrap';
 @import 'custom/custom';
 
-$backgroundColor: #fff;
-$bodyColor: #000000;
 $bodyFont: 'Roboto', sans-serif;
 
 $container-max-width: 1376px;
 
 body {
-  background: $backgroundColor;
-  color: $bodyColor;
+  background: $white;
+  color: $black;
   font-family: $bodyFont;
-  font-weight: 400;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  @include font-body;
 }
 
-.container,
-.row .content {
+h1, h2 {
+  font-weight: 500;
+}
+
+a {
+  color: $link-color;
+  text-decoration: underline;
+  font-weight: 400;
+
+  &:hover {
+    color: $link-color;
+    text-decoration: none;
+  }
+}
+
+img {
+  border-radius: $border-radius;
+}
+
+main {
+  flex-grow: 1
+}
+
+.bg-1 {
+  background-color: $bg-1;
+}
+
+.bg-2 {
+  background-color: $bg-2;
+}
+
+.menu .dropdown > a.active-nav::after {
+  width: 100%;
+  background: $primary;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999em;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.skip-link:focus,
+.skip-link:active {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+}
+
+//
+// Layout
+//
+
+// Global containers
+
+.row,
+.mentors .search,
+nav.container {
   max-width: $container-max-width;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.row-header {
+  text-align: center;
+
+  h2 {
+    @include font-display-m;
+  }
+}
+
+// Interior pages
+
+.page-header {
+  background: $primary-90;
+  color: $black;
+  text-align: center;
+  padding: map-get($spacers, 5) map-get($spacers, 2);
+
+  h1 {
+    @include font-display-m;
+    margin-bottom: 0;
+  }
+}
+
+.page-intro {
+  display: flex;
+  justify-content: center;
+  p {
+    @include font-body;
+    text-align: center;
+  }
+}
+
+.page {
+  p, ul, ol {
+    @include font-body;
+  }
+  
+  section {
+    margin-top: map-get($spacers, 5);
+    margin-bottom: map-get($spacers, 5);
+  }
+  
+  .content-constrained {
+    h2 {
+      @include font-headline-l;
+      margin-bottom: 1rem;
+    }
+  
+    h3 {
+      font-size: $font-headline-m;
+      margin: 1.7rem 0 1rem 0;
+    }
+  }
+
+  .featured-content {
+      padding-top: 0;
+      padding-bottom: map-get($spacers, 5);
+
+      > section {
+          margin-top: 0;
+      }
+
+      .row {
+          display: flex;
+          justify-content: center;
+      }
+
+      .card-deck-title {
+          text-align: center;
+          margin-bottom: map-get($spacers, 4);
+      }
+  }
+}
+
+// Basic page 'content constrained' container width size adjustments to ensure 50-75 char per line for optimal readability  
+
+$custom-container-columns-l: 8;
+$custom-container-columns-m: 7;
+$custom-container-columns-s: 6;
+
+$container-width-l: percentage($custom-container-columns-l / $grid-columns);
+$container-width-m: percentage($custom-container-columns-m / $grid-columns);
+$container-width-s: percentage($custom-container-columns-s / $grid-columns);
+
+$custom-auto-margin: auto;
+
+.content-constrained {
+  @include media-breakpoint-up(md) {
+    width: $container-width-l;
+    margin-right: $custom-auto-margin;
+    margin-left: $custom-auto-margin;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: $container-width-m;
+    margin-right: $custom-auto-margin;
+    margin-left: $custom-auto-margin;
+  }
+
+  @include media-breakpoint-up(xl) {
+    width: $container-width-s;
+    margin-right: $custom-auto-margin;
+    margin-left: $custom-auto-margin;
+  }
 }

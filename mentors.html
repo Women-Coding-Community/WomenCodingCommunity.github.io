@@ -1,32 +1,24 @@
 ---
 layout: default
-title: Mentors
+title: Meet Our Mentors!
+body_class: page search-page search-mentors
 ---
-
-<div class="page-header">
-    <h1>Meet our mentors!</h1>
-</div>
 
 {% include search_mentor.html %}
 
-<div class="mentors container">
-    <small class="description">
+<div class="container">
+    <div class="row">
+        <div id="no-mentors-msg" class="alert alert-info d-none" role="alert">
+            Sorry, no mentors matching your search criteria were found. Please, adjust your filters and try again.
+        </div>
 
-    </small>
-    <div id="no-mentors-msg" class="alert alert-info d-none" role="alert">
-        Sorry, no mentors matching your search criteria were found. Please, adjust your filters and try again.
-    </div>
+        {% assign days_open = site.registration | plus: 0 %}
+        {% assign current_day = site.time | date: "%d" | plus: 0 %}
+        {% assign current_month = site.time | date: "%-m" | plus: 0 %}
 
-    {% assign days_open = site.registration | plus: 0 %}
-    {% assign current_day = site.time | date: "%d" | plus: 0 %}
-    {% assign current_month = site.time | date: "%-m" | plus: 0 %}
+        {% assign mentors = site.data.mentors| where: 'disabled', false | sort: "sort" | reverse %}
 
-    {% assign mentors = site.data.mentors | sort: "sort" | reverse %}
-
-    {% for mentor in mentors %}
-        {% if mentor.disabled %}
-            <div class="inactive-mentor" id="mentor-card-{{mentor.index}}"></div>
-        {% else %}
+        {% for mentor in mentors %}
             <div class="card" id="mentor-card-{{mentor.index}}">
                 <div class="row">
                     <div class="col-md-3">
@@ -58,6 +50,7 @@ title: Mentors
                             <h4 class="card-title">
                                 {{mentor.name}}
                             </h4>
+
                             <div id="presentation-{{mentor.index}}" class="card-presentation" data-index="{{mentor.index}}">
                                 <h5 class="position">{{mentor.position}}</h5>
                                 <p class="card-text"><label>Based in</label>: {{mentor.location}}</p>
@@ -74,7 +67,6 @@ title: Mentors
                                 {% endif %}
 
                                 {% include networks_mentors.html %}
-
                             </div>
 
                             <div id="mentees-{{mentor.index}}" class="card-mentees d-none">
@@ -131,6 +123,6 @@ title: Mentors
                         {{mentor.skills.focus | array_to_sentence_string | downcase}}
                         {{mentor.skills.areas | array_to_sentence_string | downcase}}">
             </div>
-        {% endif %}
-    {% endfor %}
+        {% endfor %}
+    </div>
 </div>

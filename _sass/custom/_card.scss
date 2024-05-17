@@ -1,0 +1,459 @@
+//
+// Global card styles
+//
+
+.card {
+    padding: 0;
+    height: 100%;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    .btn {
+        max-width: fit-content;
+    }
+}
+
+.card-date {
+    color: $text-secondary;
+    font-size: $font-label-m;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    p {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .card-column {
+        display: flex;
+        flex: none;
+        padding: 0 map-get($spacers, 2);
+        margin-bottom: map-get($spacers, 4);
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin-bottom: map-get($spacers, 4);
+
+        &.card-horizontal {
+            flex-direction: row;
+        }
+    }
+
+    .card-footer {
+        flex: none;
+    }
+
+    .card-body {
+        &:not(:last-child) {
+            padding-bottom: 0;
+        }
+    }
+}
+
+.card-s {
+    .card-title {
+        font-size: $font-title-l;
+        margin-bottom: 0.25rem;
+        margin-top: 0;
+    }
+
+    .card-subtitle {
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 0.6rem;
+        font-size: 1.1rem;
+    }
+
+    .card-body {
+        padding: map-get($spacers, 4) map-get($spacers, 3) map-get($spacers, 3) map-get($spacers, 3);
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
+        p {
+            font-size: $font-body-m;
+        }
+    }
+
+    .card-footer {
+        padding: map-get($spacers, 3);
+
+        p {
+            font-size: $font-body-m;
+        }
+    }
+}
+
+.card-m {
+    .card-header {
+        padding: map-get($spacers, 5);
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: map-get($spacers, 5);
+    }
+
+    .card-title {
+        @include font-headline-l;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    p {
+        @include font-body;
+        text-align: center;
+    }
+}
+
+.card-l {
+    .card-title {
+        font-size: $font-display-s;
+    }
+
+    .card-body {
+        justify-content: center;
+        padding: map-get($spacers, 5);
+    }
+
+    p {
+        @include font-body;
+        text-align: left;
+    }
+}
+
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    border-radius: $border-radius;
+
+    .card-title {
+        text-align: left;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        flex: none;
+    }
+
+    .card-media {
+        flex: none;
+        padding: 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: $border-radius 0 0 $border-radius;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .card-deck {
+        .card-horizontal {
+            flex-direction: row;
+        }
+    }
+
+    .card-horizontal {
+        .card-media {
+            img {
+                max-height: 100%;
+            }
+        }
+    }
+}
+
+//
+// Custom card styles
+//
+
+.card-announcement {
+    .card-header {
+        background: transparent;
+        border: none;
+        padding-bottom: 0;
+        > * {
+            padding: 0;
+        }
+    }
+
+    .card-body {
+        padding-top: 0;
+        align-items: baseline;
+
+        p {
+            text-align: left;
+        }
+    }
+
+    .card-date {
+        color: inherit;
+    }
+
+    .card-media {
+        margin-bottom: map-get($spacers, 3);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .card-title {
+        text-align: left;
+        margin: map-get($spacers, 1) 0 map-get($spacers, 3) 0;
+    }
+
+    .card-footer {
+        border: none;
+        background: transparent;
+        padding: 0 map-get($spacers, 5) map-get($spacers, 5) map-get($spacers, 5);
+    }
+
+    &.event {
+        .card-category {
+            font-size: $font-title-l;
+        }
+
+        .card-date,
+        .card-time {
+            display: flex;
+            align-items: center;
+            font-size: $font-title-m;
+            margin: map-get($spacers, 1) 0;
+            
+            .material-symbols-outlined {
+                font-size: $icon-size-s;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 0.1rem;
+                margin-left: -0.1rem;
+            }
+        }
+
+        .card-title {
+            margin-top: map-get($spacers, 3);
+        }
+    }
+}
+
+.card-blog {
+    .card-body {
+        align-items: baseline;
+    }
+
+    .card-title {
+        @include font-headline-m;
+        text-align: left;
+    }
+
+    p {
+        font-size: $font-body-m;
+        text-align: left;
+        color: $text-primary;
+    }
+
+    a {
+        height: 100%;
+    }
+
+    .card-author-name,
+    .card-author-date {
+        font-size: $font-body-s;
+        color: $text-secondary;
+    }
+
+    .card-author-name {
+        color: $text-primary;
+    }
+
+    .card-author-date {
+        color: $text-secondary;
+    }
+
+    .card-author-image {
+        margin-right: 0.5rem;
+    }
+
+    .card-media {
+        img {
+            width: 100%;
+            border-radius: $border-radius $border-radius 0 0;
+        }
+    }
+}
+
+.card-mission {
+    background-color: $white;
+
+    p {
+        flex: none;
+        margin-bottom: map-get($spacers, 3);
+    }
+
+    .card-media {
+        img {
+            border-radius: $border-radius $border-radius 0 0;
+        }
+    }
+
+    .card-title {
+        margin-top: 0;
+    }
+}
+
+.card-person {
+    .card-media {
+        padding: map-get($spacers, 4) map-get($spacers, 3) map-get($spacers, 2) map-get($spacers, 3);
+    }
+
+    img {
+        border-radius: 100%;
+        width: 100%;
+    }
+
+    p {
+        color: $text-secondary;
+        font-size: $font-body-s;
+    }
+}
+
+.card-programme {
+    border: none;
+    margin: 0;
+    text-align: center;
+
+    a {
+        padding: map-get($spacers, 4) map-get($spacers, 3) map-get($spacers, 3) map-get($spacers, 3);
+        height: 100%;
+
+        &:hover {
+            color: $text-primary;
+            background: $bg-hover;
+            border-radius: $border-radius;
+        }
+    }
+
+    figure {
+        margin: 0;
+    }
+}
+
+.card-resource {
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.card-support {
+    border: none;
+    text-align: center;
+
+    .card-body {
+        padding: 0;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .card-mission {
+        &.card-horizontal {
+            flex-direction: column;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .card-announcement {
+        .card-header {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .card-media {
+            margin-left: map-get($spacers, 2);
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .card-mission {
+        .card-media {
+            img {
+                border-radius: $border-radius 0 0 $border-radius;
+            }
+        }
+    }
+}
+
+//
+// Page featured content section
+//
+
+.page .featured-content {
+
+    .card-study-group {
+        border: none;
+        background: $blue-98;
+
+        .card-footer {
+            a {
+                color: $link-color-dark;
+                text-decoration: underline;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .card-column {
+        &:nth-child(4n+1) {
+            .card-study-group {
+                background: $primary-90;
+            }
+        }
+
+        &:nth-child(4n+2) {
+            .card-study-group {
+                background: $tertiary-90;
+            }
+        }
+
+        &:nth-child(4n+3) {
+            .card-study-group {
+                background: $secondary-90;
+            }
+        }
+
+        &:nth-child(4n+4) {
+            .card-study-group {
+                background: $neutral-95;
+            }
+        }
+    }
+}

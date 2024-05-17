@@ -1,52 +1,60 @@
-
-.footer {
+.site-footer {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: $primary-30;
+    background-color: $neutral-90;
     padding-top: 40px;
     text-align: left;
-    color: $white;
+    color: $black;
     min-height: 200px;
-
+    border-top: 16px solid;
+    border-image: linear-gradient(to left, $secondary-80, $tertiary-90, $primary-70);
+    border-image-slice: 1;
+  
     .social {
         margin-top: 1rem;
     }
-
+  
     .brand {
         width: 120px;
     }
-
+  
+    h2 {
+      margin: 0;
+      text-align: left;
+      font-size: 1.25rem;
+    }
+  
     p {
         margin: 0;
     }
-
+  
     .copyright {
         margin-top: 1rem;
     }
-
+  
     .network {
         margin-top: 10px;
         display: flex;
         flex-wrap: wrap;
-
+  
         a {
             border-radius: 100%;
             padding-right: 10px;
-
-            svg, svg:hover {
-                height: 30px;
-                width: 30px;
-                fill: $white !important;
-
-                @include media-breakpoint-down(md) {  
-                    height: 20px;
-                    width: 20px;
-                }
-            }
-
-            svg:hover {
-                fill: $gray-200 !important;
+  
+            svg {
+              height: 20px;
+              width: 20px;
+              fill: $black !important;
+              &:hover {
+                  fill: $primary !important;
+              }
+  
+              @include media-breakpoint-up(md) {  
+                  height: 30px;
+                  width: 30px;
+              }
             }
         }
     }
- }
+  }
+  

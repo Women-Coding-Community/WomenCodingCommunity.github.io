@@ -1,46 +1,14 @@
 
-.team {
+.page-team {
 
-    .profile-photo {
-        width: 150px;
-    }
-
-    .card {
-        height: 100%;
-        border-radius: 1rem;
-    }
-
-    .card-title {
-        font-size: 1.3rem;
-        margin-bottom: 0.25rem;
-    }
-
-    .card-subtitle {
-        font-weight: 400;
-        margin-top: 0;
-        margin-bottom: 0.6rem;
-        font-size: 1.1rem;
-    }
-
-    .card p {
-        line-height: 1;
-    }
-
-    .card-img-top {
-        border-radius: 100%;
-        padding: 1.25rem;
-    }
-    
-    .card-body {
-        padding-top: 0;
-        display: flex;
-        height: 100%;
-        flex-direction: column;
+    .content-constrained {
+        h2 {
+            text-align: center;
+        }
     }
     
     .network {
         a {
-            border-radius: 100%;
             display: inline-block;
             margin-right: 0.5rem;
             svg {
@@ -51,18 +19,19 @@
         }
     }
 
-    .contributors {
-        .row {
-            margin-bottom: 50px;
+    .featured-content {
+        .row-content {
+            display: flex;
+            justify-content: center;
         }
-    }
 
-    .section {
-        @extend .my-7;
-    }
+        .card-l {
+            border: none;
+            text-align: center;
 
-    .col-12 {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+            p {
+                text-align: center;
+            }
+        }
     }
 }

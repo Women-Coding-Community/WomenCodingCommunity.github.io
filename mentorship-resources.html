@@ -1,21 +1,27 @@
 ---
 layout: default
 title: Mentorship Resources
+body_class: page page-mentorship-resources
+intro: |
+    Whether you’re a mentee looking to navigate your journey, a mentor aiming to provide the best guidance, or a seasoned mentor seeking quick tips, we have the tools you need. Explore our guides for insightful mentorship advice and strategies.
 ---
 
-<div class="page-header">
-    <h1>Mentorship Resources</h1>
+<div class="container">
+    {% include page-intro.html %}
 </div>
-<div class="container resources">
-    <div class="section">
-        <div class="resources__block">
-            <div class="row justify-content-center g-3">
+<div class="container featured-content">
+    <div class="row">
+        <div class="row-content col-12">
+            <div class="card-deck">
                 {% for resources in site.data.resources %}
-                <div class="col-12 col-md-6 col-lg-3 mb-3 px-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">{{resources.title}}</h5>
-                            <a href={{resources.link}} class="stretched-link" target="_blank" rel="noopener">Open <span class="icon">{% include icons/arrow-right.svg %}</span></a>
+                <div class="card-column col-12 col-lg-6 col-xl-4">
+                    <div class="card-resource card card-s card-horizontal">
+                        <div class="card-media col-5">
+                            <img src="{{ resources.image.path }}" alt="{{ resources.image.alt }}">
+                        </div>
+                        <div class="card-body col-7">
+                            <h2 class="card-title">{{resources.title}}</h2>
+                            <a href={{resources.link}} class="ext-link" target="_blank" rel="noopener">Open <span class="icon">{% include icons/arrow-right.svg %}</span></a>
                         </div>
                     </div>
                 </div>

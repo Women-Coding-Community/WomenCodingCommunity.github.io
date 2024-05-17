@@ -1,56 +1,54 @@
-<div class="footer">
-    <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-8">
-                <img class="brand" src="assets/images/logo.svg">
-            </div>
-            <div class="col-12 col-md-4 social">
-                <h5>Follow Us</h5>
-                <p><small>Join us on social media and stay tuned.</small></p>
-                <p class="network">
-                    {% for network in site.data.footer.network %}
-                    {% if network.linkedin %}
-                    <span> <a href="{{network.linkedin}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
-                    {% endif %}
-                    {% if network.twitter %}
-                    <span> <a href="{{network.twitter}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
-                    {% endif %}
-                    {% if network.github %}
-                    <span> <a href="{{network.github}}" target="_blank"> {% include icons/github.svg %}</a></span>
-                    {% endif %}
-                    {% if network.medium %}
-                    <span> <a href="{{network.medium}}" target="_blank"> {% include icons/medium.svg %}</a></span>
-                    {% endif %}
-                    {% if network.meetup %}
-                    <span> <a href="{{network.meetup}}" target="_blank"> {% include icons/meetup.svg %}</a></span>
-                    {% endif %}
-                    {% if network.facebook %}
-                    <span> <a href="{{network.facebook}}" target="_blank"> {% include icons/facebook.svg %}</a></span>
-                    {% endif %}
-                    {% if network.youtube %}
-                    <span> <a href="{{network.youtube}}" target="_blank"> {% include icons/youtube.svg %}</a></span>
-                    {% endif %}
-                    {% if network.instagram %}
-                    <span> <a href="{{network.instagram}}" target="_blank"> {% include icons/instagram.svg %}</a></span>
-                    {% endif %}
-                    {% if network.mail %}
-                    <span> <a href="{{network.mail}}" target="_blank"> {% include icons/envelope.svg %}</a></span>
-                    {% endif %}
-                    {% if network.slack %}
-                    <span> <a href="{{network.slack}}" target="_blank"> {% include icons/slack.svg %}</a></span>
-                    {% endif %}
-                    {% endfor %}
-                </p>
-            </div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row justify-content-between">
+        <div class="col-12 col-md-8">
+            <img class="brand" src="/assets/images/logo.svg" alt="Women Coding Community logo">
         </div>
-        <div class="row justify-content-between">
-            <div class="col-12 copyright">
-                <p><small>Women Coding Community is a not-for-profit organisation.</small></p>
-                <p><small>© 2024 Women Coding Community</small></p>
-            </div>
+        <div class="col-12 col-md-4 social">
+            <h2>Follow Us</h2>
+            <p><small>Join us on social media and stay tuned.</small></p>
+            <p class="network">
+              {% if site.network.linkedin %}
+                <span> <a href="{{site.network.linkedin}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
+              {% endif %}
+              {% if site.network.twitter %}
+                <span> <a href="{{site.network.twitter}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
+              {% endif %}
+              {% if site.network.github %}
+                <span> <a href="{{site.network.github}}" target="_blank"> {% include icons/github.svg %}</a></span>
+              {% endif %}
+              {% if site.network.medium %}
+                <span> <a href="{{site.network.medium}}" target="_blank"> {% include icons/medium.svg %}</a></span>
+              {% endif %}
+              {% if site.network.meetup %}
+                <span> <a href="{{site.network.meetup}}" target="_blank"> {% include icons/meetup.svg %}</a></span>
+              {% endif %}
+              {% if site.network.facebook %}
+                <span> <a href="{{site.network.facebook}}" target="_blank"> {% include icons/facebook.svg %}</a></span>
+              {% endif %}
+              {% if site.network.youtube %}
+                <span> <a href="{{site.network.youtube}}" target="_blank"> {% include icons/youtube.svg %}</a></span>
+              {% endif %}
+              {% if site.network.instagram %}
+                <span> <a href="{{site.network.instagram}}" target="_blank"> {% include icons/instagram.svg %}</a></span>
+              {% endif %}
+              {% if site.network.mail %}
+                <span> <a href="{{site.network.mail}}" target="_blank"> {% include icons/envelope.svg %}</a></span>
+              {% endif %}
+              {% if site.network.slack %}
+                <span> <a href="{{site.network.slack}}" target="_blank"> {% include icons/slack.svg %}</a></span>
+              {% endif %}
+            </p>
         </div>
     </div>
-</div>
+    <div class="row justify-content-between">
+      <div class="col-12 copyright">
+          <p><small>Women Coding Community is a not-for-profit organisation.</small></p>
+          <p><small>© 2024 Women Coding Community</small></p>
+      </div>
+  </div>
+  </div>
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -61,23 +59,18 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
-<script src="assets/js/code_of_conduct.js" type="module"></script>
-<script src="assets/js/custom.js" type="module"></script>
-<script src="assets/js/navbar.js" type="module"></script>
-<script src="assets/js/mentors.js" type="module"></script>
-<script src="assets/js/search.js" type="module"></script>
+<script src="/assets/js/code_of_conduct.js" type="module"></script>
+<script src="/assets/js/custom.js" type="module"></script>
+<script src="/assets/js/navbar.js" type="module"></script>
+<script src="/assets/js/mentors.js" type="module"></script>
+<script src="/assets/js/search.js" type="module"></script>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YLZ204BTDG"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3V6VPT445S"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-YLZ204BTDG');
 
-
-
-
-
-
+  gtag('config', 'G-3V6VPT445S');
 </script>

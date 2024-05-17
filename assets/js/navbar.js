@@ -1,32 +1,49 @@
-var controllerNavbar = (function (jQuery) {
+const controllerNavbar = (function (jQuery) {
   const NAVBAR_CLASS_ACTIVE = 'active-nav'
 
-  var selectActiveMenu = function () {
-    var pathSegments = jQuery(location).attr('pathname').split('/');
+  const selectActiveMenu = function () {
+    const currentPath = window.location.pathname;
   
-    var firstPathSegment = pathSegments[pathSegments.length - 1];
-    var stringPathSegment = firstPathSegment.replaceAll('-', ' ');
-
-    var activeLink;
-    var activeSubLink;
-
-    if (!stringPathSegment) {
-      activeLink = jQuery("a.nav-link:contains('Home')");
-    } else {
-      var searchLinkText = stringPathSegment[0].toUpperCase() + stringPathSegment.slice(1, stringPathSegment.length);
-      activeLink = jQuery("a.nav-link:contains('" + searchLinkText + "')");
-      activeSubLink = jQuery("a.nav-link[href='" + firstPathSegment + "']")
-    }
-
-    activeLink.addClass(NAVBAR_CLASS_ACTIVE);
-    if (activeSubLink) {
-      activeSubLink.addClass(NAVBAR_CLASS_ACTIVE);
-    }
-
+    jQuery('.nav-link').each(function () {
+      const menuItemHref = jQuery(this).attr('href');
+      if (currentPath === menuItemHref) {
+        jQuery(this).addClass(NAVBAR_CLASS_ACTIVE);
+      }
+    });
   };
 
+  const setupDropdownMenus = function () {
+    const dropdownMenuList = jQuery('.dropdown');
+
+    dropdownMenuList.each(function () {
+      const dropdownMenu = jQuery(this);
+      const dropdownToggle = dropdownMenu.find('.dropdown-toggle');
+      const dropdownMenuContent = dropdownMenu.find('.dropdown-menu');
+
+      // Toggle dropdown menu when clicking the dropdown toggle
+      dropdownToggle.on('click', function (e) {
+        e.preventDefault(); // Prevent default anchor behavior
+        
+        // Close all other dropdowns
+        jQuery('.dropdown-menu').not(dropdownMenuContent).removeClass('show');
+        
+        dropdownMenuContent.toggleClass('show');
+      });
+
+      // Hide dropdown menu when clicking outside the dropdown menu
+      jQuery(document).on('click', function (e) {
+        if (!dropdownMenu.is(e.target) && dropdownMenu.has(e.target).length === 0 && !dropdownToggle.is(e.target) && dropdownToggle.has(e.target).length === 0) {
+          dropdownMenuContent.removeClass('show');
+        }
+      });
+    });
+  }
+
   return {
-    init: selectActiveMenu
+    init: function () {
+      selectActiveMenu();
+      setupDropdownMenus();
+    }
   };
 
 }(jQuery));

@@ -5,6 +5,8 @@ plugins:
 sass:
   sass_dir: _sass/
 
+registration: 10
+
 # Settings
 title: "Women Coding Community"
 description: Our community is open to anyone who is looking to improve their skills or advance their careers. Whether you are an experienced professional looking to give back to the community, or a student or new professional seeking guidance and support.
@@ -13,3 +15,11 @@ author: Women Coding Community
 # GitHub
 github:
   repository_url: https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io
+
+network:
+  linkedin: https://www.linkedin.com/company/womencodingcommunity
+  slack: https://join.slack.com/t/womencodingcommunity/shared_invite/zt-2hpjwpx7l-rgceYBIWp6pCiwc0hVsX8A
+  github: https://github.com/WomenCodingCommunity
+  instagram: https://www.instagram.com/women_coding_community
+  mail: mailto:london@womencodingcommunity.com
+  twitter: https://twitter.com/WCC_Community

@@ -1,21 +1,19 @@
 
-.mentors {
-    @extend .my-7;
-
+.search-page.search-mentors {
     .card-img {
         border-radius: 50%;
-        padding: 20px;
+        padding: map-get($spacers, 4);
     }
 
     .col-md-3 {
         display: grid;
         justify-content: center;
         align-content: center;
-        border-right: 1px solid rgba(0,0,0,0.125);
-        border-radius: 0.25rem;
+        border-right: 1px solid $border-color;
+        border-radius: $border-radius;
 
         a {
-            margin-left: 15px !important;
+            margin: 0 auto;
         }
 
         .card-text {
@@ -26,16 +24,6 @@
     .link {
         font-weight: $font-weight-bold !important;
         color: $primary-40;
-    }
-
-    a {
-        @extend .link;
-    }
-
-    .btn {
-        @extend .btn-outline-dark;
-        @extend .link;
-        border-color: $primary-40;
     }
 
     .btn-outline-dark:hover {
@@ -217,6 +205,8 @@
 .search {
     @extend .mentors;
     @extend .container;
+
+    margin-top: map-get($spacers,6);
 
     .mentor-total-description {
         @extend .my-4, .h5, .font-weight-bold;

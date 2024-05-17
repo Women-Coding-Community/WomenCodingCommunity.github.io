@@ -1,129 +1,90 @@
-.banner {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: map-get($spacers, 6) 0;
-    color: $white;
-    min-height: 25vh; 
+.home {
 
-    .overlay-image {
-        background-image: url("./../../assets/images/banner.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center 25%;
-        opacity: 0.8;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+    .page-header {
+        display: none;
     }
 
-    .overlay-dark {
-        background-color: $primary-10;
-        opacity: 0.8;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-
-    .banner-content {
-        position: relative;
-        z-index: 2; // Makes sure text content stays above overlay 
-
-        h1 {
-            font-size: $display4-size;
+    .row {
+        &.featured-content {
+            padding-top: map-get($spacers, 6);
+            padding-bottom: map-get($spacers, 6);
+            justify-content: center;
         }
+    }
 
+    .row-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-header {
+        h2 {
+            @include font-display-l;
+            margin-top: 0;
+            margin-bottom: map-get($spacers, 5);
+        }
+    }
+
+    .row-description {
+        margin-bottom: map-get($spacers, 4);
+    }
+
+    .announcements {
+        .card-deck {
+            flex-direction: column;
+        }
+    }   
+    
+    .event {
+        &.category-book-club {
+            border: none;
+            background: $tertiary-90;
+            color: $primary-30;
+        }
+    
+        &.category-tech-talk {
+            border: none;
+            background: $primary;
+            color: $white;
+
+            a {
+                color: $white;
+                border-color: $white;
+                &:hover {
+                    background: $white;
+                    color: $primary;
+                }
+            }
+        }
+    }    
+
+    .mission {
+        .row-content {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    .programmes {
         p {
-            font-size: $h2-font-size;
-            line-height: 1.3;
+            @include font-body;
+            text-align: center;
         }
 
-        hr {
-            margin: map-get($spacers, 4) auto;
-            height: 8px;
-            width: 5%;
-            background-color: $primary-90;
+        .row-content {
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
         }
-    }
-
-    h1, h2 {
-        margin: 0;
-        font-weight: 400;
     }
 }
 
-.home {
-
-    .row {
-        justify-content: center;
-        &.bg-purple {
-            background: $primary-90;
-            padding: 0 1rem;
-        }
-        h2 {
-            margin: 1rem auto;
-        }
-        .content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            text-align: center;
-            padding: 5rem 0;
-        }
-    }
-
-    .row.mentors-cta {
-        .btn {
-            max-width: fit-content;
-        }
-        .card-body {
-            padding: 2rem 2rem 3rem 2rem;
-            align-items: center;
-        }
-    }
-
-    .programs article {
-        margin: 1rem .25rem;
-    }
-
-    .programs article a {
-        display: block;
-        padding: 1.5rem 1rem;
-        background: #fff;
-        border-radius: 12px;
-
-        &:hover {
-            background-color: $primary-80;
-            color: $primary-10;
-            text-decoration: none;
-        }
-
-        .material-symbols-outlined {
-            color: $black;
-        }
-    }
-
-    .card {
-        margin-top: 10px;
-    }
-
-    .card-header {
-        background-color: transparent;
-        border: none;
-    }
-
-    .card-body {
-        display: flex;
-        height: 100%;
-        flex-direction: column;
-        text-align: center;
-        p {
-            margin-bottom: 30px;
+@include media-breakpoint-up(md) {
+    .home {
+        .announcements {
+            .card-deck {
+                flex-direction: row;
+            }
         }
     }
 }

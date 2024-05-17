@@ -1,22 +1,21 @@
 ---
 layout: default
+body_class: page page-mentorship
 title: Mentorship Programme
+intro: |
+    Mentorship is a fantastic way to get support for your personal growth and career development. Mentorship relationships can be rewarding to both people, personally and professionally. It's an opportunity to develop communication skills, expand your viewpoints, and consider new ways of approaching situations. And both partners can advance their careers in the process.
 ---
 
-<div class="page-header">
-    <h1>Mentorship Programme</h1>
-</div>
 <div class="container">
-    <div class="section intro">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-6 text-center py-6 overview">
-                <p class="lead">Mentorship is a fantastic way to get support for your personal growth and career development. Mentorship relationships can be rewarding to both people, personally and professionally. It's an opportunity to develop communication skills, expand your viewpoints, and consider new ways of approaching situations. And both partners can advance their careers in the process.</p>
-            </div>
-        </div>
-        <div class="row justify-content-center align-items-start">
-            <div class="col-xs-12 col-md-5 mentor py-3 py-md-6">
-                <div class="row">
-                    <div class="col">
+    {% include page-intro.html %}
+</div>
+<div class="container featured-content pt-0">
+    <section class="row mentors-cta">
+        <div class="row-content col-12">
+            <div class="card-deck">
+                <div class="card card-m">
+                    <div class="card-body align-items-baseline">
+                        <h2 class="card-title">Become a Mentor</h2>
                         <p>You should apply to be a <b>mentor</b> if you:</p>
                         <ol>
                             <li>Want to extend your professional network</li>
@@ -24,19 +23,12 @@ title: Mentorship Programme
                             <li>You are ready to share expertise</li>
                             <li>You want to get a new perspective and learn from your mentees</li>
                         </ol>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtf7-upMp1m5kJ4MSpexS-UwGJHhACEW-yPoEQoROHi4kVcg/viewform" target="_blank" class='btn btn-primary'>Join as a mentor</a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <p class="mt-4 d-flex">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtf7-upMp1m5kJ4MSpexS-UwGJHhACEW-yPoEQoROHi4kVcg/viewform" target="_blank" class='btn btn-primary'>Join as a Mentor</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-5 mentee py-3 py-md-6">
-                <div class="row">
-                    <div class="col">
+                <div class="card card-m">
+                    <div class="card-body align-items-baseline">
+                        <h2 class="card-title">Become a Mentee</h2>
                         <p>You should apply to be a <b>mentee</b> if you:</p>
                         <ol>
                             <li>Want to start career in software engineering</li>
@@ -45,16 +37,10 @@ title: Mentorship Programme
                             <li>Want to apply for a leadership position</li>
                             <li>Need support in advancing your career</li>
                         </ol>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <p class="my-4 d-flex">
-                            <a href="/mentors" class='btn btn-primary'>Check our Mentors</a>
-                        </p>
+                        <a href="/mentors" class="btn btn-primary">Check our mentors</a>    
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </div>
