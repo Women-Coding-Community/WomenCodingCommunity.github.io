@@ -5,6 +5,7 @@
   category: category-book-club
   category_name: Book Club
   date: THU, MAY 30, 2024
+  expiration: "20240531"
   time: 8:00 PM to 9:30 PM CEST
   image:
     path: "/assets/images/events/event-book-club-053024.jpeg"
@@ -20,6 +21,7 @@
   category: category-tech-talk
   category_name: Tech Talk
   date: THU, JUN 6, 2024
+  expiration: "20240607"
   time: 8:00 PM to 9:30 PM CEST
   image:
     path: "/assets/images/events/event-tech-talk-060624.jpeg"

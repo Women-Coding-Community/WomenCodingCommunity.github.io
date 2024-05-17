@@ -47,11 +47,14 @@
       breadcrumbs: 
         - name: Programmes
           link: 
+- name: Events
+  link: events
+  index: 3
 - name: Blog
   link: blog
-  index: 3
-- name: About Us
   index: 4
+- name: About Us
+  index: 5
   subfolderitems:
     - page: Overview
       url: about
