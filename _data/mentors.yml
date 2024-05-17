@@ -1030,7 +1030,7 @@
 
 - name: Monique Grinstein
   disabled: false
-  sort: 200
+  sort: 100
   hours: 2
   position: Software Engineer, The LEGO Group
   type: ad-hoc
