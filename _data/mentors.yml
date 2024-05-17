@@ -394,3 +394,32 @@
     extra: System Design & Architecture, Optimal Database Design, How to work and think within an engineering team, User Psychology
   network:
     - linkedin: https://www.linkedin.com/in/adegbengaagoro
+
+- name: Monique Grinstein
+  disabled: false
+  sort: 200
+  hours: 2
+  position: Software Engineer, The LEGO Group
+  type: ad-hoc
+  index: 13
+  location: London, UK
+  bio: |
+    I work mainly with Backend and AWS. I am keen to help people start their journey in Software Engineering and Cloud Computing. I can share some knowledge from the industry, help you review your CV to apply for a job, and anything else around that. If you’re looking to get AWS certified, I could also help you come up with a study plan, and share tips and study materials. I currently hold two certifications: Cloud Practitioner & Solutions Architect - Associate.
+  image: assets/images/mentors/monique_grinstein.jpeg
+  languages: English, Portuguese, French
+  availability: []
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: Someone who’s starting on their Software Engineering journey.
+    areas:
+      - Backend Developer
+      - Fullstack Developer
+    languages: Javascript, Python, Go
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+    extra: CV Review, Getting AWS Certified, Clean Code Practices, Starting Your Career in STEM, Grow from Beginner to Mid-level
+  network: 
+    - linkedin: https://www.linkedin.com/in/moniquegrinstein/
