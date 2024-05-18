@@ -164,20 +164,21 @@
     .card-presentation {
 
       .btn-primary {
-        padding: 0!important;
-        background-color: $white !important;
+        padding: 0;
+        background-color: $white;
         font-size: $font-size-sm;
+        color: $primary-40;
+        text-decoration: underline;
+        cursor: pointer;
+        transition: transform 0.5s ease;
 
         &:focus {
-          border-color: $white !important;
+          border-color: $white;
         }
 
         &:hover {
-          background-color: $white !important;
-          color: $primary-40 !important;
-          text-decoration: underline !important;
-
-          cursor: pointer !important;
+          transform: translateY(-2px);
+          font-weight: 600;
         }
       }
     }
