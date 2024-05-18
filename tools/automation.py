@@ -177,13 +177,16 @@ def read_yml_file(file_path):
     """
     with open(file_path, 'r', encoding="utf-8") as input_yml:
         yaml = YAML(typ='safe')
-        yml_dict = yaml.load(input_yml)
+        yml_dict = yaml.load(input_yml) or {}
         logging.info(f"File: {file_path} is successfully read.")
 
     return yml_dict
 
 
-def xlsx_to_yaml_parser(mentor_row, mentor_index):
+def xlsx_to_yaml_parser(mentor_row,
+                        mentor_index,
+                        mentor_disabled=False,
+                        mentor_sort=10):
     """
     Prepare mentor's excel data for yaml format
     """
@@ -191,13 +194,10 @@ def xlsx_to_yaml_parser(mentor_row, mentor_index):
     focus = get_yaml_block_sequence(mentor_row, FOCUS_START_INDEX, FOCUS_END_INDEX)
     programming_languages = get_yaml_block_sequence(mentor_row, PROG_LANG_START_INDEX, PROG_LANG_END_INDEX)
 
-    # TODO: If the complete yml is generated, these fields should be read from the old yml
-    mentor_disabled = False
     mentor_matched = False
-    mentor_sort = 10
 
-    # Left commented since the code might be used in the later versions (if decided to
-    # add default picture until the mentor's image is not available)
+    # Left commented since the code might be used in the later versions
+    # to add default picture until the mentor's image is not available
     # mentor_image = os.path.join(IMAGE_FILE_PATH, str(mentor_index) + IMAGE_SUFFIX)
     mentor_image = f"{IMAGE_FILE_PATH}/mentor_name_lowercase.jpeg # TODO take it from {mentor_row.iloc[12]}"
 
@@ -229,20 +229,64 @@ def xlsx_to_yaml_parser(mentor_row, mentor_index):
     return mentor
 
 
-def get_all_mentors_in_yml_format(xlsx_file_path, skip_rows=0):
+def get_yml_data(yml_file_path):
     """
-    Read all mentors from Excel sheet.
-    Prepare data for writing to yaml file.
+    Get data from mentors.yml.
+    Return dataframe with name, index, sort and disabled values.
     """
-    # list of dict
-    mentors = []
+    yml_dict = read_yml_file(yml_file_path)
 
+    logging.info(f"Mentors yml total: {len(yml_dict)}")
+
+    yml_data = []
+
+    for mentor in yml_dict:
+        yml_data.append([mentor['name'].lower(),
+                        mentor['index'],
+                        mentor['disabled'],
+                        mentor['sort']])
+
+    df_yml_data = pd.DataFrame(yml_data,
+                            columns=['Name', 'Index', 'Disabled', 'Sort'])
+    return df_yml_data
+
+
+def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=0):
+    """
+    Read all mentors from Excel sheet:
+     - if mentor is in current mentors.yml, use existing values for index, sort and disabled.
+     - if mentor is new, continue indexing from the largest index from current mentors.yml
+    """
     df_mentors = pd.read_excel(xlsx_file_path, sheet_name=SHEET_NAME, skiprows=skip_rows)
 
     logging.info(f"Excel read {len(df_mentors)} mentors")
 
+    # Get current mentors' data (name, index, disabled, sort) from mentors.yml
+    df_yml = get_yml_data(yml_file_path)
+
+    # Calculate index for new mentors
+    new_index = 1
+    if not df_yml.empty:
+        new_index = df_yml['Index'].max().item() + 1
+
+    # list of dict
+    mentors = []
+
     for row in range(0, len(df_mentors)):
-        mentor = xlsx_to_yaml_parser(df_mentors.iloc[row], row + 1)
+        mentor_name = df_mentors.iloc[row].values[1].lower()
+
+        df_yml_row = df_yml.loc[df_yml.Name == mentor_name]
+
+        if not df_yml_row.empty:
+            mentor = xlsx_to_yaml_parser(df_mentors.iloc[row],
+                                        df_yml_row['Index'].item(),
+                                        df_yml_row['Disabled'].item(),
+                                        df_yml_row['Sort'].item())
+            logging.info(f"For {mentor_name} use index, disabled and sort from mentors.yml file")
+        else:
+            mentor = xlsx_to_yaml_parser(df_mentors.iloc[row],
+                                        new_index)
+            new_index += 1
         mentors.append(mentor)
 
     logging.info(f"Added {len(mentors)} mentors to the mentors.yml file")
@@ -252,45 +296,37 @@ def get_all_mentors_in_yml_format(xlsx_file_path, skip_rows=0):
 
 def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=1):
     """
-    Read just new mentors from Excel sheet
+    Read just new mentors from Excel sheet:
      - start reading xlsx Mentors from the row 1 (from the date 03/04/2024)
-     - find diff. between existing yml and xlsx
-    Prepare data for writing to yaml file.
+     - find diff. between current mentors.yml and xlsx table
     """
-    # list of dict
-    mentors = []
-
-    # Get mentors' names and indexes from yml file
-    mentors_yml_dict = read_yml_file(yml_file_path)
-
     df_mentors = pd.read_excel(xlsx_file_path, sheet_name=SHEET_NAME, skiprows=skip_rows)
 
     logging.info(f"Excel mentors: {len(df_mentors)}")
 
-    if mentors_yml_dict:
-        mentors_names_yml = [sub['name'].lower() for sub in mentors_yml_dict]
-        mentors_indexes = [sub['index'] for sub in mentors_yml_dict]
+    # Get current mentors' data in mentors.yml
+    df_yml = get_yml_data(yml_file_path)
 
-        logging.info(f"Mentors yml total: {len(mentors_names_yml)}")
+    # list of dict
+    mentors = []
 
+    if not df_yml.empty:
         # Highest index is used as the reference point from which
         # new indexes are calculated
-        new_index = max(mentors_indexes) + 1
+        new_index = df_yml['Index'].max().item() + 1
 
-        # Get mentors' names from xlsx file
-        mentors_names_xlsx = {}
-        for i in range(0, len(df_mentors)):
-            mentors_names_xlsx[i] = df_mentors.iloc[i].values[1].lower()
+        for row in range(0, len(df_mentors)):
+            mentor_name = df_mentors.iloc[row].values[1].lower()
 
-        for row, name in mentors_names_xlsx.items():
-            if name not in mentors_names_yml:
+            if df_yml.loc[df_yml.Name == mentor_name].empty:
                 mentor = xlsx_to_yaml_parser(df_mentors.iloc[row], new_index)
                 new_index += 1
                 mentors.append(mentor)
 
         logging.info(f"Added {len(mentors)} mentors to the mentors.yml file")
     else:
-        mentors = get_all_mentors_in_yml_format(xlsx_file_path, skip_rows)
+        mentors = get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows)
+
     return mentors
 
 
@@ -325,7 +361,7 @@ def run_automation():
     elif mode == WriteMode.WRITE:
         logging.info("Recreate yml - Write option selected.")
 
-        list_of_mentors = get_all_mentors_in_yml_format(xlsx_file_path, skip_rows=skip_rows)
+        list_of_mentors = get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=skip_rows)
         write_yml_file(yml_file_path, list_of_mentors, WriteMode.WRITE)
 
 
