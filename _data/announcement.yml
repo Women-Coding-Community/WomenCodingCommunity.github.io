@@ -3,18 +3,20 @@
   description: | 
     Sign up for this unique opportunity of one-time mentoring sessions with personalised guidance from experienced mentors.
   date: MAY 1, 2024
+  expiration: "20240515"
   image:
     path: "/assets/images/announcements/stock-unsplash-computer-typing.jpg"
     alt: hands typing on a laptop keyboard
   link:
     path: /mentors
     title: Join now
+
 - title: |
     New Women Coding Community website!
   description: | 
     We are thrilled to introduce our brand-new website. Created with dedication and passion by our incredible team of volunteers, this platform serves as your gateway to a diverse array of resources, programs, mentorship opportunities, and more.
   date: APR 30, 2024
+  expiration: "20240510"
   image:
     path: "/assets/images/announcements/stock-copilot-designer_celebrate.jpg"
     alt: confetti illustration
-
