@@ -162,6 +162,23 @@
         overflow: hidden;
     }
 
+    
+    .btn-show-more {
+        border: none;
+        padding-left: 1.6rem;
+
+        &:hover {
+            border: none;
+            background: transparent;
+            color: $link-color;
+            text-decoration: underline;
+        }
+
+        &::before {
+            left: 0;
+        }
+    }
+
     .show-content {
         -webkit-line-clamp: revert;
     }
@@ -172,7 +189,7 @@
 }
 
 @include media-breakpoint-up(md) {
-    .search-page.search-mentors {
+    .list-page-mentors {
         .card-mentor {
             flex-direction: row;
 
