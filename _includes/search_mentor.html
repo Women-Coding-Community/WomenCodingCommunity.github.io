@@ -1,78 +1,86 @@
-<div class="row">
-  <div class="search">
-      <form class="mentor-filter">
-        <div class="container-fluid row mx-0 px-0">
-          <input id="keywords" class="form-control col-md-8 col-lg-10 custom-input" type="text" placeholder="Search by mentor’s name...">
-          <div class="col-md-4 col-lg-2 pr-0" id="search-container">
-            <button id="search" class="btn btn-primary btn-block cursor-pointer" data-tf-iframe-props="title=Search for Mentor">Search</button>
-          </div>
-        </div>
-        <div class="mentor-total-description">
-          Available Mentors: <span id="total-mentors"></span>
-        </div>
-        <div id="toggle-container" class="d-flex justify-content-between align-items-center my-3">
-          <div class="font-weight-bold cursor-pointer" id="toggle-filters">Advanced Filters</div>
-          <div id="clear-btn" class="d-none opacity-50 cursor-pointer">Clear All</div>
-        </div>
-        <div id="filters-container" class="container-fluid row mx-0 px-0 mb-3 d-none">
-          <div class="col-sm-6 col-lg-3 px-0">
-            <div class="form-group">
-              <select class="form-control" id="experience">
-                <option value="">Experience</option>
-                <option value="0" data-min="0" data-max="1">0 - 1 year</option>
-                <option value="2" data-min="2" data-max="4">2 - 4 years</option>
-                <option value="5" data-min="5" data-max="7">5 - 7 years</option>
-                <option value="7" data-min="7" data-max="10">7 - 10 years</option>
-                <option value="10" data-min="11" data-max="50">10+ years</option> 
-              </select>
+<div class="container">
+  <div class="row">
+    <div class="row-content col-12">
+      <div class="search search-mentor col-12 col-lg-10">
+        <form class="mentor-filter">
+          <div class="container-fluid row px-0">
+            <div class="search-input col-12 col-md-10">
+              <div class="col-10">
+                <input id="keywords" class="form-control custom-input" type="text" placeholder="Search by mentor name">
+              </div>
+              <div class="col-2">
+                <button id="search" class="btn btn-search btn-primary" data-tf-iframe-props="title=Search for Mentor"><span class="search-icon material-symbols-outlined">search</span></button>
+              </div>
+            </div>
+            <div class="col-12 col-md-2 px-0" id="toggle-container">
+              <button id="toggle-filters" class="btn btn-filter btn-outline-primary"><span class="filter-icon material-symbols-outlined">tune</span>Filter</button>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-3 px-0">
-            <div class="form-group">
-              <select class="form-control area" id="area">
-                <option value="">Expertise</option>
-                <option>QA</option>
-                <option>Backend Developer</option>
-                <option>Frontend Developer</option>
-                <option>Fullstack Developer</option>
-                <option>DevOps</option>
-                <option>Distributed Systems</option>
-                <option>Data Science</option>
-                <option>Data Engineering</option>
-                <option>Android</option>
-                <option>iOS</option>
-                <option>Business Analysis</option>
-                <option>Product Management</option>
-                <option>Project Management</option>
-                <option>Machine Learning</option>
-                <option>Engineering management</option>
-              </select>
+          <div id="filters-container" class="container-fluid d-none">
+            <div class="col-12 col-lg-3">
+              <div class="form-group">
+                <select class="form-control" id="experience">
+                  <option value="">Experience</option>
+                  <option value="0" data-min="0" data-max="1">0 - 1 year</option>
+                  <option value="2" data-min="2" data-max="4">2 - 4 years</option>
+                  <option value="5" data-min="5" data-max="7">5 - 7 years</option>
+                  <option value="7" data-min="7" data-max="10">7 - 10 years</option>
+                  <option value="10" data-min="11" data-max="50">10+ years</option> 
+                </select>
+                <span class="icon-dropdown-arrow material-symbols-outlined">arrow_drop_down</span>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3">
+              <div class="form-group">
+                <select class="form-control area" id="area">
+                  <option value="">Expertise</option>
+                  <option>QA</option>
+                  <option>Backend Developer</option>
+                  <option>Frontend Developer</option>
+                  <option>Fullstack Developer</option>
+                  <option>DevOps</option>
+                  <option>Distributed Systems</option>
+                  <option>Data Science</option>
+                  <option>Data Engineering</option>
+                  <option>Android</option>
+                  <option>iOS</option>
+                  <option>Business Analysis</option>
+                  <option>Product Management</option>
+                  <option>Project Management</option>
+                  <option>Machine Learning</option>
+                  <option>Engineering management</option>
+                </select>
+                <span class="icon-dropdown-arrow material-symbols-outlined">arrow_drop_down</span>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3">
+              <div class="form-group">
+                <select class="form-control focus" id="focus">
+                  <option value="">Mentee Focus</option>
+                  <option>Switch career to IT</option>
+                  <option>Grow from beginner to mid-level</option>
+                  <option>Grow from mid-level to senior-level</option>
+                  <option>Grow beyond senior level</option>
+                  <option>Switch from IC to management position</option>
+                  <option>Change specialisation within IT</option>
+                </select>
+                <span class="icon-dropdown-arrow material-symbols-outlined">arrow_drop_down</span>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3">
+              <div class="form-group">
+                <select class="form-control" id="type">
+                  <option value="">Format</option>
+                  <option value="ad-hoc">Ad-Hoc</option>
+                  <option value="long-term">Long Term relationship</option>
+                </select>
+                <span class="icon-dropdown-arrow material-symbols-outlined">arrow_drop_down</span>
+              </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-3 px-0">
-            <div class="form-group">
-              <select class="form-control focus" id="focus">
-                <option value="">Mentee Focus</option>
-                <option>Switch career to IT</option>
-                <option>Grow from beginner to mid-level</option>
-                <option>Grow from mid-level to senior-level</option>
-                <option>Grow beyond senior level</option>
-                <option>Switch from IC to management position</option>
-                <option>Change specialisation within IT</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3 px-0">
-            <div class="form-group">
-              <select class="form-control" id="type">
-                <option value="">Format</option>
-                <option value="ad-hoc">Ad-Hoc</option>
-                <option value="long-term">Long Term relationship</option>
-              </select>
-            </div>
-          </div>
+          </form>
         </div>
-        </form>
       </div>
+    </div>
   </div>
 </div>

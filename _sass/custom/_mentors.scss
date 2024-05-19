@@ -1,148 +1,153 @@
+.list-page-mentors {
 
-.search-page.search-mentors {
-    .card-img {
-        border-radius: 50%;
-        padding: map-get($spacers, 4);
+    .row-content {
+        margin: 0 auto;
     }
 
-    .col-md-3 {
-        display: grid;
-        justify-content: center;
-        align-content: center;
-        border-right: 1px solid $border-color;
-        border-radius: $border-radius;
-
-        a {
-            margin: 0 auto;
-        }
-
-        .card-text {
-            text-align: center;
-        }
-    }
-
-    .link {
-        font-weight: $font-weight-bold !important;
-        color: $primary-40;
-    }
-
-    .btn-outline-dark:hover {
-        background-color: $primary-40 !important;
-    }
-
-    .card-header {
-        background-color: $white;
-
-        li {
-            cursor: pointer;
-            :hover {
-                text-decoration: underline;
-            }
-
-            .active {
-                @extend .link;
-            }
-        }
-    }
-
-    .card-body {
-        min-height: 450px;
+    .card-mentor {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-bottom: map-get($spacers, 5);
 
         p {
-            margin: 0;
+            margin-bottom: 0.8rem;
         }
-    }
-
-    .description {
-        margin-bottom: 10px;
-    }
-
-    .profile-photo {
-        @extend .mx-auto;
-        @extend .d-block;
-        @extend .rounded;
-
-        width: 200px;
-        margin-top: 20px;
-        padding-left: 10px;
-    }
-
-    .card-title {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .card {
-        @extend .my-4;
-    }
-
-    .card-link {
-        margin-top: 15px;
-        @extend .text-center;
-    }
-
-    .card-horizontal {
-        max-height: 400px;
-    }
-
-    .justify-text {
-        text-align: justify;
-        text-justify: inter-word;
-        hyphens: auto;
-        -webkit-hyphens: auto;
-        word-spacing: -0.05em;
-    }
-
-    .network {
-        margin-top: 22px !important;
-
-        a {
-            border-radius: 100%;
-            padding-right: 15px;
-            text-decoration: none;
-
-            svg {
-                height: 30px;
-                width: 30px;
-                fill: $primary-40;
-            }
-        }
-    }
-
-    div .card-reviews {
-        height: 300px;
-        overflow: auto;
-    }
-
-    .stars, .stars0 {
-        background: transparent url("stars.png") no-repeat top left;
-        width:100px;
-        height:20px;
-        display:inline-block;
-        margin-top: 15px;
-        transform: scalex(-1);
-    }
-    .stars1 {background-position:-20px;}
-    .stars2 {background-position:-40px;}
-    .stars3 {background-position:-60px;}
-    .stars4 {background-position:-80px;}
-    .stars5 {background-position:-100px;}
-
-    .card-text {
-        margin-top: 10px !important;
 
         label, span {
-            font-weight: $font-weight-bold !important;
+            font-weight: 400;
             margin-bottom: 0;
         }
 
-        + .btn {
-            margin-top: 10px;
+        .position {
+            font-weight: 400;
+            margin-bottom: map-get($spacers, 3);
         }
-    }
 
-    .card-mentees span {
-        @extend .link;
+        .row {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .card-header {
+            background: transparent;
+            border-bottom: 0;
+            padding: 0;
+        }
+
+        .card-header-tabs {
+            margin: 0 0 map-get($spacers, 4) 0;
+        }
+
+        .card-media {
+            padding: 2rem;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            border-right: 1px solid $border-color;
+            border-radius: $border-radius 0 0 $border-radius;
+
+            a {
+                margin: 0 auto;
+            }
+
+            img {
+                border-radius: 50%;
+                padding: 0;
+                width: 100%;
+                max-width: 400px;
+            }
+
+            .card-text {
+                text-align: center;
+            }
+        }
+
+        .card-content {
+            padding: 1rem 1.5rem 1.5rem 1.5rem;
+        }
+
+        .presentation {
+
+            .btn-primary {
+                padding: 0;
+                background-color: $white;
+                font-size: $font-size-sm;
+                color: $primary-40;
+                text-decoration: underline;
+                cursor: pointer;
+                transition: transform 0.5s ease;
+        
+                &:focus {
+                    border-color: $white;
+                }
+        
+                &:hover {
+                    transform: translateY(-2px);
+                    font-weight: 600;
+                }
+            }
+        }
+      
+        .book-recommendations {
+            h6 {
+                font-size: 1rem;
+                font-weight: bold;
+                margin-bottom: 0.25rem;
+            }
+            p {
+                font-size: 1rem;
+                margin-bottom: 0;
+            }
+            .book {
+                margin: 1.25rem auto;
+            }
+        }
+
+        .justify-text {
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+            -webkit-hyphens: auto;
+            word-spacing: -0.05em;
+        }
+
+        .network {
+            margin-top: 22px !important;
+
+            a {
+                border-radius: 100%;
+                padding-right: 15px;
+                text-decoration: none;
+
+                svg {
+                    height: 30px;
+                    width: 30px;
+                    fill: $primary-40;
+                }
+            }
+        }
+
+        .card-reviews {
+            height: 300px;
+            overflow: auto;
+        }
+
+        .stars, .stars0 {
+            background: transparent url("stars.png") no-repeat top left;
+            width:100px;
+            height:20px;
+            display:inline-block;
+            margin-top: 15px;
+            transform: scalex(-1);
+        }
+        .stars1 {background-position:-20px;}
+        .stars2 {background-position:-40px;}
+        .stars3 {background-position:-60px;}
+        .stars4 {background-position:-80px;}
+        .stars5 {background-position:-100px;}
     }
 
     .alert-info {
@@ -157,45 +162,25 @@
         overflow: hidden;
     }
 
-    .show-content {
-        -webkit-line-clamp: revert;
-    }
-
-    .card-presentation {
-
-      .btn-primary {
-        padding: 0;
-        background-color: $white;
-        font-size: $font-size-sm;
-        color: $primary-40;
-        text-decoration: underline;
-        cursor: pointer;
-        transition: transform 0.5s ease;
-
-        &:focus {
-          border-color: $white;
-        }
+    
+    .btn-show-more {
+        border: none;
+        padding-left: 1.6rem;
 
         &:hover {
-          transform: translateY(-2px);
-          font-weight: 600;
+            border: none;
+            background: transparent;
+            color: $link-color;
+            text-decoration: underline;
         }
-      }
+
+        &::before {
+            left: 0;
+        }
     }
 
-    .book-recommendations {
-        h6 {
-            font-size: 1rem;
-            font-weight: bold;
-            margin-bottom: 0.25rem;
-        }
-        p {
-            font-size: 1rem;
-            margin-bottom: 0;
-        }
-        .book {
-            margin: 1.25rem auto;
-        }
+    .show-content {
+        -webkit-line-clamp: revert;
     }
 
     .inactive-mentor {
@@ -203,71 +188,14 @@
     }
 }
 
-.search {
-    @extend .mentors;
-    @extend .container;
+@include media-breakpoint-up(md) {
+    .list-page-mentors {
+        .card-mentor {
+            flex-direction: row;
 
-    margin-top: map-get($spacers,6);
-
-    .mentor-total-description {
-        @extend .my-4, .h5, .font-weight-bold;
-
-        span {
-        @extend .text-primary, .font-italic;
+            .card-content {
+                padding: 2rem 2.5rem 2.5rem 2.5rem;
+            }
         }
-    }
-
-    .form-group {
-        margin-right: 1.5rem;
-    }
-
-    .search-type {
-        margin-top: 20px;
-    }
-
-    ::placeholder {
-        color: rgba(0, 0, 0, 0.3);
-    }
-
-    .btn-primary {
-        background-color: $primary-40;
-        color: $white;
-    }
-
-    .custom-input {
-        background-image: url('../../assets/images/search.png');
-        background-repeat: no-repeat;
-        background-position: 10px center;
-        padding-left: 40px;
-    }
-}
-
-.alert {
-    border-color: grey;
-    border-width: 3px;
-}
-
-#search-container {
-    @include media-breakpoint-down(sm) {
-       padding-left: 0;
-       margin-top: 1rem;
-    }
-}
-
-#filters-container > div:last-child .form-group {
-    @include media-breakpoint-up(lg) {
-        margin-right: 0;
-    }
-}
-
-#filters-container > div:nth-child(even) .form-group {
-    @include media-breakpoint-down(md) {
-        margin-right: 0;
-    }
-}
-
-#filters-container > div .form-group {
-    @include media-breakpoint-down(xs) {
-        margin-right: 0;
     }
 }

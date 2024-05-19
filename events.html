@@ -16,3 +16,25 @@ body_class: page list-page list-page-events
         </div>
     </div>
 </div>
+<div class="container list-events">
+    <section class="row col-12">
+        <div class="row-header col-12">
+            <h2>Events</h2>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active">Upcoming Events</a>
+                </li>
+                <li class="nav-item"> 
+                    <a class="nav-link disabled">Past Events</a>
+                </li>
+            </ul>
+        </div>
+        <div class="row-content col-12">
+            <div class="card-deck">
+                {% for event in site.data.events %}
+                    {% include event.html %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</div>

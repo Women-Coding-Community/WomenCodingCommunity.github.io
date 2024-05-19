@@ -13,3 +13,18 @@
 .btn-primary {
     border: none;
 }
+    
+.btn-show-more {
+    position: relative;
+    padding-left: 3rem;
+
+    &::before {
+        content: "+";
+        font-family: 'Material Icons';
+        position: absolute;
+        left: 1.5rem;
+        top: 48%;
+        transform: translateY(-50%);
+        font-size: $icon-size-s;
+    }
+}
