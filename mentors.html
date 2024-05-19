@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Meet Our Mentors!
-body_class: page search-page search-mentors
+body_class: page search-page list-page-mentors
 ---
 
 {% include search_mentor.html %}
@@ -12,6 +12,8 @@ body_class: page search-page search-mentors
             <div id="no-mentors-msg" class="alert alert-info d-none" role="alert">
                 Sorry, no mentors matching your search criteria were found. Please, adjust your filters and try again.
             </div>
+
+            {% include search-results-header.html %}
 
             {% assign days_open = site.registration | plus: 0 %}
             {% assign current_day = site.time | date: "%d" | plus: 0 %}

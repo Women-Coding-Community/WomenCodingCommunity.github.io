@@ -1,68 +1,189 @@
 .search {
-    @extend .mentors;
-    @extend .container;
+    margin-top: map-get($spacers, 5);
+    margin-left: auto;
+    margin-right: auto;
+    background: $bg-2;
+    border-radius: $border-radius;
 
-    margin-top: map-get($spacers,6);
+    form {
+        padding: map-get($spacers, 4) 0;
+        
+    }
 
-    .mentor-total-description {
-        @extend .my-4, .h5, .font-weight-bold;
+    .btn-filter,
+    .btn-search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 
-        span {
-        @extend .text-primary, .font-italic;
+    .btn-search {
+        border-radius: 0 2rem 2rem 0;
+        height: 100%;
+    }
+
+    .btn-filter {
+        color: $link-color-dark;
+        background: $white;
+        margin-top: 1rem;
+        height: auto;
+
+        &:hover {
+            color: $white;
+            background: $primary;
         }
     }
 
+    .search-icon,
+    .filter-icon {
+        font-size: $icon-size-m;
+    }
+
+    .filter-icon {
+        padding-right: 0.2rem;
+    }
+}
+
+.search-input {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+
+    > div {
+        &:first-child {
+            padding: 0;
+        }
+    
+        &:last-child {
+            padding-left: 0;
+        }
+    }
+
+    input {
+        border-radius: 2rem 0 0 2rem;
+        height: 47px;
+        padding-left: map-get($spacers, 4);
+        padding-right: map-get($spacers, 3);
+
+        &::placeholder {
+            color: $text-secondary;
+        }
+    }
+
+    input[type="text"] {
+        color: $text-primary;
+    }
+}
+
+.search-page {
+    
+    .search-results-header {
+        margin-top: map-get($spacers, 5);
+        margin-bottom: map-get($spacers, 3);
+        display: flex;
+        flex-direction: row;
+    
+        p,
+        #clear-btn {
+            font-weight: 500;
+            font-size: $font-title-m;
+    
+        }
+    
+        p {
+            span {
+                font-weight: 300;
+            }
+        }
+    
+        #clear-btn {
+            color: $link-color;
+            margin-left: auto;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .alert {
+        border-color: grey;
+        border-width: 3px;
+    }
+}
+
+#filters-container {
+    display: flex;
+    flex-direction: column;
+    padding: map-get($spacers, 4) 0 0 0;
+    border-top: 1px solid $neutral-80;
+    margin-top: map-get($spacers, 4);
+
     .form-group {
-        margin-right: 1.5rem;
-    }
+        position: relative;
 
-    .search-type {
-        margin-top: 20px;
-    }
+        .form-control {
+            /* Hide bootstrap dropdown icon */
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            padding-left: 1.1rem;
+        }
 
-    ::placeholder {
-        color: rgba(0, 0, 0, 0.3);
-    }
-
-    .btn-primary {
-        background-color: $primary-40;
-        color: $white;
-    }
-
-    .custom-input {
-        background-image: url('../../assets/images/search.png');
-        background-repeat: no-repeat;
-        background-position: 10px center;
-        padding-left: 40px;
+        .icon-dropdown-arrow {
+            position: absolute;
+            right: 0.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+            color: $black;
+            font-size: $icon-size-s;
+        }
     }
 }
 
-.alert {
-    border-color: grey;
-    border-width: 3px;
-}
+@include media-breakpoint-down(md) {
+    .search {
+        #filters-container {
+            > * {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
 
-#search-container {
-    @include media-breakpoint-down(sm) {
-       padding-left: 0;
-       margin-top: 1rem;
+        .btn-filter {
+            max-height: 2.5rem;
+        }
     }
 }
 
-#filters-container > div:last-child .form-group {
-    @include media-breakpoint-up(lg) {
-        margin-right: 0;
+
+@include media-breakpoint-up(md) {
+    .search {
+        .btn-filter {
+            margin-top: 0;
+        }
     }
 }
 
-#filters-container > div:nth-child(even) .form-group {
-    @include media-breakpoint-down(md) {
-        margin-right: 0;
-    }
-}
+@include media-breakpoint-up(lg) {
+    .search {
+        form {
+            padding: map-get($spacers, 5);
+        }
 
-#filters-container > div .form-group {
-    @include media-breakpoint-down(xs) {
-        margin-right: 0;
+        #filters-container {
+            flex-direction: row;
+
+            > * {
+                &:first-child {
+                    padding-left: 0;
+                }
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+        }
     }
 }

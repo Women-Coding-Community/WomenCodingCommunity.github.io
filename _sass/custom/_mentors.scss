@@ -1,4 +1,4 @@
-.search-page.search-mentors {
+.list-page-mentors {
 
     .row-content {
         margin: 0 auto;
@@ -12,7 +12,7 @@
         margin-bottom: map-get($spacers, 5);
 
         p {
-            margin-bottom: map-get($spacers, 3);
+            margin-bottom: 0.8rem;
         }
 
         label, span {
