@@ -1,0 +1,68 @@
+.search {
+    @extend .mentors;
+    @extend .container;
+
+    margin-top: map-get($spacers,6);
+
+    .mentor-total-description {
+        @extend .my-4, .h5, .font-weight-bold;
+
+        span {
+        @extend .text-primary, .font-italic;
+        }
+    }
+
+    .form-group {
+        margin-right: 1.5rem;
+    }
+
+    .search-type {
+        margin-top: 20px;
+    }
+
+    ::placeholder {
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-primary {
+        background-color: $primary-40;
+        color: $white;
+    }
+
+    .custom-input {
+        background-image: url('../../assets/images/search.png');
+        background-repeat: no-repeat;
+        background-position: 10px center;
+        padding-left: 40px;
+    }
+}
+
+.alert {
+    border-color: grey;
+    border-width: 3px;
+}
+
+#search-container {
+    @include media-breakpoint-down(sm) {
+       padding-left: 0;
+       margin-top: 1rem;
+    }
+}
+
+#filters-container > div:last-child .form-group {
+    @include media-breakpoint-up(lg) {
+        margin-right: 0;
+    }
+}
+
+#filters-container > div:nth-child(even) .form-group {
+    @include media-breakpoint-down(md) {
+        margin-right: 0;
+    }
+}
+
+#filters-container > div .form-group {
+    @include media-breakpoint-down(xs) {
+        margin-right: 0;
+    }
+}
