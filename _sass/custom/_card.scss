@@ -237,12 +237,11 @@
             font-size: $font-title-l;
         }
 
-        .card-date,
-        .card-time {
+        .card-date {
             display: flex;
             align-items: center;
             font-size: $font-title-m;
-            margin: map-get($spacers, 1) 0;
+            margin: map-get($spacers, 2) 0 map-get($spacers, 1) 0;
             
             .material-symbols-outlined {
                 font-size: $icon-size-s;
@@ -256,6 +255,14 @@
 
         .card-title {
             margin-top: map-get($spacers, 3);
+        }
+
+        .card-host,
+        .card-speaker {
+            text-align: left;
+            font-size: $font-title-m;
+            font-weight: 400;
+            margin-bottom: map-get($spacers, 3);
         }
     }
 }
