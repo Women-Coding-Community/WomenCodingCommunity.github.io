@@ -5,14 +5,15 @@
 
         .row {
             margin-bottom: 0;
-            padding-top: map-get($spacers, 5);
-            padding-bottom: map-get($spacers, 6);
+            padding-top: map-get($spacers, 6);
+            padding-bottom: map-get($spacers, 7);
         }
 
         .row-header {
             padding: 0;
 
             h2 {
+                font-size: $font-display-s;
                 border-bottom: 6px solid;
                 border-image: linear-gradient(to left, $tertiary-90, $secondary-80);
                 border-image-slice: 1;

@@ -267,6 +267,30 @@
     }
 }
 
+.card-book-club {
+    &.card-horizontal {
+        flex-direction: column;
+
+        h4 {
+            color: $text-secondary;
+            font-weight: 400;
+            margin-bottom: map-get($spacers, 3);
+        }
+
+        p {
+            flex: none;
+        }
+
+        img {
+            border-radius: 0 0 $border-radius $border-radius;
+        }
+        
+        .btn {
+            margin-top: map-get($spacers, 3);
+        }
+    }
+}
+
 .card-blog {
     .card-body {
         align-items: baseline;
@@ -412,6 +436,16 @@
         .card-media {
             img {
                 border-radius: $border-radius 0 0 $border-radius;
+            }
+        }
+    }
+
+    .card-book-club {
+        &.card-horizontal {
+            flex-direction: row;
+
+            img {
+                border-radius: 0 $border-radius $border-radius 0;
             }
         }
     }
