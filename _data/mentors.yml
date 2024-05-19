@@ -1027,3 +1027,106 @@
       Software Development Strategies, Resume Review, Preparation for The Technical Interview
   network:
     - linkedin: https://www.linkedin.com/in/liliia-rafikova-635328104/
+    
+- name: Avraham Poupko
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 2
+  type: ad-hoc
+  index: 33
+  location: Israel
+  position: Head of Product Planning, Toga Networks
+  bio: |
+    I have been teaching and mentoring software designers and architects for close to twenty years.
+  image: 'assets/images/mentors/avraham_poupko.jpeg # TODO take it from LinkedIn'
+  languages: English, Hebrew
+  availability: []
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: |
+      Someone with drive that feels that with some encouragement and direction that will maximise their potential
+    areas:
+    - Engineering management
+    - Security
+    - Business Analysis
+    - Product Management
+    - Distributed Systems
+    languages: C++, C++, C, Java, C#
+    focus:
+    - Grow beyond senior level
+    - Grow from mid-level to senior-level
+    - Switch from IC to management position
+    - Grow from beginner to mid-level
+    - Change specialisation within IT
+    extra: |
+      Software Design. Cloud Migration. Writing an article. Presenting at a meeting or conference. Architecture decisions. Career Navigation. Negotiating a promotion or career change
+  network:
+  - linkedin: https://www.linkedin.com/in/avrahampoupko/
+  - twitter: https://twitter.com/apoupko
+
+- name: Safiye Ipek
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 2
+  type: ad-hoc
+  index: 34
+  location: London,UK
+  position: Software QA Engineer, Self Employed - SI Engineering LTD - But currently
+    work for HM Land registry as a contractor
+  bio: |
+    I am a Software Quality Assurance Engineer with a strong commitment to mentoring and contributing to the Women Coding Community. With over four years of experience, I have perfected my expertise in automation tools to ensure flawless project deliveries. My dedication to promoting transparent communication and fostering strong teamwork sets me apart. As your mentor, I am committed to providing invaluable insights, best practices, and unwavering support as you navigate the dynamic field of software testing, including testing strategies and the latest industry trends.
+  image: 'assets/images/mentors/safiye_ipek.jpg'
+  languages: English, Turkish
+  availability: []
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: |
+      I'm seeking mentees who are enthusiastic about software testing and eager to expand their knowledge and skills in the field. Whether you're just starting out or already have some experience, I'm here to support your growth and development. I value curiosity, dedication, and a proactive attitude towards learning. If you're passionate about software quality and committed to honing your craft, I'm excited to work with you and help you achieve your goals in the world of testing.
+    areas:
+    - QA
+    languages: Java, Javascript, Ruby, Python
+    focus:
+    - Switch career to IT
+    extra: |
+      Software Testing 
+      Manual Testing 
+      Automation Testing 
+      Resume Review
+  network:
+  - linkedin: https://www.linkedin.com/in/safiye-ipek/
+  - github: https://github.com/S-ipk
+
+- name: Bomee Ryu
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 3
+  type: both
+  index: 35
+  location: London
+  position: Android Developer, Sky UK
+  bio: |
+    I am an android developer with over 6 years of experience. I have experienced projects that even couldn't come out to the world but also experienced huge projects had 1M+ daily active users. If you want to learn something about a whole life cycle of Android development projects, I can help you and walk through with you.
+  image: 'assets/images/mentors/bomee_ryu.jpeg # TODO take it from LinkedIn'
+  languages: English, Korean
+  availability: []
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      I am looking for mentees who are interested in Android Development. I can mentor Kotlin and Java as well. But I would recommend mentees to come with a basic background knowledge of OOP and mobile development to have insightful mentorship sessions.
+    areas:
+    - Android
+    - Engineering management
+    languages: Kotlin, Java
+    focus:
+    - Grow from beginner to mid-level
+    - Change specialisation within IT
+    extra: |
+      Code Review, Learning Android development, Learning OOP languages, Flutter, Software architecture
+  network:
+  - linkedin: https://www.linkedin.com/in/bomeeryu/
