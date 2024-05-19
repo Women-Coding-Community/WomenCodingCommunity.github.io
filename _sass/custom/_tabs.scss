@@ -1,0 +1,29 @@
+.nav-tabs {
+    border-bottom: 1px solid $border-color;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
+
+    .nav-item {
+        margin-bottom: -0.2rem;
+        padding: 0.2rem 0;
+    }
+
+    .nav-link {
+        border: none;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: $font-label-l;
+
+        &.active {
+            color: $text-primary;
+            border-bottom: 2px solid $primary;
+            background: transparent;
+        }
+
+        &:not(.active) {
+            color: $text-secondary;
+        }
+    }
+}
