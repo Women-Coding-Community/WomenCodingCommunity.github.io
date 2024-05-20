@@ -1,0 +1,70 @@
+.breadcrumb {
+    margin-bottom: 0;
+    border-radius: 0;
+    border-top: 1px solid $neutral-90;
+    border-bottom: 1px solid $neutral-90;
+    align-items: center;
+    min-height: 3.5rem;
+    background-color: #fff;
+    color: $neutral-30;
+    box-shadow: $box-shadow;
+
+    ul, ol {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style-type: "";
+        display: flex;
+        flex-wrap: wrap;
+        font-size: inherit;
+
+        li {
+            font-size: $font-title-m;
+            &:before {
+                color: inherit;
+            }
+            
+        }
+    }
+
+    a {
+        font-size: $font-title-m;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .container {
+        max-width: 1376px;
+    }
+}
+
+.breadcrumb-item.active {
+    color: inherit;
+}
+
+.breadcrumb-back__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb__back {
+    display: inline-flex;
+    align-items: center;
+
+    .material-symbols-outlined {
+        color: $neutral-30;
+        font-size: $icon-size-s;
+    }
+}
+
+/* Hide breadcrumb on parent landing pages */
+.list-page-blog,
+.list-page-events,
+.page-about,
+.page-mentorship,
+.page-programmes {
+    .breadcrumb {
+        display: none;
+    }
+}

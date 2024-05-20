@@ -1,5 +1,9 @@
 .home {
 
+    .page-header {
+        display: none;
+    }
+
     .row {
         &.featured-content {
             padding-top: map-get($spacers, 6);
@@ -15,8 +19,9 @@
 
     .row-header {
         h2 {
+            @include font-display-l;
             margin-top: 0;
-            margin-bottom: 0;
+            margin-bottom: map-get($spacers, 5);
         }
     }
 
@@ -26,9 +31,30 @@
 
     .announcements {
         .card-deck {
-            margin-right: auto;
-            margin-left: auto;
             flex-direction: column;
+        }
+    }   
+    
+    .event {
+        &.category-book-club {
+            border: none;
+            background: $tertiary-90;
+            color: $primary-30;
+        }
+    
+        &.category-tech-talk {
+            border: none;
+            background: $primary;
+            color: $white;
+
+            a {
+                color: $white;
+                border-color: $white;
+                &:hover {
+                    background: $white;
+                    color: $primary;
+                }
+            }
         }
     }    
 
@@ -53,7 +79,7 @@
     }
 }
 
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(md) {
     .home {
         .announcements {
             .card-deck {

@@ -109,6 +109,7 @@ const controllerSearch = (function(jQuery) {
 
         if (isDefined(filters)) {
             filterMentors(filters);
+            toggleClearBtn(filters.length > 0);
         } else {
             removeFilters();
         }
@@ -132,6 +133,7 @@ const controllerSearch = (function(jQuery) {
         $type.val('');
         $experience.val('');
         setNumberOfMentors(activeMentors);
+        toggleClearBtn(false);
     };
 
     const filterMentors = function(filters) {
@@ -197,6 +199,14 @@ const controllerSearch = (function(jQuery) {
         return element.length > 0
     };
 
+    const toggleClearBtn = function(show) {
+        if (show) {
+            $clearBtn.removeClass(HIDE_CLASS);
+        } else {
+            $clearBtn.addClass(HIDE_CLASS);
+        }
+    };
+
     const initEvents = function() {
         $keywords.change(function() {
             applyFilters();
@@ -230,9 +240,7 @@ const controllerSearch = (function(jQuery) {
             removeFilters();
         }); 
 
-        $toggleFilterBtn.click(function() { 
-            $clearBtn.toggleClass(HIDE_CLASS);
-            jQuery('#toggle-container').toggleClass('mt-5');
+        $toggleFilterBtn.click(function() {
             jQuery('#filters-container').toggleClass(HIDE_CLASS);
         });
     };
@@ -241,6 +249,7 @@ const controllerSearch = (function(jQuery) {
         setNumberOfMentors(activeMentors);
         initEvents();
         applyKeywordsParam();
+        toggleClearBtn(false); 
     };
 
     return {
