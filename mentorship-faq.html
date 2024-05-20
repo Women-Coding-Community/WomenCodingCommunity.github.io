@@ -1,0 +1,27 @@
+---
+layout: default
+title: Mentorship FAQ
+body_class: page page-mentorship-faq
+---
+
+<div class="container">
+    <div class="row">
+        <div class="content-constrained">
+            <section>
+                {% for faq in site.data.faq %}
+                <div class="accordion" id="accordion">
+                    <a class="accordion-header" aria-controls="faq-{{faq.index}}" aria-expanded="false" data-toggle="collapse" href="#faq-{{faq.index}}" role="button">
+                        <h2 class="accordion-title">{{faq.question}}</h2>
+                        <div class="accordion-icon">
+                            {% include icons/plus.svg %}
+                        </div>
+                    </a>
+                    <div class="accordion-body collapse" id="faq-{{faq.index}}">
+                        <p>{{faq.answer}}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </section>
+        </div>
+    </div>
+</div>

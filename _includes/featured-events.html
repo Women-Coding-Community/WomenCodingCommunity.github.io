@@ -1,0 +1,18 @@
+<div class="container announcements">
+    <div class="row featured-content">
+        <div class="row-header">
+            <h2>Events</h2>
+        </div>
+        <div class="row-content col-12">
+            <div class="card-deck">
+                {% assign count = 0 %}
+                {% for event in site.data.events %}
+                    {% assign count = count | plus: 1 %}
+                    {% if count <= 2 %}
+                        {% include event.html %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
