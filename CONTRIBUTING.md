@@ -55,6 +55,27 @@ git fetch upstream
 ```bash
 git merge upstream/main
 ```
+### Additional way to Sync forked repository with origin repository using Git CLI:
+
+```bash
+git remote add wcc git@github.com:WomenCodingCommunity/WomenCodingCommunity.github.io.git
+```
+
+```bash
+git checkout origin main
+```
+
+```bash
+git pull wcc main
+```
+
+```bash
+git push origin main
+```
+
+```bash
+git checkout -b create_my_new_branch_from_main
+```
 
 #### Check out the [Github Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to learn more about syncing a forked repository.
 
