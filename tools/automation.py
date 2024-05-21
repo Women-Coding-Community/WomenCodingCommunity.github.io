@@ -102,7 +102,6 @@ def extract_numbers_from_string(text_arg, get_max_value=True):
     """
     Extract numbers and convert them to integers.
     """
-    # TODO: If the field hours in xlsx is NAN, what should be the default: 0 or 1
     if pd.isna(text_arg):
         text_arg = 0
 
@@ -264,12 +263,10 @@ def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=0):
     # Get current mentors' data (name, index, disabled, sort) from mentors.yml
     df_yml = get_yml_data(yml_file_path)
 
-    # Calculate index for new mentors
     new_index = 1
     if not df_yml.empty:
         new_index = df_yml['Index'].max().item() + 1
 
-    # list of dict
     mentors = []
 
     for row in range(0, len(df_mentors)):
@@ -304,15 +301,12 @@ def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=1):
 
     logging.info(f"Excel mentors: {len(df_mentors)}")
 
-    # Get current mentors' data in mentors.yml
+    # Get current mentors' data (name, index, disabled, sort) from mentors.yml
     df_yml = get_yml_data(yml_file_path)
 
-    # list of dict
     mentors = []
 
     if not df_yml.empty:
-        # Highest index is used as the reference point from which
-        # new indexes are calculated
         new_index = df_yml['Index'].max().item() + 1
 
         for row in range(0, len(df_mentors)):
