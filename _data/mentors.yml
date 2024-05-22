@@ -1009,7 +1009,7 @@
   image: assets/images/mentors/liliia_rafikova.png
   location: London, UK
   languages: English, Russian
-  availability: []
+  availability: [ 6, 7 ]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1041,7 +1041,7 @@
     I have been teaching and mentoring software designers and architects for close to twenty years.
   image: 'assets/images/mentors/avraham_poupko.jpg'
   languages: English, Hebrew
-  availability: [6,7]
+  availability: [ 6, 7 ]
   skills:
     experience: 16+ Years
     years: 16
@@ -1113,7 +1113,7 @@
     I am an android developer with over 6 years of experience. I have experienced projects that even couldn't come out to the world but also experienced huge projects had 1M+ daily active users. If you want to learn something about a whole life cycle of Android development projects, I can help you and walk through with you.
   image: 'assets/images/mentors/bomee_ryu.jpg'
   languages: English, Korean
-  availability: [6,7]
+  availability: [ 6, 7 ]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1130,3 +1130,33 @@
       Code Review, Learning Android development, Learning OOP languages, Flutter, Software architecture
   network:
   - linkedin: https://www.linkedin.com/in/bomeeryu/
+
+- name: Monique Grinstein
+  disabled: false
+  sort: 100
+  hours: 2
+  position: Software Engineer, The LEGO Group
+  type: ad-hoc
+  index: 36
+  location: London, UK
+  bio: |
+    I work mainly with Backend and AWS. I am keen to help people start their journey in Software Engineering and Cloud Computing. I can share some knowledge from the industry, help you review your CV to apply for a job, and anything else around that. If you’re looking to get AWS certified, I could also help you come up with a study plan, and share tips and study materials. I currently hold two certifications: Cloud Practitioner & Solutions Architect - Associate.
+  image: assets/images/mentors/monique_grinstein.jpeg
+  languages: English, Portuguese, French
+  availability: [ 6 , 7 ]
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: Someone who’s starting on their Software Engineering journey.
+    areas:
+      - Backend Developer
+      - Fullstack Developer
+    languages: Javascript, Python, Go
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+    extra: CV Review, Getting AWS Certified, Clean Code Practices, Starting Your Career in STEM, Grow from Beginner to Mid-level
+  network: 
+    - linkedin: https://www.linkedin.com/in/moniquegrinstein/
+
