@@ -1031,7 +1031,7 @@
 - name: Avraham Poupko
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   hours: 2
   type: ad-hoc
   index: 33
@@ -1041,7 +1041,7 @@
     I have been teaching and mentoring software designers and architects for close to twenty years.
   image: 'assets/images/mentors/avraham_poupko.jpg'
   languages: English, Hebrew
-  availability: []
+  availability: [6,7]
   skills:
     experience: 16+ Years
     years: 16
@@ -1069,7 +1069,7 @@
 - name: Safiye Ipek
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   hours: 2
   type: ad-hoc
   index: 34
@@ -1080,7 +1080,7 @@
     I am a Software Quality Assurance Engineer with a strong commitment to mentoring and contributing to the Women Coding Community. With over four years of experience, I have perfected my expertise in automation tools to ensure flawless project deliveries. My dedication to promoting transparent communication and fostering strong teamwork sets me apart. As your mentor, I am committed to providing invaluable insights, best practices, and unwavering support as you navigate the dynamic field of software testing, including testing strategies and the latest industry trends.
   image: 'assets/images/mentors/safiye_ipek.jpg'
   languages: English, Turkish
-  availability: []
+  availability: [6,7]
   skills:
     experience: 4-5 Years
     years: 5
@@ -1103,7 +1103,7 @@
 - name: Bomee Ryu
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   hours: 3
   type: both
   index: 35
@@ -1113,7 +1113,7 @@
     I am an android developer with over 6 years of experience. I have experienced projects that even couldn't come out to the world but also experienced huge projects had 1M+ daily active users. If you want to learn something about a whole life cycle of Android development projects, I can help you and walk through with you.
   image: 'assets/images/mentors/bomee_ryu.jpg'
   languages: English, Korean
-  availability: []
+  availability: [6,7]
   skills:
     experience: 5-7 Years
     years: 7
