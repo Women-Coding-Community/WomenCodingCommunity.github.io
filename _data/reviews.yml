@@ -1,14 +1,8 @@
-- index: 0
+- index: 37
   feedback:
     - score: 5
-      date: 20230724
-      date-f: 24 July 2023
-      feedback: Fantastic.
-      name: First Name
+      date: 20240520
+      date-f: 20 May 2024
+      feedback: Rasim was available anytime I had a concern via slack. We decided to build my app using scrum methodology and I was giving him the feedback every morning on slack. If I had some blockers or couldn’t solve an issue, he had guided me towards how to solve this or where I can find the answer. Rasim was the best mentor I could have, his expertise and experience helped me think better and plan when building something, what to expect in a tech interview, what strategies to adopt when applying for jobs. Also, helped a lot with the CV. He was always available to chat on slack for any issues I had. I am very grateful for having him as my mentor!!!
+      name: Ana Raducanu
       type: Long Term Mentorship
-    - score: 5
-      date: 20230710
-      date-f: 10 July 2023
-      feedback: It's a great
-      name: First Name 2
-      type: Ad-hoc Session
