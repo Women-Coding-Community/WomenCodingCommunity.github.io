@@ -1162,7 +1162,7 @@
 
 - name: Rasim Sen
   disabled: false
-  sort: 100
+  sort: 200
   hours: 4
   position: Fullstack Developer/Cloud Architect, Eurostar
   type: both
