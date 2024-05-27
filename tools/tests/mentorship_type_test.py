@@ -1,7 +1,7 @@
 import unittest
 from automation import get_mentorship_type, type_ad_hoc, type_long_term, TYPE_BOTH
 
-class TestGetMentorshipType(unittest.TestCase):
+class TestMentorAutomation(unittest.TestCase):
     AD_HOC_1 = "Ad-Hoc Format"
     AD_HOC_2 = "Ad Hoc Format"
     LONG_TERM_1 = "Long-term Format"
@@ -24,4 +24,3 @@ class TestGetMentorshipType(unittest.TestCase):
     def test_get_not_defined_type(self):
         self.assertEqual("NOT_FOUND", get_mentorship_type(self.WRONG_FORMAT))
         self.assertEqual("NOT_FOUND", get_mentorship_type(self.EMPTY))
-
