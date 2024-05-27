@@ -1,8 +1,3 @@
-# Given XLSX_1 When no mentors Then create new Yml
-# Given XLSX_1 When existent yml Then Merge Yml's
-# Given XLSX_2 When existent yml Then Merge Yml
-# Given XLSX_2 When All mentors are present Then no change happen
-
 import tempfile
 import os
 import sys

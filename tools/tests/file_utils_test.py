@@ -4,7 +4,7 @@ from file_utils import *
 def test_get_project_path_is_correct():
     path = get_project_path()
 
-    assert path.endswith("WomenCodingCommunity.github.io")
+    assert path.endswith("WomenCodingCommunity.github.io") or path.endswith("WomenCodingCommunity.github.io\\")
 
 
 def test_get_project_path():
