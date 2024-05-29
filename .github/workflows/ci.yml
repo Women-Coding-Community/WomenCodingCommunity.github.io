@@ -1,0 +1,53 @@
+name: E2E tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3"
+
+      - name: Check Ruby version
+        run: ruby -v
+
+      - name: Check Gem version
+        run: gem -v
+
+      - name: Install Bundler
+        run: |
+          gem install bundler -v 2.3.11 --verbose
+          bundler -v
+
+      - name: Install dependencies
+        run: bundle install --verbose
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Serve Jekyll site
+        run: bundle exec jekyll serve --detach --port 4000
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Install Cypress
+        run: npm install cypress
+
+      - name: Run Cypress tests
+        run: npx cypress run --spec "cypress/e2e/**/*"
