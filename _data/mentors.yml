@@ -1160,3 +1160,47 @@
   network: 
     - linkedin: https://www.linkedin.com/in/moniquegrinstein/
 
+
+- name: Jyoti Yadav
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 5
+  type: both
+  index: 37
+  location: London, UK
+  position: Senior Data Scientist, Blockchain.com
+  bio: |
+    I am a highly analytical Data Scientist specializing in threat detection and anti-fraud strategies, currently leading the Fraud and Payments Data Science Teams at Blockchain.com. 
+
+    With over 6 years of experience, I have implemented real-time fraud detection models that decreased fraud rates by 20% and developed anomaly detection models reducing revenue loss by 50%. 
+
+    Previously, at EXL, I built models increasing sales conversions by 18% and reducing marketing costs by 47%. My strong foundation in economics and data science drives impactful results and enhances security frameworks.
+
+    I have been mentor at AI hackathons and London Business School. I have also delivered talks at Quantum Black and Data Science Festival.
+  image: 'assets/images/mentors/jyoti_yadav.jpg'
+  languages: English, Hindi
+  availability: [6]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      Who are preparing for interviews, want to enter IT or web3 world
+    areas:
+    - Data Science
+    - Data Engineering
+    - Distributed Systems
+    languages: Python, Java, C++
+    focus:
+    - Switch career to IT
+    - Grow from mid-level to senior-level
+    - Grow from beginner to mid-level
+    extra: |
+      1. Data Science and Machine Learning: Techniques, best practices, and real-world applications.
+      2. Fraud Detection and Prevention: Strategies and model implementation for reducing fraud.
+      3. Career Development: Resume reviews, interview preparation, and career path guidance.
+      4. Project Management: Agile methodologies, team collaboration, and stakeholder management.
+      5. Technical Skills Enhancement: Advanced Python, SQL, and AWS.
+  network:
+  - linkedin: https://www.linkedin.com/in/jyoti-y-b8232969/
+  - medium: https://medium.com/@jyotiyadav99111
