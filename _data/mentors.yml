@@ -1,6 +1,6 @@
 - name: Eleonora Belova
   disabled: false
-  sort: 100
+  sort: 200
   hours: 5
   position: QA Engineer, ReaQta, an IBM Company
   type: both
@@ -99,7 +99,7 @@
 
 - name: Irina Kamalova
   disabled: false
-  sort: 10
+  sort: 200
   hours: 1
   type: both
   index: 4
@@ -431,7 +431,7 @@
 - name: Monal Sanghvi
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   hours: 5
   type: both
   index: 14
