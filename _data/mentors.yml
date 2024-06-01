@@ -1,7 +1,7 @@
 - name: Eleonora Belova
   disabled: false
-  sort: 100
-  hours: 3
+  sort: 200
+  hours: 5
   position: QA Engineer, ReaQta, an IBM Company
   type: both
   index: 1
@@ -9,7 +9,7 @@
   bio: I am a passionate QA Engineer, have experience in testing Web Applications manually and using automation scripts, as well as API Testing (Postman, SOAP UI). I can support my mentees by sharing knowledge and helpful resources. I believe that testing is way more than just finding bugs and flaws, but looking at process and product from the user perspective. Since I am a big fan of exploratory testing, we can also test together during our mentorship sessions! Apart from the technical part I am interested in exploring different aspects in team communication, cross cultural collaboration and volunteering in professional communities!
   image: assets/images/mentors/eleonora_belova.jpeg
   languages: English
-  availability: [ 5 ]
+  availability: [ 6 ]
   skills:
     experience: 2-4 years
     years: 4
@@ -99,8 +99,8 @@
 
 - name: Irina Kamalova
   disabled: false
-  sort: 10
-  hours: 2
+  sort: 200
+  hours: 1
   type: both
   index: 4
   position: Senior Software Engineer, Revolut
@@ -109,7 +109,7 @@
   image: assets/images/mentors/irina_kamalova.jpeg
   location: London, United Kingdom
   languages: English, Russian
-  availability: [ ]
+  availability: [ 6 ]
   skills:
     experience: 7-10 years
     years: 10
@@ -431,8 +431,8 @@
 - name: Monal Sanghvi
   disabled: false
   matched: false
-  sort: 100
-  hours: 2
+  sort: 200
+  hours: 5
   type: both
   index: 14
   position: Senior Engineering Manager, Zoa
@@ -440,7 +440,7 @@
   image: assets/images/mentors/monal_sanghvi.png
   location: London, UK
   languages: English
-  availability: [ 5 ]
+  availability: [ 6 ]
   skills:
     experience: 10-15 years
     years: 15
