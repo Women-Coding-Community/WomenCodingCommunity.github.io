@@ -1160,6 +1160,39 @@
   network: 
     - linkedin: https://www.linkedin.com/in/moniquegrinstein/
 
+- name: Rasim Sen
+  disabled: false
+  sort: 200
+  hours: 4
+  position: Fullstack Developer/Cloud Architect, Eurostar
+  type: both
+  index: 37
+  location: London, UK
+  bio: |
+    With over 15 years of experience as a developer, I am a graduate of the Oxford Blockchain Strategy Programme and an AWS Solutions Architect. My career has spanned various roles, including full-stack, backend, frontend, blockchain developer, and platform engineer, collaborating with startups and enterprises alike, such as HSBC, Deloitte, Credit Suisse, GSK, and Eurostar. My technical expertise encompasses Java (including Spring and Spring Boot), JavaScript (Node.js, React.js, TypeScript), and both relational and non-relational databases (Oracle, MySQL, PostgreSQL, MongoDB, DynamoDB, Neo4j, among others).
+  image: assets/images/mentors/rasim_sen.jpeg
+  languages: English
+  availability: [ 6 , 7 ]
+  skills:
+    experience: 16+ years
+    years: 16
+    mentee: passionate about coding, eager for hands-on experience, and ready to dive deep(Node.js, ReactJS, TypeScript, DB, RestAPI, Microservice, etc)
+    areas:
+      - Fullstack Developer
+      - Backend Developer
+      - Frontend Developer
+      - DevOps
+      - QA
+    languages: JavaScript, Java, Python, Go
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch career to IT
+      - Change specialisation within IT
+    extra: Software development, TDD, Unit Testing, DB Design, Microservice and RestAPI development, Web development, Mock interview, CV Review
+  network: 
+    - linkedin: https://www.linkedin.com/in/senrasim
 
 - name: Jyoti Yadav
   disabled: false
@@ -1167,7 +1200,7 @@
   sort: 10
   hours: 5
   type: both
-  index: 37
+  index: 38
   location: London, UK
   position: Senior Data Scientist, Blockchain.com
   bio: |
