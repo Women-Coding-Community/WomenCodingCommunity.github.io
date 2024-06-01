@@ -1197,7 +1197,7 @@
 - name: Jyoti Yadav
   disabled: false
   matched: false
-  sort: 10
+  sort: 300
   hours: 5
   type: both
   index: 38
@@ -1213,7 +1213,7 @@
     I have been mentor at AI hackathons and London Business School. I have also delivered talks at Quantum Black and Data Science Festival.
   image: 'assets/images/mentors/jyoti_yadav.jpg'
   languages: English, Hindi
-  availability: [6]
+  availability: [ 6 , 7 ]
   skills:
     experience: 5-7 Years
     years: 7
