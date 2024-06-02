@@ -232,7 +232,7 @@
   disabled: false
   matched: false
   sort: 100
-  hours: 4
+  hours: 1
   position: Lead Engineer, Yoox-Net-A-Porter
   type: both
   index: 8
@@ -241,7 +241,7 @@
     Sonali serves as a Lead Engineer at Yoox-Net-a-porter, specializing in managing and constructing extensive-scale ecommerce solutions. She leverages Java-based commerce platforms and integrates them with open-source technologies like Spring Boot and Spring Batch. As an AWS-certified Solution Architect, she possesses deep knowledge of Amazon Web Services, complemented by proficiency in implementing continuous integration and continuous deployment (CICD) practices to ensure seamless software delivery. Additionally, she excels in architecting and implementing microservices-based architectures to drive agility and modularity in software development With over 13 years of experience in the technology industry, Sonali brings a wealth of expertise in steering technical direction and fostering high-performance outcomes. Her passion lies in nurturing a culture of continuous learning and innovation. Outside of her professional endeavors, Sonali actively volunteers with Women Who Code, advocating for gender diversity. She is also a creative enthusiast, utilizing design templates to convey ideas, thoughts, and emotions visually.
   image: assets/images/mentors/sonali_goel.jpg
   languages: English
-  availability: [ 5 ]
+  availability: [ 6 ]
   skills:
     experience: 10-15 Years
     years: 15
@@ -263,7 +263,7 @@
 
 - name: Julia Babahina
   disabled: false
-  sort: 10
+  sort: 200
   hours: 4
   position: Lead Risk Management Specialist, Swift
   type: Both
@@ -272,7 +272,7 @@
   bio: I have almost a decade experience in cyber security, information security and privacy. Also, last 3 years I have been working in risk in product and strategy.
   image: assets/images/mentors/julia_babahina.png
   languages: English, Russian
-  availability: [ ]
+  availability: [ 6 ]
   skills:
     experience: 7-10 Years
     years: 10
@@ -413,7 +413,7 @@
     I have already lived in some European cities, such as Lisbon, Madrid, Barcelona and London. This allowed me to work in different cultures and dynamics, further increasing my ability to connect, communicate and grow. I love giving back to the community, so I started collaborating with DevPass, helping guide newcomers. I'm also a mentor at MentoCruise, for those who want a more professional follow-up.
   image: assets/images/mentors/ana_nogal.jpg
   languages: English, Spanish, Portuguese
-  availability: [ 5 ]
+  availability: [ 6 ]
   skills:
     experience: 16+ Years
     years: 16
@@ -697,7 +697,7 @@
     ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
   image: assets/images/mentors/anastasia.jpeg
   languages: English, Ukrainian, Russian
-  availability: [ 5 ]
+  availability: [ 6 ]
   skills:
     experience: 7-10 years
     years: 10
