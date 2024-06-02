@@ -1,0 +1,15 @@
+{% assign base_url = 'https://womencodingcommunity.com' %}
+{% assign post_url = page.url %}
+
+{% assign share_list = site.data.blog-share %}
+
+<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-share-article">
+    {% for entry in share_list %}
+        <li class="d-flex align-tems-center">
+            <a class="dropdown-item" href="{{entry.prefill-url}}{{base_url}}{{post_url}}" target="_blank">
+                <!-- to add: icon -->
+                {{entry.name}}
+            </a>
+        </li>
+    {% endfor %}
+</ul>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-UK" }}">
-        {% seo %}
-        {% include head.html %}
+  {% seo %}
+  {% include head.html %}
   <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
     {% include navbar.html %}
@@ -22,8 +22,7 @@
             <article>
               <header class="page-header">
                 <h1>{{ page.title }}</h1>
-                <div class="content-constrained">
-                  <hr>
+                <div class="bg-1 d-flex justify-content-between align-items-center px-3 py-2 mb-3 rounded content-constrained">
                   <div class="author">
                     <div class="author-media">
                       <img src="/assets/images/blog/author.png" alt="Author picture">
@@ -34,7 +33,15 @@
                     </div>
                     <hr>
                   </div>
-                  <hr>
+                  <div class="share-article dropdown">
+                    <div data-toggle="dropdown" class="cursor-pointer d-flex align-items-center" aria-haspopup="true" aria-expanded="false">
+                      <span class="share-icon rounded-circle">
+                        {% include icons/share.svg %}
+                      </span>
+                      <span>Share</span>
+                    </div>
+                    {% include share-article-list.html %}
+                  </div>
                 </div>
               </header>
 

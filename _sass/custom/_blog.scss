@@ -96,4 +96,35 @@
       font-weight: 700;
     }
   }
+
+  .share-article {
+
+    span {
+      color: $text-secondary;
+      font-size: $font-body-s;
+    }
+
+    a {
+      text-decoration: none;
+      color: $text-secondary;
+      font-weight: normal;
+    }
+
+    .share-icon {
+      width: 2rem;
+      height: 2rem;
+      margin-right: 0.5rem;
+      background-color: $primary;
+      color: $white;
+      padding: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      svg {
+        object-fit: contain;
+      }
+
+    }  
+  }
 }
