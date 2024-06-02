@@ -20,25 +20,27 @@
         <div class="container">
           <div class="row">
             <article>
-                <header class="page-header">
-                    <h1>{{ page.title }}</h1>
-                    <hr>
-                    <div class="author">
-                        <div class="author-media">
-                          <img src="/assets/images/blog/author.png" alt="Author picture">
-                        </div>
-                        <div class="author-content">
-                          <div class="author-name">{{page.author}}</div>
-                          <div class="article-date">{{ page.date | date: "%d.%m.%Y" }}
-                        </div>
-                        </div>
+              <header class="page-header">
+                <h1>{{ page.title }}</h1>
+                <div class="content-constrained">
+                  <hr>
+                  <div class="author">
+                    <div class="author-media">
+                      <img src="/assets/images/blog/author.png" alt="Author picture">
+                    </div>
+                    <div class="author-content">
+                      <div class="author-name">{{page.author}}</div>
+                      <div class="article-date">{{ page.date | date: "%d.%m.%Y" }}</div>
                     </div>
                     <hr>
-                </header>
-
-                <div class="article-blog-content content-constrained">
-                    {{ content }}
+                  </div>
+                  <hr>
                 </div>
+              </header>
+
+              <div class="article-blog-content content-constrained">
+                {{ content }}
+              </div>
             </article>
           </div>
         </div>
