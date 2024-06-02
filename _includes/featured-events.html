@@ -1,19 +1,22 @@
-<div class="container announcements">
-    <div class="row featured-content">
-        <div class="row-header">
-            <h2>Latest Events</h2>
-        </div>
-        <div class="row-content col-12">
-            <div class="card-deck">
-                {% assign today = 'now' | date: "%Y%m%d" %}
-                {% assign valid_events = site.data.events | where_exp: "event", "event.expiration >= today" %}
-                {% assign start_index = valid_events.size | minus: 2 %}
-                {% assign latest_events = valid_events | slice: start_index, 2 %}
-                
-                {% for event in latest_events %}
-                    {% include event.html %}
-                {% endfor %}
+{% assign today = 'now' | date: "%Y%m%d" %}
+{% assign valid_events = site.data.events | where_exp: "event", "event.expiration >= today" %}
+
+{% if valid_events.size > 0 %}
+    <div class="container announcements">
+        <div class="row featured-content">
+            <div class="row-header">
+                <h2>Latest Events</h2>
+            </div>
+            <div class="row-content col-12">
+                <div class="card-deck">
+                    {% assign start_index = valid_events.size | minus: 2 %}
+                    {% assign latest_events = valid_events | slice: start_index, 2 %}
+    
+                    {% for event in latest_events %}
+                        {% include event.html %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
-</div>
+{% endif %}
