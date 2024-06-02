@@ -56,7 +56,7 @@ body_class: page search-page list-page-mentors
                         <div id="presentation-{{mentor.index}}" class="card-presentation" data-index="{{mentor.index}}">
                             <h5 class="position">{{mentor.position}}</h5>
                             <p><label>Based in</label>: {{mentor.location}}</p>
-                            <p id="card-text-{{mentor.index}}" class="card-text justify-text content-overflow"><label>Bio</label>: {{mentor.bio}}</p>
+                            <p id="card-text-{{mentor.index}}" class="card-text content-justify content-overflow"><label>Bio</label>: {{mentor.bio}}</p>
                             <button id="btn-show-more-{{mentor.index}}" class="btn btn-show-more btn-outline-primary toggle-content">Show more</button>
                         </div>
 
@@ -87,9 +87,9 @@ body_class: page search-page list-page-mentors
                                 <span>{% include icons/question-fill.svg %}</span>
                             </p>
                             {% if mentor.hours > 0 %}
-                                <p class="card-text justify-text"><label>Hours available per month</label>: {{mentor.hours}}</p>
+                                <p class="card-text content-justify"><label>Hours available per month</label>: {{mentor.hours}}</p>
                             {% endif %}
-                            <p class="card-text justify-text"><label>Ideal Mentee</label>: {{mentor.skills.mentee}}</p>
+                            <p class="card-text content-justify"><label>Ideal Mentee</label>: {{mentor.skills.mentee}}</p>
                             <p>
                                 <label>Areas to support the mentee</label>:
                                 <ul>
