@@ -335,6 +335,10 @@
             border-radius: $border-radius $border-radius 0 0;
         }
     }
+
+    .card-short-description {
+        -webkit-line-clamp: 2;
+    }
 }
 
 .card-mission {

@@ -40,6 +40,23 @@
     font-size: 18px;
   }
 
+  .section {
+    margin: map-get($spacers, 4) 0;
+    padding: map-get($spacers, 3) 0;
+    border-top: 1px solid $neutral-90;
+    border-bottom: 1px solid $neutral-90;
+  }
+
+  .section-header {
+    margin-top: map-get($spacers, 3);
+    font-size: $h4-font-size;
+  }
+
+  .p-quote {
+    font-style: italic;
+    font-weight: 700;
+  }
+
   blockquote {
     padding: map-get($spacers, 3) 0;
     color: $primary;
@@ -60,5 +77,30 @@
 
   .blockquote-footer {
     font-size: $font-title-m;
+  }
+
+  .footnotes {
+    width: 100%;
+    margin-top: map-get($spacers, 5);
+    border-top: 2px solid $black;
+    font-size: $font-body-s;
+
+    ul {
+      padding-left: map-get($spacers, 3);
+    }
+    
+    li {
+      margin-bottom: map-get($spacers, 3);
+    }
+
+    a {
+      text-decoration: none;
+      color: $primary;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      font-weight: 700;
+    }
   }
 }

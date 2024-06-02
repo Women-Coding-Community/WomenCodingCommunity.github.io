@@ -16,7 +16,7 @@ body_class: page list-page list-page-blog
 
                     {% else %}
                         {% for post in posts %}
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 mb-5">
                             <div class="card-blog card card-m">
                                 <a class="cursor-pointer" href="{{post.url}}">
                                     <div class="card-media">
@@ -29,8 +29,8 @@ body_class: page list-page list-page-blog
 
                                     <div class="card-body">
                                         <h2 class="card-title">{{post.title}}</h2>
-                                        <p>{{post.description}}</p>
-                                        <div class="card-author d-flex align-items-center">
+                                        <p class="card-short-description content-justify content-overflow">{{post.description}}</p>
+                                        <div class="card-author d-flex align-items-center mt-2">
                                             <div class="card-author-image">
                                                 <img src="/assets/images/blog/author.png" alt="Author picture">
                                             </div>
