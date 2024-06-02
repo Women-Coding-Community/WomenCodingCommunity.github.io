@@ -2,11 +2,14 @@
   disabled: false
   sort: 200
   hours: 5
-  position: QA Engineer, ReaQta, an IBM Company
+  position: Test Automation Engineer, IBM Security
   type: both
   index: 1
   location: Amsterdam, the Netherlands
-  bio: I am a passionate QA Engineer, have experience in testing Web Applications manually and using automation scripts, as well as API Testing (Postman, SOAP UI). I can support my mentees by sharing knowledge and helpful resources. I believe that testing is way more than just finding bugs and flaws, but looking at process and product from the user perspective. Since I am a big fan of exploratory testing, we can also test together during our mentorship sessions! Apart from the technical part I am interested in exploring different aspects in team communication, cross cultural collaboration and volunteering in professional communities!
+  bio: |
+    I am a dedicated Test Automation Engineer with a passion for ensuring software quality. To me, testing is way more than just identifying bugs and flaws; it’s about viewing processes and products through the lens of the end user. My expertise includes UI test automation, particularly with Playwright, and API test automation using tools like Postman and PactumJS. <br>
+    Beyond the technical part, I am interested in exploring different aspects in team communication, cross-cultural collaboration and contributing to professional communities through volunteering. I find immense joy in sharing my insights through articles and engaging in meaningful discussions with peers.<br>
+    Moreover, I am eager to help individuals start their journey in software testing. I can share industry knowledge, assist in reviewing your CV, and provide guidance on various related topics.
   image: assets/images/mentors/eleonora_belova.jpeg
   languages: English
   availability: [ 6 ]
@@ -15,16 +18,18 @@
     years: 4
     areas:
       - Quality Assurance
-    mentee: I would love to connect with an open-minded early-career engineer, who is interested in learning new things in Software Testing, or wants to know how to navigate in career. I can also help people who are switched from different fields to Software Testing and provide guidance and resources.
-    languages: Python, Html, CSS, JavaScript
+    mentee: I would love to connect with an open-minded engineer who is eager to learn and explore new aspects of software testing and progress in their career. I also welcome individuals transitioning from other fields to software testing and can provide guidance, support, and valuable resources to ensure a smooth transition.
+    languages: Python, Javascript, Typescript
     focus:
       - Switch career to IT
       - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
       - Change specialisation within IT
-    extra: Test Automation, Quality Assurance, Starting career in IT, CV Review, Preparation for the Interview, Exploratory Testing, Web Testing (Manual & Automation), API Testing (Postman, SOAP UI), Python for Software Testers, Career Advice, ISTQB Foundation Certification Preparation guidelines
+    extra: Test Automation, Code Review, Exploratory Testing, Web Testing (Manual & Automation), API Testing (Postman, PactumJS), ISTQB Certification Preparation guidelines (Foundation Level and Test Automation Engineer), Starting career in IT, CV Review, Preparation for the Interview, Career Advice.
   network:
     - linkedin: https://www.linkedin.com/in/eleonora-belova-7069baa5/
     - github: https://github.com/nora-weisser
+    - website: https://noraweisser.com/
 
 - name: Rajani Rao
   disabled: false
