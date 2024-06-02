@@ -9,6 +9,7 @@
 
         .accordion-header {
             position: relative;
+            display: flex; 
         }
 
         .accordion-body {
@@ -28,9 +29,8 @@
         }
 
         .accordion-icon {
-            position: absolute;
-            top: 0;
-            right: 0;
+            position: relative; 
+            margin-left: auto; 
 
             svg {
                 width: 2rem;
