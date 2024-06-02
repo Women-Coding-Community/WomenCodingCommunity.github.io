@@ -1,16 +1,16 @@
 <div class="container announcements">
     <div class="row featured-content">
         <div class="row-header">
-            <h2>Events</h2>
+            <h2>Latest Events</h2>
         </div>
         <div class="row-content col-12">
             <div class="card-deck">
-                {% assign count = 0 %}
-                {% for event in site.data.events %}
-                    {% assign count = count | plus: 1 %}
-                    {% if count <= 2 %}
-                        {% include event.html %}
-                    {% endif %}
+                {% assign events_count = site.data.events.size %}
+                {% assign start_index = events_count | minus: 2 %}
+                {% assign latest_events = site.data.events | slice: start_index, 2 %}
+                
+                {% for event in latest_events %}
+                    {% include event.html %}
                 {% endfor %}
             </div>
         </div>
