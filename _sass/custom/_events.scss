@@ -49,13 +49,13 @@
             margin-bottom: 0.4rem;
         }
 
-        .category-book-club {
+        .category-book-club , .category-writing-club{
             .card-category {
                 background: $tertiary-90;
             }
         }
 
-        .category-tech-talk {
+        .category-tech-talk, .category-career-talk {
             .card-category {
                 background: $primary;
                 color: $white;

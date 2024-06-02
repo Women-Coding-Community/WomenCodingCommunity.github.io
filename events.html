@@ -5,6 +5,8 @@ body_class: page list-page list-page-events
 
 ---
 
+{% assign today = "now" | date: "%Y%m%d" %}
+
 <div class="container">
     <div class="row">
         <div class="content-constrained">
@@ -22,17 +24,30 @@ body_class: page list-page list-page-events
             <h2>Events</h2>
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                    <a class="nav-link active">Upcoming Events</a>
+                    <a class="nav-link active" id="tab-upcoming-events">Upcoming Events</a>
                 </li>
                 <li class="nav-item"> 
-                    <a class="nav-link disabled">Past Events</a>
+                    <a class="nav-link" id="tab-past-events">Past Events</a>
                 </li>
             </ul>
         </div>
-        <div class="row-content col-12">
+
+        <div class="row-content col-12" id="upcoming-events">
             <div class="card-deck">
                 {% for event in site.data.events %}
-                    {% include event.html %}
+                    {% if event.expiration >= today %}
+                        {% include event.html %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="row-content col-12" id="past-events">
+            <div class="card-deck">
+                {% for event in site.data.events %}
+                    {% if event.expiration < today %}
+                        {% include event.html %}
+                    {% endif %}
                 {% endfor %}
             </div>
         </div>

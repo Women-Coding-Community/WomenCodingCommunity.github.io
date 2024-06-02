@@ -36,13 +36,13 @@
     }   
     
     .event {
-        &.category-book-club {
+        &.category-book-club, &.category-writing-club {
             border: none;
             background: $tertiary-90;
             color: $primary-30;
         }
     
-        &.category-tech-talk {
+        &.category-tech-talk, &.category-career-talk {
             border: none;
             background: $primary;
             color: $white;

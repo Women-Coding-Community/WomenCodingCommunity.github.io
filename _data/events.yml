@@ -32,3 +32,38 @@
     path: https://www.meetup.com/women-coding-community/events/300906339
     title: View meetup event
     target: _blank
+- title: |
+    Writing Club with Women Coding Community
+  description: | 
+    We are excited to announce our first Writing Club session as a part of Women Coding Community! Whether you are a professional writer, enthusiast or just trying it out we aim at providing you with a platform for growth and improvement in your writing skills.
+  category: category-writing-club
+  category_name: Writing Club
+  date: THU, JUN 13, 2024
+  expiration: "20240614"
+  host: "Julia Babahina and Irina Kamalova"
+  time: 8:00 PM to 9:00 PM CEST
+  image:
+    path: "/assets/images/events/event-writing-club-130624.jpeg"
+    alt: Square poster of event
+  link:
+    path: https://www.meetup.com/women-coding-community/events/301218272/
+    title: View meetup event
+    target: _blank
+- title: |
+    Building Confidence in the Workplace
+  description: | 
+    Join Women Coding Community for the great discussion which will provide practical strategies and tips to help you develop and enhance your confidence in the workplace. The aim of the talk is to empower you to feel confident in your abilities, improve your performance and achieve success in your professional and business life!
+  category: category-career-talk
+  category_name: Career Talk
+  date: TUE, JUL 23, 2024
+  expiration: "20240724"
+  speaker: "Nadia Edwards-Dashti, Co-Founder of Harrington Starr Group"
+  time: 8:00 PM to 9:30 PM CEST
+  image:
+    path: "/assets/images/events/event-career-talk-130724.jpeg"
+    alt: Speaker of event
+  link:
+    path: https://www.meetup.com/women-coding-community/events/301301532/
+    title: View meetup event
+    target: _blank
+
