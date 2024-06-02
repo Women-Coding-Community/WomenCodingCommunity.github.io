@@ -5,9 +5,10 @@
         </div>
         <div class="row-content col-12">
             <div class="card-deck">
-                {% assign events_count = site.data.events.size %}
-                {% assign start_index = events_count | minus: 2 %}
-                {% assign latest_events = site.data.events | slice: start_index, 2 %}
+                {% assign today = 'now' | date: "%Y%m%d" %}
+                {% assign valid_events = site.data.events | where_exp: "event", "event.expiration >= today" %}
+                {% assign start_index = valid_events.size | minus: 2 %}
+                {% assign latest_events = valid_events | slice: start_index, 2 %}
                 
                 {% for event in latest_events %}
                     {% include event.html %}
