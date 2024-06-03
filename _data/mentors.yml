@@ -599,8 +599,8 @@
 
 - name: Mona Ahluwalia
   disabled: false
-  sort: 100
-  hours: 3
+  sort: 300
+  hours: 5
   position:  Talent Director, Chapter 2 
   type: ad-hoc
   index: 19
@@ -609,7 +609,7 @@
     I'm a Recruitment professional and start-up scaling specialist. I can help mentees with the soft-skills development to really make impact in their role and in the workplace.
   image: assets/images/mentors/mona_ahluwalia.jpg
   languages: English
-  availability: [ 5 ]
+  availability: [ 6 ]
   skills:
     experience: 5-7 Years
     years: 7
@@ -658,7 +658,7 @@
     
 - name: Adeola Adekoyejo
   disabled: false
-  sort: 100
+  sort: 10
   hours: 3
   position:  Full stack Engineer
   type: ad-hoc
@@ -668,7 +668,7 @@
     I am Frontend engineer with 4years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
   image: assets/images/mentors/adeola_adekoyejo.jpg
   languages: English
-  availability: [ 5 ]
+  availability: [ ]
   skills:
       experience: 4-5 years
       years: 5
@@ -729,7 +729,7 @@
     Experienced Data Engineer with over 7 years experience in SQL, Python, AWS and BigQuery. Focus on ETL processes and data pipelines for reliable and high quality data. Currently working on data modelling and data catalogue solutions.
   image: assets/images/mentors/nonna_shakhova.jpg
   languages: English, Russian
-  availability: [ 5 ]
+  availability: [ 6 ]
   skills:
     experience: 7-10 years
     years: 10
