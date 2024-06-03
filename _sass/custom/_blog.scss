@@ -40,13 +40,6 @@
     font-size: 18px;
   }
 
-  .section {
-    margin: map-get($spacers, 4) 0;
-    padding: map-get($spacers, 3) 0;
-    border-top: 1px solid $neutral-90;
-    border-bottom: 1px solid $neutral-90;
-  }
-
   .section-header {
     margin-top: map-get($spacers, 3);
     font-size: $h4-font-size;
