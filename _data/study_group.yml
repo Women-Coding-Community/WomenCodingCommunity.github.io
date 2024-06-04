@@ -26,3 +26,10 @@
   status: active
   link: /mentors?keywords=Hersi%20Kopani
   index: 4
+- title: API Test Automation
+  mentor: Eleonora Belova
+  description: The study group focuses on mastering API testing using Postman, a popular API development and testing tool. Sessions feature hands-on exercises and real-world scenarios to deepen understanding of testing techniques and gain practical knowledge in API automation.
+  participants: 3
+  status: active
+  link: /mentors?keywords=Eleonora%20Belova
+  index: 5
