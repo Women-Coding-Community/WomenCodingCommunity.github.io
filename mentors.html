@@ -9,11 +9,11 @@ body_class: page search-page list-page-mentors
 <div class="container">
     <div class="row">
         <div class="row-content col-12 col-lg-10">
-            <div id="no-mentors-msg" class="alert alert-info d-none" role="alert">
+            {% include search-results-header.html %}
+
+            <div id="no-mentors-msg" class="alert alert-info d-none mb-5" role="alert">
                 Sorry, no mentors matching your search criteria were found. Please, adjust your filters and try again.
             </div>
-
-            {% include search-results-header.html %}
 
             {% assign days_open = site.registration | plus: 0 %}
             {% assign current_day = site.time | date: "%d" | plus: 0 %}
