@@ -533,7 +533,7 @@
     - linkedin: https://www.linkedin.com/in/ceri-shaw/
 
 - name: Minsang Kim
-  disabled: false
+  disabled: true
   sort: 100
   hours: 4
   position: CTO/Co-founder (previously Machine Learning Scientist at Amazon), Radiant AI
@@ -843,7 +843,6 @@
     extra: Preparation for Technical interviews, Project review
   network:
     - linkedin: https://www.linkedin.com/in/sahana-venkatesh/
-
 
 - name: Agrin Hilmkil
   disabled: false
@@ -1225,14 +1224,14 @@
     mentee: |
       Who are preparing for interviews, want to enter IT or web3 world
     areas:
-    - Data Science
-    - Data Engineering
-    - Distributed Systems
+      - Data Science
+      - Data Engineering
+      - Distributed Systems
     languages: Python, Java, C++
     focus:
-    - Switch career to IT
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
     extra: |
       1. Data Science and Machine Learning: Techniques, best practices, and real-world applications.
       2. Fraud Detection and Prevention: Strategies and model implementation for reducing fraud.
@@ -1240,5 +1239,5 @@
       4. Project Management: Agile methodologies, team collaboration, and stakeholder management.
       5. Technical Skills Enhancement: Advanced Python, SQL, and AWS.
   network:
-  - linkedin: https://www.linkedin.com/in/jyoti-y-b8232969/
-  - medium: https://medium.com/@jyotiyadav99111
+    - linkedin: https://www.linkedin.com/in/jyoti-y-b8232969/
+    - medium: https://medium.com/@jyotiyadav99111
