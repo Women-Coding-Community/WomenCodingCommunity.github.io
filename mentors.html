@@ -19,111 +19,115 @@ body_class: page search-page list-page-mentors
             {% assign current_day = site.time | date: "%d" | plus: 0 %}
             {% assign current_month = site.time | date: "%-m" | plus: 0 %}
 
-            {% assign mentors = site.data.mentors| where: 'disabled', false | sort: "sort" | reverse %}
+            {% assign mentors = site.data.mentors| sort: "sort" | reverse %}
 
             {% for mentor in mentors %}
-            <div class="card card-mentor" id="mentor-card-{{mentor.index}}">
-                <div class="row col-12">
-                    <div class="card-media col-md-3">
-                        <img src="{{mentor.image}}" alt="mentor headshot">
-                        {% include registration.html %}
-                    </div>
-                    <div class="card-content col-md-9">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <div class="nav-link active presentation" id="bt-p-{{mentor.index}}" data-index="{{mentor.index}}">Presentation</div>
-                                </li>
-                                <li class="nav-item">
-                                    <div class="nav-link skills" data-index="{{mentor.index}}" id="bt-s-{{mentor.index}}">Skills</div>
-                                </li>
-                                <li class="nav-item">
-                                    <div class="nav-link mentees" data-index="{{mentor.index}}" id="bt-m-{{mentor.index}}">Mentees</div>
-                                </li>
-                                <li class="nav-item">
-                                    <div class="nav-link reviews" data-index="{{mentor.index}}" id="bt-v-{{mentor.index}}">Reviews</div>
-                                </li>
-                                <li class="nav-item">
-                                    <div class="nav-link mentor-resources" data-index="{{mentor.index}}" id="bt-r-{{mentor.index}}">Resources</div>
-                                </li>
-                            </ul>
-                        </div>
+                {% if mentor.disabled %}
+                    <div class="inactive-mentor" id="mentor-card-{{mentor.index}}"></div>
+                {% else %}
+                    <div class="card card-mentor" id="mentor-card-{{mentor.index}}">
+                        <div class="row col-12">
+                            <div class="card-media col-md-3">
+                                <img src="{{mentor.image}}" alt="mentor headshot">
+                                {% include registration.html %}
+                            </div>
+                            <div class="card-content col-md-9">
+                                <div class="card-header">
+                                    <ul class="nav nav-tabs card-header-tabs">
+                                        <li class="nav-item">
+                                            <div class="nav-link active presentation" id="bt-p-{{mentor.index}}" data-index="{{mentor.index}}">Presentation</div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="nav-link skills" data-index="{{mentor.index}}" id="bt-s-{{mentor.index}}">Skills</div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="nav-link mentees" data-index="{{mentor.index}}" id="bt-m-{{mentor.index}}">Mentees</div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="nav-link reviews" data-index="{{mentor.index}}" id="bt-v-{{mentor.index}}">Reviews</div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="nav-link mentor-resources" data-index="{{mentor.index}}" id="bt-r-{{mentor.index}}">Resources</div>
+                                        </li>
+                                    </ul>
+                                </div>
 
-                        <h4 class="card-title">
-                            {{mentor.name}}
-                        </h4>
+                                <h4 class="card-title">
+                                    {{mentor.name}}
+                                </h4>
 
-                        <div id="presentation-{{mentor.index}}" class="card-presentation" data-index="{{mentor.index}}">
-                            <h5 class="position">{{mentor.position}}</h5>
-                            <p><label>Based in</label>: {{mentor.location}}</p>
-                            <p id="card-text-{{mentor.index}}" class="card-text content-justify content-overflow"><label>Bio</label>: {{mentor.bio}}</p>
-                            <button id="btn-show-more-{{mentor.index}}" class="btn btn-show-more btn-outline-primary toggle-content">Show more</button>
-                        </div>
+                                <div id="presentation-{{mentor.index}}" class="card-presentation" data-index="{{mentor.index}}">
+                                    <h5 class="position">{{mentor.position}}</h5>
+                                    <p><label>Based in</label>: {{mentor.location}}</p>
+                                    <p id="card-text-{{mentor.index}}" class="card-text content-justify content-overflow"><label>Bio</label>: {{mentor.bio}}</p>
+                                    <button id="btn-show-more-{{mentor.index}}" class="btn btn-show-more btn-outline-primary toggle-content">Show more</button>
+                                </div>
 
-                        <div id="skills-{{mentor.index}}" class="card-skills d-none">
-                            <p><label>Tech Experience</label>: {{mentor.skills.experience}}</p>
-                            <p><label>Language(s)</label>: {{mentor.languages}}</p>
+                                <div id="skills-{{mentor.index}}" class="card-skills d-none">
+                                    <p><label>Tech Experience</label>: {{mentor.skills.experience}}</p>
+                                    <p><label>Language(s)</label>: {{mentor.languages}}</p>
 
-                            {% if mentor.skills.languages %}
-                                <p><label>Programming languages</label>: {{mentor.skills.languages}}</p>
-                            {% endif %}
+                                    {% if mentor.skills.languages %}
+                                        <p><label>Programming languages</label>: {{mentor.skills.languages}}</p>
+                                    {% endif %}
 
-                            {% include networks_mentors.html %}
-                        </div>
+                                    {% include networks_mentors.html %}
+                                </div>
 
-                        <div id="mentees-{{mentor.index}}" class="card-mentees d-none">
-                            <p data-toggle="tooltip" data-html="true" title="<b>Ad-Hoc:</b> request a session when necessary. <br><b>Long term relationship:</b> at least one mentoring program cycle.">
-                                <label>Type of mentoring</label>:
-                                {% assign mentor_type_lower = mentor.type | downcase %}
-                                {% if mentor_type_lower == 'both' %}
-                                    Long term relationship and Ad-Hoc
-                                {% elsif mentor_type_lower == 'long-term' %}
-                                    Long term relationship
-                                {% elsif mentor_type_lower == 'ad-hoc' %}
-                                    Ad-Hoc
-                                {% else %}
-                                    {{mentor.type}}
-                                {% endif %}
-                                <span>{% include icons/question-fill.svg %}</span>
-                            </p>
-                            {% if mentor.hours > 0 %}
-                                <p class="card-text content-justify"><label>Hours available per month</label>: {{mentor.hours}}</p>
-                            {% endif %}
-                            <p class="card-text content-justify"><label>Ideal Mentee</label>: {{mentor.skills.mentee}}</p>
-                            <p>
-                                <label>Areas to support the mentee</label>:
-                                <ul>
-                                    {% for area in mentor.skills.areas %}
-                                        {% if area != nil %}
-                                            <li>{{area}}</li>
+                                <div id="mentees-{{mentor.index}}" class="card-mentees d-none">
+                                    <p data-toggle="tooltip" data-html="true" title="<b>Ad-Hoc:</b> request a session when necessary. <br><b>Long term relationship:</b> at least one mentoring program cycle.">
+                                        <label>Type of mentoring</label>:
+                                        {% assign mentor_type_lower = mentor.type | downcase %}
+                                        {% if mentor_type_lower == 'both' %}
+                                            Long term relationship and Ad-Hoc
+                                        {% elsif mentor_type_lower == 'long-term' %}
+                                            Long term relationship
+                                        {% elsif mentor_type_lower == 'ad-hoc' %}
+                                            Ad-Hoc
+                                        {% else %}
+                                            {{mentor.type}}
                                         {% endif %}
-                                    {% endfor %}
-                                    {% for focus in mentor.skills.focus %}
-                                        <li>{{focus}}</li>
-                                    {% endfor %}
-                                </ul>
-                            </p>
-                            {% if mentor.skills.extra %}
-                                <p><label>Other potential mentoring topics</label>: {{mentor.skills.extra}}</p>
-                            {% endif %}
+                                        <span>{% include icons/question-fill.svg %}</span>
+                                    </p>
+                                    {% if mentor.hours > 0 %}
+                                        <p class="card-text content-justify"><label>Hours available per month</label>: {{mentor.hours}}</p>
+                                    {% endif %}
+                                    <p class="card-text content-justify"><label>Ideal Mentee</label>: {{mentor.skills.mentee}}</p>
+                                    <p>
+                                        <label>Areas to support the mentee</label>:
+                                        <ul>
+                                            {% for area in mentor.skills.areas %}
+                                                {% if area != nil %}
+                                                    <li>{{area}}</li>
+                                                {% endif %}
+                                            {% endfor %}
+                                            {% for focus in mentor.skills.focus %}
+                                                <li>{{focus}}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    </p>
+                                    {% if mentor.skills.extra %}
+                                        <p><label>Other potential mentoring topics</label>: {{mentor.skills.extra}}</p>
+                                    {% endif %}
+                                </div>
+
+                                {% include review_mentors.html %}
+
+                                {% include resources_mentors.html %}
+                            </div>
                         </div>
-
-                        {% include review_mentors.html %}
-
-                        {% include resources_mentors.html %}
+                        <input type="hidden" name="index" value="{{mentor.index}}">
+                        <input type="hidden" name="exp" value="{{mentor.skills.years}}">
+                        <input type="hidden" name="mentor-type" value="{{mentor.type | downcase}}">
+                        <input type="hidden" name="mentor-data"
+                            value="{{mentor.name | downcase}}
+                                {{mentor.bio | normalize_whitespace | downcase}}
+                                {{mentor.skills.languages | downcase}}
+                                {{mentor.skills.extra | normalize_whitespace | downcase}}
+                                {{mentor.skills.focus | array_to_sentence_string | downcase}}
+                                {{mentor.skills.areas | array_to_sentence_string | downcase}}">
                     </div>
-                </div>
-                <input type="hidden" name="index" value="{{mentor.index}}">
-                <input type="hidden" name="exp" value="{{mentor.skills.years}}">
-                <input type="hidden" name="mentor-type" value="{{mentor.type | downcase}}">
-                <input type="hidden" name="mentor-data"
-                    value="{{mentor.name | downcase}}
-                        {{mentor.bio | normalize_whitespace | downcase}}
-                        {{mentor.skills.languages | downcase}}
-                        {{mentor.skills.extra | normalize_whitespace | downcase}}
-                        {{mentor.skills.focus | array_to_sentence_string | downcase}}
-                        {{mentor.skills.areas | array_to_sentence_string | downcase}}">
-            </div>
+                {% endif %}   
         {% endfor %}
         </div>
     </div>
