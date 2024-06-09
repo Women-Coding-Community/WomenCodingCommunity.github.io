@@ -171,16 +171,16 @@
 
 - name: Ken Pemberton
   disabled: false
-  sort: 10
+  sort: 200
   hours: 4
-  type: long-term
+  type: both
   index: 6
   position: Mentor, Coach & Consultant. Engineering Manager, Owner of pembi.net consulting services
   bio: I have decades of experience in the software engineering world, and love nothing more than helping others find their way through the maze. I do NOT mentor at a technical level - there are much smarter people around to help with that - rather with confidence, resilience, coping strategies, overcoming imposter syndrome, dealing with challenging situations and colleagues, etc.
   image: assets/images/mentors/ken_pemberton.jpeg
   location: Chesham, Buckinghamshire, UK
   languages: English
-  availability: [ ]
+  availability: [ 6, 7]
   skills:
     experience: 16+ Years
     years: 16
@@ -777,7 +777,7 @@
 
 - name: Tvisha Dholakia
   disabled: false
-  sort: 200
+  sort: 10
   hours: 5
   position: Co-founder and CBO, apibanking.com
   type: both
@@ -876,7 +876,7 @@
 
 - name: Jenny Johnson
   disabled: false
-  sort: 100
+  sort: 10
   matched: true
   hours: 2
   position: Senior Software Engineer, Isla Healthcare
@@ -1003,7 +1003,7 @@
 - name: Liliia Rafikova
   disabled: false
   matched: false
-  sort: 10
+  sort: 200
   hours: 5
   type: both
   index: 32
