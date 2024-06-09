@@ -6,9 +6,19 @@
 <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-share-article">
     {% for entry in share_list %}
         <li class="d-flex align-tems-center">
-            <a class="dropdown-item" href="{{entry.prefill-url}}{{base_url}}{{post_url}}" target="_blank">
-                <!-- to add: icon -->
-                {{entry.name}}
+            <a class="dropdown-item d-flex align-items-center" href="{{entry.prefill-url}}{{base_url}}{{post_url}}" target="_blank">
+                <span class="share-icon">
+                    {% if entry.name == "LinkedIn" %}
+                        {% include icons/linkedin.svg %}
+                    {% elsif entry.name == "Twitter" %}
+                        {% include icons/twitter.svg %}
+                    {% elsif entry.name=="Facebook" %}
+                        {% include icons/facebook.svg %}
+                    {% else %}
+                        {% include icons/envelope.svg %}
+                    {% endif %}
+                </span>
+                <span class="ml-3">{{entry.name}}</span>
             </a>
         </li>
     {% endfor %}

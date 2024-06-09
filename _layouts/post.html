@@ -21,21 +21,24 @@
           <div class="row">
             <article>
               <header class="page-header">
+                <div class="article-date">{{ page.date | date: "%B %-d, %Y" }}</div>
                 <h1>{{ page.title }}</h1>
-                <div class="bg-1 d-flex justify-content-between align-items-center px-3 py-2 mb-3 rounded content-constrained">
+                <div class="author-container px-3 py-2 mb-3">
                   <div class="author">
                     <div class="author-media">
                       <img src="/assets/images/blog/author.png" alt="Author picture">
                     </div>
                     <div class="author-content">
-                      <div class="author-name">{{page.author}}</div>
-                      <div class="article-date">{{ page.date | date: "%d.%m.%Y" }}</div>
+                      <div class="font-weight-bold">By {{page.author_name}}</div>
+                      {% if page.author_role %} 
+                        <div>{{page.author_role}}</div>
+                      {% endif %}
                     </div>
                     <hr>
                   </div>
                   <div class="share-article dropdown">
                     <div data-toggle="dropdown" class="cursor-pointer d-flex align-items-center" aria-haspopup="true" aria-expanded="false">
-                      <span class="share-icon rounded-circle">
+                      <span class="share-icon main-icon rounded-circle">
                         {% include icons/share.svg %}
                       </span>
                       <span>Share</span>
@@ -44,6 +47,9 @@
                   </div>
                 </div>
               </header>
+              <div class="article-header-img px-2">
+                <img src="{{page.blurb_img}}" alt="working-with-chatgpt-photo">
+              </div>
 
               <div class="article-blog-content content-constrained">
                 {{ content }}
