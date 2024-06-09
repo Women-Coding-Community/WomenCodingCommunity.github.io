@@ -467,7 +467,7 @@
 
 - name: Kaylyn Van Norstrand
   disabled: false
-  sort: 100
+  sort: 10
   hours: 4
   position: Software Engineer
   type: both
