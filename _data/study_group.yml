@@ -5,10 +5,10 @@
   status: active
   link: /mentors?keywords=Kirthikka%20Devi
   index: 1
-- title: Frontend Javascript
+- title: Frontend React
   mentor: Stephanie Senoner
   description: Project based study group, working towards a shared application (including SDLC introduction, gaining more experience in reviewing PR, git etc), with guidance on different aspects like testing, CI/CD.
-  participants: 2
+  participants: 3
   status: active
   link: /mentors?keywords=Stephanie%20Senoner
   index: 2
@@ -19,10 +19,13 @@
   status: active
   link: /mentors?keywords=liliia%20Rafikova
   index: 3
-- title: Fullstack - Reactjs,Nodejs and Backend in Java
+- title: Full Stack- ReactJs and Java (Spring Boot)
   mentor: Hersi Kopani
-  description: Focus on fullstack development using Java as backend
-  participants: 6
+  description: |
+    Group study on project-based learning, including pair programming. 
+    Gain deep knowledge of web-based microservice architecture, system design, and CI/CD best practices. 
+    Integrate backend services with ReactJS frontend to craft full-stack projects.
+  participants: 7
   status: active
   link: /mentors?keywords=Hersi%20Kopani
   index: 4
