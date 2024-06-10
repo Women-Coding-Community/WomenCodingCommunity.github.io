@@ -1,0 +1,12 @@
+- name: Twitter
+  index: 0
+  prefill-url: https://twitter.com/share?text=Read%20this%20blogpost%20on%20Women%20Coding%20Community:&url=
+- name: LinkedIn
+  index: 1
+  prefill-url: https://www.linkedin.com/sharing/share-offsite/?url=
+- name: Facebook
+  index: 2
+  prefill-url: https://www.facebook.com/sharer/sharer.php?u=
+- name: Mail
+  index: 3
+  prefill-url: mailto:?subject=Read%20this%20blogpost%20on%20Women%20%Coding%20Community:%20&body=

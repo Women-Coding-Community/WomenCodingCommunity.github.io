@@ -1,0 +1,25 @@
+{% assign base_url = 'https://womencodingcommunity.com' %}
+{% assign post_url = page.url %}
+
+{% assign share_list = site.data.blog-share %}
+
+<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-share-article">
+    {% for entry in share_list %}
+        <li class="d-flex align-items-center">
+            <a class="dropdown-item d-flex align-items-center" href="{{entry.prefill-url}}{{base_url}}{{post_url}}" target="_blank">
+                <span class="share-icon">
+                    {% if entry.name == "LinkedIn" %}
+                        {% include icons/linkedin.svg %}
+                    {% elsif entry.name == "Twitter" %}
+                        {% include icons/twitter.svg %}
+                    {% elsif entry.name=="Facebook" %}
+                        {% include icons/facebook.svg %}
+                    {% else %}
+                        {% include icons/envelope.svg %}
+                    {% endif %}
+                </span>
+                <span class="ml-3">{{entry.name}}</span>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
