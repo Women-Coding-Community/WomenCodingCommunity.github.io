@@ -1208,13 +1208,9 @@
   location: London, UK
   position: Senior Data Scientist, Blockchain.com
   bio: |
-    I am a highly analytical Data Scientist specializing in threat detection and anti-fraud strategies, currently leading the Fraud and Payments Data Science Teams at Blockchain.com. 
-
-    With over 6 years of experience, I have implemented real-time fraud detection models that decreased fraud rates by 20% and developed anomaly detection models reducing revenue loss by 50%. 
-
-    Previously, at EXL, I built models increasing sales conversions by 18% and reducing marketing costs by 47%. My strong foundation in economics and data science drives impactful results and enhances security frameworks.
-
-    I have been mentor at AI hackathons and London Business School. I have also delivered talks at Quantum Black and Data Science Festival.
+    Highly analytical Data Scientist specializing in threat detection and anti-fraud strategies, currently leading the Fraud and Payments Data Science Teams at Blockchain.com. 
+    My strong foundation in economics and data science drives impactful results and enhances security frameworks. 
+    I have been mentor at AI hackathons and London Business School.
   image: 'assets/images/mentors/jyoti_yadav.jpg'
   languages: English, Hindi
   availability: [ 6 , 7 ]
