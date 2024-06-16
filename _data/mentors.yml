@@ -1237,3 +1237,119 @@
   network:
     - linkedin: https://www.linkedin.com/in/jyoti-y-b8232969/
     - medium: https://medium.com/@jyotiyadav99111
+
+- name: Busra Ecem Sakar
+  disabled: false
+  matched: false
+  sort: 100
+  hours: 5
+  type: both
+  index: 39
+  location: London
+  position: Senior Data Analyst, Mall IQ
+  bio: |
+    I have 10 years of experience as a Data Analyst and dual master's degrees in
+    Biostatistics and Big Data & Data Science Technology. I am an expert in A/B testing, data analysis, statistical modelling, and machine learning, as well as SQL, Python, R, and other tools. My passion is using data to make important business decisions.
+  image: 'assets/images/mentors/busra_sakar.jpg'
+  languages: English, Turkish
+  availability: []
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: |
+      Preparing for interviews, interested in working on machine learning and NLP, and eager to learn SQL and Python.
+    areas:
+    - Data Science
+    - Business Analysis
+    - Machine Learning
+    - Project Management
+    - Product Management
+    languages: Python
+    focus:
+    - Switch career to IT
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Switch from IC to management position
+    extra: |
+      - Data Analysis and Statistical Modeling (A/B Testing, Statistical Analysis)
+      - Machine Learning (Guiding on building machine learning models, particularly for classification and prediction tasks)
+      - NLP: Mentoring on natural language processing techniques, such as TF-IDF, Word2Vec, and Cosine Similarity.
+      - Programming and Tools: SQL
+      - Data-Driven Decision Making
+      - Career Path Guidance
+  network:
+  - linkedin: https://www.linkedin.com/in/busraecemsakar/
+
+- name: Fernanda Lancao Morais Martins
+  disabled: false
+  matched: false
+  sort: 100
+  hours: 5
+  type: both
+  index: 40
+  location: Amsterdam/Netherlands
+  position: DevOps Engineer, Clay Solutions
+  bio: |
+    I work with infrastructure engineering for 13 years. I love all things infrastructure: designing platforms in the cloud with Azure/AWS, coding in terraform/ansible/python/shell.., building awesome delivery pipelines and helping developers.
+    I am from Brazil, currently living in Amsterdam and worked in several companies and different industries.
+    I am community-driven: I have presented at conferences, contributed to open source and like sharing knowledge.
+  image: 'assets/images/mentors/fernanda_martins.jpg'
+  languages: English, Portuguese
+  availability: []
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      Dedicated, curious and thirsty for knowledge
+    areas:
+    - DevOps
+    - Distributed Systems
+    languages: ''
+    focus: []
+    extra: |
+      DevOps practices, how to start in infrastructure, resume review, learn cloud, infrastructure as code, incident management, improve your pipeline, manage platform priorities, how to better support developers
+  network:
+  - linkedin: https://www.linkedin.com/in/flmmartins/
+  - twitter: https://x.com/flmmartins/
+  - github: https://github.com/flmmartins/
+
+- name: Gabriel Oliveira
+  disabled: false
+  matched: false
+  sort: 100
+  hours: 5
+  type: both
+  index: 41
+  location: Amsterdam
+  position: QA Engineer, Picnic
+  bio: |
+    I am a pragmatic Agile tester dedicated to enhancing team deliveries through the development and maintenance of automated tests, fostering cross-disciplinary collaboration to establish a unified understanding of our products, and providing timely, actionable feedback to stakeholders.
+
+    🤔 You may be thinking "So what, how does that help me"? Or you may be in the category of "I don't know where to grow/learn next"? Book a session and tell me a bit about yourself so we can together find a way on how my experience can help you 😉
+
+    🥶 Also, if you get frozen solid when doing test automation, I also offer an guidance on automated testing where we can deep-dive into the code of your choice together.
+  image: 'assets/images/mentors/gabriel_oliveira.jpg'
+  languages: English, Portuguese
+  availability: []
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: |
+      QAs willing to grow on their career
+    areas:
+    - QA
+    - Product Management
+    - Project Management
+    - Frontend Developer
+    - Backend Developer
+    languages: Python, Javascript, Java
+    focus:
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Change specialisation within IT
+    - Grow beyond senior level
+    - Switch from IC to management position
+    extra: |
+      QA Engineering, Agile Testing, Software Test Automation
+  network:
+  - linkedin: https://www.linkedin.com/in/gpaoliveira
