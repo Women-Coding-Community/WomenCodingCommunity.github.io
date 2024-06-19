@@ -24,6 +24,12 @@
       feedback: Adeola was super friendly and supportive for me. We mainly talked about how to the first job in tech. She gave me lots of tips and resources for this. Thank you very much.
       name: Isabell luo
       type: Ad-Hoc
+    - score: 5
+      date: 20240614
+      date-f: 14 June 2024
+      feedback: Adeola was friendly and easy to talk to. It was great that she prepared notes before the mentoring session so we had a clear direction for our conversation, and I got some insightful tips and resources on web accessibility which I plan to look into.
+      name: Cathy Chi
+      type: Ad-Hoc
 
 - index: 12 # Adegbenga
   feedback:
@@ -42,3 +48,22 @@
       feedback: Mentor gave me his unique perspective on my current situation. He encouraged me to consider different options and build a career plan for myself.
       name: Poorva Shukla
       type: Ad-Hoc      
+
+- index: 19 # Mona
+  feedback:
+    - score: 5
+      date: 20240614
+      date-f: 14 June 2024
+      feedback: She provided helpful tips and also willing to guide me through interview process. Shes very approachable.
+      name: Damola Taiwo
+      type: Ad-Hoc
+
+- index: 38 # Jyoti
+  feedback:
+    - score: 5
+      date: 20240611
+      date-f: 11 June 2024
+      feedback: |
+        I have been mentored by Jyoti for the past 6 months, focusing on preparing for Data Science interviews. Her guidance has been incredibly helpful, she assisted me in improving my resume and LinkedIn profile, which led to more views and better responses from employers. Jyoti also provided detailed feedback on my past interviews, helping me improve my answers for technical rounds, which helped me advance in several job interviews. Her expertise in coding languages and her clear way of explaining things have been very valuable to my professional growth. Jyoti's dedication and support make her an excellent mentor.
+      name: Meena Valavala
+      type: Long Term Mentorship
