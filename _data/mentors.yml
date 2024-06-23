@@ -1353,3 +1353,41 @@
       QA Engineering, Agile Testing, Software Test Automation
   network:
   - linkedin: https://www.linkedin.com/in/gpaoliveira
+
+- name: Abdul-Mateen Qamardeen
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 5
+  type: ad-hoc
+  index: 42
+  location: Nigeria
+  position: Founder & CEO, R For All
+  bio: |
+    I am a student Architect who has deep passion for software engineering and coding. I've worked with multiple programming languages including R, Python, Golang, Java, c++ and scala. Currently I'm serving as the CEO of the company I founded, R For All, which trains people on R Programming skills. My focus recently has been on R Programming because of my passion for healthcare analysis and tech which is where R thrives. My R Programming skills is Johns Hopkins university and HackerRank certified. I'm looking forward to mentoring curious candidates like me.
+  image: 'assets/images/mentors/abdul_qamardeen.jpg'
+  languages: English, Yoruba
+  availability: [ 7, 8, 9, 10, 11]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      I want a CURIOUS mentee with a little background with R or Python programming, and data analysis knowledge. She must have a PC with good internet connection.
+    areas:
+    - Backend Developer
+    - Data Science
+    - Frontend Developer
+    - Machine Learning
+    - Business Analysis
+    languages: Python, Go, Java, Scala, Javascript
+    focus:
+    - Switch career to IT
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Grow beyond senior level
+    - Switch from IC to management position
+    extra: |
+      R programming, Data Analysis, Python programming, Machine Learning, LinkedIn optimization
+  network:
+  - linkedin: https://www.linkedin.com/in/abdulmateenqamardeen/
+  - github: https://github.com/DISCRETEboi
