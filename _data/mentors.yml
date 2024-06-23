@@ -1357,7 +1357,7 @@
 - name: Abdul-Mateen Qamardeen
   disabled: false
   matched: false
-  sort: 10
+  sort: 200
   hours: 5
   type: ad-hoc
   index: 42
