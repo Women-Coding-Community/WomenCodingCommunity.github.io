@@ -12,7 +12,7 @@
     Moreover, I am eager to help individuals start their journey in software testing. I can share industry knowledge, assist in reviewing your CV, and provide guidance on various related topics.
   image: assets/images/mentors/eleonora_belova.jpeg
   languages: English
-  availability: [ 6 ]
+  availability: [ 7, 8 ]
   skills:
     experience: 2-4 years
     years: 4
@@ -79,7 +79,7 @@
   type: both
   index: 3
   languages: Portuguese, English
-  availability: [ 5 ]
+  availability: [ 9, 10, 11 ]
   skills:
     experience: 10-15 years
     years: 15
@@ -114,7 +114,7 @@
   image: assets/images/mentors/irina_kamalova.jpeg
   location: London, United Kingdom
   languages: English, Russian
-  availability: [ 6 ]
+  availability: [ 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -241,7 +241,7 @@
     Sonali serves as a Lead Engineer at Yoox-Net-a-porter, specializing in managing and constructing extensive-scale ecommerce solutions. She leverages Java-based commerce platforms and integrates them with open-source technologies like Spring Boot and Spring Batch. As an AWS-certified Solution Architect, she possesses deep knowledge of Amazon Web Services, complemented by proficiency in implementing continuous integration and continuous deployment (CICD) practices to ensure seamless software delivery. Additionally, she excels in architecting and implementing microservices-based architectures to drive agility and modularity in software development With over 13 years of experience in the technology industry, Sonali brings a wealth of expertise in steering technical direction and fostering high-performance outcomes. Her passion lies in nurturing a culture of continuous learning and innovation. Outside of her professional endeavors, Sonali actively volunteers with Women Who Code, advocating for gender diversity. She is also a creative enthusiast, utilizing design templates to convey ideas, thoughts, and emotions visually.
   image: assets/images/mentors/sonali_goel.jpg
   languages: English
-  availability: [ ]
+  availability: [ 7, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -697,7 +697,7 @@
     ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
   image: assets/images/mentors/anastasia.jpeg
   languages: English, Ukrainian, Russian
-  availability: [ 6 ]
+  availability: [ 7, 8, 9, 11 ]
   skills:
     experience: 7-10 years
     years: 10
@@ -1295,7 +1295,7 @@
     I am community-driven: I have presented at conferences, contributed to open source and like sharing knowledge.
   image: 'assets/images/mentors/fernanda_martins.jpg'
   languages: English, Portuguese
-  availability: [ 7, 8 ]
+  availability: [ 7, 8, 9, 10, 11 ]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1330,7 +1330,7 @@
     🥶 Also, if you get frozen solid when doing test automation, I also offer an guidance on automated testing where we can deep-dive into the code of your choice together.
   image: 'assets/images/mentors/gabriel_oliveira.jpg'
   languages: English, Portuguese
-  availability: [ 7, 8 ]
+  availability: [ 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
