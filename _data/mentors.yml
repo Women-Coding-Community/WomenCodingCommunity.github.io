@@ -1391,3 +1391,36 @@
   network:
   - linkedin: https://www.linkedin.com/in/abdulmateenqamardeen/
   - github: https://github.com/DISCRETEboi
+
+- name: Olga Volkova
+  disabled: false
+  matched: true
+  sort: 10
+  hours: 2
+  type: long-term
+  index: 43
+  location: London
+  position: Senior Machine Learning Engineer, Cleo
+  bio: |
+    With over a decade in the tech industry, I have a Master’s in Computer Science and over seven years of experience in various roles within SAP systems, including Analyst, Engineer, Architect, and Team Lead, contributing to over 20 successful projects. I redirected my career towards data science in 2018, beginning as a Junior Data Scientist and continuously advancing my knowledge in the field through self-directed learning. My expertise now encompasses a range of Machine Learning systems, including large language models (LLMs), graph neural networks, and deep learning techniques like Transformer architecture for time-series analysis.
+  image: 'assets/images/mentors/olga_volkova.jpeg'
+  languages: English, Russian
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      I am excited to mentor individuals who are new to the world of machine learning or are looking to strengthen their existing skills in this area. My ideal mentee is someone who may be just starting out in their tech career or is looking to transition into a machine learning role. You don't have to have all the answers or be sure of your path — curiosity, a willingness to learn, and the courage to ask questions are the most important qualities. I am committed to creating a supportive and inclusive environment where my mentees can grow at their own pace, build confidence in their abilities, and explore new ideas without fear of making mistakes. Everyone from all backgrounds is welcome, especially those who might feel underrepresented or uncertain about their place in the tech world. Together, we'll work towards not just improving your technical skills, but also boosting your confidence and helping you find your unique voice in the machine learning community.
+    areas:
+      - Machine Learning
+      - Data Science
+      - Business Analysis
+    languages: Python
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
+    extra: |
+      Deep Learning, Graph Deep Learning, Machine Learning system design, Algorithms and Data Structures, Data Science / ML Engineer interview process
+  network:
+    - linkedin: https://www.linkedin.com/in/olga-volkova-61562463/
