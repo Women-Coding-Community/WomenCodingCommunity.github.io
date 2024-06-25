@@ -69,7 +69,7 @@
 - name: Adriana Zencke Zimmermann
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   hours: 2
   bio: |
     I am a mother, a wife, and a Software Engineer. I graduated in Computer Science and have over 14 years of experience working in tech companies in Brazil, Germany, and Spain. As Backend Engineer, I found this to be my passion which I focused on in the last six years of my career. I am always excited to help others, and my goal is to empower women and support them with the difficulties I had as an engineer, and I still have from time to time.
@@ -231,7 +231,7 @@
 - name: Sonali Goel
   disabled: false
   matched: false
-  sort: 10
+  sort: 200
   hours: 1
   position: Lead Engineer, Yoox-Net-A-Porter
   type: both
