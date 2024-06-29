@@ -15,6 +15,7 @@
     path: https://www.meetup.com/women-coding-community/events/300856519
     title: View meetup event
     target: _blank
+
 - title: |
     Getting Started with IaC - An Intro to Terraform
   description: | 
@@ -32,6 +33,7 @@
     path: https://www.meetup.com/women-coding-community/events/300906339
     title: View meetup event
     target: _blank
+
 - title: |
     Writing Club with Women Coding Community
   description: | 
@@ -43,12 +45,87 @@
   host: "Julia Babahina and Irina Kamalova"
   time: 8:00 PM to 9:00 PM CEST
   image:
-    path: "/assets/images/events/event-writing-club-130624.jpeg"
+    path: "/assets/images/events/event-writing-club.jpeg"
     alt: Square poster of event
   link:
     path: https://www.meetup.com/women-coding-community/events/301218272/
     title: View meetup event
     target: _blank
+
+- title: |
+    Polars: A Powerful Alternative To Pandas
+  description: | 
+    Pandas has long been the go-to library for data manipulation and analysis in Python, but Polars has emerged as a powerful alternative.
+    In this session we will discuss the strengths and weaknesses of both libraries, providing a detailed comparative analysis. 
+  category: category-tech-talk
+  category_name: Tech Talk
+  date: WED, JUL 3, 2024
+  expiration: "20240704"
+  speaker: "Lasha Dolenjashvili, Data Solutions Architect"
+  time: 8:00 PM to 9:30 PM CEST
+  image:
+    path: "/assets/images/events/event-tech-talk-030724.jpg"
+    alt: Square poster of event
+  link:
+    path: https://www.meetup.com/women-coding-community/events/301378711/
+    title: View meetup event
+    target: _blank
+
+- title: |
+    Coding Club with Women Coding Community
+  description: | 
+    We are excited to announce our first Coding Club session as a part of Women Coding Community! The first session will cover the following topics: The origins of Python and Recommendations on which version of Python to install.
+  category: category-coding-club
+  category_name: Coding Club
+  date: THU, JUL 4, 2024
+  expiration: "20240705"
+  host: "Nonna Shakhova and Irina Kamalova"
+  time: 8:00 PM to 10:0 PM CEST
+  image:
+    path: "/assets/images/events/event-coding-club.jpg"
+    alt: Square poster of event
+  link:
+    path: https://www.meetup.com/women-coding-community/events/301872113/
+    title: View meetup event
+    target: _blank
+
+- title: |
+    Writing Club with Women Coding Community
+  description: | 
+    We are excited to continue with our Writing Club sessions as a part of Women Coding Community! Join our July session!
+  category: category-writing-club
+  category_name: Writing Club
+  date: THU, JUL 11, 2024
+  expiration: "20240712"
+  host: "Julia Babahina and Irina Kamalova"
+  time: 8:00 PM to 9:00 PM CEST
+  image:
+    path: "/assets/images/events/event-writing-club.jpeg"
+    alt: Square poster of event
+  link:
+    path: https://www.meetup.com/women-coding-community/events/301603784/
+    title: View meetup event
+    target: _blank
+
+- title: |
+    Getting started with FaaS: An introduction to AWS Lambda
+  description: | 
+    Join Women Coding Community for an introductory session on serverless computing, with main focus on AWS Lambda for Function As A Service (FaaS).
+    Don't miss this opportunity to dive into the world of serverless architecture and elevate your tech skills!
+  category: category-tech-talk
+  category_name: Tech Talk
+  date: WED, JUL 17, 2024
+  expiration: "20240718"
+  speaker: "Madhura Chaganty, Engineering Manager"
+  time: 8:00 PM to 10:00 PM CEST
+  image:
+    path: "/assets/images/events/event-tech-talk-170724.jpeg"
+    alt: Speaker of event
+  link:
+    path: https://www.meetup.com/women-coding-community/events/301584337/
+    title: View meetup event
+    target: _blank
+
 - title: |
     Building Confidence in the Workplace
   description: | 
