@@ -32,9 +32,11 @@ body_class: page list-page list-page-events
             </ul>
         </div>
 
+        {% assign sorted_events = site.data.events | sort: 'expiration' %}
+
         <div class="row-content col-12" id="upcoming-events">
             <div class="card-deck">
-                {% for event in site.data.events %}
+                {% for event in sorted_events %}
                     {% if event.expiration >= today %}
                         {% include event.html %}
                     {% endif %}
@@ -44,7 +46,7 @@ body_class: page list-page list-page-events
 
         <div class="row-content col-12" id="past-events">
             <div class="card-deck">
-                {% for event in site.data.events %}
+                {% for event in sorted_events %}
                     {% if event.expiration < today %}
                         {% include event.html %}
                     {% endif %}

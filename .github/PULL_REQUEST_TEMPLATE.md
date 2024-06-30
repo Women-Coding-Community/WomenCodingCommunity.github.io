@@ -8,6 +8,7 @@
 - [ ] New Feature
 - [ ] Code Refactor
 - [ ] Mentor Update
+- [ ] Data Update
 - [ ] Documentation
 - [ ] Other
 
