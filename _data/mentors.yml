@@ -1,6 +1,6 @@
 - name: Eleonora Belova
   disabled: false
-  sort: 200
+  sort: 300
   hours: 5
   position: Test Automation Engineer, IBM Security
   type: both
@@ -34,7 +34,7 @@
 - name: Rajani Rao
   disabled: false
   matched: false
-  sort: 200
+  sort: 300
   hours: 5
   type: both
   index: 2
@@ -44,7 +44,7 @@
   image: assets/images/mentors/rajani_rao.jpeg
   location: Cambridge, UK
   languages: English
-  availability: [ 5, 6 ]
+  availability: [ 7, 8, 9, 10, 11 ]
   skills:
     experience: 16+ years
     years: 16
@@ -104,7 +104,7 @@
 
 - name: Irina Kamalova
   disabled: false
-  sort: 200
+  sort: 300
   hours: 1
   type: both
   index: 4
@@ -241,7 +241,7 @@
     Sonali serves as a Lead Engineer at Yoox-Net-a-porter, specializing in managing and constructing extensive-scale ecommerce solutions. She leverages Java-based commerce platforms and integrates them with open-source technologies like Spring Boot and Spring Batch. As an AWS-certified Solution Architect, she possesses deep knowledge of Amazon Web Services, complemented by proficiency in implementing continuous integration and continuous deployment (CICD) practices to ensure seamless software delivery. Additionally, she excels in architecting and implementing microservices-based architectures to drive agility and modularity in software development With over 13 years of experience in the technology industry, Sonali brings a wealth of expertise in steering technical direction and fostering high-performance outcomes. Her passion lies in nurturing a culture of continuous learning and innovation. Outside of her professional endeavors, Sonali actively volunteers with Women Who Code, advocating for gender diversity. She is also a creative enthusiast, utilizing design templates to convey ideas, thoughts, and emotions visually.
   image: assets/images/mentors/sonali_goel.jpg
   languages: English
-  availability: [ 7, 9, 10, 11]
+  availability: [9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -445,7 +445,7 @@
   image: assets/images/mentors/monal_sanghvi.png
   location: London, UK
   languages: English
-  availability: [ 6 ]
+  availability: [ 7, 8, 9, 10, 11 ]
   skills:
     experience: 10-15 years
     years: 15
@@ -599,7 +599,7 @@
 
 - name: Mona Ahluwalia
   disabled: false
-  sort: 300
+  sort: 200
   hours: 5
   position:  Talent Director, Chapter 2 
   type: ad-hoc
@@ -658,17 +658,17 @@
     
 - name: Adeola Adekoyejo
   disabled: false
-  sort: 10
+  sort: 200
   hours: 3
   position:  Full stack Engineer
   type: ad-hoc
   index: 21
   location: London, UK
   bio: |
-    I am Frontend engineer with 4years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
+    I am Frontend engineer with 4 years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
   image: assets/images/mentors/adeola_adekoyejo.jpg
   languages: English
-  availability: [ ]
+  availability: [7, 8, 9]
   skills:
       experience: 4-5 years
       years: 5
@@ -976,7 +976,7 @@
   image: assets/images/mentors/bryan_boreham.jpeg
   location: London, UK
   languages: English
-  availability: [ 5 , 6 ]
+  availability: [ 7, 8, 9, 10, 11 ]
   skills:
     experience: 16+ Years
     years: 16
@@ -1073,7 +1073,7 @@
 - name: Safiye Ipek
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   hours: 2
   type: ad-hoc
   index: 34
@@ -1084,7 +1084,7 @@
     I am a Software Quality Assurance Engineer with a strong commitment to mentoring and contributing to the Women Coding Community. With over four years of experience, I have perfected my expertise in automation tools to ensure flawless project deliveries. My dedication to promoting transparent communication and fostering strong teamwork sets me apart. As your mentor, I am committed to providing invaluable insights, best practices, and unwavering support as you navigate the dynamic field of software testing, including testing strategies and the latest industry trends.
   image: 'assets/images/mentors/safiye_ipek.jpg'
   languages: English, Turkish
-  availability: [6,7]
+  availability: [7, 8, 10, 11]
   skills:
     experience: 4-5 Years
     years: 5
