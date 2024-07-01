@@ -231,7 +231,7 @@
 - name: Sonali Goel
   disabled: false
   matched: false
-  sort: 300
+  sort: 200
   hours: 1
   position: Lead Engineer, Yoox-Net-A-Porter
   type: both
