@@ -1,6 +1,6 @@
 - name: Eleonora Belova
   disabled: false
-  sort: 200
+  sort: 300
   hours: 5
   position: Test Automation Engineer, IBM Security
   type: both
@@ -34,7 +34,7 @@
 - name: Rajani Rao
   disabled: false
   matched: false
-  sort: 200
+  sort: 300
   hours: 5
   type: both
   index: 2
@@ -104,7 +104,7 @@
 
 - name: Irina Kamalova
   disabled: false
-  sort: 200
+  sort: 300
   hours: 1
   type: both
   index: 4
@@ -231,7 +231,7 @@
 - name: Sonali Goel
   disabled: false
   matched: false
-  sort: 200
+  sort: 300
   hours: 1
   position: Lead Engineer, Yoox-Net-A-Porter
   type: both
@@ -599,7 +599,7 @@
 
 - name: Mona Ahluwalia
   disabled: false
-  sort: 300
+  sort: 200
   hours: 5
   position:  Talent Director, Chapter 2 
   type: ad-hoc
