@@ -5,7 +5,7 @@
   category: category-book-club
   category_name: Book Club
   date: THU, MAY 30, 2024
-  expiration: "20240531"
+  expiration: "20240530"
   host: "Silke Nodwell and Irina Kamalova"
   time: 8:00 PM to 9:30 PM CEST
   image:
@@ -23,7 +23,7 @@
   category: category-tech-talk
   category_name: Tech Talk
   date: THU, JUN 6, 2024
-  expiration: "20240607"
+  expiration: "20240606"
   speaker: "Sonali Goel, Senior/Lead Engineer"
   time: 8:00 PM to 9:30 PM CEST
   image:
@@ -41,7 +41,7 @@
   category: category-writing-club
   category_name: Writing Club
   date: THU, JUN 13, 2024
-  expiration: "20240614"
+  expiration: "20240613"
   host: "Julia Babahina and Irina Kamalova"
   time: 8:00 PM to 9:00 PM CEST
   image:
@@ -60,7 +60,7 @@
   category: category-tech-talk
   category_name: Tech Talk
   date: WED, JUL 3, 2024
-  expiration: "20240704"
+  expiration: "20240703"
   speaker: "Lasha Dolenjashvili, Data Solutions Architect"
   time: 8:00 PM to 9:30 PM CEST
   image:
@@ -78,7 +78,7 @@
   category: category-coding-club
   category_name: Coding Club
   date: THU, JUL 4, 2024
-  expiration: "20240705"
+  expiration: "20240704"
   host: "Nonna Shakhova and Irina Kamalova"
   time: 8:00 PM to 10:0 PM CEST
   image:
@@ -96,7 +96,7 @@
   category: category-writing-club
   category_name: Writing Club
   date: THU, JUL 11, 2024
-  expiration: "20240712"
+  expiration: "20240711"
   host: "Julia Babahina and Irina Kamalova"
   time: 8:00 PM to 9:00 PM CEST
   image:
@@ -115,7 +115,7 @@
   category: category-tech-talk
   category_name: Tech Talk
   date: WED, JUL 17, 2024
-  expiration: "20240718"
+  expiration: "20240717"
   speaker: "Madhura Chaganty, Engineering Manager"
   time: 8:00 PM to 10:00 PM CEST
   image:
@@ -133,7 +133,7 @@
   category: category-career-talk
   category_name: Career Talk
   date: TUE, JUL 23, 2024
-  expiration: "20240724"
+  expiration: "20240723"
   speaker: "Nadia Edwards-Dashti, Co-Founder of Harrington Starr Group"
   time: 8:00 PM to 9:30 PM CEST
   image:
