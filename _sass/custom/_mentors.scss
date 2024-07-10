@@ -45,11 +45,8 @@
              
             .share-icon {
               svg {
-                width: 2.5rem;
-                height: 2.5rem;
-              }
-              :focus {
-                background: $primary-40;
+                width: 2rem;
+                height: 2rem;
               }
             }
         
@@ -60,6 +57,9 @@
               svg {
                 object-fit: contain;
               }
+            }
+            .main-icon:hover {
+                background: $blue-95; 
             }
         
             .dropdown-item:active {
