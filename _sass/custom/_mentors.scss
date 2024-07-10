@@ -30,6 +30,42 @@
             margin: 0;
             padding: 0;
         }
+        .share-mentor {   
+            margin-top: 0px;     
+            span {
+              color: $text-secondary;
+              font-size: $font-body-s;
+            }
+        
+            a {
+              text-decoration: none;
+              color: $text-secondary;
+              font-weight: normal;
+            }
+             
+            .share-icon {
+              svg {
+                width: 2.5rem;
+                height: 2.5rem;
+              }
+              :focus {
+                background: $primary-40;
+              }
+            }
+        
+            .main-icon {
+              width: 2rem;
+              height: 2rem;
+              color: $text-secondary;        
+              svg {
+                object-fit: contain;
+              }
+            }
+        
+            .dropdown-item:active {
+              background-color: transparent;
+            }
+          }
 
         .card-header {
             background: transparent;
