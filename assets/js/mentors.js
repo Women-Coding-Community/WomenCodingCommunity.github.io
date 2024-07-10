@@ -6,7 +6,8 @@ var controllerMentors = (function(jQuery) {
     let resourcesButton = jQuery('.mentor-resources');
     var tooltip = jQuery('[data-toggle="tooltip"]');
     var toggleContent = jQuery('.toggle-content');
-    var copyLink = jQuery('#link-msg');
+    var copyLink = jQuery('.copy-link');
+    var linkCopiedAlert = jQuery('.link-copied-alert');
 
 
     const CLASS_ACTIVE = 'active';
@@ -145,9 +146,9 @@ var controllerMentors = (function(jQuery) {
             document.execCommand("copy");
             tempInput.remove();
       
-            copyLink.removeClass(CLASS_HIDDEN);
+            linkCopiedAlert.removeClass(CLASS_HIDDEN);
             setTimeout(function () {
-              jQuery("#link-msg").addClass(CLASS_HIDDEN);
+              linkCopiedAlert.addClass(CLASS_HIDDEN);
             }, 1000);
           });
     };
