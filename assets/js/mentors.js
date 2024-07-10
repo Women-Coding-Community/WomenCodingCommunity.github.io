@@ -6,6 +6,8 @@ var controllerMentors = (function(jQuery) {
     let resourcesButton = jQuery('.mentor-resources');
     var tooltip = jQuery('[data-toggle="tooltip"]');
     var toggleContent = jQuery('.toggle-content');
+    var copyLink = jQuery('#link-msg');
+
 
     const CLASS_ACTIVE = 'active';
     const CLASS_HIDDEN = 'd-none';
@@ -134,7 +136,23 @@ var controllerMentors = (function(jQuery) {
               jQuery(this).text(CONTENT.SHOW_MORE);
             }
         });
+
+        copyLink.click(function () {
+            var text = jQuery(this).data("url");
+            var tempInput = jQuery("<input>");
+            jQuery("body").append(tempInput);
+            tempInput.val(text).select();
+            document.execCommand("copy");
+            tempInput.remove();
+      
+            copyLink.removeClass(CLASS_HIDDEN);
+            setTimeout(function () {
+              jQuery("#link-msg").addClass(CLASS_HIDDEN);
+            }, 1000);
+          });
     };
+
+  
 
     return {
         init: init

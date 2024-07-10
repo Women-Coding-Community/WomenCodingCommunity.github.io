@@ -1,8 +1,12 @@
-{% assign base_url = 'https://womencodingcommunity.com' %} 
-{% assign mentor_name = mentor.name %} {% assign full_url = base_url | append: '/mentors?keywords=' | append: mentor_name %}
+{% assign base_url = site.base_url %} 
+{% assign mentor_name = mentor.name %} 
+{% assign full_url = base_url | append: '/mentors?keywords=' | append: mentor_name %}
 
+<span id="link-msg" class="alert alert-info d-none" role="alert">
+    Link Copied.
+ </span> 
 <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-share-mentor">
-    <li class="d-flex align-items-center cursor-pointer" onclick="copyToClipboard('{{ full_url }}')">
+    <li class="d-flex align-items-center cursor-pointer" id="copy-link" data-url="{{ full_url }}">
         <p class="dropdown-item d-flex align-items-center">
             <span class="share-icon"> {% include icons/copy.svg %} </span>
             <span class="ml-3">Copy link</span>
@@ -18,12 +22,3 @@
     </li>
 </ul>
 
-<script>
-  function copyToClipboard(text) {
-    navigator.clipboard.writeText(text).then(
-      function () {
-        alert("Link copied");
-      }
-    );
-  }
-</script>
