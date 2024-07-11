@@ -32,6 +32,16 @@ body_class: page search-page list-page-mentors
                                 {% include registration.html %}
                             </div>
                             <div class="card-content col-md-9">
+                                <div class="share-mentor dropdown d-flex  justify-content-end">
+                                    <div data-toggle="dropdown" class="cursor-pointer d-flex align-items-center" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <span class="share-icon main-icon rounded-circle">
+                                            {% include icons/share2.svg %}
+                                        </span>
+                                    </div>
+                                    {% include share-mentor.html mentor=mentor %}
+                                </div>
+
                                 <div class="card-header">
                                     <ul class="nav nav-tabs card-header-tabs">
                                         <li class="nav-item">
