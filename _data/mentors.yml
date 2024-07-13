@@ -1424,3 +1424,43 @@
       Deep Learning, Graph Deep Learning, Machine Learning system design, Algorithms and Data Structures, Data Science / ML Engineer interview process
   network:
     - linkedin: https://www.linkedin.com/in/olga-volkova-61562463/
+
+- name: Samantha Cohen
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 2
+  type: both
+  index: 44
+  location: London, UK
+  position: Principal Software Engineer, OVO Energy
+  bio: |
+    I'm a transgender, neurodivergent woman with just over 10 years of experience in the industry. I've worked in a lot of companies and have learned a bunch of different languages. I particularly like to focus on code quality, testing approaches and software architecture. I'm a strong advocate for TDD and pair programming and emphathic, collaborative software engineering.
+
+    Current role is as a principal engineer so I split my time between distributed systems architecture, writing code and coaching/upskilling engineers throughout the company.
+  image: 'assets/images/mentors/samantha-cohen.jpg'
+  languages: English
+  availability: [8, 9, 10]
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      Somebody who is excited to learn
+    areas:
+    - Frontend Developer
+    - Fullstack Developer
+    - DevOps
+    - Distributed Systems
+    - Backend Developer
+    languages: Javascript, Python, Java, C#, Rust
+    focus:
+    - Change specialisation within IT
+    - Switch career to IT
+    - Grow beyond senior level
+    - Grow from mid-level to senior-level
+    - Grow from beginner to mid-level
+    extra: |
+      Software design, software architecture, system architecture, TDD, testing strategies, software development lifecycle, soft skills & influence
+  network:
+  - linkedin: www.linkedin.com/in/samantha-cohen-59a98265
+  - medium: https://medium.com/@samanthacohen294
