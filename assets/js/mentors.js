@@ -7,7 +7,6 @@ var controllerMentors = (function(jQuery) {
     var tooltip = jQuery('[data-toggle="tooltip"]');
     var toggleContent = jQuery('.toggle-content');
     var copyLink = jQuery('.copy-link');
-    var linkCopiedAlert = jQuery('.link-copied-alert');
 
 
     const CLASS_ACTIVE = 'active';
@@ -145,6 +144,9 @@ var controllerMentors = (function(jQuery) {
             tempInput.val(text).select();
             document.execCommand("copy");
             tempInput.remove();
+
+            var mentorContainer = jQuery(this).closest('.mentor-container');
+            var linkCopiedAlert = mentorContainer.find('.link-copied-alert')
       
             linkCopiedAlert.removeClass(CLASS_HIDDEN);
             setTimeout(function () {
