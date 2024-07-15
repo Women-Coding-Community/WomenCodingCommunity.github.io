@@ -20,7 +20,7 @@
 
 
 ## Screenshots
-<!--  If you are chaging html, css or new resources it is mandatory to add screeshot. -->
+<!--  If you are changing html, css or new resources it is mandatory to add screenshot. -->
 <!--  Please add screenshot from *before* and *after* to simply the code review -->
 
 ## Pull request checklist
