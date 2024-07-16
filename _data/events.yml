@@ -144,3 +144,21 @@
     title: View meetup event
     target: _blank
 
+- title: |
+    Leveraging FaaS: Hands-on Workshop with AWS Lambda Using NodeJS
+  description: | 
+    Discover the power of serverless computing with Serverless, AWS, Node.js, Lambda, and API Gateway!
+    This hands-on event is perfect for developers and cloud enthusiasts looking to dive into trendy, cloud-agnostic approaches using Function-as-a-Service (FaaS). Gain practical experience and learn how to build scalable, efficient applications without managing servers.
+  category: category-tech-talk
+  category_name: Tech Talk
+  date: WED, JUL 31, 2024
+  expiration: "20240801"
+  speaker: "Rasim Sen, Fullstack Developer/Cloud Architect"
+  time: 8:00 PM to 9:00 PM CEST
+  image:
+    path: "/assets/images/events/event-tech-talk-170731.jpeg"
+    alt: square poster of event
+  link:
+    path: https://www.meetup.com/women-coding-community/events/302062622/
+    title: View meetup event
+    target: _blank
