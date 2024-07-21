@@ -1497,3 +1497,35 @@
       Preparation for technical interview to get your first Front-End job
   network:
   - linkedin: https://www.linkedin.com/in/anagdev/
+
+- name: Parisa Noushazaran
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 2
+  type: ad-hoc
+  index: 46
+  location: London
+  position: Senior Integration Engineer, SAP
+  bio: |
+    I work as an integration engineer with some developer responsibilities. I have expertise in rest api and sql and some programming knowledge (Java predominantly but some javascript)
+  image: 'assets/images/mentors/parisa-noushazaran.jpg'
+  languages: English
+  availability: []
+  skills:
+    experience: 0-1 Years
+    years: 1
+    mentee: |
+      A mentee that wants to break into tech and learn to code. Can also help with leetcode practice
+    areas:
+    - Backend Developer
+    - QA
+    - Frontend Developer
+    languages: Java, Javascript
+    focus:
+    - Switch career to IT
+    - Change specialisation within IT
+    extra: |
+      Learn to code, switch to tech career
+  network:
+  - linkedin: https://www.linkedin.com/in/parisa-n-79436a297/
