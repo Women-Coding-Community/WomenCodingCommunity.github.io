@@ -1464,3 +1464,36 @@
   network:
   - linkedin: www.linkedin.com/in/samantha-cohen-59a98265
   - medium: https://medium.com/@samanthacohen294
+
+- name: Anahi Gaetan
+  disabled: false
+  matched: false
+  sort: 300
+  hours: 5
+  type: both
+  index: 45
+  location: Cordoba, Argentina
+  position: React Developer, Leniolabs
+  bio: |
+    I've been working as a React developer for around four years and have been working remotely and travelling for the last two. I have a degree in development, but I struggled a lot to find my first job. It was women from a JavaScript community who helped me and guided me to get that first job. It's thanks to them that I am where I am today. So I just want to give a little of this back to the community and help other women get their first job. Even if they already have one but are struggling with situations, impostor syndrome, or solving problems, I can give advice and help with that too.
+  image: 'assets/images/mentors/anahi-gaetan.jpg'
+  languages: English, Spanish
+  availability: [8, 9, 10]
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: |
+      Career switcher or juniors who are still struggling and need help. Someone passionate on development and keen to learn.
+    areas:
+    - Frontend Developer
+    - Fullstack Developer
+    languages: Javascript
+    focus:
+    - Grow from beginner to mid-level
+    - Switch career to IT
+    extra: |
+      Website development with Javascript and React
+      Switch carrer to IT, as a Front-End developer
+      Preparation for technical interview to get your first Front-End job
+  network:
+  - linkedin: https://www.linkedin.com/in/anagdev/
