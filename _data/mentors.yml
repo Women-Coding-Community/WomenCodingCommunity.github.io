@@ -1468,7 +1468,7 @@
 - name: Anahi Gaetan
   disabled: false
   matched: false
-  sort: 150
+  sort: 300
   hours: 5
   type: both
   index: 45
