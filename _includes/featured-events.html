@@ -1,18 +1,14 @@
-{% assign today = 'now' | date: "%Y%m%d" %}
-{% assign valid_events = site.data.events | where_exp: "event", "event.expiration >= today" %}
-{% assign sorted_valid_events = valid_events | sort: 'expiration' %}
-
-{% if sorted_valid_events.size > 0 %}
+{% if site.data.events.size > 0 %}
     <div class="container announcements">
         <div class="row featured-content">
             <div class="row-header">
                 <h2>Latest Events</h2>
             </div>
-            <div class="row-content col-12">
+            <div class="row-content col-12" id="featured-events">
                 <div class="card-deck">
-                    {% assign latest_events = sorted_valid_events | slice: 0, 2 %}
-    
-                    {% for event in latest_events %}
+                    {% assign sorted_events = site.data.events | sort: 'expiration' %}
+
+                    {% for event in sorted_events %}
                         {% include event.html %}
                     {% endfor %}
                 </div>
