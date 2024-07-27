@@ -38,6 +38,35 @@
 
         .card-footer {
             margin-top: map-get($spacers, 3);
+            padding: 0;
+
+            .footer-btn {
+                display: flex;
+                align-items: center;
+                margin: 0 3rem 3rem 3rem;
+            }
+
+            .material-symbols-outlined {
+                font-size: $icon-size-s;
+            }
+
+            .event-resources {
+                display: flex;
+                align-items: center;
+                background-color: $neutral-95;
+                padding: 1.5rem 3rem;
+                font-size: $font-size-base;
+                font-weight: 700;
+
+                .link {
+                    display: flex;
+                    align-items: center;
+                    color: $blue-40;
+                    text-decoration: none;
+                    font-weight: 700;
+                    margin-left: map-get($spacers, 4);
+                }
+            }
         }
 
         .card-category {

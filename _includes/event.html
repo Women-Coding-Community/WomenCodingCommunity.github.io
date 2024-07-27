@@ -21,7 +21,28 @@
             <p>{{ event.description }}</p> 
         </div>
         <div class="card-footer col-12">
-            <a href="{{ event.link.path }}" target="{{ event.link.target }}" class="btn btn-outline-primary">{{event.link.title }}</a>
+            <a href="{{ event.link.path }}" target="{{ event.link.target }}" class="btn btn-outline-primary footer-btn">
+                {{event.link.title }}
+                <span class="material-symbols-outlined ml-1">ungroup</span>
+            </a>
+
+            {% if event.resources %}
+                <div class="event-resources">
+                    <div>Event resources:</div>
+                    {% if event.resources.presentation %}
+                        <a href="{{ event.resources.presentation }}" target="_blank" class="link">
+                            Slides
+                            <span class="material-symbols-outlined">ungroup</span>
+                        </a>
+                    {% endif %}
+                    {% if event.resources.youtube %}
+                        <a href="{{ event.resources.youtube }}" target="_blank" class="link">
+                            Recording
+                            <span class="material-symbols-outlined">ungroup</span>
+                        </a>
+                    {% endif %}
+                </div>
+            {% endif %}
         </div>
     </article>
 </div>
