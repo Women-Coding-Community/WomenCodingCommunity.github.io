@@ -36,6 +36,14 @@
       feedback: Adeola was friendly and easy to talk to. It was great that she prepared notes before the mentoring session so we had a clear direction for our conversation, and I got some insightful tips and resources on web accessibility which I plan to look into.
       name: Cathy Chi
       type: Ad-Hoc
+    - score: 5
+      date: 20240724
+      date-f: 24 July 2024
+      feedback: |
+        Adeola provided valuable support and guidance during our session. We discussed the job search process, specifically focusing on entering a front-end engineering role.
+        She also offered advice on job applications and tips on making my resume stand out. Thank you so much, Adeola!
+      name: Mitali Shah
+      type: Ad-Hoc
 
 - index: 12 # Adegbenga
   feedback:
@@ -73,3 +81,27 @@
         I have been mentored by Jyoti for the past 6 months, focusing on preparing for Data Science interviews. Her guidance has been incredibly helpful, she assisted me in improving my resume and LinkedIn profile, which led to more views and better responses from employers. Jyoti also provided detailed feedback on my past interviews, helping me improve my answers for technical rounds, which helped me advance in several job interviews. Her expertise in coding languages and her clear way of explaining things have been very valuable to my professional growth. Jyoti's dedication and support make her an excellent mentor.
       name: Meena Valavala
       type: Long Term Mentorship
+
+- index: 1 # Eleonora
+  feedback:
+    - score: 5
+      date: 20240715
+      date-f: 15 July 2024
+      feedback: |
+        I am delighted to have had the opportunity to work with Eleonora as my mentor. Her explanations are always clear and thorough, and her enthusiasm and passion for our profession are truly contagious.
+        Working with Eleonora has not only been educational but also incredibly motivating. Her guidance and support have given me a significant boost in my professional development. I am sincerely grateful to her for the valuable insights and encouragement she has provided.
+        Thank you, Eleonora, for being such an inspiring mentor!
+      name: Hanna Vasylets
+      type: Long Term Mentorship
+
+- index: 40 # Fernanda
+  feedback:
+    - score: 5
+      date: 20240726
+      date-f: 26 July 2024
+      feedback: |
+        My session with Fernanda was wonderful! I felt comfortable sharing my thoughts and the goals I wanted to achieve.
+        She was very friendly and engaging in our interactions, she also shared practical resources and gave different options, thanks to her awareness of people having different learning styles.
+        Thanks to the session, I now have at least one actionable to-do, and I look forward to building a steady and long-term mentoring relationship with her.
+      name: Airat Yusuff
+      type: Ad-Hoc
