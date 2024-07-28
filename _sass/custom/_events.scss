@@ -40,16 +40,6 @@
             margin-top: map-get($spacers, 3);
             padding: 0;
 
-            .footer-btn {
-                display: flex;
-                align-items: center;
-                margin: 0 3rem 3rem 3rem;
-            }
-
-            .material-symbols-outlined {
-                font-size: $icon-size-s;
-            }
-
             .event-resources {
                 display: flex;
                 align-items: center;
@@ -57,6 +47,8 @@
                 padding: 1.5rem 3rem;
                 font-size: $font-size-base;
                 font-weight: 700;
+                border-bottom-left-radius: $border-radius;
+                border-bottom-right-radius: $border-radius;
 
                 .link {
                     display: flex;
@@ -91,6 +83,23 @@
             }
         }
     }
+}
+
+.event-footer-btn {
+    display: flex;
+    align-items: center;
+    margin: 0 3rem 3rem 3rem;
+}
+
+.card-footer {
+
+    .material-symbols-outlined {
+        font-size: $icon-size-s;
+    }
+}
+
+#featured-events .card-footer {
+    padding: 0;
 }
 
 @include media-breakpoint-up(md) {
