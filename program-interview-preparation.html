@@ -60,6 +60,27 @@ body_class: page page-programme page-interview-preparation
                             </ul>
                         </div>
                     </div>
+                    <div class="accordion" id="accordion-3">
+                        <a class="accordion-header"
+                        aria-controls="interview-3" aria-expanded="false" data-toggle="collapse" href="#interview-3"
+                        role="button">
+                            <h2 class="accordion-title">Resources to Build Your Resume</h2>
+                            <div class="accordion-icon">
+                                {% include icons/plus.svg %}
+                            </div>
+                        </a>
+                        <div class="accordion-body collapse" id="interview-3">
+                            <ul>
+                                {% for resource in site.data.cv_resources %}
+                                <li>
+                                    <a href="{{resource.link}}" target="_blank" class="font-weight-bold">
+                                        {{resource.name}}:</a>
+                                    {{resource.description}}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <p class="font-weight-bold">Ready to Elevate Your CV?</p>
                 <p>Don't miss out on this exciting opportunity to take your resume to new heights! 🌟</p>
@@ -80,6 +101,29 @@ body_class: page page-programme page-interview-preparation
                 <p>We suggest two distinct formats: behavioral and technical interviews. Whether you're looking to polish
                     your soft skills or fine-tune your technical knowledge, we have tailored mock interviews to suit your
                     needs.</p>
+                <div class="faq my-4">
+                    <div class="accordion" id="accordion-4">
+                        <a class="accordion-header"
+                        aria-controls="interview-4" aria-expanded="false" data-toggle="collapse" href="#interview-4"
+                        role="button">
+                            <h2 class="accordion-title">Interview Resources</h2>
+                            <div class="accordion-icon">
+                                {% include icons/plus.svg %}
+                            </div>
+                        </a>
+                        <div class="accordion-body collapse" id="interview-4">
+                            <ul>
+                                {% for resource in site.data.interview_resources %}
+                                <li>
+                                    <a href="{{resource.link}}" target="_blank" class="font-weight-bold">
+                                        {{resource.name}}:</a>
+                                    {{resource.description}}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <p><a href="https://womencodingcommunity.slack.com/archives/C06VDMVGTDL" target="_blank">Join us on Slack in
                     the Mock interviews</a> channel to indicate your interest and connect with others seeking practice. Pair
                     up with fellow members and start honing your interview skills today!</p>
@@ -93,16 +137,16 @@ body_class: page page-programme page-interview-preparation
                 <p>We offer a structured environment to learn, practice your coding skills and discuss strategies to tackle
                     problems.</p>
                 <div class="faq my-4">
-                    <div class="accordion" id="accordion-3">
+                    <div class="accordion" id="accordion-5">
                         <a class="accordion-header"
-                        aria-controls="interview-3" aria-expanded="false" data-toggle="collapse" href="#interview-3"
+                        aria-controls="interview-5" aria-expanded="false" data-toggle="collapse" href="#interview-5"
                         role="button">
                             <h2 class="accordion-title">Benefits of joining</h2>
                             <div class="accordion-icon">
                                 {% include icons/plus.svg %}
                             </div>
                         </a>
-                        <div class="accordion-body collapse" id="interview-3">
+                        <div class="accordion-body collapse" id="interview-5">
                             <ul>
                                 <li><strong>Collaborative learning:</strong> Practice problems, share solutions and strategies.
                                 </li>
@@ -113,6 +157,27 @@ body_class: page page-programme page-interview-preparation
                                     manner.
                                 </li>
                                 <li><strong>Different perspectives:</strong> Exchange different problem solving approaches.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordion-6">
+                        <a class="accordion-header"
+                        aria-controls="interview-6" aria-expanded="false" data-toggle="collapse" href="#interview-6"
+                        role="button">
+                            <h2 class="accordion-title">Resources for Coding Interviews</h2>
+                            <div class="accordion-icon">
+                                {% include icons/plus.svg %}
+                            </div>
+                        </a>
+                        <div class="accordion-body collapse" id="interview-6">
+                            <ul>
+                                {% for resource in site.data.coding_resources %}
+                                <li>
+                                    <a href="{{resource.link}}" target="_blank" class="font-weight-bold">
+                                        {{resource.name}}:</a>
+                                    {{resource.description}}
+                                </li>
+                                {% endfor %}
                             </ul>
                         </div>
                     </div>

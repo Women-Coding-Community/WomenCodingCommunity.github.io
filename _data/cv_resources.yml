@@ -1,0 +1,51 @@
+- index: 1
+  name: Teal
+  link: https://www.tealhq.com/tools/resume-builder
+  description: |
+    offers a user-friendly resume builder tool to help you create polished and professional resumes tailored to your job search.
+- index: 2
+  name: Rezi
+  link: https://www.rezi.ai/
+  description: |
+    provides an AI-powered resume builder designed to optimize your resume for Applicant Tracking Systems (ATS), ensuring it gets noticed by recruiters.
+- index: 3
+  name: Careerflow.ai
+  link: https://careerflow.ai
+  description: |
+    is a platform that offers advanced resume-building tools and resources to help you create effective and eye-catching resumes.
+- index: 4
+  name: Otta
+  link: https://otta.com/
+  description: |
+    allows you to build a resume and apply for jobs on the same platform, making your job search more streamlined and efficient.
+- index: 5
+  name: Overleaf
+  link: https://www.overleaf.com/gallery/tagged/cv
+  description: |
+    provides LaTeX resume templates for those who prefer a high degree of customization and a professional layout.
+- index: 6
+  name: Standard Resume
+  link: https://standardresume.co/
+  description: |
+    offers a modern resume builder that makes it easy to create and share professional resumes online.
+- index: 7
+  name: TopCV
+  link: https://www.topcv.com/
+  description: |
+    provides a resume review service that offers valuable feedback on how well your resume is optimized for Applicant Tracking Systems (ATS).
+- index: 8
+  name: Resume Worded
+  link: https://resumeworded.com/
+  description: |
+    is an AI-powered platform designed by top recruiters to offer tailored feedback on your resume and LinkedIn profile.
+- index: 9
+  name: CV Optimiser
+  link: https://partyrock.aws/u/viktoria/f4nOk09_k/Resume-Optimizer-v2
+  description: |
+    is a tool built with PartyRock by AWS to help you to optimize your CV.
+- index: 10
+  name: What a Good Developer Resume Looks Like
+  link: https://thetechresume.com/
+  description: |
+    is a book by Gergely Orosz that provides insights and tips on crafting an effective resume for developers, based on industry standards and best practices.
+

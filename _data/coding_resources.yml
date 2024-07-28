@@ -1,0 +1,20 @@
+- index: 1
+  name: CS50 2020 - Lecture 3 - Algorithms
+  link: https://www.youtube.com/watch?v=gR6nycuZKlM
+  description: |
+    is a comprehensive lecture from Harvard's CS50 course that covers fundamental algorithms, essential for coding interview preparation.
+- index: 2
+  name: Grind 75 Practice Questions
+  link: https://www.techinterviewhandbook.org/grind75
+  description: |
+    offers a curated list of 75 essential coding interview questions to practice and master, helping you efficiently prepare for technical interviews.
+- index: 3
+  name: Awesome Leetcode Resources
+  link: https://github.com/ashishps1/awesome-leetcode-resources
+  description: |
+    is a GitHub repository that compiles a wide range of Leetcode resources to aid your coding interview practice.
+- index: 4
+  name: Tech Interview Handbook
+  link: https://www.techinterviewhandbook.org/
+  description: |
+    provides a comprehensive guide to technical interviews, covering coding, system design, and behavioral aspects.

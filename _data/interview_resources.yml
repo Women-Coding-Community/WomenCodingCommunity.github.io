@@ -1,0 +1,36 @@
+- index: 1
+  name: Pramp
+  link: https://www.pramp.com/#/
+  description: |
+    is a platform that offers free, live peer-to-peer practice interviews for various technical and behavioral roles.
+- index: 2
+  name: Interviewing.io
+  link: http://Interviewing.io
+  description: |
+    is a platform that provides anonymous mock interviews with senior engineers from top companies like Google, Amazon, and Facebook.
+- index: 3
+  name: WCC Ad-Hoc Mentorship Programme
+  link: https://womencodingcommunity.com/mentors
+  description: |
+    Our monthly mentorship programme allows you to request mock interviews from available mentors during the first 10 days of each month, providing a structured opportunity to receive feedback and improve your interviewing skills.
+- index: 4
+  name: The Behavioral Interview YouTube Playlist
+  link: https://www.youtube.com/playlist?list=PLePbzYpjlB26uX9QFkjXmrKJ1legeHqQg
+  description: |
+    is a curated playlist that provides video resources and tips on preparing for behavioral interviews.
+- index: 5
+  name: Awesome Behavioural Interview Resources
+  link: https://github.com/ashishps1/awesome-behavioral-interviews
+  description: |
+    is a GitHub repository that aggregates useful resources for preparing for behavioral interviews.
+- index: 6
+  name: STAR Method Explained
+  link: https://www.themuse.com/advice/star-interview-method
+  description: |
+    provides a detailed explanation of the STAR method, a popular technique for answering behavioral interview questions effectively.
+- index: 7
+  name: Behavioural Interview Questions
+  link: https://www.techinterviewhandbook.org/behavioral-interview-questions/
+  description: |
+    offers a comprehensive list of common behavioral interview questions and tips for answering them.
+
