@@ -125,6 +125,8 @@
     path: https://www.meetup.com/women-coding-community/events/301584337/
     title: View meetup event
     target: _blank
+  resources:
+    presentation: /assets/resources/events/tech-talk-170724.pdf
 
 - title: |
     Building Confidence in the Workplace
