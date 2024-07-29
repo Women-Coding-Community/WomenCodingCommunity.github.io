@@ -12,12 +12,16 @@ body_class: home
         <div class="row-content col-12">
             <div class="card-mission card card-l card-horizontal">
                 <div class="card-media col-12 col-md-6">
-                    <img src="./assets/images/home/stock-unsplash-mission-cta_16x9.jpg" alt="three women sitting and working together with their laptops">
+                    <img src="./assets/images/home/stock-unsplash-mission-cta_16x9.jpg"
+                        alt="three women sitting and working together with their laptops">
                 </div>
                 <div class="card-body col-12 col-md-6">
                     <h2 class="card-title">Do you want to volunteer with us?</h2>
-                    <p>Empowering women in their tech careers through education, mentorship, community building, and career services is our mission. We provide workshops and events, connect members with industry mentors, foster a supportive community through meetups and conferences, and raise awareness for more inclusive industry practices.</p>
-                    <a href="/about#volunteer" class="btn btn-primary">Learn more</a>    
+                    <p>Empowering women in their tech careers through education, mentorship, community building, and
+                        career services is our mission. We provide workshops and events, connect members with industry
+                        mentors, foster a supportive community through meetups and conferences, and raise awareness for
+                        more inclusive industry practices.</p>
+                    <a href="/about#volunteer" class="btn btn-primary">Learn more</a>
                 </div>
             </div>
         </div>
@@ -26,6 +30,26 @@ body_class: home
 
 {% include featured-events.html %}
 
+<div class="container mission bg-1">
+    <div class="row featured-content">
+        <div class="row-content col-12">
+            <div class="card-mission card card-l card-horizontal">
+                <div class="card-body col-12 col-md-4">
+                    <h2 class="card-title">New Partnership</h2>
+                    <p>WCC is very happy to share our first partner <a href="http://surrealdb.com"
+                            target="_blank">SurrealDB</a>.
+                    </p>
+                    <br>
+                    <a href="/partners#surrealDB" class="btn btn-primary">Learn more</a>
+                </div>
+                <div class="card-media banner col-12 col-md-8">
+                    <img src="./assets/images/partners/original.png" alt="SurrealDB banner with respective logo.">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container programmes bg-gradient-1">
     <div class="row featured-content">
         <div class="row-header">
@@ -33,26 +57,32 @@ body_class: home
         </div>
         <div class="row-content col-12">
             <div class="row-description col-12 col-md-8 col-lg-6">
-                <p>Discover a world of possibilities within our community. From networking events to mentorship programs and leadership opportunities, there's something for everyone to explore. Whether you're looking to sharpen your skills, expand your professional network, or take the next step in your career, we offer a wide range of opportunities to help you achieve your goals. Join us on this journey of growth and empowerment, and unlock your full potential in the tech industry.</p>
+                <p>Discover a world of possibilities within our community. From networking events to mentorship programs
+                    and leadership opportunities, there's something for everyone to explore. Whether you're looking to
+                    sharpen your skills, expand your professional network, or take the next step in your career, we
+                    offer a wide range of opportunities to help you achieve your goals. Join us on this journey of
+                    growth and empowerment, and unlock your full potential in the tech industry.</p>
             </div>
             <div class="card-deck">
                 {% for programme in site.data.programmes %}
-                    <div class="card-column col-12 col-md-6 col-lg-4">
-                        <div class="card-programme card card-s">
-                            <a href="{{ programme.url }}">
-                                <figure>
-                                    <div class="material-symbols-outlined" aria-hidden="true">{{ programme.icon }}</div>
-                                    <figcaption>{{ programme.title }}</figcaption>
-                                </figure>
-                            </a>
-                        </div>
+                <div class="card-column col-12 col-md-6 col-lg-4">
+                    <div class="card-programme card card-s">
+                        <a href="{{ programme.url }}">
+                            <figure>
+                                <div class="material-symbols-outlined" aria-hidden="true">{{ programme.icon }}</div>
+                                <figcaption>{{ programme.title }}</figcaption>
+                            </figure>
+                        </a>
                     </div>
+                </div>
                 {% endfor %}
             </div>
         </div>
     </div>
 </div>
+
 {% include featured-announcements.html %}
+
 <div class="container mentors-cta bg-1">
     <div class="row featured-content">
         <div class="row-content col-12">
@@ -60,15 +90,18 @@ body_class: home
                 <div class="card card-m">
                     <div class="card-body">
                         <h2 class="card-title">Meet Our Dedicated Mentors</h2>
-                        <p>Ready to advance in tech? Explore our diverse mentors who are here to guide and support you on your journey.</p>
-                        <a href="/mentors" class="btn btn-primary">Check our mentors</a>    
+                        <p>Ready to advance in tech? Explore our diverse mentors who are here to guide and support you
+                            on your journey.</p>
+                        <a href="/mentors" class="btn btn-primary">Check our mentors</a>
                     </div>
                 </div>
                 <div class="card card-m">
                     <div class="card-body">
                         <h2 class="card-title">Become a Mentor</h2>
-                        <p>Ready to empower and be empowered in tech? Become a mentor! Expand your network, give back, share expertise, and discover new perspectives.</p>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtf7-upMp1m5kJ4MSpexS-UwGJHhACEW-yPoEQoROHi4kVcg/viewform" target="_blank" class='btn btn-primary'>Join as a Mentor</a>
+                        <p>Ready to empower and be empowered in tech? Become a mentor! Expand your network, give back,
+                            share expertise, and discover new perspectives.</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtf7-upMp1m5kJ4MSpexS-UwGJHhACEW-yPoEQoROHi4kVcg/viewform"
+                            target="_blank" class='btn btn-primary'>Join as a Mentor</a>
                     </div>
                 </div>
             </div>
@@ -82,7 +115,8 @@ body_class: home
             <div class="card-support card card-l">
                 <div class="card-body col-12">
                     <h2 class="card-title">Experiencing Technical Issues?</h2>
-                    <a href="https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io/issues/new?template=bug_report.md&title=bug title" target="_blank" class="btn btn-outline-primary">Send us a report</a>
+                    <a href="https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io/issues/new?template=bug_report.md&title=bug title"
+                        target="_blank" class="btn btn-outline-primary">Send us a report</a>
                 </div>
             </div>
         </div>

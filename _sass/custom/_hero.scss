@@ -14,11 +14,11 @@
         color: $primary;
         margin: 0;
     }
-    
+
     p {
         @include font-headline-l;
     }
-    
+
     hr {
         margin: map-get($spacers, 3) auto;
         height: 0.5rem;
@@ -72,9 +72,15 @@
     }
 }
 
+.hero-surrealdb {
+    background-image: url("./../../assets/images/partners/surrealdb.png");
+    height: 180px;
+    border-radius: $border-radius;
+}
+
 @include media-breakpoint-up(md) {
     .hero {
-        
+
         .row {
             padding: map-get($spacers, 6) 0;
             align-items: center;
@@ -91,9 +97,9 @@
         }
     }
 
-   .hero-media {
+    .hero-media {
         margin-bottom: map-get($spacers, 5);
-    } 
+    }
 
     .hero-image {
         margin-right: map-get($spacers, 1);
@@ -103,5 +109,9 @@
             bottom: -2rem;
             left: 1rem;
         }
+    }
+
+    .hero-surrealdb {
+        height: 180px;
     }
 }

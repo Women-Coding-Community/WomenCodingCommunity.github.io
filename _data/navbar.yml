@@ -71,3 +71,8 @@
       breadcrumbs: 
         - name: About Us
           link: about
+    - page: Partners
+      url: partners
+      breadcrumbs: 
+        - name: About Us
+          link: about
