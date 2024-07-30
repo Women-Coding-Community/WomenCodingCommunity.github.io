@@ -1,5 +1,6 @@
 const controllerNavbar = (function (jQuery) {
-  const NAVBAR_CLASS_ACTIVE = 'active-nav'
+  const NAVBAR_CLASS_ACTIVE = 'active-nav';
+  const SHOW_CLASS = 'show';
 
   const selectActiveMenu = function () {
     const currentPath = window.location.pathname;
@@ -22,18 +23,17 @@ const controllerNavbar = (function (jQuery) {
 
       // Toggle dropdown menu when clicking the dropdown toggle
       dropdownToggle.on('click', function (e) {
-        e.preventDefault(); // Prevent default anchor behavior
+        e.preventDefault();
         
-        // Close all other dropdowns
-        jQuery('.dropdown-menu').not(dropdownMenuContent).removeClass('show');
+        jQuery('.dropdown-menu').not(dropdownMenuContent).removeClass(SHOW_CLASS);
         
-        dropdownMenuContent.toggleClass('show');
+        dropdownMenuContent.toggleClass(SHOW_CLASS);
       });
 
-      // Hide dropdown menu when clicking outside the dropdown menu
       jQuery(document).on('click', function (e) {
-        if (!dropdownMenu.is(e.target) && dropdownMenu.has(e.target).length === 0 && !dropdownToggle.is(e.target) && dropdownToggle.has(e.target).length === 0) {
-          dropdownMenuContent.removeClass('show');
+        if (!dropdownMenu.is(e.target) && dropdownMenu.has(e.target).length === 0 
+          && !dropdownToggle.is(e.target) && dropdownToggle.has(e.target).length === 0) {
+          dropdownMenuContent.removeClass(SHOW_CLASS);
         }
       });
     });

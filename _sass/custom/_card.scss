@@ -356,6 +356,12 @@
         }
     }
 
+    .banner {
+        img {
+            border-radius: $border-radius !important;
+        }
+    }
+
     .card-title {
         margin-top: 0;
     }
