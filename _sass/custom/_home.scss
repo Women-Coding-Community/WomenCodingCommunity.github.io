@@ -87,4 +87,10 @@
             }
         }
     }
+
+    .partner {
+        .card-mission {
+            flex-direction: row-reverse;
+        }
+    }
 }
