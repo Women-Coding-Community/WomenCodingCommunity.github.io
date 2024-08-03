@@ -33,6 +33,8 @@
     path: https://www.meetup.com/women-coding-community/events/300906339
     title: View meetup event
     target: _blank
+  resources:
+    youtube: https://youtu.be/Kc5hIYvqiUg
 
 - title: |
     Writing Club with Women Coding Community
@@ -127,6 +129,7 @@
     target: _blank
   resources:
     presentation: /assets/resources/events/tech-talk-170724.pdf
+    youtube: https://youtu.be/jD-53z8rn0A
 
 - title: |
     Building Confidence in the Workplace
