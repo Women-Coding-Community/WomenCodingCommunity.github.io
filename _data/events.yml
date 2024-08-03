@@ -1,13 +1,13 @@
 - title: |
     Book Club: The Pragmatic Programmer
-  description: | 
+  description: |
     Join us for a discussion of this essential guide to writing clear and maintainable code. We recommend that our attendees read the book before the event, however you are welcome to join us, even if you have only read the first chapter. The more, the merrier!
-  category: category-book-club
+  category: book-club
   category_name: Book Club
   date: THU, MAY 30, 2024
   expiration: "20240530"
   host: "Silke Nodwell and Irina Kamalova"
-  time: 8:00 PM to 9:30 PM CEST
+  time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-book-club-053024.jpeg"
     alt: The Pragmatic Programmer book cover
@@ -18,14 +18,14 @@
 
 - title: |
     Getting Started with IaC - An Intro to Terraform
-  description: | 
+  description: |
     Join Women Coding Community for an introductory session on Infrastructure-as-code (IaC) and Terraform with speaker Sonali Goel, Senior/Lead Engineer at Yoox-Net-a-porter. Whether you're a seasoned developer, a systems administrator, or just curious about cloud infrastructure, this talk is designed to equip you with the knowledge to start using Terraform effectively.
-  category: category-tech-talk
+  category: tech-talk
   category_name: Tech Talk
   date: THU, JUN 6, 2024
   expiration: "20240606"
   speaker: "Sonali Goel, Senior/Lead Engineer"
-  time: 8:00 PM to 9:30 PM CEST
+  time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-tech-talk-060624.jpeg"
     alt: Speaker of event
@@ -36,9 +36,9 @@
 
 - title: |
     Writing Club with Women Coding Community
-  description: | 
+  description: |
     We are excited to announce our first Writing Club session as a part of Women Coding Community! Whether you are a professional writer, enthusiast or just trying it out we aim at providing you with a platform for growth and improvement in your writing skills.
-  category: category-writing-club
+  category: writing-club
   category_name: Writing Club
   date: THU, JUN 13, 2024
   expiration: "20240613"
@@ -54,15 +54,15 @@
 
 - title: |
     Polars: A Powerful Alternative To Pandas
-  description: | 
+  description: |
     Pandas has long been the go-to library for data manipulation and analysis in Python, but Polars has emerged as a powerful alternative.
-    In this session we will discuss the strengths and weaknesses of both libraries, providing a detailed comparative analysis. 
-  category: category-tech-talk
+    In this session we will discuss the strengths and weaknesses of both libraries, providing a detailed comparative analysis.
+  category: tech-talk
   category_name: Tech Talk
   date: WED, JUL 3, 2024
   expiration: "20240703"
   speaker: "Lasha Dolenjashvili, Data Solutions Architect"
-  time: 8:00 PM to 9:30 PM CEST
+  time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-tech-talk-030724.jpg"
     alt: Square poster of event
@@ -73,14 +73,14 @@
 
 - title: |
     Coding Club with Women Coding Community
-  description: | 
+  description: |
     We are excited to announce our first Coding Club session as a part of Women Coding Community! The first session will cover the following topics: The origins of Python and Recommendations on which version of Python to install.
-  category: category-coding-club
+  category: coding-club
   category_name: Coding Club
   date: THU, JUL 4, 2024
   expiration: "20240704"
   host: "Nonna Shakhova and Irina Kamalova"
-  time: 8:00 PM to 10:0 PM CEST
+  time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-coding-club.jpg"
     alt: Square poster of event
@@ -91,14 +91,14 @@
 
 - title: |
     Writing Club with Women Coding Community
-  description: | 
+  description: |
     We are excited to continue with our Writing Club sessions as a part of Women Coding Community! Join our July session!
-  category: category-writing-club
+  category: writing-club
   category_name: Writing Club
   date: THU, JUL 11, 2024
   expiration: "20240711"
   host: "Julia Babahina and Irina Kamalova"
-  time: 8:00 PM to 9:00 PM CEST
+  time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-writing-club.jpeg"
     alt: Square poster of event
@@ -109,15 +109,15 @@
 
 - title: |
     Getting started with FaaS: An introduction to AWS Lambda
-  description: | 
+  description: |
     Join Women Coding Community for an introductory session on serverless computing, with main focus on AWS Lambda for Function As A Service (FaaS).
     Don't miss this opportunity to dive into the world of serverless architecture and elevate your tech skills!
-  category: category-tech-talk
+  category: tech-talk
   category_name: Tech Talk
   date: WED, JUL 17, 2024
   expiration: "20240717"
   speaker: "Madhura Chaganty, Engineering Manager"
-  time: 8:00 PM to 10:00 PM CEST
+  time: 7:00 PM to 9:00 PM BST
   image:
     path: "/assets/images/events/event-tech-talk-170724.jpeg"
     alt: Speaker of event
@@ -130,14 +130,14 @@
 
 - title: |
     Building Confidence in the Workplace
-  description: | 
+  description: |
     Join Women Coding Community for the great discussion which will provide practical strategies and tips to help you develop and enhance your confidence in the workplace. The aim of the talk is to empower you to feel confident in your abilities, improve your performance and achieve success in your professional and business life!
-  category: category-career-talk
+  category: career-talk
   category_name: Career Talk
   date: TUE, JUL 23, 2024
   expiration: "20240723"
   speaker: "Nadia Edwards-Dashti, Co-Founder of Harrington Starr Group"
-  time: 8:00 PM to 9:30 PM CEST
+  time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-career-talk-130724.jpeg"
     alt: Speaker of event
@@ -148,19 +148,89 @@
 
 - title: |
     Leveraging FaaS: Hands-on Workshop with AWS Lambda Using NodeJS
-  description: | 
+  description: |
     Discover the power of serverless computing with Serverless, AWS, Node.js, Lambda, and API Gateway!
     This hands-on event is perfect for developers and cloud enthusiasts looking to dive into trendy, cloud-agnostic approaches using Function-as-a-Service (FaaS). Gain practical experience and learn how to build scalable, efficient applications without managing servers.
-  category: category-tech-talk
+  category: tech-talk
   category_name: Tech Talk
   date: WED, JUL 31, 2024
   expiration: "20240731"
   speaker: "Rasim Sen, Fullstack Developer/Cloud Architect"
-  time: 8:00 PM to 9:00 PM CEST
+  time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-tech-talk-170731.jpeg"
     alt: square poster of event
   link:
     path: https://www.meetup.com/women-coding-community/events/302062622/
+    title: View meetup event
+    target: _blank
+
+- title: |
+    Kedro: An open-source project for building maintainable data science pipelines
+  description: |
+    Kedro is an open-source Python framework to create reproducible, maintainable, and modular data science code. It uses software engineering best practices to help you build production-ready data science pipelines.
+  category: tech-talk
+  category_name: Tech Talk
+  date: TUE, AUG 13, 2024
+  expiration: "20240813"
+  speaker: "Merel Theisen, Principal Software Engineer"
+  time: 7:00 PM to 8:00 PM BST
+  image:
+    path: "/assets/images/events/event-tech-talk-20240813.png"
+    alt: Merel Theisen profile photo
+  link:
+    path: https://www.meetup.com/women-coding-community/events/301960944/
+    title: View meetup event
+    target: _blank
+
+- title: |
+    Living on the Edge : Understanding Edge Computing on AWS
+  description: |
+    In this final talk of the series on Serverless Computing, we will focus on Edge Computing, understanding AWS Lambda@Edge and Amazon CloudFront Functions. You will learn how to choose between these tools, best practices for their use, and optimal scenarios for leveraging Edge Computing.
+  category: tech-talk
+  category_name: Tech Talk
+  date: TUE, AUG 13, 2024
+  expiration: "20240813"
+  speaker: "Liliia Rafikova, Software Engineer"
+  time: 7:00 PM to 8:00 PM BST
+  image:
+    path: "/assets/images/events/event-tech-talk-20240821.png"
+    alt: Liliia profile image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/302490400/
+    title: View meetup event
+    target: _blank
+
+- title: Volunteer with Women Coding Community
+  description: |
+    Are you passionate about coding and eager to support women in tech? We invite you to join our upcoming online event to learn more about volunteering opportunities with Women Coding Community!
+  category: volunteer
+  category_name: Volunteer
+  date: WED, SEP 04, 2024
+  expiration: "20240904"
+  speaker: "Sonali Goel Senior/Lead Engineer at Yoox-Net-a-porter"
+  time: 7:00 PM to 8:00 PM BST
+  image:
+    path: "/assets/images/events/event-volunteer-20240904.png"
+    alt: square poster of event
+  link:
+    path: https://www.meetup.com/women-coding-community/events/302515055/
+    title: View meetup event
+    target: _blank
+
+- title: Coding Club with Women Coding Community
+  description: |
+    Learn Python 101: In subsequent sessions, we will delve into solving basic algorithmic problems, using "Grokking Algorithms" as our reference book, and thoroughly cover the fundamentals of the language.
+  category: coding-club
+  category_name: Coding Club
+  date: WED, SEP 05, 2024
+  expiration: "20240905"
+  speaker: "Nonna Shakhova, Cloud Data Engineer"
+  time: 7:00 PM to 8:00 PM BST
+  image:
+    path: "/assets/images/events/event-coding-club-3.jpg"
+    alt: square poster of event
+  link:
+    path: https://www.meetup.com/women-coding-community/events/302515055/
     title: View meetup event
     target: _blank
