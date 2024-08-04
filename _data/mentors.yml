@@ -171,7 +171,7 @@
 
 - name: Ken Pemberton
   disabled: false
-  sort: 200
+  sort: 100
   hours: 4
   type: both
   index: 6
@@ -263,7 +263,7 @@
 
 - name: Julia Babahina
   disabled: false
-  sort: 200
+  sort: 100
   hours: 4
   position: Lead Risk Management Specialist, Swift
   type: Both
@@ -292,7 +292,7 @@
 
 - name: Hersi Kopani
   disabled: false
-  sort: 200
+  sort: 100
   hours: 5
   position: Senior Software Engineer, Walgreens Boots Alliance
   type: both
@@ -369,7 +369,7 @@
 
 - name: Adegbenga Agoro
   disabled: false
-  sort: 200
+  sort: 100
   hours: 4
   position: CTO, ZeroComplex AI
   type: both
@@ -402,7 +402,7 @@
 
 - name: Ana Nogal
   disabled: false
-  sort: 200
+  sort: 100
   hours: 2
   position: Senior iOS Developer, Novoda
   type: both
@@ -599,7 +599,7 @@
 
 - name: Mona Ahluwalia
   disabled: false
-  sort: 200
+  sort: 100
   hours: 5
   position:  Talent Director, Chapter 2 
   type: ad-hoc
@@ -719,7 +719,7 @@
 
 - name: Nonna Shakhova
   disabled: false
-  sort: 200
+  sort: 100
   hours: 4
   position: Data Engineer, Kindred Group
   type: both
@@ -1003,7 +1003,7 @@
 - name: Liliia Rafikova
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   hours: 5
   type: both
   index: 32
@@ -1166,7 +1166,7 @@
 
 - name: Rasim Sen
   disabled: false
-  sort: 200
+  sort: 100
   hours: 4
   position: Fullstack Developer/Cloud Architect, Eurostar
   type: both
@@ -1201,7 +1201,7 @@
 - name: Jyoti Yadav
   disabled: false
   matched: false
-  sort: 300
+  sort: 100
   hours: 5
   type: both
   index: 38
@@ -1468,7 +1468,7 @@
 - name: Anahi Gaetan
   disabled: false
   matched: false
-  sort: 300
+  sort: 200
   hours: 5
   type: both
   index: 45

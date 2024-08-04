@@ -57,3 +57,12 @@
     - title: |
         The Phoenix Project by Gene Kim, Kevin Behr, and George Spafford
       comments: The book is written as a novel and focuses on how to improve company processes using DevOps.
+
+- index: 43 # mentor id 43 - Olga
+  books:
+    - title: Designing Machine Learning Systems
+      link: https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/
+    - title: Machine Learning System Design Interview
+      link: https://www.amazon.co.uk/Machine-Learning-System-Design-Interview/dp/1736049127
+    - title: Designing Data-Intensive Applications
+      link: https://dataintensive.net/

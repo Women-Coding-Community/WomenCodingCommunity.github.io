@@ -25,7 +25,7 @@ body_class: page search-page list-page-mentors
                 {% if mentor.disabled %}
                     <div class="inactive-mentor" id="mentor-card-{{mentor.index}}"></div>
                 {% else %}
-                    <div class="card card-mentor" id="mentor-card-{{mentor.index}}">
+                    <div class="card card-mentor" id="mentor-card-{{mentor.index}}" data-index="{{mentor.index}}">
                         <div class="row col-12">
                             <div class="card-media col-md-3">
                                 <img src="{{mentor.image}}" alt="mentor headshot">
