@@ -34,6 +34,7 @@
     title: View meetup event
     target: _blank
   resources:
+    presentation: /assets/resources/events/tech-talk-060624.pdf
     youtube: https://youtu.be/Kc5hIYvqiUg
 
 - title: |
@@ -148,6 +149,8 @@
     path: https://www.meetup.com/women-coding-community/events/301301532/
     title: View meetup event
     target: _blank
+  resources:
+    youtube: https://youtu.be/lbO_icgJGME
 
 - title: |
     Leveraging FaaS: Hands-on Workshop with AWS Lambda Using NodeJS
