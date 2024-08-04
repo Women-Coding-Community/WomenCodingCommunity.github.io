@@ -13,8 +13,8 @@ body_class: page page-programme page-book-club
                     diverse selection of tech books and essential soft skills topics.</p>
                 <p>The book club meets monthly to share views, exchange ideas, and inspire personal and professional
                     growth.</p>
-                <p>Join our <a href="https://womencodingcommunity.slack.com/archives/C06VB4MH17G" target="_blank">slack
-                    channel #prog_book_club</a> to be part of this vibrant community.</p>
+                <p>Join our <a href="{{site.slack_channel}}/C06VB4MH17G" target="_blank">slack
+                        channel #prog_book_club</a> to be part of this vibrant community.</p>
             </section>
         </div>
     </div>
@@ -27,17 +27,17 @@ body_class: page page-programme page-book-club
         <div class="row-content col-12 px-0">
             {% for book in site.data.book_club %}
             {% if book.status == 'reading' %}
-                <div class="card-book-club card card-l card-horizontal">
-                    <div class="card-body col-12 col-md-8">
-                        <h3 class="card-title">{{book.title}}</h3>
-                        <h4>{{book.author}}</h4>
-                        <p>{{book.description}}</p>
-                        <a href={{book.link}} class="btn btn-outline-primary" target="_blank">View book on goodreads</a>    
-                    </div>
-                    <div class="card-media col-12 col-md-4">
-                        <img src="./assets/images/events/event-book-club-053024.jpeg" alt="book cover">
-                    </div>
+            <div class="card-book-club card card-l card-horizontal">
+                <div class="card-body col-12 col-md-8">
+                    <h3 class="card-title">{{book.title}}</h3>
+                    <h4>{{book.author}}</h4>
+                    <p>{{book.description}}</p>
+                    <a href={{book.link}} class="btn btn-outline-primary" target="_blank">View book on goodreads</a>
                 </div>
+                <div class="card-media col-12 col-md-4">
+                    <img src="./assets/images/events/event-book-club-053024.jpeg" alt="book cover">
+                </div>
+            </div>
             {% endif %}
             {% endfor %}
         </div>
