@@ -8,11 +8,18 @@ const eventsScript = (function(jQuery) {
     const today = new Date().toISOString().slice(0, 10).replace(/-/g, '');
 
     const showFeaturedEvents = function() {
-        const sortedEventsAscending = jQuery('#featured-events .event-card');
-
-        sortedEventsAscending.sort(function(a, b) {
+        const sortedEventsAscending = jQuery('#featured-events .event-card').sort(function(a, b) {
             return jQuery(a).data('expiration') - jQuery(b).data('expiration');
         });
+        
+        const upcomingEvents = sortedEventsAscending.filter(function() {
+            return jQuery(this).data('expiration') >= today;
+        });
+
+        if(upcomingEvents.length === 0) {
+            jQuery('#featured-events-container').addClass(CLASS_HIDDEN);
+            return;
+        };
 
         let validEventCount = 0;
         sortedEventsAscending.each(function() {
