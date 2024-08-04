@@ -11,7 +11,13 @@
         <ul class="book-recommendations">
             {% for book in books %}
             <li class="book">
-                <h6>{{ book.title }}</h6>
+                {% if book.link %}
+                    <a class="book-link" href="{{book.link}}" target="_blank">
+                        <h6>{{ book.title }}</h6>
+                    </a>
+                {% else %}
+                    <h6>{{ book.title }}</h6>
+                {% endif %}
                 <p>{{ book.comments }}</p>
             </li>
             {% endfor %}

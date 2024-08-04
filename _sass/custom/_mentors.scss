@@ -133,12 +133,22 @@
                 font-weight: bold;
                 margin-bottom: 0.25rem;
             }
+
             p {
                 font-size: 1rem;
                 margin-bottom: 0;
             }
+
             .book {
                 margin: 1.25rem auto;
+            }
+
+            .book-link {
+                cursor: pointer;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
 
