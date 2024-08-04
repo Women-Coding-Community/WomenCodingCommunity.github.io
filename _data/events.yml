@@ -2,7 +2,7 @@
     Book Club: The Pragmatic Programmer
   description: |
     Join us for a discussion of this essential guide to writing clear and maintainable code. We recommend that our attendees read the book before the event, however you are welcome to join us, even if you have only read the first chapter. The more, the merrier!
-  category: book-club
+  category_style: book-club
   category_name: Book Club
   date: THU, MAY 30, 2024
   expiration: "20240530"
@@ -20,7 +20,7 @@
     Getting Started with IaC - An Intro to Terraform
   description: |
     Join Women Coding Community for an introductory session on Infrastructure-as-code (IaC) and Terraform with speaker Sonali Goel, Senior/Lead Engineer at Yoox-Net-a-porter. Whether you're a seasoned developer, a systems administrator, or just curious about cloud infrastructure, this talk is designed to equip you with the knowledge to start using Terraform effectively.
-  category: tech-talk
+  category_style: tech-talk
   category_name: Tech Talk
   date: THU, JUN 6, 2024
   expiration: "20240606"
@@ -40,7 +40,7 @@
     Writing Club with Women Coding Community
   description: |
     We are excited to announce our first Writing Club session as a part of Women Coding Community! Whether you are a professional writer, enthusiast or just trying it out we aim at providing you with a platform for growth and improvement in your writing skills.
-  category: writing-club
+  category_style: writing-club
   category_name: Writing Club
   date: THU, JUN 13, 2024
   expiration: "20240613"
@@ -59,7 +59,7 @@
   description: |
     Pandas has long been the go-to library for data manipulation and analysis in Python, but Polars has emerged as a powerful alternative.
     In this session we will discuss the strengths and weaknesses of both libraries, providing a detailed comparative analysis.
-  category: tech-talk
+  category_style: tech-talk
   category_name: Tech Talk
   date: WED, JUL 3, 2024
   expiration: "20240703"
@@ -77,7 +77,7 @@
     Coding Club with Women Coding Community
   description: |
     We are excited to announce our first Coding Club session as a part of Women Coding Community! The first session will cover the following topics: The origins of Python and Recommendations on which version of Python to install.
-  category: coding-club
+  category_style: coding-club
   category_name: Coding Club
   date: THU, JUL 4, 2024
   expiration: "20240704"
@@ -95,7 +95,7 @@
     Writing Club with Women Coding Community
   description: |
     We are excited to continue with our Writing Club sessions as a part of Women Coding Community! Join our July session!
-  category: writing-club
+  category_style: writing-club
   category_name: Writing Club
   date: THU, JUL 11, 2024
   expiration: "20240711"
@@ -114,7 +114,7 @@
   description: |
     Join Women Coding Community for an introductory session on serverless computing, with main focus on AWS Lambda for Function As A Service (FaaS).
     Don't miss this opportunity to dive into the world of serverless architecture and elevate your tech skills!
-  category: tech-talk
+  category_style: tech-talk
   category_name: Tech Talk
   date: WED, JUL 17, 2024
   expiration: "20240717"
@@ -135,7 +135,7 @@
     Building Confidence in the Workplace
   description: |
     Join Women Coding Community for the great discussion which will provide practical strategies and tips to help you develop and enhance your confidence in the workplace. The aim of the talk is to empower you to feel confident in your abilities, improve your performance and achieve success in your professional and business life!
-  category: career-talk
+  category_style: career-talk
   category_name: Career Talk
   date: TUE, JUL 23, 2024
   expiration: "20240723"
@@ -154,7 +154,7 @@
   description: |
     Discover the power of serverless computing with Serverless, AWS, Node.js, Lambda, and API Gateway!
     This hands-on event is perfect for developers and cloud enthusiasts looking to dive into trendy, cloud-agnostic approaches using Function-as-a-Service (FaaS). Gain practical experience and learn how to build scalable, efficient applications without managing servers.
-  category: tech-talk
+  category_style: tech-talk
   category_name: Tech Talk
   date: WED, JUL 31, 2024
   expiration: "20240731"
@@ -172,7 +172,7 @@
     Kedro: An open-source project for building maintainable data science pipelines
   description: |
     Kedro is an open-source Python framework to create reproducible, maintainable, and modular data science code. It uses software engineering best practices to help you build production-ready data science pipelines.
-  category: tech-talk
+  category_style: tech-talk
   category_name: Tech Talk
   date: TUE, AUG 13, 2024
   expiration: "20240813"
@@ -190,7 +190,7 @@
     Living on the Edge : Understanding Edge Computing on AWS
   description: |
     In this final talk of the series on Serverless Computing, we will focus on Edge Computing, understanding AWS Lambda@Edge and Amazon CloudFront Functions. You will learn how to choose between these tools, best practices for their use, and optimal scenarios for leveraging Edge Computing.
-  category: tech-talk
+  category_style: tech-talk
   category_name: Tech Talk
   date: TUE, AUG 13, 2024
   expiration: "20240813"
@@ -207,7 +207,7 @@
 - title: Volunteer with Women Coding Community
   description: |
     Are you passionate about coding and eager to support women in tech? We invite you to join our upcoming online event to learn more about volunteering opportunities with Women Coding Community!
-  category: volunteer
+  category_style: volunteer
   category_name: Volunteer
   date: WED, SEP 04, 2024
   expiration: "20240904"
@@ -224,7 +224,7 @@
 - title: Coding Club with Women Coding Community
   description: |
     Learn Python 101: In subsequent sessions, we will delve into solving basic algorithmic problems, using "Grokking Algorithms" as our reference book, and thoroughly cover the fundamentals of the language.
-  category: coding-club
+  category_style: coding-club
   category_name: Coding Club
   date: WED, SEP 05, 2024
   expiration: "20240905"
