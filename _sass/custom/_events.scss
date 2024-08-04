@@ -70,16 +70,22 @@
             margin-bottom: 0.4rem;
         }
 
-        .category-book-club , .category-writing-club, .category-coding-club {
+        .book-club , .writing-club, .coding-club {
             .card-category {
                 background: $tertiary-90;
             }
         }
 
-        .category-tech-talk, .category-career-talk {
+        .tech-talk, .career-talk {
             .card-category {
                 background: $primary;
                 color: $white;
+            }
+        }
+
+        .volunteer, .other {
+            .card-category {
+                background: $coral-80;
             }
         }
     }

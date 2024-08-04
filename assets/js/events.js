@@ -8,14 +8,21 @@ const eventsScript = (function(jQuery) {
     const today = new Date().toISOString().slice(0, 10).replace(/-/g, '');
 
     const showFeaturedEvents = function() {
-        const events = jQuery('#featured-events .event-card');
-
-        const sortedEvents = events.sort(function(a, b) {
-            return jQuery(b).data('expiration') - jQuery(a).data('expiration');
+        const sortedEventsAscending = jQuery('#featured-events .event-card').sort(function(a, b) {
+            return jQuery(a).data('expiration') - jQuery(b).data('expiration');
+        });
+        
+        const upcomingEvents = sortedEventsAscending.filter(function() {
+            return jQuery(this).data('expiration') >= today;
         });
 
+        if(upcomingEvents.length === 0) {
+            jQuery('#featured-events-container').addClass(CLASS_HIDDEN);
+            return;
+        };
+
         let validEventCount = 0;
-        sortedEvents.each(function() {
+        sortedEventsAscending.each(function() {
             const expiration = jQuery(this).data('expiration');
             if (expiration >= today) {
                 if (validEventCount < 2) {
@@ -32,7 +39,11 @@ const eventsScript = (function(jQuery) {
     }
 
     const showUpcomingEvents = function() {
-        jQuery('#upcoming-events .event-card').each(function() {
+        const sortedEventsAscending = jQuery('#upcoming-events .event-card').sort(function(a, b) {
+            return jQuery(a).data('expiration') - jQuery(b).data('expiration');
+        });
+
+        sortedEventsAscending.each(function() {
             const expiration = jQuery(this).data('expiration');
             if (expiration < today) {
                 jQuery(this).addClass(CLASS_HIDDEN);
@@ -47,7 +58,11 @@ const eventsScript = (function(jQuery) {
     }
 
     const showPastEvents = function() {
-        jQuery('#past-events .event-card').each(function() {
+        const sortedEventsDescending = jQuery('#past-events .event-card').sort(function(a, b) {
+            return jQuery(b).data('expiration') - jQuery(a).data('expiration');
+        });
+
+        sortedEventsDescending.each(function() {
             const expiration = jQuery(this).data('expiration');
             if (expiration >= today) {
                 jQuery(this).addClass(CLASS_HIDDEN);

@@ -36,13 +36,13 @@
     }   
     
     .event {
-        &.category-book-club, &.category-writing-club, &.category-coding-club {
+        &.book-club, &.writing-club, &.coding-club {
             border: none;
             background: $tertiary-90;
             color: $primary-30;
         }
     
-        &.category-tech-talk, &.category-career-talk {
+        &.tech-talk, &.career-talk {
             border: none;
             background: $primary;
             color: $white;
@@ -55,6 +55,12 @@
                     color: $primary;
                 }
             }
+        }
+
+        &.volunteer, &.other {
+            border: none;
+            background: $coral-80;
+            color: $primary-30;
         }
     }    
 
