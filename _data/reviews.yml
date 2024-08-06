@@ -105,3 +105,37 @@
         Thanks to the session, I now have at least one actionable to-do, and I look forward to building a steady and long-term mentoring relationship with her.
       name: Airat Yusuff
       type: Ad-Hoc
+
+- index: 2 # Rajani
+  feedback:
+    - score: 5
+      date: 20240805
+      date-f: 05 August 2024
+      feedback: |
+        Rajani is very insightful and she has a lot of experience. She shares good energy and has had me a very positive impact in my private and professional life. Thanks to my mentor and to this program that give me a lot of inspiration.
+      name: Adriana
+      type: Long Term Mentorship
+
+- index: 11 # Ying
+  feedback:
+    - score: 5
+      date: 20240805
+      date-f: 05 August 2024
+      feedback: |
+        As a Head of AI for a startup and an experienced researcher, Ying has a solid experience in identifying what it takes to succeed in the AI industry as a research scientist. Her knowledge in AI skill sets and how to present oneself as a unique candidate in this incredibly competitive job market is invaluable for anyone who's new to the AI industry and interested to make a transition into an AI career.
+      name: Vivien Siew
+      type: Long Term Mentorship
+
+- index: 5 # Stephanie
+  feedback:
+    - score: 5
+      date: 20240805
+      date-f: 05 August 2024
+      feedback: |
+        I really enjoyed my first experience with a mentor. I had Stephanie as my mentor, and I chose her because of her experience in frontend development and her unique perspective from having changed careers. She's always willing to help, providing valuable resources and advice, and she was always available for a chat when I needed it.
+
+        Stephanie is very knowledgeable about frontend topics and taught me several important aspects to consider when working as a frontend developer that I had never thought about. What I found particularly important was her support when I felt down or less positive. She always encouraged me and made me feel motivated to continue.
+
+        Overall, I think she was a great match for me. I have gained valuable learning from her, and it has been a great experience that contributed significantly to my growth on this journey.
+      name: Joana
+      type: Long Term Mentorship
