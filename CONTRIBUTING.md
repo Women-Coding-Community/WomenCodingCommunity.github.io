@@ -24,13 +24,13 @@ If you have resources you would like to share from your event or resources you t
 **2.** Clone your new fork of the repository in the terminal/CLI on your computer with the following command:
 
 ```bash
-git clone https://github.com/<your-github-username>/london
+git clone https://github.com/<your-github-username>/WomenCodingCommunity.github.io
 ```
 
 **3.** Navigate to the newly created LinkFree project directory:
 
 ```bash
-cd london
+cd WomenCodingCommunity.github.io
 ```
 
 
