@@ -21,3 +21,16 @@
 - title: Leetcode
   icon: code_blocks
   url: "/program-interview-preparation#leetcode"
+
+- title: Writing club
+  icon: book_4
+  url: "/program-other-programme#writing-club"
+
+- title: Speaking club
+  icon: group
+  url: "/program-other-programme#speaking-club"
+
+- title: Coding club
+  icon: code_blocks
+  url: "/program-interview-preparation#coding-club"
+
