@@ -1,0 +1,78 @@
+- category: Online Event
+  category_name: Online Event
+  date: Tue, Aug 13, 2024
+  description: "Kedro is an open-source Python framework to create reproducible, maintainable,\
+    \ and modular data science code. It uses software engineering best practices to\
+    \ help you build production-ready data science pipelines.\nSchedule:\n\u23F0 19:00\
+    \ - 19:15 Intro to Women Coding Community\n\u23F0 19:15 - 19:45: Talk by Merel\
+    \ Theisen\n\u23F0 19:45 - 20:00: Q&A"
+  expiration: '20240813'
+  host: Silke Nodwell and Irina Kamalova
+  image:
+    alt: 'Kedro: An open-source project for building maintainable data science pipelines
+      cover photo'
+    path: https://secure.meetupstatic.com/photos/event/6/4/c/e/event_522085806.webp
+  link:
+    path: https://meetup.com/women-coding-community/events/301960944/?eventOrigin=group_events_list
+    target: _target
+    title: 'Kedro: An open-source project for building maintainable data science pipelines'
+  speaker: Merel Theisen
+  time: 6:00 PM UTC
+  title: 'Kedro: An open-source project for building maintainable data science pipelines'
+- category: Online Event
+  category_name: Online Event
+  date: Wed, Aug 21, 2024
+  description: "In this final talk of the series on Serverless Computing, we will\
+    \ focus on Edge Computing, understanding AWS Lambda@Edge and Amazon CloudFront\
+    \ Functions. You will learn how to choose between these tools, best practices\
+    \ for their use, and optimal scenarios for leveraging Edge Computing.\nSchedule:\n\
+    \u23F0 19:00 \u2013 19:10 Introduction to Women Coding Community\n\u23F0 19:10\
+    \ \u2013 19:50 Talk on Living on the Edge by Liliia Rafikova\n\u23F0 19:50 \u2013\
+    \ 20:00 Q&A"
+  expiration: '20240821'
+  host: Madhura Chaganty
+  image:
+    alt: 'Living on the Edge : Understanding Edge Computing on AWS cover photo'
+    path: https://secure.meetupstatic.com/photos/event/a/b/8/6/event_522583910.webp
+  link:
+    path: https://meetup.com/women-coding-community/events/302490400/?eventOrigin=group_events_list
+    target: _target
+    title: 'Living on the Edge : Understanding Edge Computing on AWS'
+  speaker: Liliia Rafikova
+  time: 6:00 PM UTC
+  title: 'Living on the Edge : Understanding Edge Computing on AWS'
+- category: Online Event
+  category_name: Online Event
+  date: Wed, Sep 4, 2024
+  description: "\U0001F31F Are you passionate about coding and eager to support women\
+    \ in tech? We invite you to join our upcoming online event to learn more about\
+    \ volunteering opportunities with Women Coding Community! \U0001F31F"
+  expiration: '20240904'
+  host: Sonali Goel
+  image:
+    alt: Volunteer with Women Coding Community cover photo
+    path: https://secure.meetupstatic.com/photos/event/3/b/2/d/event_522615149.webp
+  link:
+    path: https://meetup.com/women-coding-community/events/302515055/?eventOrigin=group_events_list
+    target: _target
+    title: Volunteer with Women Coding Community
+  speaker: Liliia Rafikova
+  time: 6:00 PM UTC
+  title: Volunteer with Women Coding Community
+- category: Online Event
+  category_name: Online Event
+  date: Thu, Sep 5, 2024
+  description: We are excited to announce our next Coding Club session as a part of
+    Women Coding Community!
+  expiration: '20240905'
+  host: Nonna Shakhova
+  image:
+    alt: Coding Club with Women Coding Community  cover photo
+    path: https://secure.meetupstatic.com/photos/event/1/7/b/a/event_522666074.webp
+  link:
+    path: https://meetup.com/women-coding-community/events/302579035/?eventOrigin=group_events_list
+    target: _target
+    title: Coding Club with Women Coding Community
+  speaker: Liliia Rafikova
+  time: 6:00 PM UTC
+  title: Coding Club with Women Coding Community
