@@ -190,13 +190,13 @@
     target: _blank
 
 - title: |
-    Living on the Edge : Understanding Edge Computing on AWS
+    Living on the Edge: Understanding Edge Computing on AWS
   description: |
     In this final talk of the series on Serverless Computing, we will focus on Edge Computing, understanding AWS Lambda@Edge and Amazon CloudFront Functions. You will learn how to choose between these tools, best practices for their use, and optimal scenarios for leveraging Edge Computing.
   category_style: tech-talk
   category_name: Tech Talk
-  date: TUE, AUG 13, 2024
-  expiration: "20240813"
+  date: TUE, AUG 21, 2024
+  expiration: "20240821"
   speaker: "Liliia Rafikova, Software Engineer"
   time: 7:00 PM to 8:00 PM BST
   image:
