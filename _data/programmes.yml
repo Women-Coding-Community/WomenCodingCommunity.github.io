@@ -8,29 +8,29 @@
 
 - title: Book club
   icon: book_4
-  url: "/program-book-club"
+  url: "/programme-book-club"
 
 - title: CV clinic
   icon: work
-  url: "/program-interview-preparation#cv-clinic"
+  url: "/programme-interview-preparation#cv-clinic"
 
 - title: Mock interviews
   icon: group
-  url: "/program-interview-preparation#mock-interviews"
+  url: "/programme-interview-preparation#mock-interviews"
 
 - title: Leetcode
   icon: code_blocks
-  url: "/program-interview-preparation#leetcode"
+  url: "/programme-interview-preparation#leetcode"
 
 - title: Writing club
   icon: book_4
-  url: "/program-other-programme#writing-club"
+  url: "/programme-other-programmes#writing-club"
 
 - title: Speaking club
   icon: group
-  url: "/program-other-programme#speaking-club"
+  url: "/programme-other-programmes#speaking-club"
 
 - title: Coding club
   icon: code_blocks
-  url: "/program-interview-preparation#coding-club"
+  url: "/programme-other-programmes#coding-club"
 
