@@ -33,17 +33,22 @@
   index: 2
   subfolderitems:
     - page: Book Club
-      url: program-book-club
+      url: programme-book-club
       breadcrumbs: 
         - name: Programmes
           link: 
     - page: Interview Preparation
-      url: program-interview-preparation
+      url: programme-interview-preparation
       breadcrumbs: 
         - name: Programmes
           link: 
     - page: Study Groups
-      url: program-study-group
+      url: programme-study-group
+      breadcrumbs: 
+        - name: Programmes
+          link: 
+    - page: Other Programmes
+      url: other-programmes
       breadcrumbs: 
         - name: Programmes
           link: 
