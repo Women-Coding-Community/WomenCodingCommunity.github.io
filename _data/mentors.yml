@@ -1497,3 +1497,40 @@
       Preparation for technical interview to get your first Front-End job
   network:
   - linkedin: https://www.linkedin.com/in/anagdev/
+
+- name: Paula Kennedy
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 2
+  type: both
+  index: 46
+  location: London, UK
+  position: Chief Operating Officer, Syntasso
+  bio: |
+    I am currently Co-Founder and Chief Operating Officer of Syntasso; my previous roles include Senior Director of Tanzu Global Education at VMware, Senior Director of Platform Services EMEA at Pivotal and Co-Founder & Chief Operating Officer of CloudCredo. 
+    I've been working in the IT industry for over 20 years and am passionate about community, diversity and inclusion. I have a range of speaking experience including DevOpsDays, DevOps Enterprise Summit, Velocity Conference, QCon and the LeadDev conference.
+    I also enjoy giving back to the community and I am part of the organising committee for Kubernetes Community Days UK and DevOps Days London, and I also organise the London Platform User Group.
+  image: 'assets/images/mentors/paula_kennedy.jpeg'
+  languages: English
+  availability: [9, 10, 11]
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: |
+      I'm looking to help anyone who is looking to get more involved in public speaking and getting more engaged in the tech community. I'm also keen to help mentees who are considering founding their own start-up or are looking to take on a senior leadership role.
+    areas:
+    - Engineering management
+    - Product Management
+    - Site Reliability Engineering
+    languages: ''
+    focus:
+    - Grow beyond senior level
+    - Switch from IC to management position
+    - Change specialisation within IT
+    - Grow from beginner to mid-level
+    - Switch career to IT
+    extra: |
+      Leadership Skills, Community Work, Founder Skills, Public Speaking Advice
+  network:
+  - linkedin: https://www.linkedin.com/in/paulalkennedy/
