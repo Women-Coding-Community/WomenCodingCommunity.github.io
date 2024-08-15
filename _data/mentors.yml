@@ -1535,7 +1535,7 @@
   network:
   - linkedin: https://www.linkedin.com/in/paulalkennedy/
 
-- name: Mena esezobor
+- name: Mena Esezobor
   disabled: false
   matched: false
   sort: 200
