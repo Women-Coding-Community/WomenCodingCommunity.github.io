@@ -1534,3 +1534,79 @@
       Leadership Skills, Community Work, Founder Skills, Public Speaking Advice
   network:
   - linkedin: https://www.linkedin.com/in/paulalkennedy/
+
+- name: Mena esezobor
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 2
+  type: both
+  index: 47
+  location: Birmingham, United Kingdom
+  position: Software engineer, GallagherRe
+  bio: |
+    I am a software Engineer and I thrive on mastering the intricacies of C#, .NET, .NET Core,
+    JavaScript, TypeScript, Angular, Jasmine, React, Vue and Unit Testing. My foundation in computing, algorithm design, and development
+    techniques fuels my passion for staying ahead of the curve in software engineering trends. Beyond honing my skills, I find fulfillment in mentoring aspiring tech professionals, guiding them as they navigate their entry into the tech industry.
+  image: 'assets/images/mentors/mena_esezobor.jpg'
+  languages: English
+  availability: [9, 10, 11]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      I am looking for a mentee that has a positive outlook and is eager to learn. They are also open to being challenged and stepping outside their comfort zone.
+    areas:
+    - Frontend Developer
+    - Fullstack Developer
+    - DevOps
+    - Data Science
+    - Data Engineering
+    languages: Javascript, C#, Python, Java, Scala
+    focus:
+    - Grow from mid-level to senior-level
+    - Grow from beginner to mid-level
+    - Grow beyond senior level
+    - Change specialisation within IT
+    - Switch from IC to management position
+    extra: |
+      Software development strategies, career transitions, interview prep, LinkedIn and cv review
+  network:
+  - linkedin: https://www.linkedin.com/in/amenawon-esezobor/
+
+- name: Prerna Singhal
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 4
+  type: both
+  index: 48
+  location: London, United Kingdom
+  position: Senior Software Engineer 2, Hubspot
+  bio: |
+    Currently working as Lead Engineer for Hubspot. I have 12 years for Software development experience (Backend and Fullstack). I have worked with tech giants for 7 years - Microsoft, Expedia, Salesforce and have worked in startup industry for 5 years. Hence i understand working in both in environments. I have worked with wide variety of technologies - Java, AWS, Azure, Python, Distributed systems, Scaling applications.
+  image: 'assets/images/mentors/prerna_singhal.jpg'
+  languages: English
+  availability: [9, 10, 11]
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      One who wants to transition from junior to senior levels.
+    areas:
+    - Backend Developer
+    - Distributed Systems
+    - Fullstack Developer
+    - DevOps
+    - QA
+    languages: Java, C#, Python, Kotlin, Javascript
+    focus:
+    - Grow from mid-level to senior-level
+    - Grow from beginner to mid-level
+    - Switch career to IT
+    - Change specialisation within IT
+    - Grow beyond senior level
+    extra: |
+      Software Development Strategies, Resume Review, Preparation for The Technical Interview, How to grow from junior to lead engineers, Project management
+  network:
+  - linkedin: https://www.linkedin.com/in/prernasinghal90/
