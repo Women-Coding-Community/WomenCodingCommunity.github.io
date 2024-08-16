@@ -40,7 +40,6 @@ class MeetupEvents(BaseModel):
     time: str | None = ""
     image: Image | None
     link: WebLink | None
-    
 
 
 def download_image(image_url: str) -> str:
@@ -138,16 +137,16 @@ def export_to_yaml(upcoming_meetups, yaml_file: str, mode: WriteMode):
             existing_data.extend(meetup_dicts)
 
             with open(yaml_file, "w") as file:
-                yaml.dump(existing_data, file, default_flow_style=False, sort_keys=False), 
+                yaml.dump(existing_data, file, default_flow_style=False, sort_keys=False)
 
         except FileNotFoundError:
             print(f"File '{yaml_file}' not found. Creating a new file.")
             with open(yaml_file, "w") as file:
-                yaml.dump(meetup_dicts, file)
+                yaml.dump(meetup_dicts, file, default_flow_style=False, sort_keys=False)
     if mode == WriteMode.WRITE:
         logging.info("Overriding YML file")
         with open(yaml_file, "w") as file:
-            yaml.dump(meetup_dicts, file)
+            yaml.dump(meetup_dicts, file, default_flow_style=False, sort_keys=False)
     logging.info("Data exported to %s", yaml_file)
 
 
