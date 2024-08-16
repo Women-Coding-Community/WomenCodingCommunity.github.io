@@ -1,78 +1,192 @@
-- category: Online Event
-  category_name: Online Event
-  date: Tue, Aug 13, 2024
-  description: "Kedro is an open-source Python framework to create reproducible, maintainable,\
-    \ and modular data science code. It uses software engineering best practices to\
-    \ help you build production-ready data science pipelines.\nSchedule:\n\u23F0 19:00\
-    \ - 19:15 Intro to Women Coding Community\n\u23F0 19:15 - 19:45: Talk by Merel\
-    \ Theisen\n\u23F0 19:45 - 20:00: Q&A"
-  expiration: '20240813'
-  host: Silke Nodwell and Irina Kamalova
-  image:
-    alt: 'Kedro: An open-source project for building maintainable data science pipelines
-      cover photo'
-    path: https://secure.meetupstatic.com/photos/event/6/4/c/e/event_522085806.webp
-  link:
-    path: https://meetup.com/women-coding-community/events/301960944/?eventOrigin=group_events_list
-    target: _target
-    title: 'Kedro: An open-source project for building maintainable data science pipelines'
-  speaker: Merel Theisen
-  time: 6:00 PM UTC
-  title: 'Kedro: An open-source project for building maintainable data science pipelines'
-- category: Online Event
-  category_name: Online Event
+- title: 'Living on the Edge : Understanding Edge Computing on AWS'
+  description: In this final talk of the series on Serverless Computing, we will focus
+    on Edge Computing, understanding AWS Lambda@Edge and Amazon CloudFront Functions.
+    You will learn how to choose between these tools, best practices for their use,
+    and optimal scenarios for leveraging Edge Computing.
   date: Wed, Aug 21, 2024
-  description: "In this final talk of the series on Serverless Computing, we will\
-    \ focus on Edge Computing, understanding AWS Lambda@Edge and Amazon CloudFront\
-    \ Functions. You will learn how to choose between these tools, best practices\
-    \ for their use, and optimal scenarios for leveraging Edge Computing.\nSchedule:\n\
-    \u23F0 19:00 \u2013 19:10 Introduction to Women Coding Community\n\u23F0 19:10\
-    \ \u2013 19:50 Talk on Living on the Edge by Liliia Rafikova\n\u23F0 19:50 \u2013\
-    \ 20:00 Q&A"
   expiration: '20240821'
   host: Madhura Chaganty
-  image:
-    alt: 'Living on the Edge : Understanding Edge Computing on AWS cover photo'
-    path: https://secure.meetupstatic.com/photos/event/a/b/8/6/event_522583910.webp
-  link:
-    path: https://meetup.com/women-coding-community/events/302490400/?eventOrigin=group_events_list
-    target: _target
-    title: 'Living on the Edge : Understanding Edge Computing on AWS'
   speaker: Liliia Rafikova
   time: 6:00 PM UTC
-  title: 'Living on the Edge : Understanding Edge Computing on AWS'
-- category: Online Event
+  image:
+    path: /assets/images/events/event_522583910.webp
+    alt: 'Living on the Edge : Understanding Edge Computing on AWS cover photo'
+  link:
+    path: https://meetup.com/women-coding-community/events/302490400/?eventOrigin=group_events_list
+    title: 'Living on the Edge : Understanding Edge Computing on AWS'
+    target: _target
+  category: Online Event
   category_name: Online Event
-  date: Wed, Sep 4, 2024
+- title: Volunteer with Women Coding Community
   description: "\U0001F31F Are you passionate about coding and eager to support women\
     \ in tech? We invite you to join our upcoming online event to learn more about\
     \ volunteering opportunities with Women Coding Community! \U0001F31F"
+  date: Wed, Sep 4, 2024
   expiration: '20240904'
   host: Sonali Goel
+  speaker: Liliia Rafikova
+  time: 6:00 PM UTC
   image:
+    path: /assets/images/events/event_522615149.webp
     alt: Volunteer with Women Coding Community cover photo
-    path: https://secure.meetupstatic.com/photos/event/3/b/2/d/event_522615149.webp
   link:
     path: https://meetup.com/women-coding-community/events/302515055/?eventOrigin=group_events_list
-    target: _target
     title: Volunteer with Women Coding Community
-  speaker: Liliia Rafikova
-  time: 6:00 PM UTC
-  title: Volunteer with Women Coding Community
-- category: Online Event
+    target: _target
+  category: Online Event
   category_name: Online Event
-  date: Thu, Sep 5, 2024
+- title: Coding Club with Women Coding Community
   description: We are excited to announce our next Coding Club session as a part of
     Women Coding Community!
+  date: Thu, Sep 5, 2024
   expiration: '20240905'
   host: Nonna Shakhova
-  image:
-    alt: Coding Club with Women Coding Community  cover photo
-    path: https://secure.meetupstatic.com/photos/event/1/7/b/a/event_522666074.webp
-  link:
-    path: https://meetup.com/women-coding-community/events/302579035/?eventOrigin=group_events_list
-    target: _target
-    title: Coding Club with Women Coding Community
   speaker: Liliia Rafikova
   time: 6:00 PM UTC
-  title: Coding Club with Women Coding Community
+  image:
+    path: /assets/images/events/event_522666074.webp
+    alt: Coding Club with Women Coding Community  cover photo
+  link:
+    path: https://meetup.com/women-coding-community/events/302579035/?eventOrigin=group_events_list
+    title: Coding Club with Women Coding Community
+    target: _target
+  category: Online Event
+  category_name: Online Event
+- title: Building REST services with SpringBoot
+  description: This online event will guide developers through the process of building
+    RESTful APIs using Spring Boot and Java, focusing on essential techniques and
+    best practices for scalable service development.
+  date: Tue, Sep 10, 2024
+  expiration: '20240910'
+  host: Sonali Goel
+  speaker: Adriana Zencke Zimmermann
+  time: 7:00 PM UTC
+  image:
+    path: /assets/images/events/event_522905242.webp
+    alt: Building REST services with SpringBoot cover photo
+  link:
+    path: https://meetup.com/women-coding-community/events/302792154/?eventOrigin=group_events_list
+    title: Building REST services with SpringBoot
+    target: _target
+  category: Online Event
+  category_name: Online Event
+- title: 'The Power of NLP: Transforming Text into Actionable Intelligence'
+  description: Natural Language Processing (NLP) is revolutionizing the way we interact
+    with and derive insights from textual data. By harnessing the power of NLP, organizations
+    can transform vast amounts of unstructured text into actionable intelligence,
+    enabling smarter decision-making and more efficient operations. This session explores
+    the fundamentals of NLP, its key techniques such as tokenization, sentiment analysis,
+    and named entity recognition, and real-world applications across various industries.
+    Join us to uncover how NLP is bridging the gap between human language and machine
+    understanding, driving innovation, and unlocking new potentials in the digital
+    age.
+  date: Wed, Oct 2, 2024
+  expiration: '20241002'
+  host: Silke Nodwell and Irina Kamalova
+  speaker: Busra Ecem Sakar
+  time: 6:00 PM UTC
+  image:
+    path: /assets/images/events/event_522793019.webp
+    alt: 'The Power of NLP: Transforming Text into Actionable Intelligence cover photo'
+  link:
+    path: https://meetup.com/women-coding-community/events/302714738/?eventOrigin=group_events_list
+    title: 'The Power of NLP: Transforming Text into Actionable Intelligence'
+    target: _target
+  category: Online Event
+  category_name: Online Event
+- title: 'Living on the Edge : Understanding Edge Computing on AWS'
+  description: In this final talk of the series on Serverless Computing, we will focus
+    on Edge Computing, understanding AWS Lambda@Edge and Amazon CloudFront Functions.
+    You will learn how to choose between these tools, best practices for their use,
+    and optimal scenarios for leveraging Edge Computing.
+  category: Online Event
+  category_name: Online Event
+  date: Wed, Aug 21, 2024
+  expiration: '20240821'
+  host: Madhura Chaganty
+  speaker: Liliia Rafikova
+  time: 6:00 PM UTC
+  image:
+    path: /assets/images/events/event_522583910.webp
+    alt: 'Living on the Edge : Understanding Edge Computing on AWS cover photo'
+  link:
+    path: https://meetup.com/women-coding-community/events/302490400/?eventOrigin=group_events_list
+    title: 'Living on the Edge : Understanding Edge Computing on AWS'
+    target: _target
+- title: Volunteer with Women Coding Community
+  description: "\U0001F31F Are you passionate about coding and eager to support women\
+    \ in tech? We invite you to join our upcoming online event to learn more about\
+    \ volunteering opportunities with Women Coding Community! \U0001F31F"
+  category: Online Event
+  category_name: Online Event
+  date: Wed, Sep 4, 2024
+  expiration: '20240904'
+  host: Sonali Goel
+  speaker: Liliia Rafikova
+  time: 6:00 PM UTC
+  image:
+    path: /assets/images/events/event_522615149.webp
+    alt: Volunteer with Women Coding Community cover photo
+  link:
+    path: https://meetup.com/women-coding-community/events/302515055/?eventOrigin=group_events_list
+    title: Volunteer with Women Coding Community
+    target: _target
+- title: Coding Club with Women Coding Community
+  description: We are excited to announce our next Coding Club session as a part of
+    Women Coding Community!
+  category: Online Event
+  category_name: Online Event
+  date: Thu, Sep 5, 2024
+  expiration: '20240905'
+  host: Nonna Shakhova
+  speaker: Liliia Rafikova
+  time: 6:00 PM UTC
+  image:
+    path: /assets/images/events/event_522666074.webp
+    alt: Coding Club with Women Coding Community  cover photo
+  link:
+    path: https://meetup.com/women-coding-community/events/302579035/?eventOrigin=group_events_list
+    title: Coding Club with Women Coding Community
+    target: _target
+- title: Building REST services with SpringBoot
+  description: This online event will guide developers through the process of building
+    RESTful APIs using Spring Boot and Java, focusing on essential techniques and
+    best practices for scalable service development.
+  category: Online Event
+  category_name: Online Event
+  date: Tue, Sep 10, 2024
+  expiration: '20240910'
+  host: Sonali Goel
+  speaker: Adriana Zencke Zimmermann
+  time: 7:00 PM UTC
+  image:
+    path: /assets/images/events/event_522905242.webp
+    alt: Building REST services with SpringBoot cover photo
+  link:
+    path: https://meetup.com/women-coding-community/events/302792154/?eventOrigin=group_events_list
+    title: Building REST services with SpringBoot
+    target: _target
+- title: 'The Power of NLP: Transforming Text into Actionable Intelligence'
+  description: Natural Language Processing (NLP) is revolutionizing the way we interact
+    with and derive insights from textual data. By harnessing the power of NLP, organizations
+    can transform vast amounts of unstructured text into actionable intelligence,
+    enabling smarter decision-making and more efficient operations. This session explores
+    the fundamentals of NLP, its key techniques such as tokenization, sentiment analysis,
+    and named entity recognition, and real-world applications across various industries.
+    Join us to uncover how NLP is bridging the gap between human language and machine
+    understanding, driving innovation, and unlocking new potentials in the digital
+    age.
+  category: Online Event
+  category_name: Online Event
+  date: Wed, Oct 2, 2024
+  expiration: '20241002'
+  host: Silke Nodwell and Irina Kamalova
+  speaker: Busra Ecem Sakar
+  time: 6:00 PM UTC
+  image:
+    path: /assets/images/events/event_522793019.webp
+    alt: 'The Power of NLP: Transforming Text into Actionable Intelligence cover photo'
+  link:
+    path: https://meetup.com/women-coding-community/events/302714738/?eventOrigin=group_events_list
+    title: 'The Power of NLP: Transforming Text into Actionable Intelligence'
+    target: _target

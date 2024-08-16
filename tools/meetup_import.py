@@ -1,12 +1,13 @@
 import logging
 import sys
 from datetime import datetime
+from enum import Enum
+from urllib.request import urlretrieve
 
 import requests
 import yaml
 from bs4 import BeautifulSoup, Tag
 from pydantic import BaseModel
-from enum import Enum
 
 
 class WriteMode(Enum):
@@ -17,7 +18,7 @@ class WriteMode(Enum):
 
 
 class Image(BaseModel):
-    path: str | None
+    path: str = "/assets/images/events/default.jpg"
     alt: str = "Square poster of event"
 
 
@@ -30,6 +31,8 @@ class WebLink(BaseModel):
 class MeetupEvents(BaseModel):
     title: str
     description: str
+    category: str | None = "Online Event"
+    category_name: str | None = "Online Event"
     date: str
     expiration: str | None = ""
     host: str | None = ""
@@ -37,8 +40,19 @@ class MeetupEvents(BaseModel):
     time: str | None = ""
     image: Image | None
     link: WebLink | None
-    category: str | None = "Online Event"
-    category_name: str | None = "Online Event"
+    
+
+
+def download_image(image_url: str) -> str:
+    """
+    Downloads an image from the given URL and saves it to the '/assets' folder.
+
+    :param image_url: The URL of the image to download.
+    :return: The path of the downloaded image.
+    """
+    image_path = f"/assets/images/events/{image_url.split('/')[-1]}"
+    urlretrieve(image_url, f"..{image_path}")
+    return image_path
 
 
 def get_upcoming_meetups(url: str) -> list[MeetupEvents]:
@@ -78,8 +92,6 @@ def get_upcoming_meetups(url: str) -> list[MeetupEvents]:
                 host = f'{host} and {extract_name(description_div)}'
             if description_div.text.startswith("Speaker:"):
                 speaker = extract_name(description_div)
-            if description_div.text.startswith("Schedule:"):
-                description = description + "\n" + description_div.text
 
         time_element = listing.find("time", class_="text-[#00829B] text-sm font-medium uppercase").text
         if time_element:
@@ -91,9 +103,12 @@ def get_upcoming_meetups(url: str) -> list[MeetupEvents]:
         image_path = listing.find("img").attrs.get("src")
         image_alt = listing.find("img").attrs.get("alt")
 
+        # Download the image from image_path and save it to the '/assets' folder and update the image_path
+        image_path = download_image(image_path)
+
         url = listing.find("a").attrs.get("href")
         upcoming_meetups.append(
-            MeetupEvents(title=title, description=description,
+            MeetupEvents(title=title, description=description.replace("\n", " "),
                          date=date, host=host, speaker=speaker,
                          time=time, expiration=expiration, image=Image(path=image_path, alt=image_alt),
                          link=WebLink(path=url, title=title)))
@@ -123,16 +138,16 @@ def export_to_yaml(upcoming_meetups, yaml_file: str, mode: WriteMode):
             existing_data.extend(meetup_dicts)
 
             with open(yaml_file, "w") as file:
-                yaml.dump(existing_data, file, default_flow_style=False)
+                yaml.dump(existing_data, file, default_flow_style=False, sort_keys=False), 
 
         except FileNotFoundError:
             print(f"File '{yaml_file}' not found. Creating a new file.")
             with open(yaml_file, "w") as file:
-                yaml.dump(meetup_dicts, file, default_flow_style=False)
+                yaml.dump(meetup_dicts, file)
     if mode == WriteMode.WRITE:
         logging.info("Overriding YML file")
         with open(yaml_file, "w") as file:
-            yaml.dump(meetup_dicts, file, default_flow_style=False)
+            yaml.dump(meetup_dicts, file)
     logging.info("Data exported to %s", yaml_file)
 
 
