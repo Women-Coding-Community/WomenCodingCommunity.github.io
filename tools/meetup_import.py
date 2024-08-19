@@ -2,12 +2,60 @@ import logging
 import sys
 from datetime import datetime
 from enum import Enum
+from typing import Optional, Union
 from urllib.request import urlretrieve
 
 import requests
 import yaml
 from bs4 import BeautifulSoup, Tag
 from pydantic import BaseModel
+
+
+class LiteralString(str):
+    pass
+
+
+class QuotedString(str):
+    pass
+
+
+class NoQuoteString(str):
+    pass
+
+
+def literal_string_representer(dumper, data):
+    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='|')
+
+
+def double_quote_representer(dumper, data):
+    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
+
+
+def no_quote(dumper, data):
+    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='')
+
+
+yaml.add_representer(LiteralString, literal_string_representer)
+yaml.add_representer(QuotedString, double_quote_representer)
+yaml.add_representer(NoQuoteString, no_quote)
+
+
+def to_literal_str(data: str) -> Union[LiteralString, str]:
+    special_characters = "!@#$%^&*()-+?_=,<>/:"
+
+    # Pass the string in regex_search
+    if data and ("\n" in data or any(c in special_characters for c in data)):
+        data = data.rstrip()
+        data = f"{data}\n"
+        return LiteralString(data)
+    return data
+
+
+def to_quoted_str(data: str) -> Union[QuotedString, NoQuoteString]:
+    special_characters = "!@#$%^&*()-+?_=,<>/:"
+    if data and ("\n" in data or any(c in special_characters for c in data)):
+        return QuotedString(data)
+    return NoQuoteString(data)
 
 
 class WriteMode(Enum):
@@ -23,7 +71,7 @@ class Image(BaseModel):
 
 
 class WebLink(BaseModel):
-    path: str | None
+    path: Optional[str]
     title: str = "View meetup event"
     target: str = "_target"
 
@@ -31,15 +79,15 @@ class WebLink(BaseModel):
 class MeetupEvents(BaseModel):
     title: str
     description: str
-    category: str | None = "Online Event"
-    category_name: str | None = "Online Event"
+    category: Optional[str] = "Online Event"
+    category_name: Optional[str] = "Online Event"
     date: str
-    expiration: str | None = ""
-    host: str | None = ""
-    speaker: str | None = ""
-    time: str | None = ""
-    image: Image | None
-    link: WebLink | None
+    expiration: Optional[str] = ""
+    host: Optional[str] = ""
+    speaker: Optional[str] = ""
+    time: Optional[str] = ""
+    image: Optional[Image]
+    link: Optional[WebLink]
 
 
 def download_image(image_url: str) -> str:
@@ -114,6 +162,47 @@ def get_upcoming_meetups(url: str) -> list[MeetupEvents]:
     return upcoming_meetups
 
 
+def process_meetup_data(meetup: dict) -> dict:
+    """
+    Process the meetup data to ensure that it is in the correct format for writing to a YAML file.
+    :param meetup: The meetup data to process.
+    :return: The processed meetup data.
+    """
+    meetup["title"] = to_literal_str(meetup["title"])
+    meetup["description"] = to_literal_str(meetup["description"])
+    meetup["expiration"] = QuotedString(meetup["expiration"])
+    if "speaker" in meetup:
+        meetup["speaker"] = QuotedString(meetup["speaker"])
+    if "host" in meetup:
+        meetup["host"] = QuotedString(meetup["host"])
+    if "image" in meetup:
+        if "path" in meetup["image"]:
+            meetup["image"]["path"] = to_quoted_str(meetup["image"]["path"])
+        if "alt" in meetup["image"]:
+            meetup["image"]["alt"] = to_quoted_str(meetup["image"]["alt"])
+    if "link" in meetup and "title" in meetup["link"]:
+        meetup["link"]["title"] = to_quoted_str(meetup["link"]["title"])
+    return meetup
+
+
+def write_yaml_file(file_path, data) -> None:
+    """
+    Writes the given data to a YAML file.
+    
+    :param file_path: The path of the YAML file to write to.
+    :param data: The data to write to the file.
+    :return: None    
+    """
+    try:
+        with open(file_path, "w") as file:
+            for yaml_obj in data:
+                file.write(yaml.dump([yaml_obj], sort_keys=False, width=2000))
+                file.write("\n")
+    except (IOError, yaml.YAMLError) as e:
+        logging.error(f"Error writing to file '{file_path}': {e}")
+        raise
+
+
 def export_to_yaml(upcoming_meetups, yaml_file: str, mode: WriteMode):
     """
     Appends data to a YAML file.
@@ -125,28 +214,29 @@ def export_to_yaml(upcoming_meetups, yaml_file: str, mode: WriteMode):
     """
     # Convert Pydantic objects to dictionaries
     meetup_dicts = [meetup.dict() for meetup in upcoming_meetups]
-    if mode == WriteMode.APPEND:
-        logging.info("Appending to existing YML file")
-        try:
+    existing_data = []
+    try:
+        if mode == WriteMode.APPEND:
+            logging.info("Appending to existing YML file")
             with open(yaml_file, "r") as file:
                 existing_data = yaml.safe_load(file) or []  # Handle empty file
-
-            if not isinstance(existing_data, list):
-                raise ValueError("Existing data is not a list")
-
             existing_data.extend(meetup_dicts)
+            meetup_dicts = existing_data
+        if not isinstance(existing_data, list):
+            raise ValueError("Existing data is not a list")
 
-            with open(yaml_file, "w") as file:
-                yaml.dump(existing_data, file, default_flow_style=False, sort_keys=False)
+        meetup_dicts = [process_meetup_data(meetup) for meetup in meetup_dicts]
+        write_yaml_file(yaml_file, meetup_dicts)
 
-        except FileNotFoundError:
-            print(f"File '{yaml_file}' not found. Creating a new file.")
-            with open(yaml_file, "w") as file:
-                yaml.dump(meetup_dicts, file, default_flow_style=False, sort_keys=False)
-    if mode == WriteMode.WRITE:
-        logging.info("Overriding YML file")
+    except FileNotFoundError:
+        print(f"File '{yaml_file}' not found. Creating a new file.")
         with open(yaml_file, "w") as file:
             yaml.dump(meetup_dicts, file, default_flow_style=False, sort_keys=False)
+
+    except (IOError, yaml.YAMLError) as e:
+        logging.error(f"Error processing file '{yaml_file}': {e}")
+        raise
+
     logging.info("Data exported to %s", yaml_file)
 
 
@@ -167,6 +257,11 @@ def extract_name(user_info: Tag) -> str:
 
 
 def convert_date(date_str: str) -> str:
+    """
+    Convert the date string to the desired format.
+    :param date_str: The date string to convert.
+    :return: The date string in the desired format.
+    """
     # Parse the date string to a datetime object
     date_obj = datetime.strptime(date_str, "%a, %b %d, %Y")
     # Format the datetime object to the desired string format
