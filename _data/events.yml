@@ -228,8 +228,8 @@
     Coding Club with Women Coding Community
   description: |
     We are excited to announce our next Coding Club session as a part of Women Coding Community!
-  category: Online Event
-  category_name: Online Event
+  category_style: coding-club
+  category_name: Coding Club
   date: Thu, Sep 5, 2024
   expiration: "20240905"
   host: "Nonna Shakhova"
@@ -247,8 +247,8 @@
     Building REST services with SpringBoot
   description: |
     This online event will guide developers through the process of building RESTful APIs using Spring Boot and Java, focusing on essential techniques and best practices for scalable service development.
-  category: Online Event
-  category_name: Online Event
+  category_name: Tech Talk
+  category_style: tech-talk
   date: Tue, Sep 10, 2024
   expiration: "20240910"
   host: "Sonali Goel"
@@ -266,8 +266,8 @@
     TDD/Unit Testing using Node.js and Jest
   description: |
     Join us for an interactive session on Test-Driven Development (TDD) and Unit Testing using Node.js and Jest. Learn the fundamentals of TDD, how to write effective unit tests, and best practices for ensuring code quality in your JavaScript applications. Whether you're new to testing or looking to sharpen your skills, this meetup will provide practical insights and examples to help you build robust and reliable Node.js applications.
-  category: Online Event
-  category_name: Online Event
+  category_name: Tech Talk
+  category_style: tech-talk
   date: Wed, Sep 18, 2024
   expiration: "20240918"
   host: "Silke Nodwell"
@@ -285,8 +285,8 @@
     The Power of NLP: Transforming Text into Actionable Intelligence
   description: |
     Natural Language Processing (NLP) is revolutionizing the way we interact with and derive insights from textual data. By harnessing the power of NLP, organizations can transform vast amounts of unstructured text into actionable intelligence, enabling smarter decision-making and more efficient operations.
-  category: Online Event
-  category_name: Online Event
+  category_name: Tech Talk
+  category_style: tech-talk
   date: Wed, Oct 2, 2024
   expiration: "20241002"
   host: "Silke Nodwell and Irina Kamalova"
