@@ -277,8 +277,8 @@ def fetch_events():
         mode = WriteMode(sys.argv[3])
     else:
         meetup_group_url = "https://www.meetup.com/women-coding-community/events/?type=upcoming"
-        yml_file_path = "../_data/events.yml"
-        mode = WriteMode.APPEND
+        yml_file_path = "../_data/events1.yml"
+        mode = WriteMode.WRITE
 
     logging.info("Params: Url: %s yml: %s mode: %s", meetup_group_url, yml_file_path, mode)
 
