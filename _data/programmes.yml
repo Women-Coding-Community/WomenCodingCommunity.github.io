@@ -23,14 +23,17 @@
   url: "/programme-interview-preparation#leetcode"
 
 - title: Writing club
-  icon: book_4
-  url: "/other-programmes#writing-club"
+  icon: article
+  url: "/programme-writing-club"
 
 - title: Speaking club
-  icon: group
-  url: "/other-programmes#speaking-club"
+  icon: interpreter_mode
+  url: "/programme-speaking-club"
 
 - title: Coding club
   icon: code_blocks
-  url: "/other-programmes#coding-club"
+  url: "/programme-coding-club"
 
+- title: Machine Learning
+  icon: code_blocks
+  url: "/programme-machine-learning"
