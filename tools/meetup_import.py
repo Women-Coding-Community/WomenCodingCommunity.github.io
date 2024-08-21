@@ -79,8 +79,8 @@ class WebLink(BaseModel):
 class MeetupEvents(BaseModel):
     title: str
     description: str
-    category: Optional[str] = "Online Event"
-    category_name: Optional[str] = "Online Event"
+    category_style: Optional[str] = "tech-talk"
+    category_name: Optional[str] = "Tech Talk"
     date: str
     expiration: Optional[str] = ""
     host: Optional[str] = ""
@@ -158,7 +158,7 @@ def get_upcoming_meetups(url: str) -> list[MeetupEvents]:
             MeetupEvents(title=title, description=description.replace("\n", " "),
                          date=date, host=host, speaker=speaker,
                          time=time, expiration=expiration, image=Image(path=image_path, alt=image_alt),
-                         link=WebLink(path=url, title=title)))
+                         link=WebLink(path=url)))
     return upcoming_meetups
 
 

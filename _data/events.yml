@@ -240,3 +240,133 @@
     path: https://www.meetup.com/women-coding-community/events/302515055/
     title: View meetup event
     target: _blank
+
+- title: |
+    Living on the Edge : Understanding Edge Computing on AWS
+  description: |
+    In this final talk of the series on Serverless Computing, we will focus on Edge Computing, understanding AWS Lambda@Edge and Amazon CloudFront Functions. You will learn how to choose between these tools, best practices for their use, and optimal scenarios for leveraging Edge Computing.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: Wed, Aug 21, 2024
+  expiration: "20240821"
+  host: "Madhura Chaganty"
+  speaker: "Liliia Rafikova"
+  time: 6:00 PM UTC
+  image:
+    path: "/assets/images/events/event_522583910.webp"
+    alt: "Living on the Edge : Understanding Edge Computing on AWS cover photo"
+  link:
+    path: https://meetup.com/women-coding-community/events/302490400/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    Book Club: Head First Design Patterns - continued!
+  description: |
+    In last month's bookclub, we discussed the SOLID principles of object-oriented design, as well as the Strategy and the Observer Pattern. Join us for a discussion of the remaining patterns and principles outlined in Head First Design Patterns!
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: Thu, Aug 29, 2024
+  expiration: "20240829"
+  host: "Madhura Chaganty"
+  speaker: "Liliia Rafikova"
+  time: 6:00 PM UTC
+  image:
+    path: "/assets/images/events/event_522939808.webp"
+    alt: "Book Club: Head First Design Patterns - continued! cover photo"
+  link:
+    path: https://meetup.com/women-coding-community/events/302854192/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: Volunteer with Women Coding Community
+  description: "\U0001F31F Are you passionate about coding and eager to support women in tech? We invite you to join our upcoming online event to learn more about volunteering opportunities with Women Coding Community! \U0001F31F\n"
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: Wed, Sep 4, 2024
+  expiration: "20240904"
+  host: "Sonali Goel"
+  speaker: "Liliia Rafikova"
+  time: 6:00 PM UTC
+  image:
+    path: "/assets/images/events/event_522615149.webp"
+    alt: Volunteer with Women Coding Community cover photo
+  link:
+    path: https://meetup.com/women-coding-community/events/302515055/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: Coding Club with Women Coding Community
+  description: |
+    We are excited to announce our next Coding Club session as a part of Women Coding Community!
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: Thu, Sep 5, 2024
+  expiration: "20240905"
+  host: "Nonna Shakhova"
+  speaker: "Liliia Rafikova"
+  time: 6:00 PM UTC
+  image:
+    path: "/assets/images/events/event_522666074.webp"
+    alt: Coding Club with Women Coding Community  cover photo
+  link:
+    path: https://meetup.com/women-coding-community/events/302579035/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: Building REST services with SpringBoot
+  description: |
+    This online event will guide developers through the process of building RESTful APIs using Spring Boot and Java, focusing on essential techniques and best practices for scalable service development.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: Tue, Sep 10, 2024
+  expiration: "20240910"
+  host: "Sonali Goel"
+  speaker: "Adriana Zencke Zimmermann"
+  time: 7:00 PM UTC
+  image:
+    path: "/assets/images/events/event_522905242.webp"
+    alt: Building REST services with SpringBoot cover photo
+  link:
+    path: https://meetup.com/women-coding-community/events/302792154/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    TDD/Unit Testing using Node.js and Jest
+  description: |
+    Join us for an interactive session on Test-Driven Development (TDD) and Unit Testing using Node.js and Jest. Learn the fundamentals of TDD, how to write effective unit tests, and best practices for ensuring code quality in your JavaScript applications. Whether you're new to testing or looking to sharpen your skills, this meetup will provide practical insights and examples to help you build robust and reliable Node.js applications.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: Wed, Sep 18, 2024
+  expiration: "20240918"
+  host: "Silke Nodwell"
+  speaker: "Rasim Sen"
+  time: 6:00 PM UTC
+  image:
+    path: "/assets/images/events/event_522971307.webp"
+    alt: "TDD/Unit Testing using Node.js and Jest cover photo"
+  link:
+    path: https://meetup.com/women-coding-community/events/302890136/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    The Power of NLP: Transforming Text into Actionable Intelligence
+  description: |
+    Natural Language Processing (NLP) is revolutionizing the way we interact with and derive insights from textual data. By harnessing the power of NLP, organizations can transform vast amounts of unstructured text into actionable intelligence, enabling smarter decision-making and more efficient operations. This session explores the fundamentals of NLP, its key techniques such as tokenization, sentiment analysis, and named entity recognition, and real-world applications across various industries. Join us to uncover how NLP is bridging the gap between human language and machine understanding, driving innovation, and unlocking new potentials in the digital age.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: Wed, Oct 2, 2024
+  expiration: "20241002"
+  host: "Silke Nodwell and Irina Kamalova"
+  speaker: "Busra Ecem Sakar"
+  time: 6:00 PM UTC
+  image:
+    path: "/assets/images/events/event_522793019.webp"
+    alt: "The Power of NLP: Transforming Text into Actionable Intelligence cover photo"
+  link:
+    path: https://meetup.com/women-coding-community/events/302714738/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
