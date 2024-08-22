@@ -252,13 +252,31 @@
   date: TUE, SEP 10, 2024
   expiration: "20240910"
   host: "Sonali Goel"
-  speaker: "Adriana Zencke Zimmermann"
-  time: 7:00 PM UTC
+  speaker: Adriana Zencke, Co-Founder/Director at WCC
+  time: 8:00 PM BST
   image:
     path: "/assets/images/events/event_522905242.webp"
     alt: "Building REST services with SpringBoot cover photo"
   link:
     path: https://meetup.com/women-coding-community/events/302792154/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: Writing Club with Women Coding Community - Learn about Infographics!
+  description: We are excited to continue with our Writing Club sessions as a part
+    of Women Coding Community! Join our September session to learn about infographics
+    and how to use them to enhance your writing!
+  category_style: writing-club
+  category_name: Writing Club
+  date: THU, SEP 12, 2024
+  expiration: '20240912'
+  host: Rajani Rao, Co-Founder/Director at WCC
+  time: 7:00 PM BST
+  image:
+    path: /assets/images/events/event-writing-club.jpeg
+    alt: cover photo
+  link:
+    path: https://meetup.com/women-coding-community/events/302907169
     title: View meetup event
     target: _target
 
