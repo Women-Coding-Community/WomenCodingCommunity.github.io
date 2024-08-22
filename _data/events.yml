@@ -224,19 +224,96 @@
     title: View meetup event
     target: _blank
 
-- title: Coding Club with Women Coding Community
+- title: |
+    Coding Club with Women Coding Community
   description: |
-    Learn Python 101: In subsequent sessions, we will delve into solving basic algorithmic problems, using "Grokking Algorithms" as our reference book, and thoroughly cover the fundamentals of the language.
+    We are excited to announce our next Coding Club session as a part of Women Coding Community!
   category_style: coding-club
   category_name: Coding Club
-  date: WED, SEP 05, 2024
+  date: THU, SEP 5, 2024
   expiration: "20240905"
-  speaker: "Nonna Shakhova, Cloud Data Engineer"
-  time: 7:00 PM to 8:00 PM BST
+  host: "Nonna Shakhova"
+  speaker: "Liliia Rafikova"
+  time: 6:00 PM UTC
   image:
     path: "/assets/images/events/event-coding-club-3.jpg"
-    alt: square poster of event
+    alt: "Coding Club with Women Coding Community  cover photo"
   link:
-    path: https://www.meetup.com/women-coding-community/events/302515055/
+    path: https://meetup.com/women-coding-community/events/302579035/
     title: View meetup event
-    target: _blank
+    target: _target
+
+- title: |
+    Building REST services with SpringBoot
+  description: |
+    This online event will guide developers through the process of building RESTful APIs using Spring Boot and Java, focusing on essential techniques and best practices for scalable service development.
+  category_name: Tech Talk
+  category_style: tech-talk
+  date: TUE, SEP 10, 2024
+  expiration: "20240910"
+  host: "Sonali Goel"
+  speaker: Adriana Zencke, Co-Founder/Director at WCC
+  time: 8:00 PM BST
+  image:
+    path: "/assets/images/events/event_522905242.webp"
+    alt: "Building REST services with SpringBoot cover photo"
+  link:
+    path: https://meetup.com/women-coding-community/events/302792154/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: Writing Club with Women Coding Community - Learn about Infographics!
+  description: We are excited to continue with our Writing Club sessions as a part
+    of Women Coding Community! Join our September session to learn about infographics
+    and how to use them to enhance your writing!
+  category_style: writing-club
+  category_name: Writing Club
+  date: THU, SEP 12, 2024
+  expiration: '20240912'
+  host: Rajani Rao, Co-Founder/Director at WCC
+  time: 7:00 PM BST
+  image:
+    path: /assets/images/events/event-writing-club.jpeg
+    alt: cover photo
+  link:
+    path: https://meetup.com/women-coding-community/events/302907169
+    title: View meetup event
+    target: _target
+
+- title: |
+    TDD/Unit Testing using Node.js and Jest
+  description: |
+    Join us for an interactive session on Test-Driven Development (TDD) and Unit Testing using Node.js and Jest. Learn the fundamentals of TDD, how to write effective unit tests, and best practices for ensuring code quality in your JavaScript applications. Whether you're new to testing or looking to sharpen your skills, this meetup will provide practical insights and examples to help you build robust and reliable Node.js applications.
+  category_name: Tech Talk
+  category_style: tech-talk
+  date: WED, SEP 18, 2024
+  expiration: "20240918"
+  host: "Silke Nodwell"
+  speaker: "Rasim Sen"
+  time: 6:00 PM UTC
+  image:
+    path: "/assets/images/events/event_522971307.webp"
+    alt: "TDD/Unit Testing using Node.js and Jest cover photo"
+  link:
+    path: https://meetup.com/women-coding-community/events/302890136/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    The Power of NLP: Transforming Text into Actionable Intelligence
+  description: |
+    Natural Language Processing (NLP) is revolutionizing the way we interact with and derive insights from textual data. By harnessing the power of NLP, organizations can transform vast amounts of unstructured text into actionable intelligence, enabling smarter decision-making and more efficient operations.
+  category_name: Tech Talk
+  category_style: tech-talk
+  date: WED, OCT 2, 2024
+  expiration: "20241002"
+  host: "Silke Nodwell and Irina Kamalova"
+  speaker: "Busra Ecem Sakar"
+  time: 6:00 PM UTC
+  image:
+    path: "/assets/images/events/event_522793019.webp"
+    alt: "The Power of NLP: Transforming Text into Actionable Intelligence cover photo"
+  link:
+    path: https://meetup.com/women-coding-community/events/302714738/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
