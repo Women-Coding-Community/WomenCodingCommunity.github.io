@@ -47,8 +47,23 @@
       breadcrumbs: 
         - name: Programmes
           link: 
-    - page: Other Programmes
-      url: other-programmes
+    - page: Writing Club
+      url: programme-writing-club
+      breadcrumbs: 
+        - name: Programmes
+          link: 
+    - page: Coding Club
+      url: programme-coding-club
+      breadcrumbs: 
+        - name: Programmes
+          link: 
+    - page: speaking Club
+      url: programme-speaking-club
+      breadcrumbs: 
+        - name: Programmes
+          link: 
+    - page: Machine Learning 
+      url: programme-machine-learning
       breadcrumbs: 
         - name: Programmes
           link: 
