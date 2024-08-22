@@ -10,6 +10,9 @@ import yaml
 from bs4 import BeautifulSoup, Tag
 from pydantic import BaseModel
 
+CODING_CLUB_BANNER = "/assets/images/events/event-coding-club-3.jpg"
+WRITING_CLUB_BANNER = "/assets/images/events/event-writing-club.jpeg"
+
 
 class LiteralString(str):
     pass
@@ -79,8 +82,8 @@ class WebLink(BaseModel):
 class MeetupEvents(BaseModel):
     title: str
     description: str
-    category: Optional[str] = "Online Event"
-    category_name: Optional[str] = "Online Event"
+    category_style: Optional[str] = "tech-talk"
+    category_name: Optional[str] = "Tech Talk"
     date: str
     expiration: Optional[str] = ""
     host: Optional[str] = ""
@@ -90,7 +93,7 @@ class MeetupEvents(BaseModel):
     link: Optional[WebLink]
 
 
-def download_image(image_url: str) -> str:
+def download_image(image_url: str, description: str) -> str:
     """
     Downloads an image from the given URL and saves it to the '/assets' folder.
 
@@ -98,7 +101,17 @@ def download_image(image_url: str) -> str:
     :return: The path of the downloaded image.
     """
     image_path = f"/assets/images/events/{image_url.split('/')[-1]}"
-    urlretrieve(image_url, f"..{image_path}")
+    if description:
+        if "coding club" in description.lower():
+            image_path = CODING_CLUB_BANNER
+        elif "writing club" in description.lower():
+            image_path = WRITING_CLUB_BANNER
+        else:
+            try:
+                urlretrieve(image_url, f"..{image_path}")
+            except Exception as e:
+                logging.error(f"Error downloading image from '{image_url}': {e}")
+                image_path = "/assets/images/events/default.jpg"
     return image_path
 
 
@@ -151,14 +164,26 @@ def get_upcoming_meetups(url: str) -> list[MeetupEvents]:
         image_alt = listing.find("img").attrs.get("alt")
 
         # Download the image from image_path and save it to the '/assets' folder and update the image_path
-        image_path = download_image(image_path)
+        image_path = download_image(image_path, description)
 
         url = listing.find("a").attrs.get("href")
+
+        category_style = "tech-talk"
+        category_name = "Tech Talk"
+        if description:
+            if "coding club" in description.lower():
+                category_style = "coding-club"
+                category_name = "Coding Club"
+            elif "writing club" in description.lower():
+                category_style = "writing-club"
+                category_name = "Writing Club"
+
         upcoming_meetups.append(
             MeetupEvents(title=title, description=description.replace("\n", " "),
+                         category_style=category_style, category_name=category_name,
                          date=date, host=host, speaker=speaker,
                          time=time, expiration=expiration, image=Image(path=image_path, alt=image_alt),
-                         link=WebLink(path=url, title=title)))
+                         link=WebLink(path=url)))
     return upcoming_meetups
 
 
