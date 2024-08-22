@@ -165,6 +165,9 @@ def add_availability(months_str):
         'december': 12
     }
 
+    if not isinstance(months_str, str):
+        months_str = str(months_str)
+
     if not months_str.strip():
         return []
 
