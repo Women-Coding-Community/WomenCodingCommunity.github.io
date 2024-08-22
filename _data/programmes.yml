@@ -10,13 +10,9 @@
   icon: book_4
   url: "/programme-book-club"
 
-- title: CV clinic
+- title: Interview Preparation
   icon: work
-  url: "/programme-interview-preparation#cv-clinic"
-
-- title: Mock interviews
-  icon: group
-  url: "/programme-interview-preparation#mock-interviews"
+  url: "/programme-interview-preparation"
 
 - title: Leetcode
   icon: code_blocks

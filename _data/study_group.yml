@@ -8,7 +8,7 @@
 - title: Frontend React
   mentor: Stephanie Senoner
   description: Project based study group, working towards a shared application (including SDLC introduction, gaining more experience in reviewing PR, git etc), with guidance on different aspects like testing, CI/CD.
-  participants: 3
+  participants: 10
   status: active
   link: /mentors?keywords=Stephanie%20Senoner
   index: 2
@@ -36,3 +36,10 @@
   status: active
   link: /mentors?keywords=Eleonora%20Belova
   index: 5
+- title: Java Backend
+  status: active
+  mentor: Adriana Z. and Sonali Goel
+  description: |
+    Group study to learn about Backend based on Java and SpringBoot. Actively work in our new community platform backend opensource and work with a real life project, allow mentees to have real experience to include on your CV.
+  participants: 5
+  link: /mentors?keywords=Spring Boot
