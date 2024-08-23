@@ -30,7 +30,7 @@ def download_image(url, mentor_name):
         logging.error(f"Failed to download image from {url}: {e}")
         return None
 
-if __name__ == "__main__":
+def run_automation():
     if len(sys.argv) == 3:
         url = sys.argv[1]
         mentor_name = sys.argv[2]
@@ -43,3 +43,6 @@ if __name__ == "__main__":
     else:
         logging.info(f"Add parameters for download")
 
+
+if __name__ == "__main__":
+    run_automation()

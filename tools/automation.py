@@ -151,9 +151,6 @@ def add_availability(months_str):
     """
 
     month_map = {
-        'january': 1,
-        'february': 2,
-        'march': 3,
         'april': 4,
         'may': 5,
         'june': 6,
@@ -161,8 +158,7 @@ def add_availability(months_str):
         'august': 8,
         'september': 9,
         'october': 10,
-        'november': 11,
-        'december': 12
+        'november': 11
     }
 
     if not isinstance(months_str, str):

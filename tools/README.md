@@ -1,33 +1,45 @@
 ## How to Run Python Scripts
 
+There are two automation scripts:
+1) `automation.py`: appends new mentors in `samples/mentors.xslx` to `_data/mentor.yml`
+
+2) `download_image.py`: downloads image from a specified URL and saves in `assets/images/mentors`
+
 ### Dependencies
 
 python 3.11 or above
 
-### Execute on Mac
+### How to Execute on Mac
 
-Execute mentor's automation to append mentors into yml file
+#### A) `automation.py`
 
 ```shell
 sh run_automation.sh
 ```
+**Note:** 
+- Ensure to update `mentors.xslx` with the new spreadsheet containing the mentors to be added, **OR** 
+- adjust the `FILE_PATH_MENTORS_XLSX` parameter in [the script](run_automation.sh) to match the file path for the new spreadsheet.
 
-to change default values [go to](run_automation.sh) and adjust the necessary params.
 
-### Execute on Windows
+#### B) `download_image.py`
 
-[Install python](https://www.python.org/downloads/windows)
+**Before running the script, make sure** to update the `IMAGE_URL` and `MENTOR_NAME` parameters in the [run_download_automation script](run_download_automation.sh) with:
+- the URL you want to download the mentor's image from, **AND**
+- the mentor's name as appears in the spreadsheet e.g 'Adriana Zencke'
 
-Navigate to the project's \tools directory:
-
-```
-cd tools
-```
-
-Execute mentor's automation to append mentors into yml file
-
-```cmd
-run_automation.bat
+You can then run: 
+```shell
+sh run_automation.sh
 ```
 
-to change default values [go to](run_automation.bat) and adjust the necessary params.
+### How to Execute on Windows
+
+1) [Install python](https://www.python.org/downloads/windows)
+
+2) Navigate to the project's `\tools` directory:
+
+    ```
+    cd tools
+    ```
+
+3) Execute the desired script with the same steps as in **How to Execute on Mac**.
