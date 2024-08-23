@@ -25,11 +25,11 @@ sh run_automation.sh
 
 **Before running the script, make sure** to update the `IMAGE_URL` and `MENTOR_NAME` parameters in the [run_download_automation script](run_download_automation.sh) with:
 - the URL you want to download the mentor's image from, **AND**
-- the mentor's name as appears in the spreadsheet e.g 'Adriana Zencke'
+- the mentor's name as it appears in the spreadsheet e.g 'Adriana Zencke'
 
 You can then run: 
 ```shell
-sh run_automation.sh
+sh run_download_automation.sh
 ```
 
 ### How to Execute on Windows
