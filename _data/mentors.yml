@@ -1610,3 +1610,48 @@
       Software Development Strategies, Resume Review, Preparation for The Technical Interview, How to grow from junior to lead engineers, Project management
   network:
   - linkedin: https://www.linkedin.com/in/prernasinghal90/
+
+- name: Samuela Smolorz
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 4
+  type: both
+  index: 49
+  location: London
+  position: Software Engineer, Garrison Technology Ltd
+  bio: |
+    I am a backend/cloud infrastructure engineer specialising in database administration. Previously, I’ve worked as a data analyst/engineer. 
+
+    Being a self-taught English graduate made my tech journey quite challenging, but it has also equipped me to help career switchers navigate today's difficult market. I feel like popular advice given to junior engineers is not necessarily applicable anymore, and I would love to share everything I have learnt with others.
+  image: |
+    assets/images/mentors/samuela_smolorz.jpeg
+  languages: English, Polish
+  availability: [8, 9, 10, 11]
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: |
+      Career switchers or junior engineers who would like to grow, adapt and reflect
+    areas:
+    - Backend Developer
+    - Fullstack Developer
+    - Data Engineering
+    - Security
+    - DevOps
+    languages: Python, Javascript, Go
+    focus:
+    - Switch career to IT
+    - Grow from beginner to mid-level
+    - Change specialisation within IT
+    extra: |
+      - Cloud infrastructure engineering
+      - Databases and SQL
+      - Technical writing
+      - Cybersecurity
+      - Working in data vs software teams
+      - Working in start-ups vs mid-sized vs big companies
+      - Interview preparation
+      - Personal project/resume review
+  network:
+  - linkedin: https://www.linkedin.com/in/samuela-smolorz-mbcs-6821a3161/
