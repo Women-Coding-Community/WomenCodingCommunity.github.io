@@ -1,0 +1,65 @@
+---
+layout: default
+title: Volunteer
+body_class: page page-volunteer
+intro: |
+    Volunteering with us is a wonderful way to make a difference, share your skills, and help empower women in tech. Whether you're a seasoned professional or just starting out, there are many ways you can contribute.
+---
+
+<div class="container">
+    {% include page-intro.html %}
+</div>
+<div class="container featured-content">
+        <div class="row">
+            <div class="col-12 col-md-7 col-xl-8">
+                <h2>Why Volunteer With Us ?</h2>
+                <ul>
+                    <li><b>Support Women in Tech</b> Help create an inclusive environment where women can thrive in technology.</li>
+                    <li><b>Share Your Expertise</b> Use your knowledge and skills to mentor others, lead workshops, or support our events.</li>
+                    <li><b>Build Connections</b> Join a network of like-minded individuals who are passionate about making a positive impact.</li>
+                    <li><b>Develop New Skills</b> Gain valuable experience in teaching, mentoring, event planning, and more.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-7 col-xl-8">
+                <h2>Volunteer Opportunities At A Glance</h2>
+                <ul>
+                    <li><b>Organisational Skills </b> Assist in organizing meetups, online tech events, and other community activities.</li>
+                    <li><b>Show Off Your Tech Skills </b> Collaborate with us to build our new platform or enhance features on our existing website.</li>
+                    <li><b>Enhance Your Writing Skills </b> Contribute to our content creation efforts, while connecting with others who share your passion for positive change.</li>
+                    <li><b>Develop Your Speaking Skills</b> Share your insights with the community through talks or presentations. We’ll host an event for you, and offer support to help you get started if needed.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-7 col-xl-8">
+                <h2>Kickstart Your Volunteer Journey</h2>
+                <p> Here’s the pocketbook to help you get started on your volunteering journey with us. Dive in and find everything you need to begin making an impact!</p>
+                <div class="card-deck">
+                    {% for resources in site.data.volunteer_resources %}
+                    <div class="card-column col-12 col-lg-8">
+                        <div class="card-resource card card-s card-horizontal">
+                            <div class="card-media col-5">
+                                <img src="{{ resources.image.path }}" alt="{{ resources.image.alt }}">
+                            </div>
+                            <div class="card-body col-7">
+                                <h2 class="card-title">{{resources.title}}</h2>
+                                <a href={{resources.link}} class="ext-link" target="_blank" rel="noopener">Open <span class="icon">{% include icons/arrow-right.svg %}</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-7 col-xl-8">
+                <h2>Come Volunteer With Us</h2>
+                <p>Fill out <a target="_blank"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSew81KejeMqOhgb5-D5nTWWL3jHfkfG1VBpMBX6IXk1m-9YMw/viewform">
+                        this form</a> and join the Slack channel
+                    <a target="_blank" href="{{site.slack_channel}}/C06VB8BNL86"> #i_want_to_help</a>.
+            </div>
+        </div>
+</div>
