@@ -6,52 +6,67 @@
   subfolderitems:
     - page: Overview
       url: mentorship
-      breadcrumbs: 
+      breadcrumbs:
         - name: Mentorship
-          link: 
+          link:
     - page: Mentors
       url: mentors
-      breadcrumbs: 
+      breadcrumbs:
+        - name: Mentorship
+          link: mentorship
+    - page: Study Groups
+      url: programme-study-group
+      breadcrumbs:
         - name: Mentorship
           link: mentorship
     - page: Resources
       url: mentorship-resources
-      breadcrumbs: 
+      breadcrumbs:
         - name: Mentorship
           link: mentorship
     - page: Code of Conduct
       url: mentorship-code-of-conduct
-      breadcrumbs: 
+      breadcrumbs:
         - name: Mentorship
           link: mentorship
     - page: FAQ
       url: mentorship-faq
-      breadcrumbs: 
+      breadcrumbs:
         - name: Mentorship
           link: mentorship
 - name: Programmes
   index: 2
   subfolderitems:
-    - page: Book Club
-      url: programme-book-club
-      breadcrumbs: 
-        - name: Programmes
-          link: 
     - page: Interview Preparation
       url: programme-interview-preparation
-      breadcrumbs: 
+      breadcrumbs:
         - name: Programmes
-          link: 
-    - page: Study Groups
-      url: programme-study-group
-      breadcrumbs: 
+          link:
+    - page: Machine Learning
+      url: programme-machine-learning
+      breadcrumbs:
         - name: Programmes
-          link: 
-    - page: Other Programmes
-      url: other-programmes
-      breadcrumbs: 
+          link:
+    - page: Book Club
+      url: programme-book-club
+      breadcrumbs:
         - name: Programmes
-          link: 
+          link:
+    - page: Writing Club
+      url: programme-writing-club
+      breadcrumbs:
+        - name: Programmes
+          link:
+    - page: Coding Club
+      url: programme-coding-club
+      breadcrumbs:
+        - name: Programmes
+          link:
+    - page: speaking Club
+      url: programme-speaking-club
+      breadcrumbs:
+        - name: Programmes
+          link:
 - name: Events
   link: events
   index: 3
@@ -63,21 +78,26 @@
   subfolderitems:
     - page: Overview
       url: about
-      breadcrumbs: 
+      breadcrumbs:
         - name: About Us
-          link: 
+          link:
     - page: Team
       url: team
-      breadcrumbs: 
+      breadcrumbs:
         - name: About Us
           link: about
     - page: Code of Conduct
       url: code-of-conduct
-      breadcrumbs: 
+      breadcrumbs:
         - name: About Us
           link: about
     - page: Partners
       url: partners
-      breadcrumbs: 
+      breadcrumbs:
+        - name: About Us
+          link: about
+    - page: Volunteer
+      url: volunteer
+      breadcrumbs:
         - name: About Us
           link: about

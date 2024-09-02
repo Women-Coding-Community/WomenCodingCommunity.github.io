@@ -12,6 +12,7 @@ from enum import Enum
 import pandas as pd
 from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import LiteralScalarString
+from ruamel.yaml.comments import CommentedSeq
 
 SHEET_NAME = "Form Responses 1"
 TELEGRAM_WEB_SITE = '//t.'
@@ -143,6 +144,36 @@ def get_mentorship_type(mentorship_type_str):
 
     return result
 
+def add_availability(months_str):
+    """
+    Convert a comma-separated string of month names to a list of month numbers.
+    If the string is empty, return an empty list.
+    """
+
+    month_map = {
+        'april': 4,
+        'may': 5,
+        'june': 6,
+        'july': 7,
+        'august': 8,
+        'september': 9,
+        'october': 10,
+        'november': 11
+    }
+
+    if not isinstance(months_str, str):
+        months_str = str(months_str)
+
+    if not months_str.strip():
+        return []
+
+    months_list = [month.strip().lower() for month in months_str.split(',')]
+    months_numbers = [month_map[month] for month in months_list if month in month_map]
+
+    availability_seq = CommentedSeq(months_numbers)
+    availability_seq.fa.set_flow_style()
+
+    return availability_seq
 
 def update_yml_file_formatting(s):
     """
@@ -187,8 +218,7 @@ def read_yml_file(file_path):
 
 def xlsx_to_yaml_parser(mentor_row,
                         mentor_index,
-                        mentor_disabled=False,
-                        mentor_sort=10):
+                        mentor_disabled=False):
     """
     Prepare mentor's excel data for yaml format
     """
@@ -201,7 +231,9 @@ def xlsx_to_yaml_parser(mentor_row,
     # Left commented since the code might be used in the later versions
     # to add default picture until the mentor's image is not available
     # mentor_image = os.path.join(IMAGE_FILE_PATH, str(mentor_index) + IMAGE_SUFFIX)
-    mentor_image = f"{IMAGE_FILE_PATH}/mentor_name_lowercase.jpeg # TODO take it from {mentor_row.iloc[12]}"
+    mentor_image = f"{IMAGE_FILE_PATH}/{mentor_row.iloc[1].lower().replace(' ', '_')}{IMAGE_SUFFIX} # TODO: Run donwload_image script to actually download the image"
+    
+    mentor_sort = 200 if mentor_row.iloc[39] != '' else 100
 
     mentor = {
         'name': mentor_row.iloc[1],
@@ -214,9 +246,9 @@ def xlsx_to_yaml_parser(mentor_row,
         'location': mentor_row.iloc[5],
         'position': f"{mentor_row.iloc[7].strip()}, {mentor_row.iloc[8].strip()}",
         'bio': get_multiline_string(mentor_row.iloc[10]),
-        'image': mentor_image,
+        'image': get_multiline_string(mentor_image),
         'languages': mentor_row.iloc[6],
-        'availability': [],
+        'availability': add_availability(mentor_row.iloc[39]),
         'skills': {
             'experience': mentor_row.iloc[9],
             'years': extract_numbers_from_string(mentor_row.iloc[9]),
@@ -280,8 +312,7 @@ def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=0):
         if not df_yml_row.empty:
             mentor = xlsx_to_yaml_parser(df_mentors.iloc[row],
                                         df_yml_row['Index'].item(),
-                                        df_yml_row['Disabled'].item(),
-                                        df_yml_row['Sort'].item())
+                                        df_yml_row['Disabled'].item())
             logging.info(f"For {mentor_name} use index, disabled and sort from mentors.yml file")
         else:
             mentor = xlsx_to_yaml_parser(df_mentors.iloc[row],
