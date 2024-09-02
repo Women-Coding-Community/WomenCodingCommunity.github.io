@@ -1655,3 +1655,41 @@
       - Personal project/resume review
   network:
   - linkedin: https://www.linkedin.com/in/samuela-smolorz-mbcs-6821a3161/
+
+- name: Arzu Caner
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 2
+  type: ad-hoc
+  index: 50
+  location: United Kingdom/London
+  position: Fullstack Developer, InnoAl Tech Solution
+  bio: |
+    Arzu began her career in the telecommunications sector, specializing in CRM systems and marketing. After earning her master's degree in marketing, she successfully led customer loyalty and retention projects as a Marketing and Customer Relationship Manager, developing and implementing strategic campaigns aimed at enhancing customer satisfaction and loyalty. Additionally, she provided system and product training as an instructor.
+
+    She then made significant contributions as a digital project manager, supporting the growth and development of startups, and has a strong background in SEO. With a keen interest in technological advancements, Arzu transitioned into software development, initially focusing on databases and leveraging emerging technologies to optimize data management. She currently works on mobile and web application development, where she innovates solutions to improve user experience and performance. 
+
+    Arzu shares her career journey and technical insights through blog posts and serves as an evangelist in the Women Coding Community, actively promoting the advancement of women in technology.
+  image: |
+    assets/images/mentors/arzu_caner.jpg
+  languages: English, Turkish
+  availability: [9, 10, 11]
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: |
+      Those who are changing their careers, interested in app development.
+    areas:
+    - Fullstack Developer
+    languages: Javascript
+    focus:
+    - Grow from beginner to mid-level
+    extra: |
+      Career change, app development, software development, GitHub, hackathons, technical writing, React, React Native, JavaScript, Node.js, MongoDB
+  network:
+  - linkedin: https://www.linkedin.com/in/arzucaner/
+  - website: https://x.com/arz_ugny,
+  - medium: https://arzugny.medium.com/,
+  - github: https://github.com/arzucaner,
+  - youtube: https://www.youtube.com/channel/UCsK0v6RouRYb5I1Ny8flrOg
