@@ -1693,3 +1693,39 @@
   - medium: https://arzugny.medium.com/,
   - github: https://github.com/arzucaner,
   - youtube: https://www.youtube.com/channel/UCsK0v6RouRYb5I1Ny8flrOg
+
+- name: Prabha Venkatesh
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 5
+  type: ad-hoc
+  index: 51
+  location: Bristol, UK
+  position: Data scientist, Milbotix
+  bio: |
+    I am an AI Engineer with around 7 years of experience in software and a special focus on AI in the last few years. I have been leading AI research for a health care startup and have co-authored papers and a patent on the work carried out.
+  image: |
+    assets/images/mentors/prabha_venkatesh.jpeg
+  languages: English
+  availability: [9, 10, 11]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      Individuals in early careers who are looking for help in coding and career guidance; but happy to help anyone I can
+    areas:
+    - Data Science
+    - Machine Learning
+    - Data Engineering
+    - Product Management
+    - Project Management
+    languages: Python, Javascript, C#, C#
+    focus:
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Switch career to IT
+    extra: |
+      AI/ ML concepts, Resume review, technical interview
+  network:
+  - linkedin: https://www.linkedin.com/in/prabha-venkatesh-t
