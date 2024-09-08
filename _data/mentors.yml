@@ -1729,3 +1729,36 @@
       AI/ ML concepts, Resume review, technical interview
   network:
   - linkedin: https://www.linkedin.com/in/prabha-venkatesh-t
+
+- name: Lulu Cao
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 2
+  type: both
+  index: 52
+  location: Kansas City, United States
+  position: Software Developer, backstitch, Inc
+  bio: |
+    I transitioned from a philosophy teacher to a software developer. I currently have 2 years of experiences in full-stack development. I worked or am working in JavaScript, Python, Ruby. I have also shipped desktop/kiosk apps using Electron. I like giving back to community because I care about people. I have volunteered or am volunteering with Code for America, Women Who Code, Kansas City Women in Technology.
+  image: |
+    assets/images/mentors/lulu_cao.jpeg
+  languages: English, Mandarin
+  availability: [9, 10, 11]
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: |
+      Eager to learn and take on new challenges, or someone who is transitioning into tech
+    areas:
+    - Fullstack Developer
+    - Frontend Developer
+    - Backend Developer
+    languages: Javascript, Python
+    focus:
+    - Grow from beginner to mid-level
+    extra: |
+      Resume Review, Introduction to JavaScript, Career Advice
+  network:
+  - linkedin: https://www.linkedin.com/in/lulu-cao/
+  - medium: https://medium.com/@lcao_5526
