@@ -1612,7 +1612,7 @@
   - linkedin: https://www.linkedin.com/in/prernasinghal90/
 
 - name: Samuela Smolorz
-  disabled: false
+  disabled: true
   matched: false
   sort: 200
   hours: 4
@@ -1627,7 +1627,7 @@
   image: |
     assets/images/mentors/samuela_smolorz.jpeg
   languages: English, Polish
-  availability: [8, 9, 10, 11]
+  availability: []
   skills:
     experience: 2-4 Years
     years: 4
