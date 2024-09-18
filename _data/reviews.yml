@@ -21,6 +21,12 @@
       feedback: Sonali answered all my questions patiently and provided with a lot of valuable insights on how to prepare and approach for a job search. She shared some resources helpful for upskilling. She also provided some great tips for personal time management and work-life balance.
       name: Rajashree Munoli
       type: Ad-Hoc            
+    - score: 5
+      date: 20240906
+      date-f: 06 September 2024
+      feedback: Sonali was very helpful and offered some great practical guidance and pointers on my CV and information on career growth and time management.
+      name: Krupa Brahmbhatt
+      type: Ad-Hoc
 
 - index: 21 # Adeola
   feedback:
@@ -138,4 +144,18 @@
 
         Overall, I think she was a great match for me. I have gained valuable learning from her, and it has been a great experience that contributed significantly to my growth on this journey.
       name: Joana
+      type: Long Term Mentorship
+
+- index: 3 # Adriana
+  feedback:
+    - score: 4
+      date: 20240915
+      date-f: 15 September 2024
+      feedback: |
+        Adriana is a sensitive, warm, and funny person. She’s the kind of person who asks questions that open your mind and encourage self-reflection, which aligns perfectly with the kind of person I am. 
+        She’s always trying to be helpful and offer any kind of support. We’ve navigated many challenges together, such as different time zones, languages, and cultural backgrounds, and I feel our connection has only grown stronger over time. 
+        
+        In our sessions, we discuss technical matters as well as topics related to work culture, building confidence in your thoughts and ideas, sharing them with your superiors and team, and preventing burnout. 
+        I’m grateful to have e-met Adriana during this stage of my learning journey.
+      name: Anonymous
       type: Long Term Mentorship
