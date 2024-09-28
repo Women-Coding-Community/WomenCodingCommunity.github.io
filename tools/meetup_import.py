@@ -93,14 +93,14 @@ class MeetupEvents(BaseModel):
     link: Optional[WebLink]
 
 
-def download_image(image_url: str, description: str) -> str:
+def download_image(image_url: str, description: str, category_style: str, expiration: str) -> str:
     """
     Downloads an image from the given URL and saves it to the '/assets' folder.
 
     :param image_url: The URL of the image to download.
     :return: The path of the downloaded image.
     """
-    image_path = f"/assets/images/events/{image_url.split('/')[-1]}"
+    image_path = f"/assets/images/events/{category_style}-{expiration}.webp"
     if description:
         if "coding club" in description.lower():
             image_path = CODING_CLUB_BANNER
@@ -163,9 +163,6 @@ def get_upcoming_meetups(url: str) -> list[MeetupEvents]:
         image_path = listing.find("img").attrs.get("src")
         image_alt = listing.find("img").attrs.get("alt")
 
-        # Download the image from image_path and save it to the '/assets' folder and update the image_path
-        image_path = download_image(image_path, description)
-
         url = listing.find("a").attrs.get("href")
 
         category_style = "tech-talk"
@@ -177,6 +174,15 @@ def get_upcoming_meetups(url: str) -> list[MeetupEvents]:
             elif "writing club" in description.lower():
                 category_style = "writing-club"
                 category_name = "Writing Club"
+            elif "book club" in title.lower():
+                category_style = "book-club"
+                category_name = "Book Club"
+            elif "career talk" in description.lower():
+                category_style = "career-talk"
+                category_name = "Career Talk"
+
+        # Download the image from image_path and save it to the '/assets' folder and update the image_path
+        image_path = download_image(image_path, description, category_style, expiration)
 
         upcoming_meetups.append(
             MeetupEvents(title=title, description=description.replace("\n", " "),
