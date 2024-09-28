@@ -126,15 +126,17 @@ def get_upcoming_meetups(url: str) -> list[MeetupEvents]:
     soup = BeautifulSoup(response.content, "html.parser")
 
     upcoming_meetups: list[MeetupEvents] = []
-    host: str = ""
-    speaker: str = ""
-    date: str = ""
-    time: str = ""
-    expiration: str = ""
 
     # Find all upcoming meetup listings
     upcoming_listings = soup.find_all("div", class_="rounded-md bg-white p-4 shadow-sm sm:p-5")
+
     for listing in upcoming_listings:
+        # Reset host, speaker, date, etc., for each new listing
+        host: str = ""
+        speaker: str = ""
+        date: str = ""
+        time: str = ""
+        expiration: str = ""
         # Find the title and description elements once and reuse them
         title = listing.find("span",
                              class_="ds-font-title-3 block break-words leading-7 utils_cardTitle__sAAHG").text.strip()
@@ -148,14 +150,14 @@ def get_upcoming_meetups(url: str) -> list[MeetupEvents]:
         for description_div in description_elements:
             if description_div.text.startswith("Host:"):
                 host = extract_name(description_div)
-            if description_div.text.startswith("Co-Host:"):
+            if description_div.text.lower().startswith("co-host:"):
                 host = f'{host} and {extract_name(description_div)}'
             if description_div.text.startswith("Speaker:"):
                 speaker = extract_name(description_div)
 
         time_element = listing.find("time", class_="text-[#00829B] text-sm font-medium uppercase").text
         if time_element:
-            date = ",".join(time_element.split(",")[:3])
+            date = ",".join(time_element.split(",")[:3]).upper()
             time = time_element.split(",")[-1].strip()
         if date:
             expiration = convert_date(date)
@@ -181,8 +183,8 @@ def get_upcoming_meetups(url: str) -> list[MeetupEvents]:
                 category_style = "career-talk"
                 category_name = "Career Talk"
 
-        # Download the image from image_path and save it to the '/assets' folder and update the image_path
-        image_path = download_image(image_path, description, category_style, expiration)
+        # No longer needed: image path can refer directly to meetup img url
+        # image_path = download_image(image_path, description, category_style, expiration)
 
         upcoming_meetups.append(
             MeetupEvents(title=title, description=description.replace("\n", " "),

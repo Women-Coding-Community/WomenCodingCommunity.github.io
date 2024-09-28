@@ -32,6 +32,16 @@ You can then run:
 sh run_download_automation.sh
 ```
 
+#### C) `meetup_import.py`
+```shell
+sh run_meetup_import.sh
+```
+
+**Note:** 
+- New data will be imported to [`imported_events.yml`](../_data/imported_events.yml)
+- Ensure to copy the generated data to [`events.yml`](../_data/events.yml) and clear the file.
+
+
 ### How to Execute on Windows
 
 1) [Install python](https://www.python.org/downloads/windows)
