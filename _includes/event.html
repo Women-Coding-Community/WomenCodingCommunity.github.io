@@ -6,10 +6,10 @@
                 <div class="card-date"><div class="material-symbols-outlined" aria-hidden="true">
                     <span class="material-symbols-outlined">calendar_month</span></div>{{ event.date }}, {{ event.time }}</div>
                 <h3 class="card-title">{{ event.title }}</h3>
-                {% if event.host %}
+                {% if event.host and event.host != "" %}
                 <p class="card-host">Host: {{ event.host }}</p>
                 {% endif %}
-                {% if event.speaker %}
+                {% if event.speaker and event.speaker != "" %}
                 <p class="card-speaker">Speaker: {{ event.speaker }}</p>
                 {% endif %}
             </div>

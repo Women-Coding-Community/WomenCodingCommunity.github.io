@@ -11,4 +11,4 @@ pip install -r requirements.txt
 # Example: samples/mentors.xlsx samples/mentors.yml a
 # mode "a" for APPEND new mentors from the xlsx table to the existing mentors.yml
 # mode "w" for WRITE all mentors from the xlsx table to mentors.yml
-python3 meetup_import.py "https://www.meetup.com/women-coding-community/events/?type=upcoming" "../_data/events1.yml" a
+python3 meetup_import.py "https://www.meetup.com/women-coding-community/events/?type=upcoming" "../_data/imported_events.yml" a
