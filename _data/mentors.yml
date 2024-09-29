@@ -1763,4 +1763,42 @@
   - linkedin: https://www.linkedin.com/in/lulu-cao/
   - medium: https://medium.com/@lcao_5526
 
-
+- name: Adnan Salehin
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 4
+  type: both
+  index: 53
+  location: London
+  position: Senior Associate Software Engineer, JPMorganChase
+  bio: |
+    Adnan has been leading the Equities Athena Technology team at JPMorgan within a front office setting that is very fast paced.
+    Adnan has led and personally developed several key projects within the team, developing across the full stack and collaborating across multiple teams across multiple locations across the globe.
+    YoE: 5+
+  image: |
+    assets/images/mentors/adnan_salehin.jpeg
+  languages: English
+  availability: [10, 11]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      I'm passionate about helping others in their career journey, especially those who are still looking for their first role. I can help them navigate their career pathway, interview processes and be better prepared for the future. I can also share guidance on how one can cultivate leadership and communication skills as well as hard skills required for their personal growth such as programming skills and system design skills.
+    areas:
+    - Frontend Developer
+    - Backend Developer
+    - Data Engineering
+    - Fullstack Developer
+    - Project Management
+    languages: Python, Javascript, Java, Kotlin
+    focus:
+    - Switch career to IT
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Change specialisation within IT
+    extra: |
+      CV Review, Interviews, Career Navigation, Programming languages and concepts (Python, JavaScript, Object Oriented/Functional Programming), System Design
+  network:
+  - linkedin: 
+      https://www.linkedin.com/in/adnansalehin?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
