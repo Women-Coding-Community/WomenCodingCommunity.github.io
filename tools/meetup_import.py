@@ -179,6 +179,9 @@ def get_upcoming_meetups(url: str) -> list[MeetupEvents]:
             elif "book club" in title.lower():
                 category_style = "book-club"
                 category_name = "Book Club"
+            elif "career club" in title.lower():
+                category_style = "career-club"
+                category_name = "Career Club"
             elif "career talk" in description.lower():
                 category_style = "career-talk"
                 category_name = "Career Talk"

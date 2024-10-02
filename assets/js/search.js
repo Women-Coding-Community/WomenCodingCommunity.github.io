@@ -1,4 +1,4 @@
-const controllerSearch = (function(jQuery) {
+const controllerSearch = (function (jQuery) {
     const MENTOR_TYPE_BOTH = 'both';
     const HIDE_CLASS = 'd-none';
     const MENTOR_CARD = '#mentor-card-';
@@ -14,7 +14,7 @@ const controllerSearch = (function(jQuery) {
         [Filter.KEYWORDS, " input[name='mentor-data']"],
         [Filter.TYPE, " input[name='mentor-type']"],
         [Filter.EXPERIENCE, " input[name='exp']"],
-      ]);
+    ]);
 
     const params = new URLSearchParams(window.location.search);
     const totalMentors = jQuery('.card').length + jQuery(DEACTIVATED_MENTOR).length;
@@ -33,37 +33,37 @@ const controllerSearch = (function(jQuery) {
     const $clearBtn = jQuery('#clear-btn');
     const $toggleFilterBtn = jQuery('#toggle-filters');
     const $numberOfMentorsDisplay = jQuery('#total-mentors');
-    
-    const showMentorCard = function(index) {
-        jQuery(MENTOR_CARD+index).removeClass(HIDE_CLASS);
+
+    const showMentorCard = function (index) {
+        jQuery(MENTOR_CARD + index).removeClass(HIDE_CLASS);
 
         if (!$emptyMsg.hasClass(HIDE_CLASS)) {
             applyMentorsMsg();
         }
     };
 
-    const applyMentorsMsg = function() {
+    const applyMentorsMsg = function () {
         $emptyMsg.addClass(HIDE_CLASS);
         $descriptionMsg.removeClass(HIDE_CLASS);
     };
-    
-    const hideMentorCard = function(index) {
-        jQuery(MENTOR_CARD+index).addClass(HIDE_CLASS);
+
+    const hideMentorCard = function (index) {
+        jQuery(MENTOR_CARD + index).addClass(HIDE_CLASS);
 
         if ((jQuery(MENTOR_CARD_HIDDEN).length + jQuery(DEACTIVATED_MENTOR).length) === totalMentors && $emptyMsg.hasClass(HIDE_CLASS)) {
             $emptyMsg.removeClass(HIDE_CLASS);
             $descriptionMsg.addClass(HIDE_CLASS);
         }
     };
-    
-    const paramToFilter = function(key, value) {
+
+    const paramToFilter = function (key, value) {
         return {
             'key': key,
             'value': value.toLowerCase()
         };
     };
 
-    const experienceFilter = function(key, value, min, max) {
+    const experienceFilter = function (key, value, min, max) {
         return {
             'key': key,
             'value': value.toLowerCase(),
@@ -72,9 +72,9 @@ const controllerSearch = (function(jQuery) {
         };
     };
 
-    const applyKeywordsParam = function() {
+    const applyKeywordsParam = function () {
         const keywords = params.get([Filter.KEYWORDS]);
-        
+
         if (keywords) {
             const filter = paramToFilter(Filter.KEYWORDS, keywords);
             $keywords.val(keywords);
@@ -82,7 +82,18 @@ const controllerSearch = (function(jQuery) {
         }
     };
 
-    const applyFilters = function() {
+    const trackSearchTerms = function (filters) {
+        let searchTerms = filters.map(filter => `${filter.key}: ${filter.value}`).join(', ');
+        if (window.gtag) {
+            gtag('event', 'search', {
+                'event_category': 'Mentor Search',
+                'event_label': searchTerms,
+                'value': filteredMentors
+            });
+        }
+    };
+
+    const applyFilters = function () {
         let filters = [];
 
         if ($keywords.val()) {
@@ -110,6 +121,7 @@ const controllerSearch = (function(jQuery) {
         if (isDefined(filters)) {
             filterMentors(filters);
             toggleClearBtn(filters.length > 0);
+            trackSearchTerms(filters);
         } else {
             removeFilters();
         }
@@ -123,7 +135,7 @@ const controllerSearch = (function(jQuery) {
         filteredMentors = 0;
     }
 
-    const removeFilters = function(){
+    const removeFilters = function () {
         jQuery(MENTOR_CARD_HIDDEN).removeClass(HIDE_CLASS);
         applyMentorsMsg();
 
@@ -136,18 +148,18 @@ const controllerSearch = (function(jQuery) {
         toggleClearBtn(false);
     };
 
-    const filterMentors = function(filters) {
+    const filterMentors = function (filters) {
         if (isDefined(filters)) {
             resetFilteredMentors();
             for (let index = 1; index <= totalMentors; index++) {
                 applyMentorFilters(index, filters);
             }
-            setNumberOfMentors(filteredMentors);      
+            setNumberOfMentors(filteredMentors);
         }
     }
 
-    const applyMentorFilters = function(index, filters) {
-        const mentorCardId = MENTOR_CARD+index;
+    const applyMentorFilters = function (index, filters) {
+        const mentorCardId = MENTOR_CARD + index;
         const mentor = jQuery(mentorCardId);
         if (isDefined(mentor)) {
             if (hasFilters(mentorCardId, filters)) {
@@ -155,13 +167,13 @@ const controllerSearch = (function(jQuery) {
                 showMentorCard(index);
             } else {
                 hideMentorCard(index);
-            } 
+            }
         }
     };
 
-    const hasFilters = function(mentorCardId, filters) {
+    const hasFilters = function (mentorCardId, filters) {
         let hasFilter = 0;
-        for(let i = 0; i < filters.length; i++) {
+        for (let i = 0; i < filters.length; i++) {
             const filter = filters[i];
             // input id example: #mentor-card-9 input[name='bio'] 
             const inputHiddenId = mentorCardId + filterInputMap.get(filter.key);
@@ -170,7 +182,7 @@ const controllerSearch = (function(jQuery) {
             if (filter.key === Filter.EXPERIENCE) {
                 const min = filter.min;
                 const max = filter.max;
-                if (isDefined(inputHidden) &&  parseInt(inputHidden.val()) >= min && parseInt(inputHidden.val()) <= max) {
+                if (isDefined(inputHidden) && parseInt(inputHidden.val()) >= min && parseInt(inputHidden.val()) <= max) {
                     hasFilter++;
                 }
 
@@ -191,15 +203,15 @@ const controllerSearch = (function(jQuery) {
         return hasFilter === filters.length;
     }
 
-    const containsFilter = function(input, value){
+    const containsFilter = function (input, value) {
         return input.val().indexOf(value) > -1
     };
 
-    const isDefined = function(element) {
+    const isDefined = function (element) {
         return element.length > 0
     };
 
-    const toggleClearBtn = function(show) {
+    const toggleClearBtn = function (show) {
         if (show) {
             $clearBtn.removeClass(HIDE_CLASS);
         } else {
@@ -207,49 +219,49 @@ const controllerSearch = (function(jQuery) {
         }
     };
 
-    const initEvents = function() {
-        $keywords.change(function() {
+    const initEvents = function () {
+        $keywords.change(function () {
             applyFilters();
         });
 
-        $area.change(function() {
+        $area.change(function () {
             applyFilters();
         });
 
-        $focus.change(function() {
-            applyFilters();
-        });
-        
-        $experience.change(function() {
-            applyFilters();
-        });
-        
-        $type.change(function() {
+        $focus.change(function () {
             applyFilters();
         });
 
-        $form.submit(function(e){
+        $experience.change(function () {
+            applyFilters();
+        });
+
+        $type.change(function () {
+            applyFilters();
+        });
+
+        $form.submit(function (e) {
             return false;
-        }); 
+        });
 
-        $searchBtn.click(function() {
+        $searchBtn.click(function () {
             applyFilters();
-        }); 
+        });
 
-        $clearBtn.click(function() {
+        $clearBtn.click(function () {
             removeFilters();
-        }); 
+        });
 
-        $toggleFilterBtn.click(function() {
+        $toggleFilterBtn.click(function () {
             jQuery('#filters-container').toggleClass(HIDE_CLASS);
         });
     };
 
-    const init = function() {
+    const init = function () {
         setNumberOfMentors(activeMentors);
         initEvents();
         applyKeywordsParam();
-        toggleClearBtn(false); 
+        toggleClearBtn(false);
     };
 
     return {
