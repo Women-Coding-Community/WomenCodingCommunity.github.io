@@ -1787,3 +1787,36 @@
   network:
   - linkedin: 
       https://www.linkedin.com/in/adnansalehin
+
+- name: Ima-Abasi Effiong
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 5
+  type: both
+  index: 54
+  location: Nigeria
+  position: QA Engineer, Cloudenly
+  bio: |
+    I’m a QA Engineer with over 2 years of experience in manual testing, particularly in the HR tech field. I originally studied English/Literary Studies in university but switched to IT more than two years ago. I’m passionate about helping other women like me who are also transitioning into the IT industry.
+  image: |
+    assets/images/mentors/ima-abasi_effiong.jpeg
+  languages: English
+  availability: [10, 11]
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: |
+      I can provide guidance and resources to a passionate self learner, an early career engineer and people who just switched from different fields to Software Testing.
+    areas:
+    - QA
+    - Product Management
+    languages: Python
+    focus:
+    - Switch career to IT
+    - Grow from beginner to mid-level
+    extra: |
+      Quality Assurance, Switch career to IT, Product Management, Grow from beginner to mid level.
+  network:
+  - linkedin: https://www.linkedin.com/in/imaabasieffiong/
+  - website: https://x.com/eeimaabasi
