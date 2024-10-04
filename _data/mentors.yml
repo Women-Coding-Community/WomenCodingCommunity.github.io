@@ -272,7 +272,7 @@
   bio: I have almost a decade experience in cyber security, information security and privacy. Also, last 3 years I have been working in risk in product and strategy.
   image: assets/images/mentors/julia_babahina.png
   languages: English, Russian
-  availability: [ 6 ]
+  availability: [ 10, 11 ]
   skills:
     experience: 7-10 Years
     years: 10
@@ -293,49 +293,34 @@
 - name: Hersi Kopani
   disabled: false
   sort: 100
-  hours: 5
-  position: Senior Software Engineer, Walgreens Boots Alliance
+  hours: 4
+  position: Senior Engineer/Lecturer, Walgreens Boots Alliance
   type: both
   index: 10
   location: Albania
   bio: |
-    I'm a seasoned Java developer with more than five years of experience specializing in the design and implementation of robust software solutions. Throughout my tenure at many companies, I've had the privilege of spearheading pivotal projects that have played integral roles in the company's expansion. These endeavors demanded not only technical proficiency but also keen problem-solving skills and effective risk management strategies.<br>
-    In my role, I've collaborated closely with architects during the design, architecture, and implementation phases, ensuring that our deliverables consistently meet the highest standards and adhere to industry best practices. Moreover, I've cultivated strong relationships with senior stakeholders both internally and externally, leveraging these connections to gain valuable insights and contribute to the development of innovative solutions.<br>
-    Beyond my professional endeavors, I'm deeply passionate about fostering diversity and inclusion in the tech industry, particularly in empowering women to pursue and excel in STEM fields. I firmly believe that a diverse workforce leads to greater innovation and success, and I actively support initiatives aimed at bridging the gender gap in technology.<br>
-    In addition to my dedication to software development, I'm an avid tennis enthusiast, finding solace and rejuvenation on the court in my spare time. This passion for tennis not only provides a welcome escape from the demands of work but also serves as a source of inspiration and motivation, fueling my drive to continuously learn and grow both personally and professionally.<br>
-    Overall, I bring a unique blend of technical expertise, leadership acumen, and a commitment to diversity and personal enrichment to every project and endeavor I undertake.
-  image: assets/images/mentors/hersi_kopani.png
-  languages: English, Spanish
+    I am a software engineer with around 6 years of experience in software and a special focus on cloud and cybersecurity in the last few years. I design and deliver scalable Java solutions for complex business challenges in the healthcare and retail industry. I leverage my expertise in software development security, cryptography, and network security to ensure the protection and integrity of data and systems. I collaborate with cross-functional teams to develop, test, and deploy high-quality software using Agile methodologies and various frameworks and technologies.
+  image: assets/images/mentors/hersi_kopani.jpg
+  languages: English
   availability: [ 5, 6 ]
   skills:
     experience: 5-7 Years
     years: 7
     mentee: |
-      As a mentor, I am seeking a mentee who possesses a genuine passion for coding and a sincere desire to leverage their technical skills to make a positive impact on society. I am eager to work with individuals who not only excel in coding but also exhibit a strong sense of social responsibility and an ambition to contribute to meaningful change through technology. I value enthusiasm, dedication, and a willingness to learn and grow, and I am excited to support a mentee who shares these qualities and aspirations.
+      As a mentor, I'm looking for a mentee who loves coding and wants to use their skills to help others. I want to work with someone who is good at coding and cares about making a difference through technology. I value enthusiasm, hard work, and a desire to learn, and I'm excited to support a mentee who has these qualities.
     areas:
       - Backend Developer
       - Security
       - Product Management
-      - Frontend Developer
-      - DevOps
-    languages: Java, Python, Javascript, Kotlin, Scala
+      - Fullstack Developer
+      - Business Analysis
+    languages: Java, Python, Kotlin
     focus:
+      - Switch career to IT
       - Grow from beginner to mid-level
       - Grow from mid-level to senior-level
-      - Switch from IC to management position
-      - Change specialisation within IT
-      - Switch career to IT
     extra: |
-      1. Coding Best Practices: Delve into techniques for writing clean, maintainable, and efficient code, including code organization, naming conventions, and code documentation.<br>
-      2. Version Control Systems (VCS): Explore the fundamentals of using Git or other VCS tools effectively, including branching strategies, resolving merge conflicts, and collaborating with teams.<br>
-      3. Software Architecture Design: Discuss principles of software architecture, such as microservices, monolithic architectures, and design patterns, and how to make informed architectural decisions.<br>
-      4. Performance Optimization: Cover strategies for optimizing code performance, including profiling, identifying bottlenecks, and implementing optimizations without sacrificing code readability.  <br>
-      5. Security Practices in Development: Review common security vulnerabilities, such as injection attacks, cross-site scripting (XSS), and how to implement secure coding practices to mitigate risks.<br>
-      6. Testing Strategies: Explore different testing methodologies, such as unit testing, integration testing, and end-to-end testing, and how to incorporate them into the development process effectively.<br>
-      7. Continuous Integration/Continuous Deployment (CI/CD): Discuss the importance of CI/CD pipelines in software development, setting up automated builds, tests, and deployments, and integrating them into the development workflow.<br>
-      8. Scalability and Performance :Examine techniques for designing scalable and high-performance systems, including load balancing, caching strategies, and horizontal/vertical scaling.<br>
-      9. Cloud Computing Technologies :such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Serverless computing, and how to leverage cloud services effectively in development projects.<br>
-      10. Emerging Technologies and Trends: Stay updated on the latest technologies and trends in the tech industry, such as artificial intelligence, machine learning, blockchain, and discuss their potential applications in software development projects.
+      Group study on project-based learning, including pair programming. Gain deep knowledge of web-based microservice architecture, system design, and CI/CD best practices. Integrate backend services with ReactJS frontend to craft full-stack projects.
   network:
     - linkedin: https://www.linkedin.com/in/hersi-kopani
 
