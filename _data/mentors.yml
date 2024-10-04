@@ -1791,7 +1791,7 @@
 - name: Ima-Abasi Effiong
   disabled: false
   matched: false
-  sort: 200
+  sort: 300
   hours: 5
   type: both
   index: 54
