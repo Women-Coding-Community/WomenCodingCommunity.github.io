@@ -552,32 +552,25 @@
   disabled: false
   sort: 10
   hours: 2
-  position: Lead, Women Who Code Data Science
+  position: Senior Technical Project Manager, Havells Center for Research and Innovation
   type: long-term
   index: 18
-  location: India, Coimbatore
+  location: India/Bengaluru
   bio: |
-    I am Kirthikka Devi Venkataram, an experienced Manager who has launched embedded system products for 10 years, working for B2B segments leveraging design thinking, resulting in the product's growth and increasing revenue. I have enhanced the system's product features while practicing Scrum and Agile methodologies working in cutting-edge technologies. There has been a keen dissection of business outcomes, engineering design, and empathizing with customers in my career journey. Out of my work, I took organization focused prospects tours, which awarded me presenting the business unit's technical expertise towards acquiring more projects. I work towards empowering women working in external forums and offer mentorship.
+    Kirthikka Devi Venkataram is an experienced Manager has launched embedded system products for 10 years. She has worked for B2B segments of multiple industry verticals leveraging design thinking, resulting in the product's growth and increasing revenue. There has been a keen focus dissecting business outcomes, engineering design and empathizing customers in her career journey. Extending her involvement in organizational activities, she has conducted prospects tours that recognized her leadership skills. She works towards empowering women collaborating in external forums and offers mentorship support.
   image: assets/images/mentors/kirthikka_devi_venkataram.jpg
   languages: English
   skills:
     experience: 10-15 Years
     years: 15
-    mentee: I look for an individual who is interested in enhancing her career structured by the step by step approach provided to her. Interested and passionate about growing skills specific to Tech industry. Individual interested in transition to Management.
+    mentee: Looking for Mentee serious about the Mentorship program, sharp focused in their career following tech regularly.
     areas:
-      - Product Management
+      - Distributed Systems
       - Data Science
-      - Engineering management
-      - Project Management
-      - Machine Learning
-    languages: C, Python
+    languages: C
     focus:
       - Grow from beginner to mid-level
-      - Switch from IC to management position
-      - Grow from mid-level to senior-level
-      - Switch career to IT
-      - Change specialisation within IT
-    extra: Resume Review, Prepare for interview, Product Management, Transition into Tech.
+    extra: Already leading a study group in Data Analytics and Generative AI concepts.
   network:
     - linkedin: https://www.linkedin.com/in/kirthikka-devi-v
     - Medium: https://medium.com/@rithik18
