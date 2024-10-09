@@ -159,3 +159,16 @@
         I’m grateful to have e-met Adriana during this stage of my learning journey.
       name: Anonymous
       type: Long Term Mentorship
+
+- index: 7 # Madhura
+  feedback:
+    - score: 5
+      date: 20241007
+      date-f: 07 October 2024
+      feedback: |
+        I want to express my gratitude for the mock system design interview session Madhura conducted with me.
+        Her guidance on the right approach was incredibly helpful, and the constructive feedback she provided on areas for improvement gave me clear direction on how to strengthen my skills.  
+        I especially appreciated how she shared her knowledge of real-world systems, offering valuable context and insight.  
+        Her support and constructive advice have been instrumental in boosting my confidence and preparation.
+      name: Sonali Goel
+      type: Ad-Hoc
