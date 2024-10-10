@@ -1817,7 +1817,7 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   hours: 5
   type: long-term
   index: 55
