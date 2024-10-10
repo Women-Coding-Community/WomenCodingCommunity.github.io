@@ -1813,3 +1813,39 @@
   network:
   - linkedin: https://www.linkedin.com/in/imaabasieffiong/
   - website: https://x.com/eeimaabasi
+
+- name: Lidiane Mayra Taquehara
+  disabled: false
+  matched: false
+  sort: 100
+  hours: 5
+  type: long-term
+  index: 55
+  location: London
+  position: Senior Software Engineer, Artsy
+  bio: |
+    I'm a senior software engineer who migrated to IT after 10 years working on a complete different area (I was a factory worker in the past). I found my passion in the tech field and I'd love to help other women who are also interested in it.
+  image: |
+    assets/images/mentors/lidiane_mayra_taquehara.jpeg
+  languages: English, Portuguese
+  availability: []
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: |
+      A mentee with a curious mind and passionate about learning new things.
+    areas:
+    - Backend Developer
+    - QA
+    - Fullstack Developer
+    - Frontend Developer
+    - Distributed Systems
+    languages: Ruby, Javascript, Python, Java
+    focus:
+    - Switch career to IT
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    extra: |
+      Software engineering, Automated tests, Backend development, Test Driven Development, Web scraping
+  network:
+  - linkedin: https://www.linkedin.com/in/lmayra/
