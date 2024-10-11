@@ -49,6 +49,9 @@
               </header>
               <div class="article-header-img px-2">
                 <img src="{{page.blurb_img}}" alt="working-with-chatgpt-photo">
+                {% if page.blurb_img_source %}
+                  <div class="img-source">{{page.blurb_img_source}}</div>
+                {% endif %}
               </div>
 
               <div class="article-blog-content content-constrained">

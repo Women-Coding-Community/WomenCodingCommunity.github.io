@@ -35,14 +35,23 @@
   .article-header-img {
     width: 100%;
     height: 500px;
-    margin-bottom: map-get($spacers, 4);
+    margin-bottom: map-get($spacers, 5);
 
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
+
+    .img-source {
+      font-size: 12px;
+      font-style: italic;
+      text-align: center;
+      width: fit-content;
+      margin: map-get($spacers, 2) auto 0;
+    }
   }
+
   @include media-breakpoint-down(md) {
     .article-header-img {
       height: 250px;

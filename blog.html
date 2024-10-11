@@ -41,7 +41,14 @@ body_class: page list-page list-page-blog
                                             <div class="card-author-name">{{post.author_name}}</div>
                                             <div class="card-author-role">{{post.author_role}}</div>
                                             <div class="card-author-date">{{ post.date | date: "%d.%m.%Y" }}</div>
-                                            <div><small>#{{post.category}}</small></div>
+                                            <div>
+                                                <small>
+                                                    {% assign categories = post.category | split: ", " %}
+                                                    {% for category in categories %}
+                                                        <span>#{{ category }}</span>{% if forloop.last == false %}, {% endif %}
+                                                    {% endfor %}
+                                                </small>
+                                            </div>
                                         </div>
                                     </div>
 
