@@ -42,14 +42,6 @@
       height: 100%;
       object-fit: cover;
     }
-
-    .img-source {
-      font-size: 12px;
-      font-style: italic;
-      text-align: center;
-      width: fit-content;
-      margin: map-get($spacers, 2) auto 0;
-    }
   }
 
   @include media-breakpoint-down(md) {
@@ -192,4 +184,12 @@
       margin-top: 0;
     }
   }
+}
+
+.img-source {
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  width: fit-content;
+  margin: map-get($spacers, 2) auto 0;
 }
