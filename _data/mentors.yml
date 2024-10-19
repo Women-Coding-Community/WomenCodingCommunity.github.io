@@ -1849,3 +1849,45 @@
       Software engineering, Automated tests, Backend development, Test Driven Development, Web scraping
   network:
   - linkedin: https://www.linkedin.com/in/lmayra/
+
+- name: Ajeetha Kumari Venkatesan
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 2
+  type: both
+  index: 56
+  location: London, UK
+  position: Director of Verification, AsFigo Technologies
+  bio: |
+    Ajeetha Kumari Venkatesan is a notable expert in VLSI design and functional verification, currently serving as the Director of Verification at AsFigo Technologies Limited. With extensive experience in both digital and analog VLSI, she leads initiatives in functional verification methodologies. 
+
+    Ajeetha is also a member of the Technical Program Committee for DVCon India and has been presenting on various technical topics across Europe including Spain, Germany and UK. 
+
+    Her contributions include developing UVMLint for IEEE-UVM core code, reflecting her commitment to enhancing verification tools. Ajeetha's leadership and expertise make her a respected figure in the semiconductor industry. Her first start-up focusing on VLSI education is running successfully since 2004!
+  image: |
+    assets/images/mentors/ajeetha_kumari.jpeg
+  languages: English, Tamil, Hindi, Kannada
+  availability: [11]
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: |
+      VLSI design engineers
+    areas:
+    - Product Management
+    - Project Management
+    - Engineering management
+    - Business Analysis
+    - QA
+    languages: Python
+    focus:
+    - Grow from mid-level to senior-level
+    - Grow beyond senior level
+    - Switch career to IT
+    - Switch from IC to management position
+    - Grow from beginner to mid-level
+    extra: |
+      UVM, SystemVerilog, SVA, PSL, Verilog, VHDL, ASIC, FPGA, Lint
+  network:
+  - linkedin: https://in.linkedin.com/in/ajeetha
