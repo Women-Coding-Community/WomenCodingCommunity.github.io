@@ -1891,3 +1891,35 @@
       UVM, SystemVerilog, SVA, PSL, Verilog, VHDL, ASIC, FPGA, Lint
   network:
   - linkedin: https://in.linkedin.com/in/ajeetha
+
+- name: Alexey Buzovkin
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 5
+  type: both
+  index: 57
+  location: London
+  position: Data Scientist, Revolut
+  bio: |
+    Trained/pushed to prod computer vision models for classification, segmentation, text extraction, detection, etc
+    Implemented papers, researched new approaches, synthesised datasets with SD/sdxl/svd, trained custom supplementary modules for them
+    Implemented approaches for AWB, slam, depth enhancement, etc
+  image: |
+    assets/images/mentors/alexey_buzovkin.jpeg
+  languages: English, Russian
+  availability: [11]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      Anybody who is interested in growth
+    areas:
+    - Data Science
+    languages: Python
+    focus:
+    - Grow from mid-level to senior-level
+    extra: |
+      Software development strategies, research approaches
+  network:
+  - linkedin: https://www.linkedin.com/in/alexey-buzovkin-6587b7122/
