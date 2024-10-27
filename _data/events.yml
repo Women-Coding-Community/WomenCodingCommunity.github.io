@@ -263,13 +263,14 @@
     target: _target
 
 - title: Writing Club with Women Coding Community - Learn about Infographics!
-  description: We are excited to continue with our Writing Club sessions as a part
+  description:
+    We are excited to continue with our Writing Club sessions as a part
     of Women Coding Community! Join our September session to learn about infographics
     and how to use them to enhance your writing!
   category_style: writing-club
   category_name: Writing Club
   date: THU, SEP 12, 2024
-  expiration: '20240912'
+  expiration: "20240912"
   host: Rajani Rao, Co-Founder/Director at WCC
   time: 7:00 PM BST
   image:
@@ -425,5 +426,81 @@
     alt: "Cloud Career Journeys: DevOps Engineering cover photo"
   link:
     path: https://www.meetup.com/women-coding-community/events/303257659/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    Introduction to SurrealDB: A Modern Database for the Future
+  description: |
+    Getting Started with SurrealDB is a 3-part online workshops series hosted by Women Coding Community in collaboration with SurrealDB. During these hands-on workshops, Caroline Morton - software engineer and senior research fellow at SurrealDB - will demonstrate SurrealDB's functionality and use cases, both as a traditional relational database, as well as highlighting the additional features and benefits of a multi-model database.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: MON, OCT 28, 2024
+  expiration: "20241028"
+  host: "Adriana Zencke"
+  speaker: "Caroline Morton"
+  time: 8:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/7/3/f/5/600_523829685.webp?w=750"
+    alt: "Introduction to SurrealDB: A Modern Database for the Future"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/303450437
+    title: View meetup event
+    target: _target
+
+- title: |
+    Hands-On with SurrealDB: Exploring Key Features in Practice
+  description: |
+    This session will provide a practical exploration of some of SurrealDB’s key out-of-the-box features. We’ll focus on fundamental operations such as CRUD (Create, Read, Update, Delete), schema definition, and SurrealDB’s unique "Get functions." Additionally, we’ll take a look at the Surreal Store demo dataset to see how these features can be applied in real-world scenarios.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: MON, NOV 04, 2024
+  expiration: "20241104"
+  host: "Sonali Goel"
+  speaker: "Caroline Morton and Alexander Fridriksson"
+  time: 8:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/9/d/600_523883965.webp?w=750"
+    alt: "Speakers Image"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/303704265
+    title: View meetup event
+    target: _target
+
+- title: |
+    Design Patterns Course
+  description: |
+    We will take the concepts learned in the previous talk and apply them to the Women Coding Community (WCC) platform. We’ll explore how SurrealDB’s features can be used to meet some of the platform’s needs, such as facilitating basic database functions as well as vector search for matching mentors and mentees.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: MON, NOV 11, 2024
+  expiration: "20241111"
+  host: "Irina Kamalova | Sonali Goel | Leslie Puente"
+  speaker: ""
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/7/d/2/b/600_524252043.webp?w=750"
+    alt: "Speakers Image"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/304160911
+    title: View meetup event
+    target: _target
+
+- title: |
+    SurrealDB and the WCC Platform: Practical Application in Real-World Projects
+  description: |
+    In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book. After covering the key concepts, we will examine how the patterns have evolved to support modern architectures (distributed systems and microservices).
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: MON, NOV 06, 2024
+  expiration: "20241106"
+  host: "Sonali Goel"
+  speaker: "Caroline Morton and Alexander Fridriksson"
+  time: 8:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/b/7/600_523883991.webp?w=750"
+    alt: "Speakers Image"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/303704402
     title: View meetup event
     target: _target
