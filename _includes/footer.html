@@ -1,63 +1,119 @@
 <footer class="site-footer">
   <div class="container">
     <div class="row justify-content-between">
-        <div class="col-12 col-md-8">
-            <img class="brand" src="/assets/images/logo.svg" alt="Women Coding Community logo">
-        </div>
-        <div class="col-12 col-md-4 social">
-            <h2>Follow Us</h2>
-            <p><small>Join us on social media and stay tuned.</small></p>
-            <p class="network">
-              {% if site.network.linkedin %}
-                <span> <a href="{{site.network.linkedin}}" target="_blank"> {% include icons/linkedin.svg %}</a></span>
-              {% endif %}
-              {% if site.network.twitter %}
-                <span> <a href="{{site.network.twitter}}" target="_blank"> {% include icons/twitter.svg %}</a></span>
-              {% endif %}
-              {% if site.network.github %}
-                <span> <a href="{{site.network.github}}" target="_blank"> {% include icons/github.svg %}</a></span>
-              {% endif %}
-              {% if site.network.medium %}
-                <span> <a href="{{site.network.medium}}" target="_blank"> {% include icons/medium.svg %}</a></span>
-              {% endif %}
-              {% if site.network.meetup %}
-                <span> <a href="{{site.network.meetup}}" target="_blank"> {% include icons/meetup.svg %}</a></span>
-              {% endif %}
-              {% if site.network.facebook %}
-                <span> <a href="{{site.network.facebook}}" target="_blank"> {% include icons/facebook.svg %}</a></span>
-              {% endif %}
-              {% if site.network.youtube %}
-                <span> <a href="{{site.network.youtube}}" target="_blank"> {% include icons/youtube.svg %}</a></span>
-              {% endif %}
-              {% if site.network.instagram %}
-                <span> <a href="{{site.network.instagram}}" target="_blank"> {% include icons/instagram.svg %}</a></span>
-              {% endif %}
-              {% if site.network.mail %}
-                <span> <a href="{{site.network.mail}}" target="_blank"> {% include icons/envelope.svg %}</a></span>
-              {% endif %}
-              {% if site.network.slack %}
-                <span> <a href="{{site.network.slack}}" target="_blank"> {% include icons/slack.svg %}</a></span>
-              {% endif %}
-            </p>
-        </div>
+      <div class="col-12 col-md-8">
+        <img
+          class="brand"
+          src="/assets/images/logo.svg"
+          alt="Women Coding Community logo"
+        />
+      </div>
+      <div class="col-12 col-md-4 social">
+        <h2>Follow Us</h2>
+        <p><small>Join us on social media and stay tuned.</small></p>
+        <p class="network">
+          {% if site.network.linkedin %}
+          <span>
+            <a href="{{site.network.linkedin}}" target="_blank">
+              {% include icons/linkedin.svg %}</a
+            ></span
+          >
+          {% endif %} {% if site.network.twitter %}
+          <span>
+            <a href="{{site.network.twitter}}" target="_blank">
+              {% include icons/twitter.svg %}</a
+            ></span
+          >
+          {% endif %} {% if site.network.github %}
+          <span>
+            <a href="{{site.network.github}}" target="_blank">
+              {% include icons/github.svg %}</a
+            ></span
+          >
+          {% endif %} {% if site.network.medium %}
+          <span>
+            <a href="{{site.network.medium}}" target="_blank">
+              {% include icons/medium.svg %}</a
+            ></span
+          >
+          {% endif %} {% if site.network.meetup %}
+          <span>
+            <a href="{{site.network.meetup}}" target="_blank">
+              {% include icons/meetup.svg %}</a
+            ></span
+          >
+          {% endif %} {% if site.network.facebook %}
+          <span>
+            <a href="{{site.network.facebook}}" target="_blank">
+              {% include icons/facebook.svg %}</a
+            ></span
+          >
+          {% endif %} {% if site.network.youtube %}
+          <span>
+            <a href="{{site.network.youtube}}" target="_blank">
+              {% include icons/youtube.svg %}</a
+            ></span
+          >
+          {% endif %} {% if site.network.instagram %}
+          <span>
+            <a href="{{site.network.instagram}}" target="_blank">
+              {% include icons/instagram.svg %}</a
+            ></span
+          >
+          {% endif %} {% if site.network.mail %}
+          <span>
+            <a href="{{site.network.mail}}" target="_blank">
+              {% include icons/envelope.svg %}</a
+            ></span
+          >
+          {% endif %} {% if site.network.slack %}
+          <span>
+            <a href="{{site.network.slack}}" target="_blank">
+              {% include icons/slack.svg %}</a
+            ></span
+          >
+          {% endif %}
+        </p>
+      </div>
     </div>
     <div class="row justify-content-between">
       <div class="col-12 copyright">
-          <p><small>Women Coding Community is a not-for-profit organisation.</small></p>
-          <p><small>© 2024 Women Coding Community</small></p>
+        <p>
+          <small
+            >Women Coding Community is a not-for-profit organisation.</small
+          >
+        </p>
+        <p><small>© 2024 Women Coding Community</small></p>
       </div>
+    </div>
   </div>
+
+  <!-- Consent Banner-->
+  <div id="consent-banner" class="consent-banner">
+    <p class="mb-3">
+      We use cookies to ensure you get the best experience. By clicking
+      "Accept", you agree to our use of Google Analytics.
+    </p>
+    <button id="accept-cookies" class="btn btn-primary">Accept</button>
+    <button id="deny-cookies" class="btn  btn-outline-primary ">Deny</button>
   </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"
+></script>
 
 <script src="/assets/js/code_of_conduct.js" type="module"></script>
 <script src="/assets/js/custom.js" type="module"></script>
@@ -68,11 +124,64 @@
 <script src="/assets/js/registration.js" type="module"></script>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3V6VPT445S"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-3V6VPT445S"
+></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  
+  const gtagId = "{{ site.gtagId }}"
 
-  gtag('config', 'G-3V6VPT445S');
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  // Google Consent Mode setup
+  gtag("consent", "default", {
+    ad_storage: "denied",
+    analytics_storage: "denied",
+  });
+  $(document).ready(function () {
+    // Check if the consent has been previously given
+    if (!localStorage.getItem("consentGiven")) {
+      $("#consent-banner").show();
+    }
+
+    // User accepts cookies
+    $("#accept-cookies").click(function () {
+      localStorage.setItem("consentGiven", "true");
+      $("#consent-banner").hide();
+      enableAnalytics();
+      gtag("consent", "update", {
+        ad_storage: "granted",
+        analytics_storage: "granted",
+      });
+    });
+
+    // User denies cookies
+    $("#deny-cookies").click(function () {
+      localStorage.setItem("consentGiven", "false");
+      $("#consent-banner").hide();
+      gtag("consent", "update", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+      });
+    });
+  });
+
+  function enableAnalytics() {
+    // Enable Google Analytics if consent is given
+    if (localStorage.getItem("consentGiven") === "true") {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", gtagId);
+    }
+  }
+
+  enableAnalytics();
 </script>
