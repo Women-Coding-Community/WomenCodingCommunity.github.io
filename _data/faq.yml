@@ -100,6 +100,10 @@
   answer: <p> The Mentorship programme lasts from March till November of the same year.</p>
   index: 18
 
+- question: How can I update my mentor profile?
+  answer: Simply fill out our  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdaFCi3YI3SIxajQtV3aC6DgHwRZFc1ZHY0j5Z2bY_OaZfRkQ/viewform">Update my Mentor Profle</a> form, and we'll manage all the updates for you.
+  index: 19
+
 - question: What is Notion?
   answer: Notion is a productivity and note-taking tool which provides a variety of features to keep track of progress. We recommend using this tool during mentorship experience. Or template can help mentors and mentees be organized and to be on track. At the beginning of the cycle we will conduct a webinar on how to get the most out of Notion note-taking experience.
-  index: 19
+  index: 20
