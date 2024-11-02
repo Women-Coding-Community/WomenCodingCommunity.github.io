@@ -159,6 +159,24 @@
         I’m grateful to have e-met Adriana during this stage of my learning journey.
       name: Anonymous
       type: Long Term Mentorship
+    - score: 5
+      date: 20241025
+      date-f: 25 October 2024
+      feedback: |
+        Adriana Zencke Zimmermann is my long-term mentor in the Women Coding Community.
+
+        From our first session, Adriana left an immensely positive impression on me. With an honest and compassionate approach to a person, she generously shares her knowledge and experiences, she is positively oriented with a problem solving attitude, she listens attentively and shows genuine interest in my life situation and aspirations. I have also immediately noticed her exceptional organizational skills, for which I admired her even more.
+
+        During the mentorship, Adriana has helped me in so many ways, improving my technical skills as well as my soft skills, including communication, organization, and presentation. She has helped me gain the confidence I need and has encouraged me to pursue my goals by introducing just the right amount of new tasks and ideas. We also always have time to share life stories and support each other with ideas for improving work-life balance.
+        Through Adriana’s mentorship, I have strengthened my expertise in Java, Spring Boot, and API design, which feels fantastic. She guides me through tasks, helps me understand complex parts, and enables me to advance more quickly. I am grateful that she has invited me to collaborate with the WCC team, implementing a new community web platform. Collaborating with others, attending stand-up meetings, and engaging in pair programming have greatly boosted my confidence. My hope is to contribute to future mentorship efforts and help other newcomers grow within the community, just as Adriana has done for me.
+
+        As I have got to know Adriana, I have seen how much heart she puts into the community and people in general. She sees the best in us, she is eager to help, to solve problems and moves us forward. I respect her deeply, and during our conversations, I am always motivated to keep moving forward, take action, and see myself in a positive light.
+
+        The community of wonderful people who generously volunteer their time to help others enter or return to the tech industry, gain knowledge they need, boost their self-esteem and find jobs is like a magic itself and a testament to the greatness of human beings.
+
+        Thank you Adriana and Women Coding Community!
+      name: Nevena Verbič
+      type: Long Term Mentorship & Ad-Hoc
 
 - index: 7 # Madhura
   feedback:
