@@ -63,20 +63,34 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: $primary-95;
-    color: $text-primary;
+    background-color: $neutral-50;
+    color: $white;
     padding: 15px;
     text-align: center;
     display: none; /* Hidden by default */
     z-index: 99;
+
+    .btn {
+      color: $white;
+      background-color: $primary-40;
+      font-size: $font-size-sm;
+      margin-left: 15px;
+      transition: transform 0.5s ease;
+
+      &:hover {
+          transform: translateY(-2px);
+      }
+     
+  }
+  .btn-outline {
+    background-color: $neutral-40;
+  }
+   
   }
   
   .consent-banner p {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
-  
-  .consent-banner .btn {
-    margin-left: 15px;
-  }
+
   
