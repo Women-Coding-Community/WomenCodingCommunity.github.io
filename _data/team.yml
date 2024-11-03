@@ -40,7 +40,7 @@
   image: assets/images/team/4.jpeg
   network:
     - name: linkedin
-      link: https://www.linkedin.com/in/rajaniraog
+      link: https://www.linkedin.com/in/dricazenck/
     - name: github
       link: https://github.com/dricazenck
     - name: medium
@@ -136,3 +136,11 @@
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/sonali-goel-6b611522/
+
+- name: Joana Brito
+  position: WCC Evangelist
+  comment: Software Engineer
+  image: assets/images/team/16.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/joana-brito216/
