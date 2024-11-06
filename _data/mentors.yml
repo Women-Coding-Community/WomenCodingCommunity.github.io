@@ -1923,3 +1923,41 @@
       Software development strategies, research approaches
   network:
   - linkedin: https://www.linkedin.com/in/alexey-buzovkin-6587b7122/
+
+- name: Ciera Fowler
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 4
+  type: both
+  index: 58
+  location: London, UK
+  position: ML Engineering Lead, Ori Industries
+  bio: |
+    With over a decade of experience in data engineering, architecture, and analytics I excel in building scalable data platforms and leading high-impact projects. As ML Engineering Lead at Ori, I drive machine learning initiatives, and previously at Clear Street, I implemented an enterprise data warehouse. My expertise spans large language models, cloud architectures, real-time data solutions, and high-performing data warehousing ETL frameworks, with a passion for both innovation and mentorship. Last year, I also served as Lead Instructor for BrainStation’s AI course, sharing practical AI skills with emerging professionals.
+  image: |
+    assets/images/mentors/ciera_fowler.jpg
+  languages: English
+  availability: [11]
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      Someone with big aspirations!
+    areas:
+    - Machine Learning
+    - Data Engineering
+    - Engineering management
+    - DevOps
+    - Data Science
+    languages: Python
+    focus:
+    - Switch career to IT
+    - Change specialisation within IT
+    - Switch from IC to management position
+    - Grow beyond senior level
+    - Grow from mid-level to senior-level
+    extra: |
+      Data platform development, resume review, prep for coding interviews, generative AI and machine learning applications, ML ops, vendor selection, KPI setting and monitoring
+  network:
+  - linkedin: https://www.linkedin.com/in/ciera-fowler/
