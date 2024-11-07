@@ -1,84 +1,87 @@
 var controllerHome = (function (jQuery) {
   const CONSENT = 'consentGiven';
-  const consentBanner = jQuery("#consent-banner");
-  const acceptCookiesButton = jQuery("#accept-cookies");
-  const denyCookiesButton = jQuery("#deny-cookies");
-  const gtagId = "{{ site.gtagId }}";
+  const consentBanner = jQuery('#consent-banner');
+  const acceptCookiesButton = jQuery('#accept-cookies');
+  const denyCookiesButton = jQuery('#deny-cookies');
+  const gtagId = 'G-3V6VPT445S';
+  const DENIED = 'denied';
+  const GRANTED = 'granted';
+  const CONSENT_UPDATE = 'consent_update';
 
-  var adjustHomeLink = function () {
-    if (document.location.hostname === "localhost") {
-      jQuery(".navbar-brand").attr("href", "/");
-      jQuery("#nav-0").attr("href", "/");
+  const adjustHomeLink = function () {
+    if (document.location.hostname === 'localhost') {
+      jQuery('.navbar-brand').attr('href', '/');
+      jQuery('#nav-0').attr('href', '/');
     }
   };
 
-  let initializeConsentMode = function () {
+  const initializeConsentMode = function () {
     window.dataLayer = window.dataLayer || [];
-    function gtag() {
+    const gtag = function() {
       window.dataLayer.push(arguments);
     }
-    gtag("consent", "default", {
-      ad_storage: "denied",
-      analytics_storage: "denied",
+    gtag(CONSENT, 'default', {
+      ad_storage: DENIED,
+      analytics_storage: DENIED,
     });
   };
 
   // Function to enable Google Analytics
-  let enableAnalytics = function () {
-    if (localStorage.getItem(CONSENT) === "true") {
+  const enableAnalytics = function () {
+    if (localStorage.getItem(CONSENT)) {
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         window.dataLayer.push(arguments);
       }
-      gtag("js", new Date());
-      gtag("config", gtagId);
+      gtag('js', new Date());
+      gtag('config', gtagId);
     }
   };
 
- 
-  let displayConsentBanner = function () {
+
+   const displayConsentBanner = function () {
     if (!localStorage.getItem(CONSENT)) {
       consentBanner.show();
     }
   };
 
-  
-  let acceptCookies = function () {
+
+  const acceptCookies = function () {
     localStorage.setItem(CONSENT, true);
     consentBanner.hide();
     enableAnalytics();
     window.dataLayer.push({
-      event: "consent_update",
-      ad_storage: "granted",
-      analytics_storage: "granted",
+      event: CONSENT_UPDATE,
+      ad_storage: GRANTED,
+      analytics_storage: GRANTED,
     });
   };
 
-  
-  let denyCookies = function () {
+
+  const denyCookies = function () {
     localStorage.setItem(CONSENT, false);
     consentBanner.hide();
     window.dataLayer.push({
-      event: "consent_update",
-      ad_storage: "denied",
-      analytics_storage: "denied",
+      event: CONSENT_UPDATE,
+      ad_storage: DENIED,
+      analytics_storage: DENIED,
     });
   };
 
-  
-  let initPage = function () {
+
+  const initPage = function () {
     initializeConsentMode();
     displayConsentBanner();
     enableAnalytics();
   };
 
-  let initEvents = function () {
-    jQuery(acceptCookiesButton).on('click',function (e) {
+  const initEvents = function () {
+    jQuery(acceptCookiesButton).on('click', function (e) {
       e.preventDefault();
       acceptCookies();
     });
 
-  
+
 
     jQuery(denyCookiesButton).on('click', function (e) {
       e.preventDefault();
@@ -86,7 +89,7 @@ var controllerHome = (function (jQuery) {
     });
   };
 
-  let init = function () {
+  const init = function () {
     adjustHomeLink();
     initPage();
     initEvents();
