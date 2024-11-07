@@ -50,8 +50,8 @@
     <!-- Consent Banner-->
     <div id="consent-banner" class="consent-banner">
       <p class="mb-3">
-        We use cookies to ensure you get the best experience. By clicking
-        "Accept", you agree to our use of Google Analytics.
+        We use cookies to enhance your experience and help us better understand and support our Women Coding Community. By clicking
+        "Accept", you agree to our use of cookies for improved the community.
       </p>
       <button id="accept-cookies" class="btn btn-primary">Accept</button>
       <button id="deny-cookies" class="btn btn-outline">Deny</button>
@@ -78,55 +78,4 @@
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3V6VPT445S"></script>
-<script>
-  const gtagId = "{{ site.gtagId }}";
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
 
-  // Consent Mode setup
-  gtag("consent", "default", {
-    ad_storage: "denied",
-    analytics_storage: "denied",
-  });
-  $(document).ready(function () {
-    // Check if the consent has been previously given
-    if (!localStorage.getItem("consentGiven")) {
-      $("#consent-banner").show();
-    }
-
-    // User accepts cookies
-    $("#accept-cookies").click(function () {
-      localStorage.setItem("consentGiven", "true");
-      $("#consent-banner").hide();
-      enableAnalytics();
-      gtag("consent", "update", {
-        ad_storage: "granted",
-        analytics_storage: "granted",
-      });
-    });
-
-    // User denies cookies
-    $("#deny-cookies").click(function () {
-      localStorage.setItem("consentGiven", "false");
-      $("#consent-banner").hide();
-      gtag("consent", "update", {
-        ad_storage: "denied",
-        analytics_storage: "denied",
-      });
-    });
-  });
-
-  function enableAnalytics() {
-    // Enable Google Analytics if consent is given
-    if (localStorage.getItem("consentGiven") === "true") {
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", gtagId);
-    }
-  }
-
-  enableAnalytics();
-</script>

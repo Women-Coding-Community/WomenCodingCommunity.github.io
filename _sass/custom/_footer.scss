@@ -61,14 +61,21 @@
   .consent-banner {
     position: fixed;
     bottom: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     background-color: $neutral-50;
     color: $white;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
-    display: none; /* Hidden by default */
+    display: none;
     z-index: 99;
+   
+    @include media-breakpoint-up(md) {  
+     max-width: 650px;
+     border-radius: $border-radius;
+     bottom: 40px;
+     right: 46px;
+  }
 
     .btn {
       color: $white;
