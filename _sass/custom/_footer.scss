@@ -68,7 +68,7 @@
     padding: 20px;
     text-align: center;
     display: none;
-    z-index: 99;
+    z-index: 999;
    
     @include media-breakpoint-up(md) {  
      max-width: 650px;
