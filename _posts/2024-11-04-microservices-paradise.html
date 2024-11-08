@@ -1,0 +1,259 @@
+---
+layout: post
+title: Microservices Paradise
+date: 2024-11-04
+author_name: Irina Kamalova
+author_role: VP Lead Software Engineer
+blurb_img: /assets/images/blog/2024-11-04-microservices-paradise-banner.png
+blurb_img_source: Created by Author with Canva
+description: Microservices Paradise
+category: n/a
+---
+
+<div class="text-justify">
+  <p class="italic">Take a moment and ask yourself some questions:</p>
+
+  <p class="italic"> -&nbsp;&nbsp;have you experienced the problem of working with microservices hell?</p>
+  <p class="italic"> -&nbsp;have you experienced the pleasure of working with microservices paradise?</p>
+
+    <div>   
+       <img class="img-fluid" src="/assets/images/blog/2024-11-04-twisted-microservices.png">
+    </div>
+
+    <div>
+      <p>Take a moment and ask yourself some questions:</p>
+      <p>- do you believe that it's possible to achieve?</p>
+       <p>- are there practices and guidelines are you going to follow? </p>
+       <p> - what practices and guidelines are you going to follow?</p>
+    </div>
+
+  <h1 class="section-header">#1 Design strict rules</h1>
+  <p> What are layers in your application?  </p>
+  <ul>
+    <li>Frontend Services (BFF - Backend For Frontend)</li>
+    <li>Flow Services</li>
+    <li>Stateful Services</li>
+    <li>Gateway Services.</li>
+    </ul>
+
+    <div><p>
+      It's very important that services go with flow of calls in parallel; Only TOP-DOWN:
+    </p></div>
+  <div >
+    <img class="img-fluid" src="/assets/images/blog/2024-11-04-only-top-down.png">
+    <p>No DOWN-TOP interactions!</p>
+  </div>
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/2024-11-04-design-strict-rules-only.png">
+  </div>
+
+  <p> We're thinking about how services are executing their functions; and in this terms we'resaying the strict rule: No CROSS-FUNCTIONAL interactions.Think about API call where you also have to trigger a push notification / or message / oremail - it will be invoked from the API level service as well;and you want more examples - like real life examples - please, come to me after this talk and I can share with you or we can do a Drawing design session! </p>
+ 
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/2024-11-04-no-cross-communication.png">
+  </div>
+
+  <p>When we're thinking of our services as separate from FRONTEND PUBLIC API Servicesand GATEWAY PUBLIC API Services - there should be no CROSS-FUNCTIONALinteractions as well!</p>
+ 
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/2024-11-04-top-down-cross-communication-allowed.png">
+  </div>
+ <p>Note #1: Top-Down Cross-communications are allowed</p>
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/2024-11-04-skipping-levels-allowed.png">
+  </div>
+  <p>Note #2: Skipping levels is allowed  </p>
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/2024-11-04-skipping-levels-is-allowed-duplicate.png">
+  </div>
+
+  <h1 class="section-header">#2 Following the good naming</h1>
+
+  <p>Take a moment and ask yourself some questions:</p>
+  <p> - What does good naming mean to you?</p>
+  <p> - How many big business domains do you have?</p>
+
+  <p>The first rule is to define the big domains your organisation is running.If you don't know where the domain is set up, or you develop plugins and tools settled acrossmany businesses - start with infrastructure.</p>
+ 
+  <p>Bad naming: trust me, those services exist and are running in production and even doing their job!</p>
+  
+  <p> Example of domains:</p>
+  <ul>
+    <li> Retail</li>
+    <li> Business </li>
+    <li> Trading </li>
+    <li> Infrastructure </li>
+  </ul>
+
+  <p> Example of package names:</p>
+  <ul>
+    <li> 'retail-direct-deposit'</li>
+    <li> 'retail-card-payments' </li>
+  </ul>
+
+
+  <p> Example of class names:</p>
+  <ul>
+    <li> RetailDirectDepositResource</li>
+    <li> RetailDirectDepositRepository </li>
+  </ul>
+
+  <p>Example of BAD naming:</p>
+  <ul>
+    <li> 🪐 Saturn</li>
+    <li> ✨ Andromeda </li>
+    <li> 🐘 Elephant </li>
+    <li> 🍨 Vanilla </li>
+    <li> 🪵 Cinammon </li>
+    <li> 🌸 Blossom </li>
+  </ul>
+  
+  <p>Those names are not jokes - they exist on the moment of writing this blogpost and running inproduction by even doing a great job! However, it's really hard to understand who isresponsible for them and WHAT ON THE EARTH they're doing!</p>
+  
+  <h1 class="section-header">#3 System Design Review Expert Committee</h1>
+  
+  <p>Take a moment and ask yourself some questions:</p>
+  <p>Do you have the process of System Design, RFC, ADRs in your organisation?How many people are involved in this process?</p>
+  
+  <p> A <span class="font-weight-bold">System Design Review Experts Committee </span>is typically a group of highly experiencedprofessionals and subject matter experts responsible for evaluating and providing feedbackon the design, architecture, and development of a system. Their goal is to ensure that thesystem meets its intended requirements, adheres to best practices, and is technically sound,scalable, secure, and maintainable.</p>
+
+  <p>Here are key attributes of such a committee:</p>
+
+  <ol>
+    <li>
+     <p class="font-weight-bold"> Diverse Expertise:</p>
+      <ul>
+        <li>The committee usually comprises experts from different domains relevant to
+          the system being designed. This could include:
+           <ul>
+            <li><span class="font-weight-bold">Software Architects</span>: Experts who assess the system's architecture.</li>
+            <li><span class="font-weight-bold">Infrastructure Specialists</span>: Evaluators of cloud, networking, and 
+              hardware infrastructure.</li>
+              <li><span class="font-weight-bold">Security Experts</span>: Professionals who focus on cybersecurity aspects. </li>
+              <li><span class="font-weight-bold">Quality Assurance (QA) Experts</span>: Ensuring the system is testable
+                and meets quality standards. </li>
+              <li><span class="font-weight-bold">Domain-Specific Experts</span>: Specialists in the industry or area where
+                the system will be deployed (e.g., healthcare, finance). </li>
+            </ul>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <p class="font-weight-bold"> Objective Evaluation:</p>
+      <ul>
+        <li>The committee offers an unbiased, critical assessment of the system's
+          design, helping to identify risks, weaknesses, or gaps.</li>
+          <li>They ensure the design adheres to industry standards, best practices, and
+            regulatory requirements (if applicable).</li>
+      </ul>
+    </li>
+
+    <li>
+      <p class="font-weight-bold"> Collaboration and Communication:</p>
+      <ul>
+        <li>
+          The committee works closely with the system's design and development
+teams, facilitating open discussions to improve the design.
+        </li>
+        <li>
+          They provide detailed feedback and suggestions, helping to refine the system and mitigate risks early on.
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <p class="font-weight-bold"> Decision-Making Role:</p>
+      <ul>
+        <li>
+          The committee often has authority to approve or reject designs based on
+predefined criteria. They may recommend changes before further
+development proceeds.
+        </li>
+        <li>
+          They ensure alignment with project goals, budget, timelines, and technical
+feasibility.
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <p class="font-weight-bold"> Documentation and Reporting:</p>
+     <ul>
+      <li> They document their findings and provide reports that outline the system’s
+        strengths, weaknesses, and any necessary revisions.</li>
+     </ul>
+    </li>
+  </ol>
+
+  <h1 class="section-header">#4 System Design Review Expert Committee</h1>
+
+  <p class="italic">Take a moment and ask yourself some questions:</p>
+  <br>
+  <p class="italic">Do you have the process of the Risk Assessment on the system change?</p>
+  <p class="italic">How many people are involved in this process?</p>
+  <p class="italic">What metrics are you using to perform the Risk Assessment?</p>
+
+  <br>
+  <p class="font-weight-bold">Examples of materiality metrics:</p>
+
+  <ul>
+    <li>How many users are affected by this change?</li>
+    <li>How many public APIs are involved?</li>
+    <li>Is the change required by regulators?</li>
+  </ul>
+
+  <br>
+  <p class="font-weight-bold">Examples of complexity metrics:</p>
+
+  <ul>
+    <li>How long will it take to implement?</li>
+    <li>How many teams are involved?</li>
+    <li>Has it ever been done before within the company?</li>
+  </ul>
+
+  <br>
+  <p class="font-weight-bold">Examples of the final rate:</p>
+
+  <ul>
+    <li>Tier / Severity</li>
+    <li>Levels 0-1-2-3</li>
+    <li>0/1 - changes require System Design Review</li>
+    <li>2/3 - smaller changes; don't require System Design Review</li>
+  </ul>
+
+
+  <h1 class="section-header">#5 Do the system design review</h1>
+  <ul>
+    <li>Create an automated process</li>
+    <li>Prepare templates</li>
+    <li>Level 2-3 - review inside department</li>
+    <li>Level 0-1 - review on the level of company</li>
+  </ul>
+<br>
+  <h1 class="section-header">Summary</h1>
+
+  <p>👉 Design strict rules</p>
+
+  <p>👉 Following the good naming</p>
+
+  <p>👉 Introduce the risk assessment</p>
+
+  <p>👉 Establish the expert's committee</p>
+
+  <p>👉 Do System Design Reviews</p>
+
+  <br>
+  <br>
+  <p>… and enjoy your journey!</p>
+
+
+  <br>
+  <br>
+
+  <p>If you have any questions please feel free to connect with me through <a href="https://www.linkedin.com/in/irina-kamalova/" target="_blank">LinkedIn</a></p>
+
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/2024-11-04-question-irina-kamalova.png">
+  </div>
+</div>
