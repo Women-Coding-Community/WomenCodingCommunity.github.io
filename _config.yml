@@ -18,6 +18,9 @@ github:
 
 slack_channel: https://womencodingcommunity.slack.com/archives
 
+# Google Tag
+gtagId: "G-3V6VPT445S"
+
 network:
   linkedin: https://www.linkedin.com/company/womencodingcommunity
   slack: https://join.slack.com/t/womencodingcommunity/shared_invite/zt-2hpjwpx7l-rgceYBIWp6pCiwc0hVsX8A

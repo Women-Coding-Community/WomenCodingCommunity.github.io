@@ -47,6 +47,15 @@
           <p><small>© 2024 Women Coding Community</small></p>
       </div>
   </div>
+    <!-- Consent Banner-->
+    <div id="consent-banner" class="consent-banner">
+      <p class="mb-3">
+        We use cookies to enhance your experience and help us better understand and support our Women Coding Community.
+        By clicking "Accept", you agree to our use of cookies for improved the community.
+      </p>
+      <button id="accept-cookies" class="btn btn-primary">Accept</button>
+      <button id="deny-cookies" class="btn btn-outline">Deny</button>
+    </div>
   </div>
 </footer>
 
@@ -68,11 +77,5 @@
 <script src="/assets/js/registration.js" type="module"></script>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3V6VPT445S"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gtagId }}"></script>
 
-  gtag('config', 'G-3V6VPT445S');
-</script>
