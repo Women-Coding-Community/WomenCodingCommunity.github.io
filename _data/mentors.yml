@@ -1961,3 +1961,41 @@
       Data platform development, resume review, prep for coding interviews, generative AI and machine learning applications, ML ops, vendor selection, KPI setting and monitoring
   network:
   - linkedin: https://www.linkedin.com/in/ciera-fowler/
+
+- name: Liko Chien
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 2
+  type: ad-hoc
+  index: 59
+  location: UK
+  position: Senior frontend developer, California Umbrella
+  bio: |
+    Proven collaborator with cross-functional teams, adapting to diverse work environments across 3 countries. Focused on sustainable code practices, performance optimization, and customer-focused solutions. Achieved a senior role within 4 years, with expertise in React, TypeScript, Node.js, and testing
+  image: |
+    assets/images/mentors/liko_chien.jpg
+  languages: English, Mandarin
+  availability: [11]
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: |
+      Switch career to IT, Grow from beginner to mid-level, new immigrants
+    areas:
+    - Frontend Developer
+    - Product Management
+    - Engineering management
+    - DevOps
+    - Data Engineering
+    languages: Javascript, Python
+    focus:
+    - Grow from beginner to mid-level
+    - Switch career to IT
+    - Grow from mid-level to senior-level
+    - Change specialisation within IT
+    - Grow beyond senior level
+    extra: |
+      Resume Review, Communication, Collaboration, Frontend development, Preparation for The Technical Interview
+  network:
+  - linkedin: https://www.linkedin.com/in/liko-chien-905b42293/
