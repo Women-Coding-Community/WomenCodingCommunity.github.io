@@ -5,7 +5,7 @@ plugins:
 sass:
   sass_dir: _sass/
 
-registration: 13
+registration: 15
 
 # Settings
 title: "Women Coding Community"
@@ -17,6 +17,9 @@ github:
   repository_url: https://github.com/WomenCodingCommunity/WomenCodingCommunity.github.io
 
 slack_channel: https://womencodingcommunity.slack.com/archives
+
+# Google Tag
+gtagId: "G-3V6VPT445S"
 
 network:
   linkedin: https://www.linkedin.com/company/womencodingcommunity

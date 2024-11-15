@@ -57,4 +57,47 @@
         }
     }
   }
+
+  .consent-banner {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: $neutral-50;
+    color: $white;
+    padding: 20px;
+    text-align: center;
+    display: none;
+    z-index: 999;
+   
+    @include media-breakpoint-up(md) {  
+     max-width: 650px;
+     border-radius: $border-radius;
+     bottom: 40px;
+     right: 46px;
+  }
+
+    .btn {
+      color: $white;
+      background-color: $primary-40;
+      font-size: $font-size-sm;
+      margin-left: 15px;
+      transition: transform 0.5s ease;
+
+      &:hover {
+          transform: translateY(-2px);
+      }
+     
+  }
+  .btn-outline {
+    background-color: $neutral-40;
+  }
+   
+  }
+  
+  .consent-banner p {
+    margin: 0;
+    font-size: 1rem;
+  }
+
   
