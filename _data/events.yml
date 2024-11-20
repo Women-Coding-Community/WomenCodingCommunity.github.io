@@ -466,16 +466,15 @@
     path: https://www.meetup.com/women-coding-community/events/303704265
     title: View meetup event
     target: _target
-
 - title: |
-    Design Patterns Course
+   Design Patterns Course
   description: |
-    We will take the concepts learned in the previous talk and apply them to the Women Coding Community (WCC) platform. We’ll explore how SurrealDB’s features can be used to meet some of the platform’s needs, such as facilitating basic database functions as well as vector search for matching mentors and mentees.
+    In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book. After covering the key concepts, we will examine how the patterns have evolved to support modern architectures (distributed systems and microservices).
   category_style: tech-talk
   category_name: Tech Talk
-  date: MON, NOV 11, 2024
-  expiration: "20241111"
-  host: "Irina Kamalova | Sonali Goel | Leslie Puente"
+  date: MON, NOV 06, 2024
+  expiration: "20241106"
+   host: "Irina Kamalova | Sonali Goel | Leslie Puente"
   speaker: ""
   time: 7:00 PM UTC
   image:
@@ -485,15 +484,14 @@
     path: https://www.meetup.com/women-coding-community/events/304160911
     title: View meetup event
     target: _target
-
 - title: |
-    SurrealDB and the WCC Platform: Practical Application in Real-World Projects
+   SurrealDB and the WCC Platform: Practical Application in Real-World Projects
   description: |
-    In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book. After covering the key concepts, we will examine how the patterns have evolved to support modern architectures (distributed systems and microservices).
+    We will take the concepts learned in the previous talk and apply them to the Women Coding Community (WCC) platform. We’ll explore how SurrealDB’s features can be used to meet some of the platform’s needs, such as facilitating basic database functions as well as vector search for matching mentors and mentees.
   category_style: tech-talk
   category_name: Tech Talk
-  date: MON, NOV 06, 2024
-  expiration: "20241106"
+  date: MON, NOV 11, 2024
+  expiration: "20241111"
   host: "Sonali Goel"
   speaker: "Caroline Morton and Alexander Fridriksson"
   time: 8:00 PM UTC
@@ -504,3 +502,149 @@
     path: https://www.meetup.com/women-coding-community/events/303704402
     title: View meetup event
     target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns! Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book. After covering the key concepts, we will examine how the patterns have evolved to support modern architectures (distributed systems and microservices). Course Highlights
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, NOV 20, 2024
+  expiration: "20241120"
+  host: "Co-host: Sonali Goel"
+  speaker: ""
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/d/8/9/6/event_524635446.webp"
+    alt: Design Patterns Course cover photo
+  link:
+    path: https://www.meetup.com/women-coding-community/events/304160932/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    Christmas Coding Challenge Kickoff: Unwrap Your Skills!
+  description: "\U0001F384 Christmas Coding Challenge \U0001F384"
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: MON, NOV 25, 2024
+  expiration: "20241125"
+  host: ""
+  speaker: ""
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/3/8/8/event_524685960.webp"
+    alt: "Christmas Coding Challenge Kickoff: Unwrap Your Skills! cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/304549212/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns! Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book. After covering the key concepts, we will examine how the patterns have evolved to support modern architectures (distributed systems and microservices). Course Highlights
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, NOV 27, 2024
+  expiration: "20241127"
+  host: "Co-host: Sonali Goel"
+  speaker: ""
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/d/8/b/0/event_524635472.webp"
+    alt: Design Patterns Course cover photo
+  link:
+    path: https://www.meetup.com/women-coding-community/events/304160940/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    Responsible AI: the impact of AI on the environment
+  description: Join us for a presentation on responsible AI and clean technology.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: MON, DEC 2, 2024
+  expiration: "20241202"
+  host: "Julia Babahina"
+  speaker: "Alicia Remont Ospina"
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/4/6/6/0/event_524238016.webp"
+    alt: "Responsible AI: the impact of AI on the environment  cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/303919087/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns! Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book. After covering the key concepts, we will examine how the patterns have evolved to support modern architectures (distributed systems and microservices). Course Highlights
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, DEC 4, 2024
+  expiration: "20241204"
+  host: "Co-host: Sonali Goel"
+  speaker: ""
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/d/9/4/6/event_524635622.webp"
+    alt: Design Patterns Course cover photo
+  link:
+    path: https://www.meetup.com/women-coding-community/events/304160953/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns! Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book. After covering the key concepts, we will examine how the patterns have evolved to support modern architectures (distributed systems and microservices). Course Highlights
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, DEC 11, 2024
+  expiration: "20241211"
+  host: "Co-host: Sonali Goel"
+  speaker: ""
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/d/9/8/9/event_524635689.webp"
+    alt: Design Patterns Course cover photo
+  link:
+    path: https://www.meetup.com/women-coding-community/events/304160990/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    Writing Club - applying the Pyramid Principle in your writing
+  description: |
+    We are excited to continue with our Writing Club sessions as a part of Women Coding Community!
+  category_style: writing-club
+  category_name: Writing Club
+  date: THU, DEC 12, 2024
+  expiration: "20241212"
+  host: "Irina Kamalova"
+  speaker: "Julia Babahina"
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/e/3/0/9/event_523738121.webp"
+    alt: "Writing Club - applying the Pyramid Principle in your writing  cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/303682675/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns! Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book. After covering the key concepts, we will examine how the patterns have evolved to support modern architectures (distributed systems and microservices). Course Highlights
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, DEC 18, 2024
+  expiration: "20241218"
+  host: "Co-host: Sonali Goel"
+  speaker: ""
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/d/a/0/7/event_524635815.webp"
+    alt: Design Patterns Course cover photo
+  link:
+    path: https://www.meetup.com/women-coding-community/events/304161000/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
