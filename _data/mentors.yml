@@ -202,29 +202,35 @@
   disabled: false
   matched: false
   sort: 10
-  hours: 3
-  type: long-term
+  hours: 2
+  type: ad-hoc
   index: 7
-  position: Engineering Manager, Paythru Ltd.
+  position: Engineering Manager, Elliptic
   bio: |
-    As Engineering Manager at Paythru, Madhura leads a team of software engineers for delivering e-mobility solutions. With over 15 years of experience, she is enthusiastic about implementing scalable, maintainable, and secure software solutions. She actively engages in code reviews, providing constructive feedback and ensuring adherence to best practices to maintain good code quality and security. She is passionate about empowering women to re-enter the world of technology, actively engaging in the process of learning and exchanging ideas.
+    As a technical leader with 20 years of experience in software development, I am passionate about innovation and emerging technology, leading teams to design and deliver scalable, maintainable, and secure API-driven cloud solutions.
+    Additionally, I am seeking ways to reduce the environmental impact of software by exploring energy-efficient coding practices and optimizing system performance to minimize resource consumption and carbon footprints.
+    Outside of work, in my role as Lead and Mentorship Program Coordinator at Women Coding Community, I support women in advancing their tech careers, driving inclusivity and equity in the industry.
   image: assets/images/mentors/madhura_chaganty.jpeg
   location: United Kingdom
   languages: English
+  availability: [6, 7, 8, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
     areas:
+      - Engineering management
       - Backend Developer
       - Fullstack Developer
-      - Frontend Developer
+      - DevOps
       - Project Management
+    languages: PHP, JavaScript, Python
     focus:
-      - Grow from beginner to mid-level
+      - Switch from IC to management position
       - Switch career to IT
-      - Change specialisation within IT
-    mentee: A mentee who wants learn about backend architecture. Learn how to design and implement RESTful APIs.
-    extra: Understanding business value of the code, RESTful API design, Breaking down a problem, Importance of clean code and documentation, Career change, Returning to work after a break, Agile workflow and sprints (developer's perspective)
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    mentee: Someone who is curious, eager to learn, and looking to enter or advance in the tech industry.
+    extra: System design, Interview preparation, Resume review, Leadership skills, Team management, Personal development
   network:
     - linkedin: https://www.linkedin.com/in/madhurachaganty
 
