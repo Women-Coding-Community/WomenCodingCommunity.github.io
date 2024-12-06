@@ -1,0 +1,179 @@
+---
+layout: post
+title: A Simple Walkthrough of Kubernetes Pod Creation
+date: 2024-12-03
+author_name: Madhura C
+author_role: Kubernetes Enthusiast
+blurb_img: /assets/images/blog/20241203-Madhura-cover.png
+blurb_img_source: This image was created by AI.
+description: A detailed guide explaining the lifecycle of Kubernetes Pods, from YAML definition to live deployment.
+category: kubernetes
+---
+
+<div class="text-justify">
+  <h1 class="section-header">From Pod Definition to Live Pod</h1>
+  <p>
+    By now, you likely know that Kubernetes is an open-source container orchestration engine for deploying, scaling, and managing containerised applications. There is no shortage of resources on Kubernetes. In fact, there is so much information out there that it feels overwhelming, especially for beginners.
+  </p>
+  <p>
+    If you’re like me and already have a basic understanding of Kubernetes but want to dive deeper into how a Pod is actually created, then you’re in the right place.
+  </p>
+  <p>
+    In this post, I’ll cover each step of Pod creation — from defining a Pod in YAML to seeing it live and running.
+  </p>
+
+  <h1 class="section-header">Define Pod</h1>
+  <p>
+    Let’s begin by creating a YAML file that details the specifications of the Pod. This file is like a blueprint, containing essential settings like container image, resources, and environment variables, which Kubernetes uses to create the Pod as you’ve envisioned it.
+  </p>
+
+  <p class="font-weight-bold">Action:</p>
+  <p>Create a file called <code>nginx-pod.yaml</code>:</p>
+  <pre>
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+spec:
+  containers:
+  - name: nginx
+    image: nginx:latest
+    ports:
+    - containerPort: 80
+  </pre>
+
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-nginx-pod-yaml-file-vs-code.png" alt="nginx-pod.yaml file">
+    <div class="img-source">Image: nginx-pod.yaml file in VS Code</div>
+  </div>
+
+  <p>
+    <strong>Explanation:</strong> This YAML file defines a Pod named <code>nginx-pod</code> with a container running the <code>nginx:latest</code> image and sets up port 80 to handle HTTP traffic.
+  </p>
+
+  <h1 class="section-header">API Server Receives the Request</h1>
+  <p>
+    When we apply our YAML file using the <code>kubectl</code> command, the Kubernetes API server validates the file for any errors and updates the etcd database with the Pod’s configuration. This step ensures the instructions are stored securely and are ready to guide the creation of the Pod.
+  </p>
+
+  <p class="font-weight-bold">Action:</p>
+  <p><em>Run the following command to apply the file:</em></p>
+  <p><em>I used Minikube as it lets you run a single-node Kubernetes cluster inside a virtual machine on your local computer. There are other options available like Docker Desktop Kubernetes, MicroK8s, Kind etc.</em></p>
+  <p><em>Note - Docker desktop app should be running before running the Minikube command.</em></p>
+  <pre>
+minikube start --driver=docker --addons=dashboard --addons=metrics-server --addons="ingress" --addons="ingress-dns"
+kubectl apply -f .\nginx-pod.yaml
+  </pre>
+
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-minikube-start-command-output.png" alt="Minikube start command output">
+    <div class="img-source">Image: Minikube start command output</div>
+  </div>
+  <pre>
+kubectl apply -f .\nginx-pod.yaml
+  </pre>
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-kubectl-apply-command.png" alt="kubectl apply command output">
+    <div class="img-source">Image: kubectl apply command output</div>
+  </div>
+
+  <p>
+    <strong>Explanation:</strong> This command sends the Pod configuration to the API server, which validates it and records it in the <code>etcd</code> database. This is the first step in creating Nginx server Pod.
+  </p>
+
+  <h1 class="section-header">Controller Takes Action</h1>
+  <p>
+    The controller continuously monitors the cluster’s desired state against the actual state. If it detects that the Pod isn’t running as specified, it triggers adjustments to match our instructions, helping maintain a consistent environment.
+  </p>
+
+  <p class="font-weight-bold">Action:</p>
+  <p>The controller sees that <code>nginx-pod</code> is not yet active in the cluster and initiates its creation.</p>
+
+  <p>
+    <strong>Explanation:</strong> The controller’s role here is to ensure that a Pod named <code>nginx-pod</code> is created and stays in the desired state. If it crashes or is removed, the controller will step in to recreate it, maintaining the desired configuration.
+  </p>
+
+  <h1 class="section-header">Scheduler Gets Involved</h1>
+  <p>
+    If the Pod is still in a “Pending” state, the scheduler steps in to find the most suitable node for it based on available resources and constraints. This ensures efficient use of cluster resources, so the Pod runs optimally without conflicts.
+  </p>
+
+  <p class="font-weight-bold">Action:</p>
+  <p>The scheduler finds a node with available CPU and memory, and assigns <code>nginx-pod</code> to run on that node.</p>
+
+  <p>
+    <strong>Explanation:</strong> Here, the scheduler analyses the resource requirements of <code>nginx-pod</code> and picks a node with sufficient capacity. This helps balance the load across the cluster and ensures that the node has enough resources to handle the Nginx server workload.
+  </p>
+
+  <h1 class="section-header">Kubelet to the Rescue</h1>
+  <p>
+    Once a node is selected, the kubelet (an agent running on the node) retrieves the Pod’s specifications from the API server, downloads the necessary container images, and initiates the Pod. It’s responsible for maintaining the health and operation of the Pod on that node.
+  </p>
+
+  <p class="font-weight-bold">Action:</p>
+  <p>The kubelet on the assigned node fetches the Pod specification, pulls the <code>nginx:latest</code> image if it’s not already available on the node, and starts the Nginx container.</p>
+  <p><em>The kubelet will pull nginx:latest from public registry like Docker Hub.</em></p>
+  <p><em>We can specify a custom registry by including the registry’s URL in the image name. For example, example.com/mynginx:latest tells the kubelet to pull the image from example.com.</em></p>
+  <p><em>If the image is stored in a private registry then authentication credentials will be needed.</em></p>
+
+  <p>
+    <strong>Explanation:</strong> The kubelet is the primary agent responsible for actually running the container in the node environment. It pulls the <code>nginx</code> image, initialises the container, and manages its lifecycle, such as restarting it if it fails.
+  </p>
+
+  <h1 class="section-header">Pod is Live</h1>
+  <p>
+    After the kubelet finishes setting everything up, the Pod’s status changes from Pending to Running. This means all components are active, and our Pod is ready to handle any assigned workloads, completing the creation process!
+  </p>
+
+  <p class="font-weight-bold">Action:</p>
+  <p>Check if the Pod is running with the command:</p>
+  <pre>
+kubectl get pods
+  </pre>
+
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-kubectl-get-pods.png" alt="kubectl get pods output">
+    <div class="img-source">Image: kubectl get pods output - Returns all the pods</div>
+  </div>
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-kubectl-get-pods-output.png" alt="kubectl get pods nginx-pod">
+    <div class="img-source">Image: kubectl get pods nginx-pod output - Returns specific pod</div>
+  </div>
+  <p>
+    <strong>Explanation:</strong> When the nginx-pod status shows as Running, the Nginx server is live and ready to serve requests within the Kubernetes network. We now have a fully operational Nginx Pod, all set up to handle web traffic in our cluster.
+  </p>We have successfully deployed an Nginx web server in Kubernetes from a YAML specification to a fully running Pod in the cluster.
+  </p>To open Minikube dashboard, run <code>minikube dashboard<code>
+  </p>
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-minikube-dashboard-command-output.png" alt="Minikube dashboard command output">
+    <div class="img-source">Image: Minikube dashboard command output</div>
+  </div>
+</div>
+<div class="article-media">
+  <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-minikube-dashboard.png" alt="Minikube dashboard">
+    <div class="img-source">Image: Minikube dashboard (Note: you may have only one pod running)</div>">
+</div>
+</div>
+<div class="article-media">
+  <img class="img-fluid" src="/assets/images/blog/220241203-Madhura-minikube-dashboard-pod-details.png" alt="Minikube dashboard Pod Details">
+  <div class="img-source">Image: Pod details</div>
+</div>
+<p>
+  To stop Minikube, run <code>minikube stop</code>.
+</p>
+<div class="article-media">
+  <img class="img-fluid" src="/assets/images/blog/minikube-stopcommand.png" alt="Minikube stop command">
+  <div class="img-source">Image: Minikube stop command output</div>
+</div>
+
+<p>
+  <strong>To recap:</strong>
+</p>
+<ul>
+  <li>Define the Pod in a YAML file</li>
+  <li>Apply the config through the API server</li>
+  <li>Controller ensures it matches the desired state</li>
+  <li>Scheduler assigns it to a node</li>
+  <li>Kubelet on that node pulls the necessary image and starts the container</li>
+  <li>Pod transitions to a Running state</li>
+</ul>
