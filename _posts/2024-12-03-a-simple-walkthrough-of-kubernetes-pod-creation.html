@@ -61,7 +61,11 @@ category: kubernetes
   <p><em>I used Minikube as it lets you run a single-node Kubernetes cluster inside a virtual machine on your local computer. There are other options available like Docker Desktop Kubernetes, MicroK8s, Kind etc.</em></p>
   <p><em>Note - Docker desktop app should be running before running the Minikube command.</em></p>
   <pre>
-    minikube start --driver=docker --addons=dashboard --addons=metrics-server --addons="ingress" --addons="ingress-dns"
+    minikube start --driver=docker \
+    --addons=dashboard \
+    --addons=metrics-server \ 
+    --addons="ingress" \
+    --addons="ingress-dns"
     kubectl apply -f .\nginx-pod.yaml
   </pre>
 
