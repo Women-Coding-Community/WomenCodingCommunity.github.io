@@ -3,9 +3,9 @@ layout: post
 title: A Simple Walkthrough of Kubernetes Pod Creation
 date: 2024-12-03
 author_name: Madhura C
-author_role: Kubernetes Enthusiast
+author_role: Engineering Manager @ Elliptic
 blurb_img: /assets/images/blog/20241203-Madhura-cover.png
-blurb_img_source: This image was created by AI.
+blurb_img_source: From Author
 description: A detailed guide explaining the lifecycle of Kubernetes Pods, from YAML definition to live deployment.
 category: kubernetes
 ---
@@ -30,16 +30,16 @@ category: kubernetes
   <p class="font-weight-bold">Action:</p>
   <p>Create a file called <code>nginx-pod.yaml</code>:</p>
   <pre>
-apiVersion: v1
-kind: Pod
-metadata:
-  name: nginx-pod
-spec:
-  containers:
-  - name: nginx
-    image: nginx:latest
-    ports:
-    - containerPort: 80
+    apiVersion: v1
+    kind: Pod
+    metadata:
+      name: nginx-pod
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
   </pre>
 
   <div class="article-media">
@@ -61,8 +61,12 @@ spec:
   <p><em>I used Minikube as it lets you run a single-node Kubernetes cluster inside a virtual machine on your local computer. There are other options available like Docker Desktop Kubernetes, MicroK8s, Kind etc.</em></p>
   <p><em>Note - Docker desktop app should be running before running the Minikube command.</em></p>
   <pre>
-minikube start --driver=docker --addons=dashboard --addons=metrics-server --addons="ingress" --addons="ingress-dns"
-kubectl apply -f .\nginx-pod.yaml
+    minikube start --driver=docker \
+    --addons=dashboard \
+    --addons=metrics-server \ 
+    --addons="ingress" \
+    --addons="ingress-dns"
+    kubectl apply -f .\nginx-pod.yaml
   </pre>
 
   <div class="article-media">
@@ -70,7 +74,7 @@ kubectl apply -f .\nginx-pod.yaml
     <div class="img-source">Image: Minikube start command output</div>
   </div>
   <pre>
-kubectl apply -f .\nginx-pod.yaml
+    kubectl apply -f .\nginx-pod.yaml
   </pre>
   <div class="article-media">
     <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-kubectl-apply-command.png" alt="kubectl apply command output">
@@ -127,9 +131,7 @@ kubectl apply -f .\nginx-pod.yaml
 
   <p class="font-weight-bold">Action:</p>
   <p>Check if the Pod is running with the command:</p>
-  <pre>
-kubectl get pods
-  </pre>
+  <pre>kubectl get pods</pre>
 
   <div class="article-media">
     <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-kubectl-get-pods.png" alt="kubectl get pods output">
@@ -142,38 +144,39 @@ kubectl get pods
   <p>
     <strong>Explanation:</strong> When the nginx-pod status shows as Running, the Nginx server is live and ready to serve requests within the Kubernetes network. We now have a fully operational Nginx Pod, all set up to handle web traffic in our cluster.
   </p>We have successfully deployed an Nginx web server in Kubernetes from a YAML specification to a fully running Pod in the cluster.
-  </p>To open Minikube dashboard, run <code>minikube dashboard<code>
+  </p>To open Minikube dashboard, run <code>minikube dashboard</code>
   </p>
   <div class="article-media">
     <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-minikube-dashboard-command-output.png" alt="Minikube dashboard command output">
     <div class="img-source">Image: Minikube dashboard command output</div>
   </div>
-</div>
-<div class="article-media">
-  <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-minikube-dashboard.png" alt="Minikube dashboard">
-    <div class="img-source">Image: Minikube dashboard (Note: you may have only one pod running)</div>">
-</div>
-</div>
-<div class="article-media">
-  <img class="img-fluid" src="/assets/images/blog/220241203-Madhura-minikube-dashboard-pod-details.png" alt="Minikube dashboard Pod Details">
-  <div class="img-source">Image: Pod details</div>
-</div>
-<p>
-  To stop Minikube, run <code>minikube stop</code>.
-</p>
-<div class="article-media">
-  <img class="img-fluid" src="/assets/images/blog/minikube-stopcommand.png" alt="Minikube stop command">
-  <div class="img-source">Image: Minikube stop command output</div>
-</div>
 
-<p>
-  <strong>To recap:</strong>
-</p>
-<ul>
-  <li>Define the Pod in a YAML file</li>
-  <li>Apply the config through the API server</li>
-  <li>Controller ensures it matches the desired state</li>
-  <li>Scheduler assigns it to a node</li>
-  <li>Kubelet on that node pulls the necessary image and starts the container</li>
-  <li>Pod transitions to a Running state</li>
-</ul>
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-minikube-dashboard.png" alt="Minikube dashboard">
+    <div class="img-source">Image: Minikube dashboard (Note: you may have only one pod running)</div>
+  </div>
+  </div>
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/20241203-Madhura-minikube-dashboard-pod-details.png" alt="Minikube dashboard Pod Details">
+    <div class="img-source">Image: Pod details</div>
+  </div>
+  <p>
+    To stop Minikube, run <code>minikube stop</code>.
+  </p>
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/20241203-minikube-stopcommand.png" alt="Minikube stop command">
+    <div class="img-source">Image: Minikube stop command output</div>
+  </div>
+
+  <p>
+    <strong>To recap:</strong>
+  </p>
+  <ul>
+    <li>Define the Pod in a YAML file</li>
+    <li>Apply the config through the API server</li>
+    <li>Controller ensures it matches the desired state</li>
+    <li>Scheduler assigns it to a node</li>
+    <li>Kubelet on that node pulls the necessary image and starts the container</li>
+    <li>Pod transitions to a Running state</li>
+  </ul>
+</div>
