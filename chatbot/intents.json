@@ -1,0 +1,24 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "How are you?"],
+        "responses": ["Hello! How can I help you today?", "Hi there, what can I do for you?", "Hey! Need any help?"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["What is the Women Coding Community?", "Tell me about WCC", "Who are you?"],
+        "responses": ["The Women Coding Community is a space to empower women in technology.", "We offer mentorship, events, and learning resources for women in tech."]
+      },
+      {
+        "tag": "help",
+        "patterns": ["How can you help me?", "I need help", "Can you assist me?"],
+        "responses": ["I can answer questions about the Women Coding Community, its events, and other details."]
+      }
+
+
+
+      
+    ]
+  }
+  
