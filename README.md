@@ -8,7 +8,7 @@
 The Women Coding Community is a community dedicated to inspiring women to excel in their technology careers. Our events cover various topics around software engineering.
 If you're interested in joining the community as a member or volunteer please visit our [website](https://womencodingcommunity.com/) or join [our Slack](https://join.slack.com/t/womencodingcommunity/shared_invite/zt-2hpjwpx7l-rgceYBIWp6pCiwc0hVsX8A).
 
-Check out [Code of Conduct]([https://WomenCodingCommunity.github.io/code-of-conduct/](https://womencodingcommunity.com/code-of-conduct))
+Check out [Code of Conduct]([https://WomenCodingCommunity.github.io/code-of-conduct/](https://womencodingcommunity.com/code-of-conduct)
 
 # About
 
