@@ -110,7 +110,6 @@
     - name: medium
       link: https://khairahscorner.hashnode.dev/
 
-
 - name: Idayat Sanni
   image: assets/images/team/5.jpeg
   position: WCC Evangelist
@@ -144,3 +143,19 @@
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/joana-brito216/
+
+- name: Shabana Govani Khatau
+  position: WCC Lead
+  comment: Systems and Applications Support Advisor
+  image: assets/images/team/18.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/shabana-govani-khatau-7b0122222
+
+- name: Nonna Shakhova
+  position: WCC Lead
+  comment: Data Engineer
+  image: assets/images/team/17.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/nonna-shakhova
