@@ -1,10 +1,18 @@
-- title: The Pragmatic Programmer From Journeyman to Master
+- title: "Mindset: The New Psychology of Success"
+  link: https://www.goodreads.com/book/show/40745.Mindset
+  author: Carol S. Dweck
+  description: Explores how adopting a growth mindset—the belief that abilities can be developed—leads to success in all areas of life, offering practical strategies to foster this mindset in individuals and organizations.
+  status: done
+  image: "./assets/images/events/event-book-club-mindset.jpg"
+- title: Head First Design Patterns
+  link: https://www.goodreads.com/book/show/58128.Head_First_Design_Patterns
+  author: Eric Freeman, Bert Bates, Kathy Sierra, Elisabeth Robson
+  description: Introduction to the most common design patterns in software development, presented in a "brain-friendly" way.
+  status: done
+  image: "./assets/images/events/event-book-club-design_patterns.jpeg"
+- title: "The Pragmatic Programmer: From Journeyman to Master"
   link: https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer
   author: Andrew Hunt & David Thomas
   description: Essential guide for creating working and maintainable code amidst the complexities of modern software development.
-  status: reading
-- title: Example Read Book
-  link: https://www.goodreads.com/book/show
-  author: author 2
-  description: description 2
   status: done
+  image: "./assets/images/events/event-book-club-053024.jpeg"
