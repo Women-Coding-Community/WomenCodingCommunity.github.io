@@ -14,11 +14,27 @@
         "tag": "help",
         "patterns": ["How can you help me?", "I need help", "Can you assist me?"],
         "responses": ["I can answer questions about the Women Coding Community, its events, and other details."]
+      },
+      {
+        "tag": "resources",
+        "patterns": ["What resources do you offer?", "Tell me about the resources", "I need learning resources"],
+        "responses": ["We offer online courses, tutorials, and coding challenges to help you improve your skills. PLease join our Slack channel for more information."]
+      },
+      {
+        "tag": "events",
+        "patterns": ["What events are happening?", "Are there any upcoming events?", "Tell me about the events"],
+        "responses": ["We have regular meetups, workshops, and seminars. Check our meetup page https://www.meetup.com/women-coding-community/events/ for the latest events."]
+      },
+      {
+        "tag": "mentorship",
+        "patterns": ["How can I get a mentor?", "Tell me about mentorship", "I need a mentor"],
+        "responses": ["We offer mentorship programs to help you grow in your career. The list of mentors is available on our website at https://womencodingcommunity.com/mentors."]
+      },
+      {
+        "tag": "specificmentorship",
+        "patterns": ["I need mentors with AWS experience", "Tell me about mentorship", "I need a mock interview", "I need a mentor in System Design"],
+        "responses": ["The list of mentors is available on our website at https://womencodingcommunity.com/mentors."]
       }
-
-
-
-      
     ]
   }
   
