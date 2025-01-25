@@ -197,3 +197,24 @@
       date-f: 17 November 2024
       name: Harini Balaji
       type: Ad-Hoc
+
+- index: 32 # Liliia Rafikova
+  feedback:
+    - score: 5
+      name: Anonymous
+      type: Long Term
+      feedback: |
+        This mentor is amazing. She regularly meets with me and has created a curriculum that really helps me
+        understand the root of coding concepts. There have been times where I have found content difficult and the mentor
+        has accordingly adjusted the pace which I really appreciate it. I also love the style of having mock interviews to
+        help me consolidate what I have learnt in a safe environment.
+      date-f: 12 January 2025
+      date: 20250112
+    - score: 5
+      name: Anonymous
+      type: Long Term
+      feedback: |
+        The mentoring sessions were very helpful, it was nice to be guided on some projects that helped me learn and the 
+        areas in which I needed improvement.
+      date-f: 16 January 2025
+      date: 20250116
