@@ -177,6 +177,15 @@
         Thank you Adriana and Women Coding Community!
       name: Nevena Verbič
       type: Long Term Mentorship & Ad-Hoc
+    - score: 5
+      date: 20241123
+      date-f: 23 November 2024
+      feedback: |
+        Adriana was attentive and genuinely interested in helping me. It was clear that she was rooting for my success, which made the session even more motivating. 
+        I received valuable feedback and suggestions for improving my CV and LinkedIn profile. We discussed strategies to grab recruiters' attention and make my CV more compelling. Adriana also recommended some resources to explore and provided clear guidance for my next steps. 
+        The session was both productive and highly encouraging.
+      name: Bruna Costa Lacerda Silva
+      type: Ad-Hoc
 
 - index: 7 # Madhura
   feedback:
@@ -197,6 +206,14 @@
       date-f: 17 November 2024
       name: Harini Balaji
       type: Ad-Hoc
+    - score: 5
+      date: 20241204
+      date-f: 04 December 2024
+      feedback: |
+        Busra listened carefully to my concerns throughout the session, provided valuable insights, shared her own experience, and encouraged me to be consistent in my job search. 
+        I greatly appreciate her time and mentorship, which has helped me stay motivated on my journey.
+      name: Laleh Haidari
+      type: Ad-Hoc
       
 - index: 53 # Adnan
   feedback:
@@ -204,7 +221,7 @@
       date: 20241116
       date-f: 16 November 2024
       feedback: |
-      Adnan gave me some tips that to help my growth and building expertise. He also explained some confusing concepts to me. It was was really impactful session.
+        Adnan gave me some tips that to help my growth and building expertise. He also explained some confusing concepts to me. It was was really impactful session.
       name: Patience Onah
       type: Ad-Hoc
       
@@ -214,39 +231,14 @@
       date: 20241122
       date-f: 22 November 2024
       feedback: |
-      Ima-Abasi is ready to help me grow and become my best. I have begun to learn open-source community methods and see the advance of mentorship.
+        Ima-Abasi is ready to help me grow and become my best. I have begun to learn open-source community methods and see the advance of mentorship.
       name: Betsemfon David Udom
       type: Ad-Hoc
-            
-- index: 54 # Ima-Abasi
-  feedback:
     - score: 5
       date: 20241122
       date-f: 22 November 2024
       feedback: |
-      Ima-Abasi helped me by sharing her own experience as a career switcher and how to develop her career.
+        Ima-Abasi helped me by sharing her own experience as a career switcher and how to develop her career.
       name: Anonymous
       type: Ad-Hoc
-                  
-- index: 3 # Adriana
-  feedback:
-    - score: 5
-      date: 20241123
-      date-f: 23 November 2024
-      feedback: |
-      Adriana was attentive and genuinely interested in helping me. It was clear that she was rooting for my success, which made the session even more motivating. 
-      I received valuable feedback and suggestions for improving my CV and LinkedIn profile. We discussed strategies to grab recruiters' attention and make my CV more compelling. Adriana also recommended some resources to explore and provided clear guidance for my next steps. 
-      The session was both productive and highly encouraging.
-      name: Bruna Costa Lacerda Silva
-      type: Ad-Hoc
-                    
-- index: 39 # Busra
-  feedback:
-    - score: 5
-      date: 20241204
-      date-f: 04 December 2024
-      feedback: |
-      Busra listened carefully to my concerns throughout the session, provided valuable insights, shared her own experience, and encouraged me to be consistent in my job search. 
-      I greatly appreciate her time and mentorship, which has helped me stay motivated on my journey.
-      name: Laleh Haidari
-      type: Ad-Hoc
+
