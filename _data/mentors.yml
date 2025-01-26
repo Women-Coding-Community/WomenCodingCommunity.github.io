@@ -2005,3 +2005,34 @@
       Resume Review, Communication, Collaboration, Frontend development, Preparation for The Technical Interview
   network:
   - linkedin: https://www.linkedin.com/in/liko-chien-905b42293/
+
+- name: Marie Coquille
+  disabled: false
+  matched: false
+  sort: 200
+  hours: 4
+  type: both
+  index: 60
+  location: London, UK
+  position: Software Engineer, Cado Security (just bought by DarkTrace)
+  bio: |
+    I have been a software engineer for a few years now. Before that I was a data scientist for a short period, and before being a data scientist I was a data analyst.
+  image: |
+    assets/images/mentors/marie_coquille.jpeg
+  languages: English, French
+  availability: [5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: |
+      Juniors.
+    areas:
+    - Frontend Developer
+    - Fullstack Developer
+    - Backend Developer
+    languages: Javascript
+    focus: []
+    extra: |
+      Get your first job in SE / How it is being a woman in tech / Mock interviews
+  network:
+  - linkedin: https://uk.linkedin.com/in/marie-coquille-b0b733100

@@ -22,20 +22,22 @@ body_class: page page-programme page-book-club
 <div class="container list-books">
     <section class="row col-12">
         <div class="row-header col-12">
-            <h2>What We Are Reading</h2>
+            <h2>Previous Books</h2>
         </div>
         <div class="row-content col-12 px-0">
             {% for book in site.data.book_club %}
-            {% if book.status == 'reading' %}
-            <div class="card-book-club card card-l card-horizontal">
-                <div class="card-body col-12 col-md-8">
-                    <h3 class="card-title">{{book.title}}</h3>
-                    <h4>{{book.author}}</h4>
-                    <p>{{book.description}}</p>
-                    <a href={{book.link}} class="btn btn-outline-primary" target="_blank">View book on goodreads</a>
-                </div>
-                <div class="card-media col-12 col-md-4">
-                    <img src="./assets/images/events/event-book-club-053024.jpeg" alt="book cover">
+            {% if book.status == 'done' %}
+            <div class="row-content"> <!-- Add a row for each book -->
+                <div class="card-book-club card card-l card-horizontal">
+                    <div class="card-body col-12 col-md-8">
+                        <h3 class="card-title">{{book.title}}</h3>
+                        <h4>{{book.author}}</h4>
+                        <p>{{book.description}}</p>
+                        <a href={{book.link}} class="btn btn-outline-primary" target="_blank">View book on Goodreads</a>
+                    </div>
+                    <div class="card-media col-12 col-md-4">
+                        <img src={{book.image}} alt="book cover">
+                    </div>
                 </div>
             </div>
             {% endif %}
