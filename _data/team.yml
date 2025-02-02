@@ -159,3 +159,13 @@
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/nonna-shakhova
+
+- name: Stephanie Senoner
+  position: WCC Lead
+  comment: Engineering Manager
+  image: assets/images/team/19.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/stephanie-senoner/
+    - name: github
+      link: https://github.com/stepsen89
