@@ -8,32 +8,6 @@
     - name: medium
       link: https://iren-kamalova.medium.com/
 
-- name: Eleonora Belova
-  position: WCC Lead
-  comment: Test Automation Engineer
-  image: assets/images/team/7.jpeg
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/eleonora-belova-7069baa5/
-    - name: github
-      link: https://github.com/nora-weisser
-
-- name: Elena Fedorova
-  position: WCC Lead
-  comment: Designer
-  image: assets/images/team/2.png
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/elena-fedorova-9ab270237/
-
-- name: Abhipsa Mishra
-  position: WCC Lead
-  comment: Senior Software Engineer
-  image: assets/images/team/13.jpeg
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/abhipsa-mishra-684a4326
-
 - name: Adriana Zencke
   position: WCC Director
   comment: Senior Software Engineer
@@ -69,6 +43,16 @@
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/yingliu-data/
+
+- name: Eleonora Belova
+  position: WCC Lead
+  comment: Test Automation Engineer
+  image: assets/images/team/7.jpeg
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/eleonora-belova-7069baa5/
+    - name: github
+      link: https://github.com/nora-weisser
 
 - name: Arzu Caner
   position: WCC Evangelist
