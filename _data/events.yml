@@ -237,7 +237,7 @@
   time: 6:00 PM UTC
   image:
     path: "/assets/images/events/event-coding-club-3.jpg"
-    alt: "Coding Club with Women Coding Community  cover photo"
+    alt: Coding Club with Women Coding Community  cover photo
   link:
     path: https://meetup.com/women-coding-community/events/302579035/
     title: View meetup event
@@ -252,29 +252,28 @@
   date: TUE, SEP 10, 2024
   expiration: "20240910"
   host: "Sonali Goel"
-  speaker: Adriana Zencke, Co-Founder/Director at WCC
+  speaker: "Adriana Zencke, Co-Founder/Director at WCC"
   time: 8:00 PM BST
   image:
     path: "/assets/images/events/event_522905242.webp"
-    alt: "Building REST services with SpringBoot cover photo"
+    alt: Building REST services with SpringBoot cover photo
   link:
     path: https://meetup.com/women-coding-community/events/302792154/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
 
-- title: Writing Club with Women Coding Community - Learn about Infographics!
-  description:
-    We are excited to continue with our Writing Club sessions as a part
-    of Women Coding Community! Join our September session to learn about infographics
-    and how to use them to enhance your writing!
+- title: |
+    Writing Club with Women Coding Community - Learn about Infographics!
+  description: |
+    We are excited to continue with our Writing Club sessions as a part of Women Coding Community! Join our September session to learn about infographics and how to use them to enhance your writing!
   category_style: writing-club
   category_name: Writing Club
   date: THU, SEP 12, 2024
   expiration: "20240912"
-  host: Rajani Rao, Co-Founder/Director at WCC
+  host: "Rajani Rao, Co-Founder/Director at WCC"
   time: 7:00 PM BST
   image:
-    path: /assets/images/events/event-writing-club.jpeg
+    path: "/assets/images/events/event-writing-club.jpeg"
     alt: cover photo
   link:
     path: https://meetup.com/women-coding-community/events/302907169
@@ -450,8 +449,7 @@
 
 - title: |
     Hands-On with SurrealDB: Exploring Key Features in Practice
-  description: |
-    This session will provide a practical exploration of some of SurrealDB’s key out-of-the-box features. We’ll focus on fundamental operations such as CRUD (Create, Read, Update, Delete), schema definition, and SurrealDB’s unique "Get functions." Additionally, we’ll take a look at the Surreal Store demo dataset to see how these features can be applied in real-world scenarios.
+  description: "This session will provide a practical exploration of some of SurrealDB\u2019s key out-of-the-box features. We\u2019ll focus on fundamental operations such as CRUD (Create, Read, Update, Delete), schema definition, and SurrealDB\u2019s unique \"Get functions.\" Additionally, we\u2019ll take a look at the Surreal Store demo dataset to see how these features can be applied in real-world scenarios.\n"
   category_style: tech-talk
   category_name: Tech Talk
   date: MON, NOV 04, 2024
@@ -461,13 +459,14 @@
   time: 8:00 PM UTC
   image:
     path: "https://secure.meetupstatic.com/photos/event/5/d/9/d/600_523883965.webp?w=750"
-    alt: "Speakers Image"
+    alt: Speakers Image
   link:
     path: https://www.meetup.com/women-coding-community/events/303704265
     title: View meetup event
     target: _target
+
 - title: |
-   Design Patterns Course
+    Design Patterns Course
   description: |
     In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book. After covering the key concepts, we will examine how the patterns have evolved to support modern architectures (distributed systems and microservices).
   category_style: tech-talk
@@ -479,15 +478,15 @@
   time: 7:00 PM UTC
   image:
     path: "https://secure.meetupstatic.com/photos/event/7/d/2/b/600_524252043.webp?w=750"
-    alt: "Speakers Image"
+    alt: Speakers Image
   link:
     path: https://www.meetup.com/women-coding-community/events/304160911
     title: View meetup event
     target: _target
+
 - title: |
-   SurrealDB and the WCC Platform: Practical Application in Real-World Projects
-  description: |
-    We will take the concepts learned in the previous talk and apply them to the Women Coding Community (WCC) platform. We’ll explore how SurrealDB’s features can be used to meet some of the platform’s needs, such as facilitating basic database functions as well as vector search for matching mentors and mentees.
+    SurrealDB and the WCC Platform: Practical Application in Real-World Projects
+  description: "We will take the concepts learned in the previous talk and apply them to the Women Coding Community (WCC) platform. We\u2019ll explore how SurrealDB\u2019s features can be used to meet some of the platform\u2019s needs, such as facilitating basic database functions as well as vector search for matching mentors and mentees.\n"
   category_style: tech-talk
   category_name: Tech Talk
   date: MON, NOV 11, 2024
@@ -497,7 +496,7 @@
   time: 8:00 PM UTC
   image:
     path: "https://secure.meetupstatic.com/photos/event/5/d/b/7/600_523883991.webp?w=750"
-    alt: "Speakers Image"
+    alt: Speakers Image
   link:
     path: https://www.meetup.com/women-coding-community/events/303704402
     title: View meetup event
@@ -520,6 +519,7 @@
     path: https://www.meetup.com/women-coding-community/events/304160932/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+
 - title: |
     Christmas Coding Challenge Kickoff: Unwrap Your Skills!
   description: "\U0001F384 Christmas Coding Challenge \U0001F384"
@@ -591,7 +591,7 @@
     path: https://www.meetup.com/women-coding-community/events/304160953/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
- 
+
 - title: Design Patterns Course
   description: |
     Join Women Coding Community for our next session on design patterns! Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book. After covering the key concepts, we will examine how the patterns have evolved to support modern architectures (distributed systems and microservices). Course Highlights
@@ -644,6 +644,119 @@
     alt: Design Patterns Course cover photo
   link:
     path: https://www.meetup.com/women-coding-community/events/304161000/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    Writing Club: Empowering Women through Writing
+  description: |
+    We are excited to host the first session of the Writing Club as part of the Women Coding Community in 2025!
+  category_style: writing-club
+  category_name: Writing Club
+  date: THU, FEB 6, 2025
+  expiration: "20250206"
+  host: "Madhura Chaganty"
+  speaker: "Julia Babahina"
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/3/a/7/a/event_525734970.webp"
+    alt: "Writing Club: Empowering Women through Writing  cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/305628660/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    Coding Club Python : Data with Pandas - Session 2
+  description: |
+    Unlock the power of data analysis with Pandas, one of Python's most versatile libraries! This study group is designed for beginners and intermediate Python users who want to deepen their data skills. Together, we'll tackle the "Gateway to Pandas" course from JetBrains Academy in 4 interactive and practical sessions.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, FEB 13, 2025
+  expiration: "20250213"
+  host: ""
+  speaker: ""
+  time: 8:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/a/a/c/2/event_526003714.webp"
+    alt: "Coding Club Python : Data with Pandas - Session 2 cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/305916894/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    Breaking barriers: How to enter and excel in consulting career
+  description: "As part of the Career Club of the Women Coding Community, we are excited to bring you a panel discussion on a popular topic\u2014how to enter and excel in a consulting career.\n"
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, FEB 20, 2025
+  expiration: "20250220"
+  host: ""
+  speaker: ""
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/1/7/0/6/event_525965894.webp"
+    alt: "Breaking barriers: How to enter and excel in consulting career  cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/305868788/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    Book Club: Designing Machine Learning Systems
+  description: |
+    About the Book "This book will help you tackle scenarios such as: * Engineering data and choosing the right metrics to solve a business problem * Automating the process for continually developing, evaluating, deploying, and updating models * Developing a monitoring system to quickly detect and address issues your models might encounter in production * Architecting an ML platform that serves across use cases * Developing responsible ML systems" https://www.goodreads.com/book/show/60715378-designing-machine-learning-systems
+  category_style: book-club
+  category_name: Book Club
+  date: THU, FEB 27, 2025
+  expiration: "20250227"
+  host: " and Prabha Venkatesh |"
+  speaker: ""
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/d/a/c/6/event_525776006.webp"
+    alt: "Book Club: Designing Machine Learning Systems cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/305685162/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    Coding Club Python : Data with Pandas - Session 3
+  description: |
+    Unlock the power of data analysis with Pandas, one of Python's most versatile libraries! This study group is designed for beginners and intermediate Python users who want to deepen their data skills. Together, we'll tackle the "Gateway to Pandas" course from JetBrains Academy in 4 interactive and practical sessions.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, FEB 27, 2025
+  expiration: "20250227"
+  host: ""
+  speaker: ""
+  time: 8:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/7/c/2/9/event_525811785.webp"
+    alt: "Coding Club Python : Data with Pandas - Session 3 cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/305708050/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+
+- title: |
+    Coding Club Python : Data with Pandas - Session 4
+  description: |
+    Unlock the power of data analysis with Pandas, one of Python's most versatile libraries! This study group is designed for beginners and intermediate Python users who want to deepen their data skills. Together, we'll tackle the "Gateway to Pandas" course from JetBrains Academy in 4 interactive and practical sessions.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, MAR 13, 2025
+  expiration: "20250313"
+  host: ""
+  speaker: ""
+  time: 8:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/7/c/6/9/event_525811849.webp"
+    alt: "Coding Club Python : Data with Pandas - Session 4 cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/305708664/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
 
