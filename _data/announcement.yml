@@ -37,3 +37,21 @@
   link:
     path: /events
     title: Join now
+
+- title: |
+    Mentorship Programme 2025 Coming Soon!
+  description: |
+    We are excited to announce that the Mentorship Programme 2025 will be launching on 8th March, 2025 on International Women's Day! <br/>
+    <strong>Key Dates:</strong><br/>
+    <li>Long-Term Registrations Open: 8th March </li>
+    <li>Applications Close: 31st March </li>
+    <li>Mentoring Cycle Starts: 14th April </li>
+    <li>Monthly Ad-Hoc Registrations: May onwards </li>
+  date: MARCH 8, 2025
+  expiration: "20250401"
+  image:
+    path: "/assets/images/announcements/mentorship-2025-launch.png"
+    alt: "Mentorship 2025 Launch banner"
+  link:
+    path: "/mentorship#2025-cycle"
+    title: Learn More
