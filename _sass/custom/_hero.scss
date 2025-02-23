@@ -4,7 +4,8 @@
     padding: map-get($spacers, 4) 0 map-get($spacers, 6) 0;
   }
 
-  h1, p {
+  h1,
+  p {
     text-align: center;
   }
 
@@ -33,7 +34,7 @@
 
 .hero-image {
   position: relative;
-  background-image: url("assets/images/home/hero-3x2.jpg");
+  background-image: url("./../../assets/images/home/hero-3x2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 25%;
@@ -71,12 +72,12 @@
   }
 }
 
-.hero-amazon {
-  background-image: url("/assets/images/partners/amazon.png");
+.hero-surrealdb {
+  background-image: url("/assets/images/partners/surrealdb.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 90px;
+  height: 180px;
   border-radius: $border-radius;
 }
 
@@ -98,7 +99,8 @@
       flex-direction: row;
     }
 
-    h1, p {
+    h1,
+    p {
       text-align: left;
     }
 

@@ -1,0 +1,59 @@
+- name: SurrealDB
+  background: "bg-1"
+  link: "https://www.surrealdb.com/"
+  description: |
+    <p><a href="http://surrealdb.com" target="_blank">SurrealDB</a> is an innovative, multi-model, cloud-ready
+                database, suitable for modern and traditional
+                applications. Its versatility, and focus on developer experience, along with the ability for
+                deployment on cloud, on-premise, embedded, and in edge computing environments, allows developers and
+                organizations to meet the needs of their applications, without needing to worry about scalability or
+                keeping data consistent across multiple different database platforms.</p>
+            <p>SurrealDB have also established the Women in Rust community, a meetup group where women can connect,
+                collaborate, and grow their skills in Rust To learn more and get started with SurrealDB in just visit
+                <a href="http://surrealdb.com" target="_blank">surrealdb.com</a>
+      </p>
+  image:
+    path: "/assets/images/partners/surrealdb.png"
+    alt: SurrealDB logo
+
+- name: Jetbrains
+  link: "https://www.surrealdb.com/"
+  description: |
+    <p><a href="http://https://www.jetbrains.com/" target="_blank">Jetbrains</a> creates intelligent software development tools used by over 11.4 million professionals and 88 Fortune Global Top 100 companies. Its lineup of more than 30 products includes IDEs for most programming languages and technologies, such as IntelliJ IDEA, PyCharm, and others, as well as products for team collaboration, like YouTrack and TeamCity.</p>
+    <p>JetBrains is also known for creating the Kotlin programming language, a cross-platform language used by more than 5 million developers worldwide yearly and recommended by Google as the preferred language for Android development.</p>
+  image:
+    path: "/assets/images/partners/jetbrains.png"
+    alt: Jetbrains logo
+
+- name: Amazon
+  background: "bg-1"
+  link: "http://amazon.com"
+  description: |
+    <p><a href="http://amazon.com" target="_blank">Amazon</a> is a global leader in e-commerce, redefining
+                online shopping with its vast product selection,
+                seamless customer experience, and advanced logistics network. With innovations like Amazon Prime,
+                one-click purchasing, and a commitment to fast and reliable delivery, Amazon has transformed the way
+                people shop worldwide.</p>
+    <p>Beyond e-commerce, Amazon supports education and career growth through initiatives like Amazon Future
+                Engineer, which provides opportunities for underrepresented groups in technology. To explore more about
+                Amazon’s impact and services, visit <a href="http://amazon.com" target="_blank">amazon.com</a></p>
+  image:
+    path: "/assets/images/partners/amazon.png"
+    alt: Amazon logo
+
+- name: Women In Tech Global Conference
+  link: "www.womentech.net/en-es/node/102994"
+  description: |
+    We are thrilled to introduce our new partnership with <a href="https://www.womentech.net/en-es/node/102994" target="_blank">Women In Tech Global Conference.</a> The conference will bring women in tech, and allies together through an interactive platform with virtual and in-person sessions.
+  image:
+    path: "/assets/images/partners/WomenInTech.png"
+    alt: Conference logo
+
+- name: Devoxx - UK
+  background: "bg-1"
+  link: "https://www.devoxx.co.uk"
+  description: |
+    Ready to level up your dev skills and dive into the latest tech? Women Coding Community is thrilled to collaborate with <a href="https://www.womentech.net/en-es/node/102994" target="_blank">Devoxx UK!</a> Join expert practitioners from around the world as we explore Java, Cloud, AI, Data, Security, Architecture, Dev Culture, and more.
+  image:
+    path: "/assets/images/partners/devoxx.png"
+    alt: Conference logo
