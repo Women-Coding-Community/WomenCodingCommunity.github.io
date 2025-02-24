@@ -17,29 +17,30 @@
 @import "media-breakpoint";
 @import "mixins";
 @import "breadcrumbs";
+@import "partners";
 
-.network svg:hover  {
-    fill: $primary-50 !important;
+.network svg:hover {
+  fill: $primary-50 !important;
 }
 
 .opacity-50 {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .cursor-pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .content-overflow {
-    width: 100%;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .content-justify {
-    text-align: justify;
-    text-justify: inter-word;
-    word-spacing: -0.05em;
+  text-align: justify;
+  text-justify: inter-word;
+  word-spacing: -0.05em;
 }
