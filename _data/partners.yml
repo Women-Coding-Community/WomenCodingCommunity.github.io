@@ -41,6 +41,18 @@
     path: "/assets/images/partners/amazon.png"
     alt: Amazon logo
 
+- name: GitHub
+  background: "bg-1"
+  link: "https://github.com"
+  description: |
+    <p><a href="https://github.com" target="_blank">GitHub</a> is the home for all developers, where you can
+                build, ship, scale and deliver your software securely. Over 150 million developers, 
+                including more than 90% of the Fortune 100 companies, use GitHub to collaborate and 
+                more than 77,000 organizations have adopted GitHub Copilot.</p>
+  image:
+    path: "/assets/images/partners/github.png"
+    alt: GitHub logo
+
 - name: Women In Tech Global Conference
   link: "www.womentech.net/en-es/node/102994"
   description: |
