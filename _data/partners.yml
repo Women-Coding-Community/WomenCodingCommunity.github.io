@@ -42,7 +42,7 @@
     alt: Amazon logo
 
 - name: GitHub
-  background: "bg-1"
+  background: ""
   link: "https://github.com"
   description: |
     <p><a href="https://github.com" target="_blank">GitHub</a> is the home for all developers, where you can
