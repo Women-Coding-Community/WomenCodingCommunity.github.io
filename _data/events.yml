@@ -760,3 +760,61 @@
     title: View meetup event
     target: _target
 
+
+- title: |
+    Celebrating International Women's Day
+  description: |
+    Join Women Coding Community, Women in Rust and SurrealDB as we celebrate the progress and achievements of women in technology and innovation!
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, MAR 11, 2025
+  expiration: "20250312"
+  host: ""
+  speaker: ""
+  time: 6:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/4/1/1/a/600_526576666.webp"
+    alt: "event cover"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/306483318/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Career Journey in Information Security
+  description: |
+    The Women Coding Community’s Career Club is excited to host a session on Career Journey in Information Security—a field that’s critical to everything we do in tech. From securing systems to protecting user data, cybersecurity is more important than ever, yet women remain underrepresented.
+  category_style: career-talk
+  category_name: Carer Talk
+  date: THU, MAR 20, 2025
+  expiration: "20250321"
+  host: "Julia Babahina"
+  speaker: "Annelie van Milink"
+  time: 8:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/c/c/5/600_526488325.webp"
+    alt: "event cover"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/306434480
+    title: View meetup event
+    target: _target
+
+
+- title: |
+    Book Club: Designing Machine Learning Systems (Part 2)
+  description: |
+    Part 2 of this bookclub: discussion of chapters 7-11 in the book. You can join even if you couldn’t make it to part 1.
+  category_style: book-club
+  category_name: Book Club
+  date: THU, MAR 24, 2025
+  expiration: "20250325"
+  host: "Julia Babahina"
+  speaker: "Annelie van Milink"
+  time: 8:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/c/1/d/d/600_526609629.webp"
+    alt: "event cover"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/306547756/
+    title: View meetup event
+    target: _target
