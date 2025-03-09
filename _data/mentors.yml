@@ -140,7 +140,7 @@
 
 - name: Stephanie Senoner
   disabled: false
-  sort: 30
+  sort: 500
   matched: false
   hours: 5
   type: both
@@ -150,7 +150,7 @@
   image: assets/images/mentors/stephanie_senoner.jpeg
   location: London
   languages: English
-  availability: [ ]
+  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
   skills:
     experience: 4-5 years
     years: 5
