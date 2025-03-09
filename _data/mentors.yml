@@ -337,16 +337,17 @@
 
 - name: Ying Liu
   disabled: false
-  sort: 10
+  sort: 500
   hours: 2
   position: Head of AI, R&D TG0
-  type: long-term
+  type: both
   index: 11
   location: London
   bio: |
     I have a Ph.D in Physics and 4-years experience working in the field of machine learning. I published 4 papers and 2 under submission. My expertise sits in few-shot learning, CNN, Diffusion model and transformers with model architecture building using TensorFlow and PyTorch.
   image: assets/images/mentors/ying_liu.jpg
   languages: English
+  availability: [ 3 ]
   skills:
     experience: 4-5 Years
     years: 5
