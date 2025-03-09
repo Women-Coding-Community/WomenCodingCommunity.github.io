@@ -803,13 +803,14 @@
 - title: |
     Book Club: Designing Machine Learning Systems (Part 2)
   description: |
-    Part 2 of this bookclub: discussion of chapters 7-11 in the book. You can join even if you couldn’t make it to part 1.
+    Part 2 of this bookclub: discussion of chapters 7-11 in the book. You can join even if you couldn’t make it to part 1.  This book will help you tackle scenarios such as:
+    Engineering data and choosing the right metrics to solve a business problem and much more.
   category_style: book-club
   category_name: Book Club
   date: THU, MAR 24, 2025
   expiration: "20250325"
-  host: "Julia Babahina"
-  speaker: "Annelie van Milink"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
   time: 8:00 PM UTC
   image:
     path: "https://secure.meetupstatic.com/photos/event/c/1/d/d/600_526609629.webp"
