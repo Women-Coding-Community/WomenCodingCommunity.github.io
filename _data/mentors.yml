@@ -1,6 +1,6 @@
 - name: Eleonora Belova
   disabled: false
-  sort: 200
+  sort: 100
   hours: 5
   position: Test Automation Engineer, IBM Security
   type: both
@@ -106,7 +106,8 @@
 
 - name: Irina Kamalova
   disabled: false
-  sort: 550
+  sort: 500
+  num_mentee: 1
   hours: 1
   type: both
   index: 4
@@ -116,7 +117,7 @@
   image: assets/images/mentors/irina_kamalova.jpeg
   location: London, United Kingdom
   languages: English, Russian
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [ 3, 5, 6, 7, 8, 9, 10, 11 ]
   skills:
     experience: 7-10 years
     years: 10
@@ -203,7 +204,7 @@
 - name: Madhura Chaganty
   disabled: false
   matched: false
-  sort: 30
+  sort: 100
   hours: 2
   type: ad-hoc
   index: 7
@@ -215,7 +216,7 @@
   image: assets/images/mentors/madhura_chaganty.jpeg
   location: United Kingdom
   languages: English
-  availability: [ 6, 7, 8, 10, 11 ]
+  availability: [ 5, 6, 7, 8, 10, 11 ]
   skills:
     experience: 16+ Years
     years: 16
@@ -239,7 +240,7 @@
 - name: Sonali Goel
   disabled: false
   matched: false
-  sort: 550
+  sort: 500
   num_mentee: 1
   hours: 1
   position: Lead Engineer, Yoox-Net-A-Porter
