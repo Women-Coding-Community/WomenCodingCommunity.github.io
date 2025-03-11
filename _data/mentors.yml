@@ -12,7 +12,7 @@
     Moreover, I am eager to help individuals start their journey in software testing. I can share industry knowledge, assist in reviewing your CV, and provide guidance on various related topics.
   image: assets/images/mentors/eleonora_belova.jpeg
   languages: English
-  availability: [ 7, 8 ]
+  availability: [7, 8]
   skills:
     experience: 2-4 years
     years: 4
@@ -45,7 +45,7 @@
   image: assets/images/mentors/rajani_rao.jpeg
   location: Cambridge, UK
   languages: English
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ years
     years: 16
@@ -81,7 +81,7 @@
   type: both
   index: 3
   languages: Portuguese, English
-  availability: [ 3, 4, 5 , 6 , 7 , 8 , 9 , 10 , 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 years
     years: 15
@@ -117,7 +117,7 @@
   image: assets/images/mentors/irina_kamalova.jpeg
   location: London, United Kingdom
   languages: English, Russian
-  availability: [ 3, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [3, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -150,7 +150,7 @@
   image: assets/images/mentors/stephanie_senoner.jpeg
   location: London
   languages: English
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 4-5 years
     years: 5
@@ -183,7 +183,7 @@
   image: assets/images/mentors/ken_pemberton.jpeg
   location: Chesham, Buckinghamshire, UK
   languages: English
-  availability: [ 6, 7 ]
+  availability: [6, 7]
   skills:
     experience: 16+ Years
     years: 16
@@ -216,7 +216,7 @@
   image: assets/images/mentors/madhura_chaganty.jpeg
   location: United Kingdom
   languages: English
-  availability: [ 5, 6, 7, 8, 10, 11 ]
+  availability: [5, 6, 7, 8, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -251,7 +251,7 @@
     Sonali serves as a Lead Engineer at Yoox-Net-a-porter, specializing in managing and constructing extensive-scale ecommerce solutions. She leverages Java-based commerce platforms and integrates them with open-source technologies like Spring Boot and Spring Batch. As an AWS-certified Solution Architect, she possesses deep knowledge of Amazon Web Services, complemented by proficiency in implementing continuous integration and continuous deployment (CICD) practices to ensure seamless software delivery. Additionally, she excels in architecting and implementing microservices-based architectures to drive agility and modularity in software development With over 13 years of experience in the technology industry, Sonali brings a wealth of expertise in steering technical direction and fostering high-performance outcomes. Her passion lies in nurturing a culture of continuous learning and innovation. Outside of her professional endeavors, Sonali actively volunteers with Women Who Code, advocating for gender diversity. She is also a creative enthusiast, utilizing design templates to convey ideas, thoughts, and emotions visually.
   image: assets/images/mentors/sonali_goel.jpg
   languages: English
-  availability: [ 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -283,7 +283,7 @@
   bio: I have almost a decade experience in cyber security, information security and privacy. Also, last 3 years I have been working in risk in product and strategy.
   image: assets/images/mentors/julia_babahina.png
   languages: English, Russian
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -313,7 +313,7 @@
     I am a software engineer with around 6 years of experience in software and a special focus on cloud and cybersecurity in the last few years. I design and deliver scalable Java solutions for complex business challenges in the healthcare and retail industry. I leverage my expertise in software development security, cryptography, and network security to ensure the protection and integrity of data and systems. I collaborate with cross-functional teams to develop, test, and deploy high-quality software using Agile methodologies and various frameworks and technologies.
   image: assets/images/mentors/hersi_kopani.jpg
   languages: English
-  availability: [ 5, 6 ]
+  availability: [5, 6]
   skills:
     experience: 5-7 Years
     years: 7
@@ -347,7 +347,7 @@
     I have a Ph.D in Physics and 4-years experience working in the field of machine learning. I published 4 papers and 2 under submission. My expertise sits in few-shot learning, CNN, Diffusion model and transformers with model architecture building using TensorFlow and PyTorch.
   image: assets/images/mentors/ying_liu.jpg
   languages: English
-  availability: [ 3 ]
+  availability: [3]
   skills:
     experience: 4-5 Years
     years: 5
@@ -376,7 +376,7 @@
     I am an experienced Software Engineering professional with more than 20 years of expertise in developing software systems across a broad spectrum, ranging from small-scale applications to extensive enterprise infrastructure platforms. My passion lies in teaching software engineering through a humanistic lens, emphasizing user experience while firmly adhering to the fundamental principles of core software engineering.
   image: assets/images/mentors/adegbenga_agoro.jpg
   languages: English
-  availability: [ 5, 6 ]
+  availability: [5, 6]
   skills:
     experience: 16+ Years
     years: 16
@@ -411,7 +411,7 @@
     I have already lived in some European cities, such as Lisbon, Madrid, Barcelona and London. This allowed me to work in different cultures and dynamics, further increasing my ability to connect, communicate and grow. I love giving back to the community, so I started collaborating with DevPass, helping guide newcomers. I'm also a mentor at MentoCruise, for those who want a more professional follow-up.
   image: assets/images/mentors/ana_nogal.jpg
   languages: English, Spanish, Portuguese
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -443,7 +443,7 @@
   image: assets/images/mentors/monal_sanghvi.png
   location: London, UK
   languages: English
-  availability: [ 7, 8, 9, 10, 11 ]
+  availability: [7, 8, 9, 10, 11]
   skills:
     experience: 10-15 years
     years: 15
@@ -475,7 +475,7 @@
     8 years of experience in front end development in Angular, Head of many projects in UI and trained multiple developers.
   image: assets/images/mentors/kaylyn_van_norstrand.jpg
   languages: English
-  availability: [ 5 ]
+  availability: [5]
   skills:
     experience: 7-10 Years
     years: 10
@@ -541,7 +541,7 @@
   bio: Hi! My name is Min, I’m a kiwi, and I am a senior Machine Learning / Full-stack Software Engineer of 7 years experience who has worked in a wide range of work environments including a FAANG, a Unicorn, a small startup, and most recently my own startup. From my experience, I’ve seen time and time again how the skewed gender ratio in tech negatively impacts everything we do in tech, and what we build. To combat this, I have mentored with WomenWhoCode before, and I have taught a few courses with CodeFirstGirls before. I would like to continue supporting more women to get into tech industry and moreover succeed in the industry until we have truly achieved gender equality and equity in the tech industry.
   image: assets/images/mentors/minsang_kim.jpg
   languages: English
-  availability: [ 5 ]
+  availability: [5]
   skills:
     experience: 5-7 Years
     years: 7
@@ -564,18 +564,18 @@
 - name: Kirthikka Devi Venkataram
   disabled: false
   matched: false
-  sort: 550
+  sort: 600
   hours: 2
-  num_mentee: 2
-  position: Senior Technical Project Manager, Havells Center for Research and Innovation
+  num_mentee: 3
+  position: Senior Technical Project Manager, Confidential
   type: both
   index: 18
   location: India/Bengaluru
   bio: |
-    Kirthikka Devi Venkataram is an experienced Manager has launched embedded system products for 10 years. She has worked for B2B segments of multiple industry verticals leveraging design thinking, resulting in the product's growth and increasing revenue. There has been a keen focus dissecting business outcomes, engineering design and empathizing customers in her career journey. Extending her involvement in organizational activities, she has conducted prospects tours that recognized her leadership skills. She works towards empowering women collaborating in external forums and offers mentorship support.
+    Kirthikka Devi Venkataram is a seasoned Manager, a Mentor to Women Coding Community and Design Thinking practitioner. She has good experience handling global team, leading and guiding engineers working for industries like automotive and telecommunication delivering products for more than 10 years. Her focus is on B2B segments of vertical business markets generating revenue and product success by delivering flawless products. She is keen to leverage design thinking and data driven approach working cross functionally and orchestrating activities across organization working for product's growth and increasing revenue. With business agility, she focuses dissecting business outcomes, engineering design and empathizing customers in her career journey. She was a Technical Event Coordinator since college days and hosted events. She was a Cohort Representative of Executive Program - 2021 offered by Indian Institute of Management Luck now collaborating with diverse people from multiple industry verticals with the organizers and Professors. Extending her involvement in organizational activities, she has conducted prospects tours that recognized her leadership skills. She works towards empowering women collaborating in external forums and offers mentorship support.
   image: assets/images/mentors/kirthikka_devi_venkataram.jpg
   languages: English
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -603,7 +603,7 @@
     I'm a Recruitment professional and start-up scaling specialist. I can help mentees with the soft-skills development to really make impact in their role and in the workplace.
   image: assets/images/mentors/mona_ahluwalia.jpg
   languages: English
-  availability: [ 6 ]
+  availability: [6]
   skills:
     experience: 5-7 Years
     years: 7
@@ -662,7 +662,7 @@
     I am Frontend engineer with 4 years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
   image: assets/images/mentors/adeola_adekoyejo.jpg
   languages: English
-  availability: [ 4, 5, 6 , 7 , 8 , 9 , 10 , 11 ]
+  availability: [4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 4-5 years
     years: 5
@@ -691,7 +691,7 @@
     ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
   image: assets/images/mentors/anastasia.jpeg
   languages: English, Ukrainian, Russian
-  availability: [ 7, 8, 9, 11 ]
+  availability: [7, 8, 9, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -723,7 +723,7 @@
     Experienced Data Engineer with over 7 years experience in SQL, Python, AWS and BigQuery. Focus on ETL processes and data pipelines for reliable and high quality data. Currently working on data modelling and data catalogue solutions.
   image: assets/images/mentors/nonna_shakhova.jpg
   languages: English, Russian
-  availability: [ 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -749,7 +749,7 @@
   index: 24
   location: Manchester, England
   bio: |
-    I am a frontend engineer with over 3 years of experience in frontend development. I am excellent at building user interfaces and bringing web functionalities to life. I have worked on various projects ranging from fintech to agriculture. 
+    I am a frontend engineer with over 3 years of experience in frontend development. I am excellent at building user interfaces and bringing web functionalities to life. I have worked on various projects ranging from fintech to agriculture.
   image: assets/images/mentors/sakirat_kehinde_usman.jpg
   languages: English
   skills:
@@ -781,7 +781,7 @@
     I'm a co-founder, building in the open banking and developer experience space. apibanking.com is young - for ~2.5 years, we have been developing tech offerings in the financial services space, to solve the friction at the point of integration between traditional banks and the fintech ecosystem. I pursued my undergraduate coursework in Mathematics and Computer Science, and since then, I've spent 5+ years in enterprise technology as a developer as well as a business leader building scale products, and another 5+ years in business building, including product strategy, private equity and venture investments for tech-first players. I have mentored startup founders on product scaling, new market opportunities and fundraising. I'm also exploring angel investing, focusing on next-gen software tech startups.
   image: assets/images/mentors/tvisha_dholakia.jpg
   languages: English
-  availability: [ 4, 5, 6,7, 8, 9, 10, 11 ]
+  availability: [4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -880,7 +880,7 @@
   bio: I have 9+ years of software development experience across start-ups, corporates, and non-profits. I currently work at Islacare, a healthcare startup, with primary focus on front-end development. I career switched into software development and now have been working longer in this field than anything else. I am passionate about diversifying STEM and helping people transition into tech.
   image: assets/images/mentors/jenny_johnson.jpeg
   languages: English
-  availability: [ 5 ]
+  availability: [5]
   skills:
     experience: 7-10 Years
     years: 10
@@ -910,7 +910,7 @@
   bio: 18 years of experience in developing highly scalable distributed systems, majorly in data storage systems and fintech domains. Experience driving projects and leading teams
   image: assets/images/mentors/shailaja_koppu.svg
   languages: English
-  availability: [ ]
+  availability: []
   skills:
     experience: 16+ Years
     years: 16
@@ -970,7 +970,7 @@
   image: assets/images/mentors/bryan_boreham.jpeg
   location: London, UK
   languages: English
-  availability: [ 7, 8, 9, 10, 11 ]
+  availability: [7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1007,7 +1007,7 @@
   image: assets/images/mentors/liliia_rafikova.png
   location: London, UK
   languages: English, Russian
-  availability: [ 6, 7 ]
+  availability: [6, 7]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1037,9 +1037,9 @@
   position: Head of Product Planning, Toga Networks
   bio: |
     I have been teaching and mentoring software designers and architects for close to twenty years.
-  image: 'assets/images/mentors/avraham_poupko.jpg'
+  image: "assets/images/mentors/avraham_poupko.jpg"
   languages: English, Hebrew
-  availability: [ 6, 7 ]
+  availability: [6, 7]
   skills:
     experience: 16+ Years
     years: 16
@@ -1072,13 +1072,14 @@
   type: ad-hoc
   index: 34
   location: London,UK
-  position: Software QA Engineer, Self Employed - SI Engineering LTD - But currently
+  position:
+    Software QA Engineer, Self Employed - SI Engineering LTD - But currently
     work for HM Land registry as a contractor
   bio: |
     I am a Software Quality Assurance Engineer with a strong commitment to mentoring and contributing to the Women Coding Community. With over four years of experience, I have perfected my expertise in automation tools to ensure flawless project deliveries. My dedication to promoting transparent communication and fostering strong teamwork sets me apart. As your mentor, I am committed to providing invaluable insights, best practices, and unwavering support as you navigate the dynamic field of software testing, including testing strategies and the latest industry trends.
-  image: 'assets/images/mentors/safiye_ipek.jpg'
+  image: "assets/images/mentors/safiye_ipek.jpg"
   languages: English, Turkish
-  availability: [ 7, 8, 10, 11 ]
+  availability: [7, 8, 10, 11]
   skills:
     experience: 4-5 Years
     years: 5
@@ -1109,9 +1110,9 @@
   position: Android Developer, Sky UK
   bio: |
     I am an android developer with over 6 years of experience. I have experienced projects that even couldn't come out to the world but also experienced huge projects had 1M+ daily active users. If you want to learn something about a whole life cycle of Android development projects, I can help you and walk through with you.
-  image: 'assets/images/mentors/bomee_ryu.jpg'
+  image: "assets/images/mentors/bomee_ryu.jpg"
   languages: English, Korean
-  availability: [ 6, 7 ]
+  availability: [6, 7]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1141,7 +1142,7 @@
     I work mainly with Backend and AWS. I am keen to help people start their journey in Software Engineering and Cloud Computing. I can share some knowledge from the industry, help you review your CV to apply for a job, and anything else around that. If you’re looking to get AWS certified, I could also help you come up with a study plan, and share tips and study materials. I currently hold two certifications: Cloud Practitioner & Solutions Architect - Associate.
   image: assets/images/mentors/monique_grinstein.jpeg
   languages: English, Portuguese, French
-  availability: [ ]
+  availability: []
   skills:
     experience: 4-5 Years
     years: 5
@@ -1170,7 +1171,7 @@
     With over 15 years of experience as a developer, I am a graduate of the Oxford Blockchain Strategy Programme and an AWS Solutions Architect. My career has spanned various roles, including full-stack, backend, frontend, blockchain developer, and platform engineer, collaborating with startups and enterprises alike, such as HSBC, Deloitte, Credit Suisse, GSK, and Eurostar. My technical expertise encompasses Java (including Spring and Spring Boot), JavaScript (Node.js, React.js, TypeScript), and both relational and non-relational databases (Oracle, MySQL, PostgreSQL, MongoDB, DynamoDB, Neo4j, among others).
   image: assets/images/mentors/rasim_sen.jpeg
   languages: English
-  availability: [ 7 ]
+  availability: [7]
   skills:
     experience: 16+ years
     years: 16
@@ -1206,9 +1207,9 @@
     Highly analytical Data Scientist specializing in threat detection and anti-fraud strategies, currently leading the Fraud and Payments Data Science Teams at Blockchain.com. 
     My strong foundation in economics and data science drives impactful results and enhances security frameworks. 
     I have been mentor at AI hackathons and London Business School.
-  image: 'assets/images/mentors/jyoti_yadav.jpg'
+  image: "assets/images/mentors/jyoti_yadav.jpg"
   languages: English, Hindi
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1246,9 +1247,9 @@
   bio: |
     I have 10 years of experience as a Data Analyst and dual master's degrees in
     Biostatistics and Big Data & Data Science Technology. I am an expert in A/B testing, data analysis, statistical modelling, and machine learning, as well as SQL, Python, R, and other tools. My passion is using data to make important business decisions.
-  image: 'assets/images/mentors/busra_sakar.jpg'
+  image: "assets/images/mentors/busra_sakar.jpg"
   languages: English, Turkish
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -1290,9 +1291,9 @@
     I work with infrastructure engineering for 13 years. I love all things infrastructure: designing platforms in the cloud with Azure/AWS, coding in terraform/ansible/python/shell.., building awesome delivery pipelines and helping developers.
     I am from Brazil, currently living in Amsterdam and worked in several companies and different industries.
     I am community-driven: I have presented at conferences, contributed to open source and like sharing knowledge.
-  image: 'assets/images/mentors/fernanda_martins.jpg'
+  image: "assets/images/mentors/fernanda_martins.jpg"
   languages: English, Portuguese
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1301,8 +1302,8 @@
     areas:
       - DevOps
       - Distributed Systems
-    languages: ''
-    focus: [ ]
+    languages: ""
+    focus: []
     extra: |
       DevOps practices, how to start in infrastructure, resume review, learn cloud, infrastructure as code, incident management, improve your pipeline, manage platform priorities, how to better support developers
   network:
@@ -1326,9 +1327,9 @@
     🤔 You may be thinking "So what, how does that help me"? Or you may be in the category of "I don't know where to grow/learn next"? Book a session and tell me a bit about yourself so we can together find a way on how my experience can help you 😉
 
     🥶 Also, if you get frozen solid when doing test automation, I also offer an guidance on automated testing where we can deep-dive into the code of your choice together.
-  image: 'assets/images/mentors/gabriel_oliveira.jpg'
+  image: "assets/images/mentors/gabriel_oliveira.jpg"
   languages: English, Portuguese
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -1363,9 +1364,9 @@
   position: Founder & CEO, R For All
   bio: |
     I am a student Architect who has deep passion for software engineering and coding. I've worked with multiple programming languages including R, Python, Golang, Java, c++ and scala. Currently I'm serving as the CEO of the company I founded, R For All, which trains people on R Programming skills. My focus recently has been on R Programming because of my passion for healthcare analysis and tech which is where R thrives. My R Programming skills is Johns Hopkins university and HackerRank certified. I'm looking forward to mentoring curious candidates like me.
-  image: 'assets/images/mentors/abdul_qamardeen.jpg'
+  image: "assets/images/mentors/abdul_qamardeen.jpg"
   languages: English, Yoruba
-  availability: [ 7, 8, 9, 10, 11 ]
+  availability: [7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1401,7 +1402,7 @@
   position: Senior Machine Learning Engineer, Cleo
   bio: |
     With over a decade in the tech industry, I have a Master’s in Computer Science and over seven years of experience in various roles within SAP systems, including Analyst, Engineer, Architect, and Team Lead, contributing to over 20 successful projects. I redirected my career towards data science in 2018, beginning as a Junior Data Scientist and continuously advancing my knowledge in the field through self-directed learning. My expertise now encompasses a range of Machine Learning systems, including large language models (LLMs), graph neural networks, and deep learning techniques like Transformer architecture for time-series analysis.
-  image: 'assets/images/mentors/olga_volkova.jpeg'
+  image: "assets/images/mentors/olga_volkova.jpeg"
   languages: English, Russian
   skills:
     experience: 10-15 Years
@@ -1436,9 +1437,9 @@
     I'm a transgender, neurodivergent woman with just over 10 years of experience in the industry. I've worked in a lot of companies and have learned a bunch of different languages. I particularly like to focus on code quality, testing approaches and software architecture. I'm a strong advocate for TDD and pair programming and emphathic, collaborative software engineering.
 
     Current role is as a principal engineer so I split my time between distributed systems architecture, writing code and coaching/upskilling engineers throughout the company.
-  image: 'assets/images/mentors/samantha-cohen.jpg'
+  image: "assets/images/mentors/samantha-cohen.jpg"
   languages: English
-  availability: [ 8, 9, 10 ]
+  availability: [8, 9, 10]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1474,9 +1475,9 @@
   position: React Developer, Leniolabs
   bio: |
     I've been working as a React developer for around four years and have been working remotely and travelling for the last two. I have a degree in development, but I struggled a lot to find my first job. It was women from a JavaScript community who helped me and guided me to get that first job. It's thanks to them that I am where I am today. So I just want to give a little of this back to the community and help other women get their first job. Even if they already have one but are struggling with situations, impostor syndrome, or solving problems, I can give advice and help with that too.
-  image: 'assets/images/mentors/anahi-gaetan.jpg'
+  image: "assets/images/mentors/anahi-gaetan.jpg"
   languages: English, Spanish
-  availability: [ 8, 9, 10 ]
+  availability: [8, 9, 10]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1509,9 +1510,9 @@
     I am currently Co-Founder and Chief Operating Officer of Syntasso; my previous roles include Senior Director of Tanzu Global Education at VMware, Senior Director of Platform Services EMEA at Pivotal and Co-Founder & Chief Operating Officer of CloudCredo. 
     I've been working in the IT industry for over 20 years and am passionate about community, diversity and inclusion. I have a range of speaking experience including DevOpsDays, DevOps Enterprise Summit, Velocity Conference, QCon and the LeadDev conference.
     I also enjoy giving back to the community and I am part of the organising committee for Kubernetes Community Days UK and DevOps Days London, and I also organise the London Platform User Group.
-  image: 'assets/images/mentors/paula_kennedy.jpeg'
+  image: "assets/images/mentors/paula_kennedy.jpeg"
   languages: English
-  availability: [ 9, 10, 11 ]
+  availability: [9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1521,7 +1522,7 @@
       - Engineering management
       - Product Management
       - Site Reliability Engineering
-    languages: ''
+    languages: ""
     focus:
       - Grow beyond senior level
       - Switch from IC to management position
@@ -1546,9 +1547,9 @@
     I am a software Engineer and I thrive on mastering the intricacies of C#, .NET, .NET Core,
     JavaScript, TypeScript, Angular, Jasmine, React, Vue and Unit Testing. My foundation in computing, algorithm design, and development
     techniques fuels my passion for staying ahead of the curve in software engineering trends. Beyond honing my skills, I find fulfillment in mentoring aspiring tech professionals, guiding them as they navigate their entry into the tech industry.
-  image: 'assets/images/mentors/mena_esezobor.jpg'
+  image: "assets/images/mentors/mena_esezobor.jpg"
   languages: English
-  availability: [ 9, 10, 11 ]
+  availability: [9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1583,9 +1584,9 @@
   position: Senior Software Engineer 2, Hubspot
   bio: |
     Currently working as Lead Engineer for Hubspot. I have 12 years for Software development experience (Backend and Fullstack). I have worked with tech giants for 7 years - Microsoft, Expedia, Salesforce and have worked in startup industry for 5 years. Hence i understand working in both in environments. I have worked with wide variety of technologies - Java, AWS, Azure, Python, Distributed systems, Scaling applications.
-  image: 'assets/images/mentors/prerna_singhal.jpg'
+  image: "assets/images/mentors/prerna_singhal.jpg"
   languages: English
-  availability: [ 9, 10, 11 ]
+  availability: [9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1625,7 +1626,7 @@
   image: |
     assets/images/mentors/samuela_smolorz.jpeg
   languages: English, Polish
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1672,7 +1673,7 @@
   image: |
     assets/images/mentors/arzu_caner.jpg
   languages: English, Turkish
-  availability: [ 9, 10, 11 ]
+  availability: [9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1706,7 +1707,7 @@
   image: |
     assets/images/mentors/prabha_venkatesh.jpeg
   languages: English
-  availability: [ 9, 10, 11 ]
+  availability: [9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1742,7 +1743,7 @@
   image: |
     assets/images/mentors/lulu_cao.jpeg
   languages: English, Mandarin
-  availability: [ 9, 10, 11 ]
+  availability: [9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1777,7 +1778,7 @@
   image: |
     assets/images/mentors/adnan_salehin.jpeg
   languages: English
-  availability: [ 10, 11 ]
+  availability: [10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1798,8 +1799,7 @@
     extra: |
       CV Review, Interviews, Career Navigation, Programming languages and concepts (Python, JavaScript, Object Oriented/Functional Programming), System Design
   network:
-    - linkedin:
-        https://www.linkedin.com/in/adnansalehin
+    - linkedin: https://www.linkedin.com/in/adnansalehin
 
 - name: Ima-Abasi Effiong
   disabled: false
@@ -1815,7 +1815,7 @@
   image: |
     assets/images/mentors/ima-abasi_effiong.jpeg
   languages: English
-  availability: [ 3 , 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1848,7 +1848,7 @@
   image: |
     assets/images/mentors/lidiane_mayra_taquehara.jpeg
   languages: English, Portuguese
-  availability: [ ]
+  availability: []
   skills:
     experience: 7-10 Years
     years: 10
@@ -1888,7 +1888,7 @@
   image: |
     assets/images/mentors/ajeetha_kumari.jpeg
   languages: English, Tamil, Hindi, Kannada
-  availability: [ 11 ]
+  availability: [11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1928,7 +1928,7 @@
   image: |
     assets/images/mentors/alexey_buzovkin.jpeg
   languages: English, Russian
-  availability: [ 11 ]
+  availability: [11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1958,7 +1958,7 @@
   image: |
     assets/images/mentors/ciera_fowler.jpg
   languages: English
-  availability: [ 11 ]
+  availability: [11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1996,7 +1996,7 @@
   image: |
     assets/images/mentors/liko_chien.jpg
   languages: English, Mandarin
-  availability: [ 11 ]
+  availability: [11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -2034,7 +2034,7 @@
   image: |
     assets/images/mentors/marie_coquille.jpeg
   languages: English, French
-  availability: [ 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 4-5 Years
     years: 5
@@ -2045,7 +2045,7 @@
       - Fullstack Developer
       - Backend Developer
     languages: Javascript
-    focus: [ ]
+    focus: []
     extra: |
       Get your first job in SE / How it is being a woman in tech / Mock interviews
   network:
