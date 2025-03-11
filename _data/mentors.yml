@@ -407,8 +407,7 @@
   index: 13
   location: Barcelona, Spain
   bio: |
-    I'm a senior iOS developer with ten years of business experience and over 25 years in software development. I spent the first 15 years working as a back-end developer in .NET and Java, but I fell in love when I discovered Mobile development. I am passionate about the quality and maintainability of the application's code and architecture.
-    I have already lived in some European cities, such as Lisbon, Madrid, Barcelona and London. This allowed me to work in different cultures and dynamics, further increasing my ability to connect, communicate and grow. I love giving back to the community, so I started collaborating with DevPass, helping guide newcomers. I'm also a mentor at MentoCruise, for those who want a more professional follow-up.
+    Mentoring energises me and aligns with my purpose. I have successfully changed careers and can help you do the same. I aim to help juniors enter the IT workplace, stay there comfortably, and advance their careers when the time is right. But my support doesn’t stop there—I also guide mid-level professionals on their journey to senior roles and help seniors transition into Tech Lead, Engineering Manager, or Staff Engineer positions. No matter where you are in your IT career, I can provide the support and guidance you deserve to achieve your career goals.
   image: assets/images/mentors/ana_nogal.jpg
   languages: English, Spanish, Portuguese
   availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
@@ -425,7 +424,7 @@
       - Grow from beginner to mid-level
       - Grow from mid-level to senior-level
       - Switch career to IT
-    extra: TDD, Clean code, Refactoring, Team dynamics, Mock interview, PR reviews, Code Principles
+    extra: Using Core Nature and Values to figure out who you are - explore within yourself who you like to be and find the best next step to give in your career, CV Review and LinkedIn & GitHub Profile updates
   network:
     - linkedin: https://www.linkedin.com/in/ananogal
     - twitter: https://twitter.com/anainogal
