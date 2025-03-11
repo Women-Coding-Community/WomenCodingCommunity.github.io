@@ -35,7 +35,7 @@
   disabled: false
   matched: false
   sort: 600
-  num_mentee: 4
+  num_mentee: 3
   hours: 5
   type: both
   index: 2
@@ -62,7 +62,7 @@
       - Grow from beginner to mid-level
       - Switch career to IT
       - Switch from IC to management position
-    mentee: Is really keen to grow
+    mentee: Executive mindset
     extra: Anything Software Engineering
   network:
     - linkedin: https://www.linkedin.com/in/rajaniraog/
