@@ -2,7 +2,7 @@
   background: "bg-1"
   link: "https://www.surrealdb.com/"
   description: |
-    <p><a href="http://surrealdb.com" target="_blank">SurrealDB</a> is an innovative, multi-model, cloud-ready
+    <p><a href="http://surrealdb.com/" target="_blank">SurrealDB</a> is an innovative, multi-model, cloud-ready
                 database, suitable for modern and traditional
                 applications. Its versatility, and focus on developer experience, along with the ability for
                 deployment on cloud, on-premise, embedded, and in edge computing environments, allows developers and
@@ -17,9 +17,9 @@
     alt: SurrealDB logo
 
 - name: Jetbrains
-  link: "https://www.surrealdb.com/"
+  link: "https://www.jetbrains.com/"
   description: |
-    <p><a href="http://https://www.jetbrains.com/" target="_blank">Jetbrains</a> creates intelligent software development tools used by over 11.4 million professionals and 88 Fortune Global Top 100 companies. Its lineup of more than 30 products includes IDEs for most programming languages and technologies, such as IntelliJ IDEA, PyCharm, and others, as well as products for team collaboration, like YouTrack and TeamCity.</p>
+    <p><a href="https://www.jetbrains.com/" target="_blank">Jetbrains</a> creates intelligent software development tools used by over 11.4 million professionals and 88 Fortune Global Top 100 companies. Its lineup of more than 30 products includes IDEs for most programming languages and technologies, such as IntelliJ IDEA, PyCharm, and others, as well as products for team collaboration, like YouTrack and TeamCity.</p>
     <p>JetBrains is also known for creating the Kotlin programming language, a cross-platform language used by more than 5 million developers worldwide yearly and recommended by Google as the preferred language for Android development.</p>
   image:
     path: "/assets/images/partners/jetbrains.png"
