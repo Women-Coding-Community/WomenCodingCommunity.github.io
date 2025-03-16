@@ -111,7 +111,7 @@
   hours: 1
   type: both
   index: 4
-  position: Senior Software Engineer, Revolut
+  position: VP Lead Software Engineer, JPMorgan Chase
   bio: |
     Irina is a Director of Women Who Code London and a Senior Backend Software Engineer at Revolut. Her experience as a Software Engineer included working with large projects, search engines, distributed systems, performance issues, and huge data storage. Apart from being a strong developer and a good team player, in the last 3-years, she volunteered for CodeFirst: Girls and Women Who Code London and grew up from volunteer to lead and, in the end, to a Senior Director role within the community. She organised a team to deliver outstanding projects and show impressive results. She built a guild of volunteers to deliver a Mentorship Programme, technical tracks, help with resumes, mock interviews and overall grown community more than triple. As the next step, she will help other networks by holding the position of Senior Director in WWCode. Currently, she works at Revolut and building a platform for retail products. That includes support services to handle our 30 million clients, handle huge throughput and provide law latency for data flow. Irina constantly helps her team to tackle the extra mile and help the company to improve an intervening process, onboarding new hires, navigating interns and running knowledge-sharing activities. As a cherry on top, she helped to launch the inner Revolut Women Guild “RevWomen”. Recently I contributed to my University as a lecturer and designed materials for a course of Software Architecture. This year, I'm connecting different Universities in England with WWCode London to bring more diversity in tech from inspiring the young generation."
   image: assets/images/mentors/irina_kamalova.jpeg
@@ -1659,8 +1659,8 @@
 - name: Arzu Caner
   disabled: false
   matched: false
-  sort: 200
-  hours: 2
+  sort: 100
+  hours: 1
   type: ad-hoc
   index: 50
   location: United Kingdom/London
@@ -1697,9 +1697,10 @@
 - name: Prabha Venkatesh
   disabled: false
   matched: false
-  sort: 300
+  sort: 550
+  num_mentee: 2
   hours: 5
-  type: ad-hoc
+  type: both
   index: 51
   location: Bristol, UK
   position: Data scientist, Milbotix
@@ -1708,7 +1709,7 @@
   image: |
     assets/images/mentors/prabha_venkatesh.jpeg
   languages: English
-  availability: [9, 10, 11]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1838,7 +1839,8 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
+  num_mentee: 1
   hours: 5
   type: long-term
   index: 55
@@ -1849,7 +1851,7 @@
   image: |
     assets/images/mentors/lidiane_mayra_taquehara.jpeg
   languages: English, Portuguese
-  availability: []
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
