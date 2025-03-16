@@ -770,7 +770,7 @@
 
 - name: Tvisha Dholakia
   disabled: false
-  sort: 10
+  sort: 100
   hours: 4
   position: Co-founder and CBO, apibanking.com
   type: both
