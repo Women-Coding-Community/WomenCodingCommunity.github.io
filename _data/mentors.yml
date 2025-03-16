@@ -1242,7 +1242,7 @@
   type: both
   index: 39
   location: London
-  position: Security Data Scientist , Microsoft 
+  position: Security Data Scientist , Microsoft
   bio: |
     I have 10 years of experience as a Data Analyst and dual master's degrees in
     Biostatistics and Big Data & Data Science Technology. I am an expert in A/B testing, data analysis, statistical modelling, and machine learning, as well as SQL, Python, R, and other tools. My passion is using data to make important business decisions.
@@ -2166,3 +2166,101 @@
     - linkedin: https://www.linkedin.com/in/wilson-adenuga/
     - website: https://x.com/Adenugawilson,
     - github: https://github.com/oluwatunmiisheii
+
+- name: Nadezhda Iaromirova
+  disabled: false
+  matched: false
+  sort: 550
+  num_mentee: 2
+  hours: 2
+  bio: |
+    As a 360° digital marketing expert with 15+ years of experience, I would be happy to offer professional advice and provide mentorship to those at the entry-level or mid-level of their careers. My experience is primarily in enterprise-level software companies, focusing on data protection and cybersecurity. I bring expertise in web and IT-specific project management, complex technical product delivery, and web production.
+  position: Sr. IT Project Manager, Aceonis
+  image: assets/images/mentors/nadezhda_laromirova.jpeg
+  location: Bulgaria, Sofia
+  type: long-term
+  index: 72
+  languages: English, Russian
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 16+ Years
+    years: 16
+    areas:
+      - Product Management
+      - Business Analysis
+    focus:
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+    mentee: I'm looking for entry-level or mid-level professionals who are eager to advance their careers in IT project management, product ownership, business analysis, or UX. If you're passionate about growing your skills, open to constructive feedback, and ready to take the next step in your career, I'd love to provide personalized mentorship and career advice.
+    extra: I can advice on a career as a project manager, product owner, or business analyst. I also specialize in user experience (UX) optimization, A/B testing, digital analytics, and reporting and can consult on UX and UI topics. Also, I can offer guidance on Agile methodologies widely used in IT, insights into valuable skill development. I can help review your CV and offer sessions to prepare you for real job interviews.
+  network:
+    - linkedin: https://www.linkedin.com/in/yaromirova/
+    - website: https://hackernoon.com/u/uxdilettante
+
+- name: Sergei Begishev
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 4
+  bio: |
+    I am a product leader with over 5 years of experience in IT, currently serving as Chief Product Officer (CPO) and building upon my engineering foundation. My experience spans both large corporations and startups, with particular strengths in analyzing business data and streamlining operations. My commitment to mentorship grew from helping engineers effectively communicate their business impact, leading me to develop and teach a course that has equipped over 20 engineers with skills to present results confidently and advance their careers. I remain dedicated to expanding this impact by continuing to guide emerging tech professionals in bridging the gap between technical excellence and business success.
+  position: Chief Product Officer, Overgear
+  image: assets/images/mentors/sergei_begishev.jpeg
+  location: Belgrade, Serbia
+  type: long-term
+  index: 73
+  languages: English, Russian
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    areas:
+      - Product Management
+      - Business Analysis
+      - Engineering management
+      - Data Engineering
+    focus:
+      - Switch from IC to management position
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: I am seeking motivated engineers who want to elevate their careers by developing their ability to communicate technical work in business terms, enhance their leadership capabilities, and master data-driven decision making
+    extra: Mentoring Topics such as Product Architecture & Design, Business Data Analysis & Visualization, Team Management & Leadership Skills, Technical Project Presentation, Process Automation Strategy, Cross-functional Communication
+  network:
+    - linkedin: https://www.linkedin.com/in/sergey-begishev/
+
+- name: Silda Balla
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 5
+  bio: |
+    I am a dedicated Software Engineer with over 6 years of professional experience, specializing in .NET and ReactJS development. Beyond my technical expertise, I am deeply passionate about mentoring and fostering growth in others. Over the years, I’ve had the privilege of mentoring junior developers, interns, and students, guiding them through technical challenges and helping them build confidence in their skills. My Mentoring Experience & Achievements are that I mentored junior developers within my teams, providing guidance on best coding practices, debugging techniques, and project management skills.
+  position: Software Engineer, Orderly
+  image: assets/images/mentors/silda_balla.jpg
+  location: Albania,Tirane
+  type: both
+  index: 74
+  languages: English, Spanish, Italian, French
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 4-5 Years
+    years: 5
+    areas:
+      - Backend Developer
+      - Frontend Developer
+      - QA
+      - Business Analysis
+    focus:
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+    mentee: Switch career to IT,Grow from beginner to mid-level,Grow from mid-level to senior-level
+    languages: Javascript, Java, Python, C++
+    extra: Potential Mentoring Topics such as Software Development Strategies such as Best practices for planning, executing, and managing software projects effectively. .NET Development such as Deep dive into C#, ASP.NET MVC, and building robust applications using the .NET framework. ReactJS such as Developing dynamic and responsive web applications with ReactJS.
+  network:
+    - linkedin: https://www.linkedin.com/in/s-b-b51a76317/
