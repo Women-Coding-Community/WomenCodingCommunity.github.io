@@ -1657,8 +1657,8 @@
 - name: Arzu Caner
   disabled: false
   matched: false
-  sort: 200
-  hours: 2
+  sort: 100
+  hours: 1
   type: ad-hoc
   index: 50
   location: United Kingdom/London
