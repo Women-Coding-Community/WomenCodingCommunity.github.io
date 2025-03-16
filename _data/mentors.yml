@@ -2060,7 +2060,7 @@
   sort: 600
   hours: 4
   type: both
-  index: 69
+  index: 61
   location: The UK, London
   position: Product Manager/ Scrum Master, Cisco Systems
   bio: |
@@ -2100,7 +2100,7 @@
   sort: 500
   hours: 3
   type: both
-  index: 70
+  index: 62
   location: London, UK
   position: Founder & Managing Director, 2Toucans
   bio: |
@@ -2138,7 +2138,7 @@
   sort: 600
   hours: 4
   type: both
-  index: 71
+  index: 63
   location: UK/Birmingham
   position: Senior Frontend Engineer, BeyondIT SRL
   bio: |
@@ -2184,7 +2184,7 @@
   image: assets/images/mentors/nadezhda_laromirova.jpeg
   location: Bulgaria, Sofia
   type: long-term
-  index: 72
+  index: 64
   languages: English, Russian
   availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
@@ -2214,7 +2214,7 @@
   image: assets/images/mentors/sergei_begishev.jpeg
   location: Belgrade, Serbia
   type: long-term
-  index: 73
+  index: 65
   languages: English, Russian
   availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
@@ -2247,7 +2247,7 @@
   image: assets/images/mentors/silda_balla.jpg
   location: Albania,Tirane
   type: both
-  index: 74
+  index: 66
   languages: English, Spanish, Italian, French
   availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
