@@ -996,17 +996,18 @@
 - name: Liliia Rafikova
   disabled: false
   matched: false
-  sort: 100
+  sort: 600
+  num_mentee: 7
   hours: 5
-  type: both
+  type: long-term
   index: 32
   position: Software Engineer, Amazon
   bio: |
-    I'm a seasoned backend software engineer with over 8 years of hands-on experience specializing in cloud technologies. My expertise lies in JVM languages, and I've expanded my skill set to include proficiency in C++ and Rust. My background in data structures and algorithms, coupled with extensive work in developing distributed systems at massive scales, equips me with the tools to tackle complex technical challenges effectively. I'm deeply passionate about delving into the intricacies of low-level programming and optimizing operational systems for peak performance. Would love to see more women in tech.
+    I’m a seasoned backend software engineer with over 10 years of hands-on experience specializing in cloud-native technologies, JVM languages, and system performance optimization. My technical toolkit now includes proficiency in C++, Rust, and advanced Java. My expertise spans developing distributed systems at massive scales, solving challenging algorithmic problems, and delving deep into low-level programming to enhance system performance and reliability. Passionate about community building and empowering women in technology.
   image: assets/images/mentors/liliia_rafikova.png
   location: London, UK
   languages: English, Russian
-  availability: [6, 7]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1242,7 +1243,7 @@
   type: both
   index: 39
   location: London
-  position: Security Data Scientist , Microsoft 
+  position: Security Data Scientist , Microsoft
   bio: |
     I have 10 years of experience as a Data Analyst and dual master's degrees in
     Biostatistics and Big Data & Data Science Technology. I am an expert in A/B testing, data analysis, statistical modelling, and machine learning, as well as SQL, Python, R, and other tools. My passion is using data to make important business decisions.
@@ -1499,7 +1500,8 @@
 - name: Paula Kennedy
   disabled: false
   matched: false
-  sort: 200
+  sort: 500
+  num_mentee: 1
   hours: 2
   type: both
   index: 46
@@ -1511,7 +1513,7 @@
     I also enjoy giving back to the community and I am part of the organising committee for Kubernetes Community Days UK and DevOps Days London, and I also organise the London Platform User Group.
   image: "assets/images/mentors/paula_kennedy.jpeg"
   languages: English
-  availability: [9, 10, 11]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
