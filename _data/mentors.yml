@@ -2049,3 +2049,121 @@
       Get your first job in SE / How it is being a woman in tech / Mock interviews
   network:
     - linkedin: https://uk.linkedin.com/in/marie-coquille-b0b733100
+
+- name: Kateryna Ogar
+  disabled: false
+  matched: false
+  sort: 600
+  hours: 4
+  type: both
+  index: 69
+  location: The UK, London
+  position: Product Manager/ Scrum Master, Cisco Systems
+  bio: |
+    Hi there! I’m Kateryna, a Product Manager and Scrum Master with 5+ years of hands-on experience driving innovation and delivering complex software solutions for industry leaders like NASDAQ, Ericsson, and Volvo. My certifications in PSM1, KSP, and SAFe 5.1 Agilist reflect my commitment to delivering top-quality results using Agile, Kanban, Lean, TDD, and BDD practices.
+    As a mentor, I’m here to guide you through the challenges of product management, project leadership, and Agile practices. Whether you're looking to improve team performance, navigate complex projects, or refine your leadership skills, I’m passionate about helping you grow.
+    I’m also a proud mentor in the Women in Tech (6.0) program and am ranked in the Top 1% of Product Mentors on ADPList, where I’ve helped mentees like you unlock their full potential, drive innovations and secure new jobs. If you're ready to take your career to the next level and make an impact in tech, let’s work together to shape your journey!
+  image: assets/images/mentors/kateryna_ogar.jpeg
+  languages: English, Russian, Ukranian
+  availability: [3]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      I’m looking to work with motivated individuals who are excited to grow their skills in product/project management and leadership. If you’re looking to transition into product/project management, step into a leadership role in Agile teams or improve your skills, I’d love to help you get there!
+      I enjoy mentoring curious learners who want to dive into Agile methodologies like Scrum, Kanban, and SAFe. If you’re passionate about creating products that make a real impact and aligning your work with business goals, we’ll be a great match.
+      If you’re ready to take your career to the next level, let’s connect and make it happen!
+    areas:
+      - Project Management
+      - Business Analysis
+      - Product Management
+    languages: ""
+    focus:
+      - Change specialisation within IT
+      - Switch career to IT
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    extra: |
+      Product Management, Project Management, Agile & Scrum Practices, Diversity & Inclusion in Tech, Career Development & Leadership, Resume Review, Interview Mock Sessions
+  network:
+    - linkedin: https://www.linkedin.com/in/kateryna-ogar/
+    - website: https://adplist.org/mentors/kateryna-ogar
+
+- name: Chandeep Khosa
+  disabled: false
+  matched: false
+  sort: 500
+  hours: 3
+  type: both
+  index: 70
+  location: London, UK
+  position: Founder & Managing Director, 2Toucans
+  bio: |
+    I am the Founder & Managing Director of 2Toucans, a digital agency I setup after 20 years as a web developer, technical lead and trainer. My career spans projects delivered for clients such as the United Nations, National Grid, and the University of Oxford. These days I mostly work as a technical consultant, strategist & architect, while also doing some development, and managing teams of developers, designers & marketers to keep our clients happy. Our clients are a nice mix of charities, membership associations, a college & small businesses.
+  image: assets/images/mentors/chandeep_khosa.jpeg
+  languages: English, Spanish, Italian, Portuguese
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: |
+      Underrepresented, anxious, low confidence as I am very skilled and experienced with helping these groups and helping them get their first jobs in tech, as web developers or similar.
+    areas:
+      - Engineering management
+      - Project Management
+      - Business Analysis
+      - Fullstack Developer
+      - QA
+    languages: Javascript
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+    extra: |
+      Technical strategy, consultancy, architecture, planning, project management, collaborating with team members, working with team members in multiple git branches, resume review
+  network:
+    - linkedin: https://www.linkedin.com/in/chandeepkhosa/
+    - website: http://x.com/chandeepkhosa
+
+- name: Wilson Adenuga
+  disabled: false
+  matched: false
+  sort: 600
+  hours: 4
+  type: both
+  index: 71
+  location: UK/Birmingham
+  position: Senior Frontend Engineer, BeyondIT SRL
+  bio: |
+    I am a full-stack engineer specializing in building scalable, accessible web and mobile applications. My expertise spans React.js, React Native, Next.js, Node.js, Python, microservices, and cloud platforms like AWS and Cloudflare. I've led projects in fintech, healthcare, and cybersecurity domains. I'm passionate about mentoring developers, improving code quality, and advocating for best practices in TDD, database design, and web accessibility. I actively contribute to the developer community through mentorship programs and open-source projects.
+  image: assets/images/mentors/wilson_adenuga.jpeg
+  languages: English
+  availability: [3, 5, 6, 7]
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: |
+      I'm looking for mentees who are passionate, eager to learn, and committed to upskilling. I can provide mentorship in backend and frontend engineering, test-driven development (TDD), database design, microservices, system design, and emerging topics in software engineering.
+    areas:
+      - Frontend Developer
+      - Fullstack Developer
+      - Distributed Systems
+    languages: Javascript, Python
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    extra: |
+      Full-Stack JavaScript Development (React.js, Next.js, Node.js)
+      Mobile App Development with React Native
+      Test-Driven Development Methodologies
+      Technical Interview Preparation
+      Web Accessibility Best Practices
+      Python Programming Fundamentals
+  network:
+    - linkedin: https://www.linkedin.com/in/wilson-adenuga/
+    - website: https://x.com/Adenugawilson,
+    - github: https://github.com/oluwatunmiisheii
