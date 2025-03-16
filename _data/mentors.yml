@@ -1348,7 +1348,7 @@
       - Grow beyond senior level
       - Switch from IC to management position
     extra: |
-      QA Engineering, Agile Testing, Software Test Automation
+      QA Engineering, Agile Testing, Software Test Automation, QA experiences in Test Automation
   network:
     - linkedin: https://www.linkedin.com/in/gpaoliveira
 
@@ -1610,9 +1610,10 @@
     - linkedin: https://www.linkedin.com/in/prernasinghal90/
 
 - name: Samuela Smolorz
-  disabled: true
+  disabled: false
   matched: false
   sort: 500
+  num_mentee: 1
   hours: 4
   type: both
   index: 49
