@@ -1236,13 +1236,13 @@
 - name: Busra Ecem Sakar
   disabled: false
   matched: false
-  sort: 600
-  num_mentee: 4
-  hours: 5
+  sort: 550
+  num_mentee: 2
+  hours: 4
   type: both
   index: 39
   location: London
-  position: Senior Data Analyst, Mall IQ
+  position: Security Data Scientist , Microsoft 
   bio: |
     I have 10 years of experience as a Data Analyst and dual master's degrees in
     Biostatistics and Big Data & Data Science Technology. I am an expert in A/B testing, data analysis, statistical modelling, and machine learning, as well as SQL, Python, R, and other tools. My passion is using data to make important business decisions.
