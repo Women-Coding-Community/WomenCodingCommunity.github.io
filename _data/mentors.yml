@@ -174,7 +174,7 @@
 
 - name: Ken Pemberton
   disabled: false
-  sort: 100
+  sort: 500
   hours: 4
   type: both
   index: 6
@@ -183,7 +183,7 @@
   image: assets/images/mentors/ken_pemberton.jpeg
   location: Chesham, Buckinghamshire, UK
   languages: English
-  availability: [6, 7]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
