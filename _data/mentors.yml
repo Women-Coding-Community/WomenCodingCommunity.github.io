@@ -651,7 +651,7 @@
 
 - name: Adeola Adekoyejo
   disabled: false
-  sort: 30
+  sort: 100
   hours: 3
   position: Full stack Engineer
   type: ad-hoc
