@@ -366,7 +366,8 @@
 
 - name: Adegbenga Agoro
   disabled: false
-  sort: 100
+  sort: 500
+  num_of_mentees: 1
   hours: 4
   position: CTO, ZeroComplex AI
   type: both
@@ -376,7 +377,7 @@
     I am an experienced Software Engineering professional with more than 20 years of expertise in developing software systems across a broad spectrum, ranging from small-scale applications to extensive enterprise infrastructure platforms. My passion lies in teaching software engineering through a humanistic lens, emphasizing user experience while firmly adhering to the fundamental principles of core software engineering.
   image: assets/images/mentors/adegbenga_agoro.jpg
   languages: English
-  availability: [5, 6]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
