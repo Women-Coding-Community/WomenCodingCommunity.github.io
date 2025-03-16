@@ -1000,7 +1000,7 @@
   sort: 600
   num_mentee: 7
   hours: 5
-  type: long-term
+  type: both
   index: 32
   position: Software Engineer, Amazon
   bio: |
@@ -1842,7 +1842,7 @@
   sort: 500
   num_mentee: 1
   hours: 5
-  type: long-term
+  type: both
   index: 55
   location: London
   position: Senior Software Engineer, Artsy
@@ -2060,7 +2060,7 @@
   sort: 600
   hours: 4
   type: both
-  index: 61
+  index: 69
   location: The UK, London
   position: Product Manager/ Scrum Master, Cisco Systems
   bio: |
@@ -2100,7 +2100,7 @@
   sort: 500
   hours: 3
   type: both
-  index: 62
+  index: 70
   location: London, UK
   position: Founder & Managing Director, 2Toucans
   bio: |
@@ -2138,7 +2138,7 @@
   sort: 600
   hours: 4
   type: both
-  index: 63
+  index: 71
   location: UK/Birmingham
   position: Senior Frontend Engineer, BeyondIT SRL
   bio: |
@@ -2184,7 +2184,7 @@
   image: assets/images/mentors/nadezhda_laromirova.jpeg
   location: Bulgaria, Sofia
   type: long-term
-  index: 64
+  index: 72
   languages: English, Russian
   availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
@@ -2214,7 +2214,7 @@
   image: assets/images/mentors/sergei_begishev.jpeg
   location: Belgrade, Serbia
   type: long-term
-  index: 65
+  index: 73
   languages: English, Russian
   availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
@@ -2247,7 +2247,7 @@
   image: assets/images/mentors/silda_balla.jpg
   location: Albania,Tirane
   type: both
-  index: 66
+  index: 74
   languages: English, Spanish, Italian, French
   availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
