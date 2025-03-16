@@ -2166,3 +2166,36 @@
     - linkedin: https://www.linkedin.com/in/wilson-adenuga/
     - website: https://x.com/Adenugawilson,
     - github: https://github.com/oluwatunmiisheii
+
+- name: Sergei Begishev
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 4
+  bio: |
+    I am a product leader with over 5 years of experience in IT, currently serving as Chief Product Officer (CPO) and building upon my engineering foundation. My experience spans both large corporations and startups, with particular strengths in analyzing business data and streamlining operations. My commitment to mentorship grew from helping engineers effectively communicate their business impact, leading me to develop and teach a course that has equipped over 20 engineers with skills to present results confidently and advance their careers. I remain dedicated to expanding this impact by continuing to guide emerging tech professionals in bridging the gap between technical excellence and business success.
+  position: Chief Product Officer, Overgear
+  image: assets/images/mentors/sergei_begishev.jpeg
+  location: Belgrade, Serbia
+  type: long-term
+  index: 72
+  languages: English, Russian
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    areas:
+      - Product Management
+      - Business Analysis
+      - Engineering management
+      - Data Engineering
+    focus:
+      - Switch from IC to management position
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: I am seeking motivated engineers who want to elevate their careers by developing their ability to communicate technical work in business terms, enhance their leadership capabilities, and master data-driven decision making
+    extra: Mentoring Topics: Product Architecture & Design, Business Data Analysis & Visualization, Team Management & Leadership Skills, Technical Project Presentation, Process Automation Strategy, Cross-functional Communication
+  network:
+    - linkedin: https://www.linkedin.com/in/sergey-begishev/
