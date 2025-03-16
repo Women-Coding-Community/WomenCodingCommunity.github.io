@@ -1838,6 +1838,7 @@
   disabled: false
   matched: false
   sort: 500
+  num_mentee: 1
   hours: 5
   type: long-term
   index: 55
