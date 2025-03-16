@@ -280,7 +280,7 @@
   type: Both
   index: 9
   location: London, UK
-  bio: I have almost a decade experience in cyber security, information security and privacy. Also, last 3 years I have been working in risk in product and strategy.
+  bio: Julia is a Lead Risk Management Specialist at Swift for Product and Strategy with almost ten years of experience in Information Security, IT and Technology. Over the years she worked in numerous financial service organisations where she defined and delivered privacy and data programmes, cyber security and data strategies, policy frameworks and assisted organisations in governing IT risks and controls. She is dedicated to guiding businesses in delivering proportionate and risk aware IT response in line with business goals, compliance requirements and regulations. She is also a Director at Women Coding Community and is passionate about giving back to community and empowering women to excel in technology careers.
   image: assets/images/mentors/julia_babahina.png
   languages: English, Russian
   availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
@@ -651,7 +651,7 @@
 
 - name: Adeola Adekoyejo
   disabled: false
-  sort: 30
+  sort: 100
   hours: 3
   position: Full stack Engineer
   type: ad-hoc
@@ -770,7 +770,7 @@
 
 - name: Tvisha Dholakia
   disabled: false
-  sort: 10
+  sort: 100
   hours: 4
   position: Co-founder and CBO, apibanking.com
   type: both
@@ -1236,13 +1236,13 @@
 - name: Busra Ecem Sakar
   disabled: false
   matched: false
-  sort: 600
-  num_mentee: 4
-  hours: 5
+  sort: 550
+  num_mentee: 2
+  hours: 4
   type: both
   index: 39
   location: London
-  position: Senior Data Analyst, Mall IQ
+  position: Security Data Scientist , Microsoft 
   bio: |
     I have 10 years of experience as a Data Analyst and dual master's degrees in
     Biostatistics and Big Data & Data Science Technology. I am an expert in A/B testing, data analysis, statistical modelling, and machine learning, as well as SQL, Python, R, and other tools. My passion is using data to make important business decisions.
