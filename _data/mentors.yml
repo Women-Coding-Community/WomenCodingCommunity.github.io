@@ -1698,7 +1698,7 @@
   sort: 550
   num_mentee: 2
   hours: 5
-  type: long-term
+  type: both
   index: 51
   location: Bristol, UK
   position: Data scientist, Milbotix
