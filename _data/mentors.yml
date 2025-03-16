@@ -366,7 +366,8 @@
 
 - name: Adegbenga Agoro
   disabled: false
-  sort: 100
+  sort: 500
+  num_of_mentees: 1
   hours: 4
   position: CTO, ZeroComplex AI
   type: both
@@ -376,7 +377,7 @@
     I am an experienced Software Engineering professional with more than 20 years of expertise in developing software systems across a broad spectrum, ranging from small-scale applications to extensive enterprise infrastructure platforms. My passion lies in teaching software engineering through a humanistic lens, emphasizing user experience while firmly adhering to the fundamental principles of core software engineering.
   image: assets/images/mentors/adegbenga_agoro.jpg
   languages: English
-  availability: [5, 6]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -996,17 +997,18 @@
 - name: Liliia Rafikova
   disabled: false
   matched: false
-  sort: 100
+  sort: 600
+  num_mentee: 7
   hours: 5
-  type: both
+  type: long-term
   index: 32
   position: Software Engineer, Amazon
   bio: |
-    I'm a seasoned backend software engineer with over 8 years of hands-on experience specializing in cloud technologies. My expertise lies in JVM languages, and I've expanded my skill set to include proficiency in C++ and Rust. My background in data structures and algorithms, coupled with extensive work in developing distributed systems at massive scales, equips me with the tools to tackle complex technical challenges effectively. I'm deeply passionate about delving into the intricacies of low-level programming and optimizing operational systems for peak performance. Would love to see more women in tech.
+    I’m a seasoned backend software engineer with over 10 years of hands-on experience specializing in cloud-native technologies, JVM languages, and system performance optimization. My technical toolkit now includes proficiency in C++, Rust, and advanced Java. My expertise spans developing distributed systems at massive scales, solving challenging algorithmic problems, and delving deep into low-level programming to enhance system performance and reliability. Passionate about community building and empowering women in technology.
   image: assets/images/mentors/liliia_rafikova.png
   location: London, UK
   languages: English, Russian
-  availability: [6, 7]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1499,7 +1501,8 @@
 - name: Paula Kennedy
   disabled: false
   matched: false
-  sort: 200
+  sort: 500
+  num_mentee: 1
   hours: 2
   type: both
   index: 46
@@ -1511,7 +1514,7 @@
     I also enjoy giving back to the community and I am part of the organising committee for Kubernetes Community Days UK and DevOps Days London, and I also organise the London Platform User Group.
   image: "assets/images/mentors/paula_kennedy.jpeg"
   languages: English
-  availability: [9, 10, 11]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
