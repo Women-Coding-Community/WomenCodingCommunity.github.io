@@ -572,7 +572,7 @@
   index: 18
   location: India/Bengaluru
   bio: |
-    Kirthikka Devi Venkataram is a seasoned Manager, a Mentor to Women Coding Community and Design Thinking practitioner. She has good experience handling global team, leading and guiding engineers working for industries like automotive and telecommunication delivering products for more than 10 years. Her focus is on B2B segments of vertical business markets generating revenue and product success by delivering flawless products. She is keen to leverage design thinking and data driven approach working cross functionally and orchestrating activities across organization working for product's growth and increasing revenue. With business agility, she focuses dissecting business outcomes, engineering design and empathizing customers in her career journey. She was a Technical Event Coordinator since college days and hosted events. She was a Cohort Representative of Executive Program - 2021 offered by Indian Institute of Management Luck now collaborating with diverse people from multiple industry verticals with the organizers and Professors. Extending her involvement in organizational activities, she has conducted prospects tours that recognized her leadership skills. She works towards empowering women collaborating in external forums and offers mentorship support.
+    Kirthikka Devi Venkataram is a seasoned Manager, a Mentor to Women Coding Community and Design Thinking practitioner. She has good experience handling global team, leading and guiding engineers working for industries like automotive and telecommunication delivering products for more than 10 years. Led a global team in the past mentoring cycle providing necessary study materials and preparatory approach in the area of Generative AI working with the team. Her focus is on B2B segments of vertical business markets generating revenue and product success by delivering flawless products. She is keen to leverage design thinking and data driven approach working cross functionally and orchestrating activities across organization working for product's growth and increasing revenue. With business agility, she focuses dissecting business outcomes, engineering design and empathizing customers in her career journey. She was a Technical Event Coordinator since college days and hosted events. She was a Cohort Representative of Executive Program - 2021 offered by Indian Institute of Management Luck now collaborating with diverse people from multiple industry verticals with the organizers and Professors. Extending her involvement in organizational activities, she has conducted prospects tours that recognized her leadership skills. She works towards empowering women collaborating in external forums and offers mentorship support.
   image: assets/images/mentors/kirthikka_devi_venkataram.jpg
   languages: English
   availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
@@ -742,16 +742,18 @@
 
 - name: Sakirat Kehinde Usman
   disabled: false
-  sort: 10
+  sort: 550
+  num_mentee: 1
   hours: 5
   position: Frontend Development Trainer, Niyo Group Ltd
-  type: long-term
+  type: both
   index: 24
   location: Manchester, England
   bio: |
     I am a frontend engineer with over 3 years of experience in frontend development. I am excellent at building user interfaces and bringing web functionalities to life. I have worked on various projects ranging from fintech to agriculture.
   image: assets/images/mentors/sakirat_kehinde_usman.jpg
   languages: English
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 4-5 years
     years: 5
