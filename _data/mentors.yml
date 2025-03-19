@@ -961,8 +961,9 @@
 - name: Bryan Boreham
   disabled: false
   hours: 4
-  sort: 200
-  type: ad-hoc
+  sort: 500
+  num_mentee: 1
+  type: both
   index: 31
   position: Distinguished Engineer, Grafana Labs
   bio: |
@@ -970,7 +971,7 @@
   image: assets/images/mentors/bryan_boreham.jpeg
   location: London, UK
   languages: English
-  availability: [7, 8, 9, 10, 11]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
