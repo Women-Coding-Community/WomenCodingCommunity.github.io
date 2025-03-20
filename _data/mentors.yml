@@ -1,6 +1,6 @@
 - name: Eleonora Belova
   disabled: false
-  sort: 100
+  sort: 600
   hours: 5
   position: Test Automation Engineer, IBM Security
   type: both
@@ -12,7 +12,7 @@
     Moreover, I am eager to help individuals start their journey in software testing. I can share industry knowledge, assist in reviewing your CV, and provide guidance on various related topics.
   image: assets/images/mentors/eleonora_belova.jpeg
   languages: English
-  availability: [7, 8]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 2-4 years
     years: 4
@@ -111,7 +111,7 @@
   hours: 1
   type: both
   index: 4
-  position: Senior Software Engineer, Revolut
+  position: VP Lead Software Engineer, JPMorgan Chase
   bio: |
     Irina is a Director of Women Who Code London and a Senior Backend Software Engineer at Revolut. Her experience as a Software Engineer included working with large projects, search engines, distributed systems, performance issues, and huge data storage. Apart from being a strong developer and a good team player, in the last 3-years, she volunteered for CodeFirst: Girls and Women Who Code London and grew up from volunteer to lead and, in the end, to a Senior Director role within the community. She organised a team to deliver outstanding projects and show impressive results. She built a guild of volunteers to deliver a Mentorship Programme, technical tracks, help with resumes, mock interviews and overall grown community more than triple. As the next step, she will help other networks by holding the position of Senior Director in WWCode. Currently, she works at Revolut and building a platform for retail products. That includes support services to handle our 30 million clients, handle huge throughput and provide law latency for data flow. Irina constantly helps her team to tackle the extra mile and help the company to improve an intervening process, onboarding new hires, navigating interns and running knowledge-sharing activities. As a cherry on top, she helped to launch the inner Revolut Women Guild “RevWomen”. Recently I contributed to my University as a lecturer and designed materials for a course of Software Architecture. This year, I'm connecting different Universities in England with WWCode London to bring more diversity in tech from inspiring the young generation."
   image: assets/images/mentors/irina_kamalova.jpeg
@@ -174,7 +174,7 @@
 
 - name: Ken Pemberton
   disabled: false
-  sort: 100
+  sort: 500
   hours: 4
   type: both
   index: 6
@@ -183,7 +183,7 @@
   image: assets/images/mentors/ken_pemberton.jpeg
   location: Chesham, Buckinghamshire, UK
   languages: English
-  availability: [6, 7]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -243,7 +243,7 @@
   sort: 500
   num_mentee: 1
   hours: 1
-  position: Lead Engineer, Yoox-Net-A-Porter
+  position: Lead Engineer, Tesco Technology
   type: both
   index: 8
   location: London, UK
@@ -280,7 +280,7 @@
   type: Both
   index: 9
   location: London, UK
-  bio: I have almost a decade experience in cyber security, information security and privacy. Also, last 3 years I have been working in risk in product and strategy.
+  bio: Julia is a Lead Risk Management Specialist at Swift for Product and Strategy with almost ten years of experience in Information Security, IT and Technology. Over the years she worked in numerous financial service organisations where she defined and delivered privacy and data programmes, cyber security and data strategies, policy frameworks and assisted organisations in governing IT risks and controls. She is dedicated to guiding businesses in delivering proportionate and risk aware IT response in line with business goals, compliance requirements and regulations. She is also a Director at Women Coding Community and is passionate about giving back to community and empowering women to excel in technology careers.
   image: assets/images/mentors/julia_babahina.png
   languages: English, Russian
   availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
@@ -347,7 +347,7 @@
     I have a Ph.D in Physics and 4-years experience working in the field of machine learning. I published 4 papers and 2 under submission. My expertise sits in few-shot learning, CNN, Diffusion model and transformers with model architecture building using TensorFlow and PyTorch.
   image: assets/images/mentors/ying_liu.jpg
   languages: English
-  availability: [3]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 4-5 Years
     years: 5
@@ -366,7 +366,8 @@
 
 - name: Adegbenga Agoro
   disabled: false
-  sort: 100
+  sort: 500
+  num_of_mentees: 1
   hours: 4
   position: CTO, ZeroComplex AI
   type: both
@@ -376,7 +377,7 @@
     I am an experienced Software Engineering professional with more than 20 years of expertise in developing software systems across a broad spectrum, ranging from small-scale applications to extensive enterprise infrastructure platforms. My passion lies in teaching software engineering through a humanistic lens, emphasizing user experience while firmly adhering to the fundamental principles of core software engineering.
   image: assets/images/mentors/adegbenga_agoro.jpg
   languages: English
-  availability: [5, 6]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -651,7 +652,7 @@
 
 - name: Adeola Adekoyejo
   disabled: false
-  sort: 30
+  sort: 100
   hours: 3
   position: Full stack Engineer
   type: ad-hoc
@@ -770,7 +771,7 @@
 
 - name: Tvisha Dholakia
   disabled: false
-  sort: 10
+  sort: 100
   hours: 4
   position: Co-founder and CBO, apibanking.com
   type: both
@@ -996,17 +997,18 @@
 - name: Liliia Rafikova
   disabled: false
   matched: false
-  sort: 100
+  sort: 600
+  num_mentee: 7
   hours: 5
   type: both
   index: 32
   position: Software Engineer, Amazon
   bio: |
-    I'm a seasoned backend software engineer with over 8 years of hands-on experience specializing in cloud technologies. My expertise lies in JVM languages, and I've expanded my skill set to include proficiency in C++ and Rust. My background in data structures and algorithms, coupled with extensive work in developing distributed systems at massive scales, equips me with the tools to tackle complex technical challenges effectively. I'm deeply passionate about delving into the intricacies of low-level programming and optimizing operational systems for peak performance. Would love to see more women in tech.
+    I’m a seasoned backend software engineer with over 10 years of hands-on experience specializing in cloud-native technologies, JVM languages, and system performance optimization. My technical toolkit now includes proficiency in C++, Rust, and advanced Java. My expertise spans developing distributed systems at massive scales, solving challenging algorithmic problems, and delving deep into low-level programming to enhance system performance and reliability. Passionate about community building and empowering women in technology.
   image: assets/images/mentors/liliia_rafikova.png
   location: London, UK
   languages: English, Russian
-  availability: [6, 7]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1236,13 +1238,13 @@
 - name: Busra Ecem Sakar
   disabled: false
   matched: false
-  sort: 600
-  num_mentee: 4
-  hours: 5
+  sort: 550
+  num_mentee: 2
+  hours: 4
   type: both
   index: 39
   location: London
-  position: Senior Data Analyst, Mall IQ
+  position: Security Data Scientist , Microsoft
   bio: |
     I have 10 years of experience as a Data Analyst and dual master's degrees in
     Biostatistics and Big Data & Data Science Technology. I am an expert in A/B testing, data analysis, statistical modelling, and machine learning, as well as SQL, Python, R, and other tools. My passion is using data to make important business decisions.
@@ -1348,7 +1350,7 @@
       - Grow beyond senior level
       - Switch from IC to management position
     extra: |
-      QA Engineering, Agile Testing, Software Test Automation
+      QA Engineering, Agile Testing, Software Test Automation, QA experiences in Test Automation
   network:
     - linkedin: https://www.linkedin.com/in/gpaoliveira
 
@@ -1499,7 +1501,8 @@
 - name: Paula Kennedy
   disabled: false
   matched: false
-  sort: 200
+  sort: 500
+  num_mentee: 1
   hours: 2
   type: both
   index: 46
@@ -1511,7 +1514,7 @@
     I also enjoy giving back to the community and I am part of the organising committee for Kubernetes Community Days UK and DevOps Days London, and I also organise the London Platform User Group.
   image: "assets/images/mentors/paula_kennedy.jpeg"
   languages: English
-  availability: [9, 10, 11]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1610,18 +1613,17 @@
     - linkedin: https://www.linkedin.com/in/prernasinghal90/
 
 - name: Samuela Smolorz
-  disabled: true
+  disabled: false
   matched: false
   sort: 500
+  num_mentee: 1
   hours: 4
   type: both
   index: 49
   location: London
   position: Software Engineer, Garrison Technology Ltd
   bio: |
-    I am a backend/cloud infrastructure engineer specialising in database administration. Previously, I’ve worked as a data analyst/engineer. 
-
-    Being a self-taught English graduate made my tech journey quite challenging, but it has also equipped me to help career switchers navigate today's difficult market. I feel like popular advice given to junior engineers is not necessarily applicable anymore, and I would love to share everything I have learnt with others.
+    I’m a lead at Women Coding Community and a backend/cloud software engineer working in cybersecurity. Previously, I’ve worked as a data analyst. As a career switcher myself, I love mentoring junior engineers and those transitioning into tech. I also enjoy helping people get started with volunteering in tech.
   image: |
     assets/images/mentors/samuela_smolorz.jpeg
   languages: English, Polish
@@ -1657,8 +1659,8 @@
 - name: Arzu Caner
   disabled: false
   matched: false
-  sort: 200
-  hours: 2
+  sort: 100
+  hours: 1
   type: ad-hoc
   index: 50
   location: United Kingdom/London
@@ -1695,9 +1697,10 @@
 - name: Prabha Venkatesh
   disabled: false
   matched: false
-  sort: 300
+  sort: 550
+  num_mentee: 2
   hours: 5
-  type: ad-hoc
+  type: both
   index: 51
   location: Bristol, UK
   position: Data scientist, Milbotix
@@ -1706,7 +1709,7 @@
   image: |
     assets/images/mentors/prabha_venkatesh.jpeg
   languages: English
-  availability: [9, 10, 11]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1836,9 +1839,10 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
+  num_mentee: 1
   hours: 5
-  type: long-term
+  type: both
   index: 55
   location: London
   position: Senior Software Engineer, Artsy
@@ -1847,7 +1851,7 @@
   image: |
     assets/images/mentors/lidiane_mayra_taquehara.jpeg
   languages: English, Portuguese
-  availability: []
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -2049,3 +2053,219 @@
       Get your first job in SE / How it is being a woman in tech / Mock interviews
   network:
     - linkedin: https://uk.linkedin.com/in/marie-coquille-b0b733100
+
+- name: Kateryna Ogar
+  disabled: false
+  matched: false
+  sort: 600
+  hours: 4
+  type: both
+  index: 61
+  location: The UK, London
+  position: Product Manager/ Scrum Master, Cisco Systems
+  bio: |
+    Hi there! I’m Kateryna, a Product Manager and Scrum Master with 5+ years of hands-on experience driving innovation and delivering complex software solutions for industry leaders like NASDAQ, Ericsson, and Volvo. My certifications in PSM1, KSP, and SAFe 5.1 Agilist reflect my commitment to delivering top-quality results using Agile, Kanban, Lean, TDD, and BDD practices.
+    As a mentor, I’m here to guide you through the challenges of product management, project leadership, and Agile practices. Whether you're looking to improve team performance, navigate complex projects, or refine your leadership skills, I’m passionate about helping you grow.
+    I’m also a proud mentor in the Women in Tech (6.0) program and am ranked in the Top 1% of Product Mentors on ADPList, where I’ve helped mentees like you unlock their full potential, drive innovations and secure new jobs. If you're ready to take your career to the next level and make an impact in tech, let’s work together to shape your journey!
+  image: assets/images/mentors/kateryna_ogar.jpeg
+  languages: English, Russian, Ukranian
+  availability: [3]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      I’m looking to work with motivated individuals who are excited to grow their skills in product/project management and leadership. If you’re looking to transition into product/project management, step into a leadership role in Agile teams or improve your skills, I’d love to help you get there!
+      I enjoy mentoring curious learners who want to dive into Agile methodologies like Scrum, Kanban, and SAFe. If you’re passionate about creating products that make a real impact and aligning your work with business goals, we’ll be a great match.
+      If you’re ready to take your career to the next level, let’s connect and make it happen!
+    areas:
+      - Project Management
+      - Business Analysis
+      - Product Management
+    languages: ""
+    focus:
+      - Change specialisation within IT
+      - Switch career to IT
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    extra: |
+      Product Management, Project Management, Agile & Scrum Practices, Diversity & Inclusion in Tech, Career Development & Leadership, Resume Review, Interview Mock Sessions
+  network:
+    - linkedin: https://www.linkedin.com/in/kateryna-ogar/
+    - website: https://adplist.org/mentors/kateryna-ogar
+
+- name: Chandeep Khosa
+  disabled: false
+  matched: false
+  sort: 500
+  hours: 3
+  type: both
+  index: 62
+  location: London, UK
+  position: Founder & Managing Director, 2Toucans
+  bio: |
+    I am the Founder & Managing Director of 2Toucans, a digital agency I setup after 20 years as a web developer, technical lead and trainer. My career spans projects delivered for clients such as the United Nations, National Grid, and the University of Oxford. These days I mostly work as a technical consultant, strategist & architect, while also doing some development, and managing teams of developers, designers & marketers to keep our clients happy. Our clients are a nice mix of charities, membership associations, a college & small businesses.
+  image: assets/images/mentors/chandeep_khosa.jpeg
+  languages: English, Spanish, Italian, Portuguese
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: |
+      Underrepresented, anxious, low confidence as I am very skilled and experienced with helping these groups and helping them get their first jobs in tech, as web developers or similar.
+    areas:
+      - Engineering management
+      - Project Management
+      - Business Analysis
+      - Fullstack Developer
+      - QA
+    languages: Javascript
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+    extra: |
+      Technical strategy, consultancy, architecture, planning, project management, collaborating with team members, working with team members in multiple git branches, resume review
+  network:
+    - linkedin: https://www.linkedin.com/in/chandeepkhosa/
+    - website: http://x.com/chandeepkhosa
+
+- name: Wilson Adenuga
+  disabled: false
+  matched: false
+  sort: 600
+  hours: 4
+  type: both
+  index: 63
+  location: UK/Birmingham
+  position: Senior Frontend Engineer, BeyondIT SRL
+  bio: |
+    I am a full-stack engineer specializing in building scalable, accessible web and mobile applications. My expertise spans React.js, React Native, Next.js, Node.js, Python, microservices, and cloud platforms like AWS and Cloudflare. I've led projects in fintech, healthcare, and cybersecurity domains. I'm passionate about mentoring developers, improving code quality, and advocating for best practices in TDD, database design, and web accessibility. I actively contribute to the developer community through mentorship programs and open-source projects.
+  image: assets/images/mentors/wilson_adenuga.jpeg
+  languages: English
+  availability: [3, 5, 6, 7]
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: |
+      I'm looking for mentees who are passionate, eager to learn, and committed to upskilling. I can provide mentorship in backend and frontend engineering, test-driven development (TDD), database design, microservices, system design, and emerging topics in software engineering.
+    areas:
+      - Frontend Developer
+      - Fullstack Developer
+      - Distributed Systems
+    languages: Javascript, Python
+    focus:
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+    extra: |
+      Full-Stack JavaScript Development (React.js, Next.js, Node.js)
+      Mobile App Development with React Native
+      Test-Driven Development Methodologies
+      Technical Interview Preparation
+      Web Accessibility Best Practices
+      Python Programming Fundamentals
+  network:
+    - linkedin: https://www.linkedin.com/in/wilson-adenuga/
+    - website: https://x.com/Adenugawilson,
+    - github: https://github.com/oluwatunmiisheii
+
+- name: Nadezhda Iaromirova
+  disabled: false
+  matched: false
+  sort: 550
+  num_mentee: 2
+  hours: 2
+  bio: |
+    As a 360° digital marketing expert with 15+ years of experience, I would be happy to offer professional advice and provide mentorship to those at the entry-level or mid-level of their careers. My experience is primarily in enterprise-level software companies, focusing on data protection and cybersecurity. I bring expertise in web and IT-specific project management, complex technical product delivery, and web production.
+  position: Sr. IT Project Manager, Aceonis
+  image: assets/images/mentors/nadezhda_laromirova.jpeg
+  location: Bulgaria, Sofia
+  type: both
+  index: 64
+  languages: English, Russian
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 16+ Years
+    years: 16
+    areas:
+      - Product Management
+      - Business Analysis
+    focus:
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+    mentee: I'm looking for entry-level or mid-level professionals who are eager to advance their careers in IT project management, product ownership, business analysis, or UX. If you're passionate about growing your skills, open to constructive feedback, and ready to take the next step in your career, I'd love to provide personalized mentorship and career advice.
+    extra: I can advice on a career as a project manager, product owner, or business analyst. I also specialize in user experience (UX) optimization, A/B testing, digital analytics, and reporting and can consult on UX and UI topics. Also, I can offer guidance on Agile methodologies widely used in IT, insights into valuable skill development. I can help review your CV and offer sessions to prepare you for real job interviews.
+  network:
+    - linkedin: https://www.linkedin.com/in/yaromirova/
+    - website: https://hackernoon.com/u/uxdilettante
+
+- name: Sergei Begishev
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 4
+  bio: |
+    I am a product leader with over 5 years of experience in IT, currently serving as Chief Product Officer (CPO) and building upon my engineering foundation. My experience spans both large corporations and startups, with particular strengths in analyzing business data and streamlining operations. My commitment to mentorship grew from helping engineers effectively communicate their business impact, leading me to develop and teach a course that has equipped over 20 engineers with skills to present results confidently and advance their careers. I remain dedicated to expanding this impact by continuing to guide emerging tech professionals in bridging the gap between technical excellence and business success.
+  position: Chief Product Officer, Overgear
+  image: assets/images/mentors/sergei_begishev.jpeg
+  location: Belgrade, Serbia
+  type: both
+  index: 65
+  languages: English, Russian
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    areas:
+      - Product Management
+      - Business Analysis
+      - Engineering management
+      - Data Engineering
+    focus:
+      - Switch from IC to management position
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    mentee: I am seeking motivated engineers who want to elevate their careers by developing their ability to communicate technical work in business terms, enhance their leadership capabilities, and master data-driven decision making
+    extra: Mentoring Topics such as Product Architecture & Design, Business Data Analysis & Visualization, Team Management & Leadership Skills, Technical Project Presentation, Process Automation Strategy, Cross-functional Communication
+  network:
+    - linkedin: https://www.linkedin.com/in/sergey-begishev/
+
+- name: Silda Balla
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 5
+  bio: |
+    I am a dedicated Software Engineer with over 6 years of professional experience, specializing in .NET and ReactJS development. Beyond my technical expertise, I am deeply passionate about mentoring and fostering growth in others. Over the years, I’ve had the privilege of mentoring junior developers, interns, and students, guiding them through technical challenges and helping them build confidence in their skills. My Mentoring Experience & Achievements are that I mentored junior developers within my teams, providing guidance on best coding practices, debugging techniques, and project management skills.
+  position: Software Engineer, Deel
+  image: assets/images/mentors/silda_balla.jpg
+  location: Albania,Tirane
+  type: both
+  index: 66
+  languages: English, Spanish, Italian, French
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 4-5 Years
+    years: 5
+    areas:
+      - Backend Developer
+      - Frontend Developer
+      - QA
+      - Business Analysis
+    focus:
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+    mentee: Switch career to IT,Grow from beginner to mid-level,Grow from mid-level to senior-level
+    languages: Javascript, Java, Python, C++
+    extra: Potential Mentoring Topics such as Software Development Strategies such as Best practices for planning, executing, and managing software projects effectively. .NET Development such as Deep dive into C#, ASP.NET MVC, and building robust applications using the .NET framework. ReactJS such as Developing dynamic and responsive web applications with ReactJS.
+  network:
+    - linkedin: https://www.linkedin.com/in/s-b-b51a76317/
