@@ -2262,3 +2262,155 @@
     extra: Potential Mentoring Topics such as Software Development Strategies such as Best practices for planning, executing, and managing software projects effectively. .NET Development such as Deep dive into C#, ASP.NET MVC, and building robust applications using the .NET framework. ReactJS such as Developing dynamic and responsive web applications with ReactJS.
   network:
     - linkedin: https://www.linkedin.com/in/s-b-b51a76317/
+
+- name: Andrew  King
+  disabled: false
+  matched: false
+  sort: 200
+  num_mentee: 0
+  hours: 4
+  type: long-term
+  index: 67
+  location: Yorkshire, UK
+  position: DevOps Engineer, DRW
+  bio: |
+    Over 30 years in commercial IT, 40 years of coding experience, 20 years in financial firms. Know how to manage, manage up, team building, finding team fit. Many years of experience interviewing (on both side of the table).
+  image: |
+    assets/images/mentors/andrew__king.jpeg # TODO: Run download_image script to actually download the image
+  languages: English
+  availability: []
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: |
+      Someone who wants to engage in meaningful and useful conversations
+    areas:
+    - Site Reliability Engineering
+    - Engineering management
+    - Distributed systems
+    - Security
+    - Data Science
+    languages: C, Go, Python, JavaScript
+    focus:
+    - Grow from mid-level to senior-level
+    - Switch from IC to a management position
+    - Change specialisation within IT
+    - Grow beyond senior level
+    - Grow from beginner to mid-level
+    extra: |
+      Systems design for reliability and risk minimisation. SDLC in practice with CI/CD in production. Interview techniques. When to fix, vs. when to seek a change.
+  network:
+  - linkedin: https://www.linkedin.com/in/andrewkingit/
+
+- name: Fernanda Lancao Morais Martins
+  disabled: false
+  matched: false
+  sort: 200
+  num_mentee: 0
+  hours: 5
+  type: both
+  index: 68
+  location: Amsterdam/Netherlands
+  position: DevOps Engineer, Clay Solutions
+  bio: |
+    I work with infrastructure engineering for 13 years. I love all things infrastructure: designing platforms in the cloud with Azure/AWS, coding in terraform/ansible/python/shell.., building awesome delivery pipelines and helping developers.
+    I am from Brazil, currently living in Amsterdam and worked in several companies and different industries.
+    I am community-driven: I have presented at conferences, contributed to open source and like sharing knowledge.
+  image: |
+    assets/images/mentors/fernanda_lancao_morais_martins.jpeg # TODO: Run download_image script to actually download the image
+  languages: English, Portuguese
+  availability: []
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      Dedicated, curious and thirsty for knowledge
+    areas:
+    - DevOps
+    - Distributed Systems
+    languages: ''
+    focus: []
+    extra: |
+      DevOps practices, how to start in infrastructure, resume review, learn cloud, infrastructure as code, incident management, improve your pipeline, manage platform priorities, how to better support developers
+  network:
+  - linkedin: https://www.linkedin.com/in/flmmartins/
+  - website: Find
+  - website: me
+  - website: on
+  - website: x,
+  - github: github,
+  - medium: medium
+  - website: with
+  - website: '@flmmartins'
+
+- name: 'Abdul-Mateen Qamardeen '
+  disabled: false
+  matched: false
+  sort: 100
+  num_mentee: 0
+  hours: 5
+  type: ad-hoc
+  index: 69
+  location: Nigeria
+  position: Founder & CEO, R For All
+  bio: |
+    I am a student Architect who has deep passion for software engineering and coding. I've worked with multiple programming languages including R, Python, Golang, Java, c++ and scala. Currently I'm serving as the CEO of the company I founded, R For All, which trains people on R Programming skills. My focus recently has been on R Programming because of my passion for healthcare analysis and tech which is where R thrives. My R Programming skills is Johns Hopkins university and HackerRank certified. I'm looking forward to mentoring curious candidates like me.
+  image: |
+    assets/images/mentors/abdul-mateen_qamardeen_.jpeg # TODO: Run download_image script to actually download the image
+  languages: English, Yoruba
+  availability: []
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      I want a CURIOUS mentee with a little background with R or Python programming, and data analysis knowledge. She must have a PC with good internet connection.
+    areas:
+    - Backend Developer
+    - Data Science
+    - Frontend Developer
+    - Machine Learning
+    - Business Analysis
+    languages: Python, Go, Java, Scala, Javascript
+    focus:
+    - Switch career to IT
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Grow beyond senior level
+    - Switch from IC to management position
+    extra: |
+      R programming, Data Analysis, Python programming, Machine Learning, LinkedIn optimization
+  network:
+  - linkedin: https://www.linkedin.com/in/abdulmateenqamardeen/
+  - github: https://github.com/DISCRETEboi
+
+- name: 'Marie Coquille '
+  disabled: false
+  matched: false
+  sort: 200
+  num_mentee: 0
+  hours: 4
+  type: both
+  index: 70
+  location: London, UK
+  position: Software Engineer, Cado Security (just bought by DarkTrace)
+  bio: |
+    I have been a software engineer for a few years now. Before that I was a data scientist for a short period, and before being a data scientist I was a data analyst.
+  image: |
+    assets/images/mentors/marie_coquille_.jpeg # TODO: Run download_image script to actually download the image
+  languages: English, French
+  availability: [5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: |
+      Juniors.
+    areas:
+    - Frontend Developer
+    - Fullstack Developer
+    - Backend Developer
+    languages: Javascript
+    focus: []
+    extra: |
+      Get your first job in SE / How it is being a woman in tech / Mock interviews
+  network:
+  - linkedin: https://uk.linkedin.com/in/marie-coquille-b0b733100
