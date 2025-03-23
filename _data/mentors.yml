@@ -100,7 +100,6 @@
     extra: Java, Spring Boot and Best Practices
   network:
     - linkedin: https://www.linkedin.com/in/dricazenck/
-    - twitter: https://twitter.com/DricaZenck
     - github: https://github.com/dricazenck
     - medium: https://medium.com/@dricazenck
 
@@ -428,7 +427,6 @@
     extra: Using Core Nature and Values to figure out who you are - explore within yourself who you like to be and find the best next step to give in your career, CV Review and LinkedIn & GitHub Profile updates
   network:
     - linkedin: https://www.linkedin.com/in/ananogal
-    - twitter: https://twitter.com/anainogal
     - website: https://ananogal.com
 
 - name: Monal Sanghvi
@@ -804,7 +802,6 @@
     extra: Resume review, Career transitions, Leadership in technology
   network:
     - linkedin: https://www.linkedin.com/in/tvisha/
-    - twitter: https://twitter.com/_tvisha_
     - website: https://apibanking.substack.com/
 
 - name: Sahana Venkatesh
@@ -995,7 +992,6 @@
     extra: Software Engineering, SRE, Leadership, Technical Interviews, Communication, Presentation Skills, Kubernetes, CV Review.
   network:
     - linkedin: https://www.linkedin.com/in/bryanboreham
-    - twitter: https://twitter.com/bboreham
 
 - name: Liliia Rafikova
   disabled: false
@@ -1066,7 +1062,6 @@
       Software Design. Cloud Migration. Writing an article. Presenting at a meeting or conference. Architecture decisions. Career Navigation. Negotiating a promotion or career change
   network:
     - linkedin: https://www.linkedin.com/in/avrahampoupko/
-    - twitter: https://twitter.com/apoupko
 
 - name: Safiye Ipek
   disabled: false
@@ -1312,7 +1307,6 @@
       DevOps practices, how to start in infrastructure, resume review, learn cloud, infrastructure as code, incident management, improve your pipeline, manage platform priorities, how to better support developers
   network:
     - linkedin: https://www.linkedin.com/in/flmmartins/
-    - twitter: https://x.com/flmmartins/
     - github: https://github.com/flmmartins/
 
 - name: Gabriel Oliveira
@@ -1692,7 +1686,6 @@
       Career change, app development, software development, GitHub, hackathons, technical writing, React, React Native, JavaScript, Node.js, MongoDB
   network:
     - linkedin: https://www.linkedin.com/in/arzucaner/
-    - website: https://x.com/arz_ugny,
     - medium: https://arzugny.medium.com/,
     - github: https://github.com/arzucaner,
     - youtube: https://www.youtube.com/channel/UCsK0v6RouRYb5I1Ny8flrOg
@@ -1837,7 +1830,6 @@
       Quality Assurance, Switch career to IT, Product Management, Grow from beginner to mid level.
   network:
     - linkedin: https://www.linkedin.com/in/imaabasieffiong/
-    - website: https://x.com/eeimaabasi
 
 - name: Lidiane Mayra Taquehara
   disabled: false
@@ -2133,7 +2125,6 @@
       Technical strategy, consultancy, architecture, planning, project management, collaborating with team members, working with team members in multiple git branches, resume review
   network:
     - linkedin: https://www.linkedin.com/in/chandeepkhosa/
-    - website: http://x.com/chandeepkhosa
 
 - name: Wilson Adenuga
   disabled: false
@@ -2172,7 +2163,6 @@
       Python Programming Fundamentals
   network:
     - linkedin: https://www.linkedin.com/in/wilson-adenuga/
-    - website: https://x.com/Adenugawilson,
     - github: https://github.com/oluwatunmiisheii
 
 - name: Nadezhda Iaromirova
