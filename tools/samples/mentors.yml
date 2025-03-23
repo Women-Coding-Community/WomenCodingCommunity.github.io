@@ -1,65 +1,36 @@
-- name: Mentor1
-  disabled: false
-  sort: 100
-  hours: 3
-  position: Position, at CompanyName
-  type: both
-  index: 1
-  location: City, Country
-  bio: I am a passionate QA Engineer, have experience in testing Web Applications.
-  image: assets/images/mentors/mentor_name_lowercase.jpeg
-  languages: English
-  availability: [ 5 ]
-  skills:
-    experience: 2-4 years
-    years: 4
-    areas:
-      - Quality Assurance
-    mentee: I would love to connect with an open-minded early-career engineer.
-    languages: Python, Html, CSS, JavaScript
-    focus:
-      - Switch career to IT
-      - Grow from beginner to mid-level
-      - Change specialisation within IT
-    extra: Test Automation, Quality Assurance, Starting career in IT, CV Review, Preparation for the Interview, 
-  network:
-    - linkedin: https://www.linkedin.com/in/id
-    - github: https://github.com/id
-
-
-- name: Adriana Zencke Zimmermann
+- name: Mentor1 Name
   disabled: false
   matched: false
-  sort: 10
+  sort: 500
+  num_mentee: 1
   hours: 5
-  type: both
-  index: 2
-  location: Valencia / Spain
-  position: Tech Lead, Centric Software
   bio: |
-    I am a mother, a wife, and a Software Engineer. I graduated in Computer Science and have over 14 years of experience working in tech companies in Brazil, Germany, and Spain. As Backend Engineer, I found this to be my passion which I focused on in the last six years of my career. I am always excited to help others, and my goal is to empower women and support them with the difficulties I had as an engineer, and I still have from time to time.
-  image: 'assets/images/mentors/mentor_name_lowercase.jpeg # TODO take it from Slack'
-  languages: English, Portuguese
-  availability: []
+    I am a dedicated Software Engineer with over 6 years of professional experience, specializing in .NET and ReactJS development. Beyond my technical expertise, I am deeply passionate about mentoring and fostering growth in others. Over the years, I’ve had the privilege of mentoring junior developers, interns, and students, guiding them through technical challenges and helping them build confidence in their skills. My Mentoring Experience & Achievements are that I mentored junior developers within my teams, providing guidance on best coding practices, debugging techniques, and project management skills.
+  position: Software Engineer, Deel
+  image: assets/images/mentors/silda_balla.jpg
+  location: Albania,Tirane
+  type: both
+  index: 66
+  languages: English, Spanish, Italian, French
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
-    experience: 10-15 Years
-    years: 15
-    mentee: |
-      Someone willing to learn new technologies or to improve current skills, looking for guidance on how to navigate the initial years in the industry or in a new company. Also someone able to invest time in learning.
+    experience: 4-5 Years
+    years: 5
     areas:
-    - Backend Developer
-    - Fullstack Developer
-    - Distributed Systems
-    - Frontend Developer
-    - QA
-    languages: Java, Javascript, Kotlin, Python
+      - Backend Developer
+      - Frontend Developer
+      - QA
+      - Business Analysis
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    extra: |
-      Java, Spring Boot and Best Practices
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+    mentee: Switch career to IT,Grow from beginner to mid-level,Grow from mid-level to senior-level
+    languages: Javascript, Java, Python, C++
+    extra: Potential Mentoring Topics such as Software Development Strategies such as Best practices for planning, executing, and managing software projects effectively. .NET Development such as Deep dive into C#, ASP.NET MVC, and building robust applications using the .NET framework. ReactJS such as Developing dynamic and responsive web applications with ReactJS.
   network:
-  - linkedin: https://www.linkedin.com/in/dricazenck/
-  - twitter: https://twitter.com/DricaZenck
-  - medium: https://medium.com/@dricazenck
-  - github: https://github.com/dricazenck
+  - linkedin: https://www.linkedin.com/in/mentor1
+  - medium: https://medium.com/@mentor1
+  - github: https://github.com/mentor1
