@@ -430,7 +430,7 @@
     - website: https://ananogal.com
 
 - name: Monal Sanghvi
-  disabled: false
+  disabled: true
   matched: false
   sort: 200
   hours: 5
@@ -770,7 +770,7 @@
     - linkedin: https://linkedin.com/in/sakirat-Kehinde-usman-3a4600117
 
 - name: Tvisha Dholakia
-  disabled: false
+  disabled: true
   sort: 100
   hours: 4
   position: Co-founder and CBO, apibanking.com
@@ -931,7 +931,7 @@
     - linkedin: https://uk.linkedin.com/in/shailajakoppu
 
 - name: Claudia Lee
-  disabled: false
+  disabled: true
   matched: true
   sort: 10
   hours: 2
@@ -1159,7 +1159,7 @@
     - linkedin: https://www.linkedin.com/in/moniquegrinstein/
 
 - name: Rasim Sen
-  disabled: false
+  disabled: true
   sort: 100
   hours: 4
   position: Fullstack Developer/Cloud Architect, Eurostar
