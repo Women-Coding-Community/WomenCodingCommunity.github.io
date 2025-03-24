@@ -16,8 +16,10 @@ from ruamel.yaml.comments import CommentedSeq
 
 SHEET_NAME = "WCC All Approved Mentors"
 TELEGRAM_WEB_SITE = '//t.'
-SOCIAL_MEDIA = ['linkedin', 'twitter', 'github', 'medium', 'youtube', 'instagram', TELEGRAM_WEB_SITE, 'meetup', 'slack',
-                'facebook']
+TWITTER_OLD = 'twitter'
+TWITTER = 'x.com'
+SOCIAL_MEDIA = ['linkedin', 'github', 'medium', 'youtube', 'instagram', TELEGRAM_WEB_SITE, 'meetup', 'slack',
+                'facebook', TWITTER_OLD, TWITTER]
 WEBSITE = 'website'
 TELEGRAM = 'telegram'
 
@@ -72,16 +74,18 @@ def get_social_media_links(*links_args):
 
     for link in social_media_links_list:
         found = 0
-        for name in SOCIAL_MEDIA:
-            if link.find(name) != -1:
-                if name == TELEGRAM_WEB_SITE:
-                    network_list.append({TELEGRAM: link})
-                else:
-                    network_list.append({name: link})
-                found = 1
-                break
-        if found == 0:
-            network_list.append(fallback_link(link))
+        if any(link.startswith(prefix) for prefix in ["http://", "https://", "www."]):
+            for name in SOCIAL_MEDIA:
+                if link.find(name) != -1:
+                    if name == TELEGRAM_WEB_SITE:
+                        network_list.append({TELEGRAM: link})
+                    else:
+                        if name != TWITTER_OLD and name != TWITTER:
+                            network_list.append({name: link})
+                    found = 1
+                    break
+            if found == 0:
+                    network_list.append(fallback_link(link))
 
     return network_list
 
@@ -250,7 +254,7 @@ def xlsx_to_yaml_parser(mentor_row,
     # Left commented since the code might be used in the later versions
     # to add default picture until the mentor's image is not available
     # mentor_image = os.path.join(IMAGE_FILE_PATH, str(mentor_index) + IMAGE_SUFFIX)
-    mentor_image = f"{IMAGE_FILE_PATH}/{mentor_row.iloc[2].lower().replace(' ', '_')}{IMAGE_SUFFIX} # TODO: Run download_image script to actually download the image"
+    mentor_image = f"{IMAGE_FILE_PATH}/{mentor_row.iloc[2].strip().lower().replace(' ', '_')}{IMAGE_SUFFIX} # TODO: Run download_image script to actually download the image"
 
     mentor_type = get_mentorship_type(mentor_row.iloc[4])
 
@@ -263,7 +267,7 @@ def xlsx_to_yaml_parser(mentor_row,
         mentor_position = mentor_row.iloc[8].strip()
 
     mentor = {
-        'name': mentor_row.iloc[2],
+        'name': mentor_row.iloc[2].strip(),
         'disabled': mentor_disabled,
         'matched': mentor_matched,
         'sort': mentor_sort,
@@ -313,7 +317,7 @@ def get_yml_data(yml_file_path):
         else:
             num_mentee = 0
 
-        yml_data.append([mentor['name'].lower(),
+        yml_data.append([mentor['name'].strip().lower(),
                         mentor['index'],
                         mentor['disabled'],
                         mentor['sort'],
@@ -345,7 +349,7 @@ def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=0):
     mentors = []
 
     for row in range(0, len(df_mentors)):
-        mentor_name = df_mentors.iloc[row].values[2].lower()
+        mentor_name = df_mentors.iloc[row].values[2].strip().lower()
 
         df_yml_row = df_yml.loc[df_yml.Name == mentor_name]
 
@@ -387,7 +391,7 @@ def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=1):
         new_index = df_yml['Index'].max().item() + 1
 
         for row in range(0, len(df_mentors)):
-            mentor_name = df_mentors.iloc[row].values[2].lower()
+            mentor_name = df_mentors.iloc[row].values[2].strip().lower()
 
             if df_yml.loc[df_yml.Name == mentor_name].empty:
                 mentor = xlsx_to_yaml_parser(df_mentors.iloc[row], new_index)
