@@ -81,7 +81,7 @@
   type: both
   index: 3
   languages: Portuguese, English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 years
     years: 15
@@ -2262,3 +2262,124 @@
     extra: Potential Mentoring Topics such as Software Development Strategies such as Best practices for planning, executing, and managing software projects effectively. .NET Development such as Deep dive into C#, ASP.NET MVC, and building robust applications using the .NET framework. ReactJS such as Developing dynamic and responsive web applications with ReactJS.
   network:
     - linkedin: https://www.linkedin.com/in/s-b-b51a76317/
+
+- name: Sebastian Castro
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 4
+  type: both
+  index: 67
+  location: Boston, MA, USA
+  position: Robotics Software Engineer, Robotics and AI Institute
+  bio: |
+    I began my career as a technical support/training/education marketing engineer focused on robotics and simulation. At the start of 2020, I made a full transition to robotics software engineering and have been keeping up with this challenging career while also tapping into my education interests through open-source software and mentorship projects. Learn more about me at https://roboticseabass.com/about/.
+  image: |
+    assets/images/mentors/sebastian_castro.jpeg
+  languages: English, Spanish
+  availability: [3, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      I am looking to help people interested in the robotics field, specially focused on open-source software and/or educational content development. My specialties in robotics include high-level behavior, task and motion planning, and manipulation, but I am willing to branch out and learn with you!
+    areas:
+    - Backend Developer
+    - Fullstack Developer
+    - DevOps
+    - Machine Learning
+    - QA
+    languages: Python, Python, C++, C++, Rust
+    focus:
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Change specialisation within IT
+    - Switch career to IT
+    - Grow beyond senior level
+    extra: |
+      Robotics, Software Engineering, Machine Learning, Simulation, Education
+  network:
+  - linkedin: https://www.linkedin.com/in/sebastian-a-castro
+  - website: https://bsky.app/profile/roboticseabass.com
+
+- name: Ramona Gawarwala
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 3
+  type: both
+  index: 68
+  location: London
+  position: Software Engineer II, Discovery Education
+  bio: |
+    I started my career in healthcare, but six years ago, I made the switch to software development after completing a bootcamp. It was one of the best decisions I’ve ever made. Since then, I’ve worked as a Software Developer, continuously learning and growing, and now I’m on my way to becoming a Senior Engineer with a strong interest in cybersecurity and software architecture. I love solving complex problems, building secure and scalable applications, and finding ways to improve systems. I thrive in collaborative environments, enjoy sharing what I learn, and always look for ways to make tech more efficient and accessible. To further develop my skills, I completed the Mid-Level Accelerator course with Code First Girls, and I’m currently enrolled in a GenAI bootcamp to understand both the landscape and boundaries of Generative AI. Through this, I’m learning how to critically think, troubleshoot, and build real-world GenAI workloads. One of the most valuable lessons I’ve learned in my tech journey is the power of mentorship and networking—especially as a woman in tech. Early on, I realized that even if we don’t always see many women around us at work, we are not alone. There is a whole community of women who have gone through the same challenges, faced impostor syndrome, and needed support to stay motivated. Seeing this has made me passionate about encouraging more women not just to enter tech, but to stay in the field, find meaning in their work, and recognize the immense value they bring to the table. Outside of work, I’m into hiking, photography, and getting lost in a good book. I also explore topics like digital transformation, organizational psychology, and the intersection of tech and human behavior—it’s fascinating how technology shapes the way we work and interact. My journey into tech was anything but traditional, and I know how challenging (and rewarding) career changes can be. That’s why I love connecting with others who are navigating similar paths and sharing what I’ve learned along the way.
+  image: |
+    assets/images/mentors/ramona_gawarwala.jpeg
+  languages: English, Romanian
+  availability: [3, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      Motivated and proactive
+    areas:
+    - Fullstack Developer
+    - Distributed Systems
+    - DevOps
+    languages: Javascript, Python, Java
+    focus:
+    - Grow from beginner to mid-level
+    extra: |
+      Software development, Job Search, Motivation, Career Change, Upskill 
+  network:
+  - linkedin: https://www.linkedin.com/in/ramona-gawarwala/
+
+- name: Sonika Janagill
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 2
+  type: both
+  index: 69
+  location: Watford
+  position: Engineering Advocate, VML
+  bio: |
+    Experienced technology professional with 18+ years spanning Java development, e-commerce solutions, cloud architecture, and AI engineering. Currently serving as an Engineering Advocate at VML and Data Engineer at Satalia, I bridge enterprise systems with cutting-edge AI technologies.
+    My journey includes leading complex e-commerce implementations, cloud, and AI innovations. As a certified GCP Professional Architect and Scrum Master, I combine technical expertise with strategic vision.
+    Passionate about empowering developers to embrace AI and promoting diversity in tech, I leverage my background across multiple technologies to connect diverse domains and drive innovative solutions.
+  image: |
+    assets/images/mentors/sonika_janagill.jpeg
+  languages: English, Hindi, Punjabi
+  availability: [3, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: |
+      I'm seeking curious, proactive individuals interested in AI, data engineering, or modern software development. Whether you're transitioning from traditional development to AI/ML, looking to enhance your cloud architecture skills, or aiming to grow as a technical leader, I'd be delighted to support you. I particularly welcome those with clear goals, a commitment to consistent learning. I especially encourage women and underrepresented groups in tech who are navigating technical career paths.
+    areas:
+    - Backend Developer
+    - Data Engineering
+    - DevOps
+    - Engineering management
+    - Fullstack Developer
+    languages: Python, Java, Javascript
+    focus:
+    - Grow from beginner to mid-level
+    - Switch career to IT
+    - Change specialisation within IT
+    - Grow from mid-level to senior-level
+    extra: |
+      Cloud Architecture & Data Engineering
+      CI/CD using Infra As Code
+      AI Engineering & Implementation Strategies
+      Transitioning from Traditional Development to AI/ML
+      Enterprise E-commerce Solutions
+      Technical Career Path Evolution & Growth
+      Balancing Technical Depth & Business Awareness
+      Building Technical Advocacy Skills
+      Work-Life Balance in Technical Careers
+  network:
+  - linkedin: https://www.linkedin.com/in/sonikaj/
