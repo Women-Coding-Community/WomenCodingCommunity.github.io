@@ -243,7 +243,7 @@ def xlsx_to_yaml_parser(mentor_row,
                         mentor_disabled=False,
                         mentor_sort=0,
                         mentor_matched=False,
-                        num_mentee=0):
+                        num_mentee=1):
     """
     Prepare mentor's excel data for yaml format
     """
