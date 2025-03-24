@@ -14,7 +14,7 @@ from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import LiteralScalarString
 from ruamel.yaml.comments import CommentedSeq
 
-SHEET_NAME = "WCC All Approved Mentors"
+SHEET_NAME = "Form Responses 1"
 TELEGRAM_WEB_SITE = '//t.'
 SOCIAL_MEDIA = ['linkedin', 'twitter', 'github', 'medium', 'youtube', 'instagram', TELEGRAM_WEB_SITE, 'meetup', 'slack',
                 'facebook']
@@ -22,12 +22,12 @@ WEBSITE = 'website'
 TELEGRAM = 'telegram'
 
 # Indexes for creating yaml sequences of data
-AREAS_START_INDEX = 14
-AREAS_END_INDEX = 18
-FOCUS_START_INDEX = 19
-FOCUS_END_INDEX = 23
-PROG_LANG_START_INDEX = 24
-PROG_LANG_END_INDEX = 28
+AREAS_START_INDEX = 13
+AREAS_END_INDEX = 17
+FOCUS_START_INDEX = 18
+FOCUS_END_INDEX = 22
+PROG_LANG_START_INDEX = 23
+PROG_LANG_END_INDEX = 27
 
 type_ad_hoc = ("ad-hoc", "ad hoc")
 type_long_term = ("long-term", "long term")
@@ -126,24 +126,6 @@ def get_multiline_string(long_text_arg):
         multiline_str = LiteralScalarString(textwrap.dedent(long_text_arg))
     return multiline_str
 
-def get_sort(mentorship_type, num_mentee):
-    """
-    Get mentor's sort value
-    """
-
-    if mentorship_type == TYPE_BOTH or mentorship_type == type_long_term[0]:
-        if num_mentee > 2:
-            return 600
-        if num_mentee == 2:
-            return 550
-        if num_mentee == 1:
-            return 500
-        return 200
-    if mentorship_type == type_ad_hoc[0]:
-        #todo: (if availability == next month) then adjust the sort value:
-        return 100
-
-    return 10
 
 def get_mentorship_type(mentorship_type_str):
     """
@@ -236,10 +218,7 @@ def read_yml_file(file_path):
 
 def xlsx_to_yaml_parser(mentor_row,
                         mentor_index,
-                        mentor_disabled=False,
-                        mentor_sort=0,
-                        mentor_matched=False,
-                        num_mentee=0):
+                        mentor_disabled=False):
     """
     Prepare mentor's excel data for yaml format
     """
@@ -247,46 +226,39 @@ def xlsx_to_yaml_parser(mentor_row,
     focus = get_yaml_block_sequence(mentor_row, FOCUS_START_INDEX, FOCUS_END_INDEX)
     programming_languages = get_yaml_block_sequence(mentor_row, PROG_LANG_START_INDEX, PROG_LANG_END_INDEX)
 
+    mentor_matched = False
+
     # Left commented since the code might be used in the later versions
     # to add default picture until the mentor's image is not available
     # mentor_image = os.path.join(IMAGE_FILE_PATH, str(mentor_index) + IMAGE_SUFFIX)
-    mentor_image = f"{IMAGE_FILE_PATH}/{mentor_row.iloc[2].lower().replace(' ', '_')}{IMAGE_SUFFIX} # TODO: Run download_image script to actually download the image"
-
-    mentor_type = get_mentorship_type(mentor_row.iloc[4])
-
-    if mentor_sort == 0:
-        mentor_sort = get_sort(mentor_type, num_mentee)
-
-    if not pd.isna(mentor_row.iloc[9]):
-        mentor_position = f"{mentor_row.iloc[8].strip()}, {mentor_row.iloc[9].strip()}"
-    else:
-        mentor_position = mentor_row.iloc[8].strip()
+    mentor_image = f"{IMAGE_FILE_PATH}/{mentor_row.iloc[1].lower().replace(' ', '_')}{IMAGE_SUFFIX} # TODO: Run donwload_image script to actually download the image"
+    
+    mentor_sort = 200 if mentor_row.iloc[39] != '' else 100
 
     mentor = {
-        'name': mentor_row.iloc[2],
+        'name': mentor_row.iloc[1],
         'disabled': mentor_disabled,
         'matched': mentor_matched,
         'sort': mentor_sort,
-        'num_mentee': num_mentee,
-        'hours': extract_numbers_from_string(mentor_row.iloc[30]),
-        'type': mentor_type,
+        'hours': extract_numbers_from_string(mentor_row.iloc[29]),
+        'type': get_mentorship_type(mentor_row.iloc[3]),
         'index': mentor_index,
-        'location': mentor_row.iloc[6],
-        'position': mentor_position,
-        'bio': get_multiline_string(mentor_row.iloc[11]),
+        'location': mentor_row.iloc[5],
+        'position': f"{mentor_row.iloc[7].strip()}, {mentor_row.iloc[8].strip()}",
+        'bio': get_multiline_string(mentor_row.iloc[10]),
         'image': get_multiline_string(mentor_image),
-        'languages': mentor_row.iloc[7],
-        'availability': add_availability(mentor_row.iloc[40]),
+        'languages': mentor_row.iloc[6],
+        'availability': add_availability(mentor_row.iloc[39]),
         'skills': {
-            'experience': mentor_row.iloc[10],
-            'years': extract_numbers_from_string(mentor_row.iloc[10]),
-            'mentee': get_multiline_string(mentor_row.iloc[29]),
+            'experience': mentor_row.iloc[9],
+            'years': extract_numbers_from_string(mentor_row.iloc[9]),
+            'mentee': get_multiline_string(mentor_row.iloc[28]),
             'areas': areas,
             'languages': ', '.join(programming_languages),
             'focus': focus,
-            'extra': get_multiline_string(mentor_row.iloc[12])
+            'extra': get_multiline_string(mentor_row.iloc[11]),
         },
-        'network': get_social_media_links(mentor_row.iloc[31], mentor_row.iloc[32]),
+        'network': get_social_media_links(mentor_row.iloc[30], mentor_row.iloc[31]),
     }
     return mentor
 
@@ -294,7 +266,7 @@ def xlsx_to_yaml_parser(mentor_row,
 def get_yml_data(yml_file_path):
     """
     Get data from mentors.yml.
-    Return dataframe with name, index, sort, disabled, matched and num_mentee values.
+    Return dataframe with name, index, sort and disabled values.
     """
     yml_dict = read_yml_file(yml_file_path)
 
@@ -303,32 +275,20 @@ def get_yml_data(yml_file_path):
     yml_data = []
 
     for mentor in yml_dict:
-        if 'matched' in mentor:
-            matched = mentor['matched']
-        else:
-            matched = False
-
-        if 'num_mentee' in mentor:
-            num_mentee = mentor['num_mentee']
-        else:
-            num_mentee = 0
-
         yml_data.append([mentor['name'].lower(),
                         mentor['index'],
                         mentor['disabled'],
-                        mentor['sort'],
-                        matched,
-                        num_mentee])
+                        mentor['sort']])
 
     df_yml_data = pd.DataFrame(yml_data,
-                            columns=['Name', 'Index', 'Disabled', 'Sort', 'Matched', 'Num_mentee'])
+                            columns=['Name', 'Index', 'Disabled', 'Sort'])
     return df_yml_data
 
 
 def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=0):
     """
     Read all mentors from Excel sheet:
-     - if mentor is in current mentors.yml, use existing values for index, disabled, sort, matched and num_mentee.
+     - if mentor is in current mentors.yml, use existing values for index, sort and disabled.
      - if mentor is new, continue indexing from the largest index from current mentors.yml
     """
     df_mentors = pd.read_excel(xlsx_file_path, sheet_name=SHEET_NAME, skiprows=skip_rows)
@@ -345,17 +305,14 @@ def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=0):
     mentors = []
 
     for row in range(0, len(df_mentors)):
-        mentor_name = df_mentors.iloc[row].values[2].lower()
+        mentor_name = df_mentors.iloc[row].values[1].lower()
 
         df_yml_row = df_yml.loc[df_yml.Name == mentor_name]
 
         if not df_yml_row.empty:
             mentor = xlsx_to_yaml_parser(df_mentors.iloc[row],
                                         df_yml_row['Index'].item(),
-                                        df_yml_row['Disabled'].item(),
-                                        df_yml_row['Sort'].item(),
-                                        df_yml_row['Matched'].item(),
-                                        df_yml_row['Num_mentee'].item())
+                                        df_yml_row['Disabled'].item())
             logging.info(f"For {mentor_name} use index, disabled and sort from mentors.yml file")
         else:
             mentor = xlsx_to_yaml_parser(df_mentors.iloc[row],
@@ -378,7 +335,7 @@ def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=1):
 
     logging.info(f"Excel mentors: {len(df_mentors)}")
 
-    # Get current mentors' data (name, index, disabled, sort, matched, num_mentee) from mentors.yml
+    # Get current mentors' data (name, index, disabled, sort) from mentors.yml
     df_yml = get_yml_data(yml_file_path)
 
     mentors = []
@@ -387,7 +344,7 @@ def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=1):
         new_index = df_yml['Index'].max().item() + 1
 
         for row in range(0, len(df_mentors)):
-            mentor_name = df_mentors.iloc[row].values[2].lower()
+            mentor_name = df_mentors.iloc[row].values[1].lower()
 
             if df_yml.loc[df_yml.Name == mentor_name].empty:
                 mentor = xlsx_to_yaml_parser(df_mentors.iloc[row], new_index)
