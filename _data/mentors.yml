@@ -679,7 +679,9 @@
 
 - name: Anastasia
   disabled: false
-  sort: 200
+  matched: false
+  sort: 550
+  num_mentee: 2
   hours: 5
   position: QA Specialist and Mentor, Trivago
   type: both
@@ -689,7 +691,7 @@
     ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
   image: assets/images/mentors/anastasia.jpeg
   languages: English, Ukrainian, Russian
-  availability: [7, 8, 9, 11]
+  availability: [3, 7, 8, 9, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -1536,7 +1538,8 @@
 - name: Mena Esezobor
   disabled: false
   matched: false
-  sort: 200
+  sort: 500
+  num_mentee: 1
   hours: 2
   type: both
   index: 47
@@ -1548,7 +1551,7 @@
     techniques fuels my passion for staying ahead of the curve in software engineering trends. Beyond honing my skills, I find fulfillment in mentoring aspiring tech professionals, guiding them as they navigate their entry into the tech industry.
   image: "assets/images/mentors/mena_esezobor.jpg"
   languages: English
-  availability: [9, 10, 11]
+  availability: [3, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1871,7 +1874,8 @@
 - name: Ajeetha Kumari Venkatesan
   disabled: false
   matched: false
-  sort: 200
+  sort: 500
+  num_mentee: 1
   hours: 2
   type: both
   index: 56
@@ -1886,7 +1890,7 @@
   image: |
     assets/images/mentors/ajeetha_kumari.jpeg
   languages: English, Tamil, Hindi, Kannada
-  availability: [11]
+  availability: [3, 11]
   skills:
     experience: 16+ Years
     years: 16
