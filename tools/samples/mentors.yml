@@ -1,36 +1,36 @@
-  - name: Mentor1 Name
-    disabled: false
-    matched: false
-    sort: 500
-    num_mentee: 1
-    hours: 5
-    bio: |
-      I am a dedicated Software Engineer with over 6 years of professional experience, specializing in .NET and ReactJS development. Beyond my technical expertise, I am deeply passionate about mentoring and fostering growth in others. Over the years, I’ve had the privilege of mentoring junior developers, interns, and students, guiding them through technical challenges and helping them build confidence in their skills. My Mentoring Experience & Achievements are that I mentored junior developers within my teams, providing guidance on best coding practices, debugging techniques, and project management skills.
-    position: Software Engineer, Deel
-    image: assets/images/mentors/silda_balla.jpg
-    location: Albania,Tirane
-    type: both
-    index: 66
-    languages: English, Spanish, Italian, French
-    availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
-    skills:
-      experience: 4-5 Years
-      years: 5
-      areas:
-        - Backend Developer
-        - Frontend Developer
-        - QA
-        - Business Analysis
-      focus:
-        - Grow beyond senior level
-        - Grow from mid-level to senior-level
-        - Grow from beginner to mid-level
-        - Switch career to IT
-        - Change specialisation within IT
-      mentee: Switch career to IT,Grow from beginner to mid-level,Grow from mid-level to senior-level
-      languages: Javascript, Java, Python, C++
-      extra: Potential Mentoring Topics such as Software Development Strategies such as Best practices for planning, executing, and managing software projects effectively. .NET Development such as Deep dive into C#, ASP.NET MVC, and building robust applications using the .NET framework. ReactJS such as Developing dynamic and responsive web applications with ReactJS.
-    network:
-    - linkedin: https://www.linkedin.com/in/mentor1
-    - medium: https://medium.com/@mentor1
-    - github: https://github.com/mentor1
+- name: Mentor1 Name
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 5
+  bio: |
+    I am a dedicated Software Engineer with over 6 years of professional experience, specializing in .NET and ReactJS development. Beyond my technical expertise, I am deeply passionate about mentoring and fostering growth in others. Over the years, I’ve had the privilege of mentoring junior developers, interns, and students, guiding them through technical challenges and helping them build confidence in their skills. My Mentoring Experience & Achievements are that I mentored junior developers within my teams, providing guidance on best coding practices, debugging techniques, and project management skills.
+  position: Software Engineer, Deel
+  image: assets/images/mentors/silda_balla.jpg
+  location: Albania,Tirane
+  type: both
+  index: 66
+  languages: English, Spanish, Italian, French
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 4-5 Years
+    years: 5
+    areas:
+      - Backend Developer
+      - Frontend Developer
+      - QA
+      - Business Analysis
+    focus:
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+    mentee: Switch career to IT,Grow from beginner to mid-level,Grow from mid-level to senior-level
+    languages: Javascript, Java, Python, C++
+    extra: Potential Mentoring Topics such as Software Development Strategies such as Best practices for planning, executing, and managing software projects effectively. .NET Development such as Deep dive into C#, ASP.NET MVC, and building robust applications using the .NET framework. ReactJS such as Developing dynamic and responsive web applications with ReactJS.
+  network:
+  - linkedin: https://www.linkedin.com/in/mentor1
+  - medium: https://medium.com/@mentor1
+  - github: https://github.com/mentor1
