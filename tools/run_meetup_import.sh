@@ -1,5 +1,5 @@
 #Create the virtual environment On macOS/Linux
-python3 -m venv myenv
+python3.12 -m venv myenv
 
 #Activate the virtual environment:
 source myenv/bin/activate
@@ -11,4 +11,4 @@ pip install -r requirements.txt
 # Example: samples/mentors.xlsx samples/mentors.yml a
 # mode "a" for APPEND new mentors from the xlsx table to the existing mentors.yml
 # mode "w" for WRITE all mentors from the xlsx table to mentors.yml
-python3 meetup_import.py "https://www.meetup.com/women-coding-community/events/?type=upcoming" "../_data/imported_events.yml" a
+python3.12 meetup_import.py "https://www.meetup.com/women-coding-community/events/?type=upcoming" "../_data/imported_events.yml" a

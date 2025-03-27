@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row partners-logo">
+        <div class="row-content col-12">
+            <div class="container">
+                <div class="row">
+                    <div class="title"><small>Community Partners:</small></div>
+                </div>
+                <br>
+                <div class="row">
+                    {% assign partners = site.data.partners %}
+                    {% for partner in partners %}
+                    <div class="col-12 col-sm-6 col-md-2 col-lg-2 mb-2">
+                        <div class="card h-100">
+                            <a href="{{ partner.link }}" target="_blank">
+                                <img class="card-img-top" src="{{ partner.image.path }}" alt="{{ partner.image.alt }}">
+                            </a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

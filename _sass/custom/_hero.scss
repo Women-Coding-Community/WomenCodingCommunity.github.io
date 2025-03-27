@@ -1,120 +1,111 @@
 .hero {
 
+  .row {
+    padding: map-get($spacers, 4) 0 map-get($spacers, 6) 0;
+  }
+
+  h1,
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    @include font-display-l;
+    color: $primary;
+    margin: 0;
+  }
+
+  p {
+    @include font-headline-l;
+  }
+
+  hr {
+    margin: map-get($spacers, 3) auto;
+    height: 0.5rem;
+    width: 6rem;
+    background: linear-gradient(to left, $secondary-80, $tertiary-90, $primary-60);
+    border: none;
+  }
+}
+
+.hero-body {
+  flex: none;
+}
+
+.hero-image {
+  position: relative;
+  background-image: url("./../../assets/images/home/hero-3x2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  height: 260px;
+  width: 95%;
+  border-radius: $border-radius;
+
+  &::before,
+  &::after {
+    border-radius: $border-radius;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    @include gradient-background($primary-50, $secondary-80);
+    opacity: 0.8;
+    z-index: 100;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -1rem;
+    left: 0.5rem;
+    width: calc(100% + 1rem);
+    height: calc(100% - 1rem);
+    background-color: $secondary-80;
+    opacity: 0.8;
+    z-index: -1;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .hero {
+
     .row {
-        padding: map-get($spacers, 4) 0 map-get($spacers, 6) 0;
+      padding: map-get($spacers, 6) 0;
+      align-items: center;
+      flex-direction: row;
     }
 
     h1,
     p {
-        text-align: center;
-    }
-
-    h1 {
-        @include font-display-l;
-        color: $primary;
-        margin: 0;
-    }
-
-    p {
-        @include font-headline-l;
+      text-align: left;
     }
 
     hr {
-        margin: map-get($spacers, 3) auto;
-        height: 0.5rem;
-        width: 6rem;
-        background: linear-gradient(to left, $secondary-80, $tertiary-90, $primary-60);
-        border: none;
+      margin: map-get($spacers, 4) 0;
     }
-}
+  }
 
-.hero-body {
-    flex: none;
-}
+  .hero-media {
+    margin-bottom: map-get($spacers, 5);
+  }
 
-.hero-image {
-    position: relative;
-    background-image: url("./../../assets/images/home/hero-3x2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center 25%;
-    height: 260px;
-    width: 95%;
-    border-radius: $border-radius;
-
-    &::before,
-    &::after {
-        border-radius: $border-radius;
-    }
-
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        @include gradient-background($primary-50, $secondary-80);
-        opacity: 0.8;
-        z-index: 100;
-    }
+  .hero-image {
+    margin-right: map-get($spacers, 1);
+    height: 360px;
 
     &::after {
-        content: "";
-        position: absolute;
-        bottom: -1rem;
-        left: 0.5rem;
-        width: calc(100% + 1rem);
-        height: calc(100% - 1rem);
-        background-color: $secondary-80;
-        opacity: 0.8;
-        z-index: -1;
+      bottom: -2rem;
+      left: 1rem;
     }
-}
+  }
 
-.hero-surrealdb {
-    background-image: url("./../../assets/images/partners/partner-surrealdb.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  .hero-surrealdb {
     height: 180px;
-    border-radius: $border-radius;
-}
-
-@include media-breakpoint-up(md) {
-    .hero {
-
-        .row {
-            padding: map-get($spacers, 6) 0;
-            align-items: center;
-            flex-direction: row;
-        }
-
-        h1,
-        p {
-            text-align: left;
-        }
-
-        hr {
-            margin: map-get($spacers, 4) 0;
-        }
-    }
-
-    .hero-media {
-        margin-bottom: map-get($spacers, 5);
-    }
-
-    .hero-image {
-        margin-right: map-get($spacers, 1);
-        height: 360px;
-
-        &::after {
-            bottom: -2rem;
-            left: 1rem;
-        }
-    }
-
-    .hero-surrealdb {
-        height: 180px;
-    }
+  }
 }

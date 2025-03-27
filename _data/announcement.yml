@@ -1,6 +1,6 @@
 - title: |
     Mentorship ad-hoc registration is now open for mentees
-  description: | 
+  description: |
     Sign up for this unique opportunity of one-time mentoring sessions with personalised guidance from experienced mentors.
   date: MAY 1, 2024
   expiration: "20240515"
@@ -12,11 +12,46 @@
     title: Join now
 
 - title: |
-    New Women Coding Community website!
-  description: | 
-    We are thrilled to introduce our brand-new website. Created with dedication and passion by our incredible team of volunteers, this platform serves as your gateway to a diverse array of resources, programs, mentorship opportunities, and more.
-  date: APR 30, 2024
-  expiration: "20240510"
+    Women In Tech Global Conference
+  description: |
+    We are thrilled to introduce our new partnership with <a href="https://www.womentech.net/en-es/node/102994" target="_blank">Women In Tech Global Conference.</a>
+    The conference will bring women in tech, and allies together through an interactive platform with virtual and in-person sessions.
+  date: MAY 20-22, 2025
+  expiration: "20250523"
   image:
-    path: "/assets/images/announcements/stock-copilot-designer_celebrate.jpg"
-    alt: confetti illustration
+    path: "/assets/images/partners/WomenInTech.png"
+    alt: "Conference logo"
+  link:
+    path: "https://www.womentech.net/en-es/node/102994"
+    title: Register now
+
+- title: |
+    Python Study Group
+  description: |
+    Unlock the power of data analysis with Pandas, one of Python's most versatile libraries! This study group is designed for beginners and intermediate Python users who want to deepen their data skills.
+  date: "2025"
+  expiration: "20250222"
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/a/a/c/2/event_526003714.webp"
+    alt: event image banner
+  link:
+    path: /events
+    title: Join now
+
+- title: |
+    Mentorship Programme 2025 Coming Soon!
+  description: |
+    We are excited to announce that the Mentorship Programme 2025 will be launching on 8th March, 2025 on International Women's Day! <br/>
+    <strong>Key Dates:</strong><br/>
+    <li>Long-Term Registrations Open: 8th March </li>
+    <li>Applications Close: 31st March </li>
+    <li>Mentoring Cycle Starts: 14th April </li>
+    <li>Monthly Ad-Hoc Registrations: May onwards </li>
+  date: MARCH 8, 2025
+  expiration: "20250401"
+  image:
+    path: "/assets/images/announcements/mentorship-2025-launch.png"
+    alt: "Mentorship 2025 Launch banner"
+  link:
+    path: "/mentorship#2025-cycle"
+    title: Learn More

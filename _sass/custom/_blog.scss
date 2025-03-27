@@ -119,7 +119,7 @@
     ul {
       padding-left: map-get($spacers, 3);
     }
-    
+
     li {
       margin-bottom: map-get($spacers, 3);
     }
@@ -192,4 +192,11 @@
   text-align: center;
   width: fit-content;
   margin: map-get($spacers, 2) auto 0;
+}
+.img-notes {
+  font-size: 12px;
+  font-style: italic;
+  text-align: left;
+  width: fit-content;
+  margin: 0;
 }

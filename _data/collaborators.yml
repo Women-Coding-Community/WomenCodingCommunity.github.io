@@ -1,32 +1,22 @@
-- name: Lily N.
+- name: Nevena Verbič
   image: assets/images/collaborators/1.jpeg
-  position: UX/UI Designer & Engineer
-  comment: Website Collaborator
+  position: Software Developer
+  comment: Platform - Backend Engineer
   network:
     - name: linkedin
-      link: https://www.linkedin.com/in/lilynguyendk/
+      link: https://www.linkedin.com/in/nevena-verbič-83a16ab/
     - name: github
-      link: https://github.com/lilyndk
+      link: https://github.com/nverbic
 
-- name: Chloe Britland-Whiting
-  position: Data Analyst
-  comment: Team Collaborator
-  image: assets/images/collaborators/9.jpeg
+- name: Mitali Shah
+  image: assets/images/collaborators/4.jpeg
+  position: Front End Developer
+  comment: Platform - Frontend Developer
   network:
     - name: linkedin
-      link: https://www.linkedin.com/in/chloe-britland-whiting/
+      link: https://www.linkedin.com/in/mitali-shaleen-shah/
     - name: github
-      link: https://github.com/cribw27
-
-- name: Neha Sharma
-  image: assets/images/collaborators/5.jpeg
-  position: Principal Engineer
-  comment: Team Collaborator
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/nehha/
-    - name: github
-      link: https://github.com/Neha
+      link: https://github.com/MitaliShah
 
 - name: Sophy O.
   image: assets/images/collaborators/10.jpeg
@@ -48,16 +38,6 @@
     - name: github
       link: https://github.com/kikilondon
 
-- name: Nevena Verbič
-  image: assets/images/collaborators/12.jpeg
-  position: Software Developer
-  comment: Team Collaborator
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/nevena-verbič-83a16ab/
-    - name: github
-      link: https://github.com/nverbic
-
 - name: Damola Taiwo
   image: assets/images/collaborators/13.jpeg
   position: Software Engineer
@@ -67,3 +47,43 @@
       link: https://www.linkedin.com/in/badmus-damola-taiwo-643438158/
     - name: github
       link: https://github.com/Deejarh
+
+- name: Rajashree Munoli
+  image: assets/images/collaborators/3.jpeg
+  position: Data Analysis | Project manager
+  comment: Platform Project Manager
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/rajashree-munoli/
+    - name: github
+      link: https://github.com/rajashreemunoli
+
+- name: Amenawon Esezobor
+  image: assets/images/collaborators/2.jpeg
+  position: Senior Software engineer
+  comment: CV-Clinic Coordinator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/amenawon-esezobor
+    - name: github
+      link: https://github.com/Amenawon
+
+- name: Purnima T
+  image: assets/images/collaborators/9.jpeg
+  position: QA Engineer
+  comment: Platform - QA Engineer
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/anna-cotugno-35b42347
+    - name: github
+      link: https://github.com/nimat1
+
+- name: Anna Cotugno
+  image: assets/images/collaborators/14.jpeg
+  position: Software Engineer
+  comment: Platform - Backend Engineer
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/anna-cotugno-35b42347
+    - name: github
+      link: https://github.com/amgc3

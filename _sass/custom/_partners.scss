@@ -1,0 +1,32 @@
+
+.partners-logo {
+
+  margin-top: 15px !important;
+
+  .title {
+    margin-top: 2px;
+  }
+
+  small {
+    font-weight: 900;
+  }
+
+  .card {
+    border: none;
+  }
+}
+
+.partners {
+  .partner-img {
+    margin-top: 70px !important;
+  }
+  
+  .hero-jetbrains {
+    background-image: url("/assets/images/partners/jetbrains.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90px;
+    border-radius: $border-radius;
+  }
+}
