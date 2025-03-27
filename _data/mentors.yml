@@ -808,17 +808,18 @@
     - website: https://apibanking.substack.com/
 
 - name: Sahana Venkatesh
-  disabled: true
-  sort: 10
+  disabled: false
+  sort: 100
   hours: 2
   position: Machine learning Engineer, JLR
-  type: long-term
+  type: ad-hoc
   index: 26
   location: London, UK
   bio: |
     I hold Masters degree in Electrical Engineering specializing in Datascience. I have worked in tech startups and automotive company. I have have given a lot of interviews and learned through my failures that preparation and practice are the key and I would like to help someone else.
   image: assets/images/mentors/sahana_venkatesh.jpg
   languages: English
+  availability: [4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 years
     years: 7
@@ -901,7 +902,7 @@
     - linkedin: https://www.linkedin.com/in/jjohnson001
 
 - name: Shailaja Koppu
-  disabled: true
+  disabled: false
   matched: false
   hours: 2
   position: Principal software engineer, Apple
