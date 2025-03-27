@@ -70,7 +70,7 @@
 - name: Adriana Zencke Zimmermann
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 2
   bio: |
@@ -81,7 +81,7 @@
   type: both
   index: 3
   languages: Portuguese, English
-  availability: [4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [6, 9, 10, 11]
   skills:
     experience: 10-15 years
     years: 15
@@ -105,7 +105,7 @@
 
 - name: Irina Kamalova
   disabled: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 1
   type: both
@@ -116,7 +116,7 @@
   image: assets/images/mentors/irina_kamalova.jpeg
   location: London, United Kingdom
   languages: English, Russian
-  availability: [3, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -139,7 +139,7 @@
 
 - name: Stephanie Senoner
   disabled: false
-  sort: 500
+  sort: 200
   matched: false
   hours: 5
   type: both
@@ -149,7 +149,7 @@
   image: assets/images/mentors/stephanie_senoner.jpeg
   location: London
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 4-5 years
     years: 5
@@ -301,7 +301,7 @@
     - linkedin: https://www.linkedin.com/in/julia-babahina-cism-crisc-30285440/
 
 - name: Hersi Kopani
-  disabled: false
+  disabled: true
   sort: 100
   hours: 4
   position: Senior Engineer/Lecturer, Walgreens Boots Alliance
@@ -462,7 +462,7 @@
     - linkedin: https://www.linkedin.com/in/monalsanghvi/
 
 - name: Kaylyn Van Norstrand
-  disabled: false
+  disabled: true
   sort: 10
   hours: 4
   position: Software Engineer
@@ -496,7 +496,7 @@
     - linkedin: https://www.linkedin.com/in/kaylynvannorstrand/
 
 - name: Ceri Shaw
-  disabled: false
+  disabled: true
   sort: 10
   hours: 3
   position: Fractional CTO, Thistle Labs
@@ -590,7 +590,7 @@
     - Medium: https://medium.com/@rithik18
 
 - name: Mona Ahluwalia
-  disabled: false
+  disabled: true
   sort: 100
   hours: 5
   position: Talent Director, Chapter 2
@@ -627,6 +627,7 @@
     Over 30 years in commercial IT, 40 years of coding experience, 20 years in financial firms. Know how to manage, manage up, team building, finding team fit. Many years of experience interviewing (on both side of the table).
   image: assets/images/mentors/andrew_king.jpeg
   languages: English
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ years
     years: 16
@@ -660,7 +661,7 @@
     I am Frontend engineer with 4 years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
   image: assets/images/mentors/adeola_adekoyejo.jpg
   languages: English
-  availability: [4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 4-5 years
     years: 5
@@ -691,7 +692,7 @@
     ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
   image: assets/images/mentors/anastasia.jpeg
   languages: English, Ukrainian, Russian
-  availability: [3, 7, 8, 9, 11]
+  availability: [3, 4, 5, 6, 7, 8, 9, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -807,7 +808,7 @@
     - website: https://apibanking.substack.com/
 
 - name: Sahana Venkatesh
-  disabled: false
+  disabled: true
   sort: 10
   hours: 2
   position: Machine learning Engineer, JLR
@@ -840,7 +841,7 @@
     - linkedin: https://www.linkedin.com/in/sahana-venkatesh/
 
 - name: Agrin Hilmkil
-  disabled: false
+  disabled: true
   matched: false
   sort: 10
   hours: 4
@@ -870,7 +871,7 @@
     - linkedin: https://www.linkedin.com/in/agrinhilmkil/
 
 - name: Jenny Johnson
-  disabled: false
+  disabled: true
   sort: 10
   matched: true
   hours: 2
@@ -900,7 +901,7 @@
     - linkedin: https://www.linkedin.com/in/jjohnson001
 
 - name: Shailaja Koppu
-  disabled: false
+  disabled: true
   matched: false
   hours: 2
   position: Principal software engineer, Apple
@@ -1029,7 +1030,7 @@
     - linkedin: https://www.linkedin.com/in/liliia-rafikova-635328104/
 
 - name: Avraham Poupko
-  disabled: false
+  disabled: true
   matched: false
   sort: 100
   hours: 2
@@ -1101,7 +1102,7 @@
     - github: https://github.com/S-ipk
 
 - name: Bomee Ryu
-  disabled: false
+  disabled: true
   matched: false
   sort: 100
   hours: 3
@@ -1132,7 +1133,7 @@
     - linkedin: https://www.linkedin.com/in/bomeeryu/
 
 - name: Monique Grinstein
-  disabled: false
+  disabled: true
   sort: 100
   hours: 2
   position: Software Engineer, The LEGO Group
@@ -1354,7 +1355,7 @@
     - linkedin: https://www.linkedin.com/in/gpaoliveira
 
 - name: Abdul-Mateen Qamardeen
-  disabled: false
+  disabled: true
   matched: false
   sort: 200
   hours: 5
@@ -1392,7 +1393,7 @@
     - github: https://github.com/DISCRETEboi
 
 - name: Olga Volkova
-  disabled: false
+  disabled: true
   matched: true
   sort: 10
   hours: 2
@@ -1425,7 +1426,7 @@
     - linkedin: https://www.linkedin.com/in/olga-volkova-61562463/
 
 - name: Samantha Cohen
-  disabled: false
+  disabled: true
   matched: false
   sort: 200
   hours: 2
@@ -1465,7 +1466,7 @@
     - medium: https://medium.com/@samanthacohen294
 
 - name: Anahi Gaetan
-  disabled: false
+  disabled: true
   matched: false
   sort: 200
   hours: 5
@@ -1551,7 +1552,7 @@
     techniques fuels my passion for staying ahead of the curve in software engineering trends. Beyond honing my skills, I find fulfillment in mentoring aspiring tech professionals, guiding them as they navigate their entry into the tech industry.
   image: "assets/images/mentors/mena_esezobor.jpg"
   languages: English
-  availability: [3, 9, 10, 11]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1576,7 +1577,7 @@
     - linkedin: https://www.linkedin.com/in/amenawon-esezobor/
 
 - name: Prerna Singhal
-  disabled: false
+  disabled: true
   matched: false
   sort: 200
   hours: 4
@@ -1731,7 +1732,7 @@
     - linkedin: https://www.linkedin.com/in/prabha-venkatesh-t
 
 - name: Lulu Cao
-  disabled: false
+  disabled: true
   matched: false
   sort: 200
   hours: 2
@@ -1764,7 +1765,7 @@
     - medium: https://medium.com/@lcao_5526
 
 - name: Adnan Salehin
-  disabled: false
+  disabled: true
   matched: false
   sort: 200
   hours: 4
@@ -1872,7 +1873,7 @@
     - linkedin: https://www.linkedin.com/in/lmayra/
 
 - name: Ajeetha Kumari Venkatesan
-  disabled: false
+  disabled: true
   matched: false
   sort: 500
   num_mentee: 1
@@ -1890,7 +1891,7 @@
   image: |
     assets/images/mentors/ajeetha_kumari.jpeg
   languages: English, Tamil, Hindi, Kannada
-  availability: [3, 11]
+  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1915,7 +1916,7 @@
     - linkedin: https://in.linkedin.com/in/ajeetha
 
 - name: Alexey Buzovkin
-  disabled: false
+  disabled: true
   matched: false
   sort: 200
   hours: 5
@@ -1930,7 +1931,7 @@
   image: |
     assets/images/mentors/alexey_buzovkin.jpeg
   languages: English, Russian
-  availability: [11]
+  availability: []
   skills:
     experience: 5-7 Years
     years: 7
@@ -1947,7 +1948,7 @@
     - linkedin: https://www.linkedin.com/in/alexey-buzovkin-6587b7122/
 
 - name: Ciera Fowler
-  disabled: false
+  disabled: true
   matched: false
   sort: 200
   hours: 4
@@ -1985,7 +1986,7 @@
     - linkedin: https://www.linkedin.com/in/ciera-fowler/
 
 - name: Liko Chien
-  disabled: false
+  disabled: true
   matched: false
   sort: 200
   hours: 2
@@ -1998,7 +1999,7 @@
   image: |
     assets/images/mentors/liko_chien.jpg
   languages: English, Mandarin
-  availability: [11]
+  availability: []
   skills:
     experience: 2-4 Years
     years: 4
@@ -2023,7 +2024,7 @@
     - linkedin: https://www.linkedin.com/in/liko-chien-905b42293/
 
 - name: Marie Coquille
-  disabled: false
+  disabled: true
   matched: false
   sort: 200
   hours: 4
@@ -2036,7 +2037,7 @@
   image: |
     assets/images/mentors/marie_coquille.jpeg
   languages: English, French
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 4-5 Years
     years: 5
@@ -2289,23 +2290,23 @@
     mentee: |
       I am looking to help people interested in the robotics field, specially focused on open-source software and/or educational content development. My specialties in robotics include high-level behavior, task and motion planning, and manipulation, but I am willing to branch out and learn with you!
     areas:
-    - Backend Developer
-    - Fullstack Developer
-    - DevOps
-    - Machine Learning
-    - QA
+      - Backend Developer
+      - Fullstack Developer
+      - DevOps
+      - Machine Learning
+      - QA
     languages: Python, Python, C++, C++, Rust
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
-    - Switch career to IT
-    - Grow beyond senior level
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
+      - Grow beyond senior level
     extra: |
       Robotics, Software Engineering, Machine Learning, Simulation, Education
   network:
-  - linkedin: https://www.linkedin.com/in/sebastian-a-castro
-  - website: https://bsky.app/profile/roboticseabass.com
+    - linkedin: https://www.linkedin.com/in/sebastian-a-castro
+    - website: https://bsky.app/profile/roboticseabass.com
 
 - name: Ramona Gawarwala
   disabled: false
@@ -2329,16 +2330,16 @@
     mentee: |
       Motivated and proactive
     areas:
-    - Fullstack Developer
-    - Distributed Systems
-    - DevOps
+      - Fullstack Developer
+      - Distributed Systems
+      - DevOps
     languages: Javascript, Python, Java
     focus:
-    - Grow from beginner to mid-level
+      - Grow from beginner to mid-level
     extra: |
-      Software development, Job Search, Motivation, Career Change, Upskill 
+      Software development, Job Search, Motivation, Career Change, Upskill
   network:
-  - linkedin: https://www.linkedin.com/in/ramona-gawarwala/
+    - linkedin: https://www.linkedin.com/in/ramona-gawarwala/
 
 - name: Sonika Janagill
   disabled: false
@@ -2364,17 +2365,17 @@
     mentee: |
       I'm seeking curious, proactive individuals interested in AI, data engineering, or modern software development. Whether you're transitioning from traditional development to AI/ML, looking to enhance your cloud architecture skills, or aiming to grow as a technical leader, I'd be delighted to support you. I particularly welcome those with clear goals, a commitment to consistent learning. I especially encourage women and underrepresented groups in tech who are navigating technical career paths.
     areas:
-    - Backend Developer
-    - Data Engineering
-    - DevOps
-    - Engineering management
-    - Fullstack Developer
+      - Backend Developer
+      - Data Engineering
+      - DevOps
+      - Engineering management
+      - Fullstack Developer
     languages: Python, Java, Javascript
     focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Change specialisation within IT
-    - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+      - Grow from mid-level to senior-level
     extra: |
       Cloud Architecture & Data Engineering
       CI/CD using Infra As Code
@@ -2386,4 +2387,4 @@
       Building Technical Advocacy Skills
       Work-Life Balance in Technical Careers
   network:
-  - linkedin: https://www.linkedin.com/in/sonikaj/
+    - linkedin: https://www.linkedin.com/in/sonikaj/
