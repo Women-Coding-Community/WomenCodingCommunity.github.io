@@ -901,7 +901,7 @@
     - linkedin: https://www.linkedin.com/in/jjohnson001
 
 - name: Shailaja Koppu
-  disabled: false
+  disabled: true
   matched: false
   hours: 2
   position: Principal software engineer, Apple
@@ -935,18 +935,17 @@
 
 - name: Claudia Lee
   disabled: false
-  matched: true
-  sort: 10
+  sort: 500
   hours: 2
   position: Backend Java Software Engineer, Lloyds Banking Group
-  type: long-term
+  type: both
   index: 30
   location: London, United Kingdom
   bio: |
     I have around 3 years of experience in IT. I am currently working as a Backend Java Software Engineer (Java, Spring, Kafka). Previously I worked as a data analyst (Python, SQL, Power BI) and graduated from Accounting and Finance.
   image: assets/images/mentors/claudia_lee.jpg
   languages: English
-  availability: [4, 5]
+  availability: [3, 4]
   skills:
     experience: 1-2 Years
     years: 2
