@@ -1000,7 +1000,7 @@
 - name: Liliia Rafikova
   disabled: false
   matched: false
-  sort: 600
+  sort: 100
   num_mentee: 7
   hours: 5
   type: both
@@ -1011,7 +1011,7 @@
   image: assets/images/mentors/liliia_rafikova.png
   location: London, UK
   languages: English, Russian
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [ 5, 6, 7, 8, 9, 10, 11 ]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1240,7 +1240,7 @@
 - name: Busra Ecem Sakar
   disabled: false
   matched: false
-  sort: 550
+  sort: 100
   num_mentee: 2
   hours: 4
   type: both
@@ -1252,7 +1252,7 @@
     Biostatistics and Big Data & Data Science Technology. I am an expert in A/B testing, data analysis, statistical modelling, and machine learning, as well as SQL, Python, R, and other tools. My passion is using data to make important business decisions.
   image: "assets/images/mentors/busra_sakar.jpg"
   languages: English, Turkish
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [ 5, 6, 7, 8, 9, 10, 11 ]
   skills:
     experience: 7-10 Years
     years: 10
@@ -1283,7 +1283,7 @@
 - name: Fernanda Martins
   disabled: false
   matched: false
-  sort: 550
+  sort: 100
   num_mentee: 2
   hours: 5
   type: both
@@ -1296,7 +1296,7 @@
     I am community-driven: I have presented at conferences, contributed to open source and like sharing knowledge.
   image: "assets/images/mentors/fernanda_martins.jpg"
   languages: English, Portuguese
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [ 5, 6, 7, 8, 9, 10, 11 ]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1331,7 +1331,7 @@
     🥶 Also, if you get frozen solid when doing test automation, I also offer an guidance on automated testing where we can deep-dive into the code of your choice together.
   image: "assets/images/mentors/gabriel_oliveira.jpg"
   languages: English, Portuguese
-  availability: [ 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
   skills:
     experience: 7-10 Years
     years: 10
@@ -1502,7 +1502,7 @@
 - name: Paula Kennedy
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 2
   type: both
@@ -1515,7 +1515,7 @@
     I also enjoy giving back to the community and I am part of the organising committee for Kubernetes Community Days UK and DevOps Days London, and I also organise the London Platform User Group.
   image: "assets/images/mentors/paula_kennedy.jpeg"
   languages: English
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [ 5, 6, 7, 8, 9, 10, 11 ]
   skills:
     experience: 16+ Years
     years: 16
@@ -1617,7 +1617,7 @@
 - name: Samuela Smolorz
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 4
   type: both
@@ -1629,7 +1629,7 @@
   image: |
     assets/images/mentors/samuela_smolorz.jpeg
   languages: English, Polish
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [ 5, 6, 7, 8, 9, 10, 11 ]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1698,7 +1698,7 @@
 - name: Prabha Venkatesh
   disabled: false
   matched: false
-  sort: 550
+  sort: 100
   num_mentee: 2
   hours: 5
   type: both
@@ -1710,7 +1710,7 @@
   image: |
     assets/images/mentors/prabha_venkatesh.jpeg
   languages: English
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [ 5, 6, 7, 8, 9, 10, 11 ]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1839,7 +1839,7 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 5
   type: both
@@ -1851,7 +1851,7 @@
   image: |
     assets/images/mentors/lidiane_mayra_taquehara.jpeg
   languages: English, Portuguese
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [ 5, 6, 7, 8, 9, 10, 11 ]
   skills:
     experience: 7-10 Years
     years: 10
@@ -2098,7 +2098,7 @@
 - name: Chandeep Khosa
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   hours: 3
   type: both
   index: 62
@@ -2108,7 +2108,7 @@
     I am the Founder & Managing Director of 2Toucans, a digital agency I setup after 20 years as a web developer, technical lead and trainer. My career spans projects delivered for clients such as the United Nations, National Grid, and the University of Oxford. These days I mostly work as a technical consultant, strategist & architect, while also doing some development, and managing teams of developers, designers & marketers to keep our clients happy. Our clients are a nice mix of charities, membership associations, a college & small businesses.
   image: assets/images/mentors/chandeep_khosa.jpeg
   languages: English, Spanish, Italian, Portuguese
-  availability: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [ 5, 6, 7, 8, 9, 10, 11 ]
   skills:
     experience: 16+ Years
     years: 16
@@ -2135,7 +2135,7 @@
 - name: Wilson Adenuga
   disabled: false
   matched: false
-  sort: 600
+  sort: 100
   hours: 4
   type: both
   index: 63
@@ -2145,7 +2145,7 @@
     I am a full-stack engineer specializing in building scalable, accessible web and mobile applications. My expertise spans React.js, React Native, Next.js, Node.js, Python, microservices, and cloud platforms like AWS and Cloudflare. I've led projects in fintech, healthcare, and cybersecurity domains. I'm passionate about mentoring developers, improving code quality, and advocating for best practices in TDD, database design, and web accessibility. I actively contribute to the developer community through mentorship programs and open-source projects.
   image: assets/images/mentors/wilson_adenuga.jpeg
   languages: English
-  availability: [ 3, 5, 6, 7 ]
+  availability: [ 5, 6, 7 ]
   skills:
     experience: 4-5 Years
     years: 5
@@ -2312,7 +2312,7 @@
 - name: Ramona Gawarwala
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 3
   type: both
@@ -2324,7 +2324,7 @@
   image: |
     assets/images/mentors/ramona_gawarwala.jpeg
   languages: English, Romanian
-  availability: [ 3, 5, 6, 7, 8, 9, 10, 11 ]
+  availability: [ 5, 6, 7, 8, 9, 10, 11 ]
   skills:
     experience: 5-7 Years
     years: 7
