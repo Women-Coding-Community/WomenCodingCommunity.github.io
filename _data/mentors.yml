@@ -173,7 +173,7 @@
 
 - name: Ken Pemberton
   disabled: false
-  sort: 500
+  sort: 100
   hours: 4
   type: both
   index: 6
@@ -182,7 +182,7 @@
   image: assets/images/mentors/ken_pemberton.jpeg
   location: Chesham, Buckinghamshire, UK
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -399,7 +399,7 @@
 
 - name: Ana Nogal
   disabled: false
-  sort: 550
+  sort: 100
   num_mentee: 2
   hours: 2
   position: Senior iOS Developer, Novoda
@@ -410,7 +410,7 @@
     Mentoring energises me and aligns with my purpose. I have successfully changed careers and can help you do the same. I aim to help juniors enter the IT workplace, stay there comfortably, and advance their careers when the time is right. But my support doesn’t stop there—I also guide mid-level professionals on their journey to senior roles and help seniors transition into Tech Lead, Engineering Manager, or Staff Engineer positions. No matter where you are in your IT career, I can provide the support and guidance you deserve to achieve your career goals.
   image: assets/images/mentors/ana_nogal.jpg
   languages: English, Spanish, Portuguese
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -936,7 +936,7 @@
 
 - name: Claudia Lee
   disabled: false
-  sort: 500
+  sort: 100
   hours: 2
   position: Backend Java Software Engineer, Lloyds Banking Group
   type: both
@@ -946,7 +946,7 @@
     I have around 3 years of experience in IT. I am currently working as a Backend Java Software Engineer (Java, Spring, Kafka). Previously I worked as a data analyst (Python, SQL, Power BI) and graduated from Accounting and Finance.
   image: assets/images/mentors/claudia_lee.jpg
   languages: English
-  availability: [3, 4]
+  availability: [5, 6]
   skills:
     experience: 1-2 Years
     years: 2
