@@ -301,18 +301,18 @@
     - linkedin: https://www.linkedin.com/in/julia-babahina-cism-crisc-30285440/
 
 - name: Hersi Kopani
-  disabled: true
+  disabled: false
   sort: 100
   hours: 4
   position: Senior Engineer/Lecturer, Walgreens Boots Alliance
-  type: both
+  type: ad-hoc
   index: 10
   location: Albania
   bio: |
     I am a software engineer with around 6 years of experience in software and a special focus on cloud and cybersecurity in the last few years. I design and deliver scalable Java solutions for complex business challenges in the healthcare and retail industry. I leverage my expertise in software development security, cryptography, and network security to ensure the protection and integrity of data and systems. I collaborate with cross-functional teams to develop, test, and deploy high-quality software using Agile methodologies and various frameworks and technologies.
   image: assets/images/mentors/hersi_kopani.jpg
   languages: English
-  availability: [5, 6]
+  availability: [5, 6, 7, 8, 9]
   skills:
     experience: 5-7 Years
     years: 7
@@ -617,7 +617,7 @@
 
 - name: Andrew King
   disabled: false
-  sort: 10
+  sort: 100
   hours: 4
   position: DevOps Engineer, DRW
   type: ad-hoc
@@ -1082,7 +1082,7 @@
     I am a Software Quality Assurance Engineer with a strong commitment to mentoring and contributing to the Women Coding Community. With over four years of experience, I have perfected my expertise in automation tools to ensure flawless project deliveries. My dedication to promoting transparent communication and fostering strong teamwork sets me apart. As your mentor, I am committed to providing invaluable insights, best practices, and unwavering support as you navigate the dynamic field of software testing, including testing strategies and the latest industry trends.
   image: "assets/images/mentors/safiye_ipek.jpg"
   languages: English, Turkish
-  availability: [7, 8, 10, 11]
+  availability: [5, 6, 7, 8, 10, 11]
   skills:
     experience: 4-5 Years
     years: 5
@@ -2389,3 +2389,41 @@
       Work-Life Balance in Technical Careers
   network:
     - linkedin: https://www.linkedin.com/in/sonikaj/
+
+- name: Eniola Oduntan
+  disabled: false
+  matched: false
+  sort: 100
+  num_mentee: 1
+  hours: 4
+  type: long-term
+  index: 70
+  location: Belfast, United Kingdom
+  position: Data Scientist, Analytics Engines
+  bio: |
+    I am Data Scientist with 3 years of experience currently working on building Generative Al, Natural Language Processing and Multimodal solutions. With a strong background in Computational Statistics & Linguistics, Machine Learning and Business Intelligence, some key highlights of my work have been- Designing and implementing traditional machine learning pipelines for predictive models. Designing and implementing Large Language Model based models for automated alt text generation, book indexing and metadata prediction. Owning delivery of analytical projects and high-quality business intelligence solutions. Using data to drive operational excellence and develop sustainable business growth strategies.
+  image: |
+    assets/images/mentors/eniola_oduntani.jpeg
+  languages: English
+  availability: []
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: |
+      People early in their careers, looking to make a switch to tech. People who struggle with selling themselves at interviews.
+    areas:
+      - Data Science
+      - Machine Learning
+      - Business Analysis
+      - Project Management
+    languages: Python
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+    extra: |
+      Resume review
+      Interview preparation 
+      Transitioning from a non-technical background
+  network:
+    - linkedin: http://www.linkedin.com/in/eniola-oduntan
