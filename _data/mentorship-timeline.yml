@@ -33,3 +33,19 @@ long-term-timeline:
     title: "End of the Programme"
     description: >
       The mentor and mentee will agree on their final meeting to conclude their sessions. The Mentorship Programme Team will then hold a meeting for all mentors and mentees to wrap up the mentorship programme and discuss wins, progress, and outcomes of the programme.
+      
+ad-hoc-timeline:
+  - title: "Application period"
+    description: "Every month (from May to November), interested mentees will have the opportunity to apply to the one-time mentorship session program. The application opens at the beginning of each month and it is possible to apply for a mentor during the first 10 days of each month."
+  - title: "Mentee selection"
+    description: "Once the application period has ended, the Mentorship Programme Team will review the applications and select the mentees who will participate in the program for the month."
+  - title: "Mentor notification"
+    description: "The Mentorship Programme Team will send a list of selected mentees to the mentors, along with their profiles and information about their goals and expectations for the mentorship."
+  - title: "Scheduling sessions"
+    description: "The Mentorship Programme Team will share the mentor's Calendly link with the mentees if the mentor has provided it to the team. The team will also communicate this information via email to both the mentor and the mentee."
+  - title: "Session preparation"
+    description: "Before each session, mentors and mentees should prepare and plan for the meeting, setting clear goals and objectives for the session."
+  - title: "Feedback"
+    description: "After one-time session mentors will ask the mentee's feedback on the session and the program itself."
+  - title: "Program evaluation"
+    description: "Both mentor and mentee are responsible for informing the Mentorship Programme Team about the session taking place and providing feedback afterwards. At the end of the year, the Mentorship Programme Team will collect feedback from mentors and evaluate feedback from mentees to identify areas for improvement and make any necessary adjustments."      
