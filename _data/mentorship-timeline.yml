@@ -4,10 +4,10 @@ long-term-timeline:
     description: >
       Mentors can apply for Mentorship throughout the year. Once a profile has been approved and published on the website, the mentor will receive a confirmation email.
 
-  - date: "8th of March - 1st of April, 2025"
+  - date: "8th of March - 31st of March, 2025"
     title: "Registration for mentees is open"
     description: >
-      Mentees will have the opportunity to choose a mentor and apply for a long-term mentorship relationship until the 20th of March.
+      Mentees will have the opportunity to choose a mentor and apply for a long-term mentorship relationship until the end of March.
 
   - date: "8th of April, 2025"
     title: "WCC annual mentorship program launch"
@@ -33,7 +33,7 @@ long-term-timeline:
     title: "End of the Programme"
     description: >
       The mentor and mentee will agree on their final meeting to conclude their sessions. The Mentorship Programme Team will then hold a meeting for all mentors and mentees to wrap up the mentorship programme and discuss wins, progress, and outcomes of the programme.
-      
+
 ad-hoc-timeline:
   - title: "Application period"
     description: "Every month (from May to November), interested mentees will have the opportunity to apply to the one-time mentorship session program. The application opens at the beginning of each month and it is possible to apply for a mentor during the first 10 days of each month."
