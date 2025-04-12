@@ -1,6 +1,6 @@
 - name: Eleonora Belova
   disabled: false
-  sort: 100
+  sort: 500
   hours: 5
   position: Test Automation Engineer, IBM Security
   type: both
@@ -34,7 +34,7 @@
 - name: Rajani Rao
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 3
   hours: 5
   type: both
@@ -105,7 +105,7 @@
 
 - name: Irina Kamalova
   disabled: false
-  sort: 100
+  sort: 500
   num_mentee: 1
   hours: 1
   type: both
@@ -139,7 +139,7 @@
 
 - name: Stephanie Senoner
   disabled: false
-  sort: 200
+  sort: 500
   matched: false
   hours: 5
   type: both
@@ -173,7 +173,7 @@
 
 - name: Ken Pemberton
   disabled: false
-  sort: 100
+  sort: 500
   hours: 4
   type: both
   index: 6
@@ -203,7 +203,7 @@
 - name: Madhura Chaganty
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   hours: 2
   type: ad-hoc
   index: 7
@@ -239,7 +239,7 @@
 - name: Sonali Goel
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 1
   hours: 1
   position: Lead Engineer, Tesco Technology
@@ -272,7 +272,7 @@
 
 - name: Julia Babahina
   disabled: false
-  sort: 550
+  sort: 500
   num_mentee: 2
   hours: 4
   position: Lead Risk Management Specialist, Swift
@@ -282,7 +282,7 @@
   bio: Julia is a Lead Risk Management Specialist at Swift for Product and Strategy with almost ten years of experience in Information Security, IT and Technology. Over the years she worked in numerous financial service organisations where she defined and delivered privacy and data programmes, cyber security and data strategies, policy frameworks and assisted organisations in governing IT risks and controls. She is dedicated to guiding businesses in delivering proportionate and risk aware IT response in line with business goals, compliance requirements and regulations. She is also a Director at Women Coding Community and is passionate about giving back to community and empowering women to excel in technology careers.
   image: assets/images/mentors/julia_babahina.png
   languages: English, Russian
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -302,7 +302,7 @@
 
 - name: Hersi Kopani
   disabled: false
-  sort: 100
+  sort: 500
   hours: 4
   position: Senior Engineer/Lecturer, Walgreens Boots Alliance
   type: ad-hoc
@@ -336,7 +336,7 @@
 
 - name: Ying Liu
   disabled: false
-  sort: 100
+  sort: 500
   hours: 2
   position: Head of AI, R&D TG0
   type: both
@@ -376,7 +376,7 @@
     I am an experienced Software Engineering professional with more than 20 years of expertise in developing software systems across a broad spectrum, ranging from small-scale applications to extensive enterprise infrastructure platforms. My passion lies in teaching software engineering through a humanistic lens, emphasizing user experience while firmly adhering to the fundamental principles of core software engineering.
   image: assets/images/mentors/adegbenga_agoro.jpg
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -399,7 +399,7 @@
 
 - name: Ana Nogal
   disabled: false
-  sort: 100
+  sort: 500
   num_mentee: 2
   hours: 2
   position: Senior iOS Developer, Novoda
@@ -432,7 +432,7 @@
 - name: Monal Sanghvi
   disabled: true
   matched: false
-  sort: 200
+  sort: 50
   hours: 5
   type: both
   index: 14
@@ -463,7 +463,7 @@
 
 - name: Kaylyn Van Norstrand
   disabled: true
-  sort: 10
+  sort: 50
   hours: 4
   position: Software Engineer
   type: both
@@ -497,7 +497,7 @@
 
 - name: Ceri Shaw
   disabled: true
-  sort: 10
+  sort: 50
   hours: 3
   position: Fractional CTO, Thistle Labs
   type: long-term
@@ -530,7 +530,7 @@
 
 - name: Minsang Kim
   disabled: true
-  sort: 100
+  sort: 50
   hours: 4
   position: CTO/Co-founder (previously Machine Learning Scientist at Amazon), Radiant AI
   type: both
@@ -562,7 +562,7 @@
 - name: Kirthikka Devi Venkataram
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   hours: 2
   num_mentee: 3
   position: Senior Technical Project Manager, Confidential
@@ -591,7 +591,7 @@
 
 - name: Mona Ahluwalia
   disabled: true
-  sort: 100
+  sort: 50
   hours: 5
   position: Talent Director, Chapter 2
   type: ad-hoc
@@ -617,7 +617,7 @@
 
 - name: Andrew King
   disabled: false
-  sort: 100
+  sort: 500
   hours: 4
   position: DevOps Engineer, DRW
   type: ad-hoc
@@ -651,7 +651,7 @@
 
 - name: Adeola Adekoyejo
   disabled: false
-  sort: 100
+  sort: 500
   hours: 3
   position: Full stack Engineer
   type: ad-hoc
@@ -681,7 +681,7 @@
 - name: Anastasia
   disabled: false
   matched: false
-  sort: 600
+  sort: 500
   num_mentee: 2
   hours: 5
   position: QA Specialist and Mentor, Trivago
@@ -692,7 +692,7 @@
     ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
   image: assets/images/mentors/anastasia.jpeg
   languages: English, Ukrainian, Russian
-  availability: [3, 4, 5, 6, 7, 8, 9, 11]
+  availability: [5, 6, 7, 8, 9, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -714,7 +714,7 @@
 
 - name: Nonna Shakhova
   disabled: false
-  sort: 100
+  sort: 500
   hours: 4
   position: Data Engineer, Kindred Group
   type: both
@@ -743,7 +743,7 @@
 
 - name: Sakirat Kehinde Usman
   disabled: false
-  sort: 100
+  sort: 500
   num_mentee: 1
   hours: 5
   position: Frontend Development Trainer, Niyo Group Ltd
@@ -774,7 +774,7 @@
 
 - name: Tvisha Dholakia
   disabled: true
-  sort: 100
+  sort: 50
   hours: 4
   position: Co-founder and CBO, apibanking.com
   type: both
@@ -784,7 +784,7 @@
     I'm a co-founder, building in the open banking and developer experience space. apibanking.com is young - for ~2.5 years, we have been developing tech offerings in the financial services space, to solve the friction at the point of integration between traditional banks and the fintech ecosystem. I pursued my undergraduate coursework in Mathematics and Computer Science, and since then, I've spent 5+ years in enterprise technology as a developer as well as a business leader building scale products, and another 5+ years in business building, including product strategy, private equity and venture investments for tech-first players. I have mentored startup founders on product scaling, new market opportunities and fundraising. I'm also exploring angel investing, focusing on next-gen software tech startups.
   image: assets/images/mentors/tvisha_dholakia.jpg
   languages: English
-  availability: [4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -809,7 +809,7 @@
 
 - name: Sahana Venkatesh
   disabled: false
-  sort: 100
+  sort: 500
   hours: 2
   position: Machine learning Engineer, JLR
   type: ad-hoc
@@ -819,7 +819,7 @@
     I hold Masters degree in Electrical Engineering specializing in Datascience. I have worked in tech startups and automotive company. I have have given a lot of interviews and learned through my failures that preparation and practice are the key and I would like to help someone else.
   image: assets/images/mentors/sahana_venkatesh.jpg
   languages: English
-  availability: [4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 years
     years: 7
@@ -844,7 +844,7 @@
 - name: Agrin Hilmkil
   disabled: true
   matched: false
-  sort: 10
+  sort: 50
   hours: 4
   position: Senior Research Engineer, Microsoft Research
   type: long-term
@@ -873,7 +873,7 @@
 
 - name: Jenny Johnson
   disabled: true
-  sort: 10
+  sort: 50
   matched: true
   hours: 2
   position: Senior Software Engineer, Isla Healthcare
@@ -906,14 +906,14 @@
   matched: false
   hours: 2
   position: Principal software engineer, Apple
-  sort: 50
+  sort: 500
   type: ad-hoc
   index: 29
   location: United Kingdom, London
   bio: 18 years of experience in developing highly scalable distributed systems, majorly in data storage systems and fintech domains. Experience driving projects and leading teams
   image: assets/images/mentors/shailaja_koppu.svg
   languages: English
-  availability: [4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -936,7 +936,7 @@
 
 - name: Claudia Lee
   disabled: false
-  sort: 100
+  sort: 500
   hours: 2
   position: Backend Java Software Engineer, Lloyds Banking Group
   type: both
@@ -974,7 +974,7 @@
   image: assets/images/mentors/bryan_boreham.jpeg
   location: London, UK
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1000,7 +1000,7 @@
 - name: Liliia Rafikova
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 7
   hours: 5
   type: both
@@ -1070,7 +1070,7 @@
 - name: Safiye Ipek
   disabled: false
   matched: false
-  sort: 200
+  sort: 500
   hours: 2
   type: ad-hoc
   index: 34
@@ -1105,7 +1105,7 @@
 - name: Bomee Ryu
   disabled: true
   matched: false
-  sort: 100
+  sort: 50
   hours: 3
   type: both
   index: 35
@@ -1135,7 +1135,7 @@
 
 - name: Monique Grinstein
   disabled: true
-  sort: 100
+  sort: 50
   hours: 2
   position: Software Engineer, The LEGO Group
   type: ad-hoc
@@ -1164,7 +1164,7 @@
 
 - name: Rasim Sen
   disabled: true
-  sort: 100
+  sort: 50
   hours: 4
   position: Fullstack Developer/Cloud Architect, Eurostar
   type: both
@@ -1199,7 +1199,7 @@
 - name: Jyoti Yadav
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 2
   hours: 5
   type: both
@@ -1240,7 +1240,7 @@
 - name: Busra Ecem Sakar
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 2
   hours: 4
   type: both
@@ -1283,7 +1283,7 @@
 - name: Fernanda Martins
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 2
   hours: 5
   type: both
@@ -1316,7 +1316,7 @@
 - name: Gabriel Oliveira
   disabled: false
   matched: false
-  sort: 550
+  sort: 500
   num_mentee: 4
   hours: 5
   type: both
@@ -1331,7 +1331,7 @@
     🥶 Also, if you get frozen solid when doing test automation, I also offer an guidance on automated testing where we can deep-dive into the code of your choice together.
   image: "assets/images/mentors/gabriel_oliveira.jpg"
   languages: English, Portuguese
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -1358,7 +1358,7 @@
 - name: Abdul-Mateen Qamardeen
   disabled: true
   matched: false
-  sort: 200
+  sort: 50
   hours: 5
   type: ad-hoc
   index: 42
@@ -1396,7 +1396,7 @@
 - name: Olga Volkova
   disabled: true
   matched: true
-  sort: 10
+  sort: 50
   hours: 2
   type: long-term
   index: 43
@@ -1429,7 +1429,7 @@
 - name: Samantha Cohen
   disabled: true
   matched: false
-  sort: 200
+  sort: 50
   hours: 2
   type: both
   index: 44
@@ -1469,7 +1469,7 @@
 - name: Anahi Gaetan
   disabled: true
   matched: false
-  sort: 200
+  sort: 50
   hours: 5
   type: both
   index: 45
@@ -1502,7 +1502,7 @@
 - name: Paula Kennedy
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 1
   hours: 2
   type: both
@@ -1553,7 +1553,7 @@
     techniques fuels my passion for staying ahead of the curve in software engineering trends. Beyond honing my skills, I find fulfillment in mentoring aspiring tech professionals, guiding them as they navigate their entry into the tech industry.
   image: "assets/images/mentors/mena_esezobor.jpg"
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1580,7 +1580,7 @@
 - name: Prerna Singhal
   disabled: true
   matched: false
-  sort: 200
+  sort: 50
   hours: 4
   type: both
   index: 48
@@ -1617,7 +1617,7 @@
 - name: Samuela Smolorz
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 1
   hours: 4
   type: both
@@ -1698,7 +1698,7 @@
 - name: Prabha Venkatesh
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 2
   hours: 5
   type: both
@@ -1735,7 +1735,7 @@
 - name: Lulu Cao
   disabled: true
   matched: false
-  sort: 200
+  sort: 50
   hours: 2
   type: both
   index: 52
@@ -1768,7 +1768,7 @@
 - name: Adnan Salehin
   disabled: true
   matched: false
-  sort: 200
+  sort: 50
   hours: 4
   type: both
   index: 53
@@ -1818,7 +1818,7 @@
   image: |
     assets/images/mentors/ima-abasi_effiong.jpeg
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1839,7 +1839,7 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 1
   hours: 5
   type: both
@@ -1876,7 +1876,7 @@
 - name: Ajeetha Kumari Venkatesan
   disabled: true
   matched: false
-  sort: 500
+  sort: 50
   num_mentee: 1
   hours: 2
   type: both
@@ -1892,7 +1892,7 @@
   image: |
     assets/images/mentors/ajeetha_kumari.jpeg
   languages: English, Tamil, Hindi, Kannada
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1919,7 +1919,7 @@
 - name: Alexey Buzovkin
   disabled: true
   matched: false
-  sort: 200
+  sort: 50
   hours: 5
   type: both
   index: 57
@@ -1951,7 +1951,7 @@
 - name: Ciera Fowler
   disabled: true
   matched: false
-  sort: 200
+  sort: 50
   hours: 4
   type: both
   index: 58
@@ -1989,7 +1989,7 @@
 - name: Liko Chien
   disabled: true
   matched: false
-  sort: 200
+  sort: 50
   hours: 2
   type: ad-hoc
   index: 59
@@ -2027,7 +2027,7 @@
 - name: Marie Coquille
   disabled: true
   matched: false
-  sort: 200
+  sort: 50
   hours: 4
   type: both
   index: 60
@@ -2058,7 +2058,7 @@
 - name: Kateryna Ogar
   disabled: false
   matched: false
-  sort: 50
+  sort: 200
   hours: 4
   type: both
   index: 61
@@ -2098,7 +2098,7 @@
 - name: Chandeep Khosa
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   hours: 3
   type: both
   index: 62
@@ -2135,7 +2135,7 @@
 - name: Wilson Adenuga
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   hours: 4
   type: both
   index: 63
@@ -2174,7 +2174,7 @@
 - name: Nadezhda Iaromirova
   disabled: false
   matched: false
-  sort: 550
+  sort: 500
   num_mentee: 2
   hours: 2
   bio: |
@@ -2185,7 +2185,7 @@
   type: both
   index: 64
   languages: English, Russian
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -2204,7 +2204,7 @@
 - name: Sergei Begishev
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 1
   hours: 4
   bio: |
@@ -2237,7 +2237,7 @@
 - name: Silda Balla
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 1
   hours: 5
   bio: |
@@ -2272,7 +2272,7 @@
 - name: Sebastian Castro
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 1
   hours: 4
   type: both
@@ -2312,7 +2312,7 @@
 - name: Ramona Gawarwala
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 1
   hours: 3
   type: both
@@ -2345,7 +2345,7 @@
 - name: Sonika Janagill
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 1
   hours: 2
   type: both
@@ -2431,7 +2431,7 @@
 - name: Griswald Brooks
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 4
   type: long-term
@@ -2463,7 +2463,7 @@
 - name: Tiffany Cappeellari
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 2
   type: long-term
