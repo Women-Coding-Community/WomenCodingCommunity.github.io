@@ -1,6 +1,6 @@
 - name: Eleonora Belova
   disabled: false
-  sort: 600
+  sort: 100
   hours: 5
   position: Test Automation Engineer, IBM Security
   type: both
@@ -12,7 +12,7 @@
     Moreover, I am eager to help individuals start their journey in software testing. I can share industry knowledge, assist in reviewing your CV, and provide guidance on various related topics.
   image: assets/images/mentors/eleonora_belova.jpeg
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 2-4 years
     years: 4
@@ -34,7 +34,7 @@
 - name: Rajani Rao
   disabled: false
   matched: false
-  sort: 600
+  sort: 100
   num_mentee: 3
   hours: 5
   type: both
@@ -45,7 +45,7 @@
   image: assets/images/mentors/rajani_rao.jpeg
   location: Cambridge, UK
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ years
     years: 16
@@ -173,7 +173,7 @@
 
 - name: Ken Pemberton
   disabled: false
-  sort: 500
+  sort: 100
   hours: 4
   type: both
   index: 6
@@ -182,7 +182,7 @@
   image: assets/images/mentors/ken_pemberton.jpeg
   location: Chesham, Buckinghamshire, UK
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -239,7 +239,7 @@
 - name: Sonali Goel
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 1
   position: Lead Engineer, Tesco Technology
@@ -250,7 +250,7 @@
     Sonali serves as a Lead Engineer at Yoox-Net-a-porter, specializing in managing and constructing extensive-scale ecommerce solutions. She leverages Java-based commerce platforms and integrates them with open-source technologies like Spring Boot and Spring Batch. As an AWS-certified Solution Architect, she possesses deep knowledge of Amazon Web Services, complemented by proficiency in implementing continuous integration and continuous deployment (CICD) practices to ensure seamless software delivery. Additionally, she excels in architecting and implementing microservices-based architectures to drive agility and modularity in software development With over 13 years of experience in the technology industry, Sonali brings a wealth of expertise in steering technical direction and fostering high-performance outcomes. Her passion lies in nurturing a culture of continuous learning and innovation. Outside of her professional endeavors, Sonali actively volunteers with Women Who Code, advocating for gender diversity. She is also a creative enthusiast, utilizing design templates to convey ideas, thoughts, and emotions visually.
   image: assets/images/mentors/sonali_goel.jpg
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -301,18 +301,18 @@
     - linkedin: https://www.linkedin.com/in/julia-babahina-cism-crisc-30285440/
 
 - name: Hersi Kopani
-  disabled: true
+  disabled: false
   sort: 100
   hours: 4
   position: Senior Engineer/Lecturer, Walgreens Boots Alliance
-  type: both
+  type: ad-hoc
   index: 10
   location: Albania
   bio: |
     I am a software engineer with around 6 years of experience in software and a special focus on cloud and cybersecurity in the last few years. I design and deliver scalable Java solutions for complex business challenges in the healthcare and retail industry. I leverage my expertise in software development security, cryptography, and network security to ensure the protection and integrity of data and systems. I collaborate with cross-functional teams to develop, test, and deploy high-quality software using Agile methodologies and various frameworks and technologies.
   image: assets/images/mentors/hersi_kopani.jpg
   languages: English
-  availability: [5, 6]
+  availability: [5, 6, 7, 8, 9]
   skills:
     experience: 5-7 Years
     years: 7
@@ -336,7 +336,7 @@
 
 - name: Ying Liu
   disabled: false
-  sort: 500
+  sort: 100
   hours: 2
   position: Head of AI, R&D TG0
   type: both
@@ -346,7 +346,7 @@
     I have a Ph.D in Physics and 4-years experience working in the field of machine learning. I published 4 papers and 2 under submission. My expertise sits in few-shot learning, CNN, Diffusion model and transformers with model architecture building using TensorFlow and PyTorch.
   image: assets/images/mentors/ying_liu.jpg
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 4-5 Years
     years: 5
@@ -399,7 +399,7 @@
 
 - name: Ana Nogal
   disabled: false
-  sort: 550
+  sort: 100
   num_mentee: 2
   hours: 2
   position: Senior iOS Developer, Novoda
@@ -410,7 +410,7 @@
     Mentoring energises me and aligns with my purpose. I have successfully changed careers and can help you do the same. I aim to help juniors enter the IT workplace, stay there comfortably, and advance their careers when the time is right. But my support doesn’t stop there—I also guide mid-level professionals on their journey to senior roles and help seniors transition into Tech Lead, Engineering Manager, or Staff Engineer positions. No matter where you are in your IT career, I can provide the support and guidance you deserve to achieve your career goals.
   image: assets/images/mentors/ana_nogal.jpg
   languages: English, Spanish, Portuguese
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -562,7 +562,7 @@
 - name: Kirthikka Devi Venkataram
   disabled: false
   matched: false
-  sort: 600
+  sort: 100
   hours: 2
   num_mentee: 3
   position: Senior Technical Project Manager, Confidential
@@ -573,7 +573,7 @@
     Kirthikka Devi Venkataram is a seasoned Manager, a Mentor to Women Coding Community and Design Thinking practitioner. She has good experience handling global team, leading and guiding engineers working for industries like automotive and telecommunication delivering products for more than 10 years. Led a global team in the past mentoring cycle providing necessary study materials and preparatory approach in the area of Generative AI working with the team. Her focus is on B2B segments of vertical business markets generating revenue and product success by delivering flawless products. She is keen to leverage design thinking and data driven approach working cross functionally and orchestrating activities across organization working for product's growth and increasing revenue. With business agility, she focuses dissecting business outcomes, engineering design and empathizing customers in her career journey. She was a Technical Event Coordinator since college days and hosted events. She was a Cohort Representative of Executive Program - 2021 offered by Indian Institute of Management Luck now collaborating with diverse people from multiple industry verticals with the organizers and Professors. Extending her involvement in organizational activities, she has conducted prospects tours that recognized her leadership skills. She works towards empowering women collaborating in external forums and offers mentorship support.
   image: assets/images/mentors/kirthikka_devi_venkataram.jpg
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -617,7 +617,7 @@
 
 - name: Andrew King
   disabled: false
-  sort: 10
+  sort: 100
   hours: 4
   position: DevOps Engineer, DRW
   type: ad-hoc
@@ -681,7 +681,7 @@
 - name: Anastasia
   disabled: false
   matched: false
-  sort: 550
+  sort: 600
   num_mentee: 2
   hours: 5
   position: QA Specialist and Mentor, Trivago
@@ -714,7 +714,7 @@
 
 - name: Nonna Shakhova
   disabled: false
-  sort: 600
+  sort: 100
   hours: 4
   position: Data Engineer, Kindred Group
   type: both
@@ -724,7 +724,7 @@
     Experienced Data Engineer with over 7 years experience in SQL, Python, AWS and BigQuery. Focus on ETL processes and data pipelines for reliable and high quality data. Currently working on data modelling and data catalogue solutions.
   image: assets/images/mentors/nonna_shakhova.jpg
   languages: English, Russian
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -743,7 +743,7 @@
 
 - name: Sakirat Kehinde Usman
   disabled: false
-  sort: 550
+  sort: 100
   num_mentee: 1
   hours: 5
   position: Frontend Development Trainer, Niyo Group Ltd
@@ -754,7 +754,7 @@
     I am a frontend engineer with over 3 years of experience in frontend development. I am excellent at building user interfaces and bringing web functionalities to life. I have worked on various projects ranging from fintech to agriculture.
   image: assets/images/mentors/sakirat_kehinde_usman.jpg
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 4-5 years
     years: 5
@@ -936,7 +936,7 @@
 
 - name: Claudia Lee
   disabled: false
-  sort: 500
+  sort: 100
   hours: 2
   position: Backend Java Software Engineer, Lloyds Banking Group
   type: both
@@ -946,7 +946,7 @@
     I have around 3 years of experience in IT. I am currently working as a Backend Java Software Engineer (Java, Spring, Kafka). Previously I worked as a data analyst (Python, SQL, Power BI) and graduated from Accounting and Finance.
   image: assets/images/mentors/claudia_lee.jpg
   languages: English
-  availability: [3, 4]
+  availability: [5, 6]
   skills:
     experience: 1-2 Years
     years: 2
@@ -1000,7 +1000,7 @@
 - name: Liliia Rafikova
   disabled: false
   matched: false
-  sort: 600
+  sort: 100
   num_mentee: 7
   hours: 5
   type: both
@@ -1011,7 +1011,7 @@
   image: assets/images/mentors/liliia_rafikova.png
   location: London, UK
   languages: English, Russian
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1082,7 +1082,7 @@
     I am a Software Quality Assurance Engineer with a strong commitment to mentoring and contributing to the Women Coding Community. With over four years of experience, I have perfected my expertise in automation tools to ensure flawless project deliveries. My dedication to promoting transparent communication and fostering strong teamwork sets me apart. As your mentor, I am committed to providing invaluable insights, best practices, and unwavering support as you navigate the dynamic field of software testing, including testing strategies and the latest industry trends.
   image: "assets/images/mentors/safiye_ipek.jpg"
   languages: English, Turkish
-  availability: [7, 8, 10, 11]
+  availability: [5, 6, 7, 8, 10, 11]
   skills:
     experience: 4-5 Years
     years: 5
@@ -1199,7 +1199,7 @@
 - name: Jyoti Yadav
   disabled: false
   matched: false
-  sort: 550
+  sort: 100
   num_mentee: 2
   hours: 5
   type: both
@@ -1212,7 +1212,7 @@
     I have been mentor at AI hackathons and London Business School.
   image: "assets/images/mentors/jyoti_yadav.jpg"
   languages: English, Hindi
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1240,7 +1240,7 @@
 - name: Busra Ecem Sakar
   disabled: false
   matched: false
-  sort: 550
+  sort: 100
   num_mentee: 2
   hours: 4
   type: both
@@ -1252,7 +1252,7 @@
     Biostatistics and Big Data & Data Science Technology. I am an expert in A/B testing, data analysis, statistical modelling, and machine learning, as well as SQL, Python, R, and other tools. My passion is using data to make important business decisions.
   image: "assets/images/mentors/busra_sakar.jpg"
   languages: English, Turkish
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -1283,7 +1283,7 @@
 - name: Fernanda Martins
   disabled: false
   matched: false
-  sort: 550
+  sort: 100
   num_mentee: 2
   hours: 5
   type: both
@@ -1296,7 +1296,7 @@
     I am community-driven: I have presented at conferences, contributed to open source and like sharing knowledge.
   image: "assets/images/mentors/fernanda_martins.jpg"
   languages: English, Portuguese
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1502,7 +1502,7 @@
 - name: Paula Kennedy
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 2
   type: both
@@ -1515,7 +1515,7 @@
     I also enjoy giving back to the community and I am part of the organising committee for Kubernetes Community Days UK and DevOps Days London, and I also organise the London Platform User Group.
   image: "assets/images/mentors/paula_kennedy.jpeg"
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1617,7 +1617,7 @@
 - name: Samuela Smolorz
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 4
   type: both
@@ -1629,7 +1629,7 @@
   image: |
     assets/images/mentors/samuela_smolorz.jpeg
   languages: English, Polish
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1698,7 +1698,7 @@
 - name: Prabha Venkatesh
   disabled: false
   matched: false
-  sort: 550
+  sort: 100
   num_mentee: 2
   hours: 5
   type: both
@@ -1710,7 +1710,7 @@
   image: |
     assets/images/mentors/prabha_venkatesh.jpeg
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1839,7 +1839,7 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 5
   type: both
@@ -1851,7 +1851,7 @@
   image: |
     assets/images/mentors/lidiane_mayra_taquehara.jpeg
   languages: English, Portuguese
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -2058,7 +2058,7 @@
 - name: Kateryna Ogar
   disabled: false
   matched: false
-  sort: 600
+  sort: 50
   hours: 4
   type: both
   index: 61
@@ -2070,7 +2070,7 @@
     I’m also a proud mentor in the Women in Tech (6.0) program and am ranked in the Top 1% of Product Mentors on ADPList, where I’ve helped mentees like you unlock their full potential, drive innovations and secure new jobs. If you're ready to take your career to the next level and make an impact in tech, let’s work together to shape your journey!
   image: assets/images/mentors/kateryna_ogar.jpeg
   languages: English, Russian, Ukranian
-  availability: [3]
+  availability: []
   skills:
     experience: 5-7 Years
     years: 7
@@ -2098,7 +2098,7 @@
 - name: Chandeep Khosa
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   hours: 3
   type: both
   index: 62
@@ -2108,7 +2108,7 @@
     I am the Founder & Managing Director of 2Toucans, a digital agency I setup after 20 years as a web developer, technical lead and trainer. My career spans projects delivered for clients such as the United Nations, National Grid, and the University of Oxford. These days I mostly work as a technical consultant, strategist & architect, while also doing some development, and managing teams of developers, designers & marketers to keep our clients happy. Our clients are a nice mix of charities, membership associations, a college & small businesses.
   image: assets/images/mentors/chandeep_khosa.jpeg
   languages: English, Spanish, Italian, Portuguese
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -2135,7 +2135,7 @@
 - name: Wilson Adenuga
   disabled: false
   matched: false
-  sort: 600
+  sort: 100
   hours: 4
   type: both
   index: 63
@@ -2145,7 +2145,7 @@
     I am a full-stack engineer specializing in building scalable, accessible web and mobile applications. My expertise spans React.js, React Native, Next.js, Node.js, Python, microservices, and cloud platforms like AWS and Cloudflare. I've led projects in fintech, healthcare, and cybersecurity domains. I'm passionate about mentoring developers, improving code quality, and advocating for best practices in TDD, database design, and web accessibility. I actively contribute to the developer community through mentorship programs and open-source projects.
   image: assets/images/mentors/wilson_adenuga.jpeg
   languages: English
-  availability: [3, 5, 6, 7]
+  availability: [5, 6, 7]
   skills:
     experience: 4-5 Years
     years: 5
@@ -2179,7 +2179,7 @@
   hours: 2
   bio: |
     As a 360° digital marketing expert with 15+ years of experience, I would be happy to offer professional advice and provide mentorship to those at the entry-level or mid-level of their careers. My experience is primarily in enterprise-level software companies, focusing on data protection and cybersecurity. I bring expertise in web and IT-specific project management, complex technical product delivery, and web production.
-  position: Sr. IT Project Manager, Aceonis
+  position: Sr. IT Project Manager, Acronis
   image: assets/images/mentors/nadezhda_laromirova.jpeg
   location: Bulgaria, Sofia
   type: both
@@ -2204,7 +2204,7 @@
 - name: Sergei Begishev
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 4
   bio: |
@@ -2215,7 +2215,7 @@
   type: both
   index: 65
   languages: English, Russian
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -2237,7 +2237,7 @@
 - name: Silda Balla
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 5
   bio: |
@@ -2248,7 +2248,7 @@
   type: both
   index: 66
   languages: English, Spanish, Italian, French
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 4-5 Years
     years: 5
@@ -2272,7 +2272,7 @@
 - name: Sebastian Castro
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 4
   type: both
@@ -2284,7 +2284,7 @@
   image: |
     assets/images/mentors/sebastian_castro.jpeg
   languages: English, Spanish
-  availability: [3, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -2312,7 +2312,7 @@
 - name: Ramona Gawarwala
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 3
   type: both
@@ -2324,7 +2324,7 @@
   image: |
     assets/images/mentors/ramona_gawarwala.jpeg
   languages: English, Romanian
-  availability: [3, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -2345,7 +2345,7 @@
 - name: Sonika Janagill
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 2
   type: both
@@ -2359,7 +2359,7 @@
   image: |
     assets/images/mentors/sonika_janagill.jpeg
   languages: English, Hindi, Punjabi
-  availability: [3, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -2389,3 +2389,153 @@
       Work-Life Balance in Technical Careers
   network:
     - linkedin: https://www.linkedin.com/in/sonikaj/
+
+- name: Eniola Oduntan
+  disabled: false
+  matched: false
+  sort: 100
+  num_mentee: 1
+  hours: 4
+  type: long-term
+  index: 70
+  location: Belfast, United Kingdom
+  position: Data Scientist, Analytics Engines
+  bio: |
+    I am Data Scientist with 3 years of experience currently working on building Generative Al, Natural Language Processing and Multimodal solutions. With a strong background in Computational Statistics & Linguistics, Machine Learning and Business Intelligence, some key highlights of my work have been- Designing and implementing traditional machine learning pipelines for predictive models. Designing and implementing Large Language Model based models for automated alt text generation, book indexing and metadata prediction. Owning delivery of analytical projects and high-quality business intelligence solutions. Using data to drive operational excellence and develop sustainable business growth strategies.
+  image: |
+    assets/images/mentors/eniola_oduntani.jpeg
+  languages: English
+  availability: []
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: |
+      People early in their careers, looking to make a switch to tech. People who struggle with selling themselves at interviews.
+    areas:
+      - Data Science
+      - Machine Learning
+      - Business Analysis
+      - Project Management
+    languages: Python
+    focus:
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+    extra: |
+      Resume review
+      Interview preparation 
+      Transitioning from a non-technical background
+  network:
+    - linkedin: http://www.linkedin.com/in/eniola-oduntan
+
+- name: Griswald Brooks
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 4
+  type: long-term
+  index: 73
+  location: Boston, MA
+  position: Senior Robotics Engineer, PickNik Robotics
+  bio: |
+    10 years of experience building mobile robots
+  image: |
+    assets/images/mentors/griswald_brooks.jpeg
+  languages: English
+  availability: []
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: |
+      Engineers with a solid foundation that need a little guidance
+    areas: []
+    languages: C++, Python
+    focus:
+    - Grow from mid-level to senior-level
+    - Grow from beginner to mid-level
+    extra: |
+      Robotics software development
+  network:
+  - linkedin: https://www.linkedin.com/in/griswaldbrooks/
+  - website: https://bsky.app/profile/griswaldbrooks.bsky.social
+
+- name: Tiffany Cappeellari
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 2
+  type: long-term
+  index: 74
+  location: Boston, MA, USA
+  position: Roboticist, RAI Institute
+  bio: |
+    I am currently a roboticist/software engineer at the RAI Institute in Boston, MA. At RAI, I work as part of the Robotics API Development Team to build APIs and platforms for our researchers to develop on. I work closely with many of the research teams and am the primary maintainer for our Spot ROS 2 driver and related repositories. Last year, I also had the privilege of presenting our work on this driver at ROSCon 2024. 
+
+    Before RAI, I lived in San Antonio, TX for a few years where I worked as a robotics software engineer at Southwest Research Institute (SwRI). At SwRI, I worked on various industrial automation projects using robots to complete tasks such as sanding, painting, welding, and taking x-rays. I also presented my work at several conferences and was the lead trainer for the ROS-Industrial classes SwRI hosted throughout the year. 
+
+    I completed both my bachelors and masters studies at UC Berkeley in studied electrical engineering and computer science with a focus on robotics and control theory. During my time there, I worked as a student researcher in the Biomimetic Millisystems Lab working on various robotics and controls research projects and was also a TA/GSI for the robotics courses. 
+  image: |
+    assets/images/mentors/tiffany_cappeellari.jpeg
+  languages: English
+  availability: []
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: |
+      I'm looking for mentees that want to work in robotics! I'm looking for people that are recent/soon-to-be graduates and/or early career or wanting to switch industries into robotics or automation. 
+    areas:
+    - Backend Developer
+    - Project Management
+    - Engineering management
+    - Backend Developer
+    - Backend Developer
+    languages: Python, Python, Python, C++, C++
+    focus:
+    - Grow from beginner to mid-level
+    - Grow from beginner to mid-level
+    - Grow from beginner to mid-level
+    - Change specialisation within IT
+    - Change specialisation within IT
+    extra: |
+      software development, resume review, technical and non-technical interview prep, graduate school applications, research
+  network:
+  - linkedin: https://www.linkedin.com/in/tiffany-cappellari-199174149/
+
+- name: Lakshmi Balakrishnan
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 3
+  type: both
+  index: 75
+  location: 'Birmingham, UK '
+  position: senior software engineer, Shopworks
+  bio: |
+    I have been working in the tech industry for 12 years now - as a backend engineer, specialising in Php, even though I have worked with a few other languages and was a front end developer a life time ago. 
+  image: |
+    assets/images/mentors/lakshmi_balakrishnan.jpeg
+  languages: English
+  availability: [5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      I am looking ideally someone who want to grow in their career and would benefit from the insights of someone who has been in the industry for a while.
+    areas:
+    - Backend Developer
+    - QA
+    - Fullstack Developer
+    - Distributed Systems
+    - Frontend Developer
+    languages: Python, Javascript
+    focus:
+    - Switch career to IT
+    - Grow from mid-level to senior-level
+    - Change specialisation within IT
+    extra: |
+      Software development strategies, career goals
+  network:
+  - linkedin: https://www.linkedin.com/in/lakshmi-balakrishnan-21b3a253

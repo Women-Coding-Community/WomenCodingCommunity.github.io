@@ -391,6 +391,9 @@ def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=1):
         new_index = df_yml['Index'].max().item() + 1
 
         for row in range(0, len(df_mentors)):
+            if df_mentors.iloc[row].isnull().all():
+                break
+
             mentor_name = df_mentors.iloc[row].values[2].strip().lower()
 
             if df_yml.loc[df_yml.Name == mentor_name].empty:

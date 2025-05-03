@@ -34,6 +34,16 @@
       breadcrumbs:
         - name: Mentorship
           link: mentorship
+    - page: Long-Term Timeline
+      url: mentorship-long-term-timeline
+      breadcrumbs:
+      - name: Mentorship
+        link: mentorship
+    - page: Ad-hoc Timeline
+      url: mentorship-adhoc-timeline
+      breadcrumbs:
+      - name: Mentorship
+        link: mentorship    
 - name: Programmes
   index: 2
   subfolderitems:
