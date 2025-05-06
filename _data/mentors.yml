@@ -743,7 +743,7 @@
 
 - name: Sakirat Kehinde Usman
   disabled: false
-  sort: 100
+  sort: 500
   hours: 5
   position: Frontend Development Trainer, Niyo Group Ltd
   type: long-term
@@ -819,6 +819,7 @@
     I hold Masters degree in Electrical Engineering specializing in Datascience. I have worked in tech startups and automotive company. I have have given a lot of interviews and learned through my failures that preparation and practice are the key and I would like to help someone else.
   image: assets/images/mentors/sahana_venkatesh.jpg
   languages: English
+  availability: [ 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 years
     years: 7
@@ -2177,7 +2178,7 @@
 - name: Nadezhda Iaromirova
   disabled: false
   matched: false
-  sort: 550
+  sort: 100
   num_mentee: 2
   hours: 2
   bio: |
@@ -2188,7 +2189,7 @@
   type: both
   index: 64
   languages: English, Russian
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [3, 4,5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
