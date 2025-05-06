@@ -434,7 +434,7 @@
 - name: Monal Sanghvi
   disabled: false
   matched: false
-  sort: 200
+  sort: 10
   hours: 5
   type: both
   index: 14
@@ -1136,7 +1136,7 @@
 
 - name: Monique Grinstein
   disabled: false
-  sort: 100
+  sort: 10
   hours: 2
   position: Software Engineer, The LEGO Group
   type: ad-hoc
@@ -1770,7 +1770,7 @@
 - name: Adnan Salehin
   disabled: false
   matched: false
-  sort: 100
+  sort: 10
   hours: 4
   type: both
   index: 53
@@ -1783,7 +1783,6 @@
   image: |
     assets/images/mentors/adnan_salehin.jpeg
   languages: English
-  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -2060,7 +2059,7 @@
 - name: Kateryna Ogar
   disabled: false
   matched: false
-  sort: 600
+  sort: 10
   hours: 4
   type: both
   index: 61
@@ -2072,7 +2071,7 @@
     I’m also a proud mentor in the Women in Tech (6.0) program and am ranked in the Top 1% of Product Mentors on ADPList, where I’ve helped mentees like you unlock their full potential, drive innovations and secure new jobs. If you're ready to take your career to the next level and make an impact in tech, let’s work together to shape your journey!
   image: assets/images/mentors/kateryna_ogar.jpeg
   languages: English, Russian, Ukranian
-  availability: [3]
+  availability: [2,3]
   skills:
     experience: 5-7 Years
     years: 7
