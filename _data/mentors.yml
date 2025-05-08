@@ -2096,7 +2096,7 @@
     - website: https://adplist.org/mentors/kateryna-ogar
 
 - name: Chandeep Khosa
-  disabled: false
+  disabled: true
   matched: false
   sort: 100
   hours: 3
