@@ -1,32 +1,36 @@
 {% assign days_open = site.registration | plus: 0 %}
 
 <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLScWv7ogWbVOrC0QzHxA3ECcZsAFxa6g9kfWNU_pASSonYcXXA/viewform?usp=pp_url&entry.1312182139=1.+{{mentor.name}}"
-        id="registration-link-{{mentor.index}}" class="btn d-none" target="_blank"
->
-    Apply for this mentor
+  href="https://docs.google.com/forms/d/e/1FAIpQLSeoMLS2K-DYF16uXALXrJtHJMqQZSNDYcFh0nYmBFV2GHM6ig/viewform?usp=pp_url&entry.278075030={{mentor.name}}"
+  id="registration-link-{{mentor.index}}"
+  class="btn d-none"
+  target="_blank">
+  Apply for this mentor
 </a>
 <p
-        class="card-text d-none" id="adhoc-unavailable-{{mentor.index}}" data-toggle="tooltip" data-placement="bottom"
-        data-html="true"
-        title="This mentor is not available for ad-hoc sessions this month"
->
-    Not available
-    <span>{% include icons/question-fill.svg %}</span>
+  class="card-text d-none"
+  id="adhoc-unavailable-{{mentor.index}}"
+  data-toggle="tooltip"
+  data-placement="bottom"
+  data-html="true"
+  title="This mentor is not available for ad-hoc sessions this month">
+  Not available
+  <span>{% include icons/question-fill.svg %}</span>
 </p>
 <p
-        class="card-text d-none" id="long-term-only-{{mentor.index}}" data-toggle="tooltip" data-placement="bottom"
-        data-html="true"
-        title="Only available for long-term mentorship"
->
-    Long Term Mentor
-    <span>{% include icons/question-fill.svg %}</span>
+  class="card-text d-none"
+  id="long-term-only-{{mentor.index}}"
+  data-toggle="tooltip"
+  data-placement="bottom"
+  data-html="true"
+  title="Only available for long-term mentorship">
+  Long Term Mentor
+  <span>{% include icons/question-fill.svg %}</span>
 </p>
 
 <div
-        class="d-none" id="mentor-info-{{mentor.index}}"
-        data-availability="{{ mentor.availability | join: ',' }}"
-        data-type="{{ mentor.type }}"
-        data-days-open="{{ days_open }}"
->
-</div>
+  class="d-none"
+  id="mentor-info-{{mentor.index}}"
+  data-availability="{{ mentor.availability | join: ',' }}"
+  data-type="{{ mentor.type }}"
+  data-days-open="{{ days_open }}"></div>

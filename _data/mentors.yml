@@ -681,7 +681,7 @@
 - name: Anastasia
   disabled: false
   matched: false
-  sort: 600
+  sort: 100
   num_mentee: 2
   hours: 5
   position: QA Specialist and Mentor, Trivago
@@ -692,7 +692,7 @@
     ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
   image: assets/images/mentors/anastasia.jpeg
   languages: English, Ukrainian, Russian
-  availability: [3, 4, 5, 6, 7, 8, 9, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -2096,7 +2096,7 @@
     - website: https://adplist.org/mentors/kateryna-ogar
 
 - name: Chandeep Khosa
-  disabled: false
+  disabled: true
   matched: false
   sort: 100
   hours: 3
@@ -2452,13 +2452,13 @@
     areas: []
     languages: C++, Python
     focus:
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
     extra: |
       Robotics software development
   network:
-  - linkedin: https://www.linkedin.com/in/griswaldbrooks/
-  - website: https://bsky.app/profile/griswaldbrooks.bsky.social
+    - linkedin: https://www.linkedin.com/in/griswaldbrooks/
+    - website: https://bsky.app/profile/griswaldbrooks.bsky.social
 
 - name: Tiffany Cappeellari
   disabled: false
@@ -2475,7 +2475,7 @@
 
     Before RAI, I lived in San Antonio, TX for a few years where I worked as a robotics software engineer at Southwest Research Institute (SwRI). At SwRI, I worked on various industrial automation projects using robots to complete tasks such as sanding, painting, welding, and taking x-rays. I also presented my work at several conferences and was the lead trainer for the ROS-Industrial classes SwRI hosted throughout the year. 
 
-    I completed both my bachelors and masters studies at UC Berkeley in studied electrical engineering and computer science with a focus on robotics and control theory. During my time there, I worked as a student researcher in the Biomimetic Millisystems Lab working on various robotics and controls research projects and was also a TA/GSI for the robotics courses. 
+    I completed both my bachelors and masters studies at UC Berkeley in studied electrical engineering and computer science with a focus on robotics and control theory. During my time there, I worked as a student researcher in the Biomimetic Millisystems Lab working on various robotics and controls research projects and was also a TA/GSI for the robotics courses.
   image: |
     assets/images/mentors/tiffany_cappeellari.jpeg
   languages: English
@@ -2484,24 +2484,24 @@
     experience: 4-5 Years
     years: 5
     mentee: |
-      I'm looking for mentees that want to work in robotics! I'm looking for people that are recent/soon-to-be graduates and/or early career or wanting to switch industries into robotics or automation. 
+      I'm looking for mentees that want to work in robotics! I'm looking for people that are recent/soon-to-be graduates and/or early career or wanting to switch industries into robotics or automation.
     areas:
-    - Backend Developer
-    - Project Management
-    - Engineering management
-    - Backend Developer
-    - Backend Developer
+      - Backend Developer
+      - Project Management
+      - Engineering management
+      - Backend Developer
+      - Backend Developer
     languages: Python, Python, Python, C++, C++
     focus:
-    - Grow from beginner to mid-level
-    - Grow from beginner to mid-level
-    - Grow from beginner to mid-level
-    - Change specialisation within IT
-    - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Grow from beginner to mid-level
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Change specialisation within IT
     extra: |
       software development, resume review, technical and non-technical interview prep, graduate school applications, research
   network:
-  - linkedin: https://www.linkedin.com/in/tiffany-cappellari-199174149/
+    - linkedin: https://www.linkedin.com/in/tiffany-cappellari-199174149/
 
 - name: Lakshmi Balakrishnan
   disabled: false
@@ -2511,10 +2511,10 @@
   hours: 3
   type: both
   index: 75
-  location: 'Birmingham, UK '
+  location: "Birmingham, UK "
   position: senior software engineer, Shopworks
   bio: |
-    I have been working in the tech industry for 12 years now - as a backend engineer, specialising in Php, even though I have worked with a few other languages and was a front end developer a life time ago. 
+    I have been working in the tech industry for 12 years now - as a backend engineer, specialising in Php, even though I have worked with a few other languages and was a front end developer a life time ago.
   image: |
     assets/images/mentors/lakshmi_balakrishnan.jpeg
   languages: English
@@ -2525,17 +2525,17 @@
     mentee: |
       I am looking ideally someone who want to grow in their career and would benefit from the insights of someone who has been in the industry for a while.
     areas:
-    - Backend Developer
-    - QA
-    - Fullstack Developer
-    - Distributed Systems
-    - Frontend Developer
+      - Backend Developer
+      - QA
+      - Fullstack Developer
+      - Distributed Systems
+      - Frontend Developer
     languages: Python, Javascript
     focus:
-    - Switch career to IT
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
     extra: |
       Software development strategies, career goals
   network:
-  - linkedin: https://www.linkedin.com/in/lakshmi-balakrishnan-21b3a253
+    - linkedin: https://www.linkedin.com/in/lakshmi-balakrishnan-21b3a253
