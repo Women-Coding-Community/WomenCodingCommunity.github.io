@@ -115,6 +115,13 @@
 - index: 2 # Rajani
   feedback:
     - score: 5
+      date: 20250509
+      date-f: 09 May 2025
+      feedback: |
+        My session with Rajani exceeded my expectations. She's calm, caring, and incredibly knowledgeable. She offered valuable guidance not only on my career but also on life in general. Rajani truly embodies a growth mindset. I highly recommend her to any mentee seeking direction delivered with both compassion and wisdom.
+      name: Busra
+      type: Long Term Mentorship
+    - score: 5
       date: 20240805
       date-f: 05 August 2024
       feedback: |
