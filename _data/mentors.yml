@@ -312,7 +312,7 @@
     I am a software engineer with around 6 years of experience in software and a special focus on cloud and cybersecurity in the last few years. I design and deliver scalable Java solutions for complex business challenges in the healthcare and retail industry. I leverage my expertise in software development security, cryptography, and network security to ensure the protection and integrity of data and systems. I collaborate with cross-functional teams to develop, test, and deploy high-quality software using Agile methodologies and various frameworks and technologies.
   image: assets/images/mentors/hersi_kopani.jpg
   languages: English
-  availability: [5, 6, 7, 8, 9]
+  availability: [5, 6, 7, 8, 9,10,11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -820,7 +820,7 @@
     I hold Masters degree in Electrical Engineering specializing in Datascience. I have worked in tech startups and automotive company. I have have given a lot of interviews and learned through my failures that preparation and practice are the key and I would like to help someone else.
   image: assets/images/mentors/sahana_venkatesh.jpg
   languages: English
-  availability: [4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 years
     years: 7
@@ -907,14 +907,14 @@
   matched: false
   hours: 2
   position: Principal software engineer, Apple
-  sort: 50
+  sort: 100
   type: ad-hoc
   index: 29
   location: United Kingdom, London
   bio: 18 years of experience in developing highly scalable distributed systems, majorly in data storage systems and fintech domains. Experience driving projects and leading teams
   image: assets/images/mentors/shailaja_koppu.svg
   languages: English
-  availability: [4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -966,7 +966,7 @@
 - name: Bryan Boreham
   disabled: false
   hours: 4
-  sort: 500
+  sort: 100
   num_mentee: 1
   type: both
   index: 31
@@ -976,7 +976,7 @@
   image: assets/images/mentors/bryan_boreham.jpeg
   location: London, UK
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1333,7 +1333,7 @@
     🥶 Also, if you get frozen solid when doing test automation, I also offer an guidance on automated testing where we can deep-dive into the code of your choice together.
   image: "assets/images/mentors/gabriel_oliveira.jpg"
   languages: English, Portuguese
-  availability: [ 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -1542,7 +1542,7 @@
 - name: Mena Esezobor
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 2
   type: both
@@ -1555,7 +1555,7 @@
     techniques fuels my passion for staying ahead of the curve in software engineering trends. Beyond honing my skills, I find fulfillment in mentoring aspiring tech professionals, guiding them as they navigate their entry into the tech industry.
   image: "assets/images/mentors/mena_esezobor.jpg"
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1877,7 +1877,7 @@
 - name: Ajeetha Kumari Venkatesan
   disabled: true
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 2
   type: both
@@ -1893,7 +1893,7 @@
   image: |
     assets/images/mentors/ajeetha_kumari.jpeg
   languages: English, Tamil, Hindi, Kannada
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -2186,7 +2186,7 @@
   type: both
   index: 64
   languages: English, Russian
-  availability: [3, 4,5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
