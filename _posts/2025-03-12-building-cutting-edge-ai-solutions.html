@@ -1,0 +1,105 @@
+---
+layout: post
+title: "Building Cutting-Edge AI Solutions: Lessons from the Gemma2 AI Challenge Winners"
+date: 2025-03-12
+author_name: Sahana Venkatesh
+author_role: Software Engineer at Wayve
+blurb_img: /assets/images/blog/2025-03-12-Sahana-gemma2-banner.png
+blurb_img_source: Image courtesy of the team.
+description: Lablab AI, in collaboration with Google’s Gemma team, hosted a hackathon to build AI solutions using Gemma 2 models.
+category: artificial-intelligence
+---
+
+<div class="text-justify">
+
+  <p>
+    Lablab AI, in collaboration with the Gemma team from Google, hosted the <strong>'Gemma2 AI Challenge'</strong>, inviting participants to leverage Google’s advanced Gemma 2 (Open Source models) to build cutting-edge solutions.
+    The hackathon kicked off at the Google Cloud Space, where experts walked through various Gemma models available. Resources were shared to guide participants throughout the hackathon, along with Discord support and office hours from experts.
+    Out of 1,377 participants and 106 teams, 35 applications were submitted, and two applications emerged as winners.
+  </p>
+
+  <p>The winning team included YingLi (Head of AI, R&D at TG0 | Director at WCC), giving me the opportunity to interview her and her team to bring back their lessons, learnings, and tips for our community.</p>
+
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/2025-03-12-Sahana-gemma2-banner.png" alt="Team celebrating their win with DeepMind">
+    <div class="img-source">Photo of the team celebrating their win with DeepMind</div>
+  </div>
+
+  <h1 class="section-header">Ideation</h1>
+  <p>A crucial aspect of any successful product is a clear idea. The team excitedly shared their ideation process. While their initial concept was to build shades with a camera that could detect and read objects, they realised that it would be more valuable to create a product with clear business value. Returning to the drawing board, the team brainstormed different ideas and ultimately settled on one.</p>
+
+  <h1 class="section-header">Byte the News</h1>
+  <p>The winning idea that emerged from the brainstorming session was a Chrome extension that can summarise news or text on a webpage and read it back to the user. Their target audience was software engineers who want to get the gist of news without having to stare at the screen.</p>
+
+  <h1 class="section-header">Technical Deep Dive</h1>
+  <p>The technical details shared in the call were fascinating. To better understand how this product works, I created a diagram that breaks down its key components and functionality.</p>
+
+  <div class="article-media">
+    <img class="img-fluid" src="/assets/images/blog/2025-03-12-Sahana-gemma2-diagram.png" alt="Architecture diagram of Byte the News">
+    <div class="img-source">Diagram explaining the system architecture</div>
+  </div>
+
+  <p>The process starts by scraping text and images from a webpage. The extracted text is sent to the Gemma model hosted on Groq, which returns a text summary. Images in the article are sent to OpenAI to generate a text description of the image. These text and image summaries are then combined and refined into a single synthesized summary of the article. Finally, this summary is scanned for harmful content using Shield Gemma, a content moderation model, based on a set of predefined criteria.</p>
+
+  <p>For detailed setup instructions and implementation information, please refer to the project’s well-documented GitHub repository. We can use the README file shared to run the project locally.</p>
+
+  <p>The team shared that if they had more time, they would have liked to make the project mobile-compatible or extend its functionality to summarise books! Very cool ideas.</p>
+
+  <h1 class="section-header">Technical Skills Are Important, But Not the Only Thing That Made This Team Stand Apart</h1>
+
+  <h1 class="section-header">Power Skills</h1>
+
+  <h1 class="section-header">Perseverance Is the Key</h1>
+  <p>Feeling amazed that the team built the product in under two days, I asked them about the work that went into it. Here are some expert insights from the conversation that stood out to me:</p>
+  <blockquote>
+    <p><strong>Sahana:</strong> How did you get the web crawler to work? It sounds amazing.</p>
+    <p><strong>Joenam:</strong> Initially, we were relying on HTML tags to extract text, but we quickly realized that this approach didn’t work for every site. While iterating, I found the newspaper package, which picks up text reliably. However, it still doesn't work for sites that require a subscription to read the article.</p>
+
+    <p><strong>Sahana:</strong> Amazing! I’m also curious about Shield Gemma. How was your experience using it?</p>
+    <p><strong>Rekha:</strong> We first ran it locally. It outputs a probability based on a set of criteria to determine if content is safe or not. I had to do a lot of experimentation to settle on the probability threshold beyond which content is considered offensive. The threshold was 0.01!</p>
+
+    <p><strong>Sahana:</strong> What was the experience like setting up the server?</p>
+    <p><strong>Ying:</strong> Setting up the server took a while. Since we were all working on different parts of the product locally, we were able to verify things were running locally. To get the Chrome extension to work, running the product on a server was essential. Initially, Shield Gemma crashed on a 500MB server, and we had to spin up a larger one.</p>
+  </blockquote>
+
+  <h1 class="section-header">Teamwork Makes the Dream Work</h1>
+  <blockquote>
+    <p><strong>Sahana:</strong> How did you manage so many moving parts?</p>
+    <p><strong>Ying:</strong> We used Git for version control and communicated over Google Meet.</p>
+    <p><strong>Rekha:</strong> Ying guided us well through the initial setup phase. She uses Miro to brainstorm ideas. Even with the idea we settled on, we discussed the pros and cons of different approaches. This definitely made the implementation easier by clearing the way for task distribution.</p>
+  </blockquote>
+
+  <h1 class="section-header">Presentation Is Key</h1>
+  <blockquote>
+    <p><strong>Ying:</strong> It took more than half a day to combine slides and ensure we stuck to the requirements. For the voice-over in the slides, I recorded myself, used Whisper (an audio-to-text tool) to convert the audio to text, used OpenAI to clean up the text, and then used Eleven Labs to convert it back into audio. Joenam then added this to the video.</p>
+    <p><strong>Sahana:</strong> Wow! I definitely found your presentation impressive. It’s inspiring to hear the thought and effort behind it. This alone could be a project!</p>
+  </blockquote>
+
+  <h1 class="section-header">Motivational Message to Readers</h1>
+  <blockquote>
+    <p><strong>Sahana:</strong> Do we only need technical skills for a hackathon?</p>
+    <p><strong>Joenam:</strong> You don’t need to be a pro at coding. It’s more important to be a team player. Coming up with ideas is the foundation. If you can’t plan and work as a team, it will be much more difficult. There are many valuable skills needed beyond coding, such as organizational skills, video editing, and storytelling.</p>
+
+    <p><strong>Rekha:</strong> I agree with the importance of knowing how to work as a team. Having the attitude that we are in this together helps us move forward. It’s also essential to be mindful and respectful of others on the team.</p>
+
+    <p><strong>Sahana:</strong> Is it scary to be overwhelmed by a hackathon, trying to find people and build products?</p>
+    <p><strong>Joenam:</strong> It is overwhelming when you’re surrounded by brilliant people and doing something massive, especially if it’s something new or something you’ve never done before. It helped when Ying started organizing things and distributing tasks. The most important thing is recognizing that this is a weekend or a temporary event (which will end).</p>
+
+    <p><strong>Rekha:</strong> I second the value of brainstorming. We went over the pros and cons, did competitive research, and broke the tasks into smaller pieces, which helped in digesting them.</p>
+
+    <p><strong>Ying:</strong> It’s more important to believe in the value you can contribute. Everyone is here to learn. Let this motivation and effort bind you and the team together.</p>
+
+    <p><strong>Sahana:</strong> Amazing! Let’s wrap up with our favorite motivational quote or war cry.</p>
+
+    <p><strong>Rekha:</strong> "Fake it till you make it!"</p>
+    <p><strong>Joenam:</strong> "Step out of your comfort zone; you have nothing to lose."</p>
+    <p><strong>Ying:</strong> "When meeting experts or people you admire, you might face rejections. It’s more important than ever to be bold, approach them, and not be afraid of being treated badly."</p>
+</blockquote>
+
+<p><em>To me, this sounded like the affirmation I’d been long due to hear.</em></p>
+
+  <p>You can find Ying at <a href="https://www.linkedin.com/in/yingliu-data/">LinkedIn</a>, Rekha at <a href="https://www.linkedin.com/in/rekha-mathew-81646846/">LinkedIn</a> and Joenam at <a href="https://www.linkedin.com/in/joenamcoutinho/">LinkedIn</a>.</p>
+
+  <p>Thank you for reading. We love showcasing people and their unique products. If you have an AI system you’d like to share with the community, please reach out. We would love to feature and learn from you.</p>
+
+</div>

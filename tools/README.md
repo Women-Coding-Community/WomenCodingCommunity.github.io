@@ -5,6 +5,8 @@ There are two automation scripts:
 
 2) `download_image.py`: downloads image from a specified URL and saves in `assets/images/mentors`
 
+3) `automation_create_mentor_spreadsheets.py`: creates spreadhseets for each longterm mentor with filenames like `WCC - Long Term - MentorName.xlsx`. All the files are saved in a folder named `Long Term Mentors`. It uses the data from `Mentorship Programme long-term Registration Form for Mentees (Responses).xlsx` sheetname `Revised Mentees`as input.
+
 ### Dependencies
 
 python 3.11 or above
@@ -53,3 +55,21 @@ sh run_meetup_import.sh
     ```
 
 3) Execute the desired script with the same steps as in **How to Execute on Mac**.
+
+#### D) `automation_create_mentor_spreadsheets.py`
+
+1) [Install python](https://www.python.org/downloads/windows)
+2) Download ad save the `Mentorship Programme long-term Registration Form for Mentees (Responses).xlsx` data file in the 'tools/samples' directory as the script file
+3) Ensure sheet_name is set correctly in the script as `Revised Mentees`
+4) Update `output_dir` to a `local folder path/Long Term Mentors`
+5) The script creates the folder `Long Term Mentors` that will have .xlsx files for each mentor
+6) Execute the script `automation_create_mentor_spreadsheets.py`
+7) Each mentor will have a separate Excel file inside this folder, named: `WCC - Long Term - {Mentor Name}.xlsx`
+8) Each file will contain mentee information specific to that mentor, including their reasons for selecting them
+
+**Note:** 
+  
+📁 Long Term Mentors  
+  │── WCC - Long Term - Nonna Shakhova.xlsx  
+  │── WCC - Long Term - Rajani Rao.xlsx  
+  │── WCC - Long Term - Gabriel Oliveira.xlsx   └── (more mentor files...)  
