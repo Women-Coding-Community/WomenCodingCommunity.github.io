@@ -272,7 +272,7 @@
 
 - name: Julia Babahina
   disabled: false
-  sort: 550
+  sort: 100
   num_mentee: 2
   hours: 4
   position: Lead Risk Management Specialist, Swift
@@ -282,7 +282,7 @@
   bio: Julia is a Lead Risk Management Specialist at Swift for Product and Strategy with almost ten years of experience in Information Security, IT and Technology. Over the years she worked in numerous financial service organisations where she defined and delivered privacy and data programmes, cyber security and data strategies, policy frameworks and assisted organisations in governing IT risks and controls. She is dedicated to guiding businesses in delivering proportionate and risk aware IT response in line with business goals, compliance requirements and regulations. She is also a Director at Women Coding Community and is passionate about giving back to community and empowering women to excel in technology careers.
   image: assets/images/mentors/julia_babahina.png
   languages: English, Russian
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -312,7 +312,7 @@
     I am a software engineer with around 6 years of experience in software and a special focus on cloud and cybersecurity in the last few years. I design and deliver scalable Java solutions for complex business challenges in the healthcare and retail industry. I leverage my expertise in software development security, cryptography, and network security to ensure the protection and integrity of data and systems. I collaborate with cross-functional teams to develop, test, and deploy high-quality software using Agile methodologies and various frameworks and technologies.
   image: assets/images/mentors/hersi_kopani.jpg
   languages: English
-  availability: [5, 6, 7, 8, 9]
+  availability: [5, 6, 7, 8, 9,10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -365,7 +365,7 @@
 
 - name: Adegbenga Agoro
   disabled: false
-  sort: 500
+  sort: 100
   num_of_mentees: 1
   hours: 4
   position: CTO, ZeroComplex AI
@@ -376,7 +376,7 @@
     I am an experienced Software Engineering professional with more than 20 years of expertise in developing software systems across a broad spectrum, ranging from small-scale applications to extensive enterprise infrastructure platforms. My passion lies in teaching software engineering through a humanistic lens, emphasizing user experience while firmly adhering to the fundamental principles of core software engineering.
   image: assets/images/mentors/adegbenga_agoro.jpg
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -432,7 +432,7 @@
 - name: Monal Sanghvi
   disabled: true
   matched: false
-  sort: 200
+  sort: 10
   hours: 5
   type: both
   index: 14
@@ -473,7 +473,7 @@
     8 years of experience in front end development in Angular, Head of many projects in UI and trained multiple developers.
   image: assets/images/mentors/kaylyn_van_norstrand.jpg
   languages: English
-  availability: [5]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -539,7 +539,7 @@
   bio: Hi! My name is Min, I’m a kiwi, and I am a senior Machine Learning / Full-stack Software Engineer of 7 years experience who has worked in a wide range of work environments including a FAANG, a Unicorn, a small startup, and most recently my own startup. From my experience, I’ve seen time and time again how the skewed gender ratio in tech negatively impacts everything we do in tech, and what we build. To combat this, I have mentored with WomenWhoCode before, and I have taught a few courses with CodeFirstGirls before. I would like to continue supporting more women to get into tech industry and moreover succeed in the industry until we have truly achieved gender equality and equity in the tech industry.
   image: assets/images/mentors/minsang_kim.jpg
   languages: English
-  availability: [5]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -765,7 +765,8 @@
       - Data Science
       - Backend Developer
       - Grow from beginner to mid-level
-    languages: JavaScript, Python
+    languages: JavaScript, Python,
+    availability: [5, 6, 7, 8, 9, 10, 11]
     focus:
       - Switch career to IT
     extra: HTML, CSS, JavaScript, React, Redux, Resume Review, Thinking in React, Interview Preparation
@@ -784,7 +785,7 @@
     I'm a co-founder, building in the open banking and developer experience space. apibanking.com is young - for ~2.5 years, we have been developing tech offerings in the financial services space, to solve the friction at the point of integration between traditional banks and the fintech ecosystem. I pursued my undergraduate coursework in Mathematics and Computer Science, and since then, I've spent 5+ years in enterprise technology as a developer as well as a business leader building scale products, and another 5+ years in business building, including product strategy, private equity and venture investments for tech-first players. I have mentored startup founders on product scaling, new market opportunities and fundraising. I'm also exploring angel investing, focusing on next-gen software tech startups.
   image: assets/images/mentors/tvisha_dholakia.jpg
   languages: English
-  availability: [4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [ 5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -819,7 +820,7 @@
     I hold Masters degree in Electrical Engineering specializing in Datascience. I have worked in tech startups and automotive company. I have have given a lot of interviews and learned through my failures that preparation and practice are the key and I would like to help someone else.
   image: assets/images/mentors/sahana_venkatesh.jpg
   languages: English
-  availability: [4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 years
     years: 7
@@ -906,14 +907,14 @@
   matched: false
   hours: 2
   position: Principal software engineer, Apple
-  sort: 50
+  sort: 100
   type: ad-hoc
   index: 29
   location: United Kingdom, London
   bio: 18 years of experience in developing highly scalable distributed systems, majorly in data storage systems and fintech domains. Experience driving projects and leading teams
   image: assets/images/mentors/shailaja_koppu.svg
   languages: English
-  availability: [4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -953,7 +954,8 @@
     mentee: Someone who's still new to the industry and would either like to get into tech or grow from beginner to mid.
     areas:
       - Backend Developer
-    languages: Java
+    languages: Java,
+    availability: [5, 6, 7, 8, 9, 10, 11]
     focus:
       - Switch career to IT
       - Grow from beginner to mid-level
@@ -964,7 +966,7 @@
 - name: Bryan Boreham
   disabled: false
   hours: 4
-  sort: 500
+  sort: 100
   num_mentee: 1
   type: both
   index: 31
@@ -974,7 +976,7 @@
   image: assets/images/mentors/bryan_boreham.jpeg
   location: London, UK
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1043,7 +1045,7 @@
     I have been teaching and mentoring software designers and architects for close to twenty years.
   image: "assets/images/mentors/avraham_poupko.jpg"
   languages: English, Hebrew
-  availability: [6, 7]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1070,7 +1072,7 @@
 - name: Safiye Ipek
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   hours: 2
   type: ad-hoc
   index: 34
@@ -1115,7 +1117,7 @@
     I am an android developer with over 6 years of experience. I have experienced projects that even couldn't come out to the world but also experienced huge projects had 1M+ daily active users. If you want to learn something about a whole life cycle of Android development projects, I can help you and walk through with you.
   image: "assets/images/mentors/bomee_ryu.jpg"
   languages: English, Korean
-  availability: [6, 7]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1174,7 +1176,7 @@
     With over 15 years of experience as a developer, I am a graduate of the Oxford Blockchain Strategy Programme and an AWS Solutions Architect. My career has spanned various roles, including full-stack, backend, frontend, blockchain developer, and platform engineer, collaborating with startups and enterprises alike, such as HSBC, Deloitte, Credit Suisse, GSK, and Eurostar. My technical expertise encompasses Java (including Spring and Spring Boot), JavaScript (Node.js, React.js, TypeScript), and both relational and non-relational databases (Oracle, MySQL, PostgreSQL, MongoDB, DynamoDB, Neo4j, among others).
   image: assets/images/mentors/rasim_sen.jpeg
   languages: English
-  availability: [7]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ years
     years: 16
@@ -1316,7 +1318,7 @@
 - name: Gabriel Oliveira
   disabled: false
   matched: false
-  sort: 550
+  sort: 100
   num_mentee: 4
   hours: 5
   type: both
@@ -1331,7 +1333,7 @@
     🥶 Also, if you get frozen solid when doing test automation, I also offer an guidance on automated testing where we can deep-dive into the code of your choice together.
   image: "assets/images/mentors/gabriel_oliveira.jpg"
   languages: English, Portuguese
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -1358,7 +1360,7 @@
 - name: Abdul-Mateen Qamardeen
   disabled: true
   matched: false
-  sort: 200
+  sort: 100
   hours: 5
   type: ad-hoc
   index: 42
@@ -1368,7 +1370,7 @@
     I am a student Architect who has deep passion for software engineering and coding. I've worked with multiple programming languages including R, Python, Golang, Java, c++ and scala. Currently I'm serving as the CEO of the company I founded, R For All, which trains people on R Programming skills. My focus recently has been on R Programming because of my passion for healthcare analysis and tech which is where R thrives. My R Programming skills is Johns Hopkins university and HackerRank certified. I'm looking forward to mentoring curious candidates like me.
   image: "assets/images/mentors/abdul_qamardeen.jpg"
   languages: English, Yoruba
-  availability: [7, 8, 9, 10, 11]
+  availability: [5,6,7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1429,7 +1431,7 @@
 - name: Samantha Cohen
   disabled: true
   matched: false
-  sort: 200
+  sort: 100
   hours: 2
   type: both
   index: 44
@@ -1441,7 +1443,7 @@
     Current role is as a principal engineer so I split my time between distributed systems architecture, writing code and coaching/upskilling engineers throughout the company.
   image: "assets/images/mentors/samantha-cohen.jpg"
   languages: English
-  availability: [8, 9, 10]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1469,7 +1471,7 @@
 - name: Anahi Gaetan
   disabled: true
   matched: false
-  sort: 200
+  sort: 100
   hours: 5
   type: both
   index: 45
@@ -1479,7 +1481,7 @@
     I've been working as a React developer for around four years and have been working remotely and travelling for the last two. I have a degree in development, but I struggled a lot to find my first job. It was women from a JavaScript community who helped me and guided me to get that first job. It's thanks to them that I am where I am today. So I just want to give a little of this back to the community and help other women get their first job. Even if they already have one but are struggling with situations, impostor syndrome, or solving problems, I can give advice and help with that too.
   image: "assets/images/mentors/anahi-gaetan.jpg"
   languages: English, Spanish
-  availability: [8, 9, 10]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1540,7 +1542,7 @@
 - name: Mena Esezobor
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 2
   type: both
@@ -1553,7 +1555,7 @@
     techniques fuels my passion for staying ahead of the curve in software engineering trends. Beyond honing my skills, I find fulfillment in mentoring aspiring tech professionals, guiding them as they navigate their entry into the tech industry.
   image: "assets/images/mentors/mena_esezobor.jpg"
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1580,7 +1582,7 @@
 - name: Prerna Singhal
   disabled: true
   matched: false
-  sort: 200
+  sort: 100
   hours: 4
   type: both
   index: 48
@@ -1590,7 +1592,7 @@
     Currently working as Lead Engineer for Hubspot. I have 12 years for Software development experience (Backend and Fullstack). I have worked with tech giants for 7 years - Microsoft, Expedia, Salesforce and have worked in startup industry for 5 years. Hence i understand working in both in environments. I have worked with wide variety of technologies - Java, AWS, Azure, Python, Distributed systems, Scaling applications.
   image: "assets/images/mentors/prerna_singhal.jpg"
   languages: English
-  availability: [9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1676,7 +1678,7 @@
   image: |
     assets/images/mentors/arzu_caner.jpg
   languages: English, Turkish
-  availability: [9, 10, 11]
+  availability: [5,6,7,8,9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1735,7 +1737,7 @@
 - name: Lulu Cao
   disabled: true
   matched: false
-  sort: 200
+  sort: 100
   hours: 2
   type: both
   index: 52
@@ -1746,7 +1748,7 @@
   image: |
     assets/images/mentors/lulu_cao.jpeg
   languages: English, Mandarin
-  availability: [9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1768,7 +1770,7 @@
 - name: Adnan Salehin
   disabled: true
   matched: false
-  sort: 200
+  sort: 10
   hours: 4
   type: both
   index: 53
@@ -1781,7 +1783,6 @@
   image: |
     assets/images/mentors/adnan_salehin.jpeg
   languages: English
-  availability: [10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1807,7 +1808,7 @@
 - name: Ima-Abasi Effiong
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   hours: 5
   type: both
   index: 54
@@ -1818,7 +1819,7 @@
   image: |
     assets/images/mentors/ima-abasi_effiong.jpeg
   languages: English
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1876,7 +1877,7 @@
 - name: Ajeetha Kumari Venkatesan
   disabled: true
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 2
   type: both
@@ -1892,7 +1893,7 @@
   image: |
     assets/images/mentors/ajeetha_kumari.jpeg
   languages: English, Tamil, Hindi, Kannada
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1919,7 +1920,7 @@
 - name: Alexey Buzovkin
   disabled: true
   matched: false
-  sort: 200
+  sort: 100
   hours: 5
   type: both
   index: 57
@@ -1951,7 +1952,7 @@
 - name: Ciera Fowler
   disabled: true
   matched: false
-  sort: 200
+  sort: 100
   hours: 4
   type: both
   index: 58
@@ -1962,7 +1963,7 @@
   image: |
     assets/images/mentors/ciera_fowler.jpg
   languages: English
-  availability: [11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1989,7 +1990,7 @@
 - name: Liko Chien
   disabled: true
   matched: false
-  sort: 200
+  sort: 100
   hours: 2
   type: ad-hoc
   index: 59
@@ -2027,7 +2028,7 @@
 - name: Marie Coquille
   disabled: true
   matched: false
-  sort: 200
+  sort: 100
   hours: 4
   type: both
   index: 60
@@ -2174,7 +2175,7 @@
 - name: Nadezhda Iaromirova
   disabled: false
   matched: false
-  sort: 550
+  sort: 100
   num_mentee: 2
   hours: 2
   bio: |
@@ -2185,7 +2186,7 @@
   type: both
   index: 64
   languages: English, Russian
-  availability: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
