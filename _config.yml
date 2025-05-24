@@ -5,7 +5,7 @@ plugins:
 sass:
   sass_dir: _sass/
 
-registration: 0
+registration: 30
 
 # Settings
 title: "Women Coding Community"

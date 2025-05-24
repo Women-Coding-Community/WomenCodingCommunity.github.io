@@ -312,7 +312,7 @@
     I am a software engineer with around 6 years of experience in software and a special focus on cloud and cybersecurity in the last few years. I design and deliver scalable Java solutions for complex business challenges in the healthcare and retail industry. I leverage my expertise in software development security, cryptography, and network security to ensure the protection and integrity of data and systems. I collaborate with cross-functional teams to develop, test, and deploy high-quality software using Agile methodologies and various frameworks and technologies.
   image: assets/images/mentors/hersi_kopani.jpg
   languages: English
-  availability: [5, 6, 7, 8, 9,10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -785,7 +785,7 @@
     I'm a co-founder, building in the open banking and developer experience space. apibanking.com is young - for ~2.5 years, we have been developing tech offerings in the financial services space, to solve the friction at the point of integration between traditional banks and the fintech ecosystem. I pursued my undergraduate coursework in Mathematics and Computer Science, and since then, I've spent 5+ years in enterprise technology as a developer as well as a business leader building scale products, and another 5+ years in business building, including product strategy, private equity and venture investments for tech-first players. I have mentored startup founders on product scaling, new market opportunities and fundraising. I'm also exploring angel investing, focusing on next-gen software tech startups.
   image: assets/images/mentors/tvisha_dholakia.jpg
   languages: English
-  availability: [ 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -1370,7 +1370,7 @@
     I am a student Architect who has deep passion for software engineering and coding. I've worked with multiple programming languages including R, Python, Golang, Java, c++ and scala. Currently I'm serving as the CEO of the company I founded, R For All, which trains people on R Programming skills. My focus recently has been on R Programming because of my passion for healthcare analysis and tech which is where R thrives. My R Programming skills is Johns Hopkins university and HackerRank certified. I'm looking forward to mentoring curious candidates like me.
   image: "assets/images/mentors/abdul_qamardeen.jpg"
   languages: English, Yoruba
-  availability: [5,6,7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1678,7 +1678,7 @@
   image: |
     assets/images/mentors/arzu_caner.jpeg
   languages: English, Turkish
-  availability: [5,6,7,8,9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1840,10 +1840,10 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 100
+  sort: 30
   num_mentee: 1
   hours: 5
-  type: both
+  type: long-term
   index: 55
   location: London
   position: Senior Software Engineer, Artsy
@@ -2059,7 +2059,7 @@
 - name: Kateryna Ogar
   disabled: false
   matched: false
-  sort: 50
+  sort: 100
   hours: 4
   type: both
   index: 61
@@ -2394,7 +2394,7 @@
 - name: Eniola Oduntan
   disabled: false
   matched: false
-  sort: 100
+  sort: 30
   num_mentee: 1
   hours: 4
   type: long-term
@@ -2432,7 +2432,7 @@
 - name: Griswald Brooks
   disabled: false
   matched: false
-  sort: 500
+  sort: 30
   num_mentee: 1
   hours: 4
   type: long-term
@@ -2464,7 +2464,7 @@
 - name: Tiffany Cappeellari
   disabled: false
   matched: false
-  sort: 500
+  sort: 30
   num_mentee: 1
   hours: 2
   type: long-term
