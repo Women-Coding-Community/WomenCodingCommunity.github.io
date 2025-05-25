@@ -898,3 +898,87 @@
     path: https://www.meetup.com/women-coding-community/events/307093944/
     title: View meetup event
     target: _target
+
+- title: |
+    TDD Fundamentals & JavaScript Testing Tools
+  description: |
+    Test Driven Development (TDD) study group
+    Our focus will be on practical implementation using JavaScript/TypeScript, with React for frontend and Node.js for backend development.
+    This session is on TDD Fundamentals & JavaScript Testing Tools.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: FRI, MAY 23, 2025
+  expiration: "20250523"
+  host: "Nevena Verbič and Turdugul (Gul) Okonbaeva"
+  speaker: "Wilson Adenuga"
+  time: 9:00 PM BST
+  image:
+    path: "http://secure.meetupstatic.com/photos/event/4/5/7/d/highres_527957789.webp"
+    alt: "Frontend TDD with React cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/307827272
+    title: View meetup event
+    target: _target
+
+- title: |
+    Frontend TDD with React
+  description: |
+    Test Driven Development (TDD) study group
+    Our focus will be on practical implementation using JavaScript/TypeScript, with React for frontend and Node.js for backend development.
+    This session is on Frontend TDD with React.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: FRI, MAY 30, 2025
+  expiration: "20250530"
+  host: "Nevena Verbič and Turdugul (Gul) Okonbaeva"
+  speaker: "Wilson Adenuga"
+  time: 9:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/4/b/c/highres_528009404.webp"
+    alt: "Frontend TDD with React cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/307885148/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Backend TDD with Node.js
+  description: |
+    Test Driven Development (TDD) study group
+    Our focus will be on practical implementation using JavaScript/TypeScript, with React for frontend and Node.js for backend development.
+    This session is on Backend TDD with Node.js.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: FRI, JUN 6, 2025
+  expiration: "20250606"
+  host: "Nevena Verbič and Turdugul (Gul) Okonbaeva"
+  speaker: "Wilson Adenuga"
+  time: 9:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/5/1/8/highres_528009496.webp"
+    alt: "Backend TDD with Node.js cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/307885228
+    title: View meetup event
+    target: _target
+
+- title: |
+    Advanced TDD Practices & Real-world Application
+  description: |
+    Test Driven Development (TDD) study group
+    Our focus will be on practical implementation using JavaScript/TypeScript, with React for frontend and Node.js for backend development.
+    This session is on Advanced TDD Practices & Real-world Application.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: FRI, JUN 13, 2025
+  expiration: "20250613"
+  host: "Nevena Verbič and Turdugul (Gul) Okonbaeva"
+  speaker: "Wilson Adenuga"
+  time: 9:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/5/d/7/highres_528009687.webp"
+    alt: "Event cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/307885337/
+    title: View meetup event
+    target: _target
