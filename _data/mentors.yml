@@ -2540,3 +2540,48 @@
       Software development strategies, career goals
   network:
     - linkedin: https://www.linkedin.com/in/lakshmi-balakrishnan-21b3a253
+
+
+- name: Arun Kumar
+  disabled: false
+  matched: false
+  sort: 100
+  hours: 3
+  type: both
+  index: 76
+  location: Newcastle upon Tyne, UK
+  position: Senior Developer, Opencast Software Ltd
+  bio: |
+      I am a full-stack developer with over 9+ years of experience delivering robust web applications and scalable backend systems.
+      On the frontend, I have worked extensively with Angular, React, and Next.js to build responsive, user-centric interfaces.
+      On the backend, I specialise in Java, Scala, and Spring Boot, developing micro-services and RESTful APIs that power complex platforms.
+      I’ve contributed to high-impact open source projects.
+      I’m passionate about clean architecture, continuous learning, and mentoring aspiring developers to grow their technical and professional skills.
+  image: |
+    assets/images/mentors/arunkumar.jpg
+  languages: English, Tamil
+  availability: [5,6,7,8,9,10,11]
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: |
+      I'm looking for a curious, growth-minded mentee—ideally early in their career or transitioning into full-stack development.
+      Whether it's technical skills (Angular, React, Next.js, Java, Spring Boot) or career support (interviews, projects, growth), I'm happy to share what I've learned.
+      A positive attitude and eagerness to learn matter most.
+    areas:
+      - Full-Stack Developer
+      - Backend Developer
+      - Frontend Developer
+      - DevOps Engineer
+      - Distributed Systems Specialist
+    languages: Java, Javascript, Scala, Ruby, Kotlin
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+    extra: |
+      - Software Development Strategies, Extreme Programming (TDD, Pair programming, CICD), Preparation for The Technical Interview, Software Development Tools
+  network:
+    - linkedin: https://www.linkedin.com/in/arunkumar1162/,
+    - medium: https://medium.com/@ja.m.arunkumar,
+    - github: https://github.com/arunkumar461,
