@@ -203,7 +203,7 @@
 - name: Madhura Chaganty
   disabled: false
   matched: false
-  sort: 100
+  sort: 30
   hours: 2
   type: ad-hoc
   index: 7
@@ -272,7 +272,7 @@
 
 - name: Julia Babahina
   disabled: false
-  sort: 100
+  sort: 30
   num_mentee: 2
   hours: 4
   position: Lead Risk Management Specialist, Swift
@@ -743,7 +743,7 @@
 
 - name: Sakirat Kehinde Usman
   disabled: false
-  sort: 100
+  sort: 30
   num_mentee: 1
   hours: 5
   position: Frontend Development Trainer, Niyo Group Ltd
@@ -2272,7 +2272,7 @@
 - name: Sebastian Castro
   disabled: false
   matched: false
-  sort: 100
+  sort: 30
   num_mentee: 1
   hours: 4
   type: both
