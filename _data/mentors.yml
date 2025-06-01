@@ -215,7 +215,7 @@
   image: assets/images/mentors/madhura_chaganty.jpeg
   location: United Kingdom
   languages: English
-  availability: [5, 6, 7, 8, 10, 11]
+  availability: [7, 8, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -410,7 +410,7 @@
     Mentoring energises me and aligns with my purpose. I have successfully changed careers and can help you do the same. I aim to help juniors enter the IT workplace, stay there comfortably, and advance their careers when the time is right. But my support doesn’t stop there—I also guide mid-level professionals on their journey to senior roles and help seniors transition into Tech Lead, Engineering Manager, or Staff Engineer positions. No matter where you are in your IT career, I can provide the support and guidance you deserve to achieve your career goals.
   image: assets/images/mentors/ana_nogal.jpg
   languages: English, Spanish, Portuguese
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [6, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -692,7 +692,7 @@
     ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
   image: assets/images/mentors/anastasia.jpeg
   languages: English, Ukrainian, Russian
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -754,7 +754,7 @@
     I am a frontend engineer with over 3 years of experience in frontend development. I am excellent at building user interfaces and bringing web functionalities to life. I have worked on various projects ranging from fintech to agriculture.
   image: assets/images/mentors/sakirat_kehinde_usman.jpg
   languages: English
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [ 11]
   skills:
     experience: 4-5 years
     years: 5
@@ -976,7 +976,7 @@
   image: assets/images/mentors/bryan_boreham.jpeg
   location: London, UK
   languages: English
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1298,7 +1298,7 @@
     I am community-driven: I have presented at conferences, contributed to open source and like sharing knowledge.
   image: "assets/images/mentors/fernanda_martins.jpg"
   languages: English, Portuguese
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [6, 7, 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1333,7 +1333,7 @@
     🥶 Also, if you get frozen solid when doing test automation, I also offer an guidance on automated testing where we can deep-dive into the code of your choice together.
   image: "assets/images/mentors/gabriel_oliveira.jpg"
   languages: English, Portuguese
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -1678,7 +1678,7 @@
   image: |
     assets/images/mentors/arzu_caner.jpeg
   languages: English, Turkish
-  availability: [5,6,7,8,9, 10, 11]
+  availability: [6, 9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1712,7 +1712,7 @@
   image: |
     assets/images/mentors/prabha_venkatesh.jpeg
   languages: English
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -2285,7 +2285,7 @@
   image: |
     assets/images/mentors/sebastian_castro.jpeg
   languages: English, Spanish
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [ 8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -2360,7 +2360,7 @@
   image: |
     assets/images/mentors/sonika_janagill.jpeg
   languages: English, Hindi, Punjabi
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
