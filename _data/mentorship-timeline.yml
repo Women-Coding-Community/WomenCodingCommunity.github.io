@@ -36,7 +36,7 @@ long-term-timeline:
 
 ad-hoc-timeline:
   - title: "Application period"
-    description: "Every month (from May to November), interested mentees will have the opportunity to apply to the one-time mentorship session program. The application opens at the beginning of each month and it is possible to apply for a mentor during the first 10 days of each month."
+    description: "Every month (from June to November), interested mentees will have the opportunity to apply to the one-time mentorship session program. The application opens at the beginning of each month and it is possible to apply for a mentor during the first 10 days of each month."
   - title: "Mentee selection"
     description: "Once the application period has ended, the Mentorship Programme Team will review the applications and select the mentees who will participate in the program for the month."
   - title: "Mentor notification"
@@ -48,4 +48,4 @@ ad-hoc-timeline:
   - title: "Feedback"
     description: "After one-time session mentors will ask the mentee's feedback on the session and the program itself."
   - title: "Program evaluation"
-    description: "Both mentor and mentee are responsible for informing the Mentorship Programme Team about the session taking place and providing feedback afterwards. At the end of the year, the Mentorship Programme Team will collect feedback from mentors and evaluate feedback from mentees to identify areas for improvement and make any necessary adjustments."      
+    description: "Both mentor and mentee are responsible for informing the Mentorship Programme Team about the session taking place and providing feedback afterwards. At the end of the year, the Mentorship Programme Team will collect feedback from mentors and evaluate feedback from mentees to identify areas for improvement and make any necessary adjustments."

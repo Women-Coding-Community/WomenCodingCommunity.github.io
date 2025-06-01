@@ -282,7 +282,7 @@
   bio: Julia is a Lead Risk Management Specialist at Swift for Product and Strategy with almost ten years of experience in Information Security, IT and Technology. Over the years she worked in numerous financial service organisations where she defined and delivered privacy and data programmes, cyber security and data strategies, policy frameworks and assisted organisations in governing IT risks and controls. She is dedicated to guiding businesses in delivering proportionate and risk aware IT response in line with business goals, compliance requirements and regulations. She is also a Director at Women Coding Community and is passionate about giving back to community and empowering women to excel in technology careers.
   image: assets/images/mentors/julia_babahina.png
   languages: English, Russian
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -312,7 +312,7 @@
     I am a software engineer with around 6 years of experience in software and a special focus on cloud and cybersecurity in the last few years. I design and deliver scalable Java solutions for complex business challenges in the healthcare and retail industry. I leverage my expertise in software development security, cryptography, and network security to ensure the protection and integrity of data and systems. I collaborate with cross-functional teams to develop, test, and deploy high-quality software using Agile methodologies and various frameworks and technologies.
   image: assets/images/mentors/hersi_kopani.jpg
   languages: English
-  availability: [5, 6, 7, 8, 9,10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -754,7 +754,7 @@
     I am a frontend engineer with over 3 years of experience in frontend development. I am excellent at building user interfaces and bringing web functionalities to life. I have worked on various projects ranging from fintech to agriculture.
   image: assets/images/mentors/sakirat_kehinde_usman.jpg
   languages: English
-  availability: [ 11]
+  availability: [11]
   skills:
     experience: 4-5 years
     years: 5
@@ -785,7 +785,7 @@
     I'm a co-founder, building in the open banking and developer experience space. apibanking.com is young - for ~2.5 years, we have been developing tech offerings in the financial services space, to solve the friction at the point of integration between traditional banks and the fintech ecosystem. I pursued my undergraduate coursework in Mathematics and Computer Science, and since then, I've spent 5+ years in enterprise technology as a developer as well as a business leader building scale products, and another 5+ years in business building, including product strategy, private equity and venture investments for tech-first players. I have mentored startup founders on product scaling, new market opportunities and fundraising. I'm also exploring angel investing, focusing on next-gen software tech startups.
   image: assets/images/mentors/tvisha_dholakia.jpg
   languages: English
-  availability: [ 5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 years
     years: 10
@@ -944,18 +944,17 @@
   index: 30
   location: London, United Kingdom
   bio: |
-    I have around 3 years of experience in IT. I am currently working as a Backend Java Software Engineer (Java, Spring, Kafka). Previously I worked as a data analyst (Python, SQL, Power BI) and graduated from Accounting and Finance.
+    I am currently working as a Senior Backend Software Engineer (Java, Spring, Kafka, GCP). Before pivoting into tech, I worked as a data analyst and graduated from Accounting and Finance.
   image: assets/images/mentors/claudia_lee.jpg
   languages: English
-  availability: [5, 6]
+  availability: [5, 6, 7, 8, 9, 10]
   skills:
-    experience: 1-2 Years
-    years: 2
+    experience: 4-5 Years
+    years: 5
     mentee: Someone who's still new to the industry and would either like to get into tech or grow from beginner to mid.
     areas:
       - Backend Developer
-    languages: Java,
-    availability: [5, 6, 7, 8, 9, 10, 11]
+    languages: Java
     focus:
       - Switch career to IT
       - Grow from beginner to mid-level
@@ -1370,7 +1369,7 @@
     I am a student Architect who has deep passion for software engineering and coding. I've worked with multiple programming languages including R, Python, Golang, Java, c++ and scala. Currently I'm serving as the CEO of the company I founded, R For All, which trains people on R Programming skills. My focus recently has been on R Programming because of my passion for healthcare analysis and tech which is where R thrives. My R Programming skills is Johns Hopkins university and HackerRank certified. I'm looking forward to mentoring curious candidates like me.
   image: "assets/images/mentors/abdul_qamardeen.jpg"
   languages: English, Yoruba
-  availability: [5,6,7, 8, 9, 10, 11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -2285,7 +2284,7 @@
   image: |
     assets/images/mentors/sebastian_castro.jpeg
   languages: English, Spanish
-  availability: [ 8, 9, 10, 11]
+  availability: [8, 9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -2394,7 +2393,7 @@
 - name: Eniola Oduntan
   disabled: false
   matched: false
-  sort: 100
+  sort: 30
   num_mentee: 1
   hours: 4
   type: long-term
@@ -2432,7 +2431,7 @@
 - name: Griswald Brooks
   disabled: false
   matched: false
-  sort: 500
+  sort: 30
   num_mentee: 1
   hours: 4
   type: long-term
@@ -2464,7 +2463,7 @@
 - name: Tiffany Cappeellari
   disabled: false
   matched: false
-  sort: 500
+  sort: 30
   num_mentee: 1
   hours: 2
   type: long-term
@@ -2512,7 +2511,7 @@
   hours: 3
   type: both
   index: 75
-  location: "Birmingham, UK "
+  location: "Birmingham, UK"
   position: senior software engineer, Shopworks
   bio: |
     I have been working in the tech industry for 12 years now - as a backend engineer, specialising in Php, even though I have worked with a few other languages and was a front end developer a life time ago.
@@ -2541,7 +2540,6 @@
   network:
     - linkedin: https://www.linkedin.com/in/lakshmi-balakrishnan-21b3a253
 
-
 - name: Arun Kumar
   disabled: false
   matched: false
@@ -2552,15 +2550,15 @@
   location: Newcastle upon Tyne, UK
   position: Senior Developer, Opencast Software Ltd
   bio: |
-      I am a full-stack developer with over 9+ years of experience delivering robust web applications and scalable backend systems.
-      On the frontend, I have worked extensively with Angular, React, and Next.js to build responsive, user-centric interfaces.
-      On the backend, I specialise in Java, Scala, and Spring Boot, developing micro-services and RESTful APIs that power complex platforms.
-      I’ve contributed to high-impact open source projects.
-      I’m passionate about clean architecture, continuous learning, and mentoring aspiring developers to grow their technical and professional skills.
+    I am a full-stack developer with over 9+ years of experience delivering robust web applications and scalable backend systems.
+    On the frontend, I have worked extensively with Angular, React, and Next.js to build responsive, user-centric interfaces.
+    On the backend, I specialise in Java, Scala, and Spring Boot, developing micro-services and RESTful APIs that power complex platforms.
+    I’ve contributed to high-impact open source projects.
+    I’m passionate about clean architecture, continuous learning, and mentoring aspiring developers to grow their technical and professional skills.
   image: |
     assets/images/mentors/arunkumar.jpg
   languages: English, Tamil
-  availability: [5,6,7,8,9,10,11]
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
