@@ -2237,7 +2237,7 @@
 - name: Silda Balla
   disabled: false
   matched: false
-  sort: 100
+  sort: 30
   num_mentee: 1
   hours: 5
   bio: |
@@ -2248,7 +2248,7 @@
   type: both
   index: 66
   languages: English, Spanish, Italian, French
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [8, 9, 10, 11]
   skills:
     experience: 4-5 Years
     years: 5
