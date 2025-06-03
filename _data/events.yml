@@ -908,7 +908,7 @@
   category_style: tech-talk
   category_name: Tech Talk
   date: FRI, MAY 23, 2025
-  expiration: "20250523"
+  expiration: "20250524"
   host: "Nevena Verbič and Turdugul (Gul) Okonbaeva"
   speaker: "Wilson Adenuga"
   time: 9:00 PM BST
@@ -929,7 +929,7 @@
   category_style: tech-talk
   category_name: Tech Talk
   date: FRI, MAY 30, 2025
-  expiration: "20250530"
+  expiration: "20250531"
   host: "Nevena Verbič and Turdugul (Gul) Okonbaeva"
   speaker: "Wilson Adenuga"
   time: 9:00 PM BST
@@ -950,7 +950,7 @@
   category_style: tech-talk
   category_name: Tech Talk
   date: FRI, JUN 6, 2025
-  expiration: "20250606"
+  expiration: "20250607"
   host: "Nevena Verbič and Turdugul (Gul) Okonbaeva"
   speaker: "Wilson Adenuga"
   time: 9:00 PM BST
@@ -963,6 +963,46 @@
     target: _target
 
 - title: |
+    LeetCode Summer Bootcamp (Weekly)
+  description: |
+    Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+    Running every week for 12 weeks!
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, JUN 7, 2025
+  expiration: "20250824"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/e/a/2/8/highres_528239944.webp"
+    alt: "Event cover photo"
+  link:
+    path: https://docs.google.com/forms/d/e/1FAIpQLSe6SgBuVDRifGSnehHf9I0YxAFj5LfZKyHj2eOox8zjx5ukuQ/viewform
+    title: Register for event
+    target: _target
+
+- title: |
+    Defining System Requirements — A System Design Deep Dive (Part 1 of 2)
+  description: |
+    Whether you're preparing for system design interviews or architecting production-grade systems, being able to clearly define what your system must do — and under what constraints — is what separates good engineers from great ones.
+    This two-part series will guide you through both foundational and advanced aspects of defining system requirements in real-world scenarios.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SUN, JUN 8, 2025
+  expiration: "20250609"
+  host: ""
+  speaker: "Shailaja Koppu and Lilia Rafikova"
+  time: 6:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/7/b/3/highres_528322451.webp"
+    alt: "Event cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/308233705/
+    title: View meetup event
+    target: _target
+
+- title: |
     Advanced TDD Practices & Real-world Application
   description: |
     Test Driven Development (TDD) study group
@@ -971,7 +1011,7 @@
   category_style: tech-talk
   category_name: Tech Talk
   date: FRI, JUN 13, 2025
-  expiration: "20250613"
+  expiration: "20250614"
   host: "Nevena Verbič and Turdugul (Gul) Okonbaeva"
   speaker: "Wilson Adenuga"
   time: 9:00 PM BST
