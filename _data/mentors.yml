@@ -203,7 +203,7 @@
 - name: Madhura Chaganty
   disabled: false
   matched: false
-  sort: 100
+  sort: 30
   hours: 2
   type: ad-hoc
   index: 7
@@ -272,7 +272,7 @@
 
 - name: Julia Babahina
   disabled: false
-  sort: 100
+  sort: 30
   num_mentee: 2
   hours: 4
   position: Lead Risk Management Specialist, Swift
@@ -681,7 +681,7 @@
 - name: Anastasia
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 2
   hours: 5
   position: QA Specialist and Mentor, Trivago
@@ -743,7 +743,7 @@
 
 - name: Sakirat Kehinde Usman
   disabled: false
-  sort: 100
+  sort: 30
   num_mentee: 1
   hours: 5
   position: Frontend Development Trainer, Niyo Group Ltd
@@ -2237,7 +2237,7 @@
 - name: Silda Balla
   disabled: false
   matched: false
-  sort: 100
+  sort: 30
   num_mentee: 1
   hours: 5
   bio: |
@@ -2248,7 +2248,7 @@
   type: both
   index: 66
   languages: English, Spanish, Italian, French
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [8, 9, 10, 11]
   skills:
     experience: 4-5 Years
     years: 5
@@ -2272,7 +2272,7 @@
 - name: Sebastian Castro
   disabled: false
   matched: false
-  sort: 100
+  sort: 30
   num_mentee: 1
   hours: 4
   type: both
@@ -2583,3 +2583,46 @@
     - linkedin: https://www.linkedin.com/in/arunkumar1162/,
     - medium: https://medium.com/@ja.m.arunkumar,
     - github: https://github.com/arunkumar461,
+
+- name: Nishi Ajmera
+  disabled: false
+  matched: false
+  sort: 100
+  hours: 3
+  type: both
+  index: 77
+  location: London, UK
+  position: Architect, Publicis Sapient
+  bio: |
+    I am a Solutions Architect at Publicis Sapient, where I specialize in designing and delivering innovative solutions that align technology with complex business objectives. With a strong passion for Artificial Intelligence (AI) and Machine Learning (ML), I’ve built a reputation as a thought leader in the AI/ML space—driving innovation, mentoring others, and translating emerging technologies into impactful real-world applications.
+
+    In addition to my professional role, I serve as an Ambassador for Women Techmakers and am recognized as a Google Developer Expert (GDE) in AI/ML. I’m deeply committed to community building and knowledge sharing, regularly speaking at conferences, meetups, and industry events. My engagements often focus on Large Language Models (LLMs) and advanced AI topics, where I aim to demystify complex concepts and inspire others to explore this dynamic field.
+
+    As an active contributor to the Google Developer Groups (GDG), I lead technical sessions, mentor aspiring developers, and advocate for inclusive representation in tech—championing the voices of women in the AI community.
+  image: |
+    assets/images/mentors/nishi_ajmera.jpg
+  languages: English
+  availability: [6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      I’m looking for mentees who are curious, proactive, and eager to grow—both technically and personally. Someone who takes initiative, is open to feedback, and is genuinely committed to learning. I value a growth mindset and appreciate individuals who are not afraid to ask questions, experiment, and learn from failure.
+
+      Whether you're just beginning your journey in AI/ML or looking to deepen your expertise, I welcome those who are passionate about technology and its potential to solve real-world problems.
+    areas:
+      - Full-Stack Developer
+      - Machine Learning
+      - Backend Developer
+      - Frontend Developer
+      - DevOps Engineer
+    languages: Java, Javascript, Go, C++
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+    extra: |
+      - Generative AI, AI Agents, RAG, buillding LLMs
+  network:
+    - linkedin: https://www.linkedin.com/in/ajmeranishi/,
+    - website: https://nishiajmera.com/
