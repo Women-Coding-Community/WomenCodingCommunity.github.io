@@ -1,45 +1,64 @@
-- title: Data Analytics and Generative AI concepts
-  mentor: Kirthikka Devi Venkataram
-  description: The study group focuses more on the Data Analytics and Generative AI concepts and guiding on the insights across the span of industries upskilling on relevant knowledge and practical work.
-  participants: 3
+- title: System Design Study Group
+  mentor: Liliia Rafikova, Shailaja Koppu
+  description:
+    Understand how to architect scalable, reliable systems in this collaborative and hands-on study group.
+    Perfect for those preparing for system design interviews or curious about the inner workings of large-scale applications.
+    You'll break down real-world case studies, practice whiteboarding, and learn design trade-offs.
   status: active
-  link: /mentors?keywords=Kirthikka%20Devi
+  link: /mentors?keywords=Liliia%20Rafikova, /mentors?keywords=Shailaja%20Koppu
   index: 1
-- title: Frontend React
-  mentor: Stephanie Senoner
-  description: Project based study group, working towards a shared application (including SDLC introduction, gaining more experience in reviewing PR, git etc), with guidance on different aspects like testing, CI/CD.
-  participants: 10
-  status: active
-  link: /mentors?keywords=Stephanie%20Senoner
-  index: 2
-- title: Backend with Java and Rust
+- title: LeetCode Study Group
   mentor: Liliia Rafikova
-  description: Focus on Java including the whole developing process with creating projects and push them to git doing pairing review.
-  participants: 5
+  description: |
+    Sharpen your problem-solving skills in a supportive, challenge-driven environment.
+    This group focuses on tackling algorithm and data structure problems from platforms like LeetCode, with guided discussions and tips for optimizing solutions.
+    Great for interview prep or keeping your coding sharp.
+  status: active
+  link: /mentors?keywords=Liliia%20Rafikova
+  index: 2
+- title: AWS Certification Preparation
+  mentor: Liliia Rafikova
+  description: |
+    A structured and supportive path to earning your AWS certification.
+    We cover foundational to advanced cloud concepts, hands-on labs, and exam strategies.
+    Whether you're aiming for Cloud Practitioner or Solutions Architect, you'll build the skills to confidently pass and apply AWS knowledge in real scenarios.
   status: active
   link: /mentors?keywords=liliia%20Rafikova
   index: 3
-- title: Full Stack- ReactJs and Java (Spring Boot)
-  mentor: Hersi Kopani
+- title: Test Driven Development (TDD) - The Why, The How, The Do's and The Don'ts
+  mentor: Wilson Adenuga
   description: |
-    Group study on project-based learning, including pair programming. 
-    Gain deep knowledge of web-based microservice architecture, system design, and CI/CD best practices. 
-    Integrate backend services with ReactJS frontend to craft full-stack projects.
-  participants: 7
+    Master the art of writing clean, reliable code with a TDD-first mindset.
+    This group explores the principles behind TDD, demonstrates how to implement it in various languages, and helps you avoid common pitfalls.
+    Great for developers who want to build software that’s robust, testable, and maintainable.
   status: active
-  link: /mentors?keywords=Hersi%20Kopani
+  link: /mentors?keywords=Wilson%20Adenuga
   index: 4
-- title: API Test Automation
-  mentor: Eleonora Belova
-  description: The study group focuses on mastering API testing using Postman, a popular API development and testing tool. Sessions feature hands-on exercises and real-world scenarios to deepen understanding of testing techniques and gain practical knowledge on API automation.
-  participants: 3
-  status: active
-  link: /mentors?keywords=Eleonora%20Belova
-  index: 5
-- title: WCC Platform - Java Backend
-  status: active
-  mentor: Adriana Z. and Sonali Goel
+- title: Robotics Study Group
+  mentor: Mentee Driven
   description: |
-    Group study to learn about Backend based on Java and SpringBoot. Actively work in our new community platform backend opensource and work with a real life project, allow mentees to have real experience to include on your CV.
-  participants: 5
-  link: /mentors?keywords=Spring Boot
+    Join a community-driven robotics study group where you can explore various aspects of robotics, from hardware to software.
+    This group is open to all levels and encourages participants to share resources, projects, and ideas.
+    Perfect for those looking to collaborate on robotics projects or learn from each other’s experiences.
+  status: active
+  link: null
+  index: 5
+- title: Job Search and Career Progression
+  status: active
+  mentor: Ana Nogal
+  description: |
+    Navigate the job market with confidence in this career-focused study group.
+    Learn how to craft compelling resumes, ace interviews, and negotiate offers.
+    This group also covers personal branding, networking strategies, and career development tips to help you advance in your tech career.
+
+  link: /mentors?keywords=Ana%20Nogal
+  index: 6
+- title: Data Science and Machine Learning Study Group
+  status: upcoming
+  mentor: Busra Ecem Sakar
+  description: |
+    Dive into the world of data science and machine learning with this comprehensive study group.
+    Covering everything from data preprocessing to model deployment, this group is ideal for those looking to build a solid foundation in data science.
+    Participants will work on real-world datasets and projects, enhancing their skills through practical applications.
+  link: /mentors?keywords=Busra%20Ecem%20Sakar
+  index: 7
