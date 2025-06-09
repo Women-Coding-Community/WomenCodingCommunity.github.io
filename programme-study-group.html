@@ -36,8 +36,16 @@ body_class: page page-programme page-study-group
                                 <p>{{stgroup.description}}</p>
                             </div>
                             <div class="card-footer">
-                                <p>Mentor: <a href="{{stgroup.link}}">{{stgroup.mentor}} </a></p>
-                                <p>Participants: {{stgroup.participants}}</p>
+                                <p>Mentor:
+                                    {% if stgroup.link %}
+                                        <a href="{{stgroup.link}}">{{stgroup.mentor}}</a>
+                                    {% else %}
+                                        {{stgroup.mentor}}
+                                    {% endif %}
+                                </p>
+                                {% if stgroup.participants and stgroup.participants > 0 %}
+                                    <p>Participants: {{stgroup.participants}}</p>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
