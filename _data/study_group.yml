@@ -16,15 +16,6 @@
   status: active
   link: /mentors?keywords=Liliia%20Rafikova
   index: 2
-- title: AWS Certification Preparation
-  mentor: Liliia Rafikova
-  description: |
-    A structured and supportive path to earning your AWS certification.
-    We cover foundational to advanced cloud concepts, hands-on labs, and exam strategies.
-    Whether you're aiming for Cloud Practitioner or Solutions Architect, you'll build the skills to confidently pass and apply AWS knowledge in real scenarios.
-  status: active
-  link: /mentors?keywords=liliia%20Rafikova
-  index: 3
 - title: Test Driven Development (TDD) - The Why, The How, The Do's and The Don'ts
   mentor: Wilson Adenuga
   description: |
