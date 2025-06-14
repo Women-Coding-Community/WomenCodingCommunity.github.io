@@ -24,7 +24,7 @@
     Great for developers who want to build software that’s robust, testable, and maintainable.
   status: active
   link: /mentors?keywords=Wilson%20Adenuga
-  index: 4
+  index: 3
 - title: Robotics Study Group
   mentor: Mentee Driven
   description: |
@@ -33,7 +33,7 @@
     Perfect for those looking to collaborate on robotics projects or learn from each other’s experiences.
   status: active
   link: null
-  index: 5
+  index: 4
 - title: Job Search and Career Progression
   status: active
   mentor: Ana Nogal
@@ -42,7 +42,7 @@
     Learn how to craft compelling resumes, ace interviews, and negotiate offers.
     This group also covers personal branding, networking strategies, and career development tips to help you advance in your tech career.
   link: /mentors?keywords=Ana%20Nogal
-  index: 6
+  index: 5
 - title: Data Science and Machine Learning Study Group
   status: upcoming
   mentor: Busra Ecem Sakar
@@ -51,4 +51,4 @@
     Covering everything from data preprocessing to model deployment, this group is ideal for those looking to build a solid foundation in data science.
     Participants will work on real-world datasets and projects, enhancing their skills through practical applications.
   link: /mentors?keywords=Busra%20Ecem%20Sakar
-  index: 7
+  index: 6
