@@ -1,3 +1,5 @@
+# OLD MEETUP IMPORT SCRIPT: DO NOT USE
+
 import logging
 import sys
 from datetime import datetime
@@ -17,22 +19,17 @@ WRITING_CLUB_BANNER = "/assets/images/events/event-writing-club.jpeg"
 class LiteralString(str):
     pass
 
-
 class QuotedString(str):
     pass
-
 
 class NoQuoteString(str):
     pass
 
-
 def literal_string_representer(dumper, data):
     return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='|')
 
-
 def double_quote_representer(dumper, data):
     return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
-
 
 def no_quote(dumper, data):
     return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='')
