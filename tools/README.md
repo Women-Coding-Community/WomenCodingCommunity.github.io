@@ -35,12 +35,17 @@ sh run_download_automation.sh
 ```
 
 #### C) `meetup_import.py`
+**Before running the script, make sure** to download the most recent iCal feed using [this link](https://www.meetup.com/women-coding-community/events/ical/).
+
+Place the downloaded `.ics` file inside the `tools/files` folder and make sure it is renamed to `meetup.ics`.
+
+Afterwards, run the command below:
 ```shell
 sh run_meetup_import.sh
 ```
 
 **Note:** 
-- New data will be imported to [`imported_events.yml`](../_data/imported_events.yml)
+- New data will be imported to [`imported_events.yml`](../_data/imported_events.yml). Verify that all events details are formatted correctly, manually update if needed. 
 - Ensure to copy the generated data to [`events.yml`](../_data/events.yml) and clear the file.
 
 
