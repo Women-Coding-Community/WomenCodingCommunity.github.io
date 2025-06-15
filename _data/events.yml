@@ -1023,8 +1023,9 @@
     title: View meetup event
     target: _target
 
-- title: "Mentorship Check-In | How\u2019s Your Journey Going? (WCC Mentorship Programme 2025)\n"
-  description: "How\u2019s your mentorship journey going so far? Let\u2019s check in!  Join the Women Coding Community Mentorship Programme Team for a reflective and energizing Mentorship Check-In  designed to reconnect, share progress, and strengthen our community halfway through the 2025 program.\n"
+- title: "Mentorship Check-In | How is Your Journey Going? (WCC Mentorship Programme 2025)"
+  description: |
+    How is your mentorship journey going so far? Let's check in!  Join the Women Coding Community Mentorship Programme Team for a reflective and energizing Mentorship Check-In  designed to reconnect, share progress, and strengthen our community halfway through the 2025 program.
   category_style: tech-talk
   category_name: Tech Talk
   date: TUE, JUL 08, 2025
