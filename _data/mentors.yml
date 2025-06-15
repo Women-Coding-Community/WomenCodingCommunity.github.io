@@ -2580,9 +2580,9 @@
     extra: |
       - Software Development Strategies, Extreme Programming (TDD, Pair programming, CICD), Preparation for The Technical Interview, Software Development Tools
   network:
-    - linkedin: https://www.linkedin.com/in/arunkumar1162/,
-    - medium: https://medium.com/@ja.m.arunkumar,
-    - github: https://github.com/arunkumar461,
+    - linkedin: https://www.linkedin.com/in/arunkumar1162/
+    - medium: https://medium.com/@ja.m.arunkumar
+    - github: https://github.com/arunkumar461
 
 - name: Nishi Ajmera
   disabled: false
