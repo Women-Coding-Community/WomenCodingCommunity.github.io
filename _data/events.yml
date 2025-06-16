@@ -963,14 +963,14 @@
     target: _target
 
 - title: |
-    LeetCode Summer Bootcamp (Weekly)
+    LeetCode Summer Bootcamp Week 2
   description: |
     Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
     Running every week for 12 weeks!
   category_style: tech-talk
   category_name: Tech Talk
   date: SAT, JUN 7, 2025
-  expiration: "20250824"
+  expiration: "20250607"
   host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
   speaker: ""
   time: 10:00 AM BST
@@ -1020,5 +1020,78 @@
     alt: "Event cover photo"
   link:
     path: https://www.meetup.com/women-coding-community/events/307885337/
+    title: View meetup event
+    target: _target
+
+- title: "Mentorship Check-In | How is Your Journey Going? (WCC Mentorship Programme 2025)"
+  description: |
+    How is your mentorship journey going so far? Let's check in!  Join the Women Coding Community Mentorship Programme Team for a reflective and energizing Mentorship Check-In  designed to reconnect, share progress, and strengthen our community halfway through the 2025 program.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: TUE, JUL 08, 2025
+  expiration: "20250708"
+  host: "Idayat Sanni and Rajashree Munoli"
+  speaker: ""
+  time: 08:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/e/7/f/3/600_528419379.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/308368038/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Book Club: Fundamentals of Data Engineering
+  description: |
+    About the Book "Data engineering has grown rapidly in the past decade, leaving many software engineers, data scientists, and analysts looking for a comprehensive view of this practice.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, JUN 30, 2025
+  expiration: "20250630"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: "Lasha Dolenjashvili"
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/1/f/c/1/600_528368129.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/307781742/
+    title: View meetup event
+    target: _target
+
+- title: LeetCode Summer Bootcamp Week 3
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, JUN 21, 2025
+  expiration: "20250621"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/e/a/2/8/600_528239944.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/308136053/
+    title: View meetup event
+    target: _target
+
+- title: "Defining System Requirements \u2014 A System Design Deep Dive (Part 2 of 2)\n"
+  description: |
+    Designing robust, scalable systems starts with one essential step: defining system requirements.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SUN, JUN 15, 2025
+  expiration: "20250615"
+  host: ""
+  speaker: "Shailaja Koppu, Liliiia Rafikova"
+  time: 06:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/7/3/6/600_528502326.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/308462205/
     title: View meetup event
     target: _target
