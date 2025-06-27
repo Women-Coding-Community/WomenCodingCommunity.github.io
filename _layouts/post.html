@@ -48,7 +48,12 @@
                 </div>
               </header>
               <div class="article-header-img px-2">
-                <img src="{{page.blurb_img}}" alt="working-with-chatgpt-photo">
+                {% if post.blurb_img %}
+                  <img src="{{post.blurb_img}}" alt="header image for {{post.title}}">
+                {% else %}
+                  <img src="/assets/images/blog/default.jpg"
+                      alt="header image for {{post.title}}">
+                {% endif %}
                 {% if page.blurb_img_source %}
                   <div class="img-source">{{page.blurb_img_source}}</div>
                 {% endif %}
