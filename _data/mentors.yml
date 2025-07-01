@@ -1618,7 +1618,7 @@
 - name: Samuela Smolorz
   disabled: false
   matched: false
-  sort: 100
+  sort: 10
   num_mentee: 1
   hours: 4
   type: both
@@ -1630,7 +1630,7 @@
   image: |
     assets/images/mentors/samuela_smolorz.jpeg
   languages: English, Polish
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [8, 9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
