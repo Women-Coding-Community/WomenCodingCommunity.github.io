@@ -203,7 +203,7 @@
 - name: Madhura Chaganty
   disabled: false
   matched: false
-  sort: 30
+  sort: 500
   hours: 2
   type: ad-hoc
   index: 7
@@ -272,7 +272,7 @@
 
 - name: Julia Babahina
   disabled: false
-  sort: 30
+  sort: 10
   num_mentee: 2
   hours: 4
   position: Lead Risk Management Specialist, Swift
@@ -282,7 +282,7 @@
   bio: Julia is a Lead Risk Management Specialist at Swift for Product and Strategy with almost ten years of experience in Information Security, IT and Technology. Over the years she worked in numerous financial service organisations where she defined and delivered privacy and data programmes, cyber security and data strategies, policy frameworks and assisted organisations in governing IT risks and controls. She is dedicated to guiding businesses in delivering proportionate and risk aware IT response in line with business goals, compliance requirements and regulations. She is also a Director at Women Coding Community and is passionate about giving back to community and empowering women to excel in technology careers.
   image: assets/images/mentors/julia_babahina.png
   languages: English, Russian
-  availability: [7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 7-10 Years
     years: 10
@@ -399,7 +399,7 @@
 
 - name: Ana Nogal
   disabled: false
-  sort: 100
+  sort: 10
   num_mentee: 2
   hours: 2
   position: Senior iOS Developer, Novoda
@@ -1579,9 +1579,9 @@
     - linkedin: https://www.linkedin.com/in/amenawon-esezobor/
 
 - name: Prerna Singhal
-  disabled: true
+  disabled: false
   matched: false
-  sort: 100
+  sort: 500
   hours: 4
   type: both
   index: 48
@@ -2626,3 +2626,76 @@
   network:
     - linkedin: https://www.linkedin.com/in/ajmeranishi/
     - website: https://nishiajmera.com/
+
+- name: Udeme Jalekun
+  disabled: false
+  matched: false
+  sort: 500
+  hours: 2
+  type: ad-hoc
+  index: 78
+  location: Nigeria, Lagos
+  position: Software QA Engineer, Raenest
+  bio: |
+    I am a software quality assurance engineer with over 8 years of experience working in IT across FinTech and Social applications and 6 of it as a QA engineer. 
+    Beyond her technical abilities, Udeme is also a dedicated leader, actively nurturing talents through mentorship, coaching and structured training programs. 
+    I am currently serve as the director of professional training and development at the Association of Nigerian Software Testers (ANST), she plays a pivotal role in equipping the next generation of QA professionals with industry-relevant skills and knowledge.
+  image: |
+    assets/images/mentors/udeme_jalekun.jpeg
+  languages: English
+  availability: [7]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      Newbies to tech or transitioning from a non-tech role into QA
+    areas:
+      - QA
+    languages: Javascript, Python
+    focus:
+      - Switch career to IT
+    extra: |
+      - Software testing
+  network:
+    - linkedin: https://www.linkedin.com/in/udeme-jalekun
+
+- name: Narmada Chowdary Nannaka
+  disabled: false
+  matched: false
+  sort: 500
+  hours: 3
+  type: both
+  index: 79
+  location: Australia, Gold Coast
+  position: Tech Arch Senior Manager, Accenture
+  bio: |
+    With over 14 years of global experience in enterprise technology architecture and digital transformation, I mentor mid-career professionals and aspiring tech leaders on navigating complex IT landscapes, developing strategic thinking, and advancing in technical leadership roles. I specialize in simplifying enterprise architecture, resume and portfolio building, and preparing for high-impact stakeholder engagements. As a Women Techmakers Ambassador and a Senior Manager in Technology Architecture, I bring real-world insights, structured guidance, and actionable feedback to help you grow with clarity and confidence.
+  image: |
+    assets/images/mentors/narmada_chowdary_nannaka.jpeg
+  languages: English, Telugu
+  availability: [7, 8, 10, 11]
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      I'm looking to mentor individuals who are genuinely enthusiastic about growing in their careers, open to receiving constructive feedback, and most importantly, ready to take action on it. I value mentees who are curious, self-motivated, and willing to put in the effort to implement what they learn. A growth mindset, reliability, and a proactive attitude are non-negotiables—I’m here to support, but real progress comes from those who show up, follow through, and are eager to challenge themselves.
+    areas:
+      - Project Management
+      - Project Management
+      - Engineering management
+      - Security
+      - Business Analysis
+    languages: Javascript, C++, C#, C
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+      - Switch from IC to management position
+      - Change specialisation within IT
+    extra: |
+      - Technology Architecture & Strategy, 
+      - Career Growth, Leadership & Soft Skills
+      - Job Market Readiness, and Brand Building
+  network:
+    - linkedin: https://www.linkedin.com/in/narmada-nannaka/
+    - website: https://narmadanannaka.com/
