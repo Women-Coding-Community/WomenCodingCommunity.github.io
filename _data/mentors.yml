@@ -203,7 +203,7 @@
 - name: Madhura Chaganty
   disabled: false
   matched: false
-  sort: 500
+  sort: 10
   hours: 2
   type: ad-hoc
   index: 7
@@ -215,7 +215,7 @@
   image: assets/images/mentors/madhura_chaganty.jpeg
   location: United Kingdom
   languages: English
-  availability: [7, 8, 10, 11]
+  availability: [8, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -651,7 +651,7 @@
 
 - name: Adeola Adekoyejo
   disabled: false
-  sort: 100
+  sort: 10
   hours: 3
   position: Full stack Engineer
   type: ad-hoc
@@ -661,7 +661,7 @@
     I am Frontend engineer with 4 years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
   image: assets/images/mentors/adeola_adekoyejo.jpg
   languages: English
-  availability: [5, 6, 7, 8, 9]
+  availability: [8, 9]
   skills:
     experience: 4-5 years
     years: 5
