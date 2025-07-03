@@ -4,6 +4,7 @@ _site
 node_modules
 tools/__pycache__
 tools/venv
+tools/files/meetup.ics
 bin/
 lib/
 .venv
