@@ -1699,7 +1699,7 @@
 - name: Prabha Venkatesh
   disabled: false
   matched: false
-  sort: 100
+  sort: 10
   num_mentee: 2
   hours: 5
   type: both
@@ -1711,7 +1711,7 @@
   image: |
     assets/images/mentors/prabha_venkatesh.jpeg
   languages: English
-  availability: [6, 7, 8, 9, 10, 11]
+  availability: [8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
