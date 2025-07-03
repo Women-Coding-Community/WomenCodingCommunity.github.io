@@ -34,7 +34,7 @@
 - name: Rajani Rao
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 3
   hours: 5
   type: both
@@ -70,7 +70,7 @@
 - name: Adriana Zencke Zimmermann
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   num_mentee: 1
   hours: 2
   bio: |
@@ -139,7 +139,7 @@
 
 - name: Stephanie Senoner
   disabled: false
-  sort: 10
+  sort: 100
   matched: false
   hours: 5
   type: both
@@ -203,7 +203,7 @@
 - name: Madhura Chaganty
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   hours: 2
   type: ad-hoc
   index: 7
@@ -239,7 +239,7 @@
 - name: Sonali Goel
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   num_mentee: 1
   hours: 1
   position: Lead Engineer, Tesco Technology
@@ -399,7 +399,7 @@
 
 - name: Ana Nogal
   disabled: false
-  sort: 10
+  sort: 100
   num_mentee: 2
   hours: 2
   position: Senior iOS Developer, Novoda
@@ -432,7 +432,7 @@
 - name: Monal Sanghvi
   disabled: true
   matched: false
-  sort: 10
+  sort: 1
   hours: 5
   type: both
   index: 14
@@ -441,7 +441,7 @@
   image: assets/images/mentors/monal_sanghvi.png
   location: London, UK
   languages: English
-  availability: [7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 10-15 years
     years: 15
@@ -463,7 +463,7 @@
 
 - name: Kaylyn Van Norstrand
   disabled: true
-  sort: 10
+  sort: 1
   hours: 4
   position: Software Engineer
   type: both
@@ -473,7 +473,7 @@
     8 years of experience in front end development in Angular, Head of many projects in UI and trained multiple developers.
   image: assets/images/mentors/kaylyn_van_norstrand.jpg
   languages: English
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 7-10 Years
     years: 10
@@ -497,7 +497,7 @@
 
 - name: Ceri Shaw
   disabled: true
-  sort: 10
+  sort: 1
   hours: 3
   position: Fractional CTO, Thistle Labs
   type: long-term
@@ -530,7 +530,7 @@
 
 - name: Minsang Kim
   disabled: true
-  sort: 100
+  sort: 1
   hours: 4
   position: CTO/Co-founder (previously Machine Learning Scientist at Amazon), Radiant AI
   type: both
@@ -539,7 +539,7 @@
   bio: Hi! My name is Min, I’m a kiwi, and I am a senior Machine Learning / Full-stack Software Engineer of 7 years experience who has worked in a wide range of work environments including a FAANG, a Unicorn, a small startup, and most recently my own startup. From my experience, I’ve seen time and time again how the skewed gender ratio in tech negatively impacts everything we do in tech, and what we build. To combat this, I have mentored with WomenWhoCode before, and I have taught a few courses with CodeFirstGirls before. I would like to continue supporting more women to get into tech industry and moreover succeed in the industry until we have truly achieved gender equality and equity in the tech industry.
   image: assets/images/mentors/minsang_kim.jpg
   languages: English
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 5-7 Years
     years: 7
@@ -591,7 +591,7 @@
 
 - name: Mona Ahluwalia
   disabled: true
-  sort: 100
+  sort: 1
   hours: 5
   position: Talent Director, Chapter 2
   type: ad-hoc
@@ -601,7 +601,7 @@
     I'm a Recruitment professional and start-up scaling specialist. I can help mentees with the soft-skills development to really make impact in their role and in the workplace.
   image: assets/images/mentors/mona_ahluwalia.jpg
   languages: English
-  availability: [6]
+  availability: []
   skills:
     experience: 5-7 Years
     years: 7
@@ -617,7 +617,7 @@
 
 - name: Andrew King
   disabled: false
-  sort: 100
+  sort: 200
   hours: 4
   position: DevOps Engineer, DRW
   type: ad-hoc
@@ -651,7 +651,7 @@
 
 - name: Adeola Adekoyejo
   disabled: false
-  sort: 10
+  sort: 100
   hours: 3
   position: Full stack Engineer
   type: ad-hoc
@@ -743,7 +743,7 @@
 
 - name: Sakirat Kehinde Usman
   disabled: false
-  sort: 30
+  sort: 100
   num_mentee: 1
   hours: 5
   position: Frontend Development Trainer, Niyo Group Ltd
@@ -775,7 +775,7 @@
 
 - name: Tvisha Dholakia
   disabled: true
-  sort: 100
+  sort: 1
   hours: 4
   position: Co-founder and CBO, apibanking.com
   type: both
@@ -785,7 +785,7 @@
     I'm a co-founder, building in the open banking and developer experience space. apibanking.com is young - for ~2.5 years, we have been developing tech offerings in the financial services space, to solve the friction at the point of integration between traditional banks and the fintech ecosystem. I pursued my undergraduate coursework in Mathematics and Computer Science, and since then, I've spent 5+ years in enterprise technology as a developer as well as a business leader building scale products, and another 5+ years in business building, including product strategy, private equity and venture investments for tech-first players. I have mentored startup founders on product scaling, new market opportunities and fundraising. I'm also exploring angel investing, focusing on next-gen software tech startups.
   image: assets/images/mentors/tvisha_dholakia.jpg
   languages: English
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 7-10 years
     years: 10
@@ -845,7 +845,7 @@
 - name: Agrin Hilmkil
   disabled: true
   matched: false
-  sort: 10
+  sort: 1
   hours: 4
   position: Senior Research Engineer, Microsoft Research
   type: long-term
@@ -874,7 +874,7 @@
 
 - name: Jenny Johnson
   disabled: true
-  sort: 10
+  sort: 1
   matched: true
   hours: 2
   position: Senior Software Engineer, Isla Healthcare
@@ -884,7 +884,7 @@
   bio: I have 9+ years of software development experience across start-ups, corporates, and non-profits. I currently work at Islacare, a healthcare startup, with primary focus on front-end development. I career switched into software development and now have been working longer in this field than anything else. I am passionate about diversifying STEM and helping people transition into tech.
   image: assets/images/mentors/jenny_johnson.jpeg
   languages: English
-  availability: [5]
+  availability: []
   skills:
     experience: 7-10 Years
     years: 10
@@ -937,7 +937,7 @@
 
 - name: Claudia Lee
   disabled: false
-  sort: 10
+  sort: 100
   hours: 2
   position: Backend Java Software Engineer, Lloyds Banking Group
   type: both
@@ -965,7 +965,7 @@
 - name: Bryan Boreham
   disabled: false
   hours: 4
-  sort: 100
+  sort: 200
   num_mentee: 1
   type: both
   index: 31
@@ -1034,7 +1034,7 @@
 - name: Avraham Poupko
   disabled: true
   matched: false
-  sort: 100
+  sort: 1
   hours: 2
   type: ad-hoc
   index: 33
@@ -1044,7 +1044,7 @@
     I have been teaching and mentoring software designers and architects for close to twenty years.
   image: "assets/images/mentors/avraham_poupko.jpg"
   languages: English, Hebrew
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 16+ Years
     years: 16
@@ -1106,7 +1106,7 @@
 - name: Bomee Ryu
   disabled: true
   matched: false
-  sort: 100
+  sort: 1
   hours: 3
   type: both
   index: 35
@@ -1116,7 +1116,7 @@
     I am an android developer with over 6 years of experience. I have experienced projects that even couldn't come out to the world but also experienced huge projects had 1M+ daily active users. If you want to learn something about a whole life cycle of Android development projects, I can help you and walk through with you.
   image: "assets/images/mentors/bomee_ryu.jpg"
   languages: English, Korean
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 5-7 Years
     years: 7
@@ -1136,7 +1136,7 @@
 
 - name: Monique Grinstein
   disabled: true
-  sort: 100
+  sort: 1
   hours: 2
   position: Software Engineer, The LEGO Group
   type: ad-hoc
@@ -1165,7 +1165,7 @@
 
 - name: Rasim Sen
   disabled: true
-  sort: 100
+  sort: 1
   hours: 4
   position: Fullstack Developer/Cloud Architect, Eurostar
   type: both
@@ -1175,7 +1175,7 @@
     With over 15 years of experience as a developer, I am a graduate of the Oxford Blockchain Strategy Programme and an AWS Solutions Architect. My career has spanned various roles, including full-stack, backend, frontend, blockchain developer, and platform engineer, collaborating with startups and enterprises alike, such as HSBC, Deloitte, Credit Suisse, GSK, and Eurostar. My technical expertise encompasses Java (including Spring and Spring Boot), JavaScript (Node.js, React.js, TypeScript), and both relational and non-relational databases (Oracle, MySQL, PostgreSQL, MongoDB, DynamoDB, Neo4j, among others).
   image: assets/images/mentors/rasim_sen.jpeg
   languages: English
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 16+ years
     years: 16
@@ -1241,7 +1241,7 @@
 - name: Busra Ecem Sakar
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 2
   hours: 4
   type: both
@@ -1284,7 +1284,7 @@
 - name: Fernanda Martins
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 2
   hours: 5
   type: both
@@ -1317,7 +1317,7 @@
 - name: Gabriel Oliveira
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 4
   hours: 5
   type: both
@@ -1359,7 +1359,7 @@
 - name: Abdul-Mateen Qamardeen
   disabled: true
   matched: false
-  sort: 100
+  sort: 1
   hours: 5
   type: ad-hoc
   index: 42
@@ -1369,7 +1369,7 @@
     I am a student Architect who has deep passion for software engineering and coding. I've worked with multiple programming languages including R, Python, Golang, Java, c++ and scala. Currently I'm serving as the CEO of the company I founded, R For All, which trains people on R Programming skills. My focus recently has been on R Programming because of my passion for healthcare analysis and tech which is where R thrives. My R Programming skills is Johns Hopkins university and HackerRank certified. I'm looking forward to mentoring curious candidates like me.
   image: "assets/images/mentors/abdul_qamardeen.jpg"
   languages: English, Yoruba
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 5-7 Years
     years: 7
@@ -1397,7 +1397,7 @@
 - name: Olga Volkova
   disabled: true
   matched: true
-  sort: 10
+  sort: 1
   hours: 2
   type: long-term
   index: 43
@@ -1430,7 +1430,7 @@
 - name: Samantha Cohen
   disabled: true
   matched: false
-  sort: 100
+  sort: 1
   hours: 2
   type: both
   index: 44
@@ -1442,7 +1442,7 @@
     Current role is as a principal engineer so I split my time between distributed systems architecture, writing code and coaching/upskilling engineers throughout the company.
   image: "assets/images/mentors/samantha-cohen.jpg"
   languages: English
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 10-15 Years
     years: 15
@@ -1470,7 +1470,7 @@
 - name: Anahi Gaetan
   disabled: true
   matched: false
-  sort: 100
+  sort: 1
   hours: 5
   type: both
   index: 45
@@ -1480,7 +1480,7 @@
     I've been working as a React developer for around four years and have been working remotely and travelling for the last two. I have a degree in development, but I struggled a lot to find my first job. It was women from a JavaScript community who helped me and guided me to get that first job. It's thanks to them that I am where I am today. So I just want to give a little of this back to the community and help other women get their first job. Even if they already have one but are struggling with situations, impostor syndrome, or solving problems, I can give advice and help with that too.
   image: "assets/images/mentors/anahi-gaetan.jpg"
   languages: English, Spanish
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 2-4 Years
     years: 4
@@ -1503,7 +1503,7 @@
 - name: Paula Kennedy
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
   hours: 2
   type: both
@@ -1541,7 +1541,7 @@
 - name: Mena Esezobor
   disabled: false
   matched: false
-  sort: 100
+  sort: 10
   num_mentee: 1
   hours: 2
   type: both
@@ -1618,7 +1618,7 @@
 - name: Samuela Smolorz
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   num_mentee: 1
   hours: 4
   type: both
@@ -1662,7 +1662,7 @@
 - name: Arzu Caner
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   hours: 1
   type: ad-hoc
   index: 50
@@ -1699,7 +1699,7 @@
 - name: Prabha Venkatesh
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 2
   hours: 5
   type: both
@@ -1736,7 +1736,7 @@
 - name: Lulu Cao
   disabled: true
   matched: false
-  sort: 100
+  sort: 1
   hours: 2
   type: both
   index: 52
@@ -1747,7 +1747,7 @@
   image: |
     assets/images/mentors/lulu_cao.jpeg
   languages: English, Mandarin
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 2-4 Years
     years: 4
@@ -1769,7 +1769,7 @@
 - name: Adnan Salehin
   disabled: true
   matched: false
-  sort: 10
+  sort: 1
   hours: 4
   type: both
   index: 53
@@ -1782,6 +1782,7 @@
   image: |
     assets/images/mentors/adnan_salehin.jpeg
   languages: English
+  availability: []
   skills:
     experience: 5-7 Years
     years: 7
@@ -1839,7 +1840,7 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
   hours: 5
   type: both
@@ -1876,7 +1877,7 @@
 - name: Ajeetha Kumari Venkatesan
   disabled: true
   matched: false
-  sort: 100
+  sort: 1
   num_mentee: 1
   hours: 2
   type: both
@@ -1892,7 +1893,7 @@
   image: |
     assets/images/mentors/ajeetha_kumari.jpeg
   languages: English, Tamil, Hindi, Kannada
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 16+ Years
     years: 16
@@ -1919,7 +1920,7 @@
 - name: Alexey Buzovkin
   disabled: true
   matched: false
-  sort: 100
+  sort: 1
   hours: 5
   type: both
   index: 57
@@ -1951,7 +1952,7 @@
 - name: Ciera Fowler
   disabled: true
   matched: false
-  sort: 100
+  sort: 1
   hours: 4
   type: both
   index: 58
@@ -1962,7 +1963,7 @@
   image: |
     assets/images/mentors/ciera_fowler.jpg
   languages: English
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 10-15 Years
     years: 15
@@ -1989,7 +1990,7 @@
 - name: Liko Chien
   disabled: true
   matched: false
-  sort: 100
+  sort: 1
   hours: 2
   type: ad-hoc
   index: 59
@@ -2027,7 +2028,7 @@
 - name: Marie Coquille
   disabled: true
   matched: false
-  sort: 100
+  sort: 1
   hours: 4
   type: both
   index: 60
@@ -2058,7 +2059,7 @@
 - name: Kateryna Ogar
   disabled: false
   matched: false
-  sort: 50
+  sort: 200
   hours: 4
   type: both
   index: 61
@@ -2098,7 +2099,7 @@
 - name: Chandeep Khosa
   disabled: true
   matched: false
-  sort: 100
+  sort: 1
   hours: 3
   type: both
   index: 62
@@ -2108,7 +2109,7 @@
     I am the Founder & Managing Director of 2Toucans, a digital agency I setup after 20 years as a web developer, technical lead and trainer. My career spans projects delivered for clients such as the United Nations, National Grid, and the University of Oxford. These days I mostly work as a technical consultant, strategist & architect, while also doing some development, and managing teams of developers, designers & marketers to keep our clients happy. Our clients are a nice mix of charities, membership associations, a college & small businesses.
   image: assets/images/mentors/chandeep_khosa.jpeg
   languages: English, Spanish, Italian, Portuguese
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 16+ Years
     years: 16
@@ -2174,7 +2175,7 @@
 - name: Nadezhda Iaromirova
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   num_mentee: 2
   hours: 2
   bio: |
@@ -2204,7 +2205,7 @@
 - name: Sergei Begishev
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
   hours: 4
   bio: |
@@ -2237,7 +2238,7 @@
 - name: Silda Balla
   disabled: false
   matched: false
-  sort: 30
+  sort: 100
   num_mentee: 1
   hours: 5
   bio: |
@@ -2272,7 +2273,7 @@
 - name: Sebastian Castro
   disabled: false
   matched: false
-  sort: 30
+  sort: 100
   num_mentee: 1
   hours: 4
   type: both
@@ -2345,7 +2346,7 @@
 - name: Sonika Janagill
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
   hours: 2
   type: both
@@ -2393,7 +2394,7 @@
 - name: Eniola Oduntan
   disabled: false
   matched: false
-  sort: 30
+  sort: 10
   num_mentee: 1
   hours: 4
   type: long-term
@@ -2405,7 +2406,6 @@
   image: |
     assets/images/mentors/eniola_oduntani.jpeg
   languages: English
-  availability: []
   skills:
     experience: 2-4 Years
     years: 4
@@ -2431,7 +2431,7 @@
 - name: Griswald Brooks
   disabled: false
   matched: false
-  sort: 30
+  sort: 10
   num_mentee: 1
   hours: 4
   type: long-term
@@ -2443,7 +2443,6 @@
   image: |
     assets/images/mentors/griswald_brooks.jpeg
   languages: English
-  availability: []
   skills:
     experience: 7-10 Years
     years: 10
@@ -2463,7 +2462,7 @@
 - name: Tiffany Cappeellari
   disabled: false
   matched: false
-  sort: 30
+  sort: 10
   num_mentee: 1
   hours: 2
   type: long-term
@@ -2479,7 +2478,6 @@
   image: |
     assets/images/mentors/tiffany_cappeellari.jpeg
   languages: English
-  availability: []
   skills:
     experience: 4-5 Years
     years: 5
@@ -2630,7 +2628,7 @@
 - name: Udeme Jalekun
   disabled: false
   matched: false
-  sort: 500
+  sort: 10
   hours: 2
   type: ad-hoc
   index: 78
