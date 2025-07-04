@@ -48,16 +48,6 @@
     - name: github
       link: https://github.com/Deejarh
 
-- name: Rajashree Munoli
-  image: assets/images/collaborators/3.jpeg
-  position: Data Analysis | Project manager
-  comment: Platform Project Manager
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/rajashree-munoli/
-    - name: github
-      link: https://github.com/rajashreemunoli
-
 - name: Amenawon Esezobor
   image: assets/images/collaborators/2.jpeg
   position: Senior Software engineer
