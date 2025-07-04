@@ -1541,7 +1541,7 @@
 - name: Mena Esezobor
   disabled: false
   matched: false
-  sort: 100
+  sort: 10
   num_mentee: 1
   hours: 2
   type: both
@@ -2630,7 +2630,7 @@
 - name: Udeme Jalekun
   disabled: false
   matched: false
-  sort: 500
+  sort: 10
   hours: 2
   type: ad-hoc
   index: 78
