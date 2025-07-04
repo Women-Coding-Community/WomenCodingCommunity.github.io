@@ -1698,7 +1698,7 @@
 - name: Prabha Venkatesh
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   num_mentee: 2
   hours: 5
   type: both
