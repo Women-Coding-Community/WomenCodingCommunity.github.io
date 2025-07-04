@@ -2058,7 +2058,7 @@
 - name: Kateryna Ogar
   disabled: false
   matched: false
-  sort: 50
+  sort: 10
   hours: 4
   type: both
   index: 61
