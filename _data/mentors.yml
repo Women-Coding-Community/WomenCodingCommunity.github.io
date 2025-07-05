@@ -743,7 +743,7 @@
 
 - name: Sakirat Kehinde Usman
   disabled: false
-  sort: 100
+  sort: 10
   num_mentee: 1
   hours: 5
   position: Frontend Development Trainer, Niyo Group Ltd
@@ -754,7 +754,7 @@
     I am a frontend engineer with over 3 years of experience in frontend development. I am excellent at building user interfaces and bringing web functionalities to life. I have worked on various projects ranging from fintech to agriculture.
   image: assets/images/mentors/sakirat_kehinde_usman.jpg
   languages: English
-  availability: [11]
+  availability: []
   skills:
     experience: 4-5 years
     years: 5
