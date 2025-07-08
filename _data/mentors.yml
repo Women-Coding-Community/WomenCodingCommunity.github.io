@@ -2696,3 +2696,48 @@
   network:
     - linkedin: https://www.linkedin.com/in/narmada-nannaka/
     - website: https://narmadanannaka.com/
+
+- name:  Bianca Stratulat
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 3
+  type: both
+  index: 80
+  location: Cambridge, UK
+  position: Chief Data Officer, Unifeye
+  bio: |
+    With over a decade of experience in the data and AI space, I specialise in designing and delivering modern data platforms that drive business transformation. I am a Databricks Champion and currently the Chief Data Officer at UnifEye, where I lead strategic initiatives across sectors such as healthcare, retail, and public services.
+
+    Throughout my career, I have successfully delivered large-scale data engineering and analytics projects, enabling organisations to unlock insights and adopt AI at scale. I hold multiple Databricks certifications, including the Solution Architect Champion accreditation, and have built Centres of Excellence focused on cloud data platforms and generative AI adoption.
+
+    Passionate about empowering technical teams and business leaders alike, I regularly speak at industry events and run community programmes to help others accelerate their learning journeys in data engineering and AI.
+
+  image: |
+    assets/images/mentors/bianca_stratulat.jpg
+  languages: English, Romanian
+  availability: [7,8,10,11]
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+        I’m looking for a mentee who is committed to transitioning into the data world, focused on building strong foundations, and curious enough to enjoy the learning journey.
+        Someone who is proactive, open to feedback, and excited about exploring the possibilities in data engineering and analytics.
+    areas:
+      - Data Engineering
+      - Data Science
+      - Machine Learning
+      - Project Management
+      - Business Analysis
+    languages: Python, Scala
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
+      - Switch from IC to management position
+    extra:
+      Data Engineering Coaching & Mentoring (building skills, career progression, and best practices); Transitioning to a Data Engineering Role (guidance for professionals moving into data roles); Power BI & Databricks Expertise (technical deep dives and practical use cases); Interview Preparation (technical interviews, leadership interviews, and confidence building); Career Development in Data & AI (navigating certifications, building a personal brand, and growing as a leader).
+  network:
+    - linkedin: https://www.linkedin.com/in/bianca-stratulat/
+    - medium: https://medium.com/@biancadoesdata
