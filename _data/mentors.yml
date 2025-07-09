@@ -34,7 +34,7 @@
 - name: Rajani Rao
   disabled: false
   matched: false
-  sort: 200
+  sort: 10
   num_mentee: 3
   hours: 5
   type: both
@@ -45,7 +45,7 @@
   image: assets/images/mentors/rajani_rao.jpeg
   location: Cambridge, UK
   languages: English
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [8, 9, 10, 11]
   skills:
     experience: 16+ years
     years: 16
@@ -2345,7 +2345,7 @@
 - name: Sonika Janagill
   disabled: false
   matched: false
-  sort: 200
+  sort: 10
   num_mentee: 1
   hours: 2
   type: both
@@ -2359,7 +2359,7 @@
   image: |
     assets/images/mentors/sonika_janagill.jpeg
   languages: English, Hindi, Punjabi
-  availability: [6, 7, 8, 9, 10, 11]
+  availability: [8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
