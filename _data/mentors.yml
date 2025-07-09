@@ -743,7 +743,7 @@
 
 - name: Sakirat Kehinde Usman
   disabled: false
-  sort: 100
+  sort: 10
   num_mentee: 1
   hours: 5
   position: Frontend Development Trainer, Niyo Group Ltd
@@ -754,7 +754,7 @@
     I am a frontend engineer with over 3 years of experience in frontend development. I am excellent at building user interfaces and bringing web functionalities to life. I have worked on various projects ranging from fintech to agriculture.
   image: assets/images/mentors/sakirat_kehinde_usman.jpg
   languages: English
-  availability: [11]
+  availability: []
   skills:
     experience: 4-5 years
     years: 5
@@ -1240,7 +1240,7 @@
 - name: Busra Ecem Sakar
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   num_mentee: 2
   hours: 4
   type: both
@@ -1252,7 +1252,7 @@
     Biostatistics and Big Data & Data Science Technology. I am an expert in A/B testing, data analysis, statistical modelling, and machine learning, as well as SQL, Python, R, and other tools. My passion is using data to make important business decisions.
   image: "assets/images/mentors/busra_sakar.jpg"
   languages: English, Turkish
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 8, 9, 10, 11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -2204,7 +2204,7 @@
 - name: Sergei Begishev
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   num_mentee: 1
   hours: 4
   bio: |
@@ -2215,7 +2215,7 @@
   type: both
   index: 65
   languages: English, Russian
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: [5, 6, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -2696,3 +2696,48 @@
   network:
     - linkedin: https://www.linkedin.com/in/narmada-nannaka/
     - website: https://narmadanannaka.com/
+
+- name:  Bianca Stratulat
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 3
+  type: both
+  index: 80
+  location: Cambridge, UK
+  position: Chief Data Officer, Unifeye
+  bio: |
+    With over a decade of experience in the data and AI space, I specialise in designing and delivering modern data platforms that drive business transformation. I am a Databricks Champion and currently the Chief Data Officer at UnifEye, where I lead strategic initiatives across sectors such as healthcare, retail, and public services.
+
+    Throughout my career, I have successfully delivered large-scale data engineering and analytics projects, enabling organisations to unlock insights and adopt AI at scale. I hold multiple Databricks certifications, including the Solution Architect Champion accreditation, and have built Centres of Excellence focused on cloud data platforms and generative AI adoption.
+
+    Passionate about empowering technical teams and business leaders alike, I regularly speak at industry events and run community programmes to help others accelerate their learning journeys in data engineering and AI.
+
+  image: |
+    assets/images/mentors/bianca_stratulat.jpg
+  languages: English, Romanian
+  availability: [7,8,10,11]
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+        I’m looking for a mentee who is committed to transitioning into the data world, focused on building strong foundations, and curious enough to enjoy the learning journey.
+        Someone who is proactive, open to feedback, and excited about exploring the possibilities in data engineering and analytics.
+    areas:
+      - Data Engineering
+      - Data Science
+      - Machine Learning
+      - Project Management
+      - Business Analysis
+    languages: Python, Scala
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
+      - Switch from IC to management position
+    extra:
+      Data Engineering Coaching & Mentoring (building skills, career progression, and best practices); Transitioning to a Data Engineering Role (guidance for professionals moving into data roles); Power BI & Databricks Expertise (technical deep dives and practical use cases); Interview Preparation (technical interviews, leadership interviews, and confidence building); Career Development in Data & AI (navigating certifications, building a personal brand, and growing as a leader).
+  network:
+    - linkedin: https://www.linkedin.com/in/bianca-stratulat/
+    - medium: https://medium.com/@biancadoesdata
