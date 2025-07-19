@@ -27,6 +27,18 @@
       feedback: Sonali was very helpful and offered some great practical guidance and pointers on my CV and information on career growth and time management.
       name: Krupa Brahmbhatt
       type: Ad-Hoc
+    - score: 4
+      date: 20250604
+      date-f: 04 June 2025
+      feedback: She has highlighted a key area that I can improve on to support me in the interviewing process for engineering roles. This is relatively crucial and is great to have been spotted in advance so it can be worked on for future reference.
+      name: Stephanie Gnahore
+      type: Ad-Hoc
+    - score: 5
+      date: 20250606
+      date-f: 06 June 2025
+      feedback: Sonali gave me really good advice about how to approach being in a new backend team that wasn't turning out exactly as I had had expected, and how to go about job hunting when I am in this transitional state of moving from front end to backend. 
+      name: Anonymous
+      type: Ad-Hoc
 
 - index: 21 # Adeola
   feedback:
@@ -128,6 +140,13 @@
         Rajani is very insightful and she has a lot of experience. She shares good energy and has had me a very positive impact in my private and professional life. Thanks to my mentor and to this program that give me a lot of inspiration.
       name: Adriana
       type: Long Term Mentorship
+    - score: 5
+      date: 20250619
+      date-f: 19 June 2025
+      feedback: |
+        Mentorship session with Rajani was insightful and came at a crucial time. She provided clear guidance on how to navigate a challenging situation and helped me see things from a new perspective. I appreciate her practical approach, which made it easier to move forward.
+      name: Eleonora Belova
+      type: Ad-Hoc
 
 - index: 11 # Ying
   feedback:
@@ -292,3 +311,40 @@
         Amazing program and super helpful mentor.
       date-f: 20 November 2024
       date: 20241120
+
+- index: 63 # Wilson Adenuga
+  feedback:
+    - score: 5
+      feedback: |
+        My session with Mr Wilson was deeply impactful both personally and professionally. He helped me realize that I don’t need to overwhelm myself trying to figure everything out at once especially with something as broad and deep as front-end development and JavaScript. Instead, he emphasized the importance of pacing myself, building momentum through small, consistent efforts. That really shifted my mindset.
+        He also challenged me to think beyond just attending bootcamps and ticking boxes. It’s not just about showing up it’s about what I do after. He encouraged me to find an accountability partner, someone who can support me when I get stuck or feel unmotivated. That simple suggestion made the journey feel more human and less isolating.
+        Overall, Wilson’s guidance gave me a clearer structure and deeper confidence to grow intentionally, not just professionally, but personally in how I handle procrastination, discipline, and self-worth as I build my career. He was very comfortable speaking with.
+      date-f: 23 June 2025
+      date: 20240623
+      name: Gift Okoye
+      type: Ad-Hoc
+    - score: 5
+      feedback: |
+        He shared his experiences, resources, and tips on how I can improve quickly and standout. It was an insightful meeting and I hope it happens more often.
+        If it happens every three months, it could help track the growth of the mentee.
+      date-f: 25 June 2025
+      date: 20240625
+      name: Nkwor Jane
+      type: Ad-Hoc
+    - score: 5
+      feedback: |
+        He’s incredibly helpful and always ready with practical advice. It’s clear he’s genuinely invested in helping others grow. I truly appreciate his support and highly recommend him as a mentor.
+      date-f: 30 June 2025
+      date: 20240630
+      name: Anonymous
+      type: Ad-Hoc
+
+- index: 55 # Lidiane
+  feedback:
+    - score: 5
+      feedback: |
+        She gave me concrete steps to improve my LinkedIn and Github profile for an employer. She was amiable and easy to talk to.
+      date-f: 23 June 2025
+      date: 20250623
+      name: Anonymous
+      type: Ad-Hoc
