@@ -15,6 +15,7 @@
   image:
     path: "/assets/images/partners/surrealdb.png"
     alt: SurrealDB logo
+  page_show: true
 
 - name: Jetbrains
   link: "https://www.jetbrains.com/"
@@ -24,6 +25,7 @@
   image:
     path: "/assets/images/partners/jetbrains.png"
     alt: Jetbrains logo
+  page_show: true
 
 - name: Amazon
   background: "bg-1"
@@ -40,6 +42,7 @@
   image:
     path: "/assets/images/partners/amazon.png"
     alt: Amazon logo
+  page_show: true
 
 - name: GitHub
   background: ""
@@ -52,6 +55,17 @@
   image:
     path: "/assets/images/partners/github.png"
     alt: GitHub logo
+  page_show: true
+
+- name: O'Reilly
+  link: "https://www.oreilly.com/"
+  description: |
+    <p><a href="https://www.oreilly.com/" target="_blank">O’Reilly’s</a> mission is to change the world by sharing the knowledge of innovators. </p>
+    <p>The learning platform offers exclusive live training, interactive learning, a certification experience, books, videos, and more, making it easier for customers to develop the expertise they need to get ahead.</p>
+  image:
+    path: "/assets/images/partners/oreilly.png"
+    alt: O’Reilly logo
+  page_show: true
 
 - name: Women In Tech Global Conference
   link: "https://www.womentech.net/en-es/node/102994"
@@ -60,6 +74,7 @@
   image:
     path: "/assets/images/partners/WomenInTech.png"
     alt: Conference logo
+  page_show: false
 
 - name: Devoxx - UK
   background: "bg-1"
@@ -69,3 +84,4 @@
   image:
     path: "/assets/images/partners/devoxx.png"
     alt: Conference logo
+  page_show: false
