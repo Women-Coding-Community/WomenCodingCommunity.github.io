@@ -39,6 +39,13 @@
       feedback: Sonali gave me really good advice about how to approach being in a new backend team that wasn't turning out exactly as I had had expected, and how to go about job hunting when I am in this transitional state of moving from front end to backend. 
       name: Anonymous
       type: Ad-Hoc
+    - score: 5
+      feedback: |
+        Definitely yes, I came to the session with lot of questions and indirection. But, Sonali was able to give me right suggestions and resources to navigate and move forward.
+      date-f: 5 July 2025
+      date: 20250702
+      name: Sowmiya Ravikumar
+      type: Ad-Hoc
 
 - index: 21 # Adeola
   feedback:
@@ -79,7 +86,22 @@
       date-f: 03 June 2024
       feedback: Mentor gave me his unique perspective on my current situation. He encouraged me to consider different options and build a career plan for myself.
       name: Poorva Shukla
-      type: Ad-Hoc      
+      type: Ad-Hoc
+    - score: 5
+      feedback: |
+        Bryan provided valuable ideas on how I can better present myself on the job market and suggested ways to strengthen my programming skills. Additionally, he reviewed my CV and gave me advice on improving its structure for better readability.
+        I found the session really helpful, and Bryan's advice clear, objective, and actionable.
+      date-f: 14 July 2025
+      date: 20250627
+      name: Anonymous
+      type: Ad-Hoc
+    - score: 5
+      feedback: |
+        Very useful session, he gave me new perspective on some things concerning technical interviews and gave fresh ideas on how to apply these.
+      date-f: 6 July 2025
+      date: 20250626
+      name: Anonymous
+      type: Ad-Hoc
 
 - index: 19 # Mona
   feedback:
@@ -157,6 +179,13 @@
         As a Head of AI for a startup and an experienced researcher, Ying has a solid experience in identifying what it takes to succeed in the AI industry as a research scientist. Her knowledge in AI skill sets and how to present oneself as a unique candidate in this incredibly competitive job market is invaluable for anyone who's new to the AI industry and interested to make a transition into an AI career.
       name: Vivien Siew
       type: Long Term Mentorship
+    - score: 5
+      date: 20250701
+      date-f: 2 July 2025
+      feedback: |
+        She has inspired me by providing insights into different career paths within machine learning and recommended resources for learning and building ML models.
+      name: Anonymous
+      type: Ad-Hoc
 
 - index: 5 # Stephanie
   feedback:
@@ -236,6 +265,14 @@
         improving my communication skills or advising me on what to focus on learning as a junior to grow. Learning 
         how to prioritise things in my career was both fun and eye-opening. One of the best things was how she helped 
         me overcome my self-doubt and imposter syndrome. I now feel so much more positive and excited about my career.
+    - score: 5
+      feedback: |
+        I had a mentorship session with Madhura, and it was incredibly beneficial. She took the time to understand my background thoroughly and listened carefully to the challenges I was facing while deciding between a few options. Her communication was clear and thoughtful, and she helped me weigh the pros and cons of each path in a very practical and honest way.
+        What stood out most was how she encouraged me to recognize my own potential. She offered insights that boosted my confidence and helped me see how one particular path could lead to meaningful professional growth. Where I had doubts, she was motivating and reassuring, and her guidance gave me a clearer vision of what I could achieve. I'm truly grateful for her support and the positive impact it's had on both my mindset and my career planning.
+      date-f: 13 July 2025
+      date: 20250711
+      name: Anonymous
+      type: Ad-Hoc
 
 - index: 39 # Busra
   feedback:
@@ -347,4 +384,43 @@
       date-f: 23 June 2025
       date: 20250623
       name: Anonymous
+      type: Ad-Hoc
+    - score: 5
+      feedback: |
+        I'm so grateful to be connected with Lidiane. She has so many tips to share, and her advice has been incredibly relevant and helpful for my situation. She really took the time to understand my concerns and made me feel heard and supported. I deeply appreciate her warmth, openness, and the way she uplifts and empowers other women!
+      date-f: 30 June 2025
+      date: 20250630
+      name: Anonymous
+      type: Ad-Hoc
+
+- index: 20 # Andrew King
+  feedback:
+    - score: 5
+      feedback: |
+        It was great to hear experiences, as I learn and reflect about mines. Amazing experience highly recommend it.
+      date-f: 9 July 2025
+      date: 20250709
+      name: Anonymous
+      type: Ad-Hoc
+
+- index: 69 # Sonika Janagill
+  feedback:
+    - score: 5
+      feedback: |
+        Given clear steps to help with job searching, advised on things to be doing daily, and encouraged to start a project(s) for continued development. This has helped me to set manageable goals and focus my attention appropriately. 
+        It has been reassuring and encouraging, making me less overwhelmed and more excited to get stuck into projects. 
+      date-f: 10 July 2025
+      date: 20250710
+      name: Sarah Larkin
+      type: Ad-Hoc
+
+- index: 49 # Samuela Smolorz
+  feedback:
+    - score: 5
+      feedback: |
+        Samuela was very kind and well prepared for our session. She made it much clearer for me what I should focus on now while job searching and offered valuable, practical advice that made me feel more focused and confident. She also shared a lot of helpful resources that I could use immediately. I really appreciate her encouragement and how she tailored the session to my needs.
+        The session was great! Samuela created a supportive and comfortable environment where I felt comfortable asking questions and sharing concerns.
+      date-f: 19 July 2025
+      date: 20250719
+      name: Grace(Huangling) Chen
       type: Ad-Hoc
