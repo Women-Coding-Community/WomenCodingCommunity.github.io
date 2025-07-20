@@ -46,6 +46,11 @@
       date: 20250705
       name: Sowmiya Ravikumar
       type: Ad-Hoc
+    - score: 5
+      date: 20250714
+      date-f: 14 July 2025
+      name: Kaushiki Agrawal
+      type: Ad-Hoc
 
 - index: 21 # Adeola
   feedback:
