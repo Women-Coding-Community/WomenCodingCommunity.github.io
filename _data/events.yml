@@ -1095,3 +1095,191 @@
     path: https://www.meetup.com/women-coding-community/events/308462205/
     title: View meetup event
     target: _target
+
+- title: |
+    LeetCode Summer Bootcamp: Hard Level Week 3
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, AUG 16, 2025
+  expiration: "20250816"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/6/2/5/600_529178437.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310058286/
+    title: View meetup event
+    target: _target
+
+- title: |
+    LeetCode Summer Bootcamp: Advanced Level Week 1
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, AUG 30, 2025
+  expiration: "20250830"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/6/5/6/600_529178486.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310058298/
+    title: View meetup event
+    target: _target
+
+- title: |
+    LeetCode Summer Bootcamp: Medium Level Week 4
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, JUL 26, 2025
+  expiration: "20250726"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/1/9/8/0/600_528786528.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/308581301/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Book Club: Never Eat Alone
+  description: |
+    About the Book "As Keith Ferrazzi discovered early in life, what distinguishes highly successful people from everyone else is the way they use the power of relationships - so that everyone wins.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, JUL 28, 2025
+  expiration: "20250728"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/a/0/9/c/600_528881116.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/308829686/
+    title: View meetup event
+    target: _target
+
+- title: |
+    LeetCode Summer Bootcamp: Hard Level Week 1
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, AUG 02, 2025
+  expiration: "20250802"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/6/2/5/600_529178437.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310058272/
+    title: View meetup event
+    target: _target
+
+- title: |
+    LeetCode Summer Bootcamp: Hard Level Week 2
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, AUG 09, 2025
+  expiration: "20250809"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/6/2/5/600_529178437.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310058284/
+    title: View meetup event
+    target: _target
+
+- title: |
+    LeetCode Summer Bootcamp: Hard Level Week 4
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, AUG 23, 2025
+  expiration: "20250823"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/6/2/5/600_529178437.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310058289/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Prepare Ahead for a Successful Application: An AWS Community Builders Workshop
+  description: |
+    Prepare Ahead for a Successful Application: An AWS Community Builders Workshop The AWS Community Builders program is a very popular and highly competitive initiative providing resources, mentorship, and networking opportunities to anyone passionate about AWS services.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: TUE, JUL 29, 2025
+  expiration: "20250729"
+  host: "Madhura Chaganty and Nicole Muswati"
+  speaker: "Airat Yusuff"
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/7/7/4/600_528874676.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/308819145/
+    title: View meetup event
+    target: _target
+
+- title: "\U0001F3A4 Redefining Influence for Women in Tech"
+  description: "Master the Science of Persuasion to Amplify Your Impact   Are you ready to transform how you show up in rooms that matter? In tech, competence alone doesn\u2019t drive influence - presence does.\n"
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, JUL 31, 2025
+  expiration: "20250731"
+  host: "Madhura Chaganty"
+  speaker: "Rajani Rao, Principal Engineer, Principal Technologist & Women Coding Community Co-Founder"
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/d/3/3/600_528936147.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/308918302/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Traffic Management Demystified: Load Balancers & Reverse Proxies Explained
+  description: |
+    Traffic Management Demystified: Load Balancers Reverse Proxies Explained. Modern web systems rely on smart traffic routing to ensure availability, scalability, and performance.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SUN, JUL 27, 2025
+  expiration: "20250727"
+  host: "Rajani Rao"
+  speaker: "Shailaja Koppu"
+  time: 06:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/e/a/0/2/600_529139906.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310007990/
+    title: View meetup event
+    target: _target
