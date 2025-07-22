@@ -1,5 +1,5 @@
 - name: SurrealDB
-  background: "bg-1"
+  type: org
   link: "https://www.surrealdb.com/"
   description: |
     <p><a href="http://surrealdb.com/" target="_blank">SurrealDB</a> is an innovative, multi-model, cloud-ready
@@ -15,18 +15,21 @@
   image:
     path: "/assets/images/partners/surrealdb.png"
     alt: SurrealDB logo
+  page_show: true
 
 - name: Jetbrains
   link: "https://www.jetbrains.com/"
+  type: org
   description: |
     <p><a href="https://www.jetbrains.com/" target="_blank">Jetbrains</a> creates intelligent software development tools used by over 11.4 million professionals and 88 Fortune Global Top 100 companies. Its lineup of more than 30 products includes IDEs for most programming languages and technologies, such as IntelliJ IDEA, PyCharm, and others, as well as products for team collaboration, like YouTrack and TeamCity.</p>
     <p>JetBrains is also known for creating the Kotlin programming language, a cross-platform language used by more than 5 million developers worldwide yearly and recommended by Google as the preferred language for Android development.</p>
   image:
     path: "/assets/images/partners/jetbrains.png"
     alt: Jetbrains logo
+  page_show: true
 
 - name: Amazon
-  background: "bg-1"
+  type: org
   link: "http://amazon.com"
   description: |
     <p><a href="http://amazon.com" target="_blank">Amazon</a> is a global leader in e-commerce, redefining
@@ -40,9 +43,10 @@
   image:
     path: "/assets/images/partners/amazon.png"
     alt: Amazon logo
+  page_show: true
 
 - name: GitHub
-  background: ""
+  type: org
   link: "https://github.com"
   description: |
     <p><a href="https://github.com" target="_blank">GitHub</a> is the home for all developers, where you can
@@ -52,20 +56,35 @@
   image:
     path: "/assets/images/partners/github.png"
     alt: GitHub logo
+  page_show: true
+
+- name: O'Reilly
+  type: org
+  link: "https://www.oreilly.com/"
+  description: |
+    <p><a href="https://www.oreilly.com/" target="_blank">O’Reilly’s</a> mission is to change the world by sharing the knowledge of innovators. </p>
+    <p>The learning platform offers exclusive live training, interactive learning, a certification experience, books, videos, and more, making it easier for customers to develop the expertise they need to get ahead.</p>
+  image:
+    path: "/assets/images/partners/oreilly.png"
+    alt: O’Reilly logo
+  page_show: true
 
 - name: Women In Tech Global Conference
+  type: event
   link: "https://www.womentech.net/en-es/node/102994"
   description: |
     We are thrilled to introduce our new partnership with <a href="https://www.womentech.net/en-es/node/102994" target="_blank">Women In Tech Global Conference.</a> The conference will bring women in tech, and allies together through an interactive platform with virtual and in-person sessions.
   image:
     path: "/assets/images/partners/WomenInTech.png"
     alt: Conference logo
+  page_show: false
 
 - name: Devoxx - UK
-  background: "bg-1"
+  type: event
   link: "https://www.devoxx.co.uk"
   description: |
     Ready to level up your dev skills and dive into the latest tech? Women Coding Community is thrilled to collaborate with <a href="https://www.womentech.net/en-es/node/102994" target="_blank">Devoxx UK!</a> Join expert practitioners from around the world as we explore Java, Cloud, AI, Data, Security, Architecture, Dev Culture, and more.
   image:
     path: "/assets/images/partners/devoxx.png"
     alt: Conference logo
+  page_show: false
