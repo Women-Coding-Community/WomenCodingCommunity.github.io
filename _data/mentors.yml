@@ -1578,9 +1578,9 @@
     - linkedin: https://www.linkedin.com/in/amenawon-esezobor/
 
 - name: Prerna Singhal
-  disabled: false
+  disabled: true
   matched: false
-  sort: 500
+  sort: 1
   hours: 4
   type: both
   index: 48
@@ -1590,7 +1590,7 @@
     Currently working as Lead Engineer for Hubspot. I have 12 years for Software development experience (Backend and Fullstack). I have worked with tech giants for 7 years - Microsoft, Expedia, Salesforce and have worked in startup industry for 5 years. Hence i understand working in both in environments. I have worked with wide variety of technologies - Java, AWS, Azure, Python, Distributed systems, Scaling applications.
   image: "assets/images/mentors/prerna_singhal.jpg"
   languages: English
-  availability: [5, 6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 10-15 Years
     years: 15
