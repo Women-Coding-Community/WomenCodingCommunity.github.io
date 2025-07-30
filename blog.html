@@ -20,8 +20,8 @@ body_class: page list-page list-page-blog
                         <div class="card-blog card card-m">
                             <a class="cursor-pointer" href="{{post.url}}">
                                 <div class="card-media">
-                                    {% if post.blurb_img %}
-                                    <img src="{{post.blurb_img}}" alt="header image for {{post.title}}">
+                                    {% if post.image %}
+                                    <img src="{{post.image}}" alt="header image for {{post.title}}">
                                     {% else %}
                                     <img src="/assets/images/blog/default.jpg"
                                         alt="header image for {{post.title}}">
