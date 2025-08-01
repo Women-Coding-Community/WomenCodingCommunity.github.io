@@ -2745,7 +2745,7 @@
 - name: Tatiana Popova
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   hours: 3
   type: both
   index: 81
@@ -2754,7 +2754,7 @@
   bio: |
     Senior SDET with 9 years of experience in building robust test automation frameworks for databases, front-end, and back-end systems. Strong software development background in Java and Python, with hands-on expertise in Agile methodologies.
   image: |
-    assets/images/mentors/tatiana_popova.jpeg
+    assets/images/mentors/tatiana_popova.jpg
   languages: English, Russian, German
   availability: [8, 9, 10, 11]
   skills:
@@ -2776,4 +2776,4 @@
       - Supporting manual QA engineers in transitioning to test automation and software development.
   network:
     - linkedin: https://www.linkedin.com/in/tatiana-popova-30700b61?trk=contact-info
-    - website: https://github.com/tpopova13x
+    - github: https://github.com/tpopova13x
