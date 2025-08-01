@@ -1296,7 +1296,7 @@
     I am community-driven: I have presented at conferences, contributed to open source and like sharing knowledge.
   image: "assets/images/mentors/fernanda_martins.jpg"
   languages: English, Portuguese
-  availability: [6, 7, 8, 9, 10, 11]
+  availability: []
   skills:
     experience: 10-15 Years
     years: 15
@@ -2741,3 +2741,39 @@
   network:
     - linkedin: https://www.linkedin.com/in/bianca-stratulat/
     - medium: https://medium.com/@biancadoesdata
+
+- name: Tatiana Popova
+  disabled: false
+  matched: false
+  sort: 10
+  hours: 3
+  type: both
+  index: 81
+  location: Munich, Germany
+  position: Senior Java Software Development Engineer in Test, Genedata
+  bio: |
+    Senior SDET with 9 years of experience in building robust test automation frameworks for databases, front-end, and back-end systems. Strong software development background in Java and Python, with hands-on expertise in Agile methodologies.
+  image: |
+    assets/images/mentors/tatiana_popova.jpeg
+  languages: English, Russian, German
+  availability: [8, 9, 10, 11]
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: |
+      I’m looking for a mentee who is goal-driven and eager to transition from manual QA to test automation. Someone who’s willing to put in consistent effort, ask questions, and apply what they learn through hands-on practice.
+    areas:
+      - QA
+      - Backend Developer
+    languages: Java, Python
+    focus:
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+      - Switch from IC to management position
+      - Change specialisation within IT
+    extra: |
+      - Supporting manual QA engineers in transitioning to test automation and software development.
+  network:
+    - linkedin: https://www.linkedin.com/in/tatiana-popova-30700b61?trk=contact-info
+    - website: https://github.com/tpopova13x
