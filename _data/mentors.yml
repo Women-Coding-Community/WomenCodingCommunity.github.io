@@ -2745,7 +2745,7 @@
 - name: Tatiana Popova
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   hours: 3
   type: both
   index: 81
