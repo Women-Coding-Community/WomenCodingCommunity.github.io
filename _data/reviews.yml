@@ -74,6 +74,15 @@
         She also offered advice on job applications and tips on making my resume stand out. Thank you so much, Adeola!
       name: Mitali Shah
       type: Ad-Hoc
+    - score: 4
+      date-f: 28 July 2025
+      date: 20250728
+      feedback: |
+        Adeola was friendly, approachable, and professional throughout our interaction. She provided me with information and practical advice on various crucial aspects of transitioning into the tech industry.
+        Adeola offered insights on how to strengthen my tech stack in Frontend Development and some hints on how to prepare for interviews. Her guidance on networking was particularly beneficial; she shared strategies on how to build meaningful connections within the tech community.
+        Finally, she shared her vision of the current state of the tech industry, drawing from her professional experience. I appreciate her time, guidance, and support.
+      name: Anonymous
+      type: Ad-Hoc
 
 - index: 12 # Adegbenga
   feedback:
@@ -214,7 +223,7 @@
       feedback: |
         Adriana is a sensitive, warm, and funny person. She’s the kind of person who asks questions that open your mind and encourage self-reflection, which aligns perfectly with the kind of person I am. 
         She’s always trying to be helpful and offer any kind of support. We’ve navigated many challenges together, such as different time zones, languages, and cultural backgrounds, and I feel our connection has only grown stronger over time. 
-        
+
         In our sessions, we discuss technical matters as well as topics related to work culture, building confidence in your thoughts and ideas, sharing them with your superiors and team, and preventing burnout. 
         I’m grateful to have e-met Adriana during this stage of my learning journey.
       name: Anonymous
@@ -294,7 +303,17 @@
         I greatly appreciate her time and mentorship, which has helped me stay motivated on my journey.
       name: Laleh Haidari
       type: Ad-Hoc
-      
+    - score: 5
+      date: 20250722
+      date-f: 22 July 2025
+      feedback: |
+        It was an amazing 45-minute session. I feel much more motivated to transition from a Data Analyst to a Data Scientist.
+        It was also truly valuable to connect with someone like Busra who understands clearly the unique challenges of an international working in data science in the UK.
+        She asked critical questions to understand my profile and then suggested very clear next steps on learning materials, job search portals, and CV improvement.
+        She even offered me some mock interviews in the future. I highly appreciate her great support and dedication!
+      name: Nhi Hoang Yen
+      type: Ad-Hoc
+
 - index: 53 # Adnan
   feedback:
     - score: 5
@@ -304,7 +323,7 @@
         Adnan gave me some tips that to help my growth and building expertise. He also explained some confusing concepts to me. It was was really impactful session.
       name: Patience Onah
       type: Ad-Hoc
-      
+
 - index: 54 # Ima-Abasi
   feedback:
     - score: 5
@@ -334,7 +353,7 @@
         help me consolidate what I have learnt in a safe environment.
       date-f: 12 January 2025
       date: 20250112
-      
+
     - score: 5
       name: Anonymous
       type: Long Term
@@ -407,6 +426,11 @@
       date: 20250709
       name: Shirley
       type: Ad-Hoc
+    - score: 4
+      date-f: 23 July 2025
+      date: 20250723
+      name: Madhumita Dasgupta
+      type: Ad-Hoc
 
 - index: 69 # Sonika Janagill
   feedback:
@@ -418,6 +442,13 @@
       date: 20250710
       name: Sarah Larkin
       type: Ad-Hoc
+    - score: 5
+      feedback: |
+        Sonika is a clear and supportive mentor who helped me refocus and gain direction. Her practical, values-based guidance and tailored suggestions like balancing immediate needs with long-term goals and tapping into existing strengths left me feeling confident and motivated to take meaningful next steps.
+      date-f: 25 July 2025
+      date: 20250725
+      name: Yeukai Marashe
+      type: Ad-Hoc
 
 - index: 49 # Samuela Smolorz
   feedback:
@@ -428,4 +459,31 @@
       date-f: 19 July 2025
       date: 20250719
       name: Grace(Huangling) Chen
+      type: Ad-Hoc
+    - score: 5
+      feedback: |
+        Samuela was not only thoughtful and caring but also very honest and insightful throughout the session. I was able to learn more about what it's like to work in start up/scale up companies based on her experience and how would I be able to stand out among other candidates by letting me know what and how to highlight my experience on my CV.
+        Also, it was nice to share some worries as a woman in tech and hear really good advice and suggestions that would make a huge difference to my mindset and mental health. Overall, it was a comfortable yet therapeutic session and I really enjoyed it.
+      date-f: 31 July 2025
+      date: 20250731
+      name: Anonymous
+      type: Ad-Hoc
+
+- index: 48 # Prerna Singhal
+  feedback:
+    - score: 5
+      date-f: 23 July 2025
+      date: 20250723
+      name: Harshita Rawat
+      type: Ad-Hoc
+
+- index: 51 # Prabha Venkatesh
+  feedback:
+    - score: 5
+      feedback: |
+        She was able to give advice on how to tackle the tech industry job application as an soon-to-be graduate student.
+        She was also able to get me connected to an individual working in a particular sector that I was really interested in.
+      date-f: 24 July 2025
+      date: 20250724
+      name: Kiran Kaur Basra
       type: Ad-Hoc
