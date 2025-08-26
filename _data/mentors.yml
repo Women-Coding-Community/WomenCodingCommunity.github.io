@@ -617,7 +617,7 @@
 
 - name: Andrew King
   disabled: false
-  sort: 200
+  sort: 500
   hours: 4
   position: DevOps Engineer, DRW
   type: ad-hoc
@@ -964,7 +964,7 @@
 - name: Bryan Boreham
   disabled: false
   hours: 4
-  sort: 200
+  sort: 500
   num_mentee: 1
   type: both
   index: 31
@@ -1316,7 +1316,7 @@
 - name: Gabriel Oliveira
   disabled: false
   matched: false
-  sort: 200
+  sort: 500
   num_mentee: 4
   hours: 5
   type: both
@@ -2745,7 +2745,7 @@
 - name: Tatiana Popova
   disabled: false
   matched: false
-  sort: 200
+  sort: 500
   hours: 4
   type: both
   index: 81
@@ -2781,7 +2781,7 @@
 - name:  Ilayda Yilmaz
   disabled: false
   matched: false
-  sort: 200
+  sort: 500
   hours: 2
   type: both
   index: 82
@@ -2826,7 +2826,7 @@
 - name: Damola Taiwo
   disabled: false
   matched: false
-  sort: 200
+  sort: 500
   hours: 4
   type: both
   index: 83
