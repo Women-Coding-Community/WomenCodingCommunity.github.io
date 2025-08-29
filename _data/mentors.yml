@@ -34,7 +34,7 @@
 - name: Rajani Rao
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 3
   hours: 5
   type: both
@@ -45,7 +45,7 @@
   image: assets/images/mentors/rajani_rao.jpeg
   location: Cambridge, UK
   languages: English
-  availability: []
+  availability: [9]
   skills:
     experience: 16+ years
     years: 16
@@ -70,7 +70,7 @@
 - name: Adriana Zencke Zimmermann
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
   hours: 2
   bio: |
@@ -81,7 +81,7 @@
   type: both
   index: 3
   languages: Portuguese, English
-  availability: []
+  availability: [9]
   skills:
     experience: 10-15 years
     years: 15
@@ -239,9 +239,9 @@
 - name: Sonali Goel
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
-  hours: 1
+  hours: 2
   position: Lead Engineer, Tesco Technology
   type: both
   index: 8
@@ -250,7 +250,7 @@
     Sonali serves as a Lead Engineer at Yoox-Net-a-porter, specializing in managing and constructing extensive-scale ecommerce solutions. She leverages Java-based commerce platforms and integrates them with open-source technologies like Spring Boot and Spring Batch. As an AWS-certified Solution Architect, she possesses deep knowledge of Amazon Web Services, complemented by proficiency in implementing continuous integration and continuous deployment (CICD) practices to ensure seamless software delivery. Additionally, she excels in architecting and implementing microservices-based architectures to drive agility and modularity in software development With over 13 years of experience in the technology industry, Sonali brings a wealth of expertise in steering technical direction and fostering high-performance outcomes. Her passion lies in nurturing a culture of continuous learning and innovation. Outside of her professional endeavors, Sonali actively volunteers with Women Who Code, advocating for gender diversity. She is also a creative enthusiast, utilizing design templates to convey ideas, thoughts, and emotions visually.
   image: assets/images/mentors/sonali_goel.jpg
   languages: English
-  availability: []
+  availability: [9]
   skills:
     experience: 10-15 Years
     years: 15
@@ -617,7 +617,7 @@
 
 - name: Andrew King
   disabled: false
-  sort: 500
+  sort: 200
   hours: 4
   position: DevOps Engineer, DRW
   type: ad-hoc
@@ -964,7 +964,7 @@
 - name: Bryan Boreham
   disabled: false
   hours: 4
-  sort: 500
+  sort: 200
   num_mentee: 1
   type: both
   index: 31
@@ -1661,8 +1661,8 @@
 - name: Arzu Caner
   disabled: false
   matched: false
-  sort: 100
-  hours: 1
+  sort: 200
+  hours: 3
   type: ad-hoc
   index: 50
   location: United Kingdom/London
@@ -1676,7 +1676,7 @@
   image: |
     assets/images/mentors/arzu_caner.jpeg
   languages: English, Turkish
-  availability: []
+  availability: [9]
   skills:
     experience: 2-4 Years
     years: 4
@@ -2135,8 +2135,8 @@
 - name: Wilson Adenuga
   disabled: false
   matched: false
-  sort: 100
-  hours: 4
+  sort: 500
+  hours: 5
   type: both
   index: 63
   location: UK/Birmingham
@@ -2145,7 +2145,7 @@
     I am a full-stack engineer specializing in building scalable, accessible web and mobile applications. My expertise spans React.js, React Native, Next.js, Node.js, Python, microservices, and cloud platforms like AWS and Cloudflare. I've led projects in fintech, healthcare, and cybersecurity domains. I'm passionate about mentoring developers, improving code quality, and advocating for best practices in TDD, database design, and web accessibility. I actively contribute to the developer community through mentorship programs and open-source projects.
   image: assets/images/mentors/wilson_adenuga.jpeg
   languages: English
-  availability: []
+  availability: [9]
   skills:
     experience: 4-5 Years
     years: 5
@@ -2345,7 +2345,7 @@
 - name: Sonika Janagill
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
   hours: 2
   type: both
@@ -2359,7 +2359,7 @@
   image: |
     assets/images/mentors/sonika_janagill.jpeg
   languages: English, Hindi, Punjabi
-  availability: []
+  availability: [9]
   skills:
     experience: 16+ Years
     years: 16
