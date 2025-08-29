@@ -2822,7 +2822,6 @@
     network:
     - linkedin: https://www.linkedin.com/in/ilayda-yilmaz/
 
-
 - name: Damola Taiwo
   disabled: false
   matched: false
@@ -2859,3 +2858,39 @@
   network:
     - linkedin: https://www.linkedin.com/in/badmus-damola-taiwo-643438158/
 
+- name: Dan Antonela
+  disabled: false
+  matched: false
+  sort: 500
+  hours: 3
+  type: both
+  index: 84
+  location: Cluj-Napoca, Romania
+  position: Data Architect, Accenture
+  bio: |
+    I bring over 12 years of experience in working with data, with a strong focus on transforming client data into actionable value. My expertise spans the full data lifecycle—from understanding business requirements and designing solutions to implementing robust data pipelines and analytics.
+    Throughout my career, I have led cross-functional teams in delivering end-to-end data migration projects, particularly in transitioning solutions from on-premises environments to the cloud. My recent work has centered on leveraging Databricks technologies to design scalable, efficient, and secure data architectures that support advanced analytics and business intelligence initiatives.
+    As a mentor, I aim to share not only my technical expertise but also my experience in leading teams, managing complex projects, and aligning technical solutions with business objectives. My goal is to help mentees develop both their technical skills and strategic thinking to succeed in data-driven roles.
+  image: |
+    assets/images/mentors/antonela.jpeg
+  languages: English, Romanian
+  availability: [9]
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      I’m looking to mentor individuals who are eager to grow their careers in the data field, open to feedback, and committed to putting learning into action. I value mentees with a curious mindset, a strong willingness to learn, and the motivation to explore new challenges. A growth mindset, reliability, and a proactive attitude are essential—I’ll provide guidance and support, but real progress comes from those who take initiative, follow through, and are ready to push themselves.
+    areas:
+      - Data Engineering
+      - Data Science
+    languages: JavaScript, Python
+    focus:
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+    extra:
+      Data engineering best practices; Data architecture design and implementation; Transitioning from on-premises to cloud solutions (with focus on Databricks);
+      Growing from junior to mid-level; Growing from mid-level to senior-level; Career development and strategic planning in data roles;
+      Technology architecture & strategy; Career growth  & soft skills; Navigating the job market and building a professional brand; Effective communication in technical teams
+  network:
+    - linkedin: https://www.linkedin.com/in/morar-antonela
