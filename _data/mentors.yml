@@ -1839,7 +1839,7 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 200
+  sort: 10
   num_mentee: 1
   hours: 1
   type: both
@@ -1851,7 +1851,7 @@
   image: |
     assets/images/mentors/lidiane_mayra_taquehara.jpeg
   languages: English, Portuguese
-  availability: [9]
+  availability: []
   skills:
     experience: 7-10 Years
     years: 10
@@ -2697,7 +2697,7 @@
     - linkedin: https://www.linkedin.com/in/narmada-nannaka/
     - website: https://narmadanannaka.com/
 
-- name:  Bianca Stratulat
+- name: Bianca Stratulat
   disabled: false
   matched: false
   sort: 100
@@ -2721,8 +2721,8 @@
     experience: 10-15 Years
     years: 15
     mentee: |
-        I’m looking for a mentee who is committed to transitioning into the data world, focused on building strong foundations, and curious enough to enjoy the learning journey.
-        Someone who is proactive, open to feedback, and excited about exploring the possibilities in data engineering and analytics.
+      I’m looking for a mentee who is committed to transitioning into the data world, focused on building strong foundations, and curious enough to enjoy the learning journey.
+      Someone who is proactive, open to feedback, and excited about exploring the possibilities in data engineering and analytics.
     areas:
       - Data Engineering
       - Data Science
@@ -2736,8 +2736,7 @@
       - Change specialisation within IT
       - Switch career to IT
       - Switch from IC to management position
-    extra:
-      Data Engineering Coaching & Mentoring (building skills, career progression, and best practices); Transitioning to a Data Engineering Role (guidance for professionals moving into data roles); Power BI & Databricks Expertise (technical deep dives and practical use cases); Interview Preparation (technical interviews, leadership interviews, and confidence building); Career Development in Data & AI (navigating certifications, building a personal brand, and growing as a leader).
+    extra: Data Engineering Coaching & Mentoring (building skills, career progression, and best practices); Transitioning to a Data Engineering Role (guidance for professionals moving into data roles); Power BI & Databricks Expertise (technical deep dives and practical use cases); Interview Preparation (technical interviews, leadership interviews, and confidence building); Career Development in Data & AI (navigating certifications, building a personal brand, and growing as a leader).
   network:
     - linkedin: https://www.linkedin.com/in/bianca-stratulat/
     - medium: https://medium.com/@biancadoesdata
@@ -2778,7 +2777,7 @@
     - linkedin: https://www.linkedin.com/in/tatiana-popova-30700b61?trk=contact-info
     - github: https://github.com/tpopova13x
 
-- name:  Ilayda Yilmaz
+- name: Ilayda Yilmaz
   disabled: false
   matched: false
   sort: 500
@@ -2801,8 +2800,8 @@
     experience: 4-5 Years
     years: 5
     mentee: |
-        I'm looking for a mentee who is curious, motivated, and open to feedback. Ideally, someone who is either transitioning into the data field or already on their way and looking for guidance on how to grow.
-        I’d love to work with someone who’s willing to explore ideas, ask questions, and take initiative in their learning journey.
+      I'm looking for a mentee who is curious, motivated, and open to feedback. Ideally, someone who is either transitioning into the data field or already on their way and looking for guidance on how to grow.
+      I’d love to work with someone who’s willing to explore ideas, ask questions, and take initiative in their learning journey.
     areas:
       - Data Science
       - Machine Learning
@@ -2817,10 +2816,9 @@
       - Grow from mid-level to senior-level
       - Switch from IC to management position
       - Grow beyond senior level
-    extra:
-      Focus areas for aspiring data scientists; transitioning into data science, building a roadmap, preparing for technical interviews, optimizing resume/LinkedIn, creating and showcasing portfolio projects, and communicating insights effectively.
+    extra: Focus areas for aspiring data scientists; transitioning into data science, building a roadmap, preparing for technical interviews, optimizing resume/LinkedIn, creating and showcasing portfolio projects, and communicating insights effectively.
     network:
-    - linkedin: https://www.linkedin.com/in/ilayda-yilmaz/
+      - linkedin: https://www.linkedin.com/in/ilayda-yilmaz/
 
 - name: Damola Taiwo
   disabled: false
@@ -2844,7 +2842,7 @@
     experience: 4-5 Years
     years: 5
     mentee: |
-        I’m looking for mentees who are actively job hunting and need guidance through the process, beginners in tech who want support in learning and mastering the fundamentals, and junior frontend developers seeking advice on advancing their skills and progressing to the next stage of their careers
+      I’m looking for mentees who are actively job hunting and need guidance through the process, beginners in tech who want support in learning and mastering the fundamentals, and junior frontend developers seeking advice on advancing their skills and progressing to the next stage of their careers
     areas:
       - Frontend Developer
       - Fullstack Developer
@@ -2853,8 +2851,7 @@
       - Grow from beginner to mid-level
       - Change specialisation within IT
       - Switch career to IT
-    extra:
-      Frontend career prep; system design strategies, technical interview preparation, resume review, and transitioning into frontend development.
+    extra: Frontend career prep; system design strategies, technical interview preparation, resume review, and transitioning into frontend development.
   network:
     - linkedin: https://www.linkedin.com/in/badmus-damola-taiwo-643438158/
 
