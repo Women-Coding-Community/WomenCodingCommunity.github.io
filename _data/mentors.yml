@@ -1839,9 +1839,9 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
-  hours: 5
+  hours: 1
   type: both
   index: 55
   location: London
@@ -1851,7 +1851,7 @@
   image: |
     assets/images/mentors/lidiane_mayra_taquehara.jpeg
   languages: English, Portuguese
-  availability: []
+  availability: [9]
   skills:
     experience: 7-10 Years
     years: 10
