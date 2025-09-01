@@ -5,6 +5,7 @@ import markdown
 import argparse
 from pathlib import Path
 from googleapiclient.errors import HttpError
+import datetime as dt
 
 # --- Configuration ---
 SERVICE_ACCOUNT_FILE = 'service_account_key.json'
@@ -22,20 +23,30 @@ category: [CATEGORY]
 ---
 '''
 
-def current_directory():
+def _current_directory():
     return Path(__file__).resolve().parent
 
-def posts_directory():
+def _posts_directory():
     # Path to the directory where the script itself is located
-    script_dir = current_directory()
+    script_dir = _current_directory()
 
     # Construct the path relative to the script’s location
     posts_dir = (script_dir / "../../_posts").resolve()
 
     return posts_dir
 
-def export_blog_as_html(document_id):
-    service_account_path = os.path.join(current_directory(), SERVICE_ACCOUNT_FILE)
+def _today_date_str():
+    return dt.date.today().isoformat()
+
+def _create_blog_filename_with_date(doc_name, date_str):
+    formatted_blog_title = doc_name.lower().replace(' ', '-').strip()
+    filename = f"{date_str}-{formatted_blog_title}.html"
+    return filename
+
+def export_blog_as_html(document_id, date=None):
+    if date is None:
+        date = _today_date_str()
+    service_account_path = os.path.join(_current_directory(), SERVICE_ACCOUNT_FILE)
     if not os.path.exists(service_account_path):
         print(f"ERROR: Service account key file '{service_account_path}' not found.\n"
               "Please obtain your own Google service account key and place it at this path.\n"
@@ -51,6 +62,7 @@ def export_blog_as_html(document_id):
         # 1. Get document name from Drive
         doc_metadata = drive.files().get(fileId=document_id, fields='name').execute()
         doc_name = doc_metadata.get('name', 'exported_blog')
+        blog_filename = _create_blog_filename_with_date(doc_name, date)
 
         # 2. Export as Markdown
         request = drive.files().export_media(
@@ -77,20 +89,21 @@ def export_blog_as_html(document_id):
     html_body = f'<div class="text-justify">\n{html}\n</div>'
 
     # YAML front matter
-    yaml_header = YAML_HEADER.replace('[TITLE]', doc_name)
+    yaml_header = YAML_HEADER.replace('[TITLE]', doc_name.title()).replace('[DATE]', date)
 
     final_html = yaml_header + '\n' + html_body
 
-    posts_dir = posts_directory()
-    filename = f"{posts_dir}/{doc_name}.html"
+    posts_dir = _posts_directory()
+    filename = f"{posts_dir}/{blog_filename}.html"
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(final_html)
 
     print(f"Saved HTML to: {filename}")
 
 if __name__ == "__main__":
-    # To run script: `python export_blog.py <DOC_ID>`
+    # To run script: `python export_blog.py <DOC_ID> --date <DATE>`
     parser = argparse.ArgumentParser(description="Export a Google Doc as HTML with custom formatting.")
     parser.add_argument("doc_id", help="The Google Doc ID to export.")
+    parser.add_argument("--date", help="Date for the blog post (YYYY-MM-DD). If not provided, uses today.", default=None)
     args = parser.parse_args()
-    export_blog_as_html(args.doc_id)
+    export_blog_as_html(args.doc_id, args.date)
