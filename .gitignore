@@ -2,10 +2,12 @@
 _site
 *.DS_Store
 node_modules
-tools/__pycache__
+*__pycache__
 tools/venv
 tools/files/meetup.ics
 bin/
 lib/
 .venv
 pyvenv.cfg
+tools/blog_automation/service_account_key.json
+tools/blog_automation/venv
