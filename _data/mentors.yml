@@ -2345,7 +2345,7 @@
 - name: Sonika Janagill
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   num_mentee: 1
   hours: 2
   type: both
@@ -2359,7 +2359,7 @@
   image: |
     assets/images/mentors/sonika_janagill.jpeg
   languages: English, Hindi, Punjabi
-  availability: [9]
+  availability: []
   skills:
     experience: 16+ Years
     years: 16
