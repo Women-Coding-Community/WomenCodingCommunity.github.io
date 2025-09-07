@@ -173,7 +173,7 @@
 
 - name: Ken Pemberton
   disabled: false
-  sort: 200
+  sort: 10
   hours: 2
   type: both
   index: 6
@@ -182,7 +182,7 @@
   image: assets/images/mentors/ken_pemberton.jpeg
   location: Chesham, Buckinghamshire, UK
   languages: English
-  availability: [9]
+  availability: []
   skills:
     experience: 16+ Years
     years: 16
@@ -964,7 +964,7 @@
 - name: Bryan Boreham
   disabled: false
   hours: 4
-  sort: 100
+  sort: 200
   num_mentee: 1
   type: both
   index: 31
@@ -974,7 +974,7 @@
   image: assets/images/mentors/bryan_boreham.jpeg
   location: London, UK
   languages: English
-  availability: []
+  availability: [9]
   skills:
     experience: 16+ Years
     years: 16
