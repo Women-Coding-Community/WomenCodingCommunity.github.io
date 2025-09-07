@@ -964,7 +964,7 @@
 - name: Bryan Boreham
   disabled: false
   hours: 4
-  sort: 10
+  sort: 100
   num_mentee: 1
   type: both
   index: 31
