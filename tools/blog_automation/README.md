@@ -77,6 +77,6 @@ Use this ID in your scripts when exporting the document.
 
 ## Run Automation
 1. Activate virtual environment: `source venv/bin/activate`
-2. Run the script: `python export_blog.py <DOC_ID>`
+2. Run the script: `python doc_to_html_conversion.py <DOC_ID>`
 
 
