@@ -13,7 +13,7 @@ def test_write_mentors_skip_zero_rows(monkeypatch):
     with tempfile.NamedTemporaryFile(suffix='yml', delete=False) as tmpfile:
         tmp_filename = tmpfile.name
 
-    test_args = ['automation.py', os.path.join(TOOLS_PATH, "samples", "mentors.xlsx"), tmp_filename, WriteMode.WRITE, '0']
+    test_args = ['automation_add_or_update_mentors.py', os.path.join(TOOLS_PATH, "samples", "mentors.xlsx"), tmp_filename, WriteMode.WRITE, '0']
     monkeypatch.setattr(sys, 'argv', test_args)
 
     run_automation()

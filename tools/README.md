@@ -1,11 +1,12 @@
 ## How to Run Python Scripts
 
-There are two automation scripts:
-1) `automation.py`: appends new mentors in `samples/mentors.xslx` to `_data/mentor.yml`
+1) `automation_add_or_update_mentors.py`: appends new mentors in `samples/mentors.xslx` to `_data/mentor.yml`
 
 2) `download_image.py`: downloads image from a specified URL and saves in `assets/images/mentors`
 
-3) `automation_create_mentor_spreadsheets.py`: creates spreadhseets for each longterm mentor with filenames like `WCC - Long Term - MentorName.xlsx`. All the files are saved in a folder named `Long Term Mentors`. It uses the data from `Mentorship Programme long-term Registration Form for Mentees (Responses).xlsx` sheetname `Revised Mentees`as input.
+3) `meetup_import.py`: imports new upcoming events from the WCC MeetUp page using the iCal feed: https://www.meetup.com/women-coding-community/events/ical/
+
+4) `automation_create_mentor_spreadsheets.py`: creates spreadhseets for each longterm mentor with filenames like `WCC - Long Term - MentorName.xlsx`. All the files are saved in a folder named `Long Term Mentors`. It uses the data from `Mentorship Programme long-term Registration Form for Mentees (Responses).xlsx` sheetname `Revised Mentees`as input.
 
 ### Dependencies
 
