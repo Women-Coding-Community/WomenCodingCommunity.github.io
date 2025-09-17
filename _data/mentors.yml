@@ -2891,3 +2891,80 @@
       Technology architecture & strategy; Career growth  & soft skills; Navigating the job market and building a professional brand; Effective communication in technical teams
   network:
     - linkedin: https://www.linkedin.com/in/morar-antonela
+
+- name: Mudit Maheshwari
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 4
+  hours: 2
+  type: both
+  index: 85
+  location: London, United Kingdom
+  position: Quality Automation Specialist, NatWest Group
+  bio: |
+    I’m a Quality Engineer with over six years of experience in test automation, passionate about building reliable, high-quality software that delivers a great user experience. I specialise in designing and maintaining automation frameworks using modern tools like Cypress, Playwright, and TypeScript, and I enjoy collaborating closely with developers to embed quality into every stage of delivery. I’m motivated by solving complex problems, mentoring others, and continuously improving processes. Outside of work, I’m deeply interested in investing and financial technology,
+  image: |
+    assets/images/mentors/mudit_maheshwari.jpeg
+  languages: English
+  availability: [9, 10]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      Passionate , Patient , Hunger to learn
+    areas:
+    - QA
+    - DevOps
+    - Fullstack Developer
+    - Data Science
+    - Data Engineering
+    languages: Javascript, Java, C++, C
+    focus:
+    - Grow from beginner to mid-level
+    - Grow beyond senior level
+    - Change specialisation within IT
+    - Grow from mid-level to senior-level
+    - Switch from IC to management position
+    extra: |
+      Resume Review , Latest testing tools, Top trending tech
+  network:
+  - linkedin: https://www.linkedin.com/in/maheshwarimudit/
+  - medium: https://medium.com/@mudit94
+
+- name: Anh Vu
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 3
+  hours: 3
+  type: both
+  index: 86
+  location: California, USA
+  position: Senior DevOps Engineer, Donors Choose
+  bio: |
+    I am a DevOps engineer with nearly a decade of hands-on experience specializing in infrastructure as code, with a strong focus on Terraform adoption and migration of critical production systems—including core web applications and secure bastion hosts. I have extensive experience designing and implementing scalable, containerized environments using Docker, AWS, and Kubernetes. Additionally, I’ve developed and maintained robust CI/CD pipelines using Jenkins, often building team-wide workflows and standards that have been adopted across engineering organizations.
+  image: |
+    assets/images/mentors/anh_vu.jpeg # TODO: Run download_image script to actually download the image
+  languages: English
+  availability: [9, 10, 11]
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: |
+      Self starters, emotionally intelligent, women of color.
+    areas:
+    - DevOps
+    - Distributed Systems
+    - Network Engineering
+    - Project Management
+    - Security
+    languages: Python
+    focus:
+    - Grow from mid-level to senior-level
+    - Grow from beginner to mid-level
+    - Switch career to IT
+    extra: |
+      Prep for technical interview, resume feedback, technical mentorship, navigating interpersonal relationships in the workplace, career development.
+  network:
+  - linkedin: https://www.linkedin.com/in/anh-vu-5484bbab/
