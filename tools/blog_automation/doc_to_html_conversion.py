@@ -16,8 +16,8 @@ title: [TITLE]
 date: [DATE]
 author_name: [AUTHOR]
 author_role: [AUTHOR ROLE]
-blurb_img: [IMG PATH]
-blurb_img_source: [IMG SOURCE (optional)]
+image: [IMG PATH]
+image_source: [IMG SOURCE (optional)]
 description: [BLOG DESCRIPTION]
 category: [CATEGORY]
 ---
@@ -40,7 +40,7 @@ def _today_date_str():
 
 def _create_blog_filename_with_date(doc_name, date_str):
     formatted_blog_title = doc_name.lower().replace(' ', '-').strip()
-    filename = f"{date_str}-{formatted_blog_title}.html"
+    filename = f"{date_str}-{formatted_blog_title}"
     return filename
 
 def export_blog_as_html(document_id, date=None):
