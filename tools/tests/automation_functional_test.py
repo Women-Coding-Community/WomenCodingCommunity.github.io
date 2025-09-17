@@ -3,7 +3,7 @@ import os
 import sys
 import pytest
 from file_utils import TOOLS_PATH
-from tools.automation_add_or_update_mentors import run_automation, read_yml_file, WriteMode
+from automation_add_or_update_mentors import run_automation, read_yml_file, WriteMode
 
 MENTOR_2 = "Mentor2 Name"
 MENTOR_3 = "Mentor3 Name"
