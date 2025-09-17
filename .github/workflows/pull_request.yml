@@ -47,4 +47,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run pytest
-        run: pytest tools
+        run: |
+          cd tools
+          pytest
