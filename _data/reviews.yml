@@ -147,6 +147,15 @@
         Thank you, Eleonora, for being such an inspiring mentor!
       name: Hanna Vasylets
       type: Long Term Mentorship
+    - score: 5
+      date: 20250508
+      date-f: 8 May 2025
+      feedback: |
+        Elenora tailors each session to accommodate my schedule and focuses on the specific topics I need to develop. 
+        She also provides valuable resources such as blogs and articles to support my learning. 
+        Her technical expertise in tools like Postman and Playwright is excellent, and I have found her guidance to be extremely beneficial.
+      name: Anonymous
+      type: Long Term Mentorship
 
 - index: 40 # Fernanda
   feedback:
@@ -294,6 +303,22 @@
       date: 20250713
       name: Anonymous
       type: Ad-Hoc
+    - score: 5
+      feedback: |
+        Madhura was absolutely fantastic! I reached out to her for a mock interview session and she was very accomodating and flexible despite the tight timeline. 
+        Not only did she request for more details on the interview format and the company so she could adequately prepare ahead, she also helped with getting more tips/advice from a technical interviewer on what they'd look out for in candidates. 
+        The session was very insightful and she shared so many tips on what I should focus on and that I had the skills/knowledge, I just needed to showcase it from a product-mindset, security-conscious, mid-level engineer perspective. 
+        100% recommend her! Thank you for accommodating me on such short notice!
+      date-f: 16 September 2025
+      date: 20250916
+      name: Airah Y.
+      type: Ad-Hoc
+    - score: 5
+      feedback: Gave me insights, introduced me to her network
+      date-f: 16 September 2025
+      date: 20250916
+      name: Thuyet Nguyen
+      type: Ad-Hoc
 
 - index: 39 # Busra
   feedback:
@@ -438,6 +463,13 @@
       date: 20250723
       name: Madhumita Dasgupta
       type: Ad-Hoc
+    - score: 5
+      feedback: |
+        Just the simple act of presenting my profile and explaining my difficulties to a professional helped me structure the ideas and information in my head, and that alone was a big help. My mentor was caring, involved, and encouraging.
+      date-f: 15 September 2025
+      date: 20250915
+      name: Anonymous
+      type: Ad-hoc
 
 - index: 69 # Sonika Janagill
   feedback:
@@ -495,4 +527,21 @@
       date-f: 24 July 2025
       date: 20250724
       name: Kiran Kaur Basra
+      type: Ad-Hoc
+    - score: 5
+      feedback: |
+        Went above and beyond and took patiently through the steps one should complete to gain an understanding of machine learning concepts. 
+        Made things much less overwhelming and gave me a clear sense of direction on concepts I need to study.
+      date-f: 12 August 2025
+      date: 20250812
+      name: Zaynah
+      type: Ad-Hoc
+
+- index: 82 # Ilayda Yilmaz
+  feedback:
+    - score: 5
+      feedback: She was nice and suggested she would give me feedback on my CV and also send me learning resoures.
+      date_f: 14 September 2025
+      date: 20250914
+      name: Nino Godoradze
       type: Ad-Hoc
