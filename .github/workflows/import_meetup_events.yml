@@ -22,17 +22,30 @@ jobs:
         run: |
           mkdir -p tools/files
           curl -L "https://www.meetup.com/women-coding-community/events/ical/" -o tools/files/meetup.ics
+          
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+            path: ~/.cache/pip
+            key: ${{ runner.os }}-pip-${{ hashFiles('tools/requirements.txt') }}
+            restore-keys: |
+                ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+            python -m pip install --upgrade pip
+            pip install -r tools/requirements.txt
 
       - name: Run Meetup import script
         run: |
             cd tools
-            sh run_meetup_import.sh
+            python meetup_import.py
 
       - name: Merge imported events into events.yml
         run: |
           if [ -s _data/imported_events.yml ]; then
             cat _data/imported_events.yml >> _data/events.yml
-            echo "" > _data/imported_events.yml
+            : > _data/imported_events.yml
             echo "New events have been added to events.yml and imported_events.yml has been reset."
           else
             echo "No new events to import."
@@ -48,12 +61,9 @@ jobs:
           title: "Automated import of Meetup events"
           body: |
             This PR was created automatically by a GitHub Action to import upcoming Meetup events.
+            Only `_data/events.yml` should be updated.
 
-            Please review the changes in:
-            - `_data/events.yml`
-            - `_data/imported_events.yml`
-
-            Ensure that everything is parsed correctly before merging.
+            Please review the changes `_data/events.yml` and ensure that everything is parsed correctly before merging.
           labels: |
             automation
             
