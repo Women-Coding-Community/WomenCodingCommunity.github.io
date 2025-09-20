@@ -3,7 +3,7 @@ name: Import Meetup Events
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * 1' # every Monday at 6am GMT
+    - cron: '0 6 * * *' # every day at 6am GMT
 
 jobs:
   import-meetup:
