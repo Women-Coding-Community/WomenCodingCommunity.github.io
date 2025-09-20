@@ -1,0 +1,57 @@
+name: Import Meetup Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1' # every Monday at 6am GMT
+
+jobs:
+  import-meetup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download iCal file
+        run: |
+          mkdir -p tools/files
+          curl -L "https://www.meetup.com/women-coding-community/events/ical/" -o tools/files/meetup.ics
+
+      - name: Run Meetup import script
+        run: sh tools/run_meetup_import.sh
+
+      - name: Merge imported events into events.yml
+        run: |
+          if [ -s _data/imported_events.yml ]; then
+            cat _data/imported_events.yml >> _data/events.yml
+            echo "" > _data/imported_events.yml
+            echo "New events have been added to events.yml and imported_events.yml has been reset."
+          else
+            echo "No new events to import."
+          fi
+
+      - name: Create or Update Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.MEETUP_IMPORT_ACTIONS_TOKEN }}
+          commit-message: "Automated import of Meetup events"
+          branch: "automation/import-meetup-events"
+          team-reviewers: "Women-Coding-Community/leaders"
+          title: "Automated import of Meetup events"
+          body: |
+            This PR was created automatically by a GitHub Action to import upcoming Meetup events.
+
+            Please review the changes in:
+            - `_data/events.yml`
+            - `_data/imported_events.yml`
+
+            Ensure that everything is parsed correctly before merging.
+          labels: |
+            automation
+            
