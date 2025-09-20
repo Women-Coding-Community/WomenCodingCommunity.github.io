@@ -38,6 +38,10 @@ TYPE_BOTH = "both"
 IMAGE_FILE_PATH = "assets/images/mentors"
 IMAGE_SUFFIX = ".jpeg"
 
+# Mentorship cycle periods
+LONG_TERM_REG_PERIOD = "long-term" # long-term registrations period only
+DEFAULT_PERIOD = "default" # rest of the cycle, ad-hoc periods
+
 
 class WriteMode(Enum):
     # Create new a file
@@ -131,27 +135,34 @@ def get_multiline_string(long_text_arg):
         multiline_str = LiteralScalarString(textwrap.dedent(long_text_arg))
     return multiline_str
 
+
+def is_available_for_long_term(mentorship_type):
+    return mentorship_type == TYPE_BOTH or mentorship_type == type_long_term[0]
+
+
+def is_long_term_only(mentorship_type):
+    return mentorship_type == type_long_term[0]
+
+
 def get_sort(mentorship_type, num_mentee, current_period):
     """
     Get mentor's sort value
     Rules: https://docs.google.com/document/d/1GwlleBNScHCQ3K8rgvYIB3upIr1BylgWjGR2jxwYWtI/edit?usp=sharing
     """
 
-    if current_period == "long-term":
-        if mentorship_type == TYPE_BOTH or mentorship_type == type_long_term[0]:
-            if num_mentee > 2:
-                return 500
-            if num_mentee == 2:
-                return 200
-            if num_mentee == 1:
-                return 100
-            return 10
+    if current_period == LONG_TERM_REG_PERIOD and is_available_for_long_term(mentorship_type):
+        if num_mentee > 2:
+            return 500
+        if num_mentee == 2:
+            return 200
+        if num_mentee == 1:
+            return 100
         return 10
     
-    if current_period == "default" and mentorship_type == type_long_term[0]:
+    if current_period == DEFAULT_PERIOD and is_long_term_only(mentorship_type):
         return 10
     
-    return 500
+    return 100
 
 def get_mentorship_type(mentorship_type_str):
     """
