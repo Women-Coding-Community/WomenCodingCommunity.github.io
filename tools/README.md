@@ -17,12 +17,12 @@ python 3.11 or above
 #### A) `automation_add_or_update_mentors.py`
 
 ```shell
-sh run_automation.sh
+sh run_mentor_automation.sh
 ```
 **Note:** 
 - Ensure to update `mentors.xslx` with the new spreadsheet containing the mentors to be added, **OR** 
-- adjust the `FILE_PATH_MENTORS_XLSX` parameter in [the script](run_automation.sh) to match the file path for the new spreadsheet.
-- adjust the `CURRENT_PERIOD` parameter in [the script](run_automation.sh) if running during long-term registration period (use "long-term")
+- adjust the `FILE_PATH_MENTORS_XLSX` parameter in [the script](run_mentor_automation.sh) to match the file path for the new spreadsheet.
+- adjust the `CURRENT_PERIOD` parameter in [the script](run_mentor_automation.sh) if running during long-term registration period (use "long-term")
 
 
 #### B) `download_image.py`
