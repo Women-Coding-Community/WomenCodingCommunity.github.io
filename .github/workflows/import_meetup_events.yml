@@ -24,7 +24,9 @@ jobs:
           curl -L "https://www.meetup.com/women-coding-community/events/ical/" -o tools/files/meetup.ics
 
       - name: Run Meetup import script
-        run: sh tools/run_meetup_import.sh
+        run: |
+            cd tools
+            sh run_meetup_import.sh
 
       - name: Merge imported events into events.yml
         run: |
