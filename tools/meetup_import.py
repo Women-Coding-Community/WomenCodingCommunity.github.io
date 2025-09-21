@@ -179,9 +179,12 @@ def get_upcoming_meetups_from_ical_file(ical_path: str) -> list[MeetupEvents]:
     with open(ical_path, "r", encoding="utf-8") as f:
         calendar = Calendar(f.read())
 
+    # sort events to ensure order by event date
+    sorted_events = sorted(calendar.events, key=lambda e: e.begin)
+
     upcoming_meetups: list[MeetupEvents] = []
 
-    for event in calendar.events:
+    for event in sorted_events:
         title = event.name
         date_obj = event.begin.datetime
         expiration = date_obj.strftime("%Y%m%d")
@@ -279,7 +282,7 @@ def fetch_events():
     ical_file_path = "files/meetup.ics"
     yml_file_path = "../_data/imported_events.yml"
 
-    logging.info("Params: iCal URL: %s yml: %s mode: %s", ical_file_path, yml_file_path)
+    logging.info("Params: iCal URL: %s yml: %s", ical_file_path, yml_file_path)
     upcoming_meetups = get_upcoming_meetups_from_ical_file(ical_file_path)
     
     logging.info("Upcoming Meetups:")
