@@ -507,6 +507,7 @@
     I have 20+ years experience in tech, starting as a hands-on developer, manager and leader. I also have experience in product management. I've worked in a variety of languages including JS, Python, Java, Ruby and C#. I currently work supporting start-ups and small businesses with technical strategy.
   image: assets/images/mentors/ceri_shaw.jpg
   languages: English
+  availability: []
   skills:
     experience: 16+ Years
     years: 16
@@ -853,6 +854,7 @@
   bio: Research engineer in DL since 2017 in both start-ups and big tech. I'm particularly interested in generative models, NLP and have enjoyed scaling up training and deployments efficiently. Recently moved to London from Stockholm, Sweden, and having mentored previously I'm looking for ways to contribute here as well.
   image: assets/images/mentors/agrin_hilmkil.jpg
   languages: English
+  availability: []
   skills:
     experience: 5-7 Years
     years: 7
@@ -1406,6 +1408,7 @@
     With over a decade in the tech industry, I have a Master’s in Computer Science and over seven years of experience in various roles within SAP systems, including Analyst, Engineer, Architect, and Team Lead, contributing to over 20 successful projects. I redirected my career towards data science in 2018, beginning as a Junior Data Scientist and continuously advancing my knowledge in the field through self-directed learning. My expertise now encompasses a range of Machine Learning systems, including large language models (LLMs), graph neural networks, and deep learning techniques like Transformer architecture for time-series analysis.
   image: "assets/images/mentors/olga_volkova.jpeg"
   languages: English, Russian
+  availability: []
   skills:
     experience: 10-15 Years
     years: 15
@@ -2405,6 +2408,7 @@
   image: |
     assets/images/mentors/eniola_oduntani.jpeg
   languages: English
+  availability: []
   skills:
     experience: 2-4 Years
     years: 4
@@ -2442,6 +2446,7 @@
   image: |
     assets/images/mentors/griswald_brooks.jpeg
   languages: English
+  availability: []
   skills:
     experience: 7-10 Years
     years: 10
@@ -2477,6 +2482,7 @@
   image: |
     assets/images/mentors/tiffany_cappeellari.jpeg
   languages: English
+  availability: []
   skills:
     experience: 4-5 Years
     years: 5
