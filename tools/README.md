@@ -1,7 +1,6 @@
 ## How to Run Python Scripts
 
-There are two automation scripts:
-1) `automation.py`: appends new mentors in `samples/mentors.xslx` to `_data/mentor.yml`
+1) `automation_mentors.py`: appends new mentors in `samples/mentors.xslx` to `_data/mentor.yml` (or updates all existing mentors if using WRITE mode)
 
 2) `download_image.py`: downloads image from a specified URL and saves in `assets/images/mentors`
 
@@ -17,15 +16,18 @@ python 3.11 or above
 
 ### How to Execute on Mac
 
-#### A) `automation.py`
+#### A) `automation_mentors.py`
 
 ```shell
-sh run_automation.sh
+sh run_mentor_automation.sh
 ```
 **Note:** 
 - Ensure to update `mentors.xslx` with the new spreadsheet containing the mentors to be added, **OR** 
-- adjust the `FILE_PATH_MENTORS_XLSX` parameter in [the script](run_automation.sh) to match the file path for the new spreadsheet.
+- adjust the `FILE_PATH_MENTORS_XLSX` parameter in [the script](run_mentor_automation.sh) to match the file path for the new spreadsheet.
+- adjust the `CURRENT_PERIOD` parameter in [the script](run_mentor_automation.sh) if running during long-term registration period (use "long-term")
 
+- After running the script, you **HAVE** to run the [run_download_automation script](run_download_automation.sh) to download images for each new mentor. Else, the image links will be broken as they do not exist yet.
+- If using the script to update all mentors, update `run_mentor_automation.sh` to use WRITE mode
 
 #### B) `download_image.py`
 
