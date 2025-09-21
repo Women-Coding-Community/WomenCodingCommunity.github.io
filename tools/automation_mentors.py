@@ -9,6 +9,7 @@ import sys
 import textwrap
 from enum import Enum
 
+import numpy as np
 import pandas as pd
 from ruamel.yaml import YAML
 from ruamel.yaml.scalarstring import LiteralScalarString
@@ -36,6 +37,10 @@ type_long_term = ("long-term", "long term")
 TYPE_BOTH = "both"
 IMAGE_FILE_PATH = "assets/images/mentors"
 IMAGE_SUFFIX = ".jpeg"
+
+# Mentorship cycle periods
+LONG_TERM_REG_PERIOD = "long-term" # long-term registrations period only
+DEFAULT_PERIOD = "default" # rest of the cycle, ad-hoc periods
 
 
 class WriteMode(Enum):
@@ -130,23 +135,39 @@ def get_multiline_string(long_text_arg):
         multiline_str = LiteralScalarString(textwrap.dedent(long_text_arg))
     return multiline_str
 
-def get_sort(mentorship_type, num_mentee):
+def is_available_for_long_term(mentorship_type):
+    return mentorship_type == type_long_term[0] or mentorship_type == TYPE_BOTH
+
+def is_available_for_ad_hoc(mentorship_type):
+    return mentorship_type == type_ad_hoc[0] or mentorship_type == TYPE_BOTH
+
+def sort_for_long_term_reg(num_mentee):
+    """
+    Return sort value for mentors available for long-term, based on number of mentees they can take.
+    Applies only during long-term registration period.
+    if no mentees, sort to 10; if num_mentees is 1, sort to 100; 2, sort to 200; if >2, sort to highest 500
+    """
+    
+    mentee_sort_map = {
+        0: 10, 
+        1: 100, 
+        2: 200
+    }
+    return mentee_sort_map.get(num_mentee, 500)
+
+
+def get_sort(mentorship_type, num_mentee, current_period):
     """
     Get mentor's sort value
+    Rules: https://docs.google.com/document/d/1GwlleBNScHCQ3K8rgvYIB3upIr1BylgWjGR2jxwYWtI/edit?usp=sharing
     """
 
-    if mentorship_type == TYPE_BOTH or mentorship_type == type_long_term[0]:
-        if num_mentee > 2:
-            return 600
-        if num_mentee == 2:
-            return 550
-        if num_mentee == 1:
-            return 500
-        return 200
-    if mentorship_type == type_ad_hoc[0]:
-        #todo: (if availability == next month) then adjust the sort value:
+    if current_period == LONG_TERM_REG_PERIOD and is_available_for_long_term(mentorship_type):
+        sort_for_long_term_reg(num_mentee)
+    
+    if current_period == DEFAULT_PERIOD and is_available_for_ad_hoc(mentorship_type):
         return 100
-
+    
     return 10
 
 def get_mentorship_type(mentorship_type_str):
@@ -237,13 +258,24 @@ def read_yml_file(file_path):
 
     return yml_dict
 
+def get_num_mentee_from_row(mentor_row, default):
+    """
+    Extract num_mentee from mentor_row, or use default if invalid.
+    """
+    val = mentor_row.iloc[44]
+
+    return (
+        int(val) if pd.notna(val) and isinstance(val, (int, np.integer))
+        else default
+    )
 
 def xlsx_to_yaml_parser(mentor_row,
                         mentor_index,
+                        current_period,
                         mentor_disabled=False,
                         mentor_sort=0,
                         mentor_matched=False,
-                        num_mentee=1):
+                        num_mentee=0):
     """
     Prepare mentor's excel data for yaml format
     """
@@ -259,7 +291,9 @@ def xlsx_to_yaml_parser(mentor_row,
     mentor_type = get_mentorship_type(mentor_row.iloc[4])
 
     if mentor_sort == 0:
-        mentor_sort = get_sort(mentor_type, num_mentee)
+        num_mentee = get_num_mentee_from_row(mentor_row, num_mentee)
+
+        mentor_sort = get_sort(mentor_type, num_mentee, current_period)
 
     if not pd.isna(mentor_row.iloc[9]):
         mentor_position = f"{mentor_row.iloc[8].strip()}, {mentor_row.iloc[9].strip()}"
@@ -329,7 +363,7 @@ def get_yml_data(yml_file_path):
     return df_yml_data
 
 
-def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=0):
+def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, current_period, skip_rows=0):
     """
     Read all mentors from Excel sheet:
      - if mentor is in current mentors.yml, use existing values for index, disabled, sort, matched and num_mentee.
@@ -356,6 +390,7 @@ def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=0):
         if not df_yml_row.empty:
             mentor = xlsx_to_yaml_parser(df_mentors.iloc[row],
                                         df_yml_row['Index'].item(),
+                                        current_period,
                                         df_yml_row['Disabled'].item(),
                                         df_yml_row['Sort'].item(),
                                         df_yml_row['Matched'].item(),
@@ -363,7 +398,8 @@ def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=0):
             logging.info(f"For {mentor_name} use index, disabled and sort from mentors.yml file")
         else:
             mentor = xlsx_to_yaml_parser(df_mentors.iloc[row],
-                                        new_index)
+                                        new_index,
+                                        current_period)
             new_index += 1
         mentors.append(mentor)
 
@@ -372,7 +408,7 @@ def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=0):
     return mentors
 
 
-def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=1):
+def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, current_period, skip_rows=1):
     """
     Read just new mentors from Excel sheet:
      - start reading xlsx Mentors from the row 1 (from the date 03/04/2024)
@@ -397,7 +433,7 @@ def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=1):
             mentor_name = df_mentors.iloc[row].values[2].strip().lower()
 
             if df_yml.loc[df_yml.Name == mentor_name].empty:
-                mentor = xlsx_to_yaml_parser(df_mentors.iloc[row], new_index)
+                mentor = xlsx_to_yaml_parser(df_mentors.iloc[row], new_index, current_period)
                 new_index += 1
                 mentors.append(mentor)
 
@@ -411,25 +447,27 @@ def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=1):
 def run_automation():
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-    if len(sys.argv) == 5:
+    if len(sys.argv) == 6:
         xlsx_file_path = sys.argv[1]
         yml_file_path = sys.argv[2]
-        mode = WriteMode(sys.argv[3])
-        skip_rows = int(sys.argv[4])
+        current_period = sys.argv[3]
+        mode = WriteMode(sys.argv[4])
+        skip_rows = int(sys.argv[5])
 
-        logging.info("Params: xlsx: %s yml: %s mode: %s skip_rows: %s", xlsx_file_path, yml_file_path, mode, skip_rows)
+        logging.info("Params: xlsx: %s yml: %s current_period: %s mode: %s skip_rows: %s", xlsx_file_path, yml_file_path, current_period, mode, skip_rows)
     else:
         xlsx_file_path = "samples/mentors.xlsx"
         yml_file_path = "samples/mentors.yml"
+        current_period = "default"
         mode = WriteMode.APPEND
         skip_rows = 0
 
-        logging.info("Default values: xlsx: %s yml:: %s mode: %s", xlsx_file_path, yml_file_path, mode)
+        logging.info("Default values: xlsx: %s yml:: %s current_period: %s mode: %s", xlsx_file_path, yml_file_path, current_period, mode)
 
     if mode == WriteMode.APPEND:
         logging.info("Appending option selected.")
 
-        list_of_mentors = get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=skip_rows)
+        list_of_mentors = get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, current_period, skip_rows=skip_rows)
 
         logging.info("New Mentors size: %d", len(list_of_mentors))
 
@@ -439,7 +477,7 @@ def run_automation():
     elif mode == WriteMode.WRITE:
         logging.info("Recreate yml - Write option selected.")
 
-        list_of_mentors = get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, skip_rows=skip_rows)
+        list_of_mentors = get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, current_period, skip_rows=skip_rows)
         write_yml_file(yml_file_path, list_of_mentors, WriteMode.WRITE)
 
 

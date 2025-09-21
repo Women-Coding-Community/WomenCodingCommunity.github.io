@@ -3,7 +3,7 @@ import os
 import sys
 import pytest
 from file_utils import TOOLS_PATH
-from automation import run_automation, read_yml_file, WriteMode
+from automation_mentors import run_automation, read_yml_file, WriteMode
 
 MENTOR_2 = "Mentor2 Name"
 MENTOR_3 = "Mentor3 Name"
@@ -13,7 +13,7 @@ def test_write_mentors_skip_zero_rows(monkeypatch):
     with tempfile.NamedTemporaryFile(suffix='yml', delete=False) as tmpfile:
         tmp_filename = tmpfile.name
 
-    test_args = ['automation.py', os.path.join(TOOLS_PATH, "samples", "mentors.xlsx"), tmp_filename, WriteMode.WRITE, '0']
+    test_args = ['automation_mentors.py', os.path.join(TOOLS_PATH, "samples", "mentors.xlsx"), tmp_filename, "default", WriteMode.WRITE, '0']
     monkeypatch.setattr(sys, 'argv', test_args)
 
     run_automation()

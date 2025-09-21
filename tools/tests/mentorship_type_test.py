@@ -1,5 +1,5 @@
 import unittest
-from automation import get_mentorship_type, type_ad_hoc, type_long_term, TYPE_BOTH
+from automation_mentors import get_mentorship_type, type_ad_hoc, type_long_term, TYPE_BOTH
 
 class TestMentorAutomation(unittest.TestCase):
     AD_HOC_1 = "Ad-Hoc Format"
