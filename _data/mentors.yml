@@ -2945,7 +2945,7 @@
   bio: |
     I am a DevOps engineer with nearly a decade of hands-on experience specializing in infrastructure as code, with a strong focus on Terraform adoption and migration of critical production systems—including core web applications and secure bastion hosts. I have extensive experience designing and implementing scalable, containerized environments using Docker, AWS, and Kubernetes. Additionally, I’ve developed and maintained robust CI/CD pipelines using Jenkins, often building team-wide workflows and standards that have been adopted across engineering organizations.
   image: |
-    assets/images/mentors/anh_vu.jpeg # TODO: Run download_image script to actually download the image
+    assets/images/mentors/anh_vu.jpeg
   languages: English
   availability: [9, 10, 11]
   skills:
