@@ -286,7 +286,7 @@ def xlsx_to_yaml_parser(mentor_row,
     # Left commented since the code might be used in the later versions
     # to add default picture until the mentor's image is not available
     # mentor_image = os.path.join(IMAGE_FILE_PATH, str(mentor_index) + IMAGE_SUFFIX)
-    mentor_image = f"{IMAGE_FILE_PATH}/{mentor_row.iloc[2].strip().lower().replace(' ', '_')}{IMAGE_SUFFIX} # TODO: Run download_image script to actually download the image"
+    mentor_image = f"{IMAGE_FILE_PATH}/{mentor_row.iloc[2].strip().lower().replace(' ', '_')}{IMAGE_SUFFIX}"
 
     mentor_type = get_mentorship_type(mentor_row.iloc[4])
 

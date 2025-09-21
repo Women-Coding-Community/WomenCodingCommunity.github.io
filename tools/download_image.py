@@ -32,8 +32,8 @@ def download_image(url, mentor_name):
 
 def run_automation():
     if len(sys.argv) == 3:
-        url = sys.argv[1]
-        mentor_name = sys.argv[2]
+        mentor_name = sys.argv[1]
+        url = sys.argv[2]
         image_path = download_image(url, mentor_name)
         if image_path:
             print(f"Image saved to {image_path}")
