@@ -1283,3 +1283,115 @@
     path: https://www.meetup.com/women-coding-community/events/310007990/
     title: View meetup event
     target: _target
+- title: |
+    Mentorship Check-In: Share, Reflect, Grow
+  description: "Mentorship Check-In: Share, Reflect, Grow An open session to reconnect and recharge with the Women Coding Community   Date: 25 September 2025  Time: 7:00 PM BST   How\u2019s your mentorship journey going so far? Let\u2019s check in! Join us for a walk-in-style session designed with special focus on mentees in the Women Coding Community Mentorship Programme.\n"
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, SEP 25, 2025
+  expiration: "20250925"
+  host: "Idayat Sanni and Airat Yusuff"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/6/2/f/7/600_529945335.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310809202/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Prompt Engineering Book Club & Networking Challenge Highlights
+  description: |
+    "This book will teach you the art and science of prompt engineering-the key to unlocking the true potential of LLMs.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, SEP 29, 2025
+  expiration: "20250929"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/6/8/7/600_529654439.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310192375/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Microsoft Certifications: An Overview
+  description: |
+    Speaker: Jane Pitt  LinkedIn Jane Pitt began her career as a script writer for a television production company, but her love of technology and problem-solving drove her to change career path and pivot into tech.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, OCT 01, 2025
+  expiration: "20251001"
+  host: ""
+  speaker: "Jane Pitt"
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/c/2/e/d/600_530209901.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311050644/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Business, Career, & Motherhood
+  description: Juggling a career with the beautiful chaos of motherhood is one of the biggest challenges many women face.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, OCT 08, 2025
+  expiration: "20251008"
+  host: ""
+  speaker: ""
+  time: 05:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/e/e/600_529442542.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310345118/
+    title: View meetup event
+    target: _target
+
+- title: |
+    October Book Club (Soft Skills Month)
+  description: |
+    The date is set but the book isn't! Join us on our Slack channel progbookclub to have your say on the October book.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, OCT 27, 2025
+  expiration: "20251027"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/3/3/5/8/600_529753144.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310632213/
+    title: View meetup event
+    target: _target
+
+- title: |
+    November Book Club: Designing Data-Intensive Applications
+  description: |
+    This book will help you:   Peer under the hood of the systems you already use, and learn how to use and operate them more effectively  Make informed decisions by identifying the strengths and weaknesses of different tools  Navigate the trade-offs around consistency, scalability, fault tolerance, and complexity  Understand the distributed systems research upon which modern databases are built  Peek behind the scenes of major online services, and learn from their architectures  - Goodreads  If you want to have a say in the next book, please join our Slack channel progbookclub! And if you would like to volunteer, do join our volunteering channel bookclubvolunteers.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, NOV 24, 2025
+  expiration: "20251124"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/3/4/d/b/600_529753531.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310632593/
+    title: View meetup event
+    target: _target
+
