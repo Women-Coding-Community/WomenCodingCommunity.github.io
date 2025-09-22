@@ -248,47 +248,69 @@ def process_meetup_data(meetup: dict) -> dict:
         meetup["link"]["title"] = to_quoted_str(meetup["link"]["title"])
     return meetup
 
-# ---- Write specified data to file -----
-def write_yaml_file(file_path, data) -> None:
-    try:
-        with open(file_path, "w") as file:
-            for yaml_obj in data:
-                file.write(yaml.dump([yaml_obj], sort_keys=False, width=2000))
-                file.write("\n")
-    except (IOError, yaml.YAMLError) as e:
-        logging.error(f"Error writing to file '{file_path}': {e}")
-        raise
+# --- Create a unique key for an event using "title - date" ----
+def get_event_key(event):
+    return f"{event.get('title').strip()} - {event.get('date')}"
 
-# ---- Process events data into yaml file -----
-def export_to_yaml(upcoming_meetups, yaml_file: str):
-    meetup_dicts = [meetup.dict() for meetup in upcoming_meetups]
-    try:
-        meetup_dicts = [process_meetup_data(meetup) for meetup in meetup_dicts]
-        write_yaml_file(yaml_file, meetup_dicts)
+# --- Get a Set of keys for existing events ----
+def get_existing_event_keys(events):
+    return {get_event_key(e) for e in events}
 
+# --- Get existing events in yml file ----
+def load_existing_events_from_file(file_path):
+    try:
+        with open(file_path, "r") as file:
+            return yaml.safe_load(file) or []
     except FileNotFoundError:
-        logging.warning(f"File '{yaml_file}' not found. Creating a new file.")
-        with open(yaml_file, "w") as file:
-            yaml.dump(meetup_dicts, file, default_flow_style=False, sort_keys=False)
+        return []
     except (IOError, yaml.YAMLError) as e:
-        logging.error(f"Error processing file '{yaml_file}': {e}")
-        raise
+        logging.error(f"Error reading file '{file_path}': {e}")
+        return []
 
+# ---- Appends specified data to yml file -----
+def append_events_to_yaml_file(file_path, data):
+    try:
+        with open(file_path, "a") as file:
+            for yaml_obj in data:
+                file.write("\n")
+                file.write(yaml.dump([yaml_obj], sort_keys=False, width=2000))
+    except (IOError, yaml.YAMLError) as e:
+        logging.error(f"Error appending new events to file '{file_path}': {e}")
+        raise
 
 # --- Script Start ---
 def fetch_events():
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
     ical_file_path = "files/meetup.ics"
-    yml_file_path = "../_data/imported_events.yml"
+    yml_file_path = "../_data/events.yml"
 
     logging.info("Params: iCal URL: %s yml: %s", ical_file_path, yml_file_path)
-    upcoming_meetups = get_upcoming_meetups_from_ical_file(ical_file_path)
+    upcoming_events = get_upcoming_meetups_from_ical_file(ical_file_path)
+
+    existing_events = load_existing_events_from_file(yml_file_path)
+    existing_keys = get_existing_event_keys(existing_events)
+    added_events = []
     
-    logging.info("Upcoming Meetups:")
-    for meetup in upcoming_meetups:
-        logging.info(f"{meetup.title}")
-    export_to_yaml(upcoming_meetups, yml_file_path)
+    logging.info("Upcoming Meetup Events:")
+    for event in upcoming_events:
+        
+        logging.info(f"{event.title}")
+        formatted_event = process_meetup_data(event.model_dump())
+        event_key = get_event_key(formatted_event)
+
+        if event_key not in existing_keys:
+            added_events.append(formatted_event)
+            existing_keys.add(event_key)
+            added_events_length += 1
+        else:
+            logging.info(f"{event_key} already exists in events.yml")
+
+    if len(added_events) > 0:
+        append_events_to_yaml_file(yml_file_path, added_events)
+        logging.info(f"Added {len(added_events)} new event(s) to events.yml.")
+    else:
+        logging.info("No new events to add.")
 
 
 if __name__ == "__main__":

@@ -41,16 +41,6 @@ jobs:
             cd tools
             python meetup_import.py
 
-      - name: Merge imported events into events.yml
-        run: |
-          if [ -s _data/imported_events.yml ]; then
-            cat _data/imported_events.yml >> _data/events.yml
-            : > _data/imported_events.yml
-            echo "New events have been added to events.yml and imported_events.yml has been reset."
-          else
-            echo "No new events to import."
-          fi
-
       - name: Create or Update Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
