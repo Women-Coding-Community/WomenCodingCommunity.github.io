@@ -302,7 +302,6 @@ def fetch_events():
         if event_key not in existing_keys:
             added_events.append(formatted_event)
             existing_keys.add(event_key)
-            added_events_length += 1
         else:
             logging.info(f"{event_key} already exists in events.yml")
 
