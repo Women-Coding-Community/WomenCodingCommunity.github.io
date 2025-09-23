@@ -1396,3 +1396,22 @@
     title: View meetup event
     target: _target
 
+
+- title: |
+    Book Club: Wild Courage
+  description: |
+    A bold, empowering, and energizing guide to embracing your ambition and chasing after what you want from an executive who spent nearly two decades climbing the ranks at Google.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, OCT 27, 2025
+  expiration: "20251027"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/a/c/b/7/600_530324215.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310632213/
+    title: View meetup event
+    target: _target
