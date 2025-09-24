@@ -45,9 +45,7 @@ sh run_meetup_import.sh
 ```
 
 **Note:** 
-- New data will be imported to [`imported_events.yml`](../_data/imported_events.yml). Verify that all events details are formatted correctly, manually update if needed. 
-- Ensure to copy the generated data to [`events.yml`](../_data/events.yml) and clear the file.
-
+- New data will be appended to [`events.yml`](../_data/events.yml). Verify that all events details are formatted correctly, manually update if needed.
 
 ### How to Execute on Windows
 

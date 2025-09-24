@@ -1283,6 +1283,7 @@
     path: https://www.meetup.com/women-coding-community/events/310007990/
     title: View meetup event
     target: _target
+
 - title: |
     Mentorship Check-In: Share, Reflect, Grow
   description: "Mentorship Check-In: Share, Reflect, Grow An open session to reconnect and recharge with the Women Coding Community   Date: 25 September 2025  Time: 7:00 PM BST   How\u2019s your mentorship journey going so far? Let\u2019s check in! Join us for a walk-in-style session designed with special focus on mentees in the Women Coding Community Mentorship Programme.\n"
@@ -1395,3 +1396,22 @@
     title: View meetup event
     target: _target
 
+
+- title: |
+    Book Club: Wild Courage
+  description: |
+    A bold, empowering, and energizing guide to embracing your ambition and chasing after what you want from an executive who spent nearly two decades climbing the ranks at Google.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, OCT 27, 2025
+  expiration: "20251027"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/a/c/b/7/600_530324215.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310632213/
+    title: View meetup event
+    target: _target
