@@ -91,6 +91,6 @@ sh run_adhoc_prep_automation.sh
 - The GHA workflow for this script uses a Google Cloud service account setup to retrieve the file from Google Drive. The service key has been configured for womencodingcommunity Google Drive account and the file to be used/updated has been shared with the service account email.
 Hence, to run the GHA workflow, you only need to provide:
   - the month value (e.g 9 for September) and,
-  - the URL to the excel sheet
+  - the file ID for the excel sheet to use
 
 For more information, you can read the [README](blog_automation/README.md) in the blog automation folder.
