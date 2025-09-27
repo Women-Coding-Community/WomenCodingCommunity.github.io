@@ -51,13 +51,16 @@ jobs:
           cd tools
           python automation_prepare_adhoc_availability.py adhoc.xlsx ${{ github.event.inputs.month }}
 
+      - name: Cleanup files
+        if: always()
+        run: rm -f service_account.json tools/adhoc.xlsx
+
       - name: Create or Update Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GHA_ACTIONS_ALLOW_TOKEN }}
           commit-message: "updated mentor hours, availabilities, and sort for monthly adhoc prep"
           branch: "automation/adhoc-monthly-prep"
-          path: _data/mentors.yml
           team-reviewers: |
             Women-Coding-Community/leaders
           title: "[GHA Workflow] Monthly Ad-hoc Prep - Month ${{ github.event.inputs.month }}"
@@ -69,7 +72,3 @@ jobs:
           labels: |
             automation
             adhoc-prep
-
-      - name: Cleanup files
-        if: always()
-        run: rm -f service_account.json tools/adhoc.xlsx
