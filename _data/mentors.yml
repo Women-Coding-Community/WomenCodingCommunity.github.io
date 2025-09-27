@@ -2824,7 +2824,7 @@
     - Grow beyond senior level
     extra: Focus areas for aspiring data scientists; transitioning into data science, building a roadmap, preparing for technical interviews, optimizing resume/LinkedIn, creating and showcasing portfolio projects, and communicating insights effectively.
   network:
-    - linkedin: https://www.linkedin.com/in/ilayda-yilmaz/
+  - linkedin: https://www.linkedin.com/in/ilayda-yilmaz/
 
 - name: Damola Taiwo
   disabled: false
@@ -2891,7 +2891,7 @@
     - Grow from mid-level to senior-level
     - Grow from beginner to mid-level
     - Switch career to IT
-    extra:
+    extra: |
       Data engineering best practices; Data architecture design and implementation; Transitioning from on-premises to cloud solutions (with focus on Databricks);
       Growing from junior to mid-level; Growing from mid-level to senior-level; Career development and strategic planning in data roles;
       Technology architecture & strategy; Career growth  & soft skills; Navigating the job market and building a professional brand; Effective communication in technical teams
