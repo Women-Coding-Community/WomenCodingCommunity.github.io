@@ -87,10 +87,10 @@ sh run_meetup_import.sh
 sh run_adhoc_prep_automation.sh
 ```
 **Note:** 
-- Ensure to update `adhoc-prep.xslx` with the new data to be updated for the mentors. 
-- The GHA workflow for this script uses a Google Cloud service account setup to retrieve the file from Google Drive. The service key has been configured for womencodingcommunity Google Drive account and the file to be used/updated has been shared with the service account email.
+- If running locally, ensure to update `adhoc-prep.xslx` with the new data to be updated for the mentors. 
+- If using GitHub Actions, the GHA workflow for this script uses a Google Cloud service account setup to retrieve the file from Google Drive. The service key has been configured for womencodingcommunity Google Drive account and the file to be used/updated has been shared with the service account email.
 Hence, to run the GHA workflow, you only need to provide:
   - the month value (e.g 9 for September) and,
   - the file ID for the excel sheet to use
 
-For more information, you can read the [README](blog_automation/README.md) in the blog automation folder.
+For more information on the GC service account configurations, you can read the [README](blog_automation/README.md) in the blog automation folder.

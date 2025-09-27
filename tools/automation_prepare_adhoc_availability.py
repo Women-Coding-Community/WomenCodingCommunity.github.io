@@ -33,7 +33,6 @@ def get_available_mentor_sort(mentor, current_availability):
         - mentor is new (availability still contains full list of months), sort to highest: 500
         - mentor has >3 available hours, sort to highest: 500
         - 3 or less hours, sort: 200
-        - mentor is long-term only, sort: 10
 
         Guide: https://docs.google.com/document/d/1GwlleBNScHCQ3K8rgvYIB3upIr1BylgWjGR2jxwYWtI/edit?tab=t.0
     """
@@ -49,6 +48,7 @@ def get_unavailable_mentor_sort(mentor):
         Returns sort value for mentor if:
         - mentor is ad-hoc only or both but no available hours for the month, sort: 100
         - mentor is long-term only, sort: 10
+        - mentor is deactivated, sort: 1
     """
     if mentor.get("disabled", True):
         return 1
@@ -104,13 +104,14 @@ def update_mentor_availability(month, xlsx_file_path, yml_file_path):
         # Only update hours if updated hours is None
         updated_hours = availability_updates.get(yml_name)
         if updated_hours is not None:
-            mentor['hours'] = availability_updates[yml_name]
+            logging.info(f"Updating hours for {yml_name} to: {updated_hours}")
+            mentor['hours'] = updated_hours
 
     with open(yml_file_path, 'w') as f:
         yaml.default_flow_style = True
         yaml.dump(mentors, f)
 
-    print(f"Mentor availability updated for month {MONTHS_MAP[month]}.")
+    print(f"Mentor availabilities updated for month {MONTHS_MAP[month]}.")
 
 
 def run_automation():
