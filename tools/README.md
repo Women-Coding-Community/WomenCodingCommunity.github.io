@@ -5,7 +5,11 @@ There are two automation scripts:
 
 2) `download_image.py`: downloads image from a specified URL and saves in `assets/images/mentors`
 
-3) `automation_create_mentor_spreadsheets.py`: creates spreadhseets for each longterm mentor with filenames like `WCC - Long Term - MentorName.xlsx`. All the files are saved in a folder named `Long Term Mentors`. It uses the data from `Mentorship Programme long-term Registration Form for Mentees (Responses).xlsx` sheetname `Revised Mentees`as input.
+3) `meetup_import.py`: imports new upcoming events from the WCC MeetUp page using the iCal feed: https://www.meetup.com/women-coding-community/events/ical/
+
+4) `automation_create_mentor_spreadsheets.py`: creates spreadhseets for each longterm mentor with filenames like `WCC - Long Term - MentorName.xlsx`. All the files are saved in a folder named `Long Term Mentors`. It uses the data from `Mentorship Programme long-term Registration Form for Mentees (Responses).xlsx` sheetname `Revised Mentees`as input.
+
+5) `automation_prepare_adhoc_availability.py`: updates mentors data with specified availability hours in `samples/adhoc-prep.xlsx` in preparation for monthly ad-hoc mentorship.
 
 ### Dependencies
 
@@ -76,3 +80,17 @@ sh run_meetup_import.sh
   │── WCC - Long Term - Nonna Shakhova.xlsx  
   │── WCC - Long Term - Rajani Rao.xlsx  
   │── WCC - Long Term - Gabriel Oliveira.xlsx   └── (more mentor files...)  
+
+#### E) `automation_prepare_adhoc_availability.py`
+
+```shell
+sh run_adhoc_prep_automation.sh
+```
+**Note:** 
+- Ensure to update `adhoc-prep.xslx` with the new data to be updated for the mentors. 
+- The GHA workflow for this script uses a Google Cloud service account setup to retrieve the file from Google Drive. The service key has been configured for womencodingcommunity Google Drive account and the file to be used/updated has been shared with the service account email.
+Hence, to run the GHA workflow, you only need to provide:
+  - the month value (e.g 9 for September) and,
+  - the URL to the excel sheet
+
+For more information, you can read the [README](blog_automation/README.md) in the blog automation folder.

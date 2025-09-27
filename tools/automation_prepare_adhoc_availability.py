@@ -50,6 +50,9 @@ def get_unavailable_mentor_sort(mentor):
         - mentor is ad-hoc only or both but no available hours for the month, sort: 100
         - mentor is long-term only, sort: 10
     """
+    if mentor.get("disabled", True):
+        return 1
+    
     if mentor.get("type") == TYPE_LONG_TERM:
         return 10
     
