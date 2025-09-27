@@ -1581,9 +1581,9 @@
   - linkedin: https://www.linkedin.com/in/amenawon-esezobor/
 
 - name: Prerna Singhal
-  disabled: true
+  disabled: false
   matched: false
-  sort: 1
+  sort: 100
   hours: 4
   type: both
   index: 48
@@ -1699,9 +1699,9 @@
   - youtube: https://www.youtube.com/channel/UCsK0v6RouRYb5I1Ny8flrOg
 
 - name: Prabha Venkatesh
-  disabled: true
+  disabled: false
   matched: false
-  sort: 1
+  sort: 100
   num_mentee: 2
   hours: 5
   type: both
