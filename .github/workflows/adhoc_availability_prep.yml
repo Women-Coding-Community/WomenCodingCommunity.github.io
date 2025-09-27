@@ -6,8 +6,8 @@ on:
       month:
         description: "Month number (e.g. 10 for October)"
         required: true
-      file_url:
-        description: "Google Drive URL of the Excel file with the availabilities (see samples/adhoc-prep.xlsx for the expected columns in the sheet)"
+      file_id:
+        description: "Google Drive file ID of the Excel sheet with the availabilities (see samples/adhoc-prep.xlsx for the expected columns in the sheet)"
         required: true
 
 jobs:
@@ -36,12 +36,15 @@ jobs:
             python -m pip install --upgrade pip
             pip install -r tools/requirements.txt
             pip install gdown
+            sudo apt-get update && sudo apt-get install -y rclone
 
-      - name: Save Google Drive credentials
-        run: echo '${{ secrets.GOOGLECLOUD_SERVICE_KEY_RETRIEVE_ADHOC_FILE_JSON }}' > service_account.json
+      - name: Configure rclone with Google Cloud service account
+        run: |
+          echo "${{ secrets.GOOGLECLOUD_SERVICE_KEY_RETRIEVE_ADHOC_FILE_JSON }}" > service_account.json
+          rclone config create gdrive drive scope=drive service_account_file=service_account.json
 
-      - name: Download Excel file securely
-        run: gdown --fuzzy --service-account service_account.json "${{ github.event.inputs.file_url }}" -O tools/adhoc.xlsx
+      - name: Download spreadsheet from Google Drive
+        run: rclone copy gdrive:${{ github.event.inputs.file_id }} tools/adhoc.xlsx
 
       - name: Run script
         run: |
