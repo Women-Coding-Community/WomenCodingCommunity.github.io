@@ -1,0 +1,74 @@
+name: Update Mentor Availabilities for Monthly Ad-Hoc Prep
+
+on:
+  workflow_dispatch:
+    inputs:
+      month:
+        description: "Month number (e.g. 10 for October)"
+        required: true
+      file_id:
+        description: "Google Drive file ID of the Excel sheet with the availabilities"
+        required: true
+
+jobs:
+  update-mentors:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+   
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+            path: ~/.cache/pip
+            key: ${{ runner.os }}-pip-${{ hashFiles('tools/requirements.txt') }}
+            restore-keys: |
+                ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+            python -m pip install --upgrade pip
+            pip install -r tools/requirements.txt
+
+      - name: Install and Configure rclone with Google Cloud service account
+        run: |
+          curl https://rclone.org/install.sh | sudo bash
+          echo '${{ secrets.GOOGLECLOUD_SERVICE_KEY_RETRIEVE_ADHOC_FILE_JSON }}' > service_account.json
+          rclone config create gdrive drive scope=drive service_account_file=service_account.json
+
+      - name: Download spreadsheet from Google Drive
+        run: |
+          rclone backend copyid gdrive: ${{ github.event.inputs.file_id }} tools/adhoc.xlsx
+
+      - name: Run script
+        run: |
+          cd tools
+          python automation_prepare_adhoc_availability.py adhoc.xlsx ${{ github.event.inputs.month }}
+
+      - name: Cleanup files
+        if: always()
+        run: rm -f service_account.json tools/adhoc.xlsx
+
+      - name: Create or Update Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GHA_ACTIONS_ALLOW_TOKEN }}
+          commit-message: "updated mentor hours, availabilities, and sort for monthly adhoc prep"
+          branch: "automation/adhoc-monthly-prep"
+          team-reviewers: |
+            Women-Coding-Community/leaders
+          title: "[WCC Bot] Monthly Ad-hoc Prep - Month ${{ github.event.inputs.month }}"
+          body: |
+            This PR was created automatically by a GitHub Action that handles mentor data updates for the monthly ad-hoc preparation.
+            Only `_data/mentors.yml` should be updated.
+
+            Please review the changes `_data/mentors.yml` and ensure that the changes are as expected before merging (Review the availability sheet used).
+          labels: |
+            automation
+            adhoc-prep
