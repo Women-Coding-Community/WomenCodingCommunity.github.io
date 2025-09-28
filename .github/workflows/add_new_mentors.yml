@@ -1,0 +1,76 @@
+name: Add Newly Accepted Mentors
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_id:
+        description: "Google Drive file ID of the Excel sheet with the new mentors data"
+        required: true
+      current_period:
+        description: "Current period (specify \"long-term\" if during long-term mentorship registration; otherwise, default is used)"
+        required: false
+        default: 'default'
+
+jobs:
+  add-new-mentors:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+   
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+            path: ~/.cache/pip
+            key: ${{ runner.os }}-pip-${{ hashFiles('tools/requirements.txt') }}
+            restore-keys: |
+                ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+            python -m pip install --upgrade pip
+            pip install -r tools/requirements.txt
+
+      - name: Install and Configure rclone with Google Cloud service account
+        run: |
+          curl https://rclone.org/install.sh | sudo bash
+          echo '${{ secrets.GOOGLECLOUD_SERVICE_KEY_RETRIEVE_ADHOC_FILE_JSON }}' > service_account.json
+          rclone config create gdrive drive scope=drive service_account_file=service_account.json
+
+      - name: Download spreadsheet from Google Drive
+        run: |
+          rclone backend copyid gdrive: ${{ github.event.inputs.file_id }} tools/samples/new_mentors.xlsx
+
+      - name: Run scripts to append new mentors to mentors.yml and download their profile picture(s)
+        run: |
+          cd tools
+          python3 automation_mentors.py samples/new_mentors.xlsx ../_data/mentors.yml ${{ github.event.inputs.current_period }} a 0
+          python3 download_image.py samples/new_mentors.xlsx
+
+      - name: Cleanup files
+        if: always()
+        run: rm -f service_account.json tools/samples/new_mentors.xlsx
+
+      - name: Create or Update Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GHA_ACTIONS_ALLOW_TOKEN }}
+          commit-message: "added new mentors"
+          branch: "automation/add-new-mentors"
+          team-reviewers: |
+            Women-Coding-Community/leaders
+          title: "[WCC Bot] Add New Mentors"
+          body: |
+            This PR was created automatically by a GitHub Action that handles adding new mentors.
+            `_data/mentors.yml` should be updated with the new data. Images for the new mentors should also have been downloaded and included in this PR.
+
+            Please review the changes and ensure that the changes are as expected before merging.
+          labels: |
+            automation
+            new-mentors
