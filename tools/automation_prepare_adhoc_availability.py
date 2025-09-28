@@ -29,10 +29,12 @@ MONTHS_MAP = {
 
 def get_available_mentor_sort(mentor, current_availability):
     """
-        Returns sort value for mentor if:
-        - mentor is new (availability still contains full list of months), sort to highest: 500
+        Returns sort value for available mentors ONLY if:
+        - mentor is new (current availability still contains full list of months), sort to highest: 500
         - mentor has >3 available hours, sort to highest: 500
         - 3 or less hours, sort: 200
+
+        Note: sort logic for unavailable mentors is split on purpose (see update_mentor_availability function)
 
         Guide: https://docs.google.com/document/d/1GwlleBNScHCQ3K8rgvYIB3upIr1BylgWjGR2jxwYWtI/edit?tab=t.0
     """
@@ -45,7 +47,7 @@ def get_available_mentor_sort(mentor, current_availability):
 
 def get_unavailable_mentor_sort(mentor):
     """
-        Returns sort value for mentor if:
+        Returns sort value for unavailable mentor if:
         - mentor is ad-hoc only or both but no available hours for the month, sort: 100
         - mentor is long-term only, sort: 10
         - mentor is deactivated, sort: 1
@@ -62,6 +64,7 @@ def get_unavailable_mentor_sort(mentor):
 def get_availability_update_dict(available_mentors):
     """
        Returns a dictionary mapping mentor to their available hours (from spreadsheet file)
+       - If hours column in spreadsheet is empty/non-numeric, the value will be None (indicating existing hours should be kept)
     """
     availability_update_dict = {}
 
@@ -69,7 +72,6 @@ def get_availability_update_dict(available_mentors):
         mentor_name = row['Mentor Name'].strip()
         updated_hours = row['Availability (Hours)']
 
-        # if hours column in spreadhseet is empty, existing hours should be kept
         if pd.isna(updated_hours) or str(updated_hours).strip() == "":
             availability_update_dict[mentor_name] = None
         else:
@@ -79,6 +81,13 @@ def get_availability_update_dict(available_mentors):
 
 
 def update_mentor_availability(month, xlsx_file_path, yml_file_path):
+    """
+        Updates mentor availability and hours in the mentors.yml file based on the provided xlsx file for a given month.
+        - Mentors not listed in the xlsx file are set to unavailable for the month.
+        - Mentors listed in the xlsx file have their availability set to the specified month and hours updated if provided.
+        - All mentors are re-sorted according to the guide: https://docs.google.com/document/d/1GwlleBNScHCQ3K8rgvYIB3upIr1BylgWjGR2jxwYWtI/edit?tab=t.0
+    """
+
     df_available_mentors = pd.read_excel(xlsx_file_path)
     availability_updates = get_availability_update_dict(df_available_mentors)
     
@@ -88,20 +97,18 @@ def update_mentor_availability(month, xlsx_file_path, yml_file_path):
     for mentor in mentors:
         yml_name = mentor['name'].strip()
 
+        # if mentor is not included in availability file: update sort, set availability to none, and move to next mentor
         if yml_name not in availability_updates:
             mentor['sort'] = get_unavailable_mentor_sort(mentor)
             mentor['availability'] = []
             continue 
 
+        # otherwise: mentor is available, update sort and reset availability to the current month only
         current_availability = mentor.get('availability', [])
-        logging.info(f"Current availability for {yml_name}: {current_availability}")
-
         mentor['sort'] = get_available_mentor_sort(mentor, current_availability)
-            
-        # reset availability to the current month only
         mentor['availability'] = [month]
 
-        # Only update hours if updated hours is None
+        # Only update hours if updated hours is not None
         updated_hours = availability_updates.get(yml_name)
         if updated_hours is not None:
             logging.info(f"Updating hours for {yml_name} to: {updated_hours}")

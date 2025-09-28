@@ -63,7 +63,7 @@ jobs:
           branch: "automation/adhoc-monthly-prep"
           team-reviewers: |
             Women-Coding-Community/leaders
-          title: "[GHA Workflow] Monthly Ad-hoc Prep - Month ${{ github.event.inputs.month }}"
+          title: "[WCC Bot] Monthly Ad-hoc Prep - Month ${{ github.event.inputs.month }}"
           body: |
             This PR was created automatically by a GitHub Action that handles mentor data updates for the monthly ad-hoc preparation.
             Only `_data/mentors.yml` should be updated.
