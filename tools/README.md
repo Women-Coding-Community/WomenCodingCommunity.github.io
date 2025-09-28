@@ -2,7 +2,7 @@
 
 1) `automation_mentors.py`: appends new mentors in `samples/mentors.xslx` to `_data/mentor.yml` (or updates all existing mentors if using WRITE mode)
 
-2) `download_image.py`: downloads image from a specified URL and saves in `assets/images/mentors`
+2) `download_image.py`: downloads image for each mentor from a specified URL and saves in `assets/images/mentors`. It uses data from `samples/mentors.xlsx` sheetname `Mentors Images`.
 
 3) `meetup_import.py`: imports new upcoming events from the WCC MeetUp page using the iCal feed: https://www.meetup.com/women-coding-community/events/ical/
 
@@ -22,18 +22,17 @@ python 3.11 or above
 sh run_mentor_automation.sh
 ```
 **Note:** 
-- Ensure to update `mentors.xslx` with the new spreadsheet containing the mentors to be added, **OR** 
-- adjust the `FILE_PATH_MENTORS_XLSX` parameter in [the script](run_mentor_automation.sh) to match the file path for the new spreadsheet.
-- adjust the `CURRENT_PERIOD` parameter in [the script](run_mentor_automation.sh) if running during long-term registration period (use "long-term")
+- Ensure to update `mentors.xslx` sheetname `WCC All Approved Mentors` with new data containing the mentors to be added, **OR** 
+- If using another file source, adjust the `FILE_PATH_MENTORS_XLSX` parameter in [the script](run_mentor_automation.sh) to match the file path.
+- If running this script during long-term registration period, adjust the `CURRENT_PERIOD` parameter in [the script](run_mentor_automation.sh) to "long-term"
 
-- After running the script, you **HAVE** to run the [run_download_automation script](run_download_automation.sh) to download images for each new mentor. Else, the image links will be broken as they do not exist yet.
+- After running the script, you **HAVE** to run the [run_download_automation script](run_download_automation.sh) to download images for the new mentors. Else, the image links will be broken as they do not exist yet.
 - If using the script to update all mentors, update `run_mentor_automation.sh` to use WRITE mode
 
 #### B) `download_image.py`
 
-**Before running the script, make sure** to update the `IMAGE_URL` and `MENTOR_NAME` parameters in the [run_download_automation script](run_download_automation.sh) with:
-- the URL you want to download the mentor's image from, **AND**
-- the mentor's name as it appears in the spreadsheet e.g 'Adriana Zencke'
+**Before running the script, make sure** to update `mentors.xslx` sheetname `Mentors Images` with the data for the new mentors that you want to download their images
+If you want to use another file source, adjust `XLSX_FILE_PATH` parameter in the [script](run_download_automation.sh) to match the file path.
 
 You can then run: 
 ```shell
