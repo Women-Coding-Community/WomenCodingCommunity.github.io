@@ -1283,7 +1283,7 @@
 - name: Fernanda Martins
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 2
   hours: 5
   type: both
@@ -1296,7 +1296,7 @@
     I am community-driven: I have presented at conferences, contributed to open source and like sharing knowledge.
   image: assets/images/mentors/fernanda_martins.jpg
   languages: English, Portuguese
-  availability: []
+  availability: [10]
   skills:
     experience: 10-15 Years
     years: 15
