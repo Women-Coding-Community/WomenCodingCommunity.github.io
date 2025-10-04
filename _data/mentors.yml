@@ -1662,7 +1662,7 @@
 - name: Arzu Caner
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   hours: 3
   type: ad-hoc
   index: 50
@@ -1677,7 +1677,7 @@
   image: |
     assets/images/mentors/arzu_caner.jpeg
   languages: English, Turkish
-  availability: [10]
+  availability: []
   skills:
     experience: 2-4 Years
     years: 4
