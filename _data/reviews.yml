@@ -116,6 +116,13 @@
       date: 20250706
       name: Anonymous
       type: Ad-Hoc
+    - score: 5
+      feedback: |
+        He helped me navigate in my current timeline. Also promised another session to deepdive further.
+      date-f: 22 September 2025
+      date: 20250922
+      name: Anonymous
+      type: Ad-Hoc
 
 - index: 19 # Mona
   feedback:
@@ -199,6 +206,13 @@
         Rajani's use of follow-up questions during our session was extremely effective in identifying areas where I need improvement. I found this approach highly beneficial.
       name: Anonymous
       type: Ad-Hoc
+    - score: 4
+      date: 20250922
+      date-f: 22 September 2025
+      feedback: |
+        yes , I had a specific question about my career and wanted advice.
+      name: Anonymous
+      type: Ad-Hoc
 
 - index: 11 # Ying
   feedback:
@@ -270,6 +284,13 @@
         I received valuable feedback and suggestions for improving my CV and LinkedIn profile. We discussed strategies to grab recruiters' attention and make my CV more compelling. Adriana also recommended some resources to explore and provided clear guidance for my next steps. 
         The session was both productive and highly encouraging.
       name: Bruna Costa Lacerda Silva
+      type: Ad-Hoc
+    - score: 5
+      date: 20250920
+      date-f: 20 September 2025
+      feedback: |
+        My mentor has massively impacted both parts of my growth. My mentor helped me manage my mental health to help me excel and manage my imposter syndrome professionally. Their patience and understanding was vital. They created a safe space for me to express my thoughts and fears and helped me try to find solutions.
+      name: Zaynah Ahmed
       type: Ad-Hoc
 
 - index: 7 # Madhura
