@@ -239,7 +239,7 @@
 - name: Sonali Goel
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   num_mentee: 1
   hours: 2
   position: Lead Engineer, Tesco Technology
@@ -250,7 +250,7 @@
     Sonali serves as a Lead Engineer at Yoox-Net-a-porter, specializing in managing and constructing extensive-scale ecommerce solutions. She leverages Java-based commerce platforms and integrates them with open-source technologies like Spring Boot and Spring Batch. As an AWS-certified Solution Architect, she possesses deep knowledge of Amazon Web Services, complemented by proficiency in implementing continuous integration and continuous deployment (CICD) practices to ensure seamless software delivery. Additionally, she excels in architecting and implementing microservices-based architectures to drive agility and modularity in software development With over 13 years of experience in the technology industry, Sonali brings a wealth of expertise in steering technical direction and fostering high-performance outcomes. Her passion lies in nurturing a culture of continuous learning and innovation. Outside of her professional endeavors, Sonali actively volunteers with Women Who Code, advocating for gender diversity. She is also a creative enthusiast, utilizing design templates to convey ideas, thoughts, and emotions visually.
   image: assets/images/mentors/sonali_goel.jpg
   languages: English
-  availability: [10]
+  availability: []
   skills:
     experience: 10-15 Years
     years: 15
