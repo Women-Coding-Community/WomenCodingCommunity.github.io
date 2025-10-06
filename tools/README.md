@@ -21,17 +21,26 @@ python 3.11 or above
 ```shell
 sh run_mentor_automation.sh
 ```
-**Note:** 
-- Ensure to update `mentors.xslx` sheetname `WCC All Approved Mentors` with new data containing the mentors to be added, **OR** 
+**Notes:**  
+If running locally:
+- Ensure to update `mentors.xslx` sheetname: `WCC All Approved Mentors` with new data containing the mentors to be added, **OR** 
 - If using another file source, adjust the `FILE_PATH_MENTORS_XLSX` parameter in [the script](run_mentor_automation.sh) to match the file path.
 - If running this script during long-term registration period, adjust the `CURRENT_PERIOD` parameter in [the script](run_mentor_automation.sh) to "long-term"
 
-- After running the script, you **HAVE** to run the [run_download_automation script](run_download_automation.sh) to download images for the new mentors. Else, the image links will be broken as they do not exist yet.
-- If using the script to update all mentors, update `run_mentor_automation.sh` to use WRITE mode
+- After running the script, you **HAVE** to run the [run_download_automation script](run_download_automation.sh) to download images for the new mentors. Else, the image links will be broken as they do not exist yet. Read the instructions for the download script usage below.
+
+**If using GitHub Actions**, the GHA workflow is **ONLY** for adding new mentors.
+It uses a Google Cloud service account setup to retrieve the Excel file from Google Drive. The service key has been configured for womencodingcommunity Google Drive account and the file to be used/updated has been shared with the service account email.
+  Hence, to run the GHA workflow, you only need to provide:
+  - the file ID for the excel sheet to use
+  - (Optional) the current period
+
+For more information on the GC service account configurations, you can read the [documentation](blog_automation/README.md) in the blog automation folder.
+
 
 #### B) `download_image.py`
 
-**Before running the script, make sure** to update `mentors.xslx` sheetname `Mentors Images` with the data for the new mentors that you want to download their images
+**Before running the script, make sure** to update `mentors.xslx` sheetname: `Mentors Images` with the data for the new mentors that you want to download their images
 If you want to use another file source, adjust `XLSX_FILE_PATH` parameter in the [script](run_download_automation.sh) to match the file path.
 
 You can then run: 

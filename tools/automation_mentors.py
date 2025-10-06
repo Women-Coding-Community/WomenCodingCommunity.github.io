@@ -156,18 +156,19 @@ def sort_for_long_term_reg(num_mentee):
     return mentee_sort_map.get(num_mentee, 500)
 
 
-def get_sort(mentorship_type, num_mentee, current_period):
+def get_sort(mentorship_type, current_period, num_mentee):
     """
-    Get mentor's sort value
+    Get sort value for a new mentor
     Rules: https://docs.google.com/document/d/1GwlleBNScHCQ3K8rgvYIB3upIr1BylgWjGR2jxwYWtI/edit?usp=sharing
     """
 
     if current_period == LONG_TERM_REG_PERIOD and is_available_for_long_term(mentorship_type):
-        sort_for_long_term_reg(num_mentee)
+        return sort_for_long_term_reg(num_mentee)
     
     if current_period == DEFAULT_PERIOD and is_available_for_ad_hoc(mentorship_type):
-        return 100
-    
+        return 500
+
+    # else the mentor is not available for any periods
     return 10
 
 def get_mentorship_type(mentorship_type_str):
@@ -258,16 +259,23 @@ def read_yml_file(file_path):
 
     return yml_dict
 
-def get_num_mentee_from_row(mentor_row, default):
+def get_num_mentee_from_row(mentor_row):
     """
-    Extract num_mentee from mentor_row, or use default if invalid.
+    Gets the 'num_mentee' value for a new mentor from mentor_row, or use a default value if invalid.
     """
     val = mentor_row.iloc[44]
 
-    return (
-        int(val) if pd.notna(val) and isinstance(val, (int, np.integer))
-        else default
-    )
+    return int(val) if pd.notna(val) else 0
+
+def get_mentor_position(mentor_row):
+    """
+    Returns formatted value for mentor role and company
+    """
+    if not pd.isna(mentor_row.iloc[9]):
+        return f"{mentor_row.iloc[8].strip()}, {mentor_row.iloc[9].strip()}"
+    else:
+        return mentor_row.iloc[8].strip()
+
 
 def xlsx_to_yaml_parser(mentor_row,
                         mentor_index,
@@ -283,22 +291,16 @@ def xlsx_to_yaml_parser(mentor_row,
     focus = get_yaml_block_sequence(mentor_row, FOCUS_START_INDEX, FOCUS_END_INDEX)
     programming_languages = get_yaml_block_sequence(mentor_row, PROG_LANG_START_INDEX, PROG_LANG_END_INDEX)
 
-    # Left commented since the code might be used in the later versions
-    # to add default picture until the mentor's image is not available
-    # mentor_image = os.path.join(IMAGE_FILE_PATH, str(mentor_index) + IMAGE_SUFFIX)
     mentor_image = f"{IMAGE_FILE_PATH}/{mentor_row.iloc[2].strip().lower().replace(' ', '_')}{IMAGE_SUFFIX}"
+    # Format mentor role and company
+    mentor_position = get_mentor_position(mentor_row)
 
     mentor_type = get_mentorship_type(mentor_row.iloc[4])
 
+    # If mentor is new i.e mentor_sort is 0 (from default input), get the correct num_mentees and sort values
     if mentor_sort == 0:
-        num_mentee = get_num_mentee_from_row(mentor_row, num_mentee)
-
-        mentor_sort = get_sort(mentor_type, num_mentee, current_period)
-
-    if not pd.isna(mentor_row.iloc[9]):
-        mentor_position = f"{mentor_row.iloc[8].strip()}, {mentor_row.iloc[9].strip()}"
-    else:
-        mentor_position = mentor_row.iloc[8].strip()
+        num_mentee = get_num_mentee_from_row(mentor_row)
+        mentor_sort = get_sort(mentor_type, current_period, num_mentee)
 
     mentor = {
         'name': mentor_row.iloc[2].strip(),
