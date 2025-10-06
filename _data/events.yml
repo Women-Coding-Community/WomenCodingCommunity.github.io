@@ -1432,3 +1432,20 @@
     path: https://www.meetup.com/women-coding-community/events/311271028/
     title: View meetup event
     target: _target
+
+- title: Redefining the Product Design Landscape with AI and Human Intuition
+  description: "The future of design isn\u2019t human versus machine, it\u2019s human with machine.\n"
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, OCT 30, 2025
+  expiration: "20251030"
+  host: "Damola Badmus Taiwo and Airat Yusuff"
+  speaker: "Afolake Odubote"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/2/c/9/600_530505769.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311327586/
+    title: View meetup event
+    target: _target
