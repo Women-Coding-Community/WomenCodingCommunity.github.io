@@ -103,16 +103,18 @@ def update_mentor_availability(month, xlsx_file_path, yml_file_path):
             mentor['availability'] = []
             continue 
 
-        # otherwise: mentor is available, update sort and reset availability to the current month only
-        current_availability = mentor.get('availability', [])
-        mentor['sort'] = get_available_mentor_sort(mentor, current_availability)
-        mentor['availability'] = [month]
+        # otherwise: mentor is available
 
         # Only update hours if updated hours is not None
         updated_hours = availability_updates.get(yml_name)
         if updated_hours is not None:
             logging.info(f"Updating hours for {yml_name} to: {updated_hours}")
             mentor['hours'] = updated_hours
+
+        # update sort and reset availability to the current month only
+        current_availability = mentor.get('availability', [])
+        mentor['sort'] = get_available_mentor_sort(mentor, current_availability)
+        mentor['availability'] = [month]
 
     with open(yml_file_path, 'w') as f:
         yaml.default_flow_style = True

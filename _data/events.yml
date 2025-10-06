@@ -1415,3 +1415,37 @@
     path: https://www.meetup.com/women-coding-community/events/310632213/
     title: View meetup event
     target: _target
+
+- title: "\U0001F331 Journey into Green Coding: One Thoughtful Commit at a Time \U0001F4BB\n"
+  description: "Climate action is only possible when it\u2019s accessible to everyone and software engineers have a unique role to play."
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, OCT 15, 2025
+  expiration: "20251015"
+  host: "Madhura Chaganty"
+  speaker: "Thuyet (Tia) Nguyen"
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/7/4/9/600_530446921.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311271028/
+    title: View meetup event
+    target: _target
+
+- title: Redefining the Product Design Landscape with AI and Human Intuition
+  description: "The future of design isn\u2019t human versus machine, it\u2019s human with machine.\n"
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, OCT 30, 2025
+  expiration: "20251030"
+  host: "Damola Badmus Taiwo and Airat Yusuff"
+  speaker: "Afolake Odubote"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/2/c/9/600_530505769.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311327586/
+    title: View meetup event
+    target: _target

@@ -1,7 +1,7 @@
 - name: Eleonora Belova
   disabled: false
-  sort: 100
-  hours: 5
+  sort: 200
+  hours: 3
   position: Test Automation Engineer, IBM Security
   type: both
   index: 1
@@ -12,7 +12,7 @@
     Moreover, I am eager to help individuals start their journey in software testing. I can share industry knowledge, assist in reviewing your CV, and provide guidance on various related topics.
   image: assets/images/mentors/eleonora_belova.jpeg
   languages: English
-  availability: []
+  availability: [10]
   skills:
     experience: 2-4 years
     years: 4
@@ -34,9 +34,9 @@
 - name: Rajani Rao
   disabled: false
   matched: false
-  sort: 500
+  sort: 200
   num_mentee: 3
-  hours: 5
+  hours: 2
   type: both
   index: 2
   position: CTO/Principal Technologist, WInvest/AVEVA
@@ -45,7 +45,7 @@
   image: assets/images/mentors/rajani_rao.jpeg
   location: Cambridge, UK
   languages: English
-  availability: [9]
+  availability: [10]
   skills:
     experience: 16+ years
     years: 16
@@ -81,7 +81,7 @@
   type: both
   index: 3
   languages: Portuguese, English
-  availability: [9]
+  availability: [10]
   skills:
     experience: 10-15 years
     years: 15
@@ -139,7 +139,7 @@
 
 - name: Stephanie Senoner
   disabled: false
-  sort: 10
+  sort: 100
   matched: false
   hours: 1
   type: both
@@ -173,7 +173,7 @@
 
 - name: Ken Pemberton
   disabled: false
-  sort: 10
+  sort: 100
   hours: 2
   type: both
   index: 6
@@ -204,7 +204,7 @@
   disabled: false
   matched: false
   sort: 200
-  hours: 3
+  hours: 2
   type: ad-hoc
   index: 7
   position: Engineering Manager, Elliptic
@@ -215,7 +215,7 @@
   image: assets/images/mentors/madhura_chaganty.jpeg
   location: United Kingdom
   languages: English
-  availability: [9]
+  availability: [10]
   skills:
     experience: 16+ Years
     years: 16
@@ -239,7 +239,7 @@
 - name: Sonali Goel
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   num_mentee: 1
   hours: 2
   position: Lead Engineer, Tesco Technology
@@ -250,7 +250,7 @@
     Sonali serves as a Lead Engineer at Yoox-Net-a-porter, specializing in managing and constructing extensive-scale ecommerce solutions. She leverages Java-based commerce platforms and integrates them with open-source technologies like Spring Boot and Spring Batch. As an AWS-certified Solution Architect, she possesses deep knowledge of Amazon Web Services, complemented by proficiency in implementing continuous integration and continuous deployment (CICD) practices to ensure seamless software delivery. Additionally, she excels in architecting and implementing microservices-based architectures to drive agility and modularity in software development With over 13 years of experience in the technology industry, Sonali brings a wealth of expertise in steering technical direction and fostering high-performance outcomes. Her passion lies in nurturing a culture of continuous learning and innovation. Outside of her professional endeavors, Sonali actively volunteers with Women Who Code, advocating for gender diversity. She is also a creative enthusiast, utilizing design templates to convey ideas, thoughts, and emotions visually.
   image: assets/images/mentors/sonali_goel.jpg
   languages: English
-  availability: [9]
+  availability: []
   skills:
     experience: 10-15 Years
     years: 15
@@ -272,7 +272,7 @@
 
 - name: Julia Babahina
   disabled: false
-  sort: 10
+  sort: 100
   num_mentee: 2
   hours: 4
   position: Lead Risk Management Specialist, Swift
@@ -399,7 +399,7 @@
 
 - name: Ana Nogal
   disabled: false
-  sort: 100
+  sort: 200
   num_mentee: 2
   hours: 2
   position: Senior iOS Developer, Novoda
@@ -410,7 +410,7 @@
     Mentoring energises me and aligns with my purpose. I have successfully changed careers and can help you do the same. I aim to help juniors enter the IT workplace, stay there comfortably, and advance their careers when the time is right. But my support doesn’t stop there—I also guide mid-level professionals on their journey to senior roles and help seniors transition into Tech Lead, Engineering Manager, or Staff Engineer positions. No matter where you are in your IT career, I can provide the support and guidance you deserve to achieve your career goals.
   image: assets/images/mentors/ana_nogal.jpg
   languages: English, Spanish, Portuguese
-  availability: []
+  availability: [10]
   skills:
     experience: 16+ Years
     years: 16
@@ -563,7 +563,7 @@
 - name: Kirthikka Devi Venkataram
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   hours: 2
   num_mentee: 3
   position: Senior Technical Project Manager, Confidential
@@ -574,7 +574,7 @@
     Kirthikka Devi Venkataram is a seasoned Manager, a Mentor to Women Coding Community and Design Thinking practitioner. She has good experience handling global team, leading and guiding engineers working for industries like automotive and telecommunication delivering products for more than 10 years. Led a global team in the past mentoring cycle providing necessary study materials and preparatory approach in the area of Generative AI working with the team. Her focus is on B2B segments of vertical business markets generating revenue and product success by delivering flawless products. She is keen to leverage design thinking and data driven approach working cross functionally and orchestrating activities across organization working for product's growth and increasing revenue. With business agility, she focuses dissecting business outcomes, engineering design and empathizing customers in her career journey. She was a Technical Event Coordinator since college days and hosted events. She was a Cohort Representative of Executive Program - 2021 offered by Indian Institute of Management Luck now collaborating with diverse people from multiple industry verticals with the organizers and Professors. Extending her involvement in organizational activities, she has conducted prospects tours that recognized her leadership skills. She works towards empowering women collaborating in external forums and offers mentorship support.
   image: assets/images/mentors/kirthikka_devi_venkataram.jpg
   languages: English
-  availability: [9]
+  availability: []
   skills:
     experience: 10-15 Years
     years: 15
@@ -608,7 +608,7 @@
     years: 7
     mentee: I can help with all soft-skills related coaching
     areas:
-    -
+    - 
     languages:
     focus:
     - Switch from IC to management position
@@ -618,7 +618,7 @@
 
 - name: Andrew King
   disabled: false
-  sort: 200
+  sort: 500
   hours: 4
   position: DevOps Engineer, DRW
   type: ad-hoc
@@ -628,7 +628,7 @@
     Over 30 years in commercial IT, 40 years of coding experience, 20 years in financial firms. Know how to manage, manage up, team building, finding team fit. Many years of experience interviewing (on both side of the table).
   image: assets/images/mentors/andrew_king.jpeg
   languages: English
-  availability: [9]
+  availability: [10]
   skills:
     experience: 16+ years
     years: 16
@@ -652,7 +652,7 @@
 
 - name: Adeola Adekoyejo
   disabled: false
-  sort: 200
+  sort: 100
   hours: 2
   position: Full stack Engineer
   type: ad-hoc
@@ -662,7 +662,7 @@
     I am Frontend engineer with 4 years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
   image: assets/images/mentors/adeola_adekoyejo.jpg
   languages: English
-  availability: [9]
+  availability: []
   skills:
     experience: 4-5 years
     years: 5
@@ -744,7 +744,7 @@
 
 - name: Sakirat Kehinde Usman
   disabled: false
-  sort: 10
+  sort: 100
   num_mentee: 1
   hours: 5
   position: Frontend Development Trainer, Niyo Group Ltd
@@ -810,7 +810,7 @@
 
 - name: Sahana Venkatesh
   disabled: false
-  sort: 10
+  sort: 100
   hours: 2
   position: Machine learning Engineer, JLR
   type: ad-hoc
@@ -966,7 +966,7 @@
 - name: Bryan Boreham
   disabled: false
   hours: 4
-  sort: 100
+  sort: 500
   num_mentee: 1
   type: both
   index: 31
@@ -976,7 +976,7 @@
   image: assets/images/mentors/bryan_boreham.jpeg
   location: London, UK
   languages: English
-  availability: []
+  availability: [10]
   skills:
     experience: 16+ Years
     years: 16
@@ -1002,7 +1002,7 @@
 - name: Liliia Rafikova
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   num_mentee: 7
   hours: 5
   type: both
@@ -1043,7 +1043,7 @@
   position: Head of Product Planning, Toga Networks
   bio: |
     I have been teaching and mentoring software designers and architects for close to twenty years.
-  image: "assets/images/mentors/avraham_poupko.jpg"
+  image: assets/images/mentors/avraham_poupko.jpg
   languages: English, Hebrew
   availability: []
   skills:
@@ -1077,12 +1077,10 @@
   type: ad-hoc
   index: 34
   location: London,UK
-  position:
-    Software QA Engineer, Self Employed - SI Engineering LTD - But currently
-    work for HM Land registry as a contractor
+  position: Software QA Engineer, Self Employed - SI Engineering LTD - But currently work for HM Land registry as a contractor
   bio: |
     I am a Software Quality Assurance Engineer with a strong commitment to mentoring and contributing to the Women Coding Community. With over four years of experience, I have perfected my expertise in automation tools to ensure flawless project deliveries. My dedication to promoting transparent communication and fostering strong teamwork sets me apart. As your mentor, I am committed to providing invaluable insights, best practices, and unwavering support as you navigate the dynamic field of software testing, including testing strategies and the latest industry trends.
-  image: "assets/images/mentors/safiye_ipek.jpg"
+  image: assets/images/mentors/safiye_ipek.jpg
   languages: English, Turkish
   availability: []
   skills:
@@ -1115,7 +1113,7 @@
   position: Android Developer, Sky UK
   bio: |
     I am an android developer with over 6 years of experience. I have experienced projects that even couldn't come out to the world but also experienced huge projects had 1M+ daily active users. If you want to learn something about a whole life cycle of Android development projects, I can help you and walk through with you.
-  image: "assets/images/mentors/bomee_ryu.jpg"
+  image: assets/images/mentors/bomee_ryu.jpg
   languages: English, Korean
   availability: []
   skills:
@@ -1212,7 +1210,7 @@
     Highly analytical Data Scientist specializing in threat detection and anti-fraud strategies, currently leading the Fraud and Payments Data Science Teams at Blockchain.com. 
     My strong foundation in economics and data science drives impactful results and enhances security frameworks. 
     I have been mentor at AI hackathons and London Business School.
-  image: "assets/images/mentors/jyoti_yadav.jpg"
+  image: assets/images/mentors/jyoti_yadav.jpg
   languages: English, Hindi
   availability: []
   skills:
@@ -1252,7 +1250,7 @@
   bio: |
     I have 10 years of experience as a Data Analyst and dual master's degrees in
     Biostatistics and Big Data & Data Science Technology. I am an expert in A/B testing, data analysis, statistical modelling, and machine learning, as well as SQL, Python, R, and other tools. My passion is using data to make important business decisions.
-  image: "assets/images/mentors/busra_sakar.jpg"
+  image: assets/images/mentors/busra_sakar.jpg
   languages: English, Turkish
   availability: []
   skills:
@@ -1285,7 +1283,7 @@
 - name: Fernanda Martins
   disabled: false
   matched: false
-  sort: 10
+  sort: 500
   num_mentee: 2
   hours: 5
   type: both
@@ -1296,9 +1294,9 @@
     I work with infrastructure engineering for 13 years. I love all things infrastructure: designing platforms in the cloud with Azure/AWS, coding in terraform/ansible/python/shell.., building awesome delivery pipelines and helping developers.
     I am from Brazil, currently living in Amsterdam and worked in several companies and different industries.
     I am community-driven: I have presented at conferences, contributed to open source and like sharing knowledge.
-  image: "assets/images/mentors/fernanda_martins.jpg"
+  image: assets/images/mentors/fernanda_martins.jpg
   languages: English, Portuguese
-  availability: []
+  availability: [10]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1307,7 +1305,7 @@
     areas:
     - DevOps
     - Distributed Systems
-    languages: ""
+    languages: ''
     focus: []
     extra: |
       DevOps practices, how to start in infrastructure, resume review, learn cloud, infrastructure as code, incident management, improve your pipeline, manage platform priorities, how to better support developers
@@ -1331,9 +1329,9 @@
     🤔 You may be thinking "So what, how does that help me"? Or you may be in the category of "I don't know where to grow/learn next"? Book a session and tell me a bit about yourself so we can together find a way on how my experience can help you 😉
 
     🥶 Also, if you get frozen solid when doing test automation, I also offer an guidance on automated testing where we can deep-dive into the code of your choice together.
-  image: "assets/images/mentors/gabriel_oliveira.jpg"
+  image: assets/images/mentors/gabriel_oliveira.jpg
   languages: English, Portuguese
-  availability: [9]
+  availability: [10]
   skills:
     experience: 7-10 Years
     years: 10
@@ -1368,7 +1366,7 @@
   position: Founder & CEO, R For All
   bio: |
     I am a student Architect who has deep passion for software engineering and coding. I've worked with multiple programming languages including R, Python, Golang, Java, c++ and scala. Currently I'm serving as the CEO of the company I founded, R For All, which trains people on R Programming skills. My focus recently has been on R Programming because of my passion for healthcare analysis and tech which is where R thrives. My R Programming skills is Johns Hopkins university and HackerRank certified. I'm looking forward to mentoring curious candidates like me.
-  image: "assets/images/mentors/abdul_qamardeen.jpg"
+  image: assets/images/mentors/abdul_qamardeen.jpg
   languages: English, Yoruba
   availability: []
   skills:
@@ -1406,7 +1404,7 @@
   position: Senior Machine Learning Engineer, Cleo
   bio: |
     With over a decade in the tech industry, I have a Master’s in Computer Science and over seven years of experience in various roles within SAP systems, including Analyst, Engineer, Architect, and Team Lead, contributing to over 20 successful projects. I redirected my career towards data science in 2018, beginning as a Junior Data Scientist and continuously advancing my knowledge in the field through self-directed learning. My expertise now encompasses a range of Machine Learning systems, including large language models (LLMs), graph neural networks, and deep learning techniques like Transformer architecture for time-series analysis.
-  image: "assets/images/mentors/olga_volkova.jpeg"
+  image: assets/images/mentors/olga_volkova.jpeg
   languages: English, Russian
   availability: []
   skills:
@@ -1442,7 +1440,7 @@
     I'm a transgender, neurodivergent woman with just over 10 years of experience in the industry. I've worked in a lot of companies and have learned a bunch of different languages. I particularly like to focus on code quality, testing approaches and software architecture. I'm a strong advocate for TDD and pair programming and emphathic, collaborative software engineering.
 
     Current role is as a principal engineer so I split my time between distributed systems architecture, writing code and coaching/upskilling engineers throughout the company.
-  image: "assets/images/mentors/samantha-cohen.jpg"
+  image: assets/images/mentors/samantha-cohen.jpg
   languages: English
   availability: []
   skills:
@@ -1480,7 +1478,7 @@
   position: React Developer, Leniolabs
   bio: |
     I've been working as a React developer for around four years and have been working remotely and travelling for the last two. I have a degree in development, but I struggled a lot to find my first job. It was women from a JavaScript community who helped me and guided me to get that first job. It's thanks to them that I am where I am today. So I just want to give a little of this back to the community and help other women get their first job. Even if they already have one but are struggling with situations, impostor syndrome, or solving problems, I can give advice and help with that too.
-  image: "assets/images/mentors/anahi-gaetan.jpg"
+  image: assets/images/mentors/anahi-gaetan.jpg
   languages: English, Spanish
   availability: []
   skills:
@@ -1516,7 +1514,7 @@
     I am currently Co-Founder and Chief Operating Officer of Syntasso; my previous roles include Senior Director of Tanzu Global Education at VMware, Senior Director of Platform Services EMEA at Pivotal and Co-Founder & Chief Operating Officer of CloudCredo. 
     I've been working in the IT industry for over 20 years and am passionate about community, diversity and inclusion. I have a range of speaking experience including DevOpsDays, DevOps Enterprise Summit, Velocity Conference, QCon and the LeadDev conference.
     I also enjoy giving back to the community and I am part of the organising committee for Kubernetes Community Days UK and DevOps Days London, and I also organise the London Platform User Group.
-  image: "assets/images/mentors/paula_kennedy.jpeg"
+  image: assets/images/mentors/paula_kennedy.jpeg
   languages: English
   availability: []
   skills:
@@ -1528,7 +1526,7 @@
     - Engineering management
     - Product Management
     - Site Reliability Engineering
-    languages: ""
+    languages: ''
     focus:
     - Grow beyond senior level
     - Switch from IC to management position
@@ -1554,7 +1552,7 @@
     I am a software Engineer and I thrive on mastering the intricacies of C#, .NET, .NET Core,
     JavaScript, TypeScript, Angular, Jasmine, React, Vue and Unit Testing. My foundation in computing, algorithm design, and development
     techniques fuels my passion for staying ahead of the curve in software engineering trends. Beyond honing my skills, I find fulfillment in mentoring aspiring tech professionals, guiding them as they navigate their entry into the tech industry.
-  image: "assets/images/mentors/mena_esezobor.jpg"
+  image: assets/images/mentors/mena_esezobor.jpg
   languages: English
   availability: []
   skills:
@@ -1583,17 +1581,17 @@
 - name: Prerna Singhal
   disabled: false
   matched: false
-  sort: 100
-  hours: 4
+  sort: 200
+  hours: 2
   type: both
   index: 48
   location: London, United Kingdom
   position: Senior Software Engineer 2, Hubspot
   bio: |
     Currently working as Lead Engineer for Hubspot. I have 12 years for Software development experience (Backend and Fullstack). I have worked with tech giants for 7 years - Microsoft, Expedia, Salesforce and have worked in startup industry for 5 years. Hence i understand working in both in environments. I have worked with wide variety of technologies - Java, AWS, Azure, Python, Distributed systems, Scaling applications.
-  image: "assets/images/mentors/prerna_singhal.jpg"
+  image: assets/images/mentors/prerna_singhal.jpg
   languages: English
-  availability: []
+  availability: [10]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1632,7 +1630,7 @@
   image: |
     assets/images/mentors/samuela_smolorz.jpeg
   languages: English, Polish
-  availability: [9]
+  availability: [10]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1664,7 +1662,7 @@
 - name: Arzu Caner
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   hours: 3
   type: ad-hoc
   index: 50
@@ -1679,7 +1677,7 @@
   image: |
     assets/images/mentors/arzu_caner.jpeg
   languages: English, Turkish
-  availability: [9]
+  availability: []
   skills:
     experience: 2-4 Years
     years: 4
@@ -1701,9 +1699,9 @@
 - name: Prabha Venkatesh
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   num_mentee: 2
-  hours: 5
+  hours: 4
   type: both
   index: 51
   location: Bristol, UK
@@ -1713,7 +1711,7 @@
   image: |
     assets/images/mentors/prabha_venkatesh.jpeg
   languages: English
-  availability: []
+  availability: [10]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1842,7 +1840,7 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 10
+  sort: 100
   num_mentee: 1
   hours: 1
   type: both
@@ -2085,7 +2083,7 @@
     - Project Management
     - Business Analysis
     - Product Management
-    languages: ""
+    languages: ''
     focus:
     - Change specialisation within IT
     - Switch career to IT
@@ -2138,7 +2136,7 @@
 - name: Wilson Adenuga
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   hours: 5
   type: both
   index: 63
@@ -2148,7 +2146,7 @@
     I am a full-stack engineer specializing in building scalable, accessible web and mobile applications. My expertise spans React.js, React Native, Next.js, Node.js, Python, microservices, and cloud platforms like AWS and Cloudflare. I've led projects in fintech, healthcare, and cybersecurity domains. I'm passionate about mentoring developers, improving code quality, and advocating for best practices in TDD, database design, and web accessibility. I actively contribute to the developer community through mentorship programs and open-source projects.
   image: assets/images/mentors/wilson_adenuga.jpeg
   languages: English
-  availability: [9]
+  availability: []
   skills:
     experience: 4-5 Years
     years: 5
@@ -2348,7 +2346,7 @@
 - name: Sonika Janagill
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
   hours: 2
   type: both
@@ -2362,7 +2360,7 @@
   image: |
     assets/images/mentors/sonika_janagill.jpeg
   languages: English, Hindi, Punjabi
-  availability: []
+  availability: [10]
   skills:
     experience: 16+ Years
     years: 16
@@ -2514,7 +2512,7 @@
   hours: 3
   type: both
   index: 75
-  location: "Birmingham, UK"
+  location: Birmingham, UK
   position: senior software engineer, Shopworks
   bio: |
     I have been working in the tech industry for 12 years now - as a backend engineer, specialising in Php, even though I have worked with a few other languages and was a front end developer a life time ago.
@@ -2750,7 +2748,7 @@
 - name: Tatiana Popova
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   hours: 4
   type: both
   index: 81
@@ -2761,7 +2759,7 @@
   image: |
     assets/images/mentors/tatiana_popova.jpg
   languages: English, Russian, German
-  availability: [9]
+  availability: []
   skills:
     experience: 7-10 Years
     years: 10
@@ -2786,7 +2784,7 @@
 - name: Ilayda Yilmaz
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   hours: 2
   type: both
   index: 82
@@ -2801,7 +2799,7 @@
   image: |
     assets/images/mentors/ilayda.png
   languages: English, Turkish
-  availability: [9]
+  availability: []
   skills:
     experience: 4-5 Years
     years: 5
@@ -2829,7 +2827,7 @@
 - name: Damola Taiwo
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   hours: 4
   type: both
   index: 83
@@ -2843,7 +2841,7 @@
   image: |
     assets/images/mentors/damola.jpg
   languages: English
-  availability: [9]
+  availability: []
   skills:
     experience: 4-5 Years
     years: 5
@@ -2864,7 +2862,7 @@
 - name: Dan Antonela
   disabled: false
   matched: false
-  sort: 500
+  sort: 200
   hours: 3
   type: both
   index: 84
@@ -2877,7 +2875,7 @@
   image: |
     assets/images/mentors/antonela.jpeg
   languages: English, Romanian
-  availability: [9]
+  availability: [10]
   skills:
     experience: 10-15 Years
     years: 15
@@ -2913,7 +2911,7 @@
   image: |
     assets/images/mentors/mudit_maheshwari.jpeg
   languages: English
-  availability: [9, 10]
+  availability: [10]
   skills:
     experience: 5-7 Years
     years: 7
@@ -2953,7 +2951,7 @@
   image: |
     assets/images/mentors/anh_vu.jpeg
   languages: English
-  availability: [9, 10, 11]
+  availability: [10]
   skills:
     experience: 7-10 Years
     years: 10
