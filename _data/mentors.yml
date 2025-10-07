@@ -17,19 +17,19 @@
     experience: 2-4 years
     years: 4
     areas:
-    - Quality Assurance
+      - Quality Assurance
     mentee: I would love to connect with an open-minded engineer who is eager to learn and explore new aspects of software testing and progress in their career. I also welcome individuals transitioning from other fields to software testing and can provide guidance, support, and valuable resources to ensure a smooth transition.
     languages: Python, Javascript, Typescript
     focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
     extra: Test Automation, Code Review, Exploratory Testing, Web Testing (Manual & Automation), API Testing (Postman, PactumJS), ISTQB Certification Preparation guidelines (Foundation Level and Test Automation Engineer), Starting career in IT, CV Review, Preparation for the Interview, Career Advice.
   network:
-  - linkedin: https://www.linkedin.com/in/eleonora-belova-7069baa5/
-  - github: https://github.com/nora-weisser
-  - website: https://noraweisser.com/
+    - linkedin: https://www.linkedin.com/in/eleonora-belova-7069baa5/
+    - github: https://github.com/nora-weisser
+    - website: https://noraweisser.com/
 
 - name: Rajani Rao
   disabled: false
@@ -50,27 +50,27 @@
     experience: 16+ years
     years: 16
     areas:
-    - Distributed Systems
-    - DevOps
-    - Fullstack Developer
-    - Backend Developer
-    - Frontend Developer
+      - Distributed Systems
+      - DevOps
+      - Fullstack Developer
+      - Backend Developer
+      - Frontend Developer
     languages: C#, C++, C, Java, Python
     focus:
-    - Grow beyond senior level
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Switch from IC to management position
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Switch from IC to management position
     mentee: Executive mindset
     extra: Anything Software Engineering
   network:
-  - linkedin: https://www.linkedin.com/in/rajaniraog/
+    - linkedin: https://www.linkedin.com/in/rajaniraog/
 
 - name: Adriana Zencke Zimmermann
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   num_mentee: 1
   hours: 2
   bio: |
@@ -81,27 +81,27 @@
   type: both
   index: 3
   languages: Portuguese, English
-  availability: [10]
+  availability: []
   skills:
     experience: 10-15 years
     years: 15
     areas:
-    - Backend Developer
-    - Distributed Systems
-    - Fullstack Developer
-    - QA
-    - Frontend Developer
+      - Backend Developer
+      - Distributed Systems
+      - Fullstack Developer
+      - QA
+      - Frontend Developer
     languages: Java, Javascript, Kotlin
     focus:
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
     mentee: Someone willing to learn new technologies or to improve current skills, looking for guidance on how to navigate the initial years in the industry or in a new company. Also someone able to invest time in learning.
     extra: Java, Spring Boot and Best Practices
   network:
-  - linkedin: https://www.linkedin.com/in/dricazenck/
-  - github: https://github.com/dricazenck
-  - medium: https://medium.com/@dricazenck
+    - linkedin: https://www.linkedin.com/in/dricazenck/
+    - github: https://github.com/dricazenck
+    - medium: https://medium.com/@dricazenck
 
 - name: Irina Kamalova
   disabled: false
@@ -121,21 +121,21 @@
     experience: 7-10 years
     years: 10
     areas:
-    - Backend Developer
-    - Distributed Systems
-    - Site Reliability Engineering
-    - DevOps
+      - Backend Developer
+      - Distributed Systems
+      - Site Reliability Engineering
+      - DevOps
     languages: Java, Kotlin, Scala, Python
     focus:
-    - grow from mid-level to senior-level
-    - grow from beginner to mid-level
-    - change specialisation to IT
-    - Switch career to IT
+      - grow from mid-level to senior-level
+      - grow from beginner to mid-level
+      - change specialisation to IT
+      - Switch career to IT
     extra: Software Development Strategies, Backend Engineering, Databases, Scaling applications, Performance, Technical Interviews, Behavioural Interviews
     mentee: Mid Engineer looking to grow up to be a Senior Engineer in Backend Engineering
   network:
-  - linkedin: https://www.linkedin.com/in/irina-kamalova/
-  - medium: https://iren-kamalova.medium.com/
+    - linkedin: https://www.linkedin.com/in/irina-kamalova/
+    - medium: https://iren-kamalova.medium.com/
 
 - name: Stephanie Senoner
   disabled: false
@@ -154,22 +154,22 @@
     experience: 4-5 years
     years: 5
     areas:
-    - Frontend Developer
-    - Fullstack Developer
-    - Backend Developer
-    - QA
-    - Project Management
+      - Frontend Developer
+      - Fullstack Developer
+      - Backend Developer
+      - QA
+      - Project Management
     languages: Javascript, Java, Python
     focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Grow from mid-level to senior-level
-    - Switch from IC to management position
-    - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Change specialisation within IT
     mentee: Passionate, keen to learn, early - mid stage, career switcher
     extra: Interview Preparation, Resume Review, personal project, Software Engineering Principles, Management, Time management, self growth
   network:
-  - linkedin: https://www.linkedin.com/in/stephanie-senoner
+    - linkedin: https://www.linkedin.com/in/stephanie-senoner
 
 - name: Ken Pemberton
   disabled: false
@@ -187,18 +187,18 @@
     experience: 16+ Years
     years: 16
     areas:
-    - Engineering management
+      - Engineering management
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch from IC to management position
-    - Switch career to IT
-    - Grow beyond senior level
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Switch career to IT
+      - Grow beyond senior level
     mentee: Somebody wanting help in climbing over the barriers in today's workplace. Be prepared to work hard and be open and honest.
     extra: CV/Resume review, Overcoming Imposter Syndrome, Entering the Tech workforce, Building resilience, Building confidence - finding your voice
   network:
-  - linkedin: https://www.linkedin.com/in/kenpemberton
-  - website: https://grumpyoldfart.org/
+    - linkedin: https://www.linkedin.com/in/kenpemberton
+    - website: https://grumpyoldfart.org/
 
 - name: Madhura Chaganty
   disabled: false
@@ -220,21 +220,21 @@
     experience: 16+ Years
     years: 16
     areas:
-    - Engineering management
-    - Backend Developer
-    - Fullstack Developer
-    - DevOps
-    - Project Management
+      - Engineering management
+      - Backend Developer
+      - Fullstack Developer
+      - DevOps
+      - Project Management
     languages: PHP, JavaScript, Python
     focus:
-    - Switch from IC to management position
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
     mentee: Someone who is curious, eager to learn, and looking to enter or advance in the tech industry.
     extra: System design, Interview preparation, Resume review, Leadership skills, Team management, Personal development
   network:
-  - linkedin: https://www.linkedin.com/in/madhurachaganty
+    - linkedin: https://www.linkedin.com/in/madhurachaganty
 
 - name: Sonali Goel
   disabled: false
@@ -256,19 +256,19 @@
     years: 15
     mentee: I am seeking mentees who are enthusiastic about learning and growing in the field of technology. Whether you're a beginner looking to enhance your programming skills or an experienced professional aiming to delve deeper into cloud architecture and e-commerce systems, I am here to support your journey. I value proactive communication, eagerness to learn, and a collaborative spirit. If you are committed to expanding your knowledge and skills in software development, AWS architecture, CI/CD pipelines, and Terraform, I would be delighted to work with you.
     areas:
-    - Business Analysis
-    - Engineering management
-    - Site Reliability Engineering
-    - Distributed Systems
-    - Machine Learning
+      - Business Analysis
+      - Engineering management
+      - Site Reliability Engineering
+      - Distributed Systems
+      - Machine Learning
     languages: Java, Python, C++, JavaScript
     focus:
-    - Grow from beginner to mid-level
-    - Grow beyond senior level
-    - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow beyond senior level
+      - Switch career to IT
     extra: Career Growth and Development, Resume Review, Preparation for Technical Interviews, Leadership and Team Management Skills, Learning Resources and Skill Development Plans.
   network:
-  - linkedin: https://www.linkedin.com/in/sonali-goel-6b611522/
+    - linkedin: https://www.linkedin.com/in/sonali-goel-6b611522/
 
 - name: Julia Babahina
   disabled: false
@@ -288,17 +288,17 @@
     years: 10
     mentee: Dedicated, passionate and willing to learnn
     areas:
-    - Product Management
-    - Project Management
-    - Security
+      - Product Management
+      - Project Management
+      - Security
     focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Switch from IC to management position
-    - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Switch from IC to management position
+      - Change specialisation within IT
     extra: Product Management, Project Management, Career Progression and Development, Soft Skills, Personal Brand Building, Information Security, IT, Enterprise Risk Management, Privacy
   network:
-  - linkedin: https://www.linkedin.com/in/julia-babahina-msc-cism-crisc-30285440/
+    - linkedin: https://www.linkedin.com/in/julia-babahina-msc-cism-crisc-30285440/
 
 - name: Hersi Kopani
   disabled: false
@@ -319,20 +319,20 @@
     mentee: |
       As a mentor, I'm looking for a mentee who loves coding and wants to use their skills to help others. I want to work with someone who is good at coding and cares about making a difference through technology. I value enthusiasm, hard work, and a desire to learn, and I'm excited to support a mentee who has these qualities.
     areas:
-    - Backend Developer
-    - Security
-    - Product Management
-    - Fullstack Developer
-    - Business Analysis
+      - Backend Developer
+      - Security
+      - Product Management
+      - Fullstack Developer
+      - Business Analysis
     languages: Java, Python, Kotlin
     focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
     extra: |
       Group study on project-based learning, including pair programming. Gain deep knowledge of web-based microservice architecture, system design, and CI/CD best practices. Integrate backend services with ReactJS frontend to craft full-stack projects.
   network:
-  - linkedin: https://www.linkedin.com/in/hersi-kopani
+    - linkedin: https://www.linkedin.com/in/hersi-kopani
 
 - name: Ying Liu
   disabled: false
@@ -352,16 +352,16 @@
     years: 5
     mentee: Motivated individuals who are eager to learn the algorithms of Machine Learning
     areas:
-    - Machine Learning
-    - Data Science
-    - Data Engineering
+      - Machine Learning
+      - Data Science
+      - Data Engineering
     languages: Python
     focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
+      - Grow from beginner to mid-level
+      - Switch career to IT
     extra: Software Development, Machine Learning Algorithm, Resume Review, Preparation for The Technical Interview.
   network:
-  - linkedin: https://www.linkedin.com/in/yingliu-data/
+    - linkedin: https://www.linkedin.com/in/yingliu-data/
 
 - name: Adegbenga Agoro
   disabled: false
@@ -382,20 +382,20 @@
     years: 16
     mentee: I am keen on collaborating with mentees eager to enhance their programming capabilities, specifically those aiming to transition from foundational coding skills towards mastering system design and architecture.
     areas:
-    - Backend Developer
-    - Engineering management
-    - Security
-    - QA
-    - Site Reliability Engineering
+      - Backend Developer
+      - Engineering management
+      - Security
+      - QA
+      - Site Reliability Engineering
     languages: JavaScript, Python
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Grow beyond senior level
-    - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch career to IT
     extra: System Design & Architecture, Optimal Database Design, How to work and think within an engineering team, User Psychology
   network:
-  - linkedin: https://www.linkedin.com/in/adegbengaagoro
+    - linkedin: https://www.linkedin.com/in/adegbengaagoro
 
 - name: Ana Nogal
   disabled: false
@@ -416,18 +416,18 @@
     years: 16
     mentee: Well, I like to help essentially. I have had mentees that needed more a hands on, pair-programming with them, and others that orientation was enough. I'm ok with both scenarios.
     areas:
-    - iOS
-    - Fullstack Developer
-    - Android
+      - iOS
+      - Fullstack Developer
+      - Android
     languages: Swift, Kotlin, Javascript, C#
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
     extra: Using Core Nature and Values to figure out who you are - explore within yourself who you like to be and find the best next step to give in your career, CV Review and LinkedIn & GitHub Profile updates
   network:
-  - linkedin: https://www.linkedin.com/in/ananogal
-  - website: https://ananogal.com
+    - linkedin: https://www.linkedin.com/in/ananogal
+    - website: https://ananogal.com
 
 - name: Monal Sanghvi
   disabled: true
@@ -446,20 +446,20 @@
     experience: 10-15 years
     years: 15
     areas:
-    - Engineering management
-    - Product Management
-    - Fullstack Developer
-    - DevOps
-    - Distributed Systems
+      - Engineering management
+      - Product Management
+      - Fullstack Developer
+      - DevOps
+      - Distributed Systems
     languages: Java, JavaScript
     focus:
-    - Grow from mid-level to senior-level
-    - Grow beyond senior level
-    - Switch from IC to management position
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch from IC to management position
     mentee: My ideal mentee would be ambitious, people oriented and ok with tough love
     extra: Understanding engineering management and product management, Staying technical as a manager, Strategic thinking and technical leadership
   network:
-  - linkedin: https://www.linkedin.com/in/monalsanghvi/
+    - linkedin: https://www.linkedin.com/in/monalsanghvi/
 
 - name: Kaylyn Van Norstrand
   disabled: true
@@ -479,21 +479,21 @@
     years: 10
     mentee: Someone new to the tech world
     areas:
-    - Frontend Developer
-    - Fullstack Developer
-    - Backend Developer
-    - Project Management
-    - QA
+      - Frontend Developer
+      - Fullstack Developer
+      - Backend Developer
+      - Project Management
+      - QA
     languages: JavaScript, Java
     focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
-    - Switch from IC to management position
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch from IC to management position
     extra: Software Development Strategies
   network:
-  - linkedin: https://www.linkedin.com/in/kaylynvannorstrand/
+    - linkedin: https://www.linkedin.com/in/kaylynvannorstrand/
 
 - name: Ceri Shaw
   disabled: true
@@ -513,21 +513,21 @@
     years: 16
     mentee: Someone who is really interested in growing their career to a more senior level
     areas:
-    - Engineering management
-    - Product management
-    - Project Management
-    - Data Engineering
-    - Fullstack Developer
+      - Engineering management
+      - Product management
+      - Project Management
+      - Data Engineering
+      - Fullstack Developer
     languages: JavaScript, Python
     focus:
-    - Grow from mid-level to senior-level
-    - Switch from IC to management position
-    - Grow beyond senior-level
-    - Grow from beginner to mid-level
-    - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Grow beyond senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
     extra: Technical Strategy, Engineering Culture, Engineering Process, People Management, Start-up life, Running a Business
   network:
-  - linkedin: https://www.linkedin.com/in/ceri-shaw/
+    - linkedin: https://www.linkedin.com/in/ceri-shaw/
 
 - name: Minsang Kim
   disabled: true
@@ -546,19 +546,19 @@
     years: 7
     mentee: Someone who is open minded, open to learn, LGBTQ+ friendly, inexperienced is OK!
     areas:
-    - Machine Learning
-    - Fullstack Developer
-    - Data Science
-    - Backend Developer
-    - Security
+      - Machine Learning
+      - Fullstack Developer
+      - Data Science
+      - Backend Developer
+      - Security
     languages: Python, JavaScript, Rust
     focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
     extra: Anything they’d like to discuss! Here are some examples if they may be helpful; how to get into tech, how to climb up the ladder in tech, how to learn new languages / skills, how to leverage LLMs (chatGPT) to their advantage, guidance around starting and completing a personal hobby project that can lead to a job offer, culture in tech industry, setting boundaries in tech industry
   network:
-  - linkedin: https://www.linkedin.com/in/minsangkim142/
+    - linkedin: https://www.linkedin.com/in/minsangkim142/
 
 - name: Kirthikka Devi Venkataram
   disabled: false
@@ -580,15 +580,15 @@
     years: 15
     mentee: Looking for Mentee serious about the Mentorship program, sharp focused in their career following tech regularly.
     areas:
-    - Distributed Systems
-    - Data Science
+      - Distributed Systems
+      - Data Science
     languages: C
     focus:
-    - Grow from beginner to mid-level
+      - Grow from beginner to mid-level
     extra: Already leading a study group in Data Analytics and Generative AI concepts.
   network:
-  - linkedin: https://www.linkedin.com/in/kirthikka-devi-v
-  - medium: https://medium.com/@rithik18
+    - linkedin: https://www.linkedin.com/in/kirthikka-devi-v
+    - medium: https://medium.com/@rithik18
 
 - name: Mona Ahluwalia
   disabled: true
@@ -608,13 +608,13 @@
     years: 7
     mentee: I can help with all soft-skills related coaching
     areas:
-    - 
+      -
     languages:
     focus:
-    - Switch from IC to management position
+      - Switch from IC to management position
     extra: Resume review, emotional intelligence, communication, interviewing
   network:
-  - linkedin: https://www.linkedin.com/in/mona-ahluwalia-certrp-7754767a/
+    - linkedin: https://www.linkedin.com/in/mona-ahluwalia-certrp-7754767a/
 
 - name: Andrew King
   disabled: false
@@ -634,21 +634,21 @@
     years: 16
     mentee: Someone who wants to engage in meaningful and useful conversations
     areas:
-    - Site Reliability Engineering
-    - Engineering management
-    - Distributed systems
-    - Security
-    - Data Science
-    - Grow from mid-level to senior-level
-    - Switch from IC to a management position
-    - Change specialisation within IT
-    - Grow beyond senior level
+      - Site Reliability Engineering
+      - Engineering management
+      - Distributed systems
+      - Security
+      - Data Science
+      - Grow from mid-level to senior-level
+      - Switch from IC to a management position
+      - Change specialisation within IT
+      - Grow beyond senior level
     languages: C, Go, Python, JavaScript
     focus:
-    - Grow from beginner to mid-level
+      - Grow from beginner to mid-level
     extra: Systems design for reliability and risk minimisation. SDLC in practice with CI/CD in production. Interview techniques. When to fix, vs. when to seek a change.
   network:
-  - linkedin: https://www.linkedin.com/in/andrewkingit/
+    - linkedin: https://www.linkedin.com/in/andrewkingit/
 
 - name: Adeola Adekoyejo
   disabled: false
@@ -668,16 +668,16 @@
     years: 5
     mentee: You don’t have to know so much as long as you are willing to learn and do the work from your end
     areas:
-    - Frontend Developer
-    - Engineering management
-    - Backend Developer
-    - Switch career to IT
+      - Frontend Developer
+      - Engineering management
+      - Backend Developer
+      - Switch career to IT
     languages: Python, JavaScript
     focus:
-    - Grow from beginner to mid-level
+      - Grow from beginner to mid-level
     extra: Frontend interview prep, technical writing, system design, web accessibility, testing
   network:
-  - linkedin: https://www.linkedin.com/in/adeola-adekoyejo-405799115?trk=contact-info
+    - linkedin: https://www.linkedin.com/in/adeola-adekoyejo-405799115?trk=contact-info
 
 - name: Anastasia
   disabled: false
@@ -699,19 +699,19 @@
     years: 10
     mentee: Sometimes you understand you need a change but need a veiw from another perspective, because we don't know what we don't know. I'm looking for a proactive individual, who wants a change, ready to apply, open to share and exchange.
     areas:
-    - QA
-    - Project Management
-    - Product Management
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
+      - QA
+      - Project Management
+      - Product Management
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
     languages: Java, Javascript
     focus:
-    - Change specialisation within IT
+      - Change specialisation within IT
     extra: |
       Resume Review, Preparation for the Interviews, Career development and job search in Germany, QA management: tools and process organization in the product company.
   network:
-  - linkedin: https://www.linkedin.com/in/qa-anastasia
+    - linkedin: https://www.linkedin.com/in/qa-anastasia
 
 - name: Nonna Shakhova
   disabled: false
@@ -731,16 +731,16 @@
     years: 10
     mentee: Return to work after maternity leave
     areas:
-    - Project Management
-    - Data Science
-    - Grow from beginner to mid-level
-    - Switch career to IT
+      - Project Management
+      - Data Science
+      - Grow from beginner to mid-level
+      - Switch career to IT
     languages: Python
     focus:
-    - Change specialisation within IT
+      - Change specialisation within IT
     extra: Data Engineering, Data modeling and design, CV Review, Career advice
   network:
-  - linkedin: https://www.linkedin.com/in/nonna-shakhova/
+    - linkedin: https://www.linkedin.com/in/nonna-shakhova/
 
 - name: Sakirat Kehinde Usman
   disabled: false
@@ -761,17 +761,17 @@
     years: 5
     mentee: I am looking for a mentee who is enthusiastic and curious in learning new things.
     areas:
-    - Frontend Developer
-    - Business Analysis
-    - Data Science
-    - Backend Developer
-    - Grow from beginner to mid-level
+      - Frontend Developer
+      - Business Analysis
+      - Data Science
+      - Backend Developer
+      - Grow from beginner to mid-level
     languages: JavaScript, Python,
     focus:
-    - Switch career to IT
+      - Switch career to IT
     extra: HTML, CSS, JavaScript, React, Redux, Resume Review, Thinking in React, Interview Preparation
   network:
-  - linkedin: https://linkedin.com/in/sakirat-Kehinde-usman-3a4600117
+    - linkedin: https://linkedin.com/in/sakirat-Kehinde-usman-3a4600117
 
 - name: Tvisha Dholakia
   disabled: true
@@ -791,22 +791,22 @@
     years: 10
     mentee: I want to work on unlocking potential for people, as mentors and coaches have done for me - help my mentees analyze their ambitions, explore their true capabilities and get equipped with the necessary resources and skills to realize their dreams.
     areas:
-    - Product Management
-    - Project Management
-    - Business Analysis
-    - Data Science
-    - Engineering management
-    - Switch from IC to management position
-    - Grow beyond senior level
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
+      - Product Management
+      - Project Management
+      - Business Analysis
+      - Data Science
+      - Engineering management
+      - Switch from IC to management position
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
     languages: Java, Python, JavaScript
     focus:
-    - Switch career to IT
+      - Switch career to IT
     extra: Resume review, Career transitions, Leadership in technology
   network:
-  - linkedin: https://www.linkedin.com/in/tvisha/
-  - website: https://apibanking.substack.com/
+    - linkedin: https://www.linkedin.com/in/tvisha/
+    - website: https://apibanking.substack.com/
 
 - name: Sahana Venkatesh
   disabled: false
@@ -826,21 +826,21 @@
     years: 7
     mentee: Anyone looking for Mock Interview guidance
     areas:
-    - Machine Learning
-    - Data Science
-    - Backend Developer
-    - Distributed Systems
-    - Project Management
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Change specialisation within IT
-    - Grow from mid-level to senior-level
+      - Machine Learning
+      - Data Science
+      - Backend Developer
+      - Distributed Systems
+      - Project Management
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Grow from mid-level to senior-level
     languages: Python
     focus:
-    - Switch from IC to management position
+      - Switch from IC to management position
     extra: Preparation for Technical interviews, Project review
   network:
-  - linkedin: https://www.linkedin.com/in/sahana-venkatesh/
+    - linkedin: https://www.linkedin.com/in/sahana-venkatesh/
 
 - name: Agrin Hilmkil
   disabled: true
@@ -860,18 +860,18 @@
     years: 7
     mentee: Motivated individuals who are eager to grow. I'm happy to provide both technical guidance and advice on how to build their careers.
     areas:
-    - Machine Learning
-    - Data Science
-    - Backend Developer
+      - Machine Learning
+      - Data Science
+      - Backend Developer
     languages: Python
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
-    - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
     extra: Machine learning projects, Scaling up Deep Learning, Software Development, Building a career in Tech
   network:
-  - linkedin: https://www.linkedin.com/in/agrinhilmkil/
+    - linkedin: https://www.linkedin.com/in/agrinhilmkil/
 
 - name: Jenny Johnson
   disabled: true
@@ -891,17 +891,17 @@
     years: 10
     mentee: Driven, ready to learn, and has grit
     areas:
-    - Frontend Developer
-    - Fullstack Developer
-    - Engineering management
+      - Frontend Developer
+      - Fullstack Developer
+      - Engineering management
     languages: JavaScript, Java
     focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from mid-level to senior-level
     extra: UI development, leveling-up, career switching
   network:
-  - linkedin: https://www.linkedin.com/in/jjohnson001
+    - linkedin: https://www.linkedin.com/in/jjohnson001
 
 - name: Shailaja Koppu
   disabled: false
@@ -921,20 +921,20 @@
     years: 16
     mentee: Career growth, establishing connections and influencing in the org, managing work life balance, interview preparation for senior roles
     areas:
-    - Distributed Systems
-    - Backend Developer
-    - Engineering management
-    - Fullstack Developer
-    - Data Engineering
+      - Distributed Systems
+      - Backend Developer
+      - Engineering management
+      - Fullstack Developer
+      - Data Engineering
     languages: C, Java, C++
     focus:
-    - Switch from IC to management position
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Grow beyond senior level
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
     extra: Preparation for system design interviews, resume review, influencing teams, driving projects end to end, designing complex distributed systems, System Design Study Group
   network:
-  - linkedin: https://uk.linkedin.com/in/shailajakoppu
+    - linkedin: https://uk.linkedin.com/in/shailajakoppu
 
 - name: Claudia Lee
   disabled: false
@@ -954,14 +954,14 @@
     years: 5
     mentee: Someone who's still new to the industry and would either like to get into tech or grow from beginner to mid.
     areas:
-    - Backend Developer
+      - Backend Developer
     languages: Java
     focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from beginner to mid-level
     extra: Resume review; Agile Methodologies; Introduction to Java, Spring Framework and Kafka; SQL; OOP; Software Development Lifecycle.
   network:
-  - linkedin: https://www.linkedin.com/in/claudialsm/
+    - linkedin: https://www.linkedin.com/in/claudialsm/
 
 - name: Bryan Boreham
   disabled: false
@@ -981,23 +981,23 @@
     experience: 16+ Years
     years: 16
     areas:
-    - Backend Developer
-    - Site Reliability
-    - Engineering
-    - Engineering management
-    - Distributed Systems
-    - DevOps
+      - Backend Developer
+      - Site Reliability
+      - Engineering
+      - Engineering management
+      - Distributed Systems
+      - DevOps
     languages: Go, C++, C, Java, C#
     focus:
-    - Grow from mid-level to senior-level
-    - Grow beyond senior level
-    - Switch from IC to management position
-    - Grow from beginner to mid-level
-    - Change specialisation within IT
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
     mentee: Someone looking to advance their career, who needs advice either on navigating organisations or on understanding techology.
     extra: Software Engineering, SRE, Leadership, Technical Interviews, Communication, Presentation Skills, Kubernetes, CV Review.
   network:
-  - linkedin: https://www.linkedin.com/in/bryanboreham
+    - linkedin: https://www.linkedin.com/in/bryanboreham
 
 - name: Liliia Rafikova
   disabled: false
@@ -1018,19 +1018,19 @@
     experience: 10-15 Years
     years: 15
     areas:
-    - Backend Developer
-    - Distributed Systems
-    - Site Reliability Engineering
+      - Backend Developer
+      - Distributed Systems
+      - Site Reliability Engineering
     languages: Java, Rust, C, C++, Kotlin
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
     mentee: |
       Any will work. I'm actually single mother too.
     extra: |
       Software Development Strategies, Resume Review, Preparation for The Technical Interview, System Design Study Group
   network:
-  - linkedin: https://www.linkedin.com/in/liliia-rafikova-635328104/
+    - linkedin: https://www.linkedin.com/in/liliia-rafikova-635328104/
 
 - name: Avraham Poupko
   disabled: true
@@ -1052,22 +1052,22 @@
     mentee: |
       Someone with drive that feels that with some encouragement and direction that will maximise their potential
     areas:
-    - Engineering management
-    - Security
-    - Business Analysis
-    - Product Management
-    - Distributed Systems
+      - Engineering management
+      - Security
+      - Business Analysis
+      - Product Management
+      - Distributed Systems
     languages: C++, C++, C, Java, C#
     focus:
-    - Grow beyond senior level
-    - Grow from mid-level to senior-level
-    - Switch from IC to management position
-    - Grow from beginner to mid-level
-    - Change specialisation within IT
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
     extra: |
       Software Design. Cloud Migration. Writing an article. Presenting at a meeting or conference. Architecture decisions. Career Navigation. Negotiating a promotion or career change
   network:
-  - linkedin: https://www.linkedin.com/in/avrahampoupko/
+    - linkedin: https://www.linkedin.com/in/avrahampoupko/
 
 - name: Safiye Ipek
   disabled: false
@@ -1089,18 +1089,18 @@
     mentee: |
       I'm seeking mentees who are enthusiastic about software testing and eager to expand their knowledge and skills in the field. Whether you're just starting out or already have some experience, I'm here to support your growth and development. I value curiosity, dedication, and a proactive attitude towards learning. If you're passionate about software quality and committed to honing your craft, I'm excited to work with you and help you achieve your goals in the world of testing.
     areas:
-    - QA
+      - QA
     languages: Java, Javascript, Ruby, Python
     focus:
-    - Switch career to IT
+      - Switch career to IT
     extra: |
       Software Testing 
       Manual Testing 
       Automation Testing 
       Resume Review
   network:
-  - linkedin: https://www.linkedin.com/in/safiye-ipek/
-  - github: https://github.com/S-ipk
+    - linkedin: https://www.linkedin.com/in/safiye-ipek/
+    - github: https://github.com/S-ipk
 
 - name: Bomee Ryu
   disabled: true
@@ -1122,16 +1122,16 @@
     mentee: |
       I am looking for mentees who are interested in Android Development. I can mentor Kotlin and Java as well. But I would recommend mentees to come with a basic background knowledge of OOP and mobile development to have insightful mentorship sessions.
     areas:
-    - Android
-    - Engineering management
+      - Android
+      - Engineering management
     languages: Kotlin, Java
     focus:
-    - Grow from beginner to mid-level
-    - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
     extra: |
       Code Review, Learning Android development, Learning OOP languages, Flutter, Software architecture
   network:
-  - linkedin: https://www.linkedin.com/in/bomeeryu/
+    - linkedin: https://www.linkedin.com/in/bomeeryu/
 
 - name: Monique Grinstein
   disabled: true
@@ -1151,16 +1151,16 @@
     years: 5
     mentee: Someone who’s starting on their Software Engineering journey.
     areas:
-    - Backend Developer
-    - Fullstack Developer
+      - Backend Developer
+      - Fullstack Developer
     languages: Javascript, Python, Go
     focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
     extra: CV Review, Getting AWS Certified, Clean Code Practices, Starting Your Career in STEM, Grow from Beginner to Mid-level
   network:
-  - linkedin: https://www.linkedin.com/in/moniquegrinstein/
+    - linkedin: https://www.linkedin.com/in/moniquegrinstein/
 
 - name: Rasim Sen
   disabled: true
@@ -1180,21 +1180,21 @@
     years: 16
     mentee: passionate about coding, eager for hands-on experience, and ready to dive deep(Node.js, ReactJS, TypeScript, DB, RestAPI, Microservice, etc)
     areas:
-    - Fullstack Developer
-    - Backend Developer
-    - Frontend Developer
-    - DevOps
-    - QA
+      - Fullstack Developer
+      - Backend Developer
+      - Frontend Developer
+      - DevOps
+      - QA
     languages: JavaScript, Java, Python, Go
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Grow beyond senior level
-    - Switch career to IT
-    - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch career to IT
+      - Change specialisation within IT
     extra: Software development, TDD, Unit Testing, DB Design, Microservice and RestAPI development, Web development, Mock interview, CV Review
   network:
-  - linkedin: https://www.linkedin.com/in/senrasim
+    - linkedin: https://www.linkedin.com/in/senrasim
 
 - name: Jyoti Yadav
   disabled: false
@@ -1219,14 +1219,14 @@
     mentee: |
       Who are preparing for interviews, want to enter IT or web3 world
     areas:
-    - Data Science
-    - Data Engineering
-    - Distributed Systems
+      - Data Science
+      - Data Engineering
+      - Distributed Systems
     languages: Python, Java, C++
     focus:
-    - Switch career to IT
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
     extra: |
       1. Data Science and Machine Learning: Techniques, best practices, and real-world applications.
       2. Fraud Detection and Prevention: Strategies and model implementation for reducing fraud.
@@ -1234,8 +1234,8 @@
       4. Project Management: Agile methodologies, team collaboration, and stakeholder management.
       5. Technical Skills Enhancement: Advanced Python, SQL, and AWS.
   network:
-  - linkedin: https://www.linkedin.com/in/jyoti-y-b8232969/
-  - medium: https://medium.com/@jyotiyadav99111
+    - linkedin: https://www.linkedin.com/in/jyoti-y-b8232969/
+    - medium: https://medium.com/@jyotiyadav99111
 
 - name: Busra Ecem Sakar
   disabled: false
@@ -1259,17 +1259,17 @@
     mentee: |
       Preparing for interviews, interested in working on machine learning and NLP, and eager to learn SQL and Python.
     areas:
-    - Data Science
-    - Business Analysis
-    - Machine Learning
-    - Project Management
-    - Product Management
+      - Data Science
+      - Business Analysis
+      - Machine Learning
+      - Project Management
+      - Product Management
     languages: Python
     focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch from IC to management position
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
     extra: |
       - Data Analysis and Statistical Modeling (A/B Testing, Statistical Analysis)
       - Machine Learning (Guiding on building machine learning models, particularly for classification and prediction tasks)
@@ -1278,7 +1278,7 @@
       - Data-Driven Decision Making
       - Career Path Guidance
   network:
-  - linkedin: https://www.linkedin.com/in/busraecemsakar/
+    - linkedin: https://www.linkedin.com/in/busraecemsakar/
 
 - name: Fernanda Martins
   disabled: false
@@ -1303,15 +1303,15 @@
     mentee: |
       Dedicated, curious and thirsty for knowledge
     areas:
-    - DevOps
-    - Distributed Systems
-    languages: ''
+      - DevOps
+      - Distributed Systems
+    languages: ""
     focus: []
     extra: |
       DevOps practices, how to start in infrastructure, resume review, learn cloud, infrastructure as code, incident management, improve your pipeline, manage platform priorities, how to better support developers
   network:
-  - linkedin: https://www.linkedin.com/in/flmmartins/
-  - github: https://github.com/flmmartins/
+    - linkedin: https://www.linkedin.com/in/flmmartins/
+    - github: https://github.com/flmmartins/
 
 - name: Gabriel Oliveira
   disabled: false
@@ -1338,22 +1338,22 @@
     mentee: |
       QAs willing to grow on their career
     areas:
-    - QA
-    - Product Management
-    - Project Management
-    - Frontend Developer
-    - Backend Developer
+      - QA
+      - Product Management
+      - Project Management
+      - Frontend Developer
+      - Backend Developer
     languages: Python, Javascript, Java
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
-    - Grow beyond senior level
-    - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Grow beyond senior level
+      - Switch from IC to management position
     extra: |
       QA Engineering, Agile Testing, Software Test Automation, QA experiences in Test Automation
   network:
-  - linkedin: https://www.linkedin.com/in/gpaoliveira
+    - linkedin: https://www.linkedin.com/in/gpaoliveira
 
 - name: Abdul-Mateen Qamardeen
   disabled: true
@@ -1375,23 +1375,23 @@
     mentee: |
       I want a CURIOUS mentee with a little background with R or Python programming, and data analysis knowledge. She must have a PC with good internet connection.
     areas:
-    - Backend Developer
-    - Data Science
-    - Frontend Developer
-    - Machine Learning
-    - Business Analysis
+      - Backend Developer
+      - Data Science
+      - Frontend Developer
+      - Machine Learning
+      - Business Analysis
     languages: Python, Go, Java, Scala, Javascript
     focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Grow beyond senior level
-    - Switch from IC to management position
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch from IC to management position
     extra: |
       R programming, Data Analysis, Python programming, Machine Learning, LinkedIn optimization
   network:
-  - linkedin: https://www.linkedin.com/in/abdulmateenqamardeen/
-  - github: https://github.com/DISCRETEboi
+    - linkedin: https://www.linkedin.com/in/abdulmateenqamardeen/
+    - github: https://github.com/DISCRETEboi
 
 - name: Olga Volkova
   disabled: true
@@ -1413,19 +1413,19 @@
     mentee: |
       I am excited to mentor individuals who are new to the world of machine learning or are looking to strengthen their existing skills in this area. My ideal mentee is someone who may be just starting out in their tech career or is looking to transition into a machine learning role. You don't have to have all the answers or be sure of your path — curiosity, a willingness to learn, and the courage to ask questions are the most important qualities. I am committed to creating a supportive and inclusive environment where my mentees can grow at their own pace, build confidence in their abilities, and explore new ideas without fear of making mistakes. Everyone from all backgrounds is welcome, especially those who might feel underrepresented or uncertain about their place in the tech world. Together, we'll work towards not just improving your technical skills, but also boosting your confidence and helping you find your unique voice in the machine learning community.
     areas:
-    - Machine Learning
-    - Data Science
-    - Business Analysis
+      - Machine Learning
+      - Data Science
+      - Business Analysis
     languages: Python
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
-    - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
     extra: |
       Deep Learning, Graph Deep Learning, Machine Learning system design, Algorithms and Data Structures, Data Science / ML Engineer interview process
   network:
-  - linkedin: https://www.linkedin.com/in/olga-volkova-61562463/
+    - linkedin: https://www.linkedin.com/in/olga-volkova-61562463/
 
 - name: Samantha Cohen
   disabled: true
@@ -1449,23 +1449,23 @@
     mentee: |
       Somebody who is excited to learn
     areas:
-    - Frontend Developer
-    - Fullstack Developer
-    - DevOps
-    - Distributed Systems
-    - Backend Developer
+      - Frontend Developer
+      - Fullstack Developer
+      - DevOps
+      - Distributed Systems
+      - Backend Developer
     languages: Javascript, Python, Java, C#, Rust
     focus:
-    - Change specialisation within IT
-    - Switch career to IT
-    - Grow beyond senior level
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Switch career to IT
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
     extra: |
       Software design, software architecture, system architecture, TDD, testing strategies, software development lifecycle, soft skills & influence
   network:
-  - linkedin: www.linkedin.com/in/samantha-cohen-59a98265
-  - medium: https://medium.com/@samanthacohen294
+    - linkedin: www.linkedin.com/in/samantha-cohen-59a98265
+    - medium: https://medium.com/@samanthacohen294
 
 - name: Anahi Gaetan
   disabled: true
@@ -1487,18 +1487,18 @@
     mentee: |
       Career switcher or juniors who are still struggling and need help. Someone passionate on development and keen to learn.
     areas:
-    - Frontend Developer
-    - Fullstack Developer
+      - Frontend Developer
+      - Fullstack Developer
     languages: Javascript
     focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
+      - Grow from beginner to mid-level
+      - Switch career to IT
     extra: |
       Website development with Javascript and React
       Switch carrer to IT, as a Front-End developer
       Preparation for technical interview to get your first Front-End job
   network:
-  - linkedin: https://www.linkedin.com/in/anagdev/
+    - linkedin: https://www.linkedin.com/in/anagdev/
 
 - name: Paula Kennedy
   disabled: true
@@ -1523,20 +1523,20 @@
     mentee: |
       I'm looking to help anyone who is looking to get more involved in public speaking and getting more engaged in the tech community. I'm also keen to help mentees who are considering founding their own start-up or are looking to take on a senior leadership role.
     areas:
-    - Engineering management
-    - Product Management
-    - Site Reliability Engineering
-    languages: ''
+      - Engineering management
+      - Product Management
+      - Site Reliability Engineering
+    languages: ""
     focus:
-    - Grow beyond senior level
-    - Switch from IC to management position
-    - Change specialisation within IT
-    - Grow from beginner to mid-level
-    - Switch career to IT
+      - Grow beyond senior level
+      - Switch from IC to management position
+      - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Switch career to IT
     extra: |
       Leadership Skills, Community Work, Founder Skills, Public Speaking Advice
   network:
-  - linkedin: https://www.linkedin.com/in/paulalkennedy/
+    - linkedin: https://www.linkedin.com/in/paulalkennedy/
 
 - name: Mena Esezobor
   disabled: true
@@ -1561,22 +1561,22 @@
     mentee: |
       I am looking for a mentee that has a positive outlook and is eager to learn. They are also open to being challenged and stepping outside their comfort zone.
     areas:
-    - Frontend Developer
-    - Fullstack Developer
-    - DevOps
-    - Data Science
-    - Data Engineering
+      - Frontend Developer
+      - Fullstack Developer
+      - DevOps
+      - Data Science
+      - Data Engineering
     languages: Javascript, C#, Python, Java, Scala
     focus:
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    - Grow beyond senior level
-    - Change specialisation within IT
-    - Switch from IC to management position
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Grow beyond senior level
+      - Change specialisation within IT
+      - Switch from IC to management position
     extra: |
       Software development strategies, career transitions, interview prep, LinkedIn and cv review
   network:
-  - linkedin: https://www.linkedin.com/in/amenawon-esezobor/
+    - linkedin: https://www.linkedin.com/in/amenawon-esezobor/
 
 - name: Prerna Singhal
   disabled: false
@@ -1598,22 +1598,22 @@
     mentee: |
       One who wants to transition from junior to senior levels.
     areas:
-    - Backend Developer
-    - Distributed Systems
-    - Fullstack Developer
-    - DevOps
-    - QA
+      - Backend Developer
+      - Distributed Systems
+      - Fullstack Developer
+      - DevOps
+      - QA
     languages: Java, C#, Python, Kotlin, Javascript
     focus:
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Change specialisation within IT
-    - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+      - Grow beyond senior level
     extra: |
       Software Development Strategies, Resume Review, Preparation for The Technical Interview, How to grow from junior to lead engineers, Project management
   network:
-  - linkedin: https://www.linkedin.com/in/prernasinghal90/
+    - linkedin: https://www.linkedin.com/in/prernasinghal90/
 
 - name: Samuela Smolorz
   disabled: false
@@ -1637,16 +1637,16 @@
     mentee: |
       Career switchers or junior engineers who would like to grow, adapt and reflect
     areas:
-    - Backend Developer
-    - Fullstack Developer
-    - Data Engineering
-    - Security
-    - DevOps
+      - Backend Developer
+      - Fullstack Developer
+      - Data Engineering
+      - Security
+      - DevOps
     languages: Python, Javascript, Go
     focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Change specialisation within IT
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
     extra: |
       - Cloud infrastructure engineering
       - Databases and SQL
@@ -1657,7 +1657,7 @@
       - Interview preparation
       - Personal project/resume review
   network:
-  - linkedin: https://www.linkedin.com/in/samuela-smolorz-mbcs-6821a3161/
+    - linkedin: https://www.linkedin.com/in/samuela-smolorz-mbcs-6821a3161/
 
 - name: Arzu Caner
   disabled: false
@@ -1684,17 +1684,17 @@
     mentee: |
       Those who are changing their careers, interested in app development.
     areas:
-    - Fullstack Developer
+      - Fullstack Developer
     languages: Javascript
     focus:
-    - Grow from beginner to mid-level
+      - Grow from beginner to mid-level
     extra: |
       Career change, app development, software development, GitHub, hackathons, technical writing, React, React Native, JavaScript, Node.js, MongoDB
   network:
-  - linkedin: https://www.linkedin.com/in/arzucaner/
-  - medium: https://arzugny.medium.com/
-  - github: https://github.com/arzucaner
-  - youtube: https://www.youtube.com/channel/UCsK0v6RouRYb5I1Ny8flrOg
+    - linkedin: https://www.linkedin.com/in/arzucaner/
+    - medium: https://arzugny.medium.com/
+    - github: https://github.com/arzucaner
+    - youtube: https://www.youtube.com/channel/UCsK0v6RouRYb5I1Ny8flrOg
 
 - name: Prabha Venkatesh
   disabled: false
@@ -1718,20 +1718,20 @@
     mentee: |
       Individuals in early careers who are looking for help in coding and career guidance; but happy to help anyone I can
     areas:
-    - Data Science
-    - Machine Learning
-    - Data Engineering
-    - Product Management
-    - Project Management
+      - Data Science
+      - Machine Learning
+      - Data Engineering
+      - Product Management
+      - Project Management
     languages: Python, Javascript, C#, C#
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
     extra: |
       AI/ ML concepts, Resume review, technical interview
   network:
-  - linkedin: https://www.linkedin.com/in/prabha-venkatesh-t
+    - linkedin: https://www.linkedin.com/in/prabha-venkatesh-t
 
 - name: Lulu Cao
   disabled: true
@@ -1754,17 +1754,17 @@
     mentee: |
       Eager to learn and take on new challenges, or someone who is transitioning into tech
     areas:
-    - Fullstack Developer
-    - Frontend Developer
-    - Backend Developer
+      - Fullstack Developer
+      - Frontend Developer
+      - Backend Developer
     languages: Javascript, Python
     focus:
-    - Grow from beginner to mid-level
+      - Grow from beginner to mid-level
     extra: |
       Resume Review, Introduction to JavaScript, Career Advice
   network:
-  - linkedin: https://www.linkedin.com/in/lulu-cao/
-  - medium: https://medium.com/@lcao_5526
+    - linkedin: https://www.linkedin.com/in/lulu-cao/
+    - medium: https://medium.com/@lcao_5526
 
 - name: Adnan Salehin
   disabled: true
@@ -1789,21 +1789,21 @@
     mentee: |
       I'm passionate about helping others in their career journey, especially those who are still looking for their first role. I can help them navigate their career pathway, interview processes and be better prepared for the future. I can also share guidance on how one can cultivate leadership and communication skills as well as hard skills required for their personal growth such as programming skills and system design skills.
     areas:
-    - Frontend Developer
-    - Backend Developer
-    - Data Engineering
-    - Fullstack Developer
-    - Project Management
+      - Frontend Developer
+      - Backend Developer
+      - Data Engineering
+      - Fullstack Developer
+      - Project Management
     languages: Python, Javascript, Java, Kotlin
     focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
     extra: |
       CV Review, Interviews, Career Navigation, Programming languages and concepts (Python, JavaScript, Object Oriented/Functional Programming), System Design
   network:
-  - linkedin: https://www.linkedin.com/in/adnansalehin
+    - linkedin: https://www.linkedin.com/in/adnansalehin
 
 - name: Ima-Abasi Effiong
   disabled: false
@@ -1826,16 +1826,16 @@
     mentee: |
       I can provide guidance and resources to a passionate self learner, an early career engineer and people who just switched from different fields to Software Testing.
     areas:
-    - QA
-    - Product Management
+      - QA
+      - Product Management
     languages: Python
     focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from beginner to mid-level
     extra: |
       Quality Assurance, Switch career to IT, Product Management, Grow from beginner to mid level.
   network:
-  - linkedin: https://www.linkedin.com/in/imaabasieffiong/
+    - linkedin: https://www.linkedin.com/in/imaabasieffiong/
 
 - name: Lidiane Mayra Taquehara
   disabled: false
@@ -1859,20 +1859,20 @@
     mentee: |
       A mentee with a curious mind and passionate about learning new things.
     areas:
-    - Backend Developer
-    - QA
-    - Fullstack Developer
-    - Frontend Developer
-    - Distributed Systems
+      - Backend Developer
+      - QA
+      - Fullstack Developer
+      - Frontend Developer
+      - Distributed Systems
     languages: Ruby, Javascript, Python, Java
     focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
     extra: |
       Software engineering, Automated tests, Backend development, Test Driven Development, Web scraping
   network:
-  - linkedin: https://www.linkedin.com/in/lmayra/
+    - linkedin: https://www.linkedin.com/in/lmayra/
 
 - name: Ajeetha Kumari Venkatesan
   disabled: true
@@ -1900,22 +1900,22 @@
     mentee: |
       VLSI design engineersg
     areas:
-    - Product Management
-    - Project Management
-    - Engineering management
-    - Business Analysis
-    - QA
+      - Product Management
+      - Project Management
+      - Engineering management
+      - Business Analysis
+      - QA
     languages: Python
     focus:
-    - Grow from mid-level to senior-level
-    - Grow beyond senior level
-    - Switch career to IT
-    - Switch from IC to management position
-    - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
+      - Switch career to IT
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
     extra: |
       UVM, SystemVerilog, SVA, PSL, Verilog, VHDL, ASIC, FPGA, Lint
   network:
-  - linkedin: https://in.linkedin.com/in/ajeetha
+    - linkedin: https://in.linkedin.com/in/ajeetha
 
 - name: Alexey Buzovkin
   disabled: true
@@ -1940,14 +1940,14 @@
     mentee: |
       Anybody who is interested in growth
     areas:
-    - Data Science
+      - Data Science
     languages: Python
     focus:
-    - Grow from mid-level to senior-level
+      - Grow from mid-level to senior-level
     extra: |
       Software development strategies, research approaches
   network:
-  - linkedin: https://www.linkedin.com/in/alexey-buzovkin-6587b7122/
+    - linkedin: https://www.linkedin.com/in/alexey-buzovkin-6587b7122/
 
 - name: Ciera Fowler
   disabled: true
@@ -1970,22 +1970,22 @@
     mentee: |
       Someone with big aspirations!
     areas:
-    - Machine Learning
-    - Data Engineering
-    - Engineering management
-    - DevOps
-    - Data Science
+      - Machine Learning
+      - Data Engineering
+      - Engineering management
+      - DevOps
+      - Data Science
     languages: Python
     focus:
-    - Switch career to IT
-    - Change specialisation within IT
-    - Switch from IC to management position
-    - Grow beyond senior level
-    - Grow from mid-level to senior-level
+      - Switch career to IT
+      - Change specialisation within IT
+      - Switch from IC to management position
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
     extra: |
       Data platform development, resume review, prep for coding interviews, generative AI and machine learning applications, ML ops, vendor selection, KPI setting and monitoring
   network:
-  - linkedin: https://www.linkedin.com/in/ciera-fowler/
+    - linkedin: https://www.linkedin.com/in/ciera-fowler/
 
 - name: Liko Chien
   disabled: true
@@ -2008,22 +2008,22 @@
     mentee: |
       Switch career to IT, Grow from beginner to mid-level, new immigrants
     areas:
-    - Frontend Developer
-    - Product Management
-    - Engineering management
-    - DevOps
-    - Data Engineering
+      - Frontend Developer
+      - Product Management
+      - Engineering management
+      - DevOps
+      - Data Engineering
     languages: Javascript, Python
     focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
-    - Grow beyond senior level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Grow beyond senior level
     extra: |
       Resume Review, Communication, Collaboration, Frontend development, Preparation for The Technical Interview
   network:
-  - linkedin: https://www.linkedin.com/in/liko-chien-905b42293/
+    - linkedin: https://www.linkedin.com/in/liko-chien-905b42293/
 
 - name: Marie Coquille
   disabled: true
@@ -2046,15 +2046,15 @@
     mentee: |
       Juniors.
     areas:
-    - Frontend Developer
-    - Fullstack Developer
-    - Backend Developer
+      - Frontend Developer
+      - Fullstack Developer
+      - Backend Developer
     languages: Javascript
     focus: []
     extra: |
       Get your first job in SE / How it is being a woman in tech / Mock interviews
   network:
-  - linkedin: https://uk.linkedin.com/in/marie-coquille-b0b733100
+    - linkedin: https://uk.linkedin.com/in/marie-coquille-b0b733100
 
 - name: Kateryna Ogar
   disabled: false
@@ -2080,21 +2080,21 @@
       I enjoy mentoring curious learners who want to dive into Agile methodologies like Scrum, Kanban, and SAFe. If you’re passionate about creating products that make a real impact and aligning your work with business goals, we’ll be a great match.
       If you’re ready to take your career to the next level, let’s connect and make it happen!
     areas:
-    - Project Management
-    - Business Analysis
-    - Product Management
-    languages: ''
+      - Project Management
+      - Business Analysis
+      - Product Management
+    languages: ""
     focus:
-    - Change specialisation within IT
-    - Switch career to IT
-    - Switch from IC to management position
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
     extra: |
       Product Management, Project Management, Agile & Scrum Practices, Diversity & Inclusion in Tech, Career Development & Leadership, Resume Review, Interview Mock Sessions
   network:
-  - linkedin: https://www.linkedin.com/in/kateryna-ogar/
-  - website: https://adplist.org/mentors/kateryna-ogar
+    - linkedin: https://www.linkedin.com/in/kateryna-ogar/
+    - website: https://adplist.org/mentors/kateryna-ogar
 
 - name: Chandeep Khosa
   disabled: true
@@ -2116,22 +2116,22 @@
     mentee: |
       Underrepresented, anxious, low confidence as I am very skilled and experienced with helping these groups and helping them get their first jobs in tech, as web developers or similar.
     areas:
-    - Engineering management
-    - Project Management
-    - Business Analysis
-    - Fullstack Developer
-    - QA
+      - Engineering management
+      - Project Management
+      - Business Analysis
+      - Fullstack Developer
+      - QA
     languages: Javascript
     focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Change specialisation within IT
-    - Grow from mid-level to senior-level
-    - Grow beyond senior level
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Grow from mid-level to senior-level
+      - Grow beyond senior level
     extra: |
       Technical strategy, consultancy, architecture, planning, project management, collaborating with team members, working with team members in multiple git branches, resume review
   network:
-  - linkedin: https://www.linkedin.com/in/chandeepkhosa/
+    - linkedin: https://www.linkedin.com/in/chandeepkhosa/
 
 - name: Wilson Adenuga
   disabled: false
@@ -2153,14 +2153,14 @@
     mentee: |
       I'm looking for mentees who are passionate, eager to learn, and committed to upskilling. I can provide mentorship in backend and frontend engineering, test-driven development (TDD), database design, microservices, system design, and emerging topics in software engineering.
     areas:
-    - Frontend Developer
-    - Fullstack Developer
-    - Distributed Systems
+      - Frontend Developer
+      - Fullstack Developer
+      - Distributed Systems
     languages: Javascript, Python
     focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
+      - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
     extra: |
       Full-Stack JavaScript Development (React.js, Next.js, Node.js)
       Mobile App Development with React Native
@@ -2169,8 +2169,8 @@
       Web Accessibility Best Practices
       Python Programming Fundamentals
   network:
-  - linkedin: https://www.linkedin.com/in/wilson-adenuga/
-  - github: https://github.com/oluwatunmiisheii
+    - linkedin: https://www.linkedin.com/in/wilson-adenuga/
+    - github: https://github.com/oluwatunmiisheii
 
 - name: Nadezhda Iaromirova
   disabled: false
@@ -2191,16 +2191,16 @@
     experience: 16+ Years
     years: 16
     areas:
-    - Product Management
-    - Business Analysis
+      - Product Management
+      - Business Analysis
     focus:
-    - Switch from IC to management position
-    - Grow from beginner to mid-level
+      - Switch from IC to management position
+      - Grow from beginner to mid-level
     mentee: I'm looking for entry-level or mid-level professionals who are eager to advance their careers in IT project management, product ownership, business analysis, or UX. If you're passionate about growing your skills, open to constructive feedback, and ready to take the next step in your career, I'd love to provide personalized mentorship and career advice.
     extra: I can advice on a career as a project manager, product owner, or business analyst. I also specialize in user experience (UX) optimization, A/B testing, digital analytics, and reporting and can consult on UX and UI topics. Also, I can offer guidance on Agile methodologies widely used in IT, insights into valuable skill development. I can help review your CV and offer sessions to prepare you for real job interviews.
   network:
-  - linkedin: https://www.linkedin.com/in/yaromirova/
-  - website: https://hackernoon.com/u/uxdilettante
+    - linkedin: https://www.linkedin.com/in/yaromirova/
+    - website: https://hackernoon.com/u/uxdilettante
 
 - name: Sergei Begishev
   disabled: false
@@ -2221,19 +2221,19 @@
     experience: 5-7 Years
     years: 7
     areas:
-    - Product Management
-    - Business Analysis
-    - Engineering management
-    - Data Engineering
+      - Product Management
+      - Business Analysis
+      - Engineering management
+      - Data Engineering
     focus:
-    - Switch from IC to management position
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    - Switch career to IT
+      - Switch from IC to management position
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
     mentee: I am seeking motivated engineers who want to elevate their careers by developing their ability to communicate technical work in business terms, enhance their leadership capabilities, and master data-driven decision making
     extra: Mentoring Topics such as Product Architecture & Design, Business Data Analysis & Visualization, Team Management & Leadership Skills, Technical Project Presentation, Process Automation Strategy, Cross-functional Communication
   network:
-  - linkedin: https://www.linkedin.com/in/sergey-begishev/
+    - linkedin: https://www.linkedin.com/in/sergey-begishev/
 
 - name: Silda Balla
   disabled: false
@@ -2254,21 +2254,21 @@
     experience: 4-5 Years
     years: 5
     areas:
-    - Backend Developer
-    - Frontend Developer
-    - QA
-    - Business Analysis
+      - Backend Developer
+      - Frontend Developer
+      - QA
+      - Business Analysis
     focus:
-    - Grow beyond senior level
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Change specialisation within IT
+      - Grow beyond senior level
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
     mentee: Switch career to IT,Grow from beginner to mid-level,Grow from mid-level to senior-level
     languages: Javascript, Java, Python, C++
     extra: Potential Mentoring Topics such as Software Development Strategies such as Best practices for planning, executing, and managing software projects effectively. .NET Development such as Deep dive into C#, ASP.NET MVC, and building robust applications using the .NET framework. ReactJS such as Developing dynamic and responsive web applications with ReactJS.
   network:
-  - linkedin: https://www.linkedin.com/in/s-b-b51a76317/
+    - linkedin: https://www.linkedin.com/in/s-b-b51a76317/
 
 - name: Sebastian Castro
   disabled: false
@@ -2292,23 +2292,23 @@
     mentee: |
       I am looking to help people interested in the robotics field, specially focused on open-source software and/or educational content development. My specialties in robotics include high-level behavior, task and motion planning, and manipulation, but I am willing to branch out and learn with you!
     areas:
-    - Backend Developer
-    - Fullstack Developer
-    - DevOps
-    - Machine Learning
-    - QA
+      - Backend Developer
+      - Fullstack Developer
+      - DevOps
+      - Machine Learning
+      - QA
     languages: Python, Python, C++, C++, Rust
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
-    - Switch career to IT
-    - Grow beyond senior level
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
+      - Grow beyond senior level
     extra: |
       Robotics, Software Engineering, Machine Learning, Simulation, Education
   network:
-  - linkedin: https://www.linkedin.com/in/sebastian-a-castro
-  - website: https://bsky.app/profile/roboticseabass.com
+    - linkedin: https://www.linkedin.com/in/sebastian-a-castro
+    - website: https://bsky.app/profile/roboticseabass.com
 
 - name: Ramona Gawarwala
   disabled: false
@@ -2332,16 +2332,16 @@
     mentee: |
       Motivated and proactive
     areas:
-    - Fullstack Developer
-    - Distributed Systems
-    - DevOps
+      - Fullstack Developer
+      - Distributed Systems
+      - DevOps
     languages: Javascript, Python, Java
     focus:
-    - Grow from beginner to mid-level
+      - Grow from beginner to mid-level
     extra: |
       Software development, Job Search, Motivation, Career Change, Upskill
   network:
-  - linkedin: https://www.linkedin.com/in/ramona-gawarwala/
+    - linkedin: https://www.linkedin.com/in/ramona-gawarwala/
 
 - name: Sonika Janagill
   disabled: false
@@ -2367,17 +2367,17 @@
     mentee: |
       I'm seeking curious, proactive individuals interested in AI, data engineering, or modern software development. Whether you're transitioning from traditional development to AI/ML, looking to enhance your cloud architecture skills, or aiming to grow as a technical leader, I'd be delighted to support you. I particularly welcome those with clear goals, a commitment to consistent learning. I especially encourage women and underrepresented groups in tech who are navigating technical career paths.
     areas:
-    - Backend Developer
-    - Data Engineering
-    - DevOps
-    - Engineering management
-    - Fullstack Developer
+      - Backend Developer
+      - Data Engineering
+      - DevOps
+      - Engineering management
+      - Fullstack Developer
     languages: Python, Java, Javascript
     focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Change specialisation within IT
-    - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
+      - Grow from mid-level to senior-level
     extra: |
       Cloud Architecture & Data Engineering
       CI/CD using Infra As Code
@@ -2389,7 +2389,7 @@
       Building Technical Advocacy Skills
       Work-Life Balance in Technical Careers
   network:
-  - linkedin: https://www.linkedin.com/in/sonikaj/
+    - linkedin: https://www.linkedin.com/in/sonikaj/
 
 - name: Eniola Oduntan
   disabled: false
@@ -2413,21 +2413,21 @@
     mentee: |
       People early in their careers, looking to make a switch to tech. People who struggle with selling themselves at interviews.
     areas:
-    - Data Science
-    - Machine Learning
-    - Business Analysis
-    - Project Management
+      - Data Science
+      - Machine Learning
+      - Business Analysis
+      - Project Management
     languages: Python
     focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Switch career to IT
+      - Change specialisation within IT
     extra: |
       Resume review
       Interview preparation 
       Transitioning from a non-technical background
   network:
-  - linkedin: http://www.linkedin.com/in/eniola-oduntan
+    - linkedin: http://www.linkedin.com/in/eniola-oduntan
 
 - name: Griswald Brooks
   disabled: false
@@ -2453,13 +2453,13 @@
     areas: []
     languages: C++, Python
     focus:
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
     extra: |
       Robotics software development
   network:
-  - linkedin: https://www.linkedin.com/in/griswaldbrooks/
-  - website: https://bsky.app/profile/griswaldbrooks.bsky.social
+    - linkedin: https://www.linkedin.com/in/griswaldbrooks/
+    - website: https://bsky.app/profile/griswaldbrooks.bsky.social
 
 - name: Tiffany Cappeellari
   disabled: false
@@ -2487,22 +2487,22 @@
     mentee: |
       I'm looking for mentees that want to work in robotics! I'm looking for people that are recent/soon-to-be graduates and/or early career or wanting to switch industries into robotics or automation.
     areas:
-    - Backend Developer
-    - Project Management
-    - Engineering management
-    - Backend Developer
-    - Backend Developer
+      - Backend Developer
+      - Project Management
+      - Engineering management
+      - Backend Developer
+      - Backend Developer
     languages: Python, Python, Python, C++, C++
     focus:
-    - Grow from beginner to mid-level
-    - Grow from beginner to mid-level
-    - Grow from beginner to mid-level
-    - Change specialisation within IT
-    - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Grow from beginner to mid-level
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Change specialisation within IT
     extra: |
       software development, resume review, technical and non-technical interview prep, graduate school applications, research
   network:
-  - linkedin: https://www.linkedin.com/in/tiffany-cappellari-199174149/
+    - linkedin: https://www.linkedin.com/in/tiffany-cappellari-199174149/
 
 - name: Lakshmi Balakrishnan
   disabled: false
@@ -2526,20 +2526,20 @@
     mentee: |
       I am looking ideally someone who want to grow in their career and would benefit from the insights of someone who has been in the industry for a while.
     areas:
-    - Backend Developer
-    - QA
-    - Fullstack Developer
-    - Distributed Systems
-    - Frontend Developer
+      - Backend Developer
+      - QA
+      - Fullstack Developer
+      - Distributed Systems
+      - Frontend Developer
     languages: Python, Javascript
     focus:
-    - Switch career to IT
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
+      - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
     extra: |
       Software development strategies, career goals
   network:
-  - linkedin: https://www.linkedin.com/in/lakshmi-balakrishnan-21b3a253
+    - linkedin: https://www.linkedin.com/in/lakshmi-balakrishnan-21b3a253
 
 - name: Arun Kumar
   disabled: true
@@ -2568,22 +2568,22 @@
       Whether it's technical skills (Angular, React, Next.js, Java, Spring Boot) or career support (interviews, projects, growth), I'm happy to share what I've learned.
       A positive attitude and eagerness to learn matter most.
     areas:
-    - Full-Stack Developer
-    - Backend Developer
-    - Frontend Developer
-    - DevOps Engineer
-    - Distributed Systems Specialist
+      - Full-Stack Developer
+      - Backend Developer
+      - Frontend Developer
+      - DevOps Engineer
+      - Distributed Systems Specialist
     languages: Java, Javascript, Scala, Ruby, Kotlin
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
     extra: |
       - Software Development Strategies, Extreme Programming (TDD, Pair programming, CICD), Preparation for The Technical Interview, Software Development Tools
   network:
-  - linkedin: https://www.linkedin.com/in/arunkumar1162/
-  - medium: https://medium.com/@ja.m.arunkumar
-  - github: https://github.com/arunkumar461
+    - linkedin: https://www.linkedin.com/in/arunkumar1162/
+    - medium: https://medium.com/@ja.m.arunkumar
+    - github: https://github.com/arunkumar461
 
 - name: Nishi Ajmera
   disabled: false
@@ -2612,21 +2612,21 @@
 
       Whether you're just beginning your journey in AI/ML or looking to deepen your expertise, I welcome those who are passionate about technology and its potential to solve real-world problems.
     areas:
-    - Full-Stack Developer
-    - Machine Learning
-    - Backend Developer
-    - Frontend Developer
-    - DevOps Engineer
+      - Full-Stack Developer
+      - Machine Learning
+      - Backend Developer
+      - Frontend Developer
+      - DevOps Engineer
     languages: Java, Javascript, Go, C++
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch career to IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
     extra: |
       - Generative AI, AI Agents, RAG, buillding LLMs
   network:
-  - linkedin: https://www.linkedin.com/in/ajmeranishi/
-  - website: https://nishiajmera.com/
+    - linkedin: https://www.linkedin.com/in/ajmeranishi/
+    - website: https://nishiajmera.com/
 
 - name: Udeme Jalekun
   disabled: false
@@ -2651,14 +2651,14 @@
     mentee: |
       Newbies to tech or transitioning from a non-tech role into QA
     areas:
-    - QA
+      - QA
     languages: Javascript, Python
     focus:
-    - Switch career to IT
+      - Switch career to IT
     extra: |
       - Software testing
   network:
-  - linkedin: https://www.linkedin.com/in/udeme-jalekun
+    - linkedin: https://www.linkedin.com/in/udeme-jalekun
 
 - name: Narmada Chowdary Nannaka
   disabled: false
@@ -2681,25 +2681,25 @@
     mentee: |
       I'm looking to mentor individuals who are genuinely enthusiastic about growing in their careers, open to receiving constructive feedback, and most importantly, ready to take action on it. I value mentees who are curious, self-motivated, and willing to put in the effort to implement what they learn. A growth mindset, reliability, and a proactive attitude are non-negotiables—I’m here to support, but real progress comes from those who show up, follow through, and are eager to challenge themselves.
     areas:
-    - Project Management
-    - Project Management
-    - Engineering management
-    - Security
-    - Business Analysis
+      - Project Management
+      - Project Management
+      - Engineering management
+      - Security
+      - Business Analysis
     languages: Javascript, C++, C#, C
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch career to IT
-    - Switch from IC to management position
-    - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+      - Switch from IC to management position
+      - Change specialisation within IT
     extra: |
       - Technology Architecture & Strategy, 
       - Career Growth, Leadership & Soft Skills
       - Job Market Readiness, and Brand Building
   network:
-  - linkedin: https://www.linkedin.com/in/narmada-nannaka/
-  - website: https://narmadanannaka.com/
+    - linkedin: https://www.linkedin.com/in/narmada-nannaka/
+    - website: https://narmadanannaka.com/
 
 - name: Bianca Stratulat
   disabled: false
@@ -2728,22 +2728,22 @@
       I’m looking for a mentee who is committed to transitioning into the data world, focused on building strong foundations, and curious enough to enjoy the learning journey.
       Someone who is proactive, open to feedback, and excited about exploring the possibilities in data engineering and analytics.
     areas:
-    - Data Engineering
-    - Data Science
-    - Machine Learning
-    - Project Management
-    - Business Analysis
+      - Data Engineering
+      - Data Science
+      - Machine Learning
+      - Project Management
+      - Business Analysis
     languages: Python, Scala
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
-    - Switch career to IT
-    - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Change specialisation within IT
+      - Switch career to IT
+      - Switch from IC to management position
     extra: Data Engineering Coaching & Mentoring (building skills, career progression, and best practices); Transitioning to a Data Engineering Role (guidance for professionals moving into data roles); Power BI & Databricks Expertise (technical deep dives and practical use cases); Interview Preparation (technical interviews, leadership interviews, and confidence building); Career Development in Data & AI (navigating certifications, building a personal brand, and growing as a leader).
   network:
-  - linkedin: https://www.linkedin.com/in/bianca-stratulat/
-  - medium: https://medium.com/@biancadoesdata
+    - linkedin: https://www.linkedin.com/in/bianca-stratulat/
+    - medium: https://medium.com/@biancadoesdata
 
 - name: Tatiana Popova
   disabled: false
@@ -2766,20 +2766,20 @@
     mentee: |
       I’m looking for a mentee who is goal-driven and eager to transition from manual QA to test automation. Someone who’s willing to put in consistent effort, ask questions, and apply what they learn through hands-on practice.
     areas:
-    - QA
-    - Backend Developer
+      - QA
+      - Backend Developer
     languages: Java, Python
     focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch career to IT
-    - Switch from IC to management position
-    - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch career to IT
+      - Switch from IC to management position
+      - Change specialisation within IT
     extra: |
       - Supporting manual QA engineers in transitioning to test automation and software development.
   network:
-  - linkedin: https://www.linkedin.com/in/tatiana-popova-30700b61?trk=contact-info
-  - github: https://github.com/tpopova13x
+    - linkedin: https://www.linkedin.com/in/tatiana-popova-30700b61?trk=contact-info
+    - github: https://github.com/tpopova13x
 
 - name: Ilayda Yilmaz
   disabled: false
@@ -2807,22 +2807,22 @@
       I'm looking for a mentee who is curious, motivated, and open to feedback. Ideally, someone who is either transitioning into the data field or already on their way and looking for guidance on how to grow.
       I’d love to work with someone who’s willing to explore ideas, ask questions, and take initiative in their learning journey.
     areas:
-    - Data Science
-    - Machine Learning
-    - Backend Developer
-    - Data Engineering
-    - Product Management
+      - Data Science
+      - Machine Learning
+      - Backend Developer
+      - Data Engineering
+      - Product Management
     languages: Python, Java
     focus:
-    - Switch career to IT
-    - Change specialisation within IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch from IC to management position
-    - Grow beyond senior level
+      - Switch career to IT
+      - Change specialisation within IT
+      - Grow from beginner to mid-level
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
+      - Grow beyond senior level
     extra: Focus areas for aspiring data scientists; transitioning into data science, building a roadmap, preparing for technical interviews, optimizing resume/LinkedIn, creating and showcasing portfolio projects, and communicating insights effectively.
   network:
-  - linkedin: https://www.linkedin.com/in/ilayda-yilmaz/
+    - linkedin: https://www.linkedin.com/in/ilayda-yilmaz/
 
 - name: Damola Taiwo
   disabled: false
@@ -2848,16 +2848,16 @@
     mentee: |
       I’m looking for mentees who are actively job hunting and need guidance through the process, beginners in tech who want support in learning and mastering the fundamentals, and junior frontend developers seeking advice on advancing their skills and progressing to the next stage of their careers
     areas:
-    - Frontend Developer
-    - Fullstack Developer
+      - Frontend Developer
+      - Fullstack Developer
     languages: JavaScript
     focus:
-    - Grow from beginner to mid-level
-    - Change specialisation within IT
-    - Switch career to IT
+      - Grow from beginner to mid-level
+      - Change specialisation within IT
+      - Switch career to IT
     extra: Frontend career prep; system design strategies, technical interview preparation, resume review, and transitioning into frontend development.
   network:
-  - linkedin: https://www.linkedin.com/in/badmus-damola-taiwo-643438158/
+    - linkedin: https://www.linkedin.com/in/badmus-damola-taiwo-643438158/
 
 - name: Dan Antonela
   disabled: false
@@ -2882,19 +2882,19 @@
     mentee: |
       I’m looking to mentor individuals who are eager to grow their careers in the data field, open to feedback, and committed to putting learning into action. I value mentees with a curious mindset, a strong willingness to learn, and the motivation to explore new challenges. A growth mindset, reliability, and a proactive attitude are essential—I’ll provide guidance and support, but real progress comes from those who take initiative, follow through, and are ready to push themselves.
     areas:
-    - Data Engineering
-    - Data Science
+      - Data Engineering
+      - Data Science
     languages: JavaScript, Python
     focus:
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
     extra: |
       Data engineering best practices; Data architecture design and implementation; Transitioning from on-premises to cloud solutions (with focus on Databricks);
       Growing from junior to mid-level; Growing from mid-level to senior-level; Career development and strategic planning in data roles;
       Technology architecture & strategy; Career growth  & soft skills; Navigating the job market and building a professional brand; Effective communication in technical teams
   network:
-  - linkedin: https://www.linkedin.com/in/morar-antonela
+    - linkedin: https://www.linkedin.com/in/morar-antonela
 
 - name: Mudit Maheshwari
   disabled: false
@@ -2918,23 +2918,23 @@
     mentee: |
       Passionate , Patient , Hunger to learn
     areas:
-    - QA
-    - DevOps
-    - Fullstack Developer
-    - Data Science
-    - Data Engineering
+      - QA
+      - DevOps
+      - Fullstack Developer
+      - Data Science
+      - Data Engineering
     languages: Javascript, Java, C++, C
     focus:
-    - Grow from beginner to mid-level
-    - Grow beyond senior level
-    - Change specialisation within IT
-    - Grow from mid-level to senior-level
-    - Switch from IC to management position
+      - Grow from beginner to mid-level
+      - Grow beyond senior level
+      - Change specialisation within IT
+      - Grow from mid-level to senior-level
+      - Switch from IC to management position
     extra: |
       Resume Review , Latest testing tools, Top trending tech
   network:
-  - linkedin: https://www.linkedin.com/in/maheshwarimudit/
-  - medium: https://medium.com/@mudit94
+    - linkedin: https://www.linkedin.com/in/maheshwarimudit/
+    - medium: https://medium.com/@mudit94
 
 - name: Anh Vu
   disabled: false
@@ -2958,17 +2958,17 @@
     mentee: |
       Self starters, emotionally intelligent, women of color.
     areas:
-    - DevOps
-    - Distributed Systems
-    - Network Engineering
-    - Project Management
-    - Security
+      - DevOps
+      - Distributed Systems
+      - Network Engineering
+      - Project Management
+      - Security
     languages: Python
     focus:
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    - Switch career to IT
+      - Grow from mid-level to senior-level
+      - Grow from beginner to mid-level
+      - Switch career to IT
     extra: |
       Prep for technical interview, resume feedback, technical mentorship, navigating interpersonal relationships in the workplace, career development.
   network:
-  - linkedin: https://www.linkedin.com/in/anh-vu-5484bbab/
+    - linkedin: https://www.linkedin.com/in/anh-vu-5484bbab/
