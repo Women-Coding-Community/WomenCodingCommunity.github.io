@@ -70,7 +70,7 @@
 - name: Adriana Zencke Zimmermann
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   num_mentee: 1
   hours: 2
   bio: |
@@ -81,7 +81,7 @@
   type: both
   index: 3
   languages: Portuguese, English
-  availability: [10]
+  availability: []
   skills:
     experience: 10-15 years
     years: 15
@@ -1618,7 +1618,7 @@
 - name: Samuela Smolorz
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   num_mentee: 1
   hours: 2
   type: both
@@ -1630,7 +1630,7 @@
   image: |
     assets/images/mentors/samuela_smolorz.jpeg
   languages: English, Polish
-  availability: [10]
+  availability: []
   skills:
     experience: 2-4 Years
     years: 4
