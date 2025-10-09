@@ -1449,3 +1449,22 @@
     path: https://www.meetup.com/women-coding-community/events/311327586/
     title: View meetup event
     target: _target
+
+- title: |
+    Vibe Coding: The Future of Building with AI
+  description: |
+    Coding is evolving  and the future belongs to those who know how to harness AI-powered tools.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: TUE, NOV 04, 2025
+  expiration: "20251104"
+  host: ""
+  speaker: ""
+  time: 06:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/4/5/a/a/600_530597834.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311309899/
+    title: View meetup event
+    target: _target
