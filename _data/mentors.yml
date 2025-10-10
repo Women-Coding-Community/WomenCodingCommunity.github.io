@@ -203,7 +203,7 @@
 - name: Madhura Chaganty
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   hours: 2
   type: ad-hoc
   index: 7
@@ -215,7 +215,7 @@
   image: assets/images/mentors/madhura_chaganty.jpeg
   location: United Kingdom
   languages: English
-  availability: [10]
+  availability: []
   skills:
     experience: 16+ Years
     years: 16
