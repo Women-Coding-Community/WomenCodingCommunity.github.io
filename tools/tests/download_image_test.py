@@ -66,7 +66,7 @@ class TestDownloadImage:
 class TestRunAutomation:
     def test_run_automation_success(self, tmp_path, monkeypatch, caplog):
         caplog.set_level("INFO")
-        monkeypatch.setattr(sys, "argv", ["download_image.py", "samples/mentors.xlsx"])
+        monkeypatch.setattr(sys, "argv", ["download_image.py", "tools/samples/mentors.xlsx"])
 
         fake_path = str(tmp_path / "success-download.jpeg")
         monkeypatch.setattr(download_image, "download_image", mock.Mock(return_value=fake_path))
@@ -78,7 +78,7 @@ class TestRunAutomation:
 
     def test_run_automation_failure(self, monkeypatch, caplog):
         caplog.set_level("INFO")
-        monkeypatch.setattr(sys, "argv", ["download_image.py", "samples/mentors.xlsx"])
+        monkeypatch.setattr(sys, "argv", ["download_image.py", "tools/samples/mentors.xlsx"])
         monkeypatch.setattr(download_image, "download_image", mock.Mock(return_value=None))
 
         download_image.run_automation()
