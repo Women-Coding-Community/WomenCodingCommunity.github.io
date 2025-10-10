@@ -20,7 +20,7 @@
       date-f: 28 June 2024
       feedback: Sonali answered all my questions patiently and provided with a lot of valuable insights on how to prepare and approach for a job search. She shared some resources helpful for upskilling. She also provided some great tips for personal time management and work-life balance.
       name: Rajashree Munoli
-      type: Ad-Hoc            
+      type: Ad-Hoc
     - score: 5
       date: 20240906
       date-f: 06 September 2024
@@ -36,7 +36,7 @@
     - score: 5
       date: 20250606
       date-f: 06 June 2025
-      feedback: Sonali gave me really good advice about how to approach being in a new backend team that wasn't turning out exactly as I had had expected, and how to go about job hunting when I am in this transitional state of moving from front end to backend. 
+      feedback: Sonali gave me really good advice about how to approach being in a new backend team that wasn't turning out exactly as I had had expected, and how to go about job hunting when I am in this transitional state of moving from front end to backend.
       name: Anonymous
       type: Ad-Hoc
     - score: 5
@@ -50,6 +50,13 @@
       date: 20250714
       date-f: 14 July 2025
       name: Kaushiki Agrawal
+      type: Ad-Hoc
+    - score: 5
+      feedback: |
+        It was an absolute pleasure to have the mentorship session with Sonali. She was incredibly attentive to my questions and took the time to address each one with great patience and insight. I truly appreciated how she didn't rush through the discussion, ensuring the session was meaningful and helpful for me.
+      date: 20251009
+      date-f: 10 October 2025
+      name: Niharika Patel
       type: Ad-Hoc
 
 - index: 21 # Adeola
@@ -91,7 +98,7 @@
       date-f: 27 May 2024
       feedback: I booked this session with him to get his opinions on an application I was preparing for because he had experience with it. He was able to share examples from his own experience to further guide me, he also suggested some tips to keep in mind and shared some resources to explore. I'm glad I had the session and I look forward to booking more sessions to continue to seek his advice.
       name: Airat Yusuff
-      type: Ad-Hoc      
+      type: Ad-Hoc
 
 - index: 31 # Bryan
   feedback:
@@ -505,7 +512,7 @@
     - score: 5
       feedback: |
         She gave clear steps to help with job searching, advised on things to be doing daily, and encouraged to start a project(s) for continued development. This has helped me to set manageable goals and focus my attention appropriately. 
-        It has been reassuring and encouraging, making me less overwhelmed and more excited to get stuck into projects. 
+        It has been reassuring and encouraging, making me less overwhelmed and more excited to get stuck into projects.
       date-f: 10 July 2025
       date: 20250710
       name: Sarah Larkin
