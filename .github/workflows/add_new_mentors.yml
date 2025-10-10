@@ -3,9 +3,6 @@ name: Add Newly Accepted Mentors
 on:
   workflow_dispatch:
     inputs:
-      file_id:
-        description: "Google Drive file ID of the Excel sheet with the new mentors data"
-        required: true
       current_period:
         description: "Current period (specify \"long-term\" if during long-term mentorship registration; otherwise, default is used)"
         required: false
@@ -45,7 +42,7 @@ jobs:
 
       - name: Download spreadsheet from Google Drive
         run: |
-          rclone backend copyid gdrive: ${{ github.event.inputs.file_id }} tools/samples/new_mentors.xlsx
+          rclone backend copyid gdrive: ${{ secrets.NEW_MENTORS_FILE_ID }} tools/samples/new_mentors.xlsx
 
       - name: Run scripts to append new mentors to mentors.yml and download their profile picture(s)
         run: |
