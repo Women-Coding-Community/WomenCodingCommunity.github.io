@@ -64,25 +64,25 @@ class TestDownloadImage:
 
 
 class TestRunAutomation:
-    def test_run_automation_success(self, tmp_path, monkeypatch, capsys):
-        monkeypatch.setattr(sys, "argv", ["download_image.py", "https://example.com/test.jpg", "Charlie"])
+    def test_run_automation_success(self, tmp_path, monkeypatch, caplog):
+        caplog.set_level("INFO")
+        monkeypatch.setattr(sys, "argv", ["download_image.py", "samples/mentors.xlsx"])
 
-        fake_path = str(tmp_path / "charlie.jpeg")
+        fake_path = str(tmp_path / "success-download.jpeg")
         monkeypatch.setattr(download_image, "download_image", mock.Mock(return_value=fake_path))
 
         download_image.run_automation()
 
-        captured = capsys.readouterr()
-        assert "Image saved to" in captured.out
-        download_image.download_image.assert_called_once()
+        assert "Successfully downloaded 2 images." in caplog.text
+        assert "Image download process completed." in caplog.text
 
-    def test_run_automation_failure(self, monkeypatch, capsys):
-        monkeypatch.setattr(sys, "argv", ["download_image.py", "https://example.com/fail.jpg", "David"])
+    def test_run_automation_failure(self, monkeypatch, caplog):
+        caplog.set_level("INFO")
+        monkeypatch.setattr(sys, "argv", ["download_image.py", "samples/mentors.xlsx"])
         monkeypatch.setattr(download_image, "download_image", mock.Mock(return_value=None))
 
         download_image.run_automation()
-        captured = capsys.readouterr()
-        assert "Failed to download the image." in captured.out
+        assert "Successfully downloaded 0 images." in caplog.text
 
     def test_run_automation_no_args(self, monkeypatch, caplog):
         monkeypatch.setattr(sys, "argv", ["download_image.py"])
@@ -90,4 +90,4 @@ class TestRunAutomation:
 
         download_image.run_automation()
 
-        assert "Add parameters for download" in caplog.text
+        assert "Script needs 1 parameter (xlsx_file_path) to run" in caplog.text
