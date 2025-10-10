@@ -1,9 +1,8 @@
 ## How to Run Python Scripts
 
-There are two automation scripts:
-1) `automation.py`: appends new mentors in `samples/mentors.xslx` to `_data/mentor.yml`
+1) `automation_mentors.py`: appends new mentors in `samples/mentors.xslx` to `_data/mentor.yml` (or updates all existing mentors if using WRITE mode)
 
-2) `download_image.py`: downloads image from a specified URL and saves in `assets/images/mentors`
+2) `download_image.py`: downloads image for each mentor from a specified URL and saves in `assets/images/mentors`. It uses data from `samples/mentors.xlsx` sheetname `Mentors Images`.
 
 3) `meetup_import.py`: imports new upcoming events from the WCC MeetUp page using the iCal feed: https://www.meetup.com/women-coding-community/events/ical/
 
@@ -17,21 +16,32 @@ python 3.11 or above
 
 ### How to Execute on Mac
 
-#### A) `automation.py`
+#### A) `automation_mentors.py`
 
 ```shell
-sh run_automation.sh
+sh run_mentor_automation.sh
 ```
-**Note:** 
-- Ensure to update `mentors.xslx` with the new spreadsheet containing the mentors to be added, **OR** 
-- adjust the `FILE_PATH_MENTORS_XLSX` parameter in [the script](run_automation.sh) to match the file path for the new spreadsheet.
+**Notes:**  
+If running locally:
+- Ensure to update `mentors.xslx` sheetname: `WCC All Approved Mentors` with new data containing the mentors to be added, **OR** 
+- If using another file source, adjust the `FILE_PATH_MENTORS_XLSX` parameter in [the script](run_mentor_automation.sh) to match the file path.
+- If running this script during long-term registration period, adjust the `CURRENT_PERIOD` parameter in [the script](run_mentor_automation.sh) to "long-term"
+
+- After running the script, you **HAVE** to run the [run_download_automation script](run_download_automation.sh) to download images for the new mentors. Else, the image links will be broken as they do not exist yet. Read the instructions for the download script usage below.
+
+**If using GitHub Actions**, the GHA workflow is **ONLY** for adding new mentors.
+It uses a Google Cloud service account setup to retrieve the Excel file from Google Drive. The service key has been configured for womencodingcommunity Google Drive account and the file to be used/updated has been shared with the service account email.
+  Hence, to run the GHA workflow, you only need to provide:
+  - the file ID for the excel sheet to use
+  - (Optional) the current period
+
+For more information on the GC service account configurations, you can read the [documentation](blog_automation/README.md) in the blog automation folder.
 
 
 #### B) `download_image.py`
 
-**Before running the script, make sure** to update the `IMAGE_URL` and `MENTOR_NAME` parameters in the [run_download_automation script](run_download_automation.sh) with:
-- the URL you want to download the mentor's image from, **AND**
-- the mentor's name as it appears in the spreadsheet e.g 'Adriana Zencke'
+**Before running the script, make sure** to update `mentors.xslx` sheetname: `Mentors Images` with the data for the new mentors that you want to download their images
+If you want to use another file source, adjust `XLSX_FILE_PATH` parameter in the [script](run_download_automation.sh) to match the file path.
 
 You can then run: 
 ```shell
