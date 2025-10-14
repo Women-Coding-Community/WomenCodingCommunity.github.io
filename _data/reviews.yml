@@ -566,3 +566,25 @@
       date: 20250914
       name: Nino Godoradze
       type: Ad-Hoc
+
+- index: 84 # Dan
+  feedback:
+    - score: 5
+      date: 20251014
+      date-f: 14 October 2025
+      feedback: |
+        I really enjoyed our session and I realized how important and useful it was ! It made me more confident in trying and learning new things.
+        My mentor was really nice and I look forward to her guidance!
+      name: Peter Alexia
+      type: Ad-Hoc
+
+- index: 85 # Mudit
+  feedback:
+    - score: 5
+      date: 20251013
+      date-f: 13 October 2025
+      feedback: |
+        He reviewed my CV and provided review comments which will help me with my job applications. Also, he has suggested few Testing Communities and Conferences I can attend for networking, this will also help me with my job search.
+        I am genuinely grateful for his support in my job search. He is approachable, listens carefully, and tailors guidance to mentees goals. Coming from the same software testing field, he offered concrete technical help with portfolio-ready project tips like creating a mobile testing project and an AI-testing experiment.Also, for non-technical support he guided me with CV/LinkedIn reviews, interview prep, networking tips. His feedback was actionable, timely, and boosted my confidence and focus.
+      name: Pranita Panse
+      type: Ad-Hoc
