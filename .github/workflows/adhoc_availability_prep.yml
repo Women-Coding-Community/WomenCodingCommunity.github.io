@@ -6,9 +6,6 @@ on:
       month:
         description: "Month number (e.g. 10 for October)"
         required: true
-      file_id:
-        description: "Google Drive file ID of the Excel sheet with the availabilities"
-        required: true
 
 jobs:
   update-mentors:
@@ -44,7 +41,7 @@ jobs:
 
       - name: Download spreadsheet from Google Drive
         run: |
-          rclone backend copyid gdrive: ${{ github.event.inputs.file_id }} tools/adhoc.xlsx
+          rclone backend copyid gdrive: ${{ secrets.ADHOC_AVAILABILITIES_FILE_ID }} tools/adhoc.xlsx
 
       - name: Run script
         run: |
