@@ -177,6 +177,13 @@
         Her technical expertise in tools like Postman and Playwright is excellent, and I have found her guidance to be extremely beneficial.
       name: Anonymous
       type: Long Term Mentorship
+    - score: 5
+      date: 20251023
+      date-f: 23 October 2025
+      feedback: |
+        The session went very well. The mentor gave me useful advice on how to improve my LinkedIn profile, highlighted the areas I should pay more attention to, suggested further steps in my job search, and we discussed what additional information I could include.
+      name: Antonina Puliavina
+      type: Ad-Hoc
 
 - index: 40 # Fernanda
   feedback:
@@ -227,6 +234,18 @@
         yes , I had a specific question about my career and wanted advice.
       name: Anonymous
       type: Ad-Hoc
+    - score: 5
+      date: 20251024
+      date-f: 24 October 2025
+      feedback: |
+        The WCC mentorship programme has been a turning point in my career journey, and Rajani has been instrumental in that transformation. Coming from 10 years of experience in engineering services in project management support and data analysis (mainly in Excel), I was not from a software development background. After taking a career break to focus on family, my confidence took a dip. Although I completed MS Power BI and PSM1 certifications and began learning Python and SQL, I was not very clear on how to progress and improve my programming skills in the right way.
+        Rajani first worked with me to understand my aspirations and challenges. She helped me recognise that many of the personal challenges I perceived were rooted in self-limiting beliefs. She guided me to shift my mindset, build supportive habits, and approach my goals with clarity and confidence. She has a rare gift for getting to the root of a problem with just a few words. A single question from her during our first call completely reframed how I viewed my self-worth after a long break. It was a true breakthrough moment.
+        Along with mindset evolution, Rajani provided clear direction in rebuilding my tech foundation. She guided me on strengthening programming and SQL skills through consistent practice, revisiting core CS and DSA concepts, and using resources like LeetCode and CS50 effectively. She also encouraged me to invest in personal branding and networking, both online and in person, to increase visibility with recruiters and the tech community.
+        Her mentorship extended into hands-on Agile experience as well. She helped me deepen my understanding of Agile and Scrum, shared practical ways to apply these frameworks, and even gave me the opportunity to practice Scrum in her startup, VisionAriser, which significantly boosted my confidence and leadership skills.
+        Rajani has changed the way I see myself, how I respond to challenges, and how I approach both life and career. Her blend of empathy, sharp insight, and actionable guidance makes her a powerful mentor who truly accelerates growth.
+        I am deeply grateful to Rajani and to WCC for creating such an empowering space. This community helped me believe that returning to work was not only possible, but that I could excel and build a meaningful career ahead.
+      name: Rajashree Munoli
+      type: Long Term Mentorship
 
 - index: 11 # Ying
   feedback:
@@ -258,6 +277,13 @@
         Overall, I think she was a great match for me. I have gained valuable learning from her, and it has been a great experience that contributed significantly to my growth on this journey.
       name: Joana
       type: Long Term Mentorship
+    - score: 5
+      date: 20251016
+      date-f: 16 October 2025
+      feedback: |
+        Insights into the role of software engineer in fintech and bank.
+      name: Anonymous
+      type: Ad-Hoc
 
 - index: 3 # Adriana
   feedback:
@@ -572,6 +598,14 @@
       date: 20250812
       name: Zaynah
       type: Ad-Hoc
+    - score: 5
+      feedback: |
+        I received guidance on how to proceed going forward as a I navigate this career shift. The session have me so much confirdence and clarity about my next steps.
+        She is to review my CV offline, so that is where most of the value will come from.
+      date-f: 20 October 2025
+      date: 20251020
+      name: Anonymous
+      type: Ad-Hoc
 
 - index: 82 # Ilayda Yilmaz
   feedback:
@@ -603,3 +637,21 @@
         I am genuinely grateful for his support in my job search. He is approachable, listens carefully, and tailors guidance to mentees goals. Coming from the same software testing field, he offered concrete technical help with portfolio-ready project tips like creating a mobile testing project and an AI-testing experiment.Also, for non-technical support he guided me with CV/LinkedIn reviews, interview prep, networking tips. His feedback was actionable, timely, and boosted my confidence and focus.
       name: Pranita Panse
       type: Ad-Hoc
+
+- index: 50 # Arzu Caner
+  feedback:
+    - score: 5
+      feedback: positive energy
+      date-f: 21 October 2025
+      date: 20251021
+      name: Anyu Lin
+      type: Ad-Hoc
+
+- index: 23 # Nonna Shakhova
+  feedback:
+    - score: 5
+      feedback: My long-term mentorship experience was excellent. Our sessions were consistently productive and insightful. My mentor maintained a positive attitude and always found effective ways to navigate challenges. She was supportive, encouraging, and provided clear guidance throughout the process. Her insights and advice helped me stay motivated and maintain a positive mindset while continuing to learn and grow. I’m very grateful for her time, expertise, and dedication.
+      date-f: 25 October 2025
+      date: 20251025
+      name: Turdugul Okonbaeva
+      type: Long Term Mentorship
