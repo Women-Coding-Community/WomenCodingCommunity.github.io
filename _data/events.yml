@@ -1506,3 +1506,40 @@
     path: https://www.meetup.com/women-coding-community/events/311641238/
     title: View meetup event
     target: _target
+
+- title: Writing Club
+  description: |
+    Welcome to Writing Club!  We are re-launching our popular Writing Club.
+  category_style: writing-club
+  category_name: Writing Club
+  date: THU, NOV 13, 2025
+  expiration: "20251113"
+  host: ""
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/e/0/9/600_530920457.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311706843/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Crush Your Tech Career Goals: An Exclusive Coaching Session with Industry Leads
+  description: |
+    Crush Your Tech Career Goals: An Exclusive Coaching Session with Industry Leaders  Ready to level up your engineering career? Join us for a special coaching session led by two powerhouses in tech:  Rajani Rao  LinkedIn  Principal Technologist at AVEVA, Director of Women Coding Community, and champion for women in innovation.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, NOV 20, 2025
+  expiration: "20251120"
+  host: ""
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/3/f/7/5/600_530956245.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311721631/
+    title: View meetup event
+    target: _target
