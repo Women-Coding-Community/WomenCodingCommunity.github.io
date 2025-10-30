@@ -1,7 +1,7 @@
 - name: Eleonora Belova
   disabled: false
   sort: 200
-  hours: 3
+  hours: 2
   position: Test Automation Engineer, IBM Security
   type: both
   index: 1
@@ -12,7 +12,7 @@
     Moreover, I am eager to help individuals start their journey in software testing. I can share industry knowledge, assist in reviewing your CV, and provide guidance on various related topics.
   image: assets/images/mentors/eleonora_belova.jpeg
   languages: English
-  availability: [10]
+  availability: [11]
   skills:
     experience: 2-4 years
     years: 4
@@ -45,7 +45,7 @@
   image: assets/images/mentors/rajani_rao.jpeg
   location: Cambridge, UK
   languages: English
-  availability: [10]
+  availability: [11]
   skills:
     experience: 16+ years
     years: 16
@@ -70,7 +70,7 @@
 - name: Adriana Zencke Zimmermann
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
   hours: 2
   bio: |
@@ -81,7 +81,7 @@
   type: both
   index: 3
   languages: Portuguese, English
-  availability: []
+  availability: [11]
   skills:
     experience: 10-15 years
     years: 15
@@ -410,7 +410,7 @@
     Mentoring energises me and aligns with my purpose. I have successfully changed careers and can help you do the same. I aim to help juniors enter the IT workplace, stay there comfortably, and advance their careers when the time is right. But my support doesn’t stop there—I also guide mid-level professionals on their journey to senior roles and help seniors transition into Tech Lead, Engineering Manager, or Staff Engineer positions. No matter where you are in your IT career, I can provide the support and guidance you deserve to achieve your career goals.
   image: assets/images/mentors/ana_nogal.jpg
   languages: English, Spanish, Portuguese
-  availability: [10]
+  availability: [11]
   skills:
     experience: 16+ Years
     years: 16
@@ -618,7 +618,7 @@
 
 - name: Andrew King
   disabled: false
-  sort: 500
+  sort: 100
   hours: 4
   position: DevOps Engineer, DRW
   type: ad-hoc
@@ -628,7 +628,7 @@
     Over 30 years in commercial IT, 40 years of coding experience, 20 years in financial firms. Know how to manage, manage up, team building, finding team fit. Many years of experience interviewing (on both side of the table).
   image: assets/images/mentors/andrew_king.jpeg
   languages: English
-  availability: [10]
+  availability: []
   skills:
     experience: 16+ years
     years: 16
@@ -976,7 +976,7 @@
   image: assets/images/mentors/bryan_boreham.jpeg
   location: London, UK
   languages: English
-  availability: [10]
+  availability: [11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1296,7 +1296,7 @@
     I am community-driven: I have presented at conferences, contributed to open source and like sharing knowledge.
   image: assets/images/mentors/fernanda_martins.jpg
   languages: English, Portuguese
-  availability: [10]
+  availability: [11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1331,7 +1331,7 @@
     🥶 Also, if you get frozen solid when doing test automation, I also offer an guidance on automated testing where we can deep-dive into the code of your choice together.
   image: assets/images/mentors/gabriel_oliveira.jpg
   languages: English, Portuguese
-  availability: [10]
+  availability: [11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -1591,7 +1591,7 @@
     Currently working as Lead Engineer for Hubspot. I have 12 years for Software development experience (Backend and Fullstack). I have worked with tech giants for 7 years - Microsoft, Expedia, Salesforce and have worked in startup industry for 5 years. Hence i understand working in both in environments. I have worked with wide variety of technologies - Java, AWS, Azure, Python, Distributed systems, Scaling applications.
   image: assets/images/mentors/prerna_singhal.jpg
   languages: English
-  availability: [10]
+  availability: [11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1618,7 +1618,7 @@
 - name: Samuela Smolorz
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
   hours: 2
   type: both
@@ -1630,7 +1630,7 @@
   image: |
     assets/images/mentors/samuela_smolorz.jpeg
   languages: English, Polish
-  availability: []
+  availability: [11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1662,7 +1662,7 @@
 - name: Arzu Caner
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   hours: 3
   type: ad-hoc
   index: 50
@@ -1677,7 +1677,7 @@
   image: |
     assets/images/mentors/arzu_caner.jpeg
   languages: English, Turkish
-  availability: []
+  availability: [11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1711,7 +1711,7 @@
   image: |
     assets/images/mentors/prabha_venkatesh.jpeg
   languages: English
-  availability: [10]
+  availability: [11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1808,7 +1808,7 @@
 - name: Ima-Abasi Effiong
   disabled: false
   matched: false
-  sort: 100
+  sort: 500
   hours: 5
   type: both
   index: 54
@@ -1819,7 +1819,7 @@
   image: |
     assets/images/mentors/ima-abasi_effiong.jpeg
   languages: English
-  availability: []
+  availability: [11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1840,9 +1840,9 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
-  hours: 1
+  hours: 2
   type: both
   index: 55
   location: London
@@ -1852,7 +1852,7 @@
   image: |
     assets/images/mentors/lidiane_mayra_taquehara.jpeg
   languages: English, Portuguese
-  availability: []
+  availability: [11]
   skills:
     experience: 7-10 Years
     years: 10
@@ -2205,9 +2205,9 @@
 - name: Sergei Begishev
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
-  hours: 4
+  hours: 2
   bio: |
     I am a product leader with over 5 years of experience in IT, currently serving as Chief Product Officer (CPO) and building upon my engineering foundation. My experience spans both large corporations and startups, with particular strengths in analyzing business data and streamlining operations. My commitment to mentorship grew from helping engineers effectively communicate their business impact, leading me to develop and teach a course that has equipped over 20 engineers with skills to present results confidently and advance their careers. I remain dedicated to expanding this impact by continuing to guide emerging tech professionals in bridging the gap between technical excellence and business success.
   position: Chief Product Officer, Overgear
@@ -2216,7 +2216,7 @@
   type: both
   index: 65
   languages: English, Russian
-  availability: []
+  availability: [11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -2273,9 +2273,9 @@
 - name: Sebastian Castro
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   num_mentee: 1
-  hours: 4
+  hours: 2
   type: both
   index: 67
   location: Boston, MA, USA
@@ -2285,7 +2285,7 @@
   image: |
     assets/images/mentors/sebastian_castro.jpeg
   languages: English, Spanish
-  availability: []
+  availability: [11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -2346,7 +2346,7 @@
 - name: Sonika Janagill
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   num_mentee: 1
   hours: 2
   type: both
@@ -2360,7 +2360,7 @@
   image: |
     assets/images/mentors/sonika_janagill.jpeg
   languages: English, Hindi, Punjabi
-  availability: [10]
+  availability: []
   skills:
     experience: 16+ Years
     years: 16
@@ -2631,7 +2631,7 @@
 - name: Udeme Jalekun
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   hours: 2
   type: ad-hoc
   index: 78
@@ -2644,7 +2644,7 @@
   image: |
     assets/images/mentors/udeme_jalekun.jpeg
   languages: English
-  availability: []
+  availability: [11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -2704,8 +2704,8 @@
 - name: Bianca Stratulat
   disabled: false
   matched: false
-  sort: 100
-  hours: 3
+  sort: 200
+  hours: 2
   type: both
   index: 80
   location: Cambridge, UK
@@ -2720,7 +2720,7 @@
   image: |
     assets/images/mentors/bianca_stratulat.jpg
   languages: English, Romanian
-  availability: []
+  availability: [11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -2784,7 +2784,7 @@
 - name: Ilayda Yilmaz
   disabled: false
   matched: false
-  sort: 100
+  sort: 200
   hours: 2
   type: both
   index: 82
@@ -2799,7 +2799,7 @@
   image: |
     assets/images/mentors/ilayda.png
   languages: English, Turkish
-  availability: []
+  availability: [11]
   skills:
     experience: 4-5 Years
     years: 5
@@ -2827,8 +2827,8 @@
 - name: Damola Taiwo
   disabled: false
   matched: false
-  sort: 100
-  hours: 4
+  sort: 200
+  hours: 2
   type: both
   index: 83
   location: London, UK
@@ -2841,7 +2841,7 @@
   image: |
     assets/images/mentors/damola.jpg
   languages: English
-  availability: []
+  availability: [11]
   skills:
     experience: 4-5 Years
     years: 5
@@ -2862,7 +2862,7 @@
 - name: Dan Antonela
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   hours: 3
   type: both
   index: 84
@@ -2875,7 +2875,7 @@
   image: |
     assets/images/mentors/antonela.jpeg
   languages: English, Romanian
-  availability: [10]
+  availability: []
   skills:
     experience: 10-15 Years
     years: 15
@@ -2899,7 +2899,7 @@
 - name: Mudit Maheshwari
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 4
   hours: 2
   type: both
@@ -2911,7 +2911,7 @@
   image: |
     assets/images/mentors/mudit_maheshwari.jpeg
   languages: English
-  availability: [10]
+  availability: []
   skills:
     experience: 5-7 Years
     years: 7
@@ -2939,7 +2939,7 @@
 - name: Anh Vu
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 3
   hours: 3
   type: both
@@ -2951,7 +2951,7 @@
   image: |
     assets/images/mentors/anh_vu.jpeg
   languages: English
-  availability: [10]
+  availability: []
   skills:
     experience: 7-10 Years
     years: 10
