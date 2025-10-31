@@ -2972,3 +2972,46 @@
       Prep for technical interview, resume feedback, technical mentorship, navigating interpersonal relationships in the workplace, career development.
   network:
   - linkedin: https://www.linkedin.com/in/anh-vu-5484bbab/
+
+- name: Tuğçe Kızılçakar
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 2
+  hours: 5
+  type: both
+  index: 87
+  location: Istanbul
+  position: Technical Product Manager
+  bio: |
+    With more than 10 years in tech and product management, I’ve worked on mobile payment products and agile transformation projects that reached millions of users. I enjoy helping teams improve their delivery processes and supporting young professionals who want to grow in product and tech. I’ve also mentored in several startup and education programs, sharing both technical and leadership experience.
+  image: |
+    assets/images/mentors/tuğçe_kızılçakar.jpeg
+  languages: English, Turkish
+  availability: [10, 11]
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      I’m looking for mentees who are passionate about growing in tech or product management — whether they’re just starting out or already have some experience. I enjoy supporting women who are curious, open to learning, and ready to take the next step in their careers. My goal is to help them gain confidence, structure their growth, and feel empowered in the tech world.
+    areas:
+    - Product Management
+    - Business Analysis
+    - QA
+    - Project Management
+    - Data Science
+    languages: ''
+    focus:
+    - Switch career to IT
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Grow beyond senior level
+    - Change specialisation within IT
+    extra: |
+      Agile & Scrum fundamentals for product and engineering teams
+
+      Mobile app product lifecycle and MVP planning
+
+      Communication and collaboration with technical teams
+  network:
+  - linkedin: https://www.linkedin.com/in/tu%C4%9F%C3%A7e-k%C4%B1z%C4%B1l%C3%A7akar-535a1a4b/
