@@ -2633,14 +2633,13 @@
   matched: false
   sort: 200
   hours: 2
-  type: ad-hoc
+  type: both
   index: 78
-  location: Nigeria, Lagos
-  position: Software QA Engineer, Raenest
+  location: Blackpool, United Kingdom
+  position: Quality Assurance Engineer, Raenest
   bio: |
-    I am a software quality assurance engineer with over 8 years of experience working in IT across FinTech and Social applications and 6 of it as a QA engineer. 
-    Beyond her technical abilities, Udeme is also a dedicated leader, actively nurturing talents through mentorship, coaching and structured training programs. 
-    I am currently serve as the director of professional training and development at the Association of Nigerian Software Testers (ANST), she plays a pivotal role in equipping the next generation of QA professionals with industry-relevant skills and knowledge.
+    I am a software quality assurance engineer with over 8 years of experience working in Information technology across EdTech, FinTech, and Social applications.
+    Beyond my technical abilities, I am also a dedicated leader, actively nurturing talents through mentorship, coaching, and structured training programs. 
   image: |
     assets/images/mentors/udeme_jalekun.jpeg
   languages: English
@@ -2649,14 +2648,25 @@
     experience: 5-7 Years
     years: 7
     mentee: |
-      Newbies to tech or transitioning from a non-tech role into QA
+      I am looking for a mentee who is curious, motivated, and open to feedback. If you are looking to transition into tech but do not know where to begin or what to pick, I can help guide you to choose a path that aligns with your areas of strength. 
+      And if you are considering transitioning from a non-tech background into quality assurance and software testing, then I am your go-to guide.
     areas:
-    - QA
-    languages: Javascript, Python
+    - Software Testing
+    - Quality Assurance
+    - Quality Engineering
+    - Accessibility Testing
+    - Security Testing
+    - Switch careers from a non-tech to a tech role
+    - Pivot to quality assurance and software testing
+    languages: Javascript, Python, Java
     focus:
     - Switch career to IT
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Grow beyond senior level
+    - Switch from IC to management position
     extra: |
-      - Software testing
+      Software testing, quality engineering, career development planning and roadmap setting, team communication, stakeholder management, and security testing.
   network:
   - linkedin: https://www.linkedin.com/in/udeme-jalekun
 
