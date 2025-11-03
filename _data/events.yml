@@ -1543,3 +1543,20 @@
     path: https://www.meetup.com/women-coding-community/events/311721631/
     title: View meetup event
     target: _target
+
+- title: Volunteering at WomenCodingCommunity
+  description: "How you can volunteer: If you share our vision of supporting and uplifting women in tech, we\u2019d love to have you join our volunteer team!   Love connecting with people? Volunteer as an event host and interact with our amazing speakers.\n"
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SUN, NOV 16, 2025
+  expiration: "20251116"
+  host: "Ying Liu and Silke Nodwell"
+  speaker: ""
+  time: 07:30 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/6/2/f/600_530986639.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311715417/
+    title: View meetup event
+    target: _target
