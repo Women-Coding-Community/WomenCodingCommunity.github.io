@@ -1560,3 +1560,22 @@
     path: https://www.meetup.com/women-coding-community/events/311715417/
     title: View meetup event
     target: _target
+
+- title: |
+    January Book Club: Radical Candor
+  description: |
+    Women Coding Community Book Club!  Book: Radical Candor by Kim Scott  If you would like to have a say in our next book club read, do join our channel progbookclub.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, JAN 26, 2026
+  expiration: "20260126"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/c/0/1/4/600_530869172.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311641238/
+    title: View meetup event
+    target: _target
