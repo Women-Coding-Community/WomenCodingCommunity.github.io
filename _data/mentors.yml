@@ -1840,7 +1840,7 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 200
+  sort: 100
   num_mentee: 1
   hours: 2
   type: both
@@ -1852,7 +1852,7 @@
   image: |
     assets/images/mentors/lidiane_mayra_taquehara.jpeg
   languages: English, Portuguese
-  availability: [11]
+  availability: []
   skills:
     experience: 7-10 Years
     years: 10
