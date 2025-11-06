@@ -58,6 +58,13 @@
       date-f: 10 October 2025
       name: Niharika Patel
       type: Ad-Hoc
+    - score: 5
+      feedback: |
+        She introduced me to a new system diagram.
+      date: 20251027
+      date-f: 27 October 2025
+      name: Anonymous
+      type: Ad-Hoc
 
 - index: 21 # Adeola
   feedback:
@@ -129,6 +136,13 @@
       date-f: 22 September 2025
       date: 20250922
       name: Anonymous
+      type: Ad-Hoc
+    - score: 5
+      feedback: |
+        He listened carefully to my situation and offered practical, personalised advice instead of general guidance.
+      date-f: 30 October 2025
+      date: 20251030
+      name: Mehrnaz Kashfi
       type: Ad-Hoc
 
 - index: 19 # Mona
@@ -333,6 +347,21 @@
         My mentor really went above and beyond for me and I am so thankful for their time and generosity. Their vulnerability and honesty in my session really helped me shift my perspective.
       name: Zaynah Ahmed
       type: Ad-Hoc
+    - score: 5
+      date: 20251027
+      date-f: 27 October 2025
+      feedback: |
+        She helped me a lot by reviewing my resume. She dedicated a lot of time to it, which gives me greater confidence in my job search. She also introduced me to the Women Coding Community volunteer program, so I could gain experience and improve my resume.
+      name: Adniloet Sosa
+      type: Ad-Hoc
+    - score: 5
+      date: 20251103
+      date-f: 03 November 2025
+      feedback: |
+        My mentor really took the time to comprehend my mental barriers and gave personalised structure advice to move past them. I appreciated the mentors vulnerability in explaining similar scenarios they had been in to give me a sense of guidance and belonging. 
+        Their kindness and warmth during the session has really helped me to progress in my career due to feeling safe to open up to them.
+      name: Zaynah Ahmed
+      type: Ad-Hoc
 
 - index: 7 # Madhura
   feedback:
@@ -380,6 +409,13 @@
       date-f: 16 September 2025
       date: 20250916
       name: Thuyet Nguyen
+      type: Ad-Hoc
+    - score: 5
+      feedback: |
+        Not yet but it was useful conversatoin.
+      date-f: 27 October 2025
+      date: 20251027
+      name: Hazel Keys
       type: Ad-Hoc
 
 - index: 39 # Busra
@@ -605,6 +641,13 @@
       date-f: 20 October 2025
       date: 20251020
       name: Anonymous
+      type: Ad-Hoc
+    - score: 5
+      feedback: |
+        Prabha Venkatesh is so supportive! She gave me some really good guidance and ideas to work on. Meeting her was such a blessing!
+      date-f: 31 October 2025
+      date: 20251031
+      name: Michelle Jideofor
       type: Ad-Hoc
 
 - index: 82 # Ilayda Yilmaz
