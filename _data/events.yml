@@ -1579,3 +1579,22 @@
     path: https://www.meetup.com/women-coding-community/events/311641238/
     title: View meetup event
     target: _target
+
+- title: |
+    AI Learning Series - Prompt Engineering & Techniques
+  description: |
+    New: AI Learning Series- Prompt Engineering  Techniques (Session-2)  What is covered ?   Master prompt engineering patterns like -  Zero-shot, Few-shot, Chain-of-Thought  Understand prompt injection  Implement content filtering  guardrails  Series Details - A hands-on, 6-week journey where you'll learn to build modern AI applications - chatbots, smart search systems, AI agents, and more.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, NOV 12, 2025
+  expiration: "20251112"
+  host: "Sonika Janagill, Sonali Goel"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/d/9/3/600_531131667.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311861053/
+    title: View meetup event
+    target: _target
