@@ -1598,3 +1598,41 @@
     path: https://www.meetup.com/women-coding-community/events/311861053/
     title: View meetup event
     target: _target
+
+- title: |
+    Christmas Coding Challenge 2025 Kickoff: Unwrap Your Skills!
+  description: |
+    Christmas Coding Challenge 2025   Get ready to sharpen your coding skills this holiday season! Join us for a month-long annual Christmas Coding Challenge!  Whether you're looking to level up in Git, conquer LeetCode problems, improve your self-study habits, or tackle SQL  this challenge is for you.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, NOV 27, 2025
+  expiration: "20251127"
+  host: ""
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/e/f/b/600_531228891.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311940956/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Volunteer with Code Club, empower the next generation
+  description: |
+    Know How To - Volunteer with Code Club, empower the next generation ( partnered with Raspberry Pi Foundation)  What the event is about ? Code Club Community Manager, Steph will provide an introduction to all things Code Club.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, DEC 04, 2025
+  expiration: "20251204"
+  host: "Steph Burton and Sonali Goel"
+  speaker: ""
+  time: 06:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/c/d/d/a/600_531232698.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311943683/
+    title: View meetup event
+    target: _target
