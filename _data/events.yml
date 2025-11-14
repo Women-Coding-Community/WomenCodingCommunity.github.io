@@ -1636,3 +1636,60 @@
     path: https://www.meetup.com/women-coding-community/events/311943683/
     title: View meetup event
     target: _target
+
+- title: |
+    AI Learning Series -  Introduction to RAG
+  description: |
+    AI Learning Series- Introduction to RAG (Retrieval Augmented Generation) (Session-3)  Learning Objectives:   Understand embeddings and vector similarity  Set up a vector database (ChromaDB locally or Vertex AI Vector Search)  Build a simple RAG system  Implement document chunking strategies  Connect retrieval to generation  Series Details - A hands-on, 6-week journey where you'll learn to build modern AI applications - chatbots, smart search systems, AI agents, and more.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, NOV 19, 2025
+  expiration: "20251119"
+  host: "Sonika Janagill, Sonali Goel"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/6/4/7/600_531286663.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311991750/
+    title: View meetup event
+    target: _target
+
+- title: |
+    AI Learning Series - AI Agents - Part 1 - Single Agents
+  description: |
+    AI Learning Series- AI Agents - Part 1 (Single Agents) (Session-4)  Learning Objectives:   Understand agent concepts and architecture  Use Gemini function calling  Give agents tools (web search, APIs, databases)  Handle agent errors and retries  Series Details - A hands-on, 6-week journey where you'll learn to build modern AI applications - chatbots, smart search systems, AI agents, and more.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, NOV 26, 2025
+  expiration: "20251126"
+  host: "Sonika Janagill, Sonali Goel"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/6/5/6/600_531286678.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311991792/
+    title: View meetup event
+    target: _target
+
+- title: |
+    AI Learning Series - AI Agents - Part 2 -Multi-Agents System
+  description: |
+    AI Learning Series- AI Agents - Part 2 (Multi-Agents System) (Session-5)  Learning Objectives:   Design multi-agent architectures  Implement agent-to-agent communication  Coordinate specialised agents  Handle complex workflows with multiple agents  Series Details - A hands-on, 6-week journey where you'll learn to build modern AI applications - chatbots, smart search systems, AI agents, and more.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, DEC 03, 2025
+  expiration: "20251203"
+  host: "Sonika Janagill, Sonali Goel"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/6/9/2/600_531286738.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311991816/
+    title: View meetup event
+    target: _target
