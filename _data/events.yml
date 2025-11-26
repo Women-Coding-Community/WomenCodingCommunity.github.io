@@ -1693,3 +1693,59 @@
     path: https://www.meetup.com/women-coding-community/events/311991816/
     title: View meetup event
     target: _target
+
+- title: |
+    From Brainstorm to Beta: Accelerating MVPs with AI
+  description: |
+    From Brainstorm to Beta: Accelerating MVPs with AI  Turning ideas into working products needs to be quicker and more efficient.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: TUE, DEC 02, 2025
+  expiration: "20251202"
+  host: ""
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/3/d/c/4/600_531375812.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/312066436/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Year-End Celebration: Women Coding Community
+  description: "Year-End Celebration: Women Coding Community   It\u2019s been nearly 2 years of building connections, empowering each other, and growing a vibrant tech community  and now it\u2019s time to celebrate you!  To mark the end of another inspiring year together, we invite you to an exclusive in-person networking evening dedicated to the amazing women who make our coding community shine.\n"
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: FRI, DEC 05, 2025
+  expiration: "20251205"
+  host: ""
+  speaker: ""
+  time: 06:30 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/6/6/5/600_531406693.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/312101413/
+    title: View meetup event
+    target: _target
+
+- title: |
+    UPDATED Nov Book Club: Designing Data-Intensive Applications
+  description: |
+    UPDATE: Date changed from 24 Nov to Dec 15  This book will help yom   Peer under the hood of the systems you already use, and learn how to use and operate them more effectively  Make informed decisions by identifying the strengths and weaknesses of different tools  Navigate the trade-offs around consistency, scalability, fault tolerance, and complexity  Understand the distributed systems research upon which modern databases are built  Peek behind the scenes of major online services, and learn from their architectures  - Goodreads  If you want to have a say in the next book, please join our Slack channel progbookclub! And if you would like to volunteer, do join our volunteering channel bookclubvolunteers.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, DEC 15, 2025
+  expiration: "20251215"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/3/4/d/b/600_529753531.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310632593/
+    title: View meetup event
+    target: _target
