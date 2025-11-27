@@ -1749,3 +1749,22 @@
     path: https://www.meetup.com/women-coding-community/events/310632593/
     title: View meetup event
     target: _target
+
+- title: |
+    AI Learning Series - LLM evaluations & ADK agents deployment
+  description: |
+    AI Learning Series- LLM evaluations  ADK agents deployment (Session-6)  Learning Objectives:   Implement LLM evaluation metrics  Create deployment pipeline  Series Details - A hands-on, 6-week journey where you'll learn to build modern AI applications - chatbots, smart search systems, AI agents, and more.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, DEC 10, 2025
+  expiration: "20251210"
+  host: "Sonika Janagill, Sonali Goel"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/a/c/e/600_531503246.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/312187011/
+    title: View meetup event
+    target: _target
