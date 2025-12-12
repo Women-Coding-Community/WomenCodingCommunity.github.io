@@ -1787,3 +1787,21 @@
     path: https://www.meetup.com/women-coding-community/events/312187011/
     title: View meetup event
     target: _target
+
+- title: |
+    Build Better Flows, Reduce Bugs, Think Like a Product Person
+  description: "Understanding user journeys is one of the most powerful skills you can develop  whether you\u2019re a software developer, a future Product Manager, or someone transitioning into tech.\n"
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, JAN 07, 2026
+  expiration: "20260107"
+  host: ""
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/4/2/7/8/600_531737016.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/312393688/
+    title: View meetup event
+    target: _target
