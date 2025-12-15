@@ -607,6 +607,13 @@
       date: 20250731
       name: Anonymous
       type: Ad-Hoc
+    - score: 4
+      feedback: |
+        Samuela has given me new useful ideas on learning how to code, this includes how to effectively use chat gpt, to learn and apply the desired code rather than just memorising it. This is something I worried about but she reassured me that this can be used as an efficient tool.
+      date-f: 11 November 2025
+      date: 20251111
+      name: Anonymous
+      type: Ad-Hoc
 
 - index: 48 # Prerna Singhal
   feedback:
@@ -648,6 +655,13 @@
       date-f: 31 October 2025
       date: 20251031
       name: Michelle Jideofor
+      type: Ad-Hoc
+    - score: 5
+      feedback: |
+        She helped me with the way I should approach job search.
+      date-f: 18 November 2025
+      date: 20251118
+      name: Madhuri Tata Madhusudan
       type: Ad-Hoc
 
 - index: 82 # Ilayda Yilmaz
@@ -698,3 +712,23 @@
       date: 20251025
       name: Turdugul Okonbaeva
       type: Long Term Mentorship
+
+- index: 83 # Damola Taiwo
+  feedback:
+    - score: 5
+      feedback: |
+        My mentor provided clear and professional guidance that truly impressed me and was extremely helpful. I really appreciate how she supported me throughout the process. She offered a very practical roadmap for improving my CV, updating my LinkedIn, and expressing my overall journey in a clearer and more confident way. Her professionalism and encouragement made a meaningful impact on my growth.
+      date-f: 22 November 2025
+      date: 20251122
+      name: Turdugul Okonbaeva
+      type: Ad-Hoc
+
+- index: 87 # Tuğçe Kızılçakar
+  feedback:
+    - score: 5
+      feedback: |
+        I learned a lot more about Product. I found the session very insightful and informative. I feel more prepared to be a Product Manager and I know what to expect from future employers (and what they expect from me too). I feel like I made the right decision professionally to choose product as a career.
+      date-f: 25 November 2025
+      date: 20251125
+      name: Anonymous
+      type: Ad-Hoc
