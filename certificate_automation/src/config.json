@@ -1,0 +1,24 @@
+{
+  "certificate_types": [
+    {
+      "type": "mentee",
+      "template": "../data/input/templates/mentee.pptx",
+      "names_file": "../data/input/names/mentees.txt",
+      "pdf_dir": "../data/output/pdfs/mentee/",
+      "ppt_dir": "../data/output/ppts/mentee/",
+      "placeholder_text": "Sample Sample",
+      "font_name": "Georgia",
+      "font_size": 59.5
+    },
+    {
+      "type": "mentor",
+      "template": "../data/input/templates/mentor.pptx",
+      "names_file": "../data/input/names/mentors.txt",
+      "pdf_dir": "../data/output/pdfs/mentor/",
+      "ppt_dir": "../data/output/ppts/mentor/",
+      "placeholder_text": "Sample Sample",
+      "font_name": "Georgia",
+      "font_size": 59.5
+    }
+  ]
+}

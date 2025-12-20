@@ -1,0 +1,2 @@
+python-pptx>=0.6.21
+comtypes>=1.1.14
