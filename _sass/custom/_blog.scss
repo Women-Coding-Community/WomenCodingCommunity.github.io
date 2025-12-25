@@ -34,7 +34,7 @@
 
   .article-header-img {
     width: 100%;
-    height: 500px;
+    height: 550px;
     margin-bottom: map-get($spacers, 5);
 
     img {
@@ -104,6 +104,24 @@
         content: '"'
       }
     }
+  }
+
+  .bordered-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  .bordered-table th,
+  .bordered-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .bordered-table td {
+    white-space: normal;
+    word-spacing: normal;
   }
 
   .blockquote-footer {
@@ -193,6 +211,7 @@
   width: fit-content;
   margin: map-get($spacers, 2) auto 0;
 }
+
 .img-notes {
   font-size: 12px;
   font-style: italic;

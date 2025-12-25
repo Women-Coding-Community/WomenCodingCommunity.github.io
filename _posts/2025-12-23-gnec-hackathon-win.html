@@ -1,0 +1,66 @@
+---
+layout: post
+title: Gnec Hackathon Win
+date: 2025-12-23
+author_name: Silke Nodwell
+author_role: Lead at Women Coding Community
+image: /assets/images/blog/2025-12-23-gnec-hackathon-win.png
+description: Our Women Coding Community Team Takes 3rd Place at the GNEC Fall Hackathon
+category: tech-career
+---
+
+<div class="text-justify">
+<p><em>Our Women Coding Community Team Takes 3rd Place at the GNEC Fall Hackathon</em></p>
+<p><em>“Nourish Together” team: <a href="https://www.linkedin.com/in/silke-nodwell-763681172/">Silke Nodwell</a>, <a href="https://www.linkedin.com/in/ainan-ihsan-27792b68/">Ainan Ihsan</a>, <a href="https://www.linkedin.com/in/tammy-l-s-a80b6a2a9/">Tammy Sisodiya,</a> <a href="https://www.linkedin.com/in/nino-godoradze/">Nino Godoradze</a></em></p>
+<p>What does it take to win a hackathon? For our team of four from Women Coding Community, the answer is a combination of persistence, experimentation, and the resilience to tackle each new challenge together.</p>
+<p>This fall, we competed in the <a href="https://gnec-hackathon-2025-fall.devpost.com/">Global NGO Executive Committee (GNEC) Hackathon</a>, which focused on the <a href="https://sdgs.un.org/goals">UN Sustainable Development Goals</a> of <strong>No Poverty</strong> and <strong>Zero Hunger</strong>. Our team, Nourish Together, placed <a href="https://gnec-hackathon-2025-fall.devpost.com/"><strong>3rd out of more than 150 teams.</strong></a> Over eight weeks of evening meetings, trial-and-error, and bursts of productivity, we built a working prototype we’re really proud of. Here’s how it came together.</p>
+<h2>How It All Started</h2>
+<p>In August, <a href="https://www.linkedin.com/in/tammy-l-s-a80b6a2a9/">Tammy</a> put a message in the WCC Slack about the GNEC hackathon, asking whether anyone was interested in joining a team. Within a couple of hours, we had a full team. We met virtually a few days later and quickly realised how international our group was: four people across three countries and time zones, spanning the US, Sweden and the UK.</p>
+<h2>Choosing a Direction</h2>
+<p>At first, we struggled. “Poverty” and “hunger” are enormous, complex issues, and none of us worked directly in those domains. Coming up with a focused idea felt daunting.</p>
+<p>Eventually, we realised that instead of trying to design for communities we didn’t know well, we could design for a group whose needs we <em>did</em> understand: donors. Donors have both the resources and the technology to use an app, and, crucially, we felt equipped to empathise with their decision-making process.</p>
+<p>So we framed our problem simply:</p>
+<p><strong>How might we help donors confidently identify charities aligned with their values?</strong></p>
+<h2>Designing our Website</h2>
+<p>Our initial concept was intentionally broad: a website that could help donors explore both financial and non-financial ways to contribute. As part of this, we imagined an “impact tracker” that visualised how each donated dollar translated into tangible outcomes.</p>
+<p>Around this time, I had seen an impressive prototype built with <a href="https://lovable.dev/">Lovable</a> at work and suggested we try it for our UI. Lovable turned out to be ideal. It enabled us to quickly build a polished mock impact tracker that displayed the journey of each donation and showed how many families could be helped through that contribution.</p>
+<p>After the impact tracker was in place, <a href="https://www.linkedin.com/in/tammy-l-s-a80b6a2a9/">Tammy</a> added an embedded food bank map. It connected directly to Google Maps so users could instantly find their nearest food bank if they preferred donating food rather than money. </p>
+<h2>Adding an LLM-Inspired Recommender</h2>
+<p>With the core website established, we began exploring how to make the platform more intelligent. That was when the idea of a charity recommender emerged. At first, we approached it as a conventional machine learning problem. At the same time, I was reading <em>Prompt Engineering with LLMs</em> with the WCC book club, which sparked the question:</p>
+<p><strong>Instead of building a traditional machine-learning recommender, what if we built an LLM-powered one?</strong></p>
+<p>In true hackathon fashion, we opted for the simplest approach that could work. Rather than running a full large language model, we implemented a recommender using a Sentence Transformer, a smaller and more efficient model designed to convert text into vector embeddings, or numeric representations that capture meaning.</p>
+<p>We generated embeddings for each charity’s description and stored them in a FAISS index, which is optimised for fast similarity search across large collections of vectors. This setup is similar to a Retrieval-Augmented Generation (RAG) system, where relevant items are retrieved based on semantic similarity rather than exact keyword matches.</p>
+<p>When a user entered a query, it was embedded in the same way and compared it against the stored charity embeddings using cosine similarity, a common metric for measuring how close two vectors are in high-dimensional space. The nearest matches became our recommendations. The result was an intuitive, natural-language experience for our ‘Find Your Perfect Charity’ feature.</p>
+<h2>The Reality of Online Collaboration</h2>
+<p>In the beginning, we tried assigning fixed roles. This approach collapsed almost immediately because volunteer schedules are unpredictable. Some weeks one of us had time to take on multiple tasks, while other weeks we were barely available. We switched to leaving tasks unassigned; anyone could pick up an item from the list as long as they kept the group updated on their progress.</p>
+<p>Working fully online added its own challenges. During one evening sync call, we realised that we needed uninterrupted time together if we were going to deliver something cohesive. So we all agreed to take a full day off work to focus on the project. This became a turning point. It aligned our codebase, resolved repository issues and built crucial momentum. </p>
+<p>What followed was a very determined weekend sprint.</p>
+<h2>Two Days, A Cloud Deployment and Little Sleep</h2>
+<p>Integrating the FAISS index into our Lovable website was more complicated than expected. After several failed attempts, we switched to a new plan. We deployed the recommender on <a href="https://railway.com/">Railway</a> as a standalone Cloud API and connected this API to our Lovable front end.</p>
+<p>This approach worked, but not without challenges. On Saturday night, <a href="https://www.linkedin.com/in/ainan-ihsan-27792b68/">Ainan</a> stayed up late resolving dependency issues. Early on Sunday morning, I picked up where she left off and finally got the API communicating with the UI.</p>
+<p>Meanwhile, <a href="https://www.linkedin.com/in/nino-godoradze/">Nino</a>, who lives in the United States and has the most video-editing experience, logged in at 1 pm UK time. She edited a beautifully polished demo video, only to discover that it was thirty seconds too short for the submission requirements. To fix this, we recorded a quick Teams call introducing ourselves and added it to the final cut. It ended up fitting perfectly.</p>
+<p>We had eight weeks to complete the project, yet we still submitted with only thirty minutes to spare. Hackathon law, surely!</p>
+<h2>Tools That Made a Difference</h2>
+<ul>
+<li>
+<p><a href="https://lovable.dev/">Lovable</a> for creating a clean, engaging UI</p>
+</li>
+<li>
+<p><a href="https://railway.com/">Railway</a> for hosting our FAISS-based recommender as an API</p>
+</li>
+<li>
+<p><a href="https://www.gamma.app">Gamma</a> for transforming plain text into polished slides</p>
+</li>
+</ul>
+<h2>What We Learned</h2>
+<p>This project was not only about building an intelligent website for donors. It was also about learning how to collaborate flexibly, make practical technical decisions and sustain momentum even when the path forward was unclear. </p>
+<p>If there is one lesson we are taking forward, it is this:</p>
+<p><strong>A hackathon team succeeds when it stays adaptable.</strong></p>
+<p>Not when roles are perfectly assigned, or when the plan unfolds neatly, but when everyone leans in however and whenever they can.</p>
+<p>We are proud of our 3rd-place finish, proud of the product we built and even prouder of how we worked together. Above all, we are grateful for Women Coding Community, which brought this team together and made this experience possible.</p>
+<hr />
+<p><a href="https://hackathon-donation-project.lovable.app/"><em>Hackathon website</em></a></p>
+<p><a href="https://devpost.com/software/1031061"><em>Devpost project</em></a></p>
+<p><a href="https://github.com/ainanihsan/Recommender-FAST-API"><em>GitHub (recommender API)</em></a></p>
+<p><a href="https://github.com/ainanihsan/hackathon-donation-project"><em>GitHub (donation project)</em></a></p>
+</div>
