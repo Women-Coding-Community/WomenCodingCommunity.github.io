@@ -1,0 +1,235 @@
+---
+layout: post
+title: Data Engineering Portfolio Projects
+date: 2025-12-25
+author_name: Sowmiya Ravikumar
+author_role: Data Engineer
+image: /assets/images/blog/2025-12-25-data-engineering-portfolio-projects.jpg
+description: Data Engineering Portfolio Projects
+category: tech-career
+---
+
+<div class="text-justify">
+<p>Building portfolio projects for Data Engineering can be challenging outside enterprise environments due to limited access to realistic data, missing business context, and cloud costs.</p>
+<p>Below are <strong>four practical portfolio projects</strong> that aspiring data engineers can build to showcase real-world skills. Each project focuses on a commonly used data engineering pattern and can be implemented using open-source tools or managed cloud services</p>
+<hr />
+<h2>1. Daily Sales Batch ETL</h2>
+<p>A Finance team requires an <strong>audit-ready daily sales report</strong> delivered every morning by <strong>8:00 AM</strong>, based on the previous day’s completed orders. This is a classic <strong>batch data engineering</strong> scenario where data must be processed on a <strong>fixed schedule</strong> with strong guarantees around correctness, reproducibility, and scalability.</p>
+<h3>Architecture Overview</h3>
+<ol>
+<li><strong>Extract</strong> daily order data from the raw storage layer  </li>
+<li><strong>Transform</strong> sales data into clean, analytics-ready models  </li>
+<li><strong>Load</strong> curated tables for reporting and audits  </li>
+<li><strong>Schedule</strong> the pipeline to meet a strict daily SLA</li>
+</ol>
+<h3>Technology Stack</h3>
+<table class="bordered-table">
+  <thead>
+    <tr>
+      <th>Environment</th>
+      <th>Storage</th>
+      <th>Processing</th>
+      <th>Scheduling</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Local / Open-Source</strong></td>
+      <td>MinIO</td>
+      <td>Spark Docker</td>
+      <td>Airflow</td>
+    </tr>
+    <tr>
+      <td><strong>AWS</strong></td>
+      <td>Amazon S3</td>
+      <td>AWS Glue</td>
+      <td>Glue Triggers</td>
+    </tr>
+    <tr>
+      <td><strong>GCP</strong></td>
+      <td>GCS</td>
+      <td>Cloud Dataflow</td>
+      <td>Cloud Scheduler</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Key points to consider</h3>
+<ul>
+<li><strong>Idempotent runs:</strong> Safe daily runs and reruns without duplication  </li>
+<li><strong>Incremental loading:</strong> Process only new or updated records using bookmarks  </li>
+<li><strong>Failure recovery &amp; backfills:</strong> Reprocess data for specific dates as needed  </li>
+<li><strong>Schema evolution:</strong> Adapt to new columns or data type changes  </li>
+<li><strong>Partitioned, columnar storage:</strong> Efficient querying, and maintenance</li>
+</ul>
+<h2>2. Real-Time Order Monitoring</h2>
+<p>A Customer Support team needs <strong>immediate visibility into stuck orders</strong> (e.g., payment complete but products not shipped) to intervene before customers churn. This is a classic <strong>real-time operational use case</strong>, where events must be processed <strong>as they occur</strong> with guarantees for correctness and timeliness.</p>
+<h3>Architecture Overview</h3>
+<ol>
+<li><strong>Capture Events:</strong> Track order updates in near real-time from transactional systems using Change Data Capture (CDC)  </li>
+<li><strong>Process Stream:</strong> Transform, deduplicate, and aggregate events as they arrive  </li>
+<li><strong>Persist &amp; Query:</strong> Store curated streams or aggregates for dashboards and alerts  </li>
+<li><strong>Alert / Monitor:</strong> Trigger notifications for stuck orders or SLA violations</li>
+</ol>
+<h3>Technology Stack</h3>
+<table class="bordered-table">
+  <thead>
+    <tr>
+      <th>Environment</th>
+      <th>Event Capture / CDC</th>
+      <th>Stream Processing</th>
+      <th>Storage / Query</th>
+      <th>Alerting / Monitoring</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Local / Open-Source</strong></td>
+      <td>Debezium + Kafka</td>
+      <td>Spark Structured Streaming</td>
+      <td>MinIO + DuckDB</td>
+      <td>Python / Spark triggers, Prometheus + Grafana</td>
+    </tr>
+    <tr>
+      <td><strong>AWS</strong></td>
+      <td>DMS + Kinesis</td>
+      <td>AWS Glue Streaming</td>
+      <td>S3 + Athena</td>
+      <td>CloudWatch / SNS</td>
+    </tr>
+    <tr>
+      <td><strong>GCP</strong></td>
+      <td>Datastream + Pub/Sub (CDC)</td>
+      <td>Cloud Dataflow</td>
+      <td>GCS + BigQuery</td>
+      <td>Cloud Monitoring + Pub/Sub alerts</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Key points to consider</h3>
+<ul>
+<li><strong>Late-arriving/Out-of-order events:</strong> Watermarks for delayed events and back-filling  </li>
+<li><strong>Deduplication:</strong> Exactly-once processing, despite receiving duplicates from source  </li>
+<li><strong>Partial/missing events handling:</strong> Robust to incomplete or missing sequences  </li>
+<li><strong>Windowed aggregations:</strong> Real-time metrics over fixed or sliding time windows</li>
+</ul>
+<hr />
+<h2>3. Campaign Performance Data Analytics</h2>
+<p>A Marketing team runs campaigns across <strong>Google Ads, Meta, and Email</strong>. They need a single source of truth to consistently analyse total spend, conversions, and campaign performance across channels. This is a classic <strong>analytics engineering</strong> use case, where raw ingestion data is transformed into curated, <strong>analysis-ready models.</strong></p>
+<h3>Architecture Overview</h3>
+<ol>
+<li><strong>Storage (Bronze):</strong> Capture unprocessed campaign and conversion data.  </li>
+<li><strong>Transformation (Silver):</strong> Clean, standardize, enrich, and apply business logic  </li>
+<li><strong>Data Warehouse (Gold):</strong> Aggregate metrics at campaign and channel level for reporting and product analytics.  </li>
+<li><strong>Orchestration &amp; Consumption:</strong> Automate daily ETL runs and query from BI tools.</li>
+</ol>
+<h3>Technology Stack</h3>
+<table class="bordered-table">
+  <thead>
+    <tr>
+      <th>Environment</th>
+      <th>Storage</th>
+      <th>Processing</th>
+      <th>Data Warehouse / Product Layer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Local / Open-Source</strong></td>
+      <td>DuckDB / MinIO</td>
+      <td>Spark Docker</td>
+      <td>DuckDB</td>
+    </tr>
+    <tr>
+      <td><strong>AWS</strong></td>
+      <td>S3</td>
+      <td>AWS Glue</td>
+      <td>Redshift</td>
+    </tr>
+    <tr>
+      <td><strong>GCP</strong></td>
+      <td>GCS</td>
+      <td>Cloud Dataflow</td>
+      <td>BigQuery</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Key points to consider</h3>
+<ul>
+<li><strong>Schema evolution detection &amp; data contracts</strong>: Prevent broken transformations due to upstream changes  </li>
+<li><strong>Dimension modelling</strong>: Using Star/Snowflake schemas, SCD Type 2, and surrogate keys for historical tracking  </li>
+<li><strong>Data integrity &amp; quality checks</strong>: Handle missing, malformed, or inconsistent records, backfill specific dates without duplication  </li>
+<li><strong>Consistent metric definitions</strong>: Ensure KPIs (spend, conversions, ROI) are reliable</li>
+</ul>
+<hr />
+<h2>4. Real-Time IoT Sensor Analytics</h2>
+<p>A factory floor needs to monitor <strong>high-frequency IoT sensor data</strong> to detect overheating machines or abnormal energy usage before equipment fails. This is a <strong>stateful streaming use case</strong>, where it is critical to compute averages, trends, and anomalies in real time.</p>
+<h3>Architecture Overview</h3>
+<ol>
+<li><strong>Ingestion:</strong> Capture sensor readings continuously from IoT devices or message streams  </li>
+<li><strong>Stream Processing:</strong> Maintain state, compute rolling averages, windowed aggregations, and detect anomalies  </li>
+<li><strong>Storage:</strong> Persist aggregated or processed sensor data for operational and historical use  </li>
+<li><strong>Monitoring &amp; Alerting:</strong> Visualize metrics and trigger alerts on abnormal conditions</li>
+</ol>
+<h3>Technology Stack</h3>
+<table class="bordered-table">
+  <thead>
+    <tr>
+      <th>Environment</th>
+      <th>Ingestion</th>
+      <th>Stream Processing</th>
+      <th>Storage / Query</th>
+      <th>Monitoring &amp; Alerting</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Local / Open-Source</strong></td>
+      <td>Kafka</td>
+      <td>Apache Flink</td>
+      <td>InfluxDB</td>
+      <td>Grafana / Python triggers</td>
+    </tr>
+    <tr>
+      <td><strong>AWS</strong></td>
+      <td>Kinesis</td>
+      <td>Managed Service Apache Flink</td>
+      <td>Timestream</td>
+      <td>CloudWatch / SNS</td>
+    </tr>
+    <tr>
+      <td><strong>GCP</strong></td>
+      <td>Pub/Sub</td>
+      <td>Dataproc for Apache Flink</td>
+      <td>Cloud Bigtable</td>
+      <td>Cloud Monitoring / Pub/Sub alerts</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Key points to consider</h3>
+<ul>
+<li><strong>Event-time processing &amp; watermarks:</strong> Handles late or out-of-order readings  </li>
+<li><strong>Stateful rolling computations:</strong> Maintains averages, trends, and windowed metrics efficiently  </li>
+<li><strong>Dynamic anomaly detection:</strong> Configurable thresholds or statistical models per sensor  </li>
+<li><strong>High-throughput resilience:</strong> Processes large volumes of events without data loss  </li>
+<li><strong>Reliable alerting:</strong> Minimizes false positives while triggering timely notifications</li>
+</ul>
+<hr />
+<h2>Useful tips</h2>
+<ul>
+<li>Use publicly available data sources like Kaggle, open APIs, or public cloud datasets  </li>
+<li><a href="https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard">Uber Data Analytics Dashboard Dataset</a>  </li>
+<li><a href="https://www.kaggle.com/datasets/manjeetsingh/retaildataset">Retail Data Analytics Dataset</a>  </li>
+<li><a href="https://github.com/bytewax/awesome-public-real-time-datasets?tab=readme-ov-file">Free Real Time APIs</a>  </li>
+<li>Generate synthetic data (using Faker or GenAI) to simulate scale and edge cases  </li>
+<li><a href="https://fakerapi.it/fake-data-download">Faker API</a>  </li>
+<li>Provision infrastructure using IaC (Terraform, CloudFormation, or YAML configs)  </li>
+<li>Check-In code into GitHub repository and document architecture, data flow, assumptions and trade-offs in a README</li>
+</ul>
+<h2>Resources</h2>
+<p><a href="https://hub.docker.com/_/spark">Apache Spark Docker</a></p>
+<p><a href="https://duckdb.org/docs/stable/clients/python/overview">DuckDB Docs Python API</a></p>
+<p><a href="https://debezium.io/documentation/reference/3.4/tutorial.html">Debezium Tutorial</a></p>
+<p><a href="https://www.baeldung.com/minio">Introduction to MinIO | Baeldung</a></p>
+<p><a href="https://peterbaumann.substack.com/p/future-data-systems?utm_source=%2Finbox&amp;utm_medium=reader2">Future Data Systems Article</a></p>
+<p><a href="https://docs.aws.amazon.com/prescriptive-guidance/latest/apache-iceberg-on-aws/best-practices.html">Best practices for optimizing Apache Iceberg workloads</a></p>
+</div>
