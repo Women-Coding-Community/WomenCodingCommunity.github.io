@@ -1,12 +1,28 @@
 from collections import Counter
 from pathlib import Path
+import platform
 
-import comtypes.client
 from pptx import Presentation
 import os
 import json
 import sys
 from pptx.util import Pt
+
+# Check platform and conditionally import comtypes (Windows-only for PDF conversion)
+IS_WINDOWS = platform.system() == 'Windows'
+POWERPOINT_AVAILABLE = False
+
+if IS_WINDOWS:
+    try:
+        import comtypes.client
+        POWERPOINT_AVAILABLE = True
+    except ImportError:
+        print("Warning: comtypes not available. PDF conversion will be skipped.")
+else:
+    print(f"Warning: PDF conversion is only supported on Windows. Current platform: {platform.system()}")
+
+# Initialize global powerpoint variable
+powerpoint = None
 
 def load_config(config_path="config.json"):
     with open(config_path, 'r', encoding='utf-8') as f:
@@ -87,6 +103,8 @@ def generate_pptx(font_name, font_size, name, output_dir, placeholder_text,
 
 def generate_pdf(name, input_dir, output_path):
     try:
+        if not POWERPOINT_AVAILABLE:
+            raise RuntimeError("PDF conversion is not available on this platform. Only Windows with PowerPoint is supported.")
 
         output_path = Path(output_path)
 
@@ -143,8 +161,12 @@ def main():
     try:
         config = load_config()
 
-        powerpoint = comtypes.client.CreateObject("PowerPoint.Application")
-        powerpoint.Visible = 1
+        # Initialize PowerPoint if available
+        if POWERPOINT_AVAILABLE:
+            powerpoint = comtypes.client.CreateObject("PowerPoint.Application")
+            powerpoint.Visible = 1
+        else:
+            print("\nPDF generation will be skipped (not available on this platform).\n")
 
         for cert_config in config['certificate_types']:
             names_file = cert_config['names_file']
@@ -152,13 +174,21 @@ def main():
 
             names = load_names(names_file, cert_type)
 
+            # Generate PPTX certificates
             pptx_generated = generate_certificates_for_type(names,
                                                             cert_config,
                                                             "pptx")
             check_metrics(names, cert_config, "pptx")
-            pdf_generated = generate_certificates_for_type(names,
-                                                           cert_config, "pdf")
-            check_metrics(names, cert_config, "pdf")
+
+            # Generate PDF certificates only if PowerPoint is available
+            pdf_generated = 0
+            if POWERPOINT_AVAILABLE:
+                pdf_generated = generate_certificates_for_type(names,
+                                                               cert_config, "pdf")
+                check_metrics(names, cert_config, "pdf")
+            else:
+                print(f"Skipping PDF generation for {cert_type} (PowerPoint not available)")
+
             total_certificates = len(names)
             print(f"Type: {cert_config['type']} Total: {total_certificates} "
                   f"PPTX Generated: {pptx_generated} PDF Generated: {pdf_generated}")

@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+import platform
 from pathlib import Path
 from unittest.mock import Mock, MagicMock, patch, mock_open
 import pytest
@@ -8,6 +9,7 @@ import pytest
 # Add the certificate_automation/src to the path so we can import the module
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'certificate_automation', 'src'))
 
+import generate_certificates
 from generate_certificates import (
     load_config,
     check_duplicates,
@@ -15,7 +17,9 @@ from generate_certificates import (
     generate_pptx,
     generate_pdf,
     check_metrics,
-    generate_certificates_for_type
+    generate_certificates_for_type,
+    IS_WINDOWS,
+    POWERPOINT_AVAILABLE
 )
 
 
@@ -172,6 +176,7 @@ class TestGeneratePptx:
         assert "Template not found" in str(exc_info.value)
 
 
+@pytest.mark.skipif(not POWERPOINT_AVAILABLE, reason="PDF generation only works on Windows with PowerPoint")
 class TestGeneratePdf:
     def test_generate_pdf_creates_file(self, tmp_path):
         """Test that generate_pdf creates a PDF file."""
