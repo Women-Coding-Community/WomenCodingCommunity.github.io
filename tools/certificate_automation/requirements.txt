@@ -1,2 +1,4 @@
 python-pptx>=0.6.21
 comtypes>=1.1.14
+qrcode>=7.4.2
+pillow>=10.0.0

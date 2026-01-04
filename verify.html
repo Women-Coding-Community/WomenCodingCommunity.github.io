@@ -1,0 +1,243 @@
+---
+layout: default
+title: Certificate Verification
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCC Certificate Verification</title>
+    <style>
+        .verification-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .verification-box {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 40px;
+            margin: 30px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .certificate-info {
+            background: white;
+            border-left: 4px solid #28a745;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        .certificate-info.invalid {
+            border-left: 4px solid #dc3545;
+        }
+
+        .certificate-info h3 {
+            margin-top: 0;
+            color: #28a745;
+        }
+
+        .certificate-info.invalid h3 {
+            color: #dc3545;
+        }
+
+        .info-row {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .info-value {
+            color: #333;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            justify-content: center;
+        }
+
+        .search-box input {
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            width: 300px;
+        }
+
+        .search-box button {
+            padding: 12px 30px;
+            font-size: 16px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .search-box button:hover {
+            background: #0056b3;
+        }
+
+        .loading {
+            display: none;
+            color: #007bff;
+            margin: 20px 0;
+        }
+
+        .error-message {
+            color: #dc3545;
+            margin: 20px 0;
+        }
+
+        .success-icon {
+            font-size: 60px;
+            color: #28a745;
+            margin-bottom: 20px;
+        }
+
+        .error-icon {
+            font-size: 60px;
+            color: #dc3545;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="verification-container">
+        <h1>Certificate Verification</h1>
+        <p>Verify the authenticity of Women Coding Community certificates</p>
+
+        <div class="verification-box">
+            <div class="search-box">
+                <input type="text" id="certId" placeholder="Enter Certificate ID" />
+                <button onclick="verifyCertificate()">Verify</button>
+            </div>
+
+            <div class="loading" id="loading">
+                <p>Verifying certificate...</p>
+            </div>
+
+            <div id="result"></div>
+        </div>
+
+        <div class="verification-box">
+            <h3>How to Verify</h3>
+            <ol style="text-align: left; max-width: 500px; margin: 0 auto;">
+                <li>Scan the QR code on the certificate with your phone camera</li>
+                <li>Or enter the Certificate ID shown on the certificate</li>
+                <li>Click "Verify" to check authenticity</li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        // Parse URL parameters
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Verify certificate function
+        async function verifyCertificate() {
+            const certId = document.getElementById('certId').value.trim().toUpperCase();
+            const loading = document.getElementById('loading');
+            const result = document.getElementById('result');
+
+            if (!certId) {
+                result.innerHTML = '<p class="error-message">Please enter a certificate ID</p>';
+                return;
+            }
+
+            loading.style.display = 'block';
+            result.innerHTML = '';
+
+            try {
+                // Fetch the certificate registry
+                const response = await fetch('/tools/certificate_automation/data/output/certificate_registry.json');
+
+                if (!response.ok) {
+                    throw new Error('Unable to load certificate registry');
+                }
+
+                const registry = await response.json();
+
+                // Find the certificate
+                const certificate = registry.certificates.find(cert => cert.id === certId);
+
+                loading.style.display = 'none';
+
+                if (certificate) {
+                    result.innerHTML = `
+                        <div class="success-icon">✓</div>
+                        <div class="certificate-info">
+                            <h3>Valid Certificate</h3>
+                            <div class="info-row">
+                                <span class="info-label">Certificate ID:</span>
+                                <span class="info-value">${certificate.id}</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Recipient Name:</span>
+                                <span class="info-value">${certificate.name}</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Certificate Type:</span>
+                                <span class="info-value">${certificate.type.charAt(0).toUpperCase() + certificate.type.slice(1)}</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Issue Date:</span>
+                                <span class="info-value">${certificate.issue_date}</span>
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    result.innerHTML = `
+                        <div class="error-icon">✗</div>
+                        <div class="certificate-info invalid">
+                            <h3>Invalid Certificate</h3>
+                            <p>No certificate found with ID: <strong>${certId}</strong></p>
+                            <p>This certificate may be fraudulent or the ID was entered incorrectly.</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                loading.style.display = 'none';
+                result.innerHTML = `
+                    <p class="error-message">Error verifying certificate: ${error.message}</p>
+                    <p>Please try again later or contact support.</p>
+                `;
+            }
+        }
+
+        // Auto-verify if cert ID is in URL
+        window.addEventListener('DOMContentLoaded', function() {
+            const certId = getUrlParameter('cert');
+            if (certId) {
+                document.getElementById('certId').value = certId;
+                verifyCertificate();
+            }
+        });
+
+        // Allow Enter key to trigger verification
+        document.getElementById('certId').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                verifyCertificate();
+            }
+        });
+    </script>
+</body>
+</html>

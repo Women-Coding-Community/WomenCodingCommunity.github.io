@@ -22,6 +22,8 @@ Install required Python packages:
 
 - `python-pptx>=0.6.21`: PowerPoint file manipulation
 - `comtypes>=1.1.14`: COM automation for PowerPoint
+- `qrcode>=7.4.2`: QR code generation for certificate verification
+- `pillow>=10.0.0`: Image processing for QR codes
 
 
 
@@ -123,6 +125,45 @@ Generated certificate files are named using the person's name directly:
 - PPTX: `data/output/ppts/mentee/John Smith.pptx`
 - PDF: `data/output/pdfs/mentee/John Smith.pdf`
 
+## QR Code Verification
+
+Each generated certificate includes a QR code for verification purposes. The system automatically:
+
+1. **Generates Unique Certificate IDs**: Each certificate gets a unique ID based on the recipient's name, certificate type, and issue date
+2. **Embeds QR Codes**: QR codes are automatically added to the bottom-right corner of each certificate
+3. **Maintains Certificate Registry**: All issued certificates are recorded in `data/output/certificate_registry.json`
+4. **Provides Verification Page**: Recipients can verify certificates at `https://www.womencodingcommunity.com/verify`
+
+### How Verification Works
+
+1. **For Recipients**: Scan the QR code on your certificate or visit the verification page and enter your certificate ID
+2. **For Verifiers**: The verification page checks the certificate against the official registry and displays:
+   - Certificate ID
+   - Recipient name
+   - Certificate type
+   - Issue date
+   - Validation status
+
+### Certificate Registry
+
+The certificate registry (`data/output/certificate_registry.json`) contains all issued certificates:
+
+```json
+{
+  "certificates": [
+    {
+      "id": "ABC123DEF456",
+      "name": "John Smith",
+      "type": "mentee",
+      "issue_date": "2026-01-04",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=ABC123DEF456"
+    }
+  ]
+}
+```
+
+**Important**: The certificate registry file must be committed to the repository and deployed to GitHub Pages for the verification system to work.
+
 ## Sample Logs
 
 ```
@@ -145,4 +186,6 @@ Generating MENTEE mentee certificates at ../data/output/pdfs/mentee/
 ...
 
 Type: mentee Total: 68 PPTX Generated: 68 PDF Generated: 68
+
+Certificate registry saved with 68 total certificates
 ```

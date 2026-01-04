@@ -19,6 +19,26 @@
       "placeholder_text": "Sample Sample",
       "font_name": "Georgia",
       "font_size": 59.5
+    },
+    {
+      "type": "volunteer",
+      "template": "../data/input/templates/volunteer.pptx",
+      "names_file": "../data/input/names/volunteers.txt",
+      "pdf_dir": "../data/output/pdfs/volunteer/",
+      "ppt_dir": "../data/output/ppts/volunteer/",
+      "placeholder_text": "Sample Sample",
+      "font_name": "Georgia",
+      "font_size": 59.5
+    },
+    {
+      "type": "leader",
+      "template": "../data/input/templates/leader.pptx",
+      "names_file": "../data/input/names/leaders.txt",
+      "pdf_dir": "../data/output/pdfs/leader/",
+      "ppt_dir": "../data/output/ppts/leader/",
+      "placeholder_text": "Sample Sample",
+      "font_name": "Georgia",
+      "font_size": 59.5
     }
   ]
 }

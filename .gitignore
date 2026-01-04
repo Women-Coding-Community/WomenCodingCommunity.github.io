@@ -14,3 +14,8 @@ tools/blog_automation/venv
 
 # Claude Code local settings (may contain personal preferences)
 .claude/settings.local.json
+
+# Certificate automation - proprietary templates and generated files
+tools/certificate_automation/data/input/templates/
+tools/certificate_automation/data/output/
+tools/samples/
