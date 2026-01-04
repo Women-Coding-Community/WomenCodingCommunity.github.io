@@ -11,3 +11,6 @@ lib/
 pyvenv.cfg
 tools/blog_automation/service_account_key.json
 tools/blog_automation/venv
+
+# Claude Code local settings (may contain personal preferences)
+.claude/settings.local.json
