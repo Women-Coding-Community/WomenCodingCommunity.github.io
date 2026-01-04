@@ -123,6 +123,10 @@ Now you can run any tests from *Specs*.
 
 For more details, please refer to the official [Cypress Documentation](https://docs.cypress.io/guides/overview/why-cypress).
 
+## Certificate Automation Tool
+
+For information about the WCC Certificate Automation tool, see [tools/certificate_automation/readme.md](tools/certificate_automation/readme.md).
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/WomenCodingCommunity/WomenCodingCommunity.github.io?style=flat-square
