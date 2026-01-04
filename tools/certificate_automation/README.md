@@ -2,6 +2,9 @@
 
 Automated certificate generation from PowerPoint templates and converting them to PDF format using JSON configuration
 
+> **⚠️ Warning: PDF conversion currently only works on Windows**
+> The PDF export functionality uses Microsoft PowerPoint COM automation via `comtypes`, which is only available on Windows. On macOS and Linux, the script will generate PPTX files, but PDF conversion will not work.
+
 ## Prerequisites
 
 - Python 3.7 or higher
