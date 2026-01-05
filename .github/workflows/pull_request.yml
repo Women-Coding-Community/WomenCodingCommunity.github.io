@@ -50,4 +50,5 @@ jobs:
       - name: Run pytest
         run: |
           cd tools
+          export PYTHONPATH="${PYTHONPATH}:$(pwd)"
           pytest --ignore=_site --ignore=.venv --ignore=myenv
