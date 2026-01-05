@@ -8,7 +8,8 @@ from pptx import Presentation
 import os
 import json
 import sys
-from pptx.util import Pt, Inches
+from pptx.util import Pt, Inches, Cm
+from pptx.dml.color import RGBColor
 import qrcode
 from io import BytesIO
 
@@ -110,9 +111,13 @@ def generate_certificates_for_type(names, cert_config, file_type, registry=None,
     output_dir = cert_config["ppt_dir"] if file_type == "pptx" else cert_config[
         'pdf_dir']
     placeholder_text = cert_config['placeholder_text']
-    font_name = cert_config['font_name']
-    font_size = cert_config['font_size']
     cert_type = cert_config['type']
+
+    # Get QR code position parameters (optional)
+    qr_left_cm = cert_config.get('qr_left_cm')
+    qr_top_cm = cert_config.get('qr_top_cm')
+    qr_width_cm = cert_config.get('qr_width_cm', 3.0)
+    qr_height_cm = cert_config.get('qr_height_cm', 3.0)
 
     os.makedirs(output_dir, exist_ok=True)
 
@@ -124,9 +129,9 @@ def generate_certificates_for_type(names, cert_config, file_type, registry=None,
         file_name = None
         try:
             if file_type == "pptx":
-                file_name = generate_pptx(font_name, font_size, name, output_dir,
-                                      placeholder_text, template, cert_type,
-                                      registry, issue_date)
+                file_name = generate_pptx(name, output_dir, placeholder_text,
+                                      template, cert_type, registry, issue_date,
+                                      qr_left_cm, qr_top_cm, qr_width_cm, qr_height_cm)
             elif file_type == "pdf":
                 file_name = generate_pdf(name, input_dir, output_dir)
 
@@ -141,8 +146,9 @@ def generate_certificates_for_type(names, cert_config, file_type, registry=None,
     return file_count
 
 
-def generate_pptx(font_name, font_size, name, output_dir, placeholder_text,
-                  template, cert_type=None, registry=None, issue_date=None):
+def generate_pptx(name, output_dir, placeholder_text, template, cert_type=None,
+                  registry=None, issue_date=None, qr_left_cm=None, qr_top_cm=None,
+                  qr_width_cm=3.0, qr_height_cm=3.0):
     try:
         prs = Presentation(template)
 
@@ -159,23 +165,57 @@ def generate_pptx(font_name, font_size, name, output_dir, placeholder_text,
                 # Replace name placeholder
                 if shape.has_text_frame and shape.text.strip() == placeholder_text:
                     tf = shape.text_frame
+
+                    # Preserve all original formatting from the placeholder
+                    original_font = None
+                    if tf.paragraphs and tf.paragraphs[0].runs:
+                        original_run = tf.paragraphs[0].runs[0]
+                        original_font = {
+                            'name': original_run.font.name,
+                            'size': original_run.font.size,
+                            'bold': original_run.font.bold,
+                            'italic': original_run.font.italic,
+                            'underline': original_run.font.underline,
+                            'color': original_run.font.color.rgb if original_run.font.color.type is not None else None
+                        }
+
                     tf.clear()
 
                     p = tf.paragraphs[0]
                     run = p.add_run()
                     run.text = name
-                    run.font.name = font_name
-                    run.font.size = Pt(font_size)
+
+                    # Apply all preserved formatting
+                    if original_font:
+                        if original_font['name']:
+                            run.font.name = original_font['name']
+                        if original_font['size']:
+                            run.font.size = original_font['size']
+                        if original_font['bold'] is not None:
+                            run.font.bold = original_font['bold']
+                        if original_font['italic'] is not None:
+                            run.font.italic = original_font['italic']
+                        if original_font['underline'] is not None:
+                            run.font.underline = original_font['underline']
+                        if original_font['color'] is not None:
+                            run.font.color.rgb = original_font['color']
 
             # Add QR code to slide if verification URL exists
             if verification_url:
                 qr_img = generate_qr_code(verification_url)
 
-                # Position QR code in bottom right corner (adjust as needed)
-                left = prs.slide_width - Inches(1.5)  # 1.5 inches from right
-                top = prs.slide_height - Inches(1.5)  # 1.5 inches from bottom
-                width = Inches(1.2)
-                height = Inches(1.2)
+                # Use configured position (in cm) or default to top right corner
+                if qr_left_cm is not None and qr_top_cm is not None:
+                    left = Cm(qr_left_cm)
+                    top = Cm(qr_top_cm)
+                    width = Cm(qr_width_cm)
+                    height = Cm(qr_height_cm)
+                else:
+                    # Default position (top right corner)
+                    left = prs.slide_width - Inches(1.5)
+                    top = Inches(0.3)
+                    width = Inches(1.2)
+                    height = Inches(1.2)
 
                 slide.shapes.add_picture(qr_img, left, top, width, height)
 

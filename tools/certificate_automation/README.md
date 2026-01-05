@@ -69,21 +69,36 @@ Edit `src/config.json` to customize certificate generation settings.
       "pdf_dir": "../data/output/pdfs/mentee/",
       "ppt_dir": "../data/output/ppts/mentee/",
       "placeholder_text": "Sample Sample",
-      "font_name": "Georgia",
-      "font_size": 59.5
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
     }
   ]
 }
 ```
 
-- **type**: Certificate type identifier (e.g., "mentee", "mentor")
+#### Required Parameters
+
+- **type**: Certificate type identifier (e.g., "mentee", "mentor", "volunteer", "leader")
 - **template**: Path to the PPTX template file
 - **names_file**: Path to text file containing names (one per line)
 - **pdf_dir**: Output directory for PDF certificates
 - **ppt_dir**: Output directory for PPTX certificates
 - **placeholder_text**: Text in template to be replaced with names
-- **font_name**: Font to use for names
-- **font_size**: Font size in points
+
+#### Optional Parameters (QR Code Position)
+
+- **qr_left_cm**: Distance from left edge in centimeters (e.g., 47.8)
+- **qr_top_cm**: Distance from top edge in centimeters (e.g., 28.91)
+- **qr_width_cm**: QR code width in centimeters (default: 3.0)
+- **qr_height_cm**: QR code height in centimeters (default: 3.0)
+
+**Note**: If QR position parameters are not specified, the QR code will be placed in the top-right corner by default.
+
+#### Text Formatting
+
+All text formatting (font name, font size, color, bold, italic, underline) is **automatically preserved** from the placeholder text in your PowerPoint template. Simply style the placeholder text ("Sample Sample") in your template exactly how you want the names to appear, and the script will apply the same formatting to each person's name.
 
 ### Names Files
 
@@ -129,10 +144,25 @@ Generated certificate files are named using the person's name directly:
 
 Each generated certificate includes a QR code for verification purposes. The system automatically:
 
-1. **Generates Unique Certificate IDs**: Each certificate gets a unique ID based on the recipient's name, certificate type, and issue date
-2. **Embeds QR Codes**: QR codes are automatically added to the bottom-right corner of each certificate
+1. **Generates Unique Certificate IDs**: Each certificate gets a unique ID based on the recipient's name, certificate type, and issue date (SHA256 hash, 12 characters uppercase)
+2. **Embeds QR Codes**: QR codes are automatically added to each certificate at a configurable position (see QR Code Position configuration)
 3. **Maintains Certificate Registry**: All issued certificates are recorded in `data/output/certificate_registry.json`
 4. **Provides Verification Page**: Recipients can verify certificates at `https://www.womencodingcommunity.com/verify`
+
+### QR Code Position
+
+You can customize the QR code position and size by adding these optional parameters to your config:
+
+```json
+{
+  "qr_left_cm": 47.8,    // Distance from left edge (in cm)
+  "qr_top_cm": 28.91,    // Distance from top edge (in cm)
+  "qr_width_cm": 3.0,    // QR code width (in cm)
+  "qr_height_cm": 3.0    // QR code height (in cm)
+}
+```
+
+If these parameters are not specified, the QR code will be placed in the **top-right corner** with default dimensions (1.2" x 1.2", positioned 1.5" from right and 0.3" from top).
 
 ### How Verification Works
 

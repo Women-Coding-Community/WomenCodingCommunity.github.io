@@ -7,8 +7,10 @@
       "pdf_dir": "../data/output/pdfs/mentee/",
       "ppt_dir": "../data/output/ppts/mentee/",
       "placeholder_text": "Sample Sample",
-      "font_name": "Georgia",
-      "font_size": 59.5
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
     },
     {
       "type": "mentor",
@@ -17,8 +19,10 @@
       "pdf_dir": "../data/output/pdfs/mentor/",
       "ppt_dir": "../data/output/ppts/mentor/",
       "placeholder_text": "Sample Sample",
-      "font_name": "Georgia",
-      "font_size": 59.5
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
     },
     {
       "type": "volunteer",
@@ -27,8 +31,10 @@
       "pdf_dir": "../data/output/pdfs/volunteer/",
       "ppt_dir": "../data/output/ppts/volunteer/",
       "placeholder_text": "Sample Sample",
-      "font_name": "Georgia",
-      "font_size": 59.5
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
     },
     {
       "type": "leader",
@@ -37,8 +43,22 @@
       "pdf_dir": "../data/output/pdfs/leader/",
       "ppt_dir": "../data/output/ppts/leader/",
       "placeholder_text": "Sample Sample",
-      "font_name": "Georgia",
-      "font_size": 59.5
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
+    },
+    {
+      "type": "Backend",
+      "template": "../data/input/templates/volunteer.pptx",
+      "names_file": "../data/input/names/backend.txt",
+      "pdf_dir": "../data/output/pdfs/backend/",
+      "ppt_dir": "../data/output/ppts/backend/",
+      "placeholder_text": "Sample Sample",
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
     }
   ]
 }

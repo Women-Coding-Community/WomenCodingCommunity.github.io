@@ -62,8 +62,6 @@ class TestCertificateGeneration(unittest.TestCase):
         issue_date = "2026-01-04"
 
         result = generate_pptx(
-            font_name="Georgia",
-            font_size=59.5,
             name=name,
             output_dir=self.output_dir,
             placeholder_text="Sample Sample",
@@ -84,8 +82,6 @@ class TestCertificateGeneration(unittest.TestCase):
         issue_date = "2026-01-04"
 
         result = generate_pptx(
-            font_name="Georgia",
-            font_size=59.5,
             name=name,
             output_dir=self.output_dir,
             placeholder_text="Sample Sample",
@@ -116,8 +112,6 @@ class TestCertificateGeneration(unittest.TestCase):
         issue_date = "2026-01-04"
 
         generate_pptx(
-            font_name="Georgia",
-            font_size=59.5,
             name=name,
             output_dir=self.output_dir,
             placeholder_text="Sample Sample",
@@ -139,8 +133,6 @@ class TestCertificateGeneration(unittest.TestCase):
         issue_date = "2026-01-04"
 
         result = generate_pptx(
-            font_name="Georgia",
-            font_size=59.5,
             name=name,
             output_dir=self.output_dir,
             placeholder_text="Sample Sample",
@@ -164,8 +156,6 @@ class TestCertificateGeneration(unittest.TestCase):
         name = "Legacy User"
 
         result = generate_pptx(
-            font_name="Georgia",
-            font_size=59.5,
             name=name,
             output_dir=self.output_dir,
             placeholder_text="Sample Sample",

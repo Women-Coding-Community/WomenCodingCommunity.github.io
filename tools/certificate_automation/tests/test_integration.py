@@ -69,8 +69,6 @@ class TestIntegration(unittest.TestCase):
 
         # Step 2: Generate certificate
         result = generate_pptx(
-            font_name="Georgia",
-            font_size=59.5,
             name=name,
             output_dir=self.output_dir,
             placeholder_text="Sample Sample",
@@ -115,8 +113,6 @@ class TestIntegration(unittest.TestCase):
         # Generate certificates for all names
         for name in names:
             generate_pptx(
-                font_name="Georgia",
-                font_size=59.5,
                 name=name,
                 output_dir=self.output_dir,
                 placeholder_text="Sample Sample",
@@ -155,8 +151,6 @@ class TestIntegration(unittest.TestCase):
 
         for name, cert_type, issue_date in test_cases:
             generate_pptx(
-                font_name="Georgia",
-                font_size=59.5,
                 name=name,
                 output_dir=self.output_dir,
                 placeholder_text="Sample Sample",
@@ -182,8 +176,6 @@ class TestIntegration(unittest.TestCase):
 
         # Generate mentee certificate
         generate_pptx(
-            font_name="Georgia",
-            font_size=59.5,
             name=name,
             output_dir=self.output_dir,
             placeholder_text="Sample Sample",
@@ -195,8 +187,6 @@ class TestIntegration(unittest.TestCase):
 
         # Generate mentor certificate for same person
         generate_pptx(
-            font_name="Georgia",
-            font_size=59.5,
             name=name,
             output_dir=self.output_dir,
             placeholder_text="Sample Sample",
@@ -223,8 +213,6 @@ class TestIntegration(unittest.TestCase):
         registry = load_certificate_registry(self.registry_path)
 
         result = generate_pptx(
-            font_name="Georgia",
-            font_size=59.5,
             name=name,
             output_dir=self.output_dir,
             placeholder_text="Sample Sample",
@@ -257,8 +245,6 @@ class TestIntegration(unittest.TestCase):
         registry = load_certificate_registry(self.registry_path)
 
         generate_pptx(
-            font_name="Georgia",
-            font_size=59.5,
             name=name,
             output_dir=self.output_dir,
             placeholder_text="Sample Sample",
@@ -287,8 +273,6 @@ class TestIntegration(unittest.TestCase):
         # First batch
         registry = load_certificate_registry(self.registry_path)
         generate_pptx(
-            font_name="Georgia",
-            font_size=59.5,
             name=name1,
             output_dir=self.output_dir,
             placeholder_text="Sample Sample",
@@ -304,8 +288,6 @@ class TestIntegration(unittest.TestCase):
         self.assertEqual(len(registry['certificates']), 1)
 
         generate_pptx(
-            font_name="Georgia",
-            font_size=59.5,
             name=name2,
             output_dir=self.output_dir,
             placeholder_text="Sample Sample",
