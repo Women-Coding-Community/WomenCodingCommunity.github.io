@@ -1,0 +1,515 @@
+{
+  "certificates": [
+    {
+      "id": "605C57FEA859",
+      "name": "Irina Kamalova",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=605C57FEA859"
+    },
+    {
+      "id": "EBE7323362EC",
+      "name": "Busra Ecem Sakar",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=EBE7323362EC"
+    },
+    {
+      "id": "5BEF3EB09FB0",
+      "name": "Stephanie Senoner",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=5BEF3EB09FB0"
+    },
+    {
+      "id": "E43339C4EBB5",
+      "name": "Samuela Smolorz",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=E43339C4EBB5"
+    },
+    {
+      "id": "84D14102EA90",
+      "name": "Sonali Goel",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=84D14102EA90"
+    },
+    {
+      "id": "2F84A9719032",
+      "name": "Airat Yusuff",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=2F84A9719032"
+    },
+    {
+      "id": "16F9E90EFC40",
+      "name": "Madhura Chaganty",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=16F9E90EFC40"
+    },
+    {
+      "id": "9B79984A629A",
+      "name": "Nonna Shakhova",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=9B79984A629A"
+    },
+    {
+      "id": "B08A5C109066",
+      "name": "Shabana",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=B08A5C109066"
+    },
+    {
+      "id": "2C0B2EAE2063",
+      "name": "Damola Taiwo",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=2C0B2EAE2063"
+    },
+    {
+      "id": "8F6DD737D4D5",
+      "name": "Julia Babahina",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=8F6DD737D4D5"
+    },
+    {
+      "id": "983E6FAE5DE3",
+      "name": "Liliia Rafikova",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=983E6FAE5DE3"
+    },
+    {
+      "id": "BC056B86DFE0",
+      "name": "Silke Nodwell",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=BC056B86DFE0"
+    },
+    {
+      "id": "B206037366F0",
+      "name": "Eleonora Belova",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=B206037366F0"
+    },
+    {
+      "id": "B93910B0FACB",
+      "name": "Idayat Sanni",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=B93910B0FACB"
+    },
+    {
+      "id": "D8A23BC73EF8",
+      "name": "Rajashree Munoli",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=D8A23BC73EF8"
+    },
+    {
+      "id": "46473E6BFB16",
+      "name": "Ying Liu",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=46473E6BFB16"
+    },
+    {
+      "id": "EAAF2197DEA2",
+      "name": "Rajani Rao",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=EAAF2197DEA2"
+    },
+    {
+      "id": "57DDA891555D",
+      "name": "Prabha Venkatesh",
+      "type": "leader",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=57DDA891555D"
+    },
+    {
+      "id": "83EA865465D6",
+      "name": "Turdugul Okonbaeva",
+      "type": "evangelist",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=83EA865465D6"
+    },
+    {
+      "id": "ADA887801B66",
+      "name": "Arzu Guney",
+      "type": "evangelist",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=ADA887801B66"
+    },
+    {
+      "id": "C36F2B76D135",
+      "name": "Joana Brito",
+      "type": "evangelist",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=C36F2B76D135"
+    },
+    {
+      "id": "85C837878191",
+      "name": "Rashidat Adekoya",
+      "type": "backend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=85C837878191"
+    },
+    {
+      "id": "04851D01E7A7",
+      "name": "Anna Cotogno",
+      "type": "backend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=04851D01E7A7"
+    },
+    {
+      "id": "40F6A957BD73",
+      "name": "Nevena Verbič",
+      "type": "backend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=40F6A957BD73"
+    },
+    {
+      "id": "E999B67B2136",
+      "name": "Luiza Gretzk",
+      "type": "backend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=E999B67B2136"
+    },
+    {
+      "id": "8175C84EA29A",
+      "name": "Zaynah Ahmed",
+      "type": "backend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=8175C84EA29A"
+    },
+    {
+      "id": "155781E3D66D",
+      "name": "Valeria",
+      "type": "backend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=155781E3D66D"
+    },
+    {
+      "id": "6472DF00CB8F",
+      "name": "Olivia Thetgyi",
+      "type": "backend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=6472DF00CB8F"
+    },
+    {
+      "id": "1B81E1BE9498",
+      "name": "Shabana",
+      "type": "newsletter",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=1B81E1BE9498"
+    },
+    {
+      "id": "93C95ADBCC42",
+      "name": "Sowmiya Ravikumar",
+      "type": "newsletter",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=93C95ADBCC42"
+    },
+    {
+      "id": "7FA10A2CFEFF",
+      "name": "Silke Nodwell",
+      "type": "newsletter",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=7FA10A2CFEFF"
+    },
+    {
+      "id": "B0B0DF8A88FF",
+      "name": "Sahana Venkatesh",
+      "type": "newsletter",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=B0B0DF8A88FF"
+    },
+    {
+      "id": "28B0B8FA0975",
+      "name": "Pranita Panse",
+      "type": "qa",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=28B0B8FA0975"
+    },
+    {
+      "id": "39680B16C80D",
+      "name": "Gabriel Oliveira",
+      "type": "qa",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=39680B16C80D"
+    },
+    {
+      "id": "D227D7C84125",
+      "name": "Purnima Tyagi",
+      "type": "qa",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=D227D7C84125"
+    },
+    {
+      "id": "B1CBE53C73BE",
+      "name": "Mioara Cenusa",
+      "type": "qa",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=B1CBE53C73BE"
+    },
+    {
+      "id": "9096E012308F",
+      "name": "Patrycja Gontarek",
+      "type": "qa",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=9096E012308F"
+    },
+    {
+      "id": "5A6F6ED0C630",
+      "name": "Idayat Sanni",
+      "type": "frontend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=5A6F6ED0C630"
+    },
+    {
+      "id": "A9633C3BFD14",
+      "name": "Adniloet Sosa Ricardo",
+      "type": "frontend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=A9633C3BFD14"
+    },
+    {
+      "id": "1E0FAF0C3F85",
+      "name": "Sandra Barbosa",
+      "type": "frontend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=1E0FAF0C3F85"
+    },
+    {
+      "id": "C1CC90009B9C",
+      "name": "Anusha Devi",
+      "type": "frontend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=C1CC90009B9C"
+    },
+    {
+      "id": "9F2A7F60007E",
+      "name": "Mitali Shah",
+      "type": "frontend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=9F2A7F60007E"
+    },
+    {
+      "id": "8DF285CD9774",
+      "name": "Joana Brito",
+      "type": "frontend",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=8DF285CD9774"
+    },
+    {
+      "id": "5D1BE8D49C20",
+      "name": "Mehul Varsha Singh",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=5D1BE8D49C20"
+    },
+    {
+      "id": "29D802E81437",
+      "name": "Amrit Atwal",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=29D802E81437"
+    },
+    {
+      "id": "B688DBDE81BE",
+      "name": "Silke Nodwell",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=B688DBDE81BE"
+    },
+    {
+      "id": "524F632B24E3",
+      "name": "Turdugul Okonbaeva",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=524F632B24E3"
+    },
+    {
+      "id": "5117E8E8FA21",
+      "name": "Marj Martinez",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=5117E8E8FA21"
+    },
+    {
+      "id": "A37FC6C141DD",
+      "name": "Damola Taiwo",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=A37FC6C141DD"
+    },
+    {
+      "id": "DD035A8EBFD0",
+      "name": "Ying Liu",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=DD035A8EBFD0"
+    },
+    {
+      "id": "493B19357B9B",
+      "name": "Helen T",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=493B19357B9B"
+    },
+    {
+      "id": "A7DDF0243D59",
+      "name": "Liliiia Rafikova",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=A7DDF0243D59"
+    },
+    {
+      "id": "66D2264F27B3",
+      "name": "Maryam Yusuf",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=66D2264F27B3"
+    },
+    {
+      "id": "2C75B1448408",
+      "name": "Sarah Usher",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=2C75B1448408"
+    },
+    {
+      "id": "540C32C3CAE8",
+      "name": "Sowmiya Ravikumar",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=540C32C3CAE8"
+    },
+    {
+      "id": "FF6EEE313731",
+      "name": "Rohini",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=FF6EEE313731"
+    },
+    {
+      "id": "0EC4A06618F0",
+      "name": "Afsha",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=0EC4A06618F0"
+    },
+    {
+      "id": "F7BA69975B3C",
+      "name": "Afolake Odubote",
+      "type": "api-days",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=F7BA69975B3C"
+    },
+    {
+      "id": "6525D8A1B0A3",
+      "name": "Madhura Chaganty",
+      "type": "half-stack",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=6525D8A1B0A3"
+    },
+    {
+      "id": "0D6D6F51997F",
+      "name": "Ramona Gawarwala",
+      "type": "half-stack",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=0D6D6F51997F"
+    },
+    {
+      "id": "CDF97DF8CC4B",
+      "name": "Damola Taiwo",
+      "type": "half-stack",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=CDF97DF8CC4B"
+    },
+    {
+      "id": "C8595266F1B2",
+      "name": "Helen T",
+      "type": "half-stack",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=C8595266F1B2"
+    },
+    {
+      "id": "5553D8A5BDB8",
+      "name": "Linda Okorie-Kalu",
+      "type": "half-stack",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=5553D8A5BDB8"
+    },
+    {
+      "id": "2BAEDBDB34FC",
+      "name": "Busra Ecem Sakar",
+      "type": "half-stack",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=2BAEDBDB34FC"
+    },
+    {
+      "id": "065B4F768306",
+      "name": "Darshna Agrawal",
+      "type": "half-stack",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=065B4F768306"
+    },
+    {
+      "id": "7623B8C6DF3F",
+      "name": "Prabha Venkatesh",
+      "type": "half-stack",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=7623B8C6DF3F"
+    },
+    {
+      "id": "AABA25C7C05A",
+      "name": "Emma Jourzac",
+      "type": "half-stack",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=AABA25C7C05A"
+    },
+    {
+      "id": "770F5D11A10F",
+      "name": "Sonali Goel",
+      "type": "mentorship",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=770F5D11A10F"
+    },
+    {
+      "id": "0395F70E1B62",
+      "name": "Nevena Verbič",
+      "type": "mentorship",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=0395F70E1B62"
+    },
+    {
+      "id": "2530831A1395",
+      "name": "Isabell",
+      "type": "leetcode",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=2530831A1395"
+    },
+    {
+      "id": "105EE35026BE",
+      "name": "Youning",
+      "type": "leetcode",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=105EE35026BE"
+    },
+    {
+      "id": "9EA8B33C31FD",
+      "name": "Zaynah Ahmed",
+      "type": "leetcode",
+      "issue_date": "2026-01-05",
+      "verification_url": "https://www.womencodingcommunity.com/verify?cert=9EA8B33C31FD"
+    }
+  ]
+}

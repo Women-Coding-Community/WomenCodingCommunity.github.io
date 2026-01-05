@@ -103,7 +103,7 @@ let controllerVerify = (function(jQuery) {
 
         try {
             // Fetch the certificate registry
-            const response = await fetch('/tools/certificate_automation/data/output/certificate_registry.json');
+            const response = await fetch('/_data/certificates_registry.json');
 
             if (!response.ok) {
                 throw new Error('Unable to load certificate registry');
