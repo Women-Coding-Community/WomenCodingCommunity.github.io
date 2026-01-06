@@ -34,9 +34,7 @@ class TestLoadConfig:
                     "names_file": "names.txt",
                     "pdf_dir": "pdfs/",
                     "ppt_dir": "ppts/",
-                    "placeholder_text": "Sample",
-                    "font_name": "Arial",
-                    "font_size": 50
+                    "placeholder_text": "Sample"
                 }
             ]
         }
@@ -51,8 +49,6 @@ class TestLoadConfig:
         assert len(result["certificate_types"]) == 1
         assert result["certificate_types"][0]["type"] == "test"
         assert result["certificate_types"][0]["placeholder_text"] == "Sample"
-        assert result["certificate_types"][0]["font_name"] == "Arial"
-        assert result["certificate_types"][0]["font_size"] == 50
         assert result["certificate_types"][0]["template"] == "template.pptx"
         assert result["certificate_types"][0]["names_file"] == "names.txt"
         assert result["certificate_types"][0]["pdf_dir"] == "pdfs/"
@@ -133,7 +129,7 @@ class TestGeneratePptx:
         output_dir = str(tmp_path)
         template = "template.pptx"
 
-        result = generate_pptx("Arial", 50, "John Doe", output_dir, "Sample Sample", template)
+        result = generate_pptx("John Doe", output_dir, "Sample Sample", template)
 
         assert result == os.path.join(output_dir, "John Doe.pptx")
         mock_prs.save.assert_called_once_with(os.path.join(output_dir, "John Doe.pptx"))
@@ -151,19 +147,28 @@ class TestGeneratePptx:
 
         mock_text_frame = MagicMock()
         mock_paragraph = MagicMock()
-        mock_run = MagicMock()
-        mock_paragraph.add_run.return_value = mock_run
-        mock_text_frame.paragraphs = [mock_paragraph]
+        mock_original_run = MagicMock()
+        mock_original_run.font.name = "Arial"
+        mock_original_run.font.size = 50
+        mock_original_run.font.bold = False
+        mock_original_run.font.italic = False
+        mock_original_run.font.underline = False
+        mock_original_run.font.color.type = None
+        mock_text_frame.paragraphs = [MagicMock(runs=[mock_original_run])]
+
+        mock_new_run = MagicMock()
+        mock_paragraph.add_run.return_value = mock_new_run
+        mock_text_frame.paragraphs[0].add_run.return_value = mock_new_run
+
         mock_shape.text_frame = mock_text_frame
 
         mock_slide.shapes = [mock_shape]
         mock_prs.slides = [mock_slide]
 
-        generate_pptx("Arial", 50, "Jane Smith", "/tmp", "Sample Sample", "template.pptx")
+        generate_pptx("Jane Smith", "/tmp", "Sample Sample", "template.pptx")
 
         mock_text_frame.clear.assert_called_once()
-        assert mock_run.text == "Jane Smith"
-        assert mock_run.font.name == "Arial"
+        assert mock_new_run.text == "Jane Smith"
 
     @patch('generate_certificates.Presentation')
     def test_generate_pptx_handles_exceptions(self, mock_presentation_class):
@@ -171,7 +176,7 @@ class TestGeneratePptx:
         mock_presentation_class.side_effect = Exception("Template not found")
 
         with pytest.raises(Exception) as exc_info:
-            generate_pptx("Arial", 50, "John Doe", "/tmp", "Sample", "bad_template.pptx")
+            generate_pptx("John Doe", "/tmp", "Sample", "bad_template.pptx")
 
         assert "Template not found" in str(exc_info.value)
 

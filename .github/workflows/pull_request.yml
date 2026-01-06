@@ -41,10 +41,14 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd tools 
+          cd tools
           ls -lah
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install -r certificate_automation/requirements.txt
 
       - name: Run pytest
-        run: pytest tools
+        run: |
+          cd tools
+          export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+          pytest --ignore=_site --ignore=.venv --ignore=myenv

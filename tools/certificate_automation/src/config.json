@@ -6,9 +6,7 @@
       "names_file": "../data/input/names/mentees.txt",
       "pdf_dir": "../data/output/pdfs/mentee/",
       "ppt_dir": "../data/output/ppts/mentee/",
-      "placeholder_text": "Sample Sample",
-      "font_name": "Georgia",
-      "font_size": 59.5
+      "placeholder_text": "Sample Sample"
     },
     {
       "type": "mentor",
@@ -17,8 +15,94 @@
       "pdf_dir": "../data/output/pdfs/mentor/",
       "ppt_dir": "../data/output/ppts/mentor/",
       "placeholder_text": "Sample Sample",
-      "font_name": "Georgia",
-      "font_size": 59.5
+      "qr_left_cm": 52,
+      "qr_top_cm": 36,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
+    },
+    {
+      "type": "volunteer",
+      "template": "../data/input/templates/volunteer.pptx",
+      "names_file": "../data/input/names/volunteers.txt",
+      "pdf_dir": "../data/output/pdfs/volunteer/",
+      "ppt_dir": "../data/output/ppts/volunteer/",
+      "placeholder_text": "Sample Sample",
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
+    },
+    {
+      "type": "leader",
+      "template": "../data/input/templates/leader.pptx",
+      "names_file": "../data/input/names/leaders.txt",
+      "pdf_dir": "../data/output/pdfs/leader/",
+      "ppt_dir": "../data/output/ppts/leader/",
+      "placeholder_text": "Sample Sample",
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
+    },
+    {
+      "type": "evangelist",
+      "template": "../data/input/templates/evangelist.pptx",
+      "names_file": "../data/input/names/evangelist.txt",
+      "pdf_dir": "../data/output/pdfs/evangelist/",
+      "ppt_dir": "../data/output/ppts/evangelist/",
+      "placeholder_text": "Sample Sample",
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
+    },
+    {
+      "type": "backend",
+      "template": "../data/input/templates/volunteer.pptx",
+      "names_file": "../data/input/names/backend.txt",
+      "pdf_dir": "../data/output/pdfs/backend/",
+      "ppt_dir": "../data/output/ppts/backend/",
+      "placeholder_text": "Sample Sample",
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
+    },
+    {
+      "type": "newsletter",
+      "template": "../data/input/templates/volunteer.pptx",
+      "names_file": "../data/input/names/newsletter.txt",
+      "pdf_dir": "../data/output/pdfs/newsletter/",
+      "ppt_dir": "../data/output/ppts/newsletter/",
+      "placeholder_text": "Sample Sample",
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
+    },
+    {
+      "type": "qa",
+      "template": "../data/input/templates/volunteer.pptx",
+      "names_file": "../data/input/names/qas.txt",
+      "pdf_dir": "../data/output/pdfs/qa/",
+      "ppt_dir": "../data/output/ppts/qa/",
+      "placeholder_text": "Sample Sample",
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
+    },
+    {
+      "type": "frontend",
+      "template": "../data/input/templates/volunteer.pptx",
+      "names_file": "../data/input/names/frontends.txt",
+      "pdf_dir": "../data/output/pdfs/frontend/",
+      "ppt_dir": "../data/output/ppts/frontend/",
+      "placeholder_text": "Sample Sample",
+      "qr_left_cm": 47.8,
+      "qr_top_cm": 28.91,
+      "qr_width_cm": 3.0,
+      "qr_height_cm": 3.0
     }
   ]
 }

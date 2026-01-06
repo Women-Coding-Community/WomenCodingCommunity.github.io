@@ -1,0 +1,38 @@
+---
+layout: default
+title: Certificate Verification
+body_class: page page-verify
+image: /assets/images/default-seo-thumbnail.png
+---
+
+<div class="container">
+    <div class="row">
+        <div class="content-constrained">
+            <div class="verification-container">
+                <p>Verify the authenticity of Women Coding Community certificates</p>
+
+                <div class="verification-box verification-instructions">
+                    <h3>How to Verify</h3>
+                    <ol>
+                        <li>Scan the QR code on the certificate with your phone camera</li>
+                        <li>Or enter the Certificate ID shown on the certificate</li>
+                        <li>Click "Verify" to check authenticity</li>
+                    </ol>
+                </div>
+
+                <div class="verification-box">
+                    <div class="search-box">
+                        <input type="text" id="certId" placeholder="Enter Certificate ID"/>
+                        <button id="verify-btn">Verify</button>
+                    </div>
+
+                    <div class="loading" id="loading">
+                        <p>Verifying certificate...</p>
+                    </div>
+
+                    <div id="result"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
