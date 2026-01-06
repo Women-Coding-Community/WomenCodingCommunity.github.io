@@ -71,7 +71,7 @@ describe('Certificate Verification Page', () => {
             clicked = true;
         });
 
-        verifyBtn.click();
+        verifyBtn.trigger('click');
         expect(clicked).toBe(true);
     });
 
@@ -89,14 +89,14 @@ describe('Certificate Verification Page', () => {
         const certIdInput = $('#certId');
         let keyPressed = false;
 
-        certIdInput.on('keypress', (e) => {
+        certIdInput.on('keydown', (e) => {
             if (e.key === 'Enter') {
                 keyPressed = true;
             }
         });
 
         // Simulate Enter key
-        const event = $.Event('keypress');
+        const event = $.Event('keydown');
         event.key = 'Enter';
         certIdInput.trigger(event);
 

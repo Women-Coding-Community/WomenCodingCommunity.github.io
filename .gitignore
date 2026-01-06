@@ -17,5 +17,6 @@ tools/blog_automation/venv
 
 # Certificate automation - proprietary templates and generated files
 tools/certificate_automation/data/input/templates/
+tools/certificate_automation/data/input/*.csv
 tools/certificate_automation/data/output/
 tools/samples/

@@ -136,30 +136,35 @@ let controllerVerify = (function (jQuery) {
     };
 
     /**
+     * Handle Enter key press to trigger verification
+     * @param {object} e - Keyboard event
+     */
+    let handleEnterKeyPress = function (e) {
+        const isEnterKey = e.key === 'Enter';
+        if (isEnterKey) {
+            e.preventDefault();
+            verifyCertificate();
+        }
+    };
+
+    /**
      * Initialize event handlers
      */
     let initEvents = function () {
-        // Verify button click
-        verifyBtn.click(function (e) {
+        verifyBtn.on('click', function (e) {
             e.preventDefault();
             verifyCertificate();
         });
 
-        // Allow Enter key to trigger verification
-        certIdInput.keypress(function (e) {
-            if (e.key === 'Enter') {
-                e.preventDefault();
-                verifyCertificate();
-            }
-        });
+        certIdInput.on('keydown', handleEnterKeyPress);
     };
 
     /**
      * Initialize the controller
      */
     let init = function () {
-        // Only initialize if we're on the verify page
-        if (certIdInput.length === 0) {
+        const isOnVerifyPage = certIdInput.length > 0;
+        if (!isOnVerifyPage) {
             return;
         }
 
