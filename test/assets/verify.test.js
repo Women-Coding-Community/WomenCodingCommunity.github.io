@@ -1,4 +1,4 @@
-const { JSDOM } = require('jsdom');
+const {JSDOM} = require('jsdom');
 
 describe('Certificate Verification Page', () => {
     let $;
@@ -104,17 +104,17 @@ describe('Certificate Verification Page', () => {
     });
 
     test('fetch API is mocked correctly', async () => {
-        const mockData = { certificates: [] };
+        const mockData = {certificates: []};
         global.fetch.mockResolvedValueOnce({
             ok: true,
             json: async () => mockData
         });
 
-        const response = await fetch('/_data/certificates_registry.json');
+        const response = await fetch('/assets/js/certificates_registry.json');
         const data = await response.json();
 
         expect(data).toEqual(mockData);
-        expect(global.fetch).toHaveBeenCalledWith('/_data/certificates_registry.json');
+        expect(global.fetch).toHaveBeenCalledWith('/assets/js/certificates_registry.json');
     });
 
     test('jQuery is available globally', () => {

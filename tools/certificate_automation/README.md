@@ -190,15 +190,15 @@ verification system to work.
 After generating certificates, you need to publish the certificate registry to make it available on the website:
 
 1. **Generated Registry Location**: `tools/certificate_automation/data/output/certificate_registry.json`
-2. **Published Registry Location**: `_data/certificates_registry.json`
+2. **Published Registry Location**: `assets/js/certificates_registry.json`
 
 #### Option 1: Manual Copy (First Time)
 
 If this is your first batch of certificates:
 
 ```bash
-cp tools/certificate_automation/data/output/certificate_registry.json _data/certificates_registry.json
-git add _data/certificates_registry.json
+cp tools/certificate_automation/data/output/certificate_registry.json assets/js/certificates_registry.json
+git add assets/js/certificates_registry.json
 git commit -m "Add certificate registry for verification"
 git push
 ```
@@ -208,25 +208,24 @@ git push
 If you already have certificates published and want to add new ones:
 
 ```bash
-# This Python script appends new certificates without duplicates
 python3 tools/certificate_automation/scripts/publish_registry.py
 ```
 
 The script will:
-- Read the existing `_data/certificates_registry.json`
+- Read the existing `assets/js/certificates_registry.json`
 - Read the newly generated `tools/certificate_automation/data/output/certificate_registry.json`
 - Merge certificates, avoiding duplicates (by certificate ID)
-- Save the merged result to `_data/certificates_registry.json`
+- Save the merged result to `assets/js/certificates_registry.json`
 
 Then commit and push:
 
 ```bash
-git add _data/certificates_registry.json
+git add assets/js/certificates_registry.json
 git commit -m "Add new certificates to registry"
 git push
 ```
 
-**Note**: The `tools/` directory is for generation only and can be deleted/recreated. The `_data/` directory contains the published data that appears on the website.
+**Note**: The `tools/` directory is for generation only and can be deleted/recreated. The `assets/js/certificates_registry.json` file is served by the website.
 
 ## Sample Logs
 

@@ -1,4 +1,4 @@
-let controllerVerify = (function(jQuery) {
+let controllerVerify = (function (jQuery) {
     const certIdInput = jQuery('#certId');
     const loading = jQuery('#loading');
     const result = jQuery('#result');
@@ -9,7 +9,7 @@ let controllerVerify = (function(jQuery) {
      * @param {string} name - Parameter name to retrieve
      * @returns {string} - Parameter value or empty string
      */
-    let getUrlParameter = function(name) {
+    let getUrlParameter = function (name) {
         name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
         const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
         const results = regex.exec(location.search);
@@ -19,7 +19,7 @@ let controllerVerify = (function(jQuery) {
     /**
      * Display loading state
      */
-    let showLoading = function() {
+    let showLoading = function () {
         loading.show();
         result.html('');
     };
@@ -27,7 +27,7 @@ let controllerVerify = (function(jQuery) {
     /**
      * Hide loading state
      */
-    let hideLoading = function() {
+    let hideLoading = function () {
         loading.hide();
     };
 
@@ -35,7 +35,7 @@ let controllerVerify = (function(jQuery) {
      * Display valid certificate information
      * @param {object} certificate - Certificate data object
      */
-    let displayValidCertificate = function(certificate) {
+    let displayValidCertificate = function (certificate) {
         const certType = certificate.type.charAt(0).toUpperCase() + certificate.type.slice(1);
 
         result.html(`
@@ -66,7 +66,7 @@ let controllerVerify = (function(jQuery) {
      * Display invalid certificate message
      * @param {string} certId - Certificate ID that was searched
      */
-    let displayInvalidCertificate = function(certId) {
+    let displayInvalidCertificate = function (certId) {
         result.html(`
             <div class="error-icon">✗</div>
             <div class="certificate-info invalid">
@@ -81,7 +81,7 @@ let controllerVerify = (function(jQuery) {
      * Display error message
      * @param {string} errorMessage - Error message to display
      */
-    let displayError = function(errorMessage) {
+    let displayError = function (errorMessage) {
         result.html(`
             <p class="error-message">Error verifying certificate: ${errorMessage}</p>
             <p>Please try again later or contact support.</p>
@@ -91,7 +91,7 @@ let controllerVerify = (function(jQuery) {
     /**
      * Verify certificate by ID
      */
-    let verifyCertificate = async function() {
+    let verifyCertificate = async function () {
         const certId = certIdInput.val().trim().toUpperCase();
 
         if (!certId) {
@@ -102,16 +102,13 @@ let controllerVerify = (function(jQuery) {
         showLoading();
 
         try {
-            // Fetch the certificate registry
-            const response = await fetch('/_data/certificates_registry.json');
+            const response = await fetch('/assets/js/certificates_registry.json');
 
             if (!response.ok) {
                 throw new Error('Unable to load certificate registry');
             }
 
             const registry = await response.json();
-
-            // Find the certificate
             const certificate = registry.certificates.find(cert => cert.id === certId);
 
             hideLoading();
@@ -130,7 +127,7 @@ let controllerVerify = (function(jQuery) {
     /**
      * Auto-verify if cert ID is in URL
      */
-    let autoVerifyFromUrl = function() {
+    let autoVerifyFromUrl = function () {
         const certId = getUrlParameter('cert');
         if (certId) {
             certIdInput.val(certId);
@@ -141,15 +138,15 @@ let controllerVerify = (function(jQuery) {
     /**
      * Initialize event handlers
      */
-    let initEvents = function() {
+    let initEvents = function () {
         // Verify button click
-        verifyBtn.click(function(e) {
+        verifyBtn.click(function (e) {
             e.preventDefault();
             verifyCertificate();
         });
 
         // Allow Enter key to trigger verification
-        certIdInput.keypress(function(e) {
+        certIdInput.keypress(function (e) {
             if (e.key === 'Enter') {
                 e.preventDefault();
                 verifyCertificate();
@@ -160,7 +157,7 @@ let controllerVerify = (function(jQuery) {
     /**
      * Initialize the controller
      */
-    let init = function() {
+    let init = function () {
         // Only initialize if we're on the verify page
         if (certIdInput.length === 0) {
             return;

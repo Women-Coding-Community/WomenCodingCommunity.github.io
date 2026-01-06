@@ -64,7 +64,7 @@ def main():
     project_root = script_dir.parent.parent.parent
 
     source_registry = project_root / "tools" / "certificate_automation" / "data" / "output" / "certificate_registry.json"
-    target_registry = project_root / "_data" / "certificates_registry.json"
+    target_registry = project_root / "assets" / "js" / "certificates_registry.json"
 
     print("=" * 60)
     print("Certificate Registry Publisher")
@@ -101,8 +101,8 @@ def main():
         save_registry(merged, target_registry)
         print("\n✅ Registry published successfully!")
         print(f"\nNext steps:")
-        print(f"  1. Review changes: git diff _data/certificates_registry.json")
-        print(f"  2. Commit changes: git add _data/certificates_registry.json")
+        print(f"  1. Review changes: git diff assets/js/certificates_registry.json")
+        print(f"  2. Commit changes: git add assets/js/certificates_registry.json")
         print(f"  3. Push to deploy: git push")
     else:
         print("\n✅ No new certificates to publish (all were duplicates).")
