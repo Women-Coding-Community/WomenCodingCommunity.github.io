@@ -1805,3 +1805,21 @@
     path: https://www.meetup.com/women-coding-community/events/312393688/
     title: View meetup event
     target: _target
+
+- title: |
+    Fireside Chat with Meena - The Engineer Who Became a Manager
+  description: Most engineering managers step into leadership roles with little preparation for what truly awaits them.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, JAN 28, 2026
+  expiration: "20260128"
+  host: "Madhura Chaganty"
+  speaker: "Meena Venkataraman"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/a/2/8/6/600_532181606.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/312820191/
+    title: View meetup event
+    target: _target
