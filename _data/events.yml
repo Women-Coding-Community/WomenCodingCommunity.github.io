@@ -1823,3 +1823,21 @@
     path: https://www.meetup.com/women-coding-community/events/312820191/
     title: View meetup event
     target: _target
+
+- title: |
+    DevOps++: Turning Green IT Ambition into Daily Engineering Actions
+  description: Many organizations assume that moving workloads to renewable energy or buying efficient hardware is enough to become sustainable.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, FEB 04, 2026
+  expiration: "20260204"
+  host: ""
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/4/a/0/600_532246240.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/312842063/
+    title: View meetup event
+    target: _target
