@@ -83,7 +83,7 @@ jobs:
             gh pr review ${{ steps.create-pr.outputs.pull-request-number }} --approve
             echo "PR approved"
         env:
-          GITHUB_TOKEN: ${{ secrets.GHA_ACTIONS_APPROVAL_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GHA_APPROVAL_TOKEN }}
 
       - name: Auto-merge PR
         if: steps.create-pr.outputs.pull-request-number
