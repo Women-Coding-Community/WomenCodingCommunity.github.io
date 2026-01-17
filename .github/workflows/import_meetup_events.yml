@@ -42,16 +42,6 @@ jobs:
             cd tools
             python meetup_import.py
 
-      - name: Confirm only events.yml was modified
-        run: |
-            MODIFIED_FILES=$(git diff --name-only)
-            echo "Modified files: $MODIFIED_FILES"
-            if echo "$MODIFIED_FILES" | grep -qv "^_data/events.yml$"; then
-              echo "ERROR: Unexpected files were modified"
-              exit 1
-            fi
-            echo "Only events.yml was modified as expected"
-
       - name: Create or Update Pull Request
         id: create-pr
         uses: peter-evans/create-pull-request@v7
@@ -64,10 +54,19 @@ jobs:
           body: |
             This PR was created automatically by a GitHub Action to import upcoming Meetup events.
             Only `_data/events.yml` should be updated.
-
-            Please review the changes `_data/events.yml` and ensure that everything is parsed correctly before merging.
           labels: |
             automation, auto-approve
+
+      - name: Confirm only events.yml was modified
+        if: steps.create-pr.outputs.pull-request-number
+        run: |
+            MODIFIED_FILES=$(git diff --name-only)
+            echo "Modified files: $MODIFIED_FILES"
+            if echo "$MODIFIED_FILES" | grep -qv "^_data/events.yml$"; then
+              echo "ERROR: Unexpected files were modified"
+              exit 1
+            fi
+            echo "Only events.yml was modified as expected"
 
       - name: Wait for required checks
         if: steps.create-pr.outputs.pull-request-number
