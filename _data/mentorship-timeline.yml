@@ -1,15 +1,15 @@
 long-term-timeline:
-  - date: ""
+  - date: "Continuous"
     title: "Registration for mentors"
     description: >
       Mentors can apply for Mentorship throughout the year. Once a profile has been approved and published on the website, the mentor will receive a confirmation email.
 
-  - date: "March, 2026"
+  - date: "March 2026"
     title: "Registration for mentees is open"
     description: >
       Mentees will have the opportunity to choose a mentor and apply for a long-term mentorship relationship until the end of March.
 
-  - date: "April, 2026"
+  - date: "April 2026"
     title: "WCC annual mentorship program launch"
     description: >
       This discussion will cover topics such as the specific challenges that women in technology often encounter and how mentorship can provide support and guidance.
@@ -42,7 +42,7 @@ ad-hoc-timeline:
   - title: "Mentor notification"
     description: "The Mentorship Programme Team will send a list of selected mentees to the mentors, along with their profiles and information about their goals and expectations for the mentorship."
   - title: "Scheduling sessions"
-    description: "The Mentorship Programme Team will share the mentor's Calendly link with the mentees if the mentor has provided it to the team. The team will also communicate this information via email to both the mentor and the mentee."
+    description: "The Mentorship Programme Team will share the mentor's preferred form of contact (scheduling link / email) with the mentees via email."
   - title: "Session preparation"
     description: "Before each session, mentors and mentees should prepare and plan for the meeting, setting clear goals and objectives for the session."
   - title: "Feedback"
