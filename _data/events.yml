@@ -1841,3 +1841,21 @@
     path: https://www.meetup.com/women-coding-community/events/312842063/
     title: View meetup event
     target: _target
+
+- title: Java bootcamp Launch
+  description: |
+    Do you want to build strong Java skills but don't know where to start? Do you feel overwhelmed juggling tutorials, documentation, and scattered resources while trying to learn Java on your own?  Our Java Bootcamp is designed to give you a clear, structured path to build practical Java skills through hands-on coding, not endless theory.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, FEB 05, 2026
+  expiration: "20260205"
+  host: "Adriana Zencke Zimmermann, Sonali Goel"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/6/2/6/1/600_532285185.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/312920485/
+    title: View meetup event
+    target: _target
