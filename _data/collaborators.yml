@@ -38,16 +38,6 @@
     - name: github
       link: https://github.com/kikilondon
 
-- name: Damola Taiwo
-  image: assets/images/collaborators/13.jpeg
-  position: Software Engineer
-  comment: Team Collaborator
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/badmus-damola-taiwo-643438158/
-    - name: github
-      link: https://github.com/Deejarh
-
 - name: Amenawon Esezobor
   image: assets/images/collaborators/2.jpeg
   position: Senior Software engineer

@@ -199,3 +199,13 @@
       link: https://www.linkedin.com/in/turdugul/
     - name: github
       link: https://github.com/Turdugul
+
+- name: Damola Taiwo
+  image: /assets/images/team/13.jpeg
+  position: Software Engineer
+  comment: Team Collaborator
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/badmus-damola-taiwo-643438158/
+    - name: github
+      link: https://github.com/Deejarh
