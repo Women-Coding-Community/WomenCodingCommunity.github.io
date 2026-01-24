@@ -10,6 +10,16 @@
 
 5) `automation_prepare_adhoc_availability.py`: updates mentors data with specified availability hours in `samples/adhoc-prep.xlsx` in preparation for monthly ad-hoc mentorship.
 
+6) `llm_meetup_summary\summarise_events_with_llms` sends a Slack summary of our upcoming Meetup events. Note - currently set up to use Silke's API key on the GitHub repo. Please don't abuse this :) This can be run with the GitHub Actions workflow `summarise_upcoming_events.yml` OR run manually from the llm_meetup_summary directory:
+1. `python -m venv venv` (first time only)
+2. `source venv/bin/activate`
+3. `pip install -r requirements.txt`
+4. `python summarise_events_with_llms.py [--test] [--events-file]`
+
+If using the test flag, then the Meetup summary will be posted to #test-meetup-summaries channel. Otherwise it will be posted to the #events channel.
+
+And currently the LLM prompt is very basic - it's open to improvement suggestions!
+
 ### Dependencies
 
 python 3.11 or above
@@ -102,3 +112,5 @@ Hence, to run the GHA workflow, you only need to provide:
   - the month value (e.g 9 for September)
 
 For more information on the GC service account configurations, you can read the [README](blog_automation/README.md) in the blog automation folder.
+
+
