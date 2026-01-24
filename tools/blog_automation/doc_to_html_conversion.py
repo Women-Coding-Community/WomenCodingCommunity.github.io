@@ -9,8 +9,7 @@ import datetime as dt
 
 # --- Configuration ---
 SERVICE_ACCOUNT_FILE = 'service_account_key.json'
-YAML_HEADER = '''
----
+YAML_HEADER = '''---
 layout: post
 title: [TITLE]
 date: [DATE]
