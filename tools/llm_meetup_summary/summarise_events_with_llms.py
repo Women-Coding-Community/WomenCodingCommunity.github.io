@@ -110,7 +110,7 @@ def _get_llm_summary(formatted_events):
     Summary3 = (examples_dir / "03_summary.md").read_text()
 
     prompt = f"""
-Summarise the upcoming Meetup events for our community, Women Coding Community, in the form of a Slack 
+Summarise the upcoming events for our community, Women Coding Community, in the form of a Slack 
 message in markdown format. Start directly with the summary without any introduction.
 
 Output an error message if you have any problems, in the format '#ERROR: message'.
