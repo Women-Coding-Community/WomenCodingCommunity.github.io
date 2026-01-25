@@ -1,3 +1,4 @@
+import shutil
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 import os
@@ -6,9 +7,12 @@ import argparse
 from pathlib import Path
 from googleapiclient.errors import HttpError
 import datetime as dt
+import pandas as pd
+import re
 
 # --- Configuration ---
 SERVICE_ACCOUNT_FILE = 'service_account_key.json'
+SPREADSHEET_ID = '1Pje2qOn23OgtAyhjqKwQFYcaEAE3gAy5f3T_5LCgA2o'
 YAML_HEADER = '''---
 layout: post
 title: [TITLE]
@@ -24,6 +28,22 @@ category: [CATEGORY]
 
 def _current_directory():
     return Path(__file__).resolve().parent
+
+def drive_connection():
+    service_account_path = os.path.join(_current_directory(), SERVICE_ACCOUNT_FILE)
+    if not os.path.exists(service_account_path):
+        print(f"ERROR: Service account key file '{service_account_path}' not found.\n"
+              "Please obtain your own Google service account key and place it at this path.\n"
+              "(Never commit this file to version control.)")
+        exit(1)
+    creds = service_account.Credentials.from_service_account_file(
+        service_account_path, 
+        scopes=['https://www.googleapis.com/auth/drive.readonly']
+    )
+    drive = build('drive', 'v3', credentials=creds)
+    return drive
+
+drive = drive_connection()
 
 def _posts_directory():
     # Path to the directory where the script itself is located
@@ -42,20 +62,49 @@ def _create_blog_filename_with_date(doc_name, date_str):
     filename = f"{date_str}-{formatted_blog_title}"
     return filename
 
-def export_blog_as_html(document_id, date=None):
+def _get_info_from_spreadsheet(drive=drive, spreadsheet_id=SPREADSHEET_ID):
+    import gspread
+    import pandas as pd
+
+    # 1) Authenticate using the service account JSON
+    gc = gspread.service_account(filename="service_account_key.json")
+
+    # 2) Open the spreadsheet by its ID
+    spreadsheet_id = SPREADSHEET_ID
+    sh = gc.open_by_key(spreadsheet_id)
+
+    # 3) Select a worksheet/tab (by gid or title)
+    worksheet = sh.worksheet("Form Responses 1")
+
+    # 4) Get data
+    data = worksheet.get_all_records()
+
+    # 5) Convert to a pandas DataFrame
+    df = pd.DataFrame(data)
+    return df
+
+def _update_yaml_header_with_spreadsheet_info(yaml_header):
+    spreadsheet_info = _get_info_from_spreadsheet(drive=drive).iloc[-1].to_dict()
+    try:
+        author_name = spreadsheet_info['What is your full name? ']
+        author_role = spreadsheet_info[
+            'What is your position / company you are working at / associated with? '
+        ]
+        description = spreadsheet_info['Please provide a short description of your writing idea / blog post? ']
+        source = spreadsheet_info[
+            'Please provide a source of how you obtained/created the infographic/photo/picture used.'
+        ]
+        yaml_header = yaml_header.replace('[AUTHOR]', author_name)
+        yaml_header = yaml_header.replace('[AUTHOR ROLE]', author_role)
+        yaml_header = yaml_header.replace('[DESCRIPTION]', description)
+        yaml_header = yaml_header.replace('[SOURCE]', source)
+        return yaml_header
+    except KeyError as error:
+        print(f'Unable to find relevant spreadsheet field. Please check the spreadsheet carefully.\n{error}')
+
+def export_blog_as_html(document_id, spreadsheet_info, date=None, drive=drive):
     if date is None:
         date = _today_date_str()
-    service_account_path = os.path.join(_current_directory(), SERVICE_ACCOUNT_FILE)
-    if not os.path.exists(service_account_path):
-        print(f"ERROR: Service account key file '{service_account_path}' not found.\n"
-              "Please obtain your own Google service account key and place it at this path.\n"
-              "(Never commit this file to version control.)")
-        exit(1)
-    creds = service_account.Credentials.from_service_account_file(
-        service_account_path, 
-        scopes=['https://www.googleapis.com/auth/drive.readonly']
-    )
-    drive = build('drive', 'v3', credentials=creds)
 
     try:
         # 1. Get document name from Drive
@@ -89,6 +138,7 @@ def export_blog_as_html(document_id, date=None):
 
     # YAML front matter
     yaml_header = YAML_HEADER.replace('[TITLE]', doc_name.title()).replace('[DATE]', date)
+    yaml_header = _update_yaml_header_with_spreadsheet_info(yaml_header)
 
     final_html = yaml_header + '\n' + html_body
 
@@ -98,6 +148,38 @@ def export_blog_as_html(document_id, date=None):
         f.write(final_html)
 
     print(f"Saved HTML to: {filename}")
+    return blog_filename
+
+def download_blog_image(spreadsheet_info):
+    blog_image_drive_link = spreadsheet_info['Submit your blog cover image']
+    file_id = re.search(r'drive\.google\.com/file/d/([^/]+)/', blog_image_drive_link).group(1)
+    # Download the image file
+    try:
+        request = drive.files().get_media(fileId=file_id)
+        image_data = request.execute()
+        # Save the image locally
+        image_filename = f"blog_image_{file_id}.jpg"
+        with open(image_filename, 'wb') as img_file:
+            img_file.write(image_data)
+        return image_filename
+    except HttpError as error:
+        print(f"Error downloading image: {error}")
+        return None
+    
+def copy_image_to_blog_assets(image_filename, blog_filename):
+    assets_dir = Path(__file__).resolve().parent.parent.parent / 'assets' / 'images' / 'blog'
+    assets_dir.mkdir(parents=True, exist_ok=True)
+    date_prefix = blog_filename.split('-')[0]
+    new_image_filename = f"{date_prefix}-{image_filename}"
+    new_image_path = assets_dir / new_image_filename
+    shutil.copy(image_filename, new_image_path)
+    return f"/assets/images/blog/{new_image_filename}"
+
+def export_blog_with_image(document_id):
+    spreadsheet_info = _get_info_from_spreadsheet(drive=drive)
+    blog_filename = export_blog_as_html(document_id, spreadsheet_info)
+    image_filename = download_blog_image(spreadsheet_info)
+    copy_image_to_blog_assets(image_filename, blog_filename)
 
 if __name__ == "__main__":
     # To run script: `python export_blog.py <DOC_ID> --date <DATE>`
