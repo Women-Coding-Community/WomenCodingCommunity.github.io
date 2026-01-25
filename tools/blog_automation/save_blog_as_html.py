@@ -26,6 +26,8 @@ category: [CATEGORY]
 ---
 '''
 
+# TODO: Use information from spreadsheet with optional doc_ID param
+
 def _current_directory():
     return Path(__file__).resolve().parent
 
@@ -43,26 +45,9 @@ def drive_connection():
     drive = build('drive', 'v3', credentials=creds)
     return drive
 
-drive = drive_connection()
+DRIVE = drive_connection()
 
-def _posts_directory():
-    # Path to the directory where the script itself is located
-    script_dir = _current_directory()
-
-    # Construct the path relative to the script’s location
-    posts_dir = (script_dir / "../../_posts").resolve()
-
-    return posts_dir
-
-def _today_date_str():
-    return dt.date.today().isoformat()
-
-def _create_blog_filename_with_date(doc_name, date_str):
-    formatted_blog_title = doc_name.lower().replace(' ', '-').strip()
-    filename = f"{date_str}-{formatted_blog_title}"
-    return filename
-
-def _get_info_from_spreadsheet(drive=drive, spreadsheet_id=SPREADSHEET_ID):
+def get_blog_info_from_spreadsheet(spreadsheet_id=SPREADSHEET_ID):
     import gspread
     import pandas as pd
 
@@ -83,8 +68,25 @@ def _get_info_from_spreadsheet(drive=drive, spreadsheet_id=SPREADSHEET_ID):
     df = pd.DataFrame(data)
     return df
 
+def _posts_directory():
+    # Path to the directory where the script itself is located
+    script_dir = _current_directory()
+
+    # Construct the path relative to the script’s location
+    posts_dir = (script_dir / "../../_posts").resolve()
+
+    return posts_dir
+
+def _today_date_str():
+    return dt.date.today().isoformat()
+
+def _create_blog_filename_with_date(doc_name, date_str):
+    formatted_blog_title = doc_name.lower().replace(' ', '-').strip()
+    filename = f"{date_str}-{formatted_blog_title}"
+    return filename
+
 def _update_yaml_header_with_spreadsheet_info(yaml_header):
-    spreadsheet_info = _get_info_from_spreadsheet(drive=drive).iloc[-1].to_dict()
+    spreadsheet_info = get_blog_info_from_spreadsheet(drive=DRIVE).iloc[-1].to_dict()
     try:
         author_name = spreadsheet_info['What is your full name? ']
         author_role = spreadsheet_info[
@@ -102,7 +104,7 @@ def _update_yaml_header_with_spreadsheet_info(yaml_header):
     except KeyError as error:
         print(f'Unable to find relevant spreadsheet field. Please check the spreadsheet carefully.\n{error}')
 
-def export_blog_as_html(document_id, spreadsheet_info, date=None, drive=drive):
+def export_blog_as_html(document_id, date=None, drive=DRIVE):
     if date is None:
         date = _today_date_str()
 
@@ -155,7 +157,7 @@ def download_blog_image(spreadsheet_info):
     file_id = re.search(r'drive\.google\.com/file/d/([^/]+)/', blog_image_drive_link).group(1)
     # Download the image file
     try:
-        request = drive.files().get_media(fileId=file_id)
+        request = DRIVE.files().get_media(fileId=file_id)
         image_data = request.execute()
         # Save the image locally
         image_filename = f"blog_image_{file_id}.jpg"
@@ -176,7 +178,7 @@ def copy_image_to_blog_assets(image_filename, blog_filename):
     return f"/assets/images/blog/{new_image_filename}"
 
 def export_blog_with_image(document_id):
-    spreadsheet_info = _get_info_from_spreadsheet(drive=drive)
+    spreadsheet_info = get_blog_info_from_spreadsheet(drive=DRIVE)
     blog_filename = export_blog_as_html(document_id, spreadsheet_info)
     image_filename = download_blog_image(spreadsheet_info)
     copy_image_to_blog_assets(image_filename, blog_filename)
