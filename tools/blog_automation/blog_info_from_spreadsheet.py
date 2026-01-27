@@ -21,6 +21,7 @@ def _extract_and_rename_relevant_fields(df):
     formatted_df['source'] = df[
             'Please provide a source of how you obtained/created the infographic/photo/picture used.'
         ]
+    formatted_df['image_link'] = df['Submit your blog cover image']
     return formatted_df
 
 def dataframe_of_blog_spreadsheet_info(spreadsheet_id=SPREADSHEET_ID):
@@ -34,10 +35,13 @@ def dataframe_of_blog_spreadsheet_info(spreadsheet_id=SPREADSHEET_ID):
     df = pd.DataFrame(data)
     return df
 
-if __name__=='__main__':
+def save_blog_info_to_csv():
     df = dataframe_of_blog_spreadsheet_info()
     formatted_df = df.pipe(_extract_and_rename_relevant_fields)
     formatted_df.to_csv('blog_info_snapshot.csv')
+
+if __name__=='__main__':
+    save_blog_info_to_csv()
 
 
 
