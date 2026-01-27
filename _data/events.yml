@@ -1859,3 +1859,22 @@
     path: https://www.meetup.com/women-coding-community/events/313052113/
     title: View meetup event
     target: _target
+
+- title: |
+    WCC Book Club: AI Engineering by Chip Huyen
+  description: |
+    Women Coding Community Book Club   Feb'26 month's Book: AI Engineering by Chip Huyen  "A concise yet comprehensive exploration of the core concepts that underpin modern AI engineering.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, FEB 23, 2026
+  expiration: "20260223"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/3/6/f/c/600_532454076.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313052113/
+    title: View meetup event
+    target: _target
