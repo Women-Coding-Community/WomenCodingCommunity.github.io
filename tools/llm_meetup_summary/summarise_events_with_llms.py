@@ -181,15 +181,16 @@ def _post_to_slack(message, slack_webhook_url=SLACK_TEST_WEBHOOK):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Summarise upcoming Meetup events and post to Slack.")
     parser.add_argument(
-        "--test", 
-        action="store_true", 
-        help="Post the summary to the test Slack channel #test-meetup-summaries. Otherwise, post to #events."
+        "--channel",
+        choices=["test-meetup-summaries", "events"],
+        default="test-meetup-summaries",
+        help="Slack channel to post the summary to: 'test-meetup-summaries' or 'events'."
     )
     parser.add_argument("--events_file", help="Path to the events YAML file.", default=EVENTS_FILE)
     args = parser.parse_args()
-    
-    test_mode_activated = args.test
 
+    test_mode_activated = args.channel == "test-meetup-summaries"
+    
     if test_mode_activated:
         slack_webhook_url = SLACK_TEST_WEBHOOK
     else:
