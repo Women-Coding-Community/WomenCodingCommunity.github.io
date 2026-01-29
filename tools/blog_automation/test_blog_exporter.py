@@ -5,8 +5,11 @@ from pathlib import Path
 
 @pytest.mark.parametrize(
     "example_image", 
-    ["https://drive.google.com/open?id=1o4byZahHg6KpqvKlJU_IJ0RKZ-nmcMnw",
-     "https://drive.google.com/file/d/1o4byZahHg6KpqvKlJU_IJ0RKZ-nmcMnw/view"]
+    [
+        "https://drive.google.com/open?id=1o4byZahHg6KpqvKlJU_IJ0RKZ-nmcMnw",
+        "https://drive.google.com/file/d/1o4byZahHg6KpqvKlJU_IJ0RKZ-nmcMnw/view",
+        "https://drive.google.com/open?id=1DF08PAjvFPBv8ZGigjwiaFn1JP8TUHg7"
+    ]
 )
 def test_download_image_and_copy_to_repo(example_image):
     blog_filename = "test_blog_image"
