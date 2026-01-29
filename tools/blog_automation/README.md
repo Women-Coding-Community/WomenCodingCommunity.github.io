@@ -77,6 +77,17 @@ Use this ID in your scripts when exporting the document.
 
 ## Run Automation
 1. Activate virtual environment: `source venv/bin/activate`
-2. Run the script: `python doc_to_html_conversion.py <DOC_ID>`
+2. Run the script: `python blog_exporter [--row_index <ROW_INDEX>]`, where the row_index refers to the row of the CSV. This defaults to -1, or the last row in the CSV.
+
+**Notes and Options**
+- The blog csv defaults to blog_info_snapshot.csv
+
+## Tests
+
+Run `pytest test_blog_exporter.py`
+
+## GitHub Actions automation
+There is a GitHub Action .github/workflows/run_blog_exporter.yml which checks for any new rows in the blog_info_snapshot.csv, and runs the blog_exporter.py script for each new row.
+
 
 
