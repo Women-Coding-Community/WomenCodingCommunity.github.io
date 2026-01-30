@@ -15,6 +15,7 @@
 
 This can be run with the GitHub Actions workflow `summarise_upcoming_events.yml` OR run manually from the llm_meetup_summary directory. To run locally, you need to create a .env file with `OPENAI_API_KEY`, `SLACK_BOT_TEST_WEBHOOK`, and SLACK_BOT_WEBHOOK keys. See .example.env for reference. The secret are stored in the repository secrets.
 
+
 Then run the following commands from the terminal:
 1. `python -m venv venv` (first time only)
 2. `source venv/bin/activate`
