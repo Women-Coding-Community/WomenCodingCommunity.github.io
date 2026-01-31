@@ -35,7 +35,7 @@ jobs:
       - name: Run summary script
         run: |
           cd tools/llm_meetup_summary
-          python summarise_events_with_llms.py
+          python summarise_events_with_llms.py --channel events
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

@@ -10,7 +10,11 @@
 
 5) `automation_prepare_adhoc_availability.py`: updates mentors data with specified availability hours in `samples/adhoc-prep.xlsx` in preparation for monthly ad-hoc mentorship.
 
-6) `llm_meetup_summary\summarise_events_with_llms` sends a Slack summary of our upcoming Meetup events. Note - currently set up to use Silke's API key on the GitHub repo. Please don't abuse this :) This can be run with the GitHub Actions workflow `summarise_upcoming_events.yml` OR run manually from the llm_meetup_summary directory. To run locally, you need to create a .env file with OPENAI_API_KEY, SLACK_BOT_TEST_WEBHOOK, and SLACK_BOT_WEBHOOK keys. See .example.env for reference. The secret values can be found in https://github.com/Women-Coding-Community/WomenCodingCommunity.github.io/settings/secrets/actions.
+6) `llm_meetup_summary\summarise_events_with_llms` sends a Slack summary of our upcoming Meetup events. 
+**Note** Currently set up to use Silke's API key on the GitHub repo. Please don't abuse this :) and reach out to her in case you would like to use. 
+
+This can be run with the GitHub Actions workflow `summarise_upcoming_events.yml` OR run manually from the llm_meetup_summary directory. To run locally, you need to create a .env file with `OPENAI_API_KEY`, `SLACK_BOT_TEST_WEBHOOK`, and SLACK_BOT_WEBHOOK keys. See .example.env for reference. The secret are stored in the repository secrets.
+
 
 Then run the following commands from the terminal:
 1. `python -m venv venv` (first time only)
