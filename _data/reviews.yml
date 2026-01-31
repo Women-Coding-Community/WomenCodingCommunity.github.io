@@ -260,6 +260,13 @@
         I am deeply grateful to Rajani and to WCC for creating such an empowering space. This community helped me believe that returning to work was not only possible, but that I could excel and build a meaningful career ahead.
       name: Rajashree Munoli
       type: Long Term Mentorship
+    - score: 5
+      date: 20251213
+      date-f: 13 December 2025
+      feedback: |
+        My mentor helped me immensely with building a positive mindset and building self confidence. She has been available throughout and supported me immensely with questions and problems I've had. I am very grateful for this program for matching me with my mentor, it really had a super positive impact on my life!
+      name: Anonymous
+      type: Long Term Mentorship
 
 - index: 11 # Ying
   feedback:
@@ -362,6 +369,13 @@
         Their kindness and warmth during the session has really helped me to progress in my career due to feeling safe to open up to them.
       name: Zaynah Ahmed
       type: Ad-Hoc
+    - score: 5
+      date: 20251218
+      date-f: 18 December 2025
+      feedback: |
+        This is the second year in which Adriana is my mentor. When I look back in time, I cannot imagine a better mentor nor a better path to take than this one with the community. With my mentor I have been able to learn and to build my skills and confidence; I have been heard and valued. I have felt safe and motivated to reach my goals (and set the goals :-) ). I am very happy while I write this and I treasure many unforgettable moments from my mentorship programme. This year I have also started to work and it was a very smooth start due to the valuable experience I have gained while collaborating on the development of the new community platform with Adriana and other amazing engineers.  Now I look forward to a life-long friendship with my mentor and my wish is also to be as much as possible active in the community.
+      name: Nevena Verbič
+      type: Long Term Mentorship
 
 - index: 7 # Madhura
   feedback:
@@ -546,6 +560,13 @@
       date: 20250630
       name: Anonymous
       type: Ad-Hoc
+    - score: 5
+      date-f: 14 December 2025
+      date: 20251214
+      feedback: |
+        Lidi was an incredible mentor. In all our sessions, I always felt that time went by very quickly. We talked about many of my doubts about working in tech, and she guided me toward excellent resources. She taught me so many things, and I am truly grateful to her and for this opportunity.
+      name: Florbela da Rocha Almeida
+      type: Long Term Mentorship
 
 - index: 20 # Andrew King
   feedback:
@@ -614,6 +635,15 @@
       date: 20251111
       name: Anonymous
       type: Ad-Hoc
+    - score: 5
+      date-f: 22 December 2025
+      date: 20251222
+      feedback: |
+        Sam is an exceptionally strong mentor who consistently comes well prepared and takes her role very seriously. She is highly responsible, always supportive, and equally focused on guiding me in the right direction. I have learned massively from her about best practices in software engineering, soft skills and effective communication.
+
+        I could not have been more happy in choosing a mentor. Thank you to the Women Coding Community, and especially to Sam, for being the support I was looking for during my first year in tech.
+      name: Anonymous
+      type: Long Term Mentorship
 
 - index: 48 # Prerna Singhal
   feedback:
@@ -732,3 +762,23 @@
       date: 20251125
       name: Anonymous
       type: Ad-Hoc
+
+- index: 67 # Sebastian Castro
+  feedback:
+    - score: 5
+      date: 20251217
+      date-f: 17 December 2025
+      feedback: |
+        Sebastian is a very flexible, understanding and approachable mentor. He was always open to answering my questions and providing resources, even outside our meetings.
+      name: Catarina Pires
+      type: Long Term Mentorship
+
+- index: 65 # Sergei Begishev
+  feedback:
+    - score: 4
+      date: 20260109
+      date-f: 09 January 2026
+      feedback: |
+        I felt comfortable talking with my mentor. It was a save space to talk about my situation and I felt free to ask questions. It really helped me to have someone that have been in the same situation and understands or try to understand what my is. Having a mentor and the opportunity to hear from the experience of somebody that experienced it was great and helped me "survived" the first month's in my new role. I've learned a lot me feel more confident in my job. So thank you Sergey for your time!
+      name: Anonymous
+      type: Long Term Mentorship
