@@ -1878,3 +1878,21 @@
     path: https://www.meetup.com/women-coding-community/events/313052113/
     title: View meetup event
     target: _target
+
+- title: Call for volunteers 2026
+  description: |
+    A Love Letter to our Community (and an Invitation!)  At the heart of the Women Coding Community is a simple idea: that we go further when we support one another.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: FRI, FEB 13, 2026
+  expiration: "20260213"
+  host: ""
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/f/c/9/600_532540905.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313162872/
+    title: View meetup event
+    target: _target
