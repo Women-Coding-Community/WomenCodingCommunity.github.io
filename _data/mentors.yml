@@ -3025,3 +3025,115 @@
       Communication and collaboration with technical teams
   network:
   - linkedin: https://www.linkedin.com/in/tu%C4%9F%C3%A7e-k%C4%B1z%C4%B1l%C3%A7akar-535a1a4b/
+
+- name: Marjorie Martinez
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 0
+  hours: 5
+  type: ad-hoc
+  index: 88
+  location: London, United Kingdom
+  position: Software Developer, Major Digital
+  bio: |
+    Frontend-focused software developer with 6+ years of experience working on web applications for multinational clients, focusing on reliability, maintainability, and user experience. Experienced in building accessible interfaces, implementing authentication flows, and migrating legacy projects to modern frontend solutions. Motivated by improving complex systems and contributing to products that evolve over time.
+  image: |
+    assets/images/mentors/marjorie_martinez.jpeg
+  languages: English, Filipino
+  availability: [5]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      Somewhere beginner level or mid level that's looking for career guide.
+    areas:
+    - Frontend Developer
+    - Fullstack Developer
+    languages: Javascript
+    focus:
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    extra: |
+      Software Development Strategies, Resume Review, Career Transition, Career Path Guide
+  network:
+  - linkedin: https://www.linkedin.com/in/marjorie-martinez/
+
+- name: Faith Sodipe
+  disabled: false
+  matched: false
+  sort: 10
+  num_mentee: 5
+  hours: 5
+  type: long-term
+  index: 89
+  location: United Kingdom / Manchester
+  position: Software Engineer, AMScreen
+  bio: |
+    I am a software engineer with half a decade of professional experience building scalable, production-grade systems across fintech, banking, digital media, and data-driven platforms. My technical background spans backend engineering with C# and .NET, cloud-native architectures on Azure, event-driven microservices, distributed systems, and cross-platform mobile development using Flutter. I’ve worked on systems that support real users at scale, handle sensitive data, and generate revenue, with a strong focus on clean architecture, performance, security, and resilience.
+    Beyond delivery, I’ve taken ownership of system design decisions, collaborated closely with product and engineering leaders, and contributed to improving reliability, monitoring, and developer experience. I also hold an MSc in Cybersecurity, which informs my approach to building secure, trustworthy software.
+    I’m deeply passionate about mentorship and community impact. I’ve supported career switchers, junior developers, and beginners through one-on-one mentoring, speaking engagements, and community sessions. My goal as a mentor is to help mentees build strong technical foundations, confidence, and clarity in their career paths, while encouraging curiosity, persistence, and continuous learning.
+  image: |
+    assets/images/mentors/faith_sodipe.jpeg
+  languages: English
+  availability: []
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      I am looking for mentees who are curious, open to learning, and willing to show up consistently, regardless of their current skill level. You don’t need to have everything figured out, what matters most is a genuine interest in growing, asking questions, and reflecting on feedback. I particularly enjoy working with early-career developers and career switchers who may be navigating confidence gaps or uncertainty and who want guidance on building strong foundations in both technical skills and professional growth. I value honesty, communication, and a collaborative mindset, and I aim to create a supportive, judgment-free space where mentees feel comfortable making mistakes and learning from them. If you’re motivated to learn, willing to put in the effort, and open to exploring your potential in tech, we’ll work well together.
+    areas:
+    - Backend Developer
+    - Fullstack Developer
+    - Distributed Systems
+    languages: C#
+    focus:
+    - Grow from beginner to mid-level
+    - Change specialisation within IT
+    - Switch career to IT
+    extra: |
+      System Design Fundamentals, Preparation for Technical Interviews, Soft Skills Beyond Technical Ability, Resume Review, Software Development Lifecyle, Agile Methodologies, Cybersecurity Essentials, Lessons Learned in Building systems at scale, System Optimization Strategies, Growing as an Engineer, AI, General Career advice
+  network:
+  - linkedin: https://www.linkedin.com/in/sodipefaith/
+  - medium: https://medium.com/@faithsodipe
+
+- name: Anastasiia Roldugina
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 2
+  hours: 4
+  type: both
+  index: 90
+  location: London, UK
+  position: Full Stack Engineer, Count Ltd. (Record OS)
+  bio: |
+    Full-stack engineer with 5+ years of experience building scalable web applications in startup and product-driven environments. I specialize in React/TypeScript on the frontend and Python or PHP on the backend, with a strong focus on clean architecture, reliability, and user-centric design.
+    I’ve led and delivered end-to-end features from concept to production, including complex third-party integrations, automation systems, and data-heavy workflows. I enjoy working across the stack, collaborating closely with product and design, and turning ambiguous ideas into practical, high-impact solutions.
+  image: |
+    assets/images/mentors/anastasiia_roldugina.jpeg
+  languages: English, Russian
+  availability: [5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      Excited to work with motivated, curious mentees who are serious about growing in tech and open to feedback. You don’t need to have everything figured out, just a willingness to learn and try new approaches.
+      I especially enjoy supporting people who are:
+              •        Early to mid-career engineers looking to build confidence and real-world skills
+              •        Transitioning into software development from another field
+              •        Preparing for technical interviews or their first (or next) engineering role
+              •        Working in startups or small teams and wanting to level up their technical and product thinking
+      If you’re proactive, ask questions, and are ready to put ideas into practice between sessions, we’ll work great together.
+    areas:
+    - Fullstack Developer
+    languages: Javascript, Python, C#
+    focus:
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Change specialisation within IT
+    - Switch from IC to management position
+    extra: |
+      Working in startups: ownership, prioritisation, shipping with limited resources, Turning product requirements into technical solutions, Third-party integrations (email systems, e-signatures, external APIs), Technical interview preparation (frontend, full-stack, take-home tasks, pair programming), CV / resume review for software engineers
+  network:
+  - linkedin: https://www.linkedin.com/in/anaroldugina/
