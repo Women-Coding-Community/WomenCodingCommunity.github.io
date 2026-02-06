@@ -18,12 +18,6 @@ EVENTS_FILE = os.path.join(current_folder, '../../_data/events.yml')
 MODEL = "gpt-4.1-nano"
 REQUIRED_EVENT_FIELDS = ['title', 'description', 'date', 'time', 'link']
 
-try:
-    SLACK_TEST_WEBHOOK= os.getenv('SLACK_BOT_TEST_WEBHOOK')
-    SLACK_WEBHOOK= os.getenv('SLACK_BOT_WEBHOOK')
-except KeyError as e:
-    raise KeyError(f"Environment variable not set: {e}")
-
 # Setup logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -170,15 +164,14 @@ def _format_for_slack(text):
     text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<\2|\1>', text)
     return text
 
-def _post_to_slack(message, slack_webhook_url=SLACK_TEST_WEBHOOK):
-    if not slack_webhook_url:
-        raise ValueError("SLACK_SUMMARY_WEBHOOK not set in environment variables")
-
+def _post_to_slack(message, slack_webhook_url):
     response = requests.post(slack_webhook_url, json={'text': message})
     response.raise_for_status()
     logger.info("Message posted to Slack successfully")
 
 if __name__ == "__main__":
+    dotenv.load_dotenv()
+
     parser = argparse.ArgumentParser(description="Summarise upcoming Meetup events and post to Slack.")
     parser.add_argument(
         "--channel",
@@ -190,15 +183,20 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     test_mode_activated = args.channel == "test-meetup-summaries"
-    
+
     if test_mode_activated:
-        slack_webhook_url = SLACK_TEST_WEBHOOK
+        logger.info("Running in test mode.")
+        SLACK_WEBHOOK= os.getenv('SLACK_BOT_TEST_WEBHOOK')
     else:
-        slack_webhook_url = SLACK_WEBHOOK
+        logger.info("Running in production mode.")
+        SLACK_WEBHOOK= os.getenv('SLACK_BOT_WEBHOOK')
+    
+    if SLACK_WEBHOOK is None:
+        raise KeyError("SLACK_BOT_TEST_WEBHOOK or SLACK_BOT_WEBHOOK must be set in environment variables")
 
     try:
         summary = summarise_events_with_llm(args.events_file)
-        _post_to_slack(summary, slack_webhook_url)
+        _post_to_slack(summary, slack_webhook_url=SLACK_WEBHOOK)
     except Exception as e:
         logger.error(f"Failed to summarize and post events: {e}", exc_info=True)
         raise

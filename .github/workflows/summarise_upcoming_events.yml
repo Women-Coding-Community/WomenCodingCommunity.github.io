@@ -6,7 +6,7 @@ on:
     - cron: '0 7 * * 1' # Monday at 7am GMT
 
 jobs:
-  summarise_events_with_llms:
+  summarise_events_with_llm:
     if: github.repository == 'Women-Coding-Community/WomenCodingCommunity.github.io' 
     runs-on: ubuntu-latest
 
@@ -38,4 +38,4 @@ jobs:
           python summarise_events_with_llms.py --channel events
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_BOT_WEBHOOK: ${{ secrets.SLACK_BOT_WEBHOOK }}
