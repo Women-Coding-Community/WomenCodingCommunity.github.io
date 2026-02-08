@@ -1896,3 +1896,98 @@
     path: https://www.meetup.com/women-coding-community/events/313162872/
     title: View meetup event
     target: _target
+
+- title: |
+    Java bootcamp - Session 2
+  description: |
+    Do you want to build strong Java skills but don't know where to start? Do you feel overwhelmed juggling tutorials, documentation, and scattered resources while trying to learn Java on your own?  Our Java Bootcamp is designed to give you a clear, structured path to build practical Java skills through hands-on coding, not endless theory.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, FEB 12, 2026
+  expiration: "20260212"
+  host: "Zaynah Ahmed"
+  speaker: "Adriana Zencke Zimmermann, Sonali Goel"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/4/4/9/600_532629289.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313253178/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Java bootcamp - Session 3
+  description: |
+    Do you want to build strong Java skills but don't know where to start? Do you feel overwhelmed juggling tutorials, documentation, and scattered resources while trying to learn Java on your own?  Our Java Bootcamp is designed to give you a clear, structured path to build practical Java skills through hands-on coding, not endless theory.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, FEB 19, 2026
+  expiration: "20260219"
+  host: "Zaynah Ahmed"
+  speaker: "Adriana Zencke Zimmermann, Sonali Goel"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/4/4/9/600_532629289.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313256743/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Java bootcamp - Session 4
+  description: |
+    Do you want to build strong Java skills but don't know where to start? Do you feel overwhelmed juggling tutorials, documentation, and scattered resources while trying to learn Java on your own?  Our Java Bootcamp is designed to give you a clear, structured path to build practical Java skills through hands-on coding, not endless theory.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, FEB 26, 2026
+  expiration: "20260226"
+  host: "Zaynah Ahmed"
+  speaker: "Adriana Zencke Zimmermann, Sonali Goel"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/4/4/9/600_532629289.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313256761/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Java bootcamp - Session 5
+  description: |
+    Do you want to build strong Java skills but don't know where to start? Do you feel overwhelmed juggling tutorials, documentation, and scattered resources while trying to learn Java on your own?  Our Java Bootcamp is designed to give you a clear, structured path to build practical Java skills through hands-on coding, not endless theory.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, MAR 05, 2026
+  expiration: "20260305"
+  host: "Zaynah Ahmed"
+  speaker: "Adriana Zencke Zimmermann, Sonali Goel"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/4/4/9/600_532629289.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313256771/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Java bootcamp - Session 6
+  description: |
+    Do you want to build strong Java skills but don't know where to start? Do you feel overwhelmed juggling tutorials, documentation, and scattered resources while trying to learn Java on your own?  Our Java Bootcamp is designed to give you a clear, structured path to build practical Java skills through hands-on coding, not endless theory.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, MAR 12, 2026
+  expiration: "20260312"
+  host: "Zaynah Ahmed"
+  speaker: "Adriana Zencke Zimmermann, Sonali Goel"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/4/4/9/600_532629289.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313257077/
+    title: View meetup event
+    target: _target
