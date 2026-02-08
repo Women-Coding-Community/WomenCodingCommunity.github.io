@@ -1,8 +1,7 @@
 const controllerSearch = (function (jQuery) {
     const MENTOR_TYPE_BOTH = 'both';
     const HIDE_CLASS = 'd-none';
-    const MENTOR_CARD = '#mentor-card-';
-    const MENTOR_CARD_HIDDEN = '.card.d-none';
+    const MENTOR_CARD_HIDDEN = '.card-mentor.d-none';
     const Filter = {
         KEYWORDS: 'keywords',
         EXPERIENCE: 'exp',
@@ -32,8 +31,8 @@ const controllerSearch = (function (jQuery) {
     const $toggleFilterBtn = jQuery('#toggle-filters');
     const $numberOfMentorsDisplay = jQuery('#total-mentors');
 
-    const showMentorCard = function (index) {
-        jQuery(MENTOR_CARD + index).removeClass(HIDE_CLASS);
+    const showMentorCard = function (mentorSelector) {
+        jQuery(mentorSelector).removeClass(HIDE_CLASS);
 
         if (!$emptyMsg.hasClass(HIDE_CLASS)) {
             applyMentorsMsg();
@@ -45,8 +44,8 @@ const controllerSearch = (function (jQuery) {
         $descriptionMsg.removeClass(HIDE_CLASS);
     };
 
-    const hideMentorCard = function (index) {
-        jQuery(MENTOR_CARD + index).addClass(HIDE_CLASS);
+    const hideMentorCard = function (mentorSelector) {
+        jQuery(mentorSelector).addClass(HIDE_CLASS);
 
         if ((jQuery(MENTOR_CARD_HIDDEN).length) === activeMentors && $emptyMsg.hasClass(HIDE_CLASS)) {
             $emptyMsg.removeClass(HIDE_CLASS);
@@ -71,7 +70,7 @@ const controllerSearch = (function (jQuery) {
     };
 
     const applyKeywordsParam = function () {
-        const keywords = params.get([Filter.KEYWORDS]);
+        const keywords = params.get(Filter.KEYWORDS);
 
         if (keywords) {
             const filter = paramToFilter(Filter.KEYWORDS, keywords);
@@ -149,22 +148,25 @@ const controllerSearch = (function (jQuery) {
     const filterMentors = function (filters) {
         if (isDefined(filters)) {
             resetFilteredMentors();
-            for (let index = 1; index <= activeMentors; index++) {
-                applyMentorFilters(index, filters);
-            }
+            jQuery('.card-mentor').each(function () {
+                const id = jQuery(this).attr('id');
+                if (id) {
+                    const mentorSelector = '#' + id;
+                    applyMentorFilters(mentorSelector, filters);
+                }
+            });
             setNumberOfMentors(filteredMentors);
         }
     }
 
-    const applyMentorFilters = function (index, filters) {
-        const mentorCardId = MENTOR_CARD + index;
-        const mentor = jQuery(mentorCardId);
+    const applyMentorFilters = function (mentorSelector, filters) {
+        const mentor = jQuery(mentorSelector);
         if (isDefined(mentor)) {
-            if (hasFilters(mentorCardId, filters)) {
+            if (hasFilters(mentorSelector, filters)) {
                 filteredMentors++;
-                showMentorCard(index);
+                showMentorCard(mentorSelector);
             } else {
-                hideMentorCard(index);
+                hideMentorCard(mentorSelector);
             }
         }
     };
@@ -178,14 +180,16 @@ const controllerSearch = (function (jQuery) {
             const inputHidden = jQuery(inputHiddenId);
 
             if (filter.key === Filter.EXPERIENCE) {
-                const min = filter.min;
-                const max = filter.max;
-                if (isDefined(inputHidden) && parseInt(inputHidden.val()) >= min && parseInt(inputHidden.val()) <= max) {
+                const min = Number(filter.min);
+                const max = Number(filter.max);
+                const val = parseInt(inputHidden.val(), 10);
+                if (isDefined(inputHidden) && !isNaN(val) && val >= min && val <= max) {
                     hasFilter++;
                 }
 
             } else if (filter.key === Filter.TYPE) {
-                if (isDefined(inputHidden) && (inputHidden.val() === filter.value || inputHidden.val() === MENTOR_TYPE_BOTH)) {
+                const typeVal = String(inputHidden.val()).toLowerCase();
+                if (isDefined(inputHidden) && (typeVal === filter.value || typeVal === MENTOR_TYPE_BOTH)) {
                     hasFilter++;
                 }
 
@@ -202,7 +206,7 @@ const controllerSearch = (function (jQuery) {
     }
 
     const containsFilter = function (input, value) {
-        return input.val().indexOf(value) > -1
+        return input.val().toLowerCase().indexOf(value) > -1
     };
 
     const isDefined = function (element) {
