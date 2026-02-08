@@ -3,7 +3,6 @@ const controllerSearch = (function (jQuery) {
     const HIDE_CLASS = 'd-none';
     const MENTOR_CARD = '#mentor-card-';
     const MENTOR_CARD_HIDDEN = '.card.d-none';
-    const DEACTIVATED_MENTOR = '.inactive-mentor';
     const Filter = {
         KEYWORDS: 'keywords',
         EXPERIENCE: 'exp',
@@ -17,8 +16,7 @@ const controllerSearch = (function (jQuery) {
     ]);
 
     const params = new URLSearchParams(window.location.search);
-    const totalMentors = jQuery('.card').length + jQuery(DEACTIVATED_MENTOR).length;
-    const activeMentors = jQuery('.card').length;
+    const activeMentors = jQuery('.card-mentor').length;
     let filteredMentors = 0;
 
     const $keywords = jQuery('#keywords');
@@ -50,7 +48,7 @@ const controllerSearch = (function (jQuery) {
     const hideMentorCard = function (index) {
         jQuery(MENTOR_CARD + index).addClass(HIDE_CLASS);
 
-        if ((jQuery(MENTOR_CARD_HIDDEN).length + jQuery(DEACTIVATED_MENTOR).length) === totalMentors && $emptyMsg.hasClass(HIDE_CLASS)) {
+        if ((jQuery(MENTOR_CARD_HIDDEN).length) === activeMentors && $emptyMsg.hasClass(HIDE_CLASS)) {
             $emptyMsg.removeClass(HIDE_CLASS);
             $descriptionMsg.addClass(HIDE_CLASS);
         }
@@ -151,7 +149,7 @@ const controllerSearch = (function (jQuery) {
     const filterMentors = function (filters) {
         if (isDefined(filters)) {
             resetFilteredMentors();
-            for (let index = 1; index <= totalMentors; index++) {
+            for (let index = 1; index <= activeMentors; index++) {
                 applyMentorFilters(index, filters);
             }
             setNumberOfMentors(filteredMentors);
