@@ -693,6 +693,13 @@
       date: 20251118
       name: Madhuri Tata Madhusudan
       type: Ad-Hoc
+    - score: 5
+      feedback: |
+        Praba was really supportive throughout the session and made me feel comfortable asking questions and sharing what I needed help with. Her feedback was clear, practical, and tailored to my goals, not generic, which made it easy to apply straight away. She listened carefully, gave me helpful suggestions that boosted my confidence, and I left feeling much more motivated and clear on my next steps.
+      date-f: 15 January 2026
+      date: 20260115
+      name: Georgia Gkolia
+      type: Ad-Hoc
 
 - index: 82 # Ilayda Yilmaz
   feedback:
@@ -701,6 +708,12 @@
       date-f: 14 September 2025
       date: 20250914
       name: Nino Godoradze
+      type: Ad-Hoc
+    - score: 5
+      feedback: I really loved that she also gave me what sort of timeline to follow and to start with
+      date-f: 02 January 2026
+      date: 20260102
+      name: Idayat Sanni
       type: Ad-Hoc
 
 - index: 84 # Dan
