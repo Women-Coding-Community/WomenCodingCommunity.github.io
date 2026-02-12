@@ -199,7 +199,7 @@ if __name__ == "__main__":
         raise KeyError("SLACK_BOT_TEST_WEBHOOK or SLACK_BOT_WEBHOOK must be set in environment variables")
 
     try:
-        summary = summarise_events_with_llm(args.events_file, api_key=OPENAI_API_KEY)
+        summary = summarise_events_with_llm(args.events_file)
         _post_to_slack(summary, slack_webhook_url=SLACK_WEBHOOK)
     except Exception as e:
         logger.error(f"Failed to summarize and post events: {e}", exc_info=True)
