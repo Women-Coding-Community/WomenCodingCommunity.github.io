@@ -22,29 +22,6 @@ REQUIRED_EVENT_FIELDS = ['title', 'description', 'date', 'time', 'link']
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def summarise_events_with_llm(events_file=EVENTS_FILE):
-    try:
-        events = _load_events(events_file)
-        future_events = _filter_future_events(events)
-
-        print("Future Events:\n", future_events)
-        
-        if not future_events:
-            logger.warning("No future events found")
-            return "No upcoming events scheduled."
-        
-        formatted_events = _format_events_as_markdown(future_events)
-
-        print("Formatted Events for LLM:\n", formatted_events[:2000])
-
-        llm_summary = _get_llm_summary(formatted_events)
-    except Exception as e:
-        logger.error(f"Error summarizing events: {e}", exc_info=True)
-        raise
-
-    formatted_summary = _format_for_slack(llm_summary)
-    return formatted_summary
-
 def _load_events(events_file):
     try:
         with open(events_file) as f:
@@ -145,7 +122,7 @@ Now summarise the following upcoming events:
     
     response = openai.chat.completions.create(
         model=MODEL,
-        messages=[{"role": "user", "content": prompt}]
+        messages=[{"role": "user", "content": prompt}],
     )
     
     summary = response.choices[0].message.content
@@ -169,8 +146,35 @@ def _post_to_slack(message, slack_webhook_url):
     response.raise_for_status()
     logger.info("Message posted to Slack successfully")
 
+def summarise_events_with_llm(events_file=EVENTS_FILE):
+    try:
+        events = _load_events(events_file)
+        future_events = _filter_future_events(events)
+
+        print("Future Events:\n", future_events)
+        
+        if not future_events:
+            logger.warning("No future events found")
+            return "No upcoming events scheduled."
+        
+        formatted_events = _format_events_as_markdown(future_events)
+
+        print("Formatted Events for LLM:\n", formatted_events[:2000])
+
+        llm_summary = _get_llm_summary(formatted_events)
+    except Exception as e:
+        logger.error(f"Error summarizing events: {e}", exc_info=True)
+        raise
+
+    formatted_summary = _format_for_slack(llm_summary)
+    return formatted_summary
+
 if __name__ == "__main__":
     dotenv.load_dotenv()
+
+    OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+    if OPENAI_API_KEY is None:
+        raise KeyError("OPENAI_API_KEY is not set in environment variables")
 
     parser = argparse.ArgumentParser(description="Summarise upcoming Meetup events and post to Slack.")
     parser.add_argument(
@@ -195,7 +199,7 @@ if __name__ == "__main__":
         raise KeyError("SLACK_BOT_TEST_WEBHOOK or SLACK_BOT_WEBHOOK must be set in environment variables")
 
     try:
-        summary = summarise_events_with_llm(args.events_file)
+        summary = summarise_events_with_llm(args.events_file, api_key=OPENAI_API_KEY)
         _post_to_slack(summary, slack_webhook_url=SLACK_WEBHOOK)
     except Exception as e:
         logger.error(f"Failed to summarize and post events: {e}", exc_info=True)
