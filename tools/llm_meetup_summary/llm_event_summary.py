@@ -124,10 +124,6 @@ Now summarise the following upcoming events:
     with open(os.path.join(examples_dir, "current_prompt.md"), 'w') as txt:
         txt.write(prompt) # save for reference
     
-    # Final check for open AI key
-    print("First 10 characters of key", OPENAI_API_KEY[:10] if OPENAI_API_KEY else "None")
-    openai.api_key = OPENAI_API_KEY
-    
     response = openai.chat.completions.create(
         model=MODEL,
         messages=[{"role": "user", "content": prompt}],
