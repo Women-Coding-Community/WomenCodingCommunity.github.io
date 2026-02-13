@@ -10,6 +10,11 @@ import argparse
 
 dotenv.load_dotenv()
 
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+if OPENAI_API_KEY is None:
+    raise KeyError("OPENAI_API_KEY is not set in environment variables")
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
 # Get current folder
 current_folder = os.path.dirname(os.path.abspath(__file__))
 
@@ -172,9 +177,7 @@ def summarise_events_with_llm(events_file=EVENTS_FILE):
 if __name__ == "__main__":
     dotenv.load_dotenv()
 
-    OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-    if OPENAI_API_KEY is None:
-        raise KeyError("OPENAI_API_KEY is not set in environment variables")
+    print('Enter main function')
 
     parser = argparse.ArgumentParser(description="Summarise upcoming Meetup events and post to Slack.")
     parser.add_argument(
