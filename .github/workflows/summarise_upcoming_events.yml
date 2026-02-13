@@ -1,12 +1,14 @@
 name: Summarise Upcoming Meetup Events
 
 on:
+  pull_request:
+    types: [opened, synchronize, reopened ]
   workflow_dispatch:
   schedule:
     - cron: '0 7 * * 1' # Monday at 7am GMT
 
 jobs:
-  summarise_events_with_llms:
+  summarise_events_with_llm:
     if: github.repository == 'Women-Coding-Community/WomenCodingCommunity.github.io' 
     runs-on: ubuntu-latest
 
@@ -35,7 +37,8 @@ jobs:
       - name: Run summary script
         run: |
           cd tools/llm_meetup_summary
-          python summarise_events_with_llms.py --channel events
+          if [ -z "$OPENAI_API_KEY" ]; then echo "Error: OPENAI_API_KEY is not set"; exit 1; fi
+          python llm_event_summary.py --channel events
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_BOT_WEBHOOK: ${{ secrets.SLACK_BOT_WEBHOOK }}
