@@ -124,10 +124,7 @@ Now summarise the following upcoming events:
     with open(os.path.join(examples_dir, "current_prompt.md"), 'w') as txt:
         txt.write(prompt) # save for reference
     
-    OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-    if not OPENAI_API_KEY:
-        raise KeyError("OPENAI_API_KEY is not set in environment variables (summary func)")
-    
+    # Final check for open AI key
     print("First 10 characters of key", OPENAI_API_KEY[:10] if OPENAI_API_KEY else "None")
     openai.api_key = OPENAI_API_KEY
     
