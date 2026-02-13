@@ -1,6 +1,6 @@
 import pytest
 
-from llm_meetup_summary.summarise_events_with_llms import summarize_meetup_events_with_llms
+from tools.llm_meetup_summary.llm_event_summary import summarize_meetup_events_with_llms
 
 import pytest
 from unittest.mock import patch, mock_open, MagicMock
@@ -11,7 +11,7 @@ import os
 # Add parent directory to path for absolute imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from llm_meetup_summary.summarise_events_with_llms import (
+from tools.llm_meetup_summary.llm_event_summary import (
     _get_llm_summary,
     _format_for_slack,
     _validate_event,

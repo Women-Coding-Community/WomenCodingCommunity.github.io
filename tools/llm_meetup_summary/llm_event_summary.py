@@ -11,7 +11,7 @@ import argparse
 dotenv.load_dotenv()
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-if OPENAI_API_KEY is None:
+if not OPENAI_API_KEY:
     raise KeyError("OPENAI_API_KEY is not set in environment variables")
 
 # Get current folder
@@ -124,6 +124,10 @@ Now summarise the following upcoming events:
     with open(os.path.join(examples_dir, "current_prompt.md"), 'w') as txt:
         txt.write(prompt) # save for reference
     
+    OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+    if not OPENAI_API_KEY:
+        raise KeyError("OPENAI_API_KEY is not set in environment variables (summary func)")
+    
     print("First 10 characters of key", OPENAI_API_KEY[:10] if OPENAI_API_KEY else "None")
     openai.api_key = OPENAI_API_KEY
     
@@ -153,7 +157,7 @@ def _post_to_slack(message, slack_webhook_url):
     response.raise_for_status()
     logger.info("Message posted to Slack successfully")
 
-def summarise_events_with_llm(events_file=EVENTS_FILE):
+def load_events_and_summarise(events_file=EVENTS_FILE):
     try:
         events = _load_events(events_file)
         future_events = _filter_future_events(events)
@@ -202,7 +206,7 @@ if __name__ == "__main__":
         raise KeyError("SLACK_BOT_TEST_WEBHOOK or SLACK_BOT_WEBHOOK must be set in environment variables")
 
     try:
-        summary = summarise_events_with_llm(args.events_file)
+        summary = load_events_and_summarise(args.events_file)
         _post_to_slack(summary, slack_webhook_url=SLACK_WEBHOOK)
     except Exception as e:
         logger.error(f"Failed to summarize and post events: {e}", exc_info=True)
