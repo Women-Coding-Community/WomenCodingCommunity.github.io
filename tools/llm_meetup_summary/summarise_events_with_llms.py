@@ -13,7 +13,6 @@ dotenv.load_dotenv()
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 if OPENAI_API_KEY is None:
     raise KeyError("OPENAI_API_KEY is not set in environment variables")
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Get current folder
 current_folder = os.path.dirname(os.path.abspath(__file__))
@@ -125,6 +124,9 @@ Now summarise the following upcoming events:
     with open(os.path.join(examples_dir, "current_prompt.md"), 'w') as txt:
         txt.write(prompt) # save for reference
     
+    print("First 10 characters of key", OPENAI_API_KEY[:10] if OPENAI_API_KEY else "None")
+    openai.api_key = OPENAI_API_KEY
+    
     response = openai.chat.completions.create(
         model=MODEL,
         messages=[{"role": "user", "content": prompt}],
@@ -163,8 +165,6 @@ def summarise_events_with_llm(events_file=EVENTS_FILE):
             return "No upcoming events scheduled."
         
         formatted_events = _format_events_as_markdown(future_events)
-
-        print("Formatted Events for LLM:\n", formatted_events[:2000])
 
         llm_summary = _get_llm_summary(formatted_events)
     except Exception as e:
