@@ -42,8 +42,8 @@ def get_date_of_event_iso(event):
     return event_date_formatted
 
 def _filter_future_events(events):
-    today = date.today().isoformat()
-    return [event for event in events if get_date_of_event_iso(event) > today]
+    today = date.today().isoformat().replace('-', '')
+    return [event for event in events if get_date_of_event_iso(event) >= today]
 
 def _validate_event(event):
     missing_fields = [field for field in REQUIRED_EVENT_FIELDS if field not in event]
