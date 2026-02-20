@@ -1981,7 +1981,7 @@
   sort: 10
   num_mentee: 5
   hours: 5
-  type: ad-hoc
+  type: both
   index: 89
   location: United Kingdom / Manchester
   position: Software Engineer, AMScreen
