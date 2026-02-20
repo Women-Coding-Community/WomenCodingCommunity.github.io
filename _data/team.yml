@@ -74,14 +74,6 @@
     - name: linkedin
       link: https://www.linkedin.com/in/silke-nodwell-763681172
 
-- name: Ekaterine Oshkhereli
-  position: WCC Lead
-  comment: Data Analyst
-  image: assets/images/team/15.jpeg
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/ekaterine-oshkhereli-46266559/
-
 - name: Airat Yusuff
   image: assets/images/team/6.jpeg
   position: WCC Lead
@@ -93,24 +85,6 @@
       link: https://github.com/khairahscorner
     - name: medium
       link: https://khairahscorner.hashnode.dev/
-
-- name: Idayat Sanni
-  image: assets/images/team/5.jpeg
-  position: WCC Evangelist
-  comment: Front-end Developer
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/idayat-sanni-a46b16102/
-    - name: github
-      link: https://github.com/IdayatSanni
-
-- name: Madhura Chaganty
-  position: WCC Lead
-  comment: Engineering Manager
-  image: assets/images/team/3.jpeg
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/madhurachaganty
 
 - name: Sonali Goel
   position: WCC Lead
@@ -172,16 +146,6 @@
     - name: linkedin
       link: https://www.linkedin.com/in/liliia-rafikova-635328104/
 
-- name: Rajashree Munoli
-  image: assets/images/team/22.jpeg
-  position: WCC Lead
-  comment: Project Leader & Data Analyst
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/rajashree-munoli/
-    - name: github
-      link: https://github.com/rajashreemunoli
-
 - name: Samuela Smolorz
   image: assets/images/team/23.jpeg
   position: WCC Lead
@@ -189,16 +153,6 @@
   network:
     - name: linkedin
       link: https://www.linkedin.com/in/samuela-smolorz/
-
-- name: Turdugul Okonbaeva
-  image: assets/images/team/24.jpeg
-  position: WCC Evangelist
-  comment: Software Developer
-  network:
-    - name: linkedin
-      link: https://www.linkedin.com/in/turdugul/
-    - name: github
-      link: https://github.com/Turdugul
 
 - name: Damola Taiwo
   image: /assets/images/team/13.jpeg
