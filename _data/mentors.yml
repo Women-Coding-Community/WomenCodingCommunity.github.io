@@ -1978,7 +1978,7 @@
 - name: Faith Sodipe
   disabled: false
   matched: false
-  sort: 10
+  sort: 500
   num_mentee: 5
   hours: 5
   type: both
