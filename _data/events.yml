@@ -2010,3 +2010,21 @@
     path: https://www.meetup.com/women-coding-community/events/313316083/
     title: View meetup event
     target: _target
+
+- title: |
+    Own your voice: Assertive Communication for Women in Tech
+  description: "We\u2019re thrilled to re-launch the Women Coding Community Career Club!   We are kicking off with a powerful session led by Yasuko Ohtake, a leading technologist who will share candid insights from her career and practical strategies for visibility and influence in tech.\n"
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: TUE, MAR 17, 2026
+  expiration: "20260317"
+  host: "Julia Babahina"
+  speaker: "Yasuko Ohtake"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/f/a/b/600_532840875.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313463081/
+    title: View meetup event
+    target: _target
