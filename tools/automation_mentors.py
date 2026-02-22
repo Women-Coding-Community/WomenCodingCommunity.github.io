@@ -25,12 +25,12 @@ WEBSITE = 'website'
 TELEGRAM = 'telegram'
 
 # Indexes for creating yaml sequences of data
-AREAS_START_INDEX = 14
-AREAS_END_INDEX = 18
-FOCUS_START_INDEX = 19
-FOCUS_END_INDEX = 23
-PROG_LANG_START_INDEX = 24
-PROG_LANG_END_INDEX = 28
+AREAS_START_INDEX = 13
+AREAS_END_INDEX = 17
+FOCUS_START_INDEX = 18
+FOCUS_END_INDEX = 22
+PROG_LANG_START_INDEX = 23
+PROG_LANG_END_INDEX = 27
 
 type_ad_hoc = ("ad-hoc", "ad hoc")
 type_long_term = ("long-term", "long term")
@@ -263,7 +263,7 @@ def get_num_mentee_from_row(mentor_row):
     """
     Gets the 'num_mentee' value for a new mentor from mentor_row, or use a default value if invalid.
     """
-    val = mentor_row.iloc[44]
+    val = mentor_row.iloc[31]
 
     return int(val) if pd.notna(val) else 0
 
@@ -271,10 +271,10 @@ def get_mentor_position(mentor_row):
     """
     Returns formatted value for mentor role and company
     """
-    if not pd.isna(mentor_row.iloc[9]):
-        return f"{mentor_row.iloc[8].strip()}, {mentor_row.iloc[9].strip()}"
+    if not pd.isna(mentor_row.iloc[5]):
+        return f"{mentor_row.iloc[4].strip()}, {mentor_row.iloc[5].strip()}"
     else:
-        return mentor_row.iloc[8].strip()
+        return mentor_row.iloc[4].strip()
 
 
 def xlsx_to_yaml_parser(mentor_row,
@@ -291,11 +291,11 @@ def xlsx_to_yaml_parser(mentor_row,
     focus = get_yaml_block_sequence(mentor_row, FOCUS_START_INDEX, FOCUS_END_INDEX)
     programming_languages = get_yaml_block_sequence(mentor_row, PROG_LANG_START_INDEX, PROG_LANG_END_INDEX)
 
-    mentor_image = f"{IMAGE_FILE_PATH}/{mentor_row.iloc[2].strip().lower().replace(' ', '_')}{IMAGE_SUFFIX}"
+    mentor_image = f"{IMAGE_FILE_PATH}/{mentor_row.iloc[0].strip().lower().replace(' ', '_')}{IMAGE_SUFFIX}"
     # Format mentor role and company
     mentor_position = get_mentor_position(mentor_row)
 
-    mentor_type = get_mentorship_type(mentor_row.iloc[4])
+    mentor_type = get_mentorship_type(mentor_row.iloc[6])
 
     # If mentor is new i.e mentor_sort is 0 (from default input), get the correct num_mentees and sort values
     if mentor_sort == 0:
@@ -303,7 +303,7 @@ def xlsx_to_yaml_parser(mentor_row,
         mentor_sort = get_sort(mentor_type, current_period, num_mentee)
 
     mentor = {
-        'name': mentor_row.iloc[2].strip(),
+        'name': mentor_row.iloc[0].strip(),
         'disabled': mentor_disabled,
         'matched': mentor_matched,
         'sort': mentor_sort,
@@ -311,22 +311,22 @@ def xlsx_to_yaml_parser(mentor_row,
         'hours': extract_numbers_from_string(mentor_row.iloc[30]),
         'type': mentor_type,
         'index': mentor_index,
-        'location': mentor_row.iloc[6],
+        'location': mentor_row.iloc[3],
         'position': mentor_position,
-        'bio': get_multiline_string(mentor_row.iloc[11]),
+        'bio': get_multiline_string(mentor_row.iloc[10]),
         'image': get_multiline_string(mentor_image),
-        'languages': mentor_row.iloc[7],
-        'availability': add_availability(mentor_row.iloc[40]),
+        'languages': mentor_row.iloc[8],
+        'availability': add_availability(mentor_row.iloc[7]),
         'skills': {
-            'experience': mentor_row.iloc[10],
-            'years': extract_numbers_from_string(mentor_row.iloc[10]),
-            'mentee': get_multiline_string(mentor_row.iloc[29]),
+            'experience': mentor_row.iloc[9],
+            'years': extract_numbers_from_string(mentor_row.iloc[9]),
+            'mentee': get_multiline_string(mentor_row.iloc[28]),
             'areas': areas,
             'languages': ', '.join(programming_languages),
             'focus': focus,
-            'extra': get_multiline_string(mentor_row.iloc[12])
+            'extra': get_multiline_string(mentor_row.iloc[11])
         },
-        'network': get_social_media_links(mentor_row.iloc[31], mentor_row.iloc[32]),
+        'network': get_social_media_links(mentor_row.iloc[32], mentor_row.iloc[33]),
     }
     return mentor
 
@@ -385,7 +385,7 @@ def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, current_period,
     mentors = []
 
     for row in range(0, len(df_mentors)):
-        mentor_name = df_mentors.iloc[row].values[2].strip().lower()
+        mentor_name = df_mentors.iloc[row].values[0].strip().lower()
 
         df_yml_row = df_yml.loc[df_yml.Name == mentor_name]
 
@@ -432,7 +432,7 @@ def get_new_mentors_in_yml_format(yml_file_path, xlsx_file_path, current_period,
             if df_mentors.iloc[row].isnull().all():
                 break
 
-            mentor_name = df_mentors.iloc[row].values[2].strip().lower()
+            mentor_name = df_mentors.iloc[row].values[0].strip().lower()
 
             if df_yml.loc[df_yml.Name == mentor_name].empty:
                 mentor = xlsx_to_yaml_parser(df_mentors.iloc[row], new_index, current_period)
