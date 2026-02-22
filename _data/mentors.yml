@@ -2053,3 +2053,44 @@
       Working in startups: ownership, prioritisation, shipping with limited resources, Turning product requirements into technical solutions, Third-party integrations (email systems, e-signatures, external APIs), Technical interview preparation (frontend, full-stack, take-home tasks, pair programming), CV / resume review for software engineers
   network:
   - linkedin: https://www.linkedin.com/in/anaroldugina/
+
+- name: Srinivasulu Paranduru
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 6
+  hours: 3
+  type: both
+  index: 91
+  location: Letterkenny,Ireland
+  position: AWS Solution & Senior Devops, Tata Consultancy Services
+  bio: |
+    Having close to 20 years of IT Experience and delivered multiple projects and worked in multiple locations. I am a Microsoft Certified Trainer, AWS User Group Leader and AWS Community Builder,GDG Letterkenny Organizer.
+  image: |
+    assets/images/mentors/srinivasulu_paranduru.jpeg
+  languages: English, Telugu,Tamil
+  availability: [6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: |
+      Need Mentee who are focused and willing to learn and scale up their skills
+    areas:
+    - DevOps
+    - Backend Developer
+    - Fullstack Developer
+    - Data Engineering
+    - QA
+    languages: Python, C#, Go, Javascript, C
+    focus:
+    - Grow beyond senior level
+    - Grow from mid-level to senior-level
+    - Grow from beginner to mid-level
+    - Change specialisation within IT
+    - Switch career to IT
+    extra: |
+      Software Development (Python,C#,Cloud Skills), Preparation for Interviews
+  network:
+  - website: https://linkinedin.com/srinivasuluparanduru
+  - website: https://dev.to/srinivasuluparanduru
+  - github: https://github.com/srinivasuluparanduru
