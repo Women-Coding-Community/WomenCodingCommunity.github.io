@@ -2094,3 +2094,150 @@
   - website: https://linkinedin.com/srinivasuluparanduru
   - website: https://dev.to/srinivasuluparanduru
   - github: https://github.com/srinivasuluparanduru
+
+- name: Aria Wright
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 1
+  hours: 2
+  type: both
+  index: 92
+  location: Boston
+  position: Build Engineer, RAI Institute
+  bio: |
+    I'm a newly minted build engineer and have experience in software and robotics for 4 years. I've worked for extremely small startups and large-scale biotech companies. My background is eclectic, ranging from devops and data engineering to underwater vehicles and AR/VR.
+  image: |
+    assets/images/mentors/aria_wright.jpeg
+  languages: English
+  availability: [5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: |
+      Someone who has had a similarly eclectic career path or who is looking to grow from junior/mid-level to senior engineer
+    areas:
+    - Fullstack Developer
+    - Backend Developer
+    - Data Engineering
+    - Machine Learning
+    - DevOps
+    languages: Python, Java, C++, C
+    focus:
+    - Grow from beginner to mid-level
+    extra: |
+      robotics, software engineering, finding the right kind of software job, resume review/technical interviews, queerness in tech, etc 
+  network:
+  - linkedin: https://www.linkedin.com/in/aria-andromeda
+
+- name: Airah Yusuff
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 0
+  hours: 1
+  type: ad-hoc
+  index: 93
+  location: London, UK
+  position: Cloud Engineer, Trainline
+  bio: |
+    I currently work as a Cloud Platform Engineer, where I focus on leveraging cloud technologies, automation tools, and DevOps practices to build systems and tooling that help developers worry less about how to continuously deploy and monitor their applications in production.
+    Prior to transitioning fully into cloud engineering, I worked as a Software Engineer for about four years across startup and consulting environments, gaining hands-on experience in frontend and backend development using technologies such as JavaScript/TypeScript, Node.js, and Java.
+    As a mentor, I aim to support engineers who want to transition into cloud roles, strengthen their understanding of cloud fundamentals, and build confidence working with AWS, automation, and CI/CD practices.
+    Outside of work, I am a fourth-year AWS Community Builder, a Lead at Women Coding Community, and I regularly document my cloud journey and new learnings through technical articles on my blog.
+  image: |
+    assets/images/mentors/airah_yusuff.jpeg
+  languages: English, Yoruba
+  availability: [6, 7, 8, 9, 10]
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: |
+      I'm looking to work with mentees who want to:
+      1) transition into cloud roles
+      2) strengthen their knowledge of cloud and AWS fundamentals
+      3) join the AWS Community Builders program and get support with their applications
+      4) know more about the UK Global Talent visa and whether it might be a right fit for them
+
+      I’m still growing as a mentor myself, but I’m committed to doing my best to support mentees and share what I’ve learned along the way.
+    areas:
+    - DevOps
+    - Site Reliability Engineering
+    - Security
+    - Network Engineering
+    languages: ''
+    focus:
+    - Change specialisation within IT
+    - Switch career to IT
+    extra: |
+      AWS Fundamentals
+      Transitioning into Cloud/DevOps Roles
+      AWS Community Builders Program
+      CV Reviews for Junior cloud roles
+      UK Global Talent Visa discussions
+  network:
+  - linkedin: https://www.linkedin.com/in/khairah-yusuff/
+  - github: https://github.com/khairahscorner
+  - website: https://khairahscorner.hashnode.dev
+
+- name: Michelle Victora
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 0
+  hours: 1
+  type: ad-hoc
+  index: 94
+  location: Cambridge, Massachusetts, USA
+  position: Software Engineer, RAI Institute
+  bio: |
+    I'm a robotics software engineer with a PhD in quantum physics and 5 years of industry experience. I've worked at Aliro Quantum Technologies (quantum networking), RightHand Robotics (warehouse automation), and currently at a robotics AI institute developing execution code and platforms to support on-robot policy learning.
+    Technical expertise: Quantum optics, quantum networks, Python, ROS 2, Lightweight Communications and Marshalling (LCM), hierarchical state machines, motion planning algorithms, hardware-software integration. Experience spans from experimental quantum optics to robotic manipulation and motion planning.
+    Notable projects: Reduced production motion planning failures 50% through algorithmic improvements; developed grasping algorithms with >10x damage reduction validated through A/B testing on customer sites; architected ROS 2 Control hardware interfaces enabling diffusion policy execution on robotic hardware, translated C++ executor to Python, enabling additional features to support RL policy deployment, built metrics evaluation pipeline for sim->sim->real policy evaluation.
+    I'm particularly interested in helping mentees with: transitioning from research/academia to industry (and back), gathering requirements for production systems, technical interview preparation, and navigating early-to-mid career growth in robotics/AI.
+  image: |
+    assets/images/mentors/michelle_victora.jpeg
+  languages: English
+  availability: [5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      I'm looking for a mentee who's interested in growing into new areas (research -> engineering or back, physics -> robotics, or anything related), or just growing from a beginner to a mid-career engineer. 
+    areas:
+    - Backend Developer
+    - Machine Learning
+    - Distributed Systems
+    - Data Engineering
+    languages: Python
+    focus:
+    - Grow from beginner to mid-level
+    extra: |
+      Career Transitions & Growth:
+
+      *Navigating career pivots (quantum physics → robotics, research → production)
+      *Growing from junior to mid-level engineer
+      *Dealing with imposter syndrome when changing domains
+      *Deciding between startup vs research lab
+
+      Technical Interview Preparation:
+
+      *Coding interview strategies and practice (algorithms, data structures)
+      *System design discussions (component-level architecture)
+      *Behavioral interviews 
+      *Talking about your work effectively in interviews
+
+      Software Development:
+
+      *Writing production-quality code (vs research code)
+      *Working with hardware-software integration
+
+      Robotics-Specific:
+
+      *ROS 2 development and best practices
+      *Writing executors and motion planning algorithms
+      *Working with research teams as an engineer
+  network:
+  - linkedin: https://www.linkedin.com/in/michelle-victora-a3a49851/
+  - instagram: https://www.instagram.com/michellevictora/,
+  - facebook: https://www.facebook.com/mvictora
