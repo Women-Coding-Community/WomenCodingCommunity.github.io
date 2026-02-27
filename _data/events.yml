@@ -2047,3 +2047,22 @@
     path: https://www.meetup.com/women-coding-community/events/313316083/
     title: View meetup event
     target: _target
+
+- title: |
+    2026 International Women's Day Celebration - Feast, Talks & Tech Community
+  description: |
+    In partnership with Nando's Women in Engineering   Celebrate IWD with the best women in tech and incredible food! This International Women's Day, a number of London's most powerful women-in-tech communities are coming together for an unforgettable evening of inspiring talks, a delicious feast, a candid panel discussion, and genuine connection.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, MAR 19, 2026
+  expiration: "20260319"
+  host: ""
+  speaker: ""
+  time: 06:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/1/5/c/4/600_532925572.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313538360/
+    title: View meetup event
+    target: _target
