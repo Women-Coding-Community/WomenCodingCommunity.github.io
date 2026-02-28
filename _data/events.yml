@@ -2066,3 +2066,22 @@
     path: https://www.meetup.com/women-coding-community/events/313538360/
     title: View meetup event
     target: _target
+
+- title: |
+    Java Bootcamp: Vibe Coding with AI Agents & MCP
+  description: |
+    Ready to build a Java project  even if you've never written a line of Java before? This special edition of our Java Bootcamp series brings together everything we've been building with you, and takes it one step further.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, MAR 12, 2026
+  expiration: "20260312"
+  host: ""
+  speaker: ""
+  time: 06:30 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/4/a/2/600_532941666.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313257077/
+    title: View meetup event
+    target: _target
