@@ -1,54 +1,25 @@
-- name: Eleonora Belova
-  disabled: false
-  sort: 200
-  hours: 2
-  position: Test Automation Engineer, IBM Security
-  type: both
-  index: 1
-  location: Amsterdam, the Netherlands
-  bio: |
-    I am a dedicated Test Automation Engineer with a passion for ensuring software quality. To me, testing is way more than just identifying bugs and flaws; it’s about viewing processes and products through the lens of the end user. My expertise includes UI test automation, particularly with Playwright, and API test automation using tools like Postman and PactumJS. <br>
-    Beyond the technical part, I am interested in exploring different aspects in team communication, cross-cultural collaboration and contributing to professional communities through volunteering. I find immense joy in sharing my insights through articles and engaging in meaningful discussions with peers.<br>
-    Moreover, I am eager to help individuals start their journey in software testing. I can share industry knowledge, assist in reviewing your CV, and provide guidance on various related topics.
-  image: assets/images/mentors/eleonora_belova.jpeg
-  languages: English
-  availability: [11]
-  skills:
-    experience: 2-4 years
-    years: 4
-    areas:
-    - Quality Assurance
-    mentee: I would love to connect with an open-minded engineer who is eager to learn and explore new aspects of software testing and progress in their career. I also welcome individuals transitioning from other fields to software testing and can provide guidance, support, and valuable resources to ensure a smooth transition.
-    languages: Python, Javascript, Typescript
-    focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
-    extra: Test Automation, Code Review, Exploratory Testing, Web Testing (Manual & Automation), API Testing (Postman, PactumJS), ISTQB Certification Preparation guidelines (Foundation Level and Test Automation Engineer), Starting career in IT, CV Review, Preparation for the Interview, Career Advice.
-  network:
-  - linkedin: https://www.linkedin.com/in/eleonora-belova-7069baa5/
-  - github: https://github.com/nora-weisser
-  - website: https://noraweisser.com/
 
 - name: Rajani Rao
   disabled: false
   matched: false
-  sort: 200
+  sort: 500
   num_mentee: 3
-  hours: 2
+  hours: 5
   type: both
   index: 2
+  location: Cambridge, UK
   position: CTO/Principal Technologist, WInvest/AVEVA
   bio: |
     Rajani Rao is a Principal Technologist at AVEVA, designing scalable, web and IoT solutions in the Cloud with over two decades of experience in computing. Outside of her profession, she is a mother of two girls and an advocate for women in tech. As a dynamic speaker and panelist, Rajani shares insights on technology, engineering, and female leadership. She holds an advisory role at Pixuate, a female-led AI and Machine Learning startup. Rajani extends her leadership as Director at WomenWhoCode London, fostering technical skill-building and career progression. She serves as a fractional CTO at WInvest, committed to an inclusive financial ecosystem using AI. Rajani's vision is to shape an inclusive, innovative global tech landscape.
-  image: assets/images/mentors/rajani_rao.jpeg
-  location: Cambridge, UK
+  image: |
+    assets/images/mentors/rajani_rao.jpeg
   languages: English
-  availability: [11]
+  availability: []
   skills:
-    experience: 16+ years
+    experience: 16+ Years
     years: 16
+    mentee: |
+      Is really keen to grow
     areas:
     - Distributed Systems
     - DevOps
@@ -62,782 +33,356 @@
     - Grow from beginner to mid-level
     - Switch career to IT
     - Switch from IC to management position
-    mentee: Executive mindset
-    extra: Anything Software Engineering
+    extra: |
+      Anything Software Engineering
   network:
-  - linkedin: https://www.linkedin.com/in/rajaniraog/
+  - linkedin: https://www.linkedin.com/in/rajaniraog
 
-- name: Adriana Zencke Zimmermann
+- name: Eleonora Belova
   disabled: false
   matched: false
   sort: 200
-  num_mentee: 1
+  num_mentee: 2
   hours: 2
+  type: both
+  index: 1
+  location: The Netherlands
+  position: Test Automation Engineer, IBM Security
   bio: |
-    I am a mother, a wife, and a Software Engineer. I graduated in Computer Science and have over 14 years of experience working in tech companies in Brazil, Germany, and Spain. As Backend Engineer, I found this to be my passion which I focused on in the last six years of my career. I am always excited to help others, and my goal is to empower women and support them with the difficulties I had as an engineer, and I still have from time to time.
-  position: Senior Software Engineer
-  image: assets/images/mentors/adriana_zencke.jpeg
-  location: València, Spain
-  type: both
-  index: 3
-  languages: Portuguese, English
-  availability: [11]
-  skills:
-    experience: 10-15 years
-    years: 15
-    areas:
-    - Backend Developer
-    - Distributed Systems
-    - Fullstack Developer
-    - QA
-    - Frontend Developer
-    languages: Java, Javascript, Kotlin
-    focus:
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    mentee: Someone willing to learn new technologies or to improve current skills, looking for guidance on how to navigate the initial years in the industry or in a new company. Also someone able to invest time in learning.
-    extra: Java, Spring Boot and Best Practices
-  network:
-  - linkedin: https://www.linkedin.com/in/dricazenck/
-  - github: https://github.com/dricazenck
-  - medium: https://medium.com/@dricazenck
-
-- name: Irina Kamalova
-  disabled: false
-  sort: 100
-  num_mentee: 1
-  hours: 1
-  type: both
-  index: 4
-  position: VP Lead Software Engineer, JPMorgan Chase
-  bio: |
-    Irina is a Director of Women Who Code London and a Senior Backend Software Engineer at Revolut. Her experience as a Software Engineer included working with large projects, search engines, distributed systems, performance issues, and huge data storage. Apart from being a strong developer and a good team player, in the last 3-years, she volunteered for CodeFirst: Girls and Women Who Code London and grew up from volunteer to lead and, in the end, to a Senior Director role within the community. She organised a team to deliver outstanding projects and show impressive results. She built a guild of volunteers to deliver a Mentorship Programme, technical tracks, help with resumes, mock interviews and overall grown community more than triple. As the next step, she will help other networks by holding the position of Senior Director in WWCode. Currently, she works at Revolut and building a platform for retail products. That includes support services to handle our 30 million clients, handle huge throughput and provide law latency for data flow. Irina constantly helps her team to tackle the extra mile and help the company to improve an intervening process, onboarding new hires, navigating interns and running knowledge-sharing activities. As a cherry on top, she helped to launch the inner Revolut Women Guild “RevWomen”. Recently I contributed to my University as a lecturer and designed materials for a course of Software Architecture. This year, I'm connecting different Universities in England with WWCode London to bring more diversity in tech from inspiring the young generation."
-  image: assets/images/mentors/irina_kamalova.jpeg
-  location: London, United Kingdom
-  languages: English, Russian
-  availability: []
-  skills:
-    experience: 7-10 years
-    years: 10
-    areas:
-    - Backend Developer
-    - Distributed Systems
-    - Site Reliability Engineering
-    - DevOps
-    languages: Java, Kotlin, Scala, Python
-    focus:
-    - grow from mid-level to senior-level
-    - grow from beginner to mid-level
-    - change specialisation to IT
-    - Switch career to IT
-    extra: Software Development Strategies, Backend Engineering, Databases, Scaling applications, Performance, Technical Interviews, Behavioural Interviews
-    mentee: Mid Engineer looking to grow up to be a Senior Engineer in Backend Engineering
-  network:
-  - linkedin: https://www.linkedin.com/in/irina-kamalova/
-  - medium: https://iren-kamalova.medium.com/
-
-- name: Stephanie Senoner
-  disabled: false
-  sort: 100
-  matched: false
-  hours: 1
-  type: both
-  index: 5
-  position: Senior Software Engineer, Zopa
-  bio: I have a non tech background (Psychology and Business education) and am a career switcher myself. Therefore I know the challenges, problems, at the beginning but also understand the opportunities with it. I work in tech for 5 years now, from Junior to Senior in different companies (size, sector). Worked as backend developer as well ad Full stack but focus now on Frontend (React, NextJS)
-  image: assets/images/mentors/stephanie_senoner.jpeg
-  location: London
+    I am a dedicated Test Automation Engineer with a passion for ensuring software quality. To me, testing is way more than just identifying bugs and flaws; it’s about viewing processes and products through the lens of the end user. My expertise includes UI test automation, particularly with Playwright, and API test automation using tools like Postman and PactumJS. Beyond the technical part, I am interested in exploring different aspects in team communication, cross-cultural collaboration and contributing to professional communities through volunteering. I find immense joy in sharing my insights through articles and engaging in meaningful discussions with peers. Moreover, I am eager to help individuals start their journey in software testing. I can share industry knowledge, assist in reviewing your CV, and provide guidance on various related topics.
+  image: |
+    assets/images/mentors/eleonora_belova.jpeg
   languages: English
   availability: []
   skills:
-    experience: 4-5 years
-    years: 5
+    experience: 2-4 Years
+    years: 4
+    mentee: |
+      I would love to connect with an open-minded early-career engineer, who is interested in learning new things in Software Testing, or wants to know how to navigate in career. I can also help people who are switched from different fields to Software Testing and provide guidance and resources.
     areas:
-    - Frontend Developer
-    - Fullstack Developer
-    - Backend Developer
-    - QA
-    - Project Management
-    languages: Javascript, Java, Python
+    - Quality Assurance
+    languages: Python, JavaScript, Typescript
     focus:
-    - Grow from beginner to mid-level
     - Switch career to IT
+    - Grow from beginner to mid-level
     - Grow from mid-level to senior-level
-    - Switch from IC to management position
     - Change specialisation within IT
-    mentee: Passionate, keen to learn, early - mid stage, career switcher
-    extra: Interview Preparation, Resume Review, personal project, Software Engineering Principles, Management, Time management, self growth
+    extra: |
+      Test Automation, Quality Assurance, Starting career in IT, CV Review, Preparation for the Interview, Exploratory Testing, Web Testing (Manual & Automation), API Testing (Postman, SOAP UI), Python for Software Testers, Career Advice, ISTQB Foundation Certification Preparation guidelines
   network:
-  - linkedin: https://www.linkedin.com/in/stephanie-senoner
+  - linkedin: https://www.linkedin.com/in/eleonora-belova-7069baa5/
+  - github: https://github.com/nora-weisser
+  - website: https://noraweisser.com/
 
 - name: Ken Pemberton
   disabled: false
+  matched: false
   sort: 100
-  hours: 2
+  num_mentee: 1
+  hours: 1
   type: both
   index: 6
-  position: Mentor, Coach & Consultant. Engineering Manager, Owner of pembi.net consulting services
-  bio: I have decades of experience in the software engineering world, and love nothing more than helping others find their way through the maze. I do NOT mentor at a technical level - there are much smarter people around to help with that - rather with confidence, resilience, coping strategies, overcoming imposter syndrome, dealing with challenging situations and colleagues, etc.
-  image: assets/images/mentors/ken_pemberton.jpeg
   location: Chesham, Buckinghamshire, UK
+  position: PEOPLE-FIRST servant-leadership of technical teams, To be determined!
+  bio: |
+    I started coding as a teenager, and 40 years later it still fascinates me, although I've stepped away from programming now to focus on honing my management skills as a servant-leader.
+
+    So while I won't be able to help you actually write code, I might be able to help guide you past the self-doubt that's inevitable as you step up to something new, be it a career or a promotion.
+  image: |
+    assets/images/mentors/ken_pemberton.jpeg
   languages: English
   availability: []
   skills:
     experience: 16+ Years
     years: 16
+    mentee: |
+      Folks who would benefit from coaching for confidence and resilience within the tech world. You are more capable than you know!
     areas:
     - Engineering management
+    languages: ''
     focus:
     - Grow from beginner to mid-level
     - Grow from mid-level to senior-level
     - Switch from IC to management position
-    - Switch career to IT
-    - Grow beyond senior level
-    mentee: Somebody wanting help in climbing over the barriers in today's workplace. Be prepared to work hard and be open and honest.
-    extra: CV/Resume review, Overcoming Imposter Syndrome, Entering the Tech workforce, Building resilience, Building confidence - finding your voice
+    extra: |
+      Overcoming self-doubt
+      Dealing with change
+      How to work effectively with others
+      Relating to difficult colleagues
+      Building resilience
+      Interview preparation
+      CV review
   network:
   - linkedin: https://www.linkedin.com/in/kenpemberton
   - website: https://grumpyoldfart.org/
 
-- name: Madhura Chaganty
-  disabled: false
-  matched: false
-  sort: 100
-  hours: 2
-  type: ad-hoc
-  index: 7
-  position: Engineering Manager, Elliptic
-  bio: |
-    As a technical leader with 20 years of experience in software development, I am passionate about innovation and emerging technology, leading teams to design and deliver scalable, maintainable, and secure API-driven cloud solutions.
-    Additionally, I am seeking ways to reduce the environmental impact of software by exploring energy-efficient coding practices and optimizing system performance to minimize resource consumption and carbon footprints.
-    Outside of work, in my role as Lead and Mentorship Program Coordinator at Women Coding Community, I support women in advancing their tech careers, driving inclusivity and equity in the industry.
-  image: assets/images/mentors/madhura_chaganty.jpeg
-  location: United Kingdom
-  languages: English
-  availability: []
-  skills:
-    experience: 16+ Years
-    years: 16
-    areas:
-    - Engineering management
-    - Backend Developer
-    - Fullstack Developer
-    - DevOps
-    - Project Management
-    languages: PHP, JavaScript, Python
-    focus:
-    - Switch from IC to management position
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    mentee: Someone who is curious, eager to learn, and looking to enter or advance in the tech industry.
-    extra: System design, Interview preparation, Resume review, Leadership skills, Team management, Personal development
-  network:
-  - linkedin: https://www.linkedin.com/in/madhurachaganty
-
-- name: Sonali Goel
+- name: Irina Kamalova
   disabled: false
   matched: false
   sort: 100
   num_mentee: 1
-  hours: 2
-  position: Lead Engineer, Tesco Technology
-  type: both
-  index: 8
+  hours: 0
+  type: long-term
+  index: 4
   location: London, UK
+  position: Backend Software Engineer, Revolut
   bio: |
-    Sonali serves as a Lead Engineer at Yoox-Net-a-porter, specializing in managing and constructing extensive-scale ecommerce solutions. She leverages Java-based commerce platforms and integrates them with open-source technologies like Spring Boot and Spring Batch. As an AWS-certified Solution Architect, she possesses deep knowledge of Amazon Web Services, complemented by proficiency in implementing continuous integration and continuous deployment (CICD) practices to ensure seamless software delivery. Additionally, she excels in architecting and implementing microservices-based architectures to drive agility and modularity in software development With over 13 years of experience in the technology industry, Sonali brings a wealth of expertise in steering technical direction and fostering high-performance outcomes. Her passion lies in nurturing a culture of continuous learning and innovation. Outside of her professional endeavors, Sonali actively volunteers with Women Who Code, advocating for gender diversity. She is also a creative enthusiast, utilizing design templates to convey ideas, thoughts, and emotions visually.
-  image: assets/images/mentors/sonali_goel.jpg
-  languages: English
-  availability: []
-  skills:
-    experience: 10-15 Years
-    years: 15
-    mentee: I am seeking mentees who are enthusiastic about learning and growing in the field of technology. Whether you're a beginner looking to enhance your programming skills or an experienced professional aiming to delve deeper into cloud architecture and e-commerce systems, I am here to support your journey. I value proactive communication, eagerness to learn, and a collaborative spirit. If you are committed to expanding your knowledge and skills in software development, AWS architecture, CI/CD pipelines, and Terraform, I would be delighted to work with you.
-    areas:
-    - Business Analysis
-    - Engineering management
-    - Site Reliability Engineering
-    - Distributed Systems
-    - Machine Learning
-    languages: Java, Python, C++, JavaScript
-    focus:
-    - Grow from beginner to mid-level
-    - Grow beyond senior level
-    - Switch career to IT
-    extra: Career Growth and Development, Resume Review, Preparation for Technical Interviews, Leadership and Team Management Skills, Learning Resources and Skill Development Plans.
-  network:
-  - linkedin: https://www.linkedin.com/in/sonali-goel-6b611522/
+    Irina is a backend SWE at Revolut and if the Director of WWCode London. Her job involved constantly completing the product development lifecycle of successfully launched applications and supporting requests from 20 million customers at Revolut.
+    Her experience as a Software Engineer included working with large projects, search engines, distributed systems, performance issues, and huge data storage. Apart from being a strong developer and a good team player, in the last 2-years, she volunteered for CodeFirst: Girls and Women Who Code London and grew up from volunteer to lead and, in the end, to a Director of community. She organised a team to deliver outstanding projects and show impressive results. She built a guild of volunteers to deliver a Mentorship Programme, technical tracks, help with resumes, mock interviews and overall grown community more than twice.
 
-- name: Julia Babahina
-  disabled: false
-  sort: 100
-  num_mentee: 2
-  hours: 4
-  position: Lead Risk Management Specialist, Swift
-  type: Both
-  index: 9
-  location: London, UK
-  bio: Julia is a Lead Risk Management Specialist at Swift for Product and Strategy with almost ten years of experience in Information Security, IT and Technology. Over the years she worked in numerous financial service organisations where she defined and delivered privacy and data programmes, cyber security and data strategies, policy frameworks and assisted organisations in governing IT risks and controls. She is dedicated to guiding businesses in delivering proportionate and risk aware IT response in line with business goals, compliance requirements and regulations. She is also a Director at Women Coding Community and is passionate about giving back to community and empowering women to excel in technology careers.
-  image: assets/images/mentors/julia_babahina.png
+    Currently, she’s working at Revolut and building a platform for retail products. That includes support services to handle our 20 million clients, handle huge throughput and provide law latency for data flow. Irina constantly helps her team to tackle the extra mile and help the company to improve an intervening process, onboarding new hires and running knowledge-sharing activities. As a cherry on top, she helped to launch the inner Revolut Women Guild “RevWomen”.
+  image: |
+    assets/images/mentors/irina_kamalova.jpeg
   languages: English, Russian
-  availability: []
-  skills:
-    experience: 7-10 Years
-    years: 10
-    mentee: Dedicated, passionate and willing to learnn
-    areas:
-    - Product Management
-    - Project Management
-    - Security
-    focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Switch from IC to management position
-    - Change specialisation within IT
-    extra: Product Management, Project Management, Career Progression and Development, Soft Skills, Personal Brand Building, Information Security, IT, Enterprise Risk Management, Privacy
-  network:
-  - linkedin: https://www.linkedin.com/in/julia-babahina-msc-cism-crisc-30285440/
-
-- name: Ying Liu
-  disabled: false
-  sort: 100
-  hours: 2
-  position: Head of AI, R&D TG0
-  type: both
-  index: 11
-  location: London
-  bio: |
-    I have a Ph.D in Physics and 4-years experience working in the field of machine learning. I published 4 papers and 2 under submission. My expertise sits in few-shot learning, CNN, Diffusion model and transformers with model architecture building using TensorFlow and PyTorch.
-  image: assets/images/mentors/ying_liu.jpg
-  languages: English
-  availability: []
-  skills:
-    experience: 4-5 Years
-    years: 5
-    mentee: Motivated individuals who are eager to learn the algorithms of Machine Learning
-    areas:
-    - Machine Learning
-    - Data Science
-    - Data Engineering
-    languages: Python
-    focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    extra: Software Development, Machine Learning Algorithm, Resume Review, Preparation for The Technical Interview.
-  network:
-  - linkedin: https://www.linkedin.com/in/yingliu-data/
-
-- name: Adegbenga Agoro
-  disabled: false
-  sort: 100
-  num_of_mentees: 1
-  hours: 4
-  position: CTO, ZeroComplex AI
-  type: both
-  index: 12
-  location: Dudley, UK
-  bio: |
-    I am an experienced Software Engineering professional with more than 20 years of expertise in developing software systems across a broad spectrum, ranging from small-scale applications to extensive enterprise infrastructure platforms. My passion lies in teaching software engineering through a humanistic lens, emphasizing user experience while firmly adhering to the fundamental principles of core software engineering.
-  image: assets/images/mentors/adegbenga_agoro.jpg
-  languages: English
-  availability: []
-  skills:
-    experience: 16+ Years
-    years: 16
-    mentee: I am keen on collaborating with mentees eager to enhance their programming capabilities, specifically those aiming to transition from foundational coding skills towards mastering system design and architecture.
-    areas:
-    - Backend Developer
-    - Engineering management
-    - Security
-    - QA
-    - Site Reliability Engineering
-    languages: JavaScript, Python
-    focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Grow beyond senior level
-    - Switch career to IT
-    extra: System Design & Architecture, Optimal Database Design, How to work and think within an engineering team, User Psychology
-  network:
-  - linkedin: https://www.linkedin.com/in/adegbengaagoro
-
-- name: Ana Nogal
-  disabled: false
-  sort: 200
-  num_mentee: 2
-  hours: 2
-  position: Senior iOS Developer, Novoda
-  type: both
-  index: 13
-  location: Barcelona, Spain
-  bio: |
-    Mentoring energises me and aligns with my purpose. I have successfully changed careers and can help you do the same. I aim to help juniors enter the IT workplace, stay there comfortably, and advance their careers when the time is right. But my support doesn’t stop there—I also guide mid-level professionals on their journey to senior roles and help seniors transition into Tech Lead, Engineering Manager, or Staff Engineer positions. No matter where you are in your IT career, I can provide the support and guidance you deserve to achieve your career goals.
-  image: assets/images/mentors/ana_nogal.jpg
-  languages: English, Spanish, Portuguese
-  availability: [11]
-  skills:
-    experience: 16+ Years
-    years: 16
-    mentee: Well, I like to help essentially. I have had mentees that needed more a hands on, pair-programming with them, and others that orientation was enough. I'm ok with both scenarios.
-    areas:
-    - iOS
-    - Fullstack Developer
-    - Android
-    languages: Swift, Kotlin, Javascript, C#
-    focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch career to IT
-    extra: Using Core Nature and Values to figure out who you are - explore within yourself who you like to be and find the best next step to give in your career, CV Review and LinkedIn & GitHub Profile updates
-  network:
-  - linkedin: https://www.linkedin.com/in/ananogal
-  - website: https://ananogal.com
-
-- name: Andrew King
-  disabled: false
-  sort: 100
-  hours: 4
-  position: DevOps Engineer, DRW
-  type: ad-hoc
-  index: 20
-  location: Yorkshire, UK
-  bio: |
-    Over 30 years in commercial IT, 40 years of coding experience, 20 years in financial firms. Know how to manage, manage up, team building, finding team fit. Many years of experience interviewing (on both side of the table).
-  image: assets/images/mentors/andrew_king.jpeg
-  languages: English
-  availability: []
-  skills:
-    experience: 16+ years
-    years: 16
-    mentee: Someone who wants to engage in meaningful and useful conversations
-    areas:
-    - Site Reliability Engineering
-    - Engineering management
-    - Distributed systems
-    - Security
-    - Data Science
-    - Grow from mid-level to senior-level
-    - Switch from IC to a management position
-    - Change specialisation within IT
-    - Grow beyond senior level
-    languages: C, Go, Python, JavaScript
-    focus:
-    - Grow from beginner to mid-level
-    extra: Systems design for reliability and risk minimisation. SDLC in practice with CI/CD in production. Interview techniques. When to fix, vs. when to seek a change.
-  network:
-  - linkedin: https://www.linkedin.com/in/andrewkingit/
-
-- name: Adeola Adekoyejo
-  disabled: false
-  sort: 100
-  hours: 2
-  position: Full stack Engineer
-  type: ad-hoc
-  index: 21
-  location: London, UK
-  bio: |
-    I am Frontend engineer with 4 years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
-  image: assets/images/mentors/adeola_adekoyejo.jpg
-  languages: English
-  availability: []
-  skills:
-    experience: 4-5 years
-    years: 5
-    mentee: You don’t have to know so much as long as you are willing to learn and do the work from your end
-    areas:
-    - Frontend Developer
-    - Engineering management
-    - Backend Developer
-    - Switch career to IT
-    languages: Python, JavaScript
-    focus:
-    - Grow from beginner to mid-level
-    extra: Frontend interview prep, technical writing, system design, web accessibility, testing
-  network:
-  - linkedin: https://www.linkedin.com/in/adeola-adekoyejo-405799115?trk=contact-info
-
-- name: Anastasia
-  disabled: false
-  matched: false
-  sort: 100
-  num_mentee: 2
-  hours: 5
-  position: QA Specialist and Mentor, Trivago
-  type: both
-  index: 22
-  location: Düsseldorf, Germany
-  bio: |
-    ISQB-TM and ISTQB-TA certified manual and automated tester for frontend and backend teams for the last ten years; a degree in Computer Engineering; lector and author of the IT school's QA Basic and QA Pro courses; survived in an abroad company and now hold interviews there.
-  image: assets/images/mentors/anastasia.jpeg
-  languages: English, Ukrainian, Russian
-  availability: []
-  skills:
-    experience: 7-10 years
-    years: 10
-    mentee: Sometimes you understand you need a change but need a veiw from another perspective, because we don't know what we don't know. I'm looking for a proactive individual, who wants a change, ready to apply, open to share and exchange.
-    areas:
-    - QA
-    - Project Management
-    - Product Management
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    languages: Java, Javascript
-    focus:
-    - Change specialisation within IT
-    extra: |
-      Resume Review, Preparation for the Interviews, Career development and job search in Germany, QA management: tools and process organization in the product company.
-  network:
-  - linkedin: https://www.linkedin.com/in/qa-anastasia
-
-- name: Nonna Shakhova
-  disabled: false
-  sort: 100
-  hours: 4
-  position: Data Engineer, Kindred Group
-  type: both
-  index: 23
-  location: London, UK
-  bio: |
-    Experienced Data Engineer with over 7 years experience in SQL, Python, AWS and BigQuery. Focus on ETL processes and data pipelines for reliable and high quality data. Currently working on data modelling and data catalogue solutions.
-  image: assets/images/mentors/nonna_shakhova.jpg
-  languages: English, Russian
-  availability: []
-  skills:
-    experience: 7-10 years
-    years: 10
-    mentee: Return to work after maternity leave
-    areas:
-    - Project Management
-    - Data Science
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    languages: Python
-    focus:
-    - Change specialisation within IT
-    extra: Data Engineering, Data modeling and design, CV Review, Career advice
-  network:
-  - linkedin: https://www.linkedin.com/in/nonna-shakhova/
-
-- name: Sakirat Kehinde Usman
-  disabled: false
-  sort: 100
-  num_mentee: 1
-  hours: 5
-  position: Frontend Development Trainer, Niyo Group Ltd
-  type: both
-  index: 24
-  location: Manchester, England
-  bio: |
-    I am a frontend engineer with over 3 years of experience in frontend development. I am excellent at building user interfaces and bringing web functionalities to life. I have worked on various projects ranging from fintech to agriculture.
-  image: assets/images/mentors/sakirat_kehinde_usman.jpg
-  languages: English
-  availability: []
-  skills:
-    experience: 4-5 years
-    years: 5
-    mentee: I am looking for a mentee who is enthusiastic and curious in learning new things.
-    areas:
-    - Frontend Developer
-    - Business Analysis
-    - Data Science
-    - Backend Developer
-    - Grow from beginner to mid-level
-    languages: JavaScript, Python,
-    focus:
-    - Switch career to IT
-    extra: HTML, CSS, JavaScript, React, Redux, Resume Review, Thinking in React, Interview Preparation
-  network:
-  - linkedin: https://linkedin.com/in/sakirat-Kehinde-usman-3a4600117
-
-- name: Sahana Venkatesh
-  disabled: false
-  sort: 100
-  hours: 2
-  position: Machine learning Engineer, JLR
-  type: ad-hoc
-  index: 26
-  location: London, UK
-  bio: |
-    I hold Masters degree in Electrical Engineering specializing in Datascience. I have worked in tech startups and automotive company. I have have given a lot of interviews and learned through my failures that preparation and practice are the key and I would like to help someone else.
-  image: assets/images/mentors/sahana_venkatesh.jpg
-  languages: English
-  availability: []
-  skills:
-    experience: 5-7 years
-    years: 7
-    mentee: Anyone looking for Mock Interview guidance
-    areas:
-    - Machine Learning
-    - Data Science
-    - Backend Developer
-    - Distributed Systems
-    - Project Management
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Change specialisation within IT
-    - Grow from mid-level to senior-level
-    languages: Python
-    focus:
-    - Switch from IC to management position
-    extra: Preparation for Technical interviews, Project review
-  network:
-  - linkedin: https://www.linkedin.com/in/sahana-venkatesh/
-
-- name: Shailaja Koppu
-  disabled: false
-  matched: false
-  hours: 2
-  position: Principal software engineer, Apple
-  sort: 100
-  type: ad-hoc
-  index: 29
-  location: United Kingdom, London
-  bio: 18 years of experience in developing highly scalable distributed systems, majorly in data storage systems and fintech domains. Experience driving projects and leading teams
-  image: assets/images/mentors/shailaja_koppu.svg
-  languages: English
-  availability: []
-  skills:
-    experience: 16+ Years
-    years: 16
-    mentee: Career growth, establishing connections and influencing in the org, managing work life balance, interview preparation for senior roles
-    areas:
-    - Distributed Systems
-    - Backend Developer
-    - Engineering management
-    - Fullstack Developer
-    - Data Engineering
-    languages: C, Java, C++
-    focus:
-    - Switch from IC to management position
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Grow beyond senior level
-    extra: Preparation for system design interviews, resume review, influencing teams, driving projects end to end, designing complex distributed systems, System Design Study Group
-  network:
-  - linkedin: https://uk.linkedin.com/in/shailajakoppu
-
-- name: Claudia Lee
-  disabled: false
-  sort: 100
-  hours: 2
-  position: Backend Java Software Engineer, Lloyds Banking Group
-  type: both
-  index: 30
-  location: London, United Kingdom
-  bio: |
-    I am currently working as a Senior Backend Software Engineer (Java, Spring, Kafka, GCP). Before pivoting into tech, I worked as a data analyst and graduated from Accounting and Finance.
-  image: assets/images/mentors/claudia_lee.jpg
-  languages: English
-  availability: []
-  skills:
-    experience: 4-5 Years
-    years: 5
-    mentee: Someone who's still new to the industry and would either like to get into tech or grow from beginner to mid.
-    areas:
-    - Backend Developer
-    languages: Java
-    focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    extra: Resume review; Agile Methodologies; Introduction to Java, Spring Framework and Kafka; SQL; OOP; Software Development Lifecycle.
-  network:
-  - linkedin: https://www.linkedin.com/in/claudialsm/
-
-- name: Bryan Boreham
-  disabled: false
-  hours: 4
-  sort: 500
-  num_mentee: 1
-  type: both
-  index: 31
-  position: Distinguished Engineer, Grafana Labs
-  bio: |
-    I've done a lot of mentoring, and am keen to continue, to help more people and especially women progress in the industry. I've worked in technology for 40 years, about half in startups and half in giant banks. I'm currently an individual contributor, but have managed teams and departments, so have a perspective on both those careers. I am active in the Open Source world and as a conference speaker.
-  image: assets/images/mentors/bryan_boreham.jpeg
-  location: London, UK
-  languages: English
-  availability: [11]
-  skills:
-    experience: 16+ Years
-    years: 16
-    areas:
-    - Backend Developer
-    - Site Reliability
-    - Engineering
-    - Engineering management
-    - Distributed Systems
-    - DevOps
-    languages: Go, C++, C, Java, C#
-    focus:
-    - Grow from mid-level to senior-level
-    - Grow beyond senior level
-    - Switch from IC to management position
-    - Grow from beginner to mid-level
-    - Change specialisation within IT
-    mentee: Someone looking to advance their career, who needs advice either on navigating organisations or on understanding techology.
-    extra: Software Engineering, SRE, Leadership, Technical Interviews, Communication, Presentation Skills, Kubernetes, CV Review.
-  network:
-  - linkedin: https://www.linkedin.com/in/bryanboreham
-
-- name: Liliia Rafikova
-  disabled: false
-  matched: false
-  sort: 100
-  num_mentee: 7
-  hours: 5
-  type: both
-  index: 32
-  position: Software Engineer, Amazon
-  bio: |
-    I’m a seasoned backend software engineer with over 10 years of hands-on experience specializing in cloud-native technologies, JVM languages, and system performance optimization. My technical toolkit now includes proficiency in C++, Rust, and advanced Java. My expertise spans developing distributed systems at massive scales, solving challenging algorithmic problems, and delving deep into low-level programming to enhance system performance and reliability. Passionate about community building and empowering women in technology.
-  image: assets/images/mentors/liliia_rafikova.png
-  location: London, UK
-  languages: English, Russian
-  availability: []
-  skills:
-    experience: 10-15 Years
-    years: 15
-    areas:
-    - Backend Developer
-    - Distributed Systems
-    - Site Reliability Engineering
-    languages: Java, Rust, C, C++, Kotlin
-    focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    mentee: |
-      Any will work. I'm actually single mother too.
-    extra: |
-      Software Development Strategies, Resume Review, Preparation for The Technical Interview, System Design Study Group
-  network:
-  - linkedin: https://www.linkedin.com/in/liliia-rafikova-635328104/
-
-- name: Safiye Ipek
-  disabled: false
-  matched: false
-  sort: 100
-  hours: 2
-  type: ad-hoc
-  index: 34
-  location: London,UK
-  position: Software QA Engineer, Self Employed - SI Engineering LTD - But currently work for HM Land registry as a contractor
-  bio: |
-    I am a Software Quality Assurance Engineer with a strong commitment to mentoring and contributing to the Women Coding Community. With over four years of experience, I have perfected my expertise in automation tools to ensure flawless project deliveries. My dedication to promoting transparent communication and fostering strong teamwork sets me apart. As your mentor, I am committed to providing invaluable insights, best practices, and unwavering support as you navigate the dynamic field of software testing, including testing strategies and the latest industry trends.
-  image: assets/images/mentors/safiye_ipek.jpg
-  languages: English, Turkish
-  availability: []
-  skills:
-    experience: 4-5 Years
-    years: 5
-    mentee: |
-      I'm seeking mentees who are enthusiastic about software testing and eager to expand their knowledge and skills in the field. Whether you're just starting out or already have some experience, I'm here to support your growth and development. I value curiosity, dedication, and a proactive attitude towards learning. If you're passionate about software quality and committed to honing your craft, I'm excited to work with you and help you achieve your goals in the world of testing.
-    areas:
-    - QA
-    languages: Java, Javascript, Ruby, Python
-    focus:
-    - Switch career to IT
-    extra: |
-      Software Testing 
-      Manual Testing 
-      Automation Testing 
-      Resume Review
-  network:
-  - linkedin: https://www.linkedin.com/in/safiye-ipek/
-  - github: https://github.com/S-ipk
-
-- name: Jyoti Yadav
-  disabled: false
-  matched: false
-  sort: 100
-  num_mentee: 2
-  hours: 5
-  type: both
-  index: 38
-  location: London, UK
-  position: Senior Data Scientist, Blockchain.com
-  bio: |
-    Highly analytical Data Scientist specializing in threat detection and anti-fraud strategies, currently leading the Fraud and Payments Data Science Teams at Blockchain.com. 
-    My strong foundation in economics and data science drives impactful results and enhances security frameworks. 
-    I have been mentor at AI hackathons and London Business School.
-  image: assets/images/mentors/jyoti_yadav.jpg
-  languages: English, Hindi
   availability: []
   skills:
     experience: 5-7 Years
     years: 7
     mentee: |
-      Who are preparing for interviews, want to enter IT or web3 world
+      A mentee who wants to grow from Mid to Senior, or want to change their job and prepare for an interview for Mid/Senior position. Based in London, working in Fin tech, Backend Engineer
     areas:
-    - Data Science
+    - Backend Developer
     - Data Engineering
     - Distributed Systems
-    languages: Python, Java, C++
+    - Data Engineering
+    languages: Java, Kotlin, Scala, Python
     focus:
-    - Switch career to IT
-    - Grow from mid-level to senior-level
     - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Change specialisation within IT
     extra: |
-      1. Data Science and Machine Learning: Techniques, best practices, and real-world applications.
-      2. Fraud Detection and Prevention: Strategies and model implementation for reducing fraud.
-      3. Career Development: Resume reviews, interview preparation, and career path guidance.
-      4. Project Management: Agile methodologies, team collaboration, and stakeholder management.
-      5. Technical Skills Enhancement: Advanced Python, SQL, and AWS.
+      Software Development Strategies, Resume Review, Preparation for The Technical Interview, Pets Projects, Concurrency, Databases, System Design, Low level application design, TDD, DDD, Software Architecture, Distributive Systems, Integration with stack holders, CQRS, Deployment, Data Migration, Stability
   network:
-  - linkedin: https://www.linkedin.com/in/jyoti-y-b8232969/
-  - medium: https://medium.com/@jyotiyadav99111
+  - linkedin: https://www.linkedin.com/in/irina-kamalova/
 
-- name: Busra Ecem Sakar
+- name: Ana Nogal
   disabled: false
   matched: false
   sort: 100
-  num_mentee: 2
-  hours: 4
+  num_mentee: 1
+  hours: 2
   type: both
-  index: 39
-  location: London
-  position: Security Data Scientist , Microsoft
+  index: 13
+  location: Barcelona, Spain
+  position: Senior iOS Developer, Novoda
   bio: |
-    I have 10 years of experience as a Data Analyst and dual master's degrees in
-    Biostatistics and Big Data & Data Science Technology. I am an expert in A/B testing, data analysis, statistical modelling, and machine learning, as well as SQL, Python, R, and other tools. My passion is using data to make important business decisions.
-  image: assets/images/mentors/busra_sakar.jpg
-  languages: English, Turkish
+    I'm a senior iOS developer with ten years of business experience and over 25 years in software development. I spent the first 15 years working as a back-end developer in .NET and Java, but I fell in love when I discovered Mobile development. I am passionate about the quality and maintainability of the application's code and architecture. 
+    I have already lived in some European cities, such as Lisbon, Madrid, Barcelona and London. This allowed me to work in different cultures and dynamics, further increasing my ability to connect, communicate and grow. I love giving back to the community, so I started collaborating with DevPass, helping guide newcomers. I'm also a mentor at MentoCruise, for those who want a more professional follow-up.
+  image: |
+    assets/images/mentors/ana_nogal.jpeg
+  languages: English, Spanish, Portuguese
   availability: []
   skills:
-    experience: 7-10 Years
-    years: 10
+    experience: 16+ Years
+    years: 16
     mentee: |
-      Preparing for interviews, interested in working on machine learning and NLP, and eager to learn SQL and Python.
+      Well, I like to help essentially. I have had mentees that needed more a hands on, pair-programming with them, and others that orientation was enough. I'm ok with both scenarios.
     areas:
-    - Data Science
-    - Business Analysis
-    - Machine Learning
-    - Project Management
-    - Product Management
-    languages: Python
+    - iOS
+    - Fullstack Developer
+    - Android
+    languages: Swift, Kotlin, JavaScript, C#
+    focus:
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Switch career to IT
+    extra: |
+      TDD
+      Clean code
+      Refactoring
+      Team dynamics
+      Mock interview
+      PR reviews
+      Code Principles
+  network:
+  - linkedin: https://www.linkedin.com/in/ananogal/
+  - website: https://www.ananogal.com/
+
+- name: Sonali Goel
+  disabled: false
+  matched: false
+  sort: 10
+  num_mentee: 0
+  hours: 2
+  type: ad-hoc
+  index: 8
+  location: London
+  position: Senior Developer, Yoox-Net-A-Porter
+  bio: |
+    An accomplished technical lead with over a decade of experience in the technology field have successfully led global teams in various capacities. Worked as a consultant in the past and currently working as a senior SME for a luxury online fashion brand, have excelled in designing and implementing scalable applications. Always keen to learn something new and ready to take up challenges.
+  image: |
+    assets/images/mentors/sonali_goel.jpeg
+  languages: English
+  availability: []
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      New to tech or someone who needs some guidance about tech world or someone needs to grow
+    areas:
+    - Backend Developer
+    - Engineering management
+    - Engineering management
+    - DevOps
+    languages: Java, Python
+    focus:
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    extra: |
+      Software Development Processes and Overview, Guidance on how to prepare for Interviews, BDD and TDD approach to development. AWS solution guidance/path for study or certifications.
+  network:
+  - linkedin: https://www.linkedin.com/in/sonali-goel-6b611522/
+
+- name: Adeola Adekoyejo
+  disabled: false
+  matched: false
+  sort: 10
+  num_mentee: 0
+  hours: 3
+  type: ad-hoc
+  index: 21
+  location: United Kingdom
+  position: Full stack Engineer, Nill
+  bio: |
+    I am Frontend engineer with 4years of experience. I have had opportunities of working with several companies and building sustainable products for them. I am very keen to solving problems and helping people as well
+  image: |
+    assets/images/mentors/adeola_adekoyejo.jpeg
+  languages: English
+  availability: []
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: |
+      You don’t have to know so much as long as you are willing to learn and do the work from your end
+    areas:
+    - Frontend Developer
+    - Engineering management
+    - Backend Developer
+    languages: JavaScript, Python
     focus:
     - Switch career to IT
     - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch from IC to management position
     extra: |
-      - Data Analysis and Statistical Modeling (A/B Testing, Statistical Analysis)
-      - Machine Learning (Guiding on building machine learning models, particularly for classification and prediction tasks)
-      - NLP: Mentoring on natural language processing techniques, such as TF-IDF, Word2Vec, and Cosine Similarity.
-      - Programming and Tools: SQL
-      - Data-Driven Decision Making
-      - Career Path Guidance
+      Frontend interview prep, technical writing, system design, web accessibility, testing
   network:
-  - linkedin: https://www.linkedin.com/in/busraecemsakar/
+  - linkedin: https://www.linkedin.com/in/adeola-adekoyejo-405799115?trk=contact-info
+  - medium: https://medium.com/@adekoyejoadeola
+
+- name: Sakirat Kehinde Usman
+  disabled: false
+  matched: false
+  sort: 200
+  num_mentee: 2
+  hours: 0
+  type: long-term
+  index: 24
+  location: Manchester, England
+  position: Frontend Development Trainer, Niyo Group Ltd
+  bio: |
+    I am a frontend engineer with over 3 years of experience in frontend development. I am excellent at building user interfaces and bringing  web functionalities to life. I have worked on various projects ranging from fintech to agriculture.
+  image: |
+    assets/images/mentors/sakirat_kehinde_usman.jpeg
+  languages: English
+  availability: []
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: |
+      I am looking for a mentee who is enthusiastic and curious in learning new things.
+    areas:
+    - Frontend Developer
+    - Business Analysis
+    - Data Science
+    - Backend Developer
+    languages: JavaScript, Python
+    focus:
+    - Switch career to IT
+    - Grow from beginner to mid-level
+    extra: |
+      HTML, CSS, JavaScript, React, Redux, Resume Review, Thinking in React, Interview Preparation
+  network:
+  - linkedin: https://linkedin.com/in/sakirat-Kehinde-usman-3a4600117
+  - github: https://github.com/oyinkan
+  - website: https://gitshowcase.com/oyinkan
+
+- name: Ying Liu
+  disabled: false
+  matched: false
+  sort: 200
+  num_mentee: 2
+  hours: 1
+  type: both
+  index: 11
+  location: London
+  position: Head of AI, R&D, TG0
+  bio: |
+    I have a Ph.D in Physics and 4-years experience working in the field of machine learning. I published 4 papers and 2 under submission. My expertise sits in few-shot learning, CNN, Diffusion model and transformers with model architecture building using TensorFlow and PyTorch.
+  image: |
+    assets/images/mentors/ying_liu.jpeg
+  languages: English
+  availability: []
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: |
+      Motivated individuals who are eager to learn the algorithms of Machine Learning
+    areas:
+    - Machine Learning
+    - Data Science
+    - Data Engineering
+    languages: Python
+    focus:
+    - Grow from beginner to mid-level
+    - Switch career to IT
+    extra: |
+      Software Development, Machine Learning Algorithm, Resume Review, Preparation for The Technical Interview.
+  network:
+  - linkedin: https://www.linkedin.com/in/yingliu-data/
+
+- name: Adriana Zencke Zimmermann
+  disabled: false
+  matched: false
+  sort: 100
+  num_mentee: 1
+  hours: 1
+  type: both
+  index: 3
+  location: Valencia / Spain
+  position: Tech Lead, Centric Software
+  bio: |
+    I am a mother, a wife, and a Software Engineer. I graduated in Computer Science and have over 14 years of experience working in tech companies in Brazil, Germany, and Spain. As Backend Engineer, I found this to be my passion which I focused on in the last six years of my career. I am always excited to help others, and my goal is to empower women and support them with the difficulties I had as an engineer, and I still have from time to time.
+  image: |
+    assets/images/mentors/adriana_zencke_zimmermann.jpeg
+  languages: English, Portuguese
+  availability: []
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      Someone willing to learn new technologies or to improve current skills, looking for guidance on how to navigate the initial years in the industry or in a new company. Also someone able to invest time in learning.
+    areas:
+    - Backend Developer
+    - Fullstack Developer
+    - Distributed Systems
+    - Frontend Developer
+    - QA
+    languages: Java, Javascript, Kotlin, Python
+    focus:
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    extra: |
+      Java, Spring Boot and Best Practices
+  network:
+  - linkedin: https://www.linkedin.com/in/dricazenck/
+  - medium: https://medium.com/@dricazenck
+  - github: https://github.com/dricazenck
 
 - name: Fernanda Martins
   disabled: false
   matched: false
   sort: 500
-  num_mentee: 2
-  hours: 5
+  num_mentee: 4
+  hours: 4
   type: both
   index: 40
   location: Amsterdam/Netherlands
@@ -846,9 +391,10 @@
     I work with infrastructure engineering for 13 years. I love all things infrastructure: designing platforms in the cloud with Azure/AWS, coding in terraform/ansible/python/shell.., building awesome delivery pipelines and helping developers.
     I am from Brazil, currently living in Amsterdam and worked in several companies and different industries.
     I am community-driven: I have presented at conferences, contributed to open source and like sharing knowledge.
-  image: assets/images/mentors/fernanda_martins.jpg
+  image: |
+    assets/images/mentors/fernanda_martins.jpeg
   languages: English, Portuguese
-  availability: [11]
+  availability: []
   skills:
     experience: 10-15 Years
     years: 15
@@ -863,14 +409,13 @@
       DevOps practices, how to start in infrastructure, resume review, learn cloud, infrastructure as code, incident management, improve your pipeline, manage platform priorities, how to better support developers
   network:
   - linkedin: https://www.linkedin.com/in/flmmartins/
-  - github: https://github.com/flmmartins/
 
 - name: Gabriel Oliveira
   disabled: false
   matched: false
-  sort: 500
-  num_mentee: 4
-  hours: 5
+  sort: 100
+  num_mentee: 1
+  hours: 4
   type: both
   index: 41
   location: Amsterdam
@@ -881,9 +426,10 @@
     🤔 You may be thinking "So what, how does that help me"? Or you may be in the category of "I don't know where to grow/learn next"? Book a session and tell me a bit about yourself so we can together find a way on how my experience can help you 😉
 
     🥶 Also, if you get frozen solid when doing test automation, I also offer an guidance on automated testing where we can deep-dive into the code of your choice together.
-  image: assets/images/mentors/gabriel_oliveira.jpg
+  image: |
+    assets/images/mentors/gabriel_oliveira.jpeg
   languages: English, Portuguese
-  availability: [11]
+  availability: []
   skills:
     experience: 7-10 Years
     years: 10
@@ -903,63 +449,28 @@
     - Grow beyond senior level
     - Switch from IC to management position
     extra: |
-      QA Engineering, Agile Testing, Software Test Automation, QA experiences in Test Automation
+      QA Engineering, Agile Testing, Software Test Automation
   network:
   - linkedin: https://www.linkedin.com/in/gpaoliveira
-
-- name: Prerna Singhal
-  disabled: false
-  matched: false
-  sort: 200
-  hours: 2
-  type: both
-  index: 48
-  location: London, United Kingdom
-  position: Senior Software Engineer 2, Hubspot
-  bio: |
-    Currently working as Lead Engineer for Hubspot. I have 12 years for Software development experience (Backend and Fullstack). I have worked with tech giants for 7 years - Microsoft, Expedia, Salesforce and have worked in startup industry for 5 years. Hence i understand working in both in environments. I have worked with wide variety of technologies - Java, AWS, Azure, Python, Distributed systems, Scaling applications.
-  image: assets/images/mentors/prerna_singhal.jpg
-  languages: English
-  availability: [11]
-  skills:
-    experience: 10-15 Years
-    years: 15
-    mentee: |
-      One who wants to transition from junior to senior levels.
-    areas:
-    - Backend Developer
-    - Distributed Systems
-    - Fullstack Developer
-    - DevOps
-    - QA
-    languages: Java, C#, Python, Kotlin, Javascript
-    focus:
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Change specialisation within IT
-    - Grow beyond senior level
-    extra: |
-      Software Development Strategies, Resume Review, Preparation for The Technical Interview, How to grow from junior to lead engineers, Project management
-  network:
-  - linkedin: https://www.linkedin.com/in/prernasinghal90/
 
 - name: Samuela Smolorz
   disabled: false
   matched: false
   sort: 200
-  num_mentee: 1
+  num_mentee: 2
   hours: 2
   type: both
   index: 49
   location: London
   position: Software Engineer, Garrison Technology Ltd
   bio: |
-    I’m a lead at Women Coding Community and a backend/cloud software engineer working in cybersecurity. Previously, I’ve worked as a data analyst. As a career switcher myself, I love mentoring junior engineers and those transitioning into tech. I also enjoy helping people get started with volunteering in tech.
+    I am a backend/cloud infrastructure engineer specialising in database administration. Previously, I’ve worked as a data analyst/engineer. 
+
+    Being a self-taught English graduate made my tech journey quite challenging, but it has also equipped me to help career switchers navigate today's difficult market. I feel like popular advice given to junior engineers is not necessarily applicable anymore, and I would love to share everything I have learnt with others.
   image: |
     assets/images/mentors/samuela_smolorz.jpeg
   languages: English, Polish
-  availability: [11]
+  availability: [8, 9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -991,8 +502,9 @@
 - name: Arzu Caner
   disabled: false
   matched: false
-  sort: 200
-  hours: 3
+  sort: 10
+  num_mentee: 0
+  hours: 2
   type: ad-hoc
   index: 50
   location: United Kingdom/London
@@ -1006,7 +518,7 @@
   image: |
     assets/images/mentors/arzu_caner.jpeg
   languages: English, Turkish
-  availability: [11]
+  availability: [9, 10, 11]
   skills:
     experience: 2-4 Years
     years: 4
@@ -1021,16 +533,16 @@
       Career change, app development, software development, GitHub, hackathons, technical writing, React, React Native, JavaScript, Node.js, MongoDB
   network:
   - linkedin: https://www.linkedin.com/in/arzucaner/
-  - medium: https://arzugny.medium.com/
-  - github: https://github.com/arzucaner
+  - medium: https://arzugny.medium.com/,
+  - github: https://github.com/arzucaner,
   - youtube: https://www.youtube.com/channel/UCsK0v6RouRYb5I1Ny8flrOg
 
 - name: Prabha Venkatesh
   disabled: false
   matched: false
   sort: 500
-  num_mentee: 2
-  hours: 4
+  num_mentee: 3
+  hours: 2
   type: both
   index: 51
   location: Bristol, UK
@@ -1040,7 +552,7 @@
   image: |
     assets/images/mentors/prabha_venkatesh.jpeg
   languages: English
-  availability: [11]
+  availability: [9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1058,16 +570,17 @@
     - Grow from mid-level to senior-level
     - Switch career to IT
     extra: |
-      AI/ ML concepts, Resume review, technical interview
+      AI/ ML concepts, Resume review, technical interview 
   network:
   - linkedin: https://www.linkedin.com/in/prabha-venkatesh-t
 
 - name: Ima-Abasi Effiong
   disabled: false
   matched: false
-  sort: 500
-  hours: 5
-  type: both
+  sort: 10
+  num_mentee: 0
+  hours: 4
+  type: ad-hoc
   index: 54
   location: Nigeria
   position: QA Engineer, Cloudenly
@@ -1081,7 +594,7 @@
     experience: 2-4 Years
     years: 4
     mentee: |
-      I can provide guidance and resources to a passionate self learner, an early career engineer and people who just switched from different fields to Software Testing.
+      I can  provide guidance and resources to a  passionate self learner, an early career engineer and people who just switched from different fields to Software Testing.
     areas:
     - QA
     - Product Management
@@ -1097,10 +610,10 @@
 - name: Lidiane Mayra Taquehara
   disabled: false
   matched: false
-  sort: 100
-  num_mentee: 1
-  hours: 2
-  type: both
+  sort: 10
+  num_mentee: 0
+  hours: 1
+  type: ad-hoc
   index: 55
   location: London
   position: Senior Software Engineer, Artsy
@@ -1131,20 +644,97 @@
   network:
   - linkedin: https://www.linkedin.com/in/lmayra/
 
+- name: Sergei Begishev
+  disabled: false
+  matched: false
+  sort: 200
+  num_mentee: 2
+  hours: 2
+  type: both
+  index: 65
+  location: Belgrade, Serbia
+  position: Chief Product Officer, Overgear
+  bio: |
+    I am a product leader with over 5 years of experience in IT, currently serving as Chief Product Officer (CPO) and building upon my engineering foundation. My experience spans both large corporations and startups, with particular strengths in analyzing business data and streamlining operations. My commitment to mentorship grew from helping engineers effectively communicate their business impact, leading me to develop and teach a course that has equipped over 20 engineers with skills to present results confidently and advance their careers. I remain dedicated to expanding this impact by continuing to guide emerging tech professionals in bridging the gap between technical excellence and business success.
+  image: |
+    assets/images/mentors/sergei_begishev.jpeg
+  languages: English, Russian
+  availability: []
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      I am seeking motivated engineers who want to elevate their careers by developing their ability to communicate technical work in business terms, enhance their leadership capabilities, and master data-driven decision making
+    areas:
+    - Product Management
+    - Business Analysis
+    - Project Management
+    - Engineering management
+    - Data Engineering
+    languages: ''
+    focus:
+    - Switch from IC to management position
+    - Grow beyond senior level
+    - Grow from mid-level to senior-level
+    - Grow from beginner to mid-level
+    - Switch career to IT
+    extra: |
+      Mentoring Topics: Product Architecture & Design, Business Data Analysis & Visualization, Team Management & Leadership Skills, Technical Project Presentation, Process Automation Strategy, Cross-functional Communication
+  network:
+  - linkedin: https://www.linkedin.com/in/sergey-begishev/
+
+- name: Nadezhda Iaromirova
+  disabled: false
+  matched: false
+  sort: 200
+  num_mentee: 2
+  hours: 0
+  type: long-term
+  index: 64
+  location: Bulgaria, Sofia
+  position: Sr. IT Project Manager, Aceonis
+  bio: |
+    As a 360° digital marketing expert with 15+ years of experience, I would be happy to offer professional advice and provide mentorship to those at the entry-level or mid-level of their careers. My experience is primarily in enterprise-level software companies, focusing on data protection and cybersecurity. I bring expertise in web and IT-specific project management, complex technical product delivery, and web production.
+  image: |
+    assets/images/mentors/nadezhda_iaromirova.jpeg
+  languages: English, Russian
+  availability: []
+  skills:
+    experience: 16+ Years
+    years: 16
+    mentee: |
+      I'm looking for entry-level or mid-level professionals who are eager to advance their careers in IT project management, product ownership, business analysis, or UX. If you're passionate about growing your skills, open to constructive feedback, and ready to take the next step in your career, I'd love to provide personalized mentorship and career advice.
+    areas:
+    - Project Management
+    - Business Analysis
+    languages: ''
+    focus:
+    - Switch from IC to management position
+    - Grow from beginner to mid-level
+    extra: |
+      I can advice on a career as a project manager, product owner, or business analyst. I also specialize in user experience (UX) optimization, A/B testing, digital analytics, and reporting and can consult on UX and UI topics. Also, I can offer guidance on Agile methodologies widely used in IT, insights into valuable skill development. I can help review your CV and offer sessions to prepare you for real job interviews. 
+  network:
+  - linkedin: https://www.linkedin.com/in/yaromirova/
+  - website: https://hackernoon.com/u/uxdilettante
+
 - name: Kateryna Ogar
   disabled: false
   matched: false
   sort: 100
-  hours: 4
-  type: both
+  num_mentee: 1
+  hours: 0
+  type: long-term
   index: 61
-  location: The UK, London
+  location: The UK,  London
   position: Product Manager/ Scrum Master, Cisco Systems
   bio: |
     Hi there! I’m Kateryna, a Product Manager and Scrum Master with 5+ years of hands-on experience driving innovation and delivering complex software solutions for industry leaders like NASDAQ, Ericsson, and Volvo. My certifications in PSM1, KSP, and SAFe 5.1 Agilist reflect my commitment to delivering top-quality results using Agile, Kanban, Lean, TDD, and BDD practices.
+
     As a mentor, I’m here to guide you through the challenges of product management, project leadership, and Agile practices. Whether you're looking to improve team performance, navigate complex projects, or refine your leadership skills, I’m passionate about helping you grow.
+
     I’m also a proud mentor in the Women in Tech (6.0) program and am ranked in the Top 1% of Product Mentors on ADPList, where I’ve helped mentees like you unlock their full potential, drive innovations and secure new jobs. If you're ready to take your career to the next level and make an impact in tech, let’s work together to shape your journey!
-  image: assets/images/mentors/kateryna_ogar.jpeg
+  image: |
+    assets/images/mentors/kateryna_ogar.jpeg
   languages: English, Russian, Ukranian
   availability: []
   skills:
@@ -1152,7 +742,9 @@
     years: 7
     mentee: |
       I’m looking to work with motivated individuals who are excited to grow their skills in product/project management and leadership. If you’re looking to transition into product/project management, step into a leadership role in Agile teams or improve your skills, I’d love to help you get there!
+
       I enjoy mentoring curious learners who want to dive into Agile methodologies like Scrum, Kanban, and SAFe. If you’re passionate about creating products that make a real impact and aligning your work with business goals, we’ll be a great match.
+
       If you’re ready to take your career to the next level, let’s connect and make it happen!
     areas:
     - Project Management
@@ -1174,17 +766,19 @@
 - name: Wilson Adenuga
   disabled: false
   matched: false
-  sort: 100
-  hours: 5
+  sort: 200
+  num_mentee: 2
+  hours: 3
   type: both
   index: 63
   location: UK/Birmingham
   position: Senior Frontend Engineer, BeyondIT SRL
   bio: |
     I am a full-stack engineer specializing in building scalable, accessible web and mobile applications. My expertise spans React.js, React Native, Next.js, Node.js, Python, microservices, and cloud platforms like AWS and Cloudflare. I've led projects in fintech, healthcare, and cybersecurity domains. I'm passionate about mentoring developers, improving code quality, and advocating for best practices in TDD, database design, and web accessibility. I actively contribute to the developer community through mentorship programs and open-source projects.
-  image: assets/images/mentors/wilson_adenuga.jpeg
+  image: |
+    assets/images/mentors/wilson_adenuga.jpeg
   languages: English
-  availability: []
+  availability: [5, 6, 7]
   skills:
     experience: 4-5 Years
     years: 5
@@ -1210,76 +804,13 @@
   - linkedin: https://www.linkedin.com/in/wilson-adenuga/
   - github: https://github.com/oluwatunmiisheii
 
-- name: Nadezhda Iaromirova
-  disabled: false
-  matched: false
-  sort: 100
-  num_mentee: 2
-  hours: 2
-  bio: |
-    As a 360° digital marketing expert with 15+ years of experience, I would be happy to offer professional advice and provide mentorship to those at the entry-level or mid-level of their careers. My experience is primarily in enterprise-level software companies, focusing on data protection and cybersecurity. I bring expertise in web and IT-specific project management, complex technical product delivery, and web production.
-  position: Sr. IT Project Manager, Acronis
-  image: assets/images/mentors/nadezhda_laromirova.jpeg
-  location: Bulgaria, Sofia
-  type: both
-  index: 64
-  languages: English, Russian
-  availability: []
-  skills:
-    experience: 16+ Years
-    years: 16
-    areas:
-    - Product Management
-    - Business Analysis
-    focus:
-    - Switch from IC to management position
-    - Grow from beginner to mid-level
-    mentee: I'm looking for entry-level or mid-level professionals who are eager to advance their careers in IT project management, product ownership, business analysis, or UX. If you're passionate about growing your skills, open to constructive feedback, and ready to take the next step in your career, I'd love to provide personalized mentorship and career advice.
-    extra: I can advice on a career as a project manager, product owner, or business analyst. I also specialize in user experience (UX) optimization, A/B testing, digital analytics, and reporting and can consult on UX and UI topics. Also, I can offer guidance on Agile methodologies widely used in IT, insights into valuable skill development. I can help review your CV and offer sessions to prepare you for real job interviews.
-  network:
-  - linkedin: https://www.linkedin.com/in/yaromirova/
-  - website: https://hackernoon.com/u/uxdilettante
-
-- name: Sergei Begishev
-  disabled: false
-  matched: false
-  sort: 200
-  num_mentee: 1
-  hours: 2
-  bio: |
-    I am a product leader with over 5 years of experience in IT, currently serving as Chief Product Officer (CPO) and building upon my engineering foundation. My experience spans both large corporations and startups, with particular strengths in analyzing business data and streamlining operations. My commitment to mentorship grew from helping engineers effectively communicate their business impact, leading me to develop and teach a course that has equipped over 20 engineers with skills to present results confidently and advance their careers. I remain dedicated to expanding this impact by continuing to guide emerging tech professionals in bridging the gap between technical excellence and business success.
-  position: Chief Product Officer, Overgear
-  image: assets/images/mentors/sergei_begishev.jpeg
-  location: Belgrade, Serbia
-  type: both
-  index: 65
-  languages: English, Russian
-  availability: [11]
-  skills:
-    experience: 5-7 Years
-    years: 7
-    areas:
-    - Product Management
-    - Business Analysis
-    - Engineering management
-    - Data Engineering
-    focus:
-    - Switch from IC to management position
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    mentee: I am seeking motivated engineers who want to elevate their careers by developing their ability to communicate technical work in business terms, enhance their leadership capabilities, and master data-driven decision making
-    extra: Mentoring Topics such as Product Architecture & Design, Business Data Analysis & Visualization, Team Management & Leadership Skills, Technical Project Presentation, Process Automation Strategy, Cross-functional Communication
-  network:
-  - linkedin: https://www.linkedin.com/in/sergey-begishev/
-
 - name: Sebastian Castro
   disabled: false
   matched: false
   sort: 200
-  num_mentee: 1
-  hours: 2
-  type: both
+  num_mentee: 2
+  hours: 0
+  type: long-term
   index: 67
   location: Boston, MA, USA
   position: Robotics Software Engineer, Robotics and AI Institute
@@ -1288,7 +819,7 @@
   image: |
     assets/images/mentors/sebastian_castro.jpeg
   languages: English, Spanish
-  availability: [11]
+  availability: []
   skills:
     experience: 10-15 Years
     years: 15
@@ -1316,9 +847,9 @@
 - name: Ramona Gawarwala
   disabled: false
   matched: false
-  sort: 100
-  num_mentee: 1
-  hours: 3
+  sort: 200
+  num_mentee: 2
+  hours: 1
   type: both
   index: 68
   location: London
@@ -1328,7 +859,7 @@
   image: |
     assets/images/mentors/ramona_gawarwala.jpeg
   languages: English, Romanian
-  availability: []
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1342,7 +873,7 @@
     focus:
     - Grow from beginner to mid-level
     extra: |
-      Software development, Job Search, Motivation, Career Change, Upskill
+      Software development, Job Search, Motivation, Career Change, Upskill 
   network:
   - linkedin: https://www.linkedin.com/in/ramona-gawarwala/
 
@@ -1363,7 +894,7 @@
   image: |
     assets/images/mentors/sonika_janagill.jpeg
   languages: English, Hindi, Punjabi
-  availability: []
+  availability: [5, 6, 7, 8, 9, 10, 11]
   skills:
     experience: 16+ Years
     years: 16
@@ -1394,344 +925,66 @@
   network:
   - linkedin: https://www.linkedin.com/in/sonikaj/
 
-- name: Eniola Oduntan
+- name: Prerna Singhal
   disabled: false
   matched: false
-  sort: 10
-  num_mentee: 1
-  hours: 4
-  type: long-term
-  index: 70
-  location: Belfast, United Kingdom
-  position: Data Scientist, Analytics Engines
-  bio: |
-    I am Data Scientist with 3 years of experience currently working on building Generative Al, Natural Language Processing and Multimodal solutions. With a strong background in Computational Statistics & Linguistics, Machine Learning and Business Intelligence, some key highlights of my work have been- Designing and implementing traditional machine learning pipelines for predictive models. Designing and implementing Large Language Model based models for automated alt text generation, book indexing and metadata prediction. Owning delivery of analytical projects and high-quality business intelligence solutions. Using data to drive operational excellence and develop sustainable business growth strategies.
-  image: |
-    assets/images/mentors/eniola_oduntani.jpeg
-  languages: English
-  availability: []
-  skills:
-    experience: 2-4 Years
-    years: 4
-    mentee: |
-      People early in their careers, looking to make a switch to tech. People who struggle with selling themselves at interviews.
-    areas:
-    - Data Science
-    - Machine Learning
-    - Business Analysis
-    - Project Management
-    languages: Python
-    focus:
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    - Change specialisation within IT
-    extra: |
-      Resume review
-      Interview preparation 
-      Transitioning from a non-technical background
-  network:
-  - linkedin: http://www.linkedin.com/in/eniola-oduntan
-
-- name: Griswald Brooks
-  disabled: false
-  matched: false
-  sort: 10
-  num_mentee: 1
-  hours: 4
-  type: long-term
-  index: 73
-  location: Boston, MA
-  position: Senior Robotics Engineer, PickNik Robotics
-  bio: |
-    10 years of experience building mobile robots
-  image: |
-    assets/images/mentors/griswald_brooks.jpeg
-  languages: English
-  availability: []
-  skills:
-    experience: 7-10 Years
-    years: 10
-    mentee: |
-      Engineers with a solid foundation that need a little guidance
-    areas: []
-    languages: C++, Python
-    focus:
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    extra: |
-      Robotics software development
-  network:
-  - linkedin: https://www.linkedin.com/in/griswaldbrooks/
-  - website: https://bsky.app/profile/griswaldbrooks.bsky.social
-
-- name: Lakshmi Balakrishnan
-  disabled: false
-  matched: false
-  sort: 100
-  num_mentee: 1
-  hours: 3
+  sort: 200
+  num_mentee: 2
+  hours: 2
   type: both
-  index: 75
-  location: Birmingham, UK
-  position: senior software engineer, Shopworks
+  index: 48
+  location: London, United Kingdom
+  position: Senior Software Engineer 2, Hubspot
   bio: |
-    I have been working in the tech industry for 12 years now - as a backend engineer, specialising in Php, even though I have worked with a few other languages and was a front end developer a life time ago.
+    Currently working as Lead Engineer for Hubspot. I have 12 years for Software development experience (Backend and Fullstack). I have worked with tech giants for 7 years - Microsoft, Expedia, Salesforce and have worked in startup industry for 5 years. Hence i understand working in both in environments. I have worked with wide variety of technologies - Java, AWS, Azure, Python, Distributed systems, Scaling applications.
   image: |
-    assets/images/mentors/lakshmi_balakrishnan.jpeg
+    assets/images/mentors/prerna_singhal.jpeg
   languages: English
-  availability: []
+  availability: [9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
     mentee: |
-      I am looking ideally someone who want to grow in their career and would benefit from the insights of someone who has been in the industry for a while.
+      One who wants to transition from junior to senior levels.
     areas:
     - Backend Developer
-    - QA
-    - Fullstack Developer
     - Distributed Systems
-    - Frontend Developer
-    languages: Python, Javascript
-    focus:
-    - Switch career to IT
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
-    extra: |
-      Software development strategies, career goals
-  network:
-  - linkedin: https://www.linkedin.com/in/lakshmi-balakrishnan-21b3a253
-
-- name: Nishi Ajmera
-  disabled: false
-  matched: false
-  sort: 100
-  hours: 3
-  type: both
-  index: 77
-  location: London, UK
-  position: Architect, Publicis Sapient
-  bio: |
-    I am a Solutions Architect at Publicis Sapient, where I specialize in designing and delivering innovative solutions that align technology with complex business objectives. With a strong passion for Artificial Intelligence (AI) and Machine Learning (ML), I’ve built a reputation as a thought leader in the AI/ML space—driving innovation, mentoring others, and translating emerging technologies into impactful real-world applications.
-
-    In addition to my professional role, I serve as an Ambassador for Women Techmakers and am recognized as a Google Developer Expert (GDE) in AI/ML. I’m deeply committed to community building and knowledge sharing, regularly speaking at conferences, meetups, and industry events. My engagements often focus on Large Language Models (LLMs) and advanced AI topics, where I aim to demystify complex concepts and inspire others to explore this dynamic field.
-
-    As an active contributor to the Google Developer Groups (GDG), I lead technical sessions, mentor aspiring developers, and advocate for inclusive representation in tech—championing the voices of women in the AI community.
-  image: |
-    assets/images/mentors/nishi_ajmera.jpg
-  languages: English
-  availability: []
-  skills:
-    experience: 10-15 Years
-    years: 15
-    mentee: |
-      I’m looking for mentees who are curious, proactive, and eager to grow—both technically and personally. Someone who takes initiative, is open to feedback, and is genuinely committed to learning. I value a growth mindset and appreciate individuals who are not afraid to ask questions, experiment, and learn from failure.
-
-      Whether you're just beginning your journey in AI/ML or looking to deepen your expertise, I welcome those who are passionate about technology and its potential to solve real-world problems.
-    areas:
-    - Full-Stack Developer
-    - Machine Learning
-    - Backend Developer
-    - Frontend Developer
-    - DevOps Engineer
-    languages: Java, Javascript, Go, C++
-    focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch career to IT
-    extra: |
-      - Generative AI, AI Agents, RAG, buillding LLMs
-  network:
-  - linkedin: https://www.linkedin.com/in/ajmeranishi/
-  - website: https://nishiajmera.com/
-
-- name: Udeme Jalekun
-  disabled: false
-  matched: false
-  sort: 200
-  hours: 2
-  type: both
-  index: 78
-  location: Blackpool, United Kingdom
-  position: Quality Assurance Engineer, Raenest
-  bio: |
-    I am a software quality assurance engineer with over 8 years of experience working in Information technology across EdTech, FinTech, and Social applications.
-    Beyond my technical abilities, I am also a dedicated leader, actively nurturing talents through mentorship, coaching, and structured training programs. 
-  image: |
-    assets/images/mentors/udeme_jalekun.jpeg
-  languages: English
-  availability: [11]
-  skills:
-    experience: 5-7 Years
-    years: 7
-    mentee: |
-      I am looking for a mentee who is curious, motivated, and open to feedback. If you are looking to transition into tech but do not know where to begin or what to pick, I can help guide you to choose a path that aligns with your areas of strength. 
-      And if you are considering transitioning from a non-tech background into quality assurance and software testing, then I am your go-to guide.
-    areas:
-    - Software Testing
-    - Quality Assurance
-    - Quality Engineering
-    - Accessibility Testing
-    - Security Testing
-    - Switch careers from a non-tech to a tech role
-    - Pivot to quality assurance and software testing
-    languages: Javascript, Python, Java
-    focus:
-    - Switch career to IT
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Grow beyond senior level
-    - Switch from IC to management position
-    extra: |
-      Software testing, quality engineering, career development planning and roadmap setting, team communication, stakeholder management, and security testing.
-  network:
-  - linkedin: https://www.linkedin.com/in/udeme-jalekun
-
-- name: Narmada Chowdary Nannaka
-  disabled: false
-  matched: false
-  sort: 100
-  hours: 3
-  type: both
-  index: 79
-  location: Australia, Gold Coast
-  position: Tech Arch Senior Manager, Accenture
-  bio: |
-    With over 14 years of global experience in enterprise technology architecture and digital transformation, I mentor mid-career professionals and aspiring tech leaders on navigating complex IT landscapes, developing strategic thinking, and advancing in technical leadership roles. I specialize in simplifying enterprise architecture, resume and portfolio building, and preparing for high-impact stakeholder engagements. As a Women Techmakers Ambassador and a Senior Manager in Technology Architecture, I bring real-world insights, structured guidance, and actionable feedback to help you grow with clarity and confidence.
-  image: |
-    assets/images/mentors/narmada_chowdary_nannaka.jpeg
-  languages: English, Telugu
-  availability: []
-  skills:
-    experience: 10-15 Years
-    years: 15
-    mentee: |
-      I'm looking to mentor individuals who are genuinely enthusiastic about growing in their careers, open to receiving constructive feedback, and most importantly, ready to take action on it. I value mentees who are curious, self-motivated, and willing to put in the effort to implement what they learn. A growth mindset, reliability, and a proactive attitude are non-negotiables—I’m here to support, but real progress comes from those who show up, follow through, and are eager to challenge themselves.
-    areas:
-    - Project Management
-    - Project Management
-    - Engineering management
-    - Security
-    - Business Analysis
-    languages: Javascript, C++, C#, C
-    focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Switch career to IT
-    - Switch from IC to management position
-    - Change specialisation within IT
-    extra: |
-      - Technology Architecture & Strategy, 
-      - Career Growth, Leadership & Soft Skills
-      - Job Market Readiness, and Brand Building
-  network:
-  - linkedin: https://www.linkedin.com/in/narmada-nannaka/
-  - website: https://narmadanannaka.com/
-
-- name: Bianca Stratulat
-  disabled: false
-  matched: false
-  sort: 200
-  hours: 2
-  type: both
-  index: 80
-  location: Cambridge, UK
-  position: Chief Data Officer, Unifeye
-  bio: |
-    With over a decade of experience in the data and AI space, I specialise in designing and delivering modern data platforms that drive business transformation. I am a Databricks Champion and currently the Chief Data Officer at UnifEye, where I lead strategic initiatives across sectors such as healthcare, retail, and public services.
-
-    Throughout my career, I have successfully delivered large-scale data engineering and analytics projects, enabling organisations to unlock insights and adopt AI at scale. I hold multiple Databricks certifications, including the Solution Architect Champion accreditation, and have built Centres of Excellence focused on cloud data platforms and generative AI adoption.
-
-    Passionate about empowering technical teams and business leaders alike, I regularly speak at industry events and run community programmes to help others accelerate their learning journeys in data engineering and AI.
-
-  image: |
-    assets/images/mentors/bianca_stratulat.jpg
-  languages: English, Romanian
-  availability: [11]
-  skills:
-    experience: 10-15 Years
-    years: 15
-    mentee: |
-      I’m looking for a mentee who is committed to transitioning into the data world, focused on building strong foundations, and curious enough to enjoy the learning journey.
-      Someone who is proactive, open to feedback, and excited about exploring the possibilities in data engineering and analytics.
-    areas:
-    - Data Engineering
-    - Data Science
-    - Machine Learning
-    - Project Management
-    - Business Analysis
-    languages: Python, Scala
-    focus:
-    - Grow from beginner to mid-level
-    - Grow from mid-level to senior-level
-    - Change specialisation within IT
-    - Switch career to IT
-    - Switch from IC to management position
-    extra: Data Engineering Coaching & Mentoring (building skills, career progression, and best practices); Transitioning to a Data Engineering Role (guidance for professionals moving into data roles); Power BI & Databricks Expertise (technical deep dives and practical use cases); Interview Preparation (technical interviews, leadership interviews, and confidence building); Career Development in Data & AI (navigating certifications, building a personal brand, and growing as a leader).
-  network:
-  - linkedin: https://www.linkedin.com/in/bianca-stratulat/
-  - medium: https://medium.com/@biancadoesdata
-
-- name: Tatiana Popova
-  disabled: false
-  matched: false
-  sort: 100
-  hours: 4
-  type: both
-  index: 81
-  location: Munich, Germany
-  position: Senior Java Software Development Engineer in Test, Genedata
-  bio: |
-    Senior SDET with 9 years of experience in building robust test automation frameworks for databases, front-end, and back-end systems. Strong software development background in Java and Python, with hands-on expertise in Agile methodologies.
-  image: |
-    assets/images/mentors/tatiana_popova.jpg
-  languages: English, Russian, German
-  availability: []
-  skills:
-    experience: 7-10 Years
-    years: 10
-    mentee: |
-      I’m looking for a mentee who is goal-driven and eager to transition from manual QA to test automation. Someone who’s willing to put in consistent effort, ask questions, and apply what they learn through hands-on practice.
-    areas:
+    - Fullstack Developer
+    - DevOps
     - QA
-    - Backend Developer
-    languages: Java, Python
+    languages: Java, C#, Python, Kotlin, Javascript
     focus:
-    - Grow from beginner to mid-level
     - Grow from mid-level to senior-level
+    - Grow from beginner to mid-level
     - Switch career to IT
-    - Switch from IC to management position
     - Change specialisation within IT
+    - Grow beyond senior level
     extra: |
-      - Supporting manual QA engineers in transitioning to test automation and software development.
+      Software Development Strategies, Resume Review, Preparation for The Technical Interview, How to grow from junior to lead engineers, Project management
   network:
-  - linkedin: https://www.linkedin.com/in/tatiana-popova-30700b61?trk=contact-info
-  - github: https://github.com/tpopova13x
+  - linkedin: https://www.linkedin.com/in/prernasinghal90/
 
-- name: Ilayda Yilmaz
+- name: ilayda yilmaz
   disabled: false
   matched: false
-  sort: 200
+  sort: 10
+  num_mentee: 0
   hours: 2
-  type: both
+  type: ad-hoc
   index: 82
   location: Turkey
   position: Data Scientist, GDZ
   bio: |
-    I have been working in the tech industry for 5 years and am currently building my career in the data field. 
-    My experience spans across data science projects such as predictive modeling, anomaly detection, and time series forecasting. 
-    With a background in software development, I enjoy combining technical skills with data-driven thinking to solve real-world problems. 
-    I'm passionate about helping others who are also transitioning into data science.
-
+    I have been working in the tech industry for 5 years and am currently building my career in the data field. My experience spans across data science projects such as predictive modeling, anomaly detection, and time series forecasting. With a background in software development, I enjoy combining technical skills with data-driven thinking to solve real-world problems. I'm passionate about helping others who are also transitioning into data science.
   image: |
-    assets/images/mentors/ilayda.png
+    assets/images/mentors/ilayda_yilmaz.jpeg
   languages: English, Turkish
-  availability: [11]
+  availability: [8, 9, 10, 11]
   skills:
     experience: 4-5 Years
     years: 5
     mentee: |
-      I'm looking for a mentee who is curious, motivated, and open to feedback. Ideally, someone who is either transitioning into the data field or already on their way and looking for guidance on how to grow.
-      I’d love to work with someone who’s willing to explore ideas, ask questions, and take initiative in their learning journey.
+      I'm looking for a mentee who is curious, motivated, and open to feedback. Ideally, someone who is either transitioning into the data field or already on their way and looking for guidance on how to grow. I’d love to work with someone who’s willing to explore ideas, ask questions, and take initiative in their learning journey.
     areas:
     - Data Science
     - Machine Learning
@@ -1741,33 +994,36 @@
     languages: Python, Java
     focus:
     - Switch career to IT
-    - Change specialisation within IT
     - Grow from beginner to mid-level
+    - Change specialisation within IT
     - Grow from mid-level to senior-level
-    - Switch from IC to management position
     - Grow beyond senior level
-    extra: Focus areas for aspiring data scientists; transitioning into data science, building a roadmap, preparing for technical interviews, optimizing resume/LinkedIn, creating and showcasing portfolio projects, and communicating insights effectively.
+    extra: |
+      What to focus on when transitioning into data science
+      Building a roadmap for becoming a Data Scientist
+      Technical interview preparation for data roles
+      Resume and LinkedIn review for aspiring data professionals
+      Working on portfolio projects and showcasing them effectively
+      Communicating data insights clearly to different audiences
   network:
   - linkedin: https://www.linkedin.com/in/ilayda-yilmaz/
 
 - name: Damola Taiwo
   disabled: false
   matched: false
-  sort: 200
-  hours: 2
-  type: both
+  sort: 10
+  num_mentee: 0
+  hours: 3
+  type: ad-hoc
   index: 83
-  location: London, UK
+  location: London, Uk
   position: Frontend Engineer, Just Eat Takeaway
   bio: |
-    I’m a Frontend Engineer with 5 years of experience building scalable, high-performance web applications.
-    My expertise spans modern frontend languages and frameworks, including JavaScript, TypeScript, React, and Vue, as well as integrating and working with APIs.
-    I’ve developed complex fintech applications and currently work in the retail media domain, delivering user-focused solutions that combine performance, accessibility, and design.
-    I’m passionate about staying ahead of trends in frontend development and helping others grow in their tech journey.
+    I’m a Frontend Engineer with 5 years of experience building scalable, high-performance web applications. My expertise spans modern frontend languages and frameworks, including JavaScript, TypeScript, React, and Vue, as well as integrating and working with APIs. I’ve developed complex fintech applications and currently work in the retail media domain, delivering user-focused solutions that combine performance, accessibility, and design. I’m passionate about staying ahead of trends in frontend development and helping others grow in their tech journey.
   image: |
-    assets/images/mentors/damola.jpg
+    assets/images/mentors/damola_taiwo.jpeg
   languages: English
-  availability: [11]
+  availability: [9, 10, 11]
   skills:
     experience: 4-5 Years
     years: 5
@@ -1775,33 +1031,48 @@
       I’m looking for mentees who are actively job hunting and need guidance through the process, beginners in tech who want support in learning and mastering the fundamentals, and junior frontend developers seeking advice on advancing their skills and progressing to the next stage of their careers
     areas:
     - Frontend Developer
+    - Frontend Developer
     - Fullstack Developer
-    languages: JavaScript
+    - Frontend Developer
+    - Frontend Developer
+    languages: Javascript, Javascript, Javascript, Javascript, Javascript
     focus:
     - Grow from beginner to mid-level
-    - Change specialisation within IT
     - Switch career to IT
-    extra: Frontend career prep; system design strategies, technical interview preparation, resume review, and transitioning into frontend development.
+    - Change specialisation within IT
+    - Grow from beginner to mid-level
+    - Grow from beginner to mid-level
+    extra: |
+      Frontend system design interview preparation and strategies
+
+      Preparing for technical interviews (Frontend focus)
+
+      Resume review and feedback
+
+      Transitioning into a frontend development career
   network:
   - linkedin: https://www.linkedin.com/in/badmus-damola-taiwo-643438158/
 
 - name: Dan Antonela
   disabled: false
   matched: false
-  sort: 100
-  hours: 3
+  sort: 500
+  num_mentee: 3
+  hours: 1
   type: both
   index: 84
   location: Cluj-Napoca, Romania
   position: Data Architect, Accenture
   bio: |
     I bring over 12 years of experience in working with data, with a strong focus on transforming client data into actionable value. My expertise spans the full data lifecycle—from understanding business requirements and designing solutions to implementing robust data pipelines and analytics.
+
     Throughout my career, I have led cross-functional teams in delivering end-to-end data migration projects, particularly in transitioning solutions from on-premises environments to the cloud. My recent work has centered on leveraging Databricks technologies to design scalable, efficient, and secure data architectures that support advanced analytics and business intelligence initiatives.
+
     As a mentor, I aim to share not only my technical expertise but also my experience in leading teams, managing complex projects, and aligning technical solutions with business objectives. My goal is to help mentees develop both their technical skills and strategic thinking to succeed in data-driven roles.
   image: |
-    assets/images/mentors/antonela.jpeg
+    assets/images/mentors/dan_antonela.jpeg
   languages: English, Romanian
-  availability: []
+  availability: [9, 10, 11]
   skills:
     experience: 10-15 Years
     years: 15
@@ -1809,35 +1080,60 @@
       I’m looking to mentor individuals who are eager to grow their careers in the data field, open to feedback, and committed to putting learning into action. I value mentees with a curious mindset, a strong willingness to learn, and the motivation to explore new challenges. A growth mindset, reliability, and a proactive attitude are essential—I’ll provide guidance and support, but real progress comes from those who take initiative, follow through, and are ready to push themselves.
     areas:
     - Data Engineering
+    - Data Engineering
+    - Data Engineering
+    - Data Engineering
     - Data Science
-    languages: JavaScript, Python
+    languages: Javascript, Python, Python, Javascript, Python
     focus:
     - Grow from mid-level to senior-level
     - Grow from beginner to mid-level
     - Switch career to IT
-    extra: |
-      Data engineering best practices; Data architecture design and implementation; Transitioning from on-premises to cloud solutions (with focus on Databricks);
-      Growing from junior to mid-level; Growing from mid-level to senior-level; Career development and strategic planning in data roles;
-      Technology architecture & strategy; Career growth  & soft skills; Navigating the job market and building a professional brand; Effective communication in technical teams
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    extra: |2-
+
+
+      Data engineering best practices
+
+      Data architecture design and implementation
+
+      Transitioning from on-premises to cloud solutions (with focus on Databricks)
+
+      Growing from junior to mid-level
+
+      Growing from mid-level to senior-level
+
+      Career development and strategic planning in data roles
+
+      Other potential mentoring topics:
+
+      Technology architecture & strategy
+
+      Career growth  & soft skills
+
+      Navigating the job market and building a professional brand
+
+      Effective communication in technical teams
   network:
   - linkedin: https://www.linkedin.com/in/morar-antonela
 
 - name: Mudit Maheshwari
   disabled: false
   matched: false
-  sort: 100
-  num_mentee: 4
+  sort: 200
+  num_mentee: 2
   hours: 2
   type: both
   index: 85
-  location: London, United Kingdom
+  location: London , United Kingdom
   position: Quality Automation Specialist, NatWest Group
   bio: |
     I’m a Quality Engineer with over six years of experience in test automation, passionate about building reliable, high-quality software that delivers a great user experience. I specialise in designing and maintaining automation frameworks using modern tools like Cypress, Playwright, and TypeScript, and I enjoy collaborating closely with developers to embed quality into every stage of delivery. I’m motivated by solving complex problems, mentoring others, and continuously improving processes. Outside of work, I’m deeply interested in investing and financial technology,
   image: |
     assets/images/mentors/mudit_maheshwari.jpeg
   languages: English
-  availability: []
+  availability: [9, 10]
   skills:
     experience: 5-7 Years
     years: 7
@@ -1862,53 +1158,16 @@
   - linkedin: https://www.linkedin.com/in/maheshwarimudit/
   - medium: https://medium.com/@mudit94
 
-- name: Anh Vu
-  disabled: false
-  matched: false
-  sort: 100
-  num_mentee: 3
-  hours: 3
-  type: both
-  index: 86
-  location: California, USA
-  position: Senior DevOps Engineer, Donors Choose
-  bio: |
-    I am a DevOps engineer with nearly a decade of hands-on experience specializing in infrastructure as code, with a strong focus on Terraform adoption and migration of critical production systems—including core web applications and secure bastion hosts. I have extensive experience designing and implementing scalable, containerized environments using Docker, AWS, and Kubernetes. Additionally, I’ve developed and maintained robust CI/CD pipelines using Jenkins, often building team-wide workflows and standards that have been adopted across engineering organizations.
-  image: |
-    assets/images/mentors/anh_vu.jpeg
-  languages: English
-  availability: []
-  skills:
-    experience: 7-10 Years
-    years: 10
-    mentee: |
-      Self starters, emotionally intelligent, women of color.
-    areas:
-    - DevOps
-    - Distributed Systems
-    - Network Engineering
-    - Project Management
-    - Security
-    languages: Python
-    focus:
-    - Grow from mid-level to senior-level
-    - Grow from beginner to mid-level
-    - Switch career to IT
-    extra: |
-      Prep for technical interview, resume feedback, technical mentorship, navigating interpersonal relationships in the workplace, career development.
-  network:
-  - linkedin: https://www.linkedin.com/in/anh-vu-5484bbab/
-
 - name: Tuğçe Kızılçakar
   disabled: false
   matched: false
-  sort: 500
+  sort: 200
   num_mentee: 2
-  hours: 5
+  hours: 4
   type: both
   index: 87
   location: Istanbul
-  position: Technical Product Manager
+  position: Technical Product Manager, -
   bio: |
     With more than 10 years in tech and product management, I’ve worked on mobile payment products and agile transformation projects that reached millions of users. I enjoy helping teams improve their delivery processes and supporting young professionals who want to grow in product and tech. I’ve also mentored in several startup and education programs, sharing both technical and leadership experience.
   image: |
@@ -1945,7 +1204,7 @@
 - name: Marjorie Martinez
   disabled: false
   matched: false
-  sort: 500
+  sort: 10
   num_mentee: 0
   hours: 5
   type: ad-hoc
@@ -1962,7 +1221,7 @@
     experience: 5-7 Years
     years: 7
     mentee: |
-      Somewhere beginner level or mid level that's looking for career guide.
+      Somewhere beginner level or mid level that's looking for career guide
     areas:
     - Frontend Developer
     - Fullstack Developer
@@ -1987,7 +1246,9 @@
   position: Software Engineer, AMScreen
   bio: |
     I am a software engineer with half a decade of professional experience building scalable, production-grade systems across fintech, banking, digital media, and data-driven platforms. My technical background spans backend engineering with C# and .NET, cloud-native architectures on Azure, event-driven microservices, distributed systems, and cross-platform mobile development using Flutter. I’ve worked on systems that support real users at scale, handle sensitive data, and generate revenue, with a strong focus on clean architecture, performance, security, and resilience.
+
     Beyond delivery, I’ve taken ownership of system design decisions, collaborated closely with product and engineering leaders, and contributed to improving reliability, monitoring, and developer experience. I also hold an MSc in Cybersecurity, which informs my approach to building secure, trustworthy software.
+
     I’m deeply passionate about mentorship and community impact. I’ve supported career switchers, junior developers, and beginners through one-on-one mentoring, speaking engagements, and community sessions. My goal as a mentor is to help mentees build strong technical foundations, confidence, and clarity in their career paths, while encouraging curiosity, persistence, and continuous learning.
   image: |
     assets/images/mentors/faith_sodipe.jpeg
@@ -2016,7 +1277,7 @@
 - name: Anastasiia Roldugina
   disabled: false
   matched: false
-  sort: 500
+  sort: 200
   num_mentee: 2
   hours: 4
   type: both
@@ -2025,6 +1286,7 @@
   position: Full Stack Engineer, Count Ltd. (Record OS)
   bio: |
     Full-stack engineer with 5+ years of experience building scalable web applications in startup and product-driven environments. I specialize in React/TypeScript on the frontend and Python or PHP on the backend, with a strong focus on clean architecture, reliability, and user-centric design.
+
     I’ve led and delivered end-to-end features from concept to production, including complex third-party integrations, automation systems, and data-heavy workflows. I enjoy working across the stack, collaborating closely with product and design, and turning ambiguous ideas into practical, high-impact solutions.
   image: |
     assets/images/mentors/anastasiia_roldugina.jpeg
@@ -2035,11 +1297,13 @@
     years: 7
     mentee: |
       Excited to work with motivated, curious mentees who are serious about growing in tech and open to feedback. You don’t need to have everything figured out, just a willingness to learn and try new approaches.
+
       I especially enjoy supporting people who are:
               •        Early to mid-career engineers looking to build confidence and real-world skills
               •        Transitioning into software development from another field
               •        Preparing for technical interviews or their first (or next) engineering role
               •        Working in startups or small teams and wanting to level up their technical and product thinking
+
       If you’re proactive, ask questions, and are ready to put ideas into practice between sessions, we’ll work great together.
     areas:
     - Fullstack Developer
@@ -2062,7 +1326,7 @@
   hours: 3
   type: both
   index: 91
-  location: Letterkenny,Ireland
+  location: Letterkenny, Ireland
   position: AWS Solution & Senior Devops, Tata Consultancy Services
   bio: |
     Having close to 20 years of IT Experience and delivered multiple projects and worked in multiple locations. I am a Microsoft Certified Trainer, AWS User Group Leader and AWS Community Builder,GDG Letterkenny Organizer.
@@ -2091,14 +1355,14 @@
     extra: |
       Software Development (Python,C#,Cloud Skills), Preparation for Interviews
   network:
-  - website: https://linkinedin.com/srinivasuluparanduru
+  - linkedin: https://www.linkedin.com/in/srinivasuluparanduru/
   - website: https://dev.to/srinivasuluparanduru
   - github: https://github.com/srinivasuluparanduru
 
 - name: Aria Wright
   disabled: false
   matched: false
-  sort: 500
+  sort: 100
   num_mentee: 1
   hours: 2
   type: both
@@ -2133,7 +1397,7 @@
 - name: Airah Yusuff
   disabled: false
   matched: false
-  sort: 500
+  sort: 10
   num_mentee: 0
   hours: 1
   type: ad-hoc
@@ -2154,10 +1418,10 @@
     years: 5
     mentee: |
       I'm looking to work with mentees who want to:
-      1) transition into cloud roles
-      2) strengthen their knowledge of cloud and AWS fundamentals
-      3) join the AWS Community Builders program and get support with their applications
-      4) know more about the UK Global Talent visa and whether it might be a right fit for them
+      1) transition into cloud roles,
+      2) strengthen their knowledge of cloud and AWS fundamentals, 
+      3) join the AWS Community Builders program and get support with their applications, 
+      4) know more about the UK Global Talent visa and whether it might be a right fit for them.
 
       I’m still growing as a mentor myself, but I’m committed to doing my best to support mentees and share what I’ve learned along the way.
     areas:
@@ -2165,15 +1429,15 @@
     - Site Reliability Engineering
     - Security
     - Network Engineering
-    languages: ''
+    languages: HCL (Terraform/OpenTofu),  Rego, YAML, Bash, Python (for scripting)
     focus:
     - Change specialisation within IT
     - Switch career to IT
     extra: |
-      AWS Fundamentals
-      Transitioning into Cloud/DevOps Roles
-      AWS Community Builders Program
-      CV Reviews for Junior cloud roles
+      AWS Fundamentals, 
+      Transitioning into Cloud/DevOps Roles, 
+      AWS Community Builders Program, 
+      CV Reviews for Junior cloud roles, 
       UK Global Talent Visa discussions
   network:
   - linkedin: https://www.linkedin.com/in/khairah-yusuff/
@@ -2183,7 +1447,7 @@
 - name: Michelle Victora
   disabled: false
   matched: false
-  sort: 500
+  sort: 10
   num_mentee: 0
   hours: 1
   type: ad-hoc
@@ -2241,3 +1505,68 @@
   - linkedin: https://www.linkedin.com/in/michelle-victora-a3a49851/
   - instagram: https://www.instagram.com/michellevictora/,
   - facebook: https://www.facebook.com/mvictora
+
+- name: Hersi Kopani
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 3
+  hours: 0
+  type: long-term
+  index: 95
+  location: Albania
+  position: Senior Software Engineer, Walgreens Boots Alliance
+  bio: |
+    I'm a seasoned Java developer with more than five years of experience specializing in the design and implementation of robust software solutions. Throughout my tenure at many companies, I've had the privilege of spearheading pivotal projects that have played integral roles in the company's expansion. These endeavors demanded not only technical proficiency but also keen problem-solving skills and effective risk management strategies.
+
+    In my role, I've collaborated closely with architects during the design, architecture, and implementation phases, ensuring that our deliverables consistently meet the highest standards and adhere to industry best practices. Moreover, I've cultivated strong relationships with senior stakeholders both internally and externally, leveraging these connections to gain valuable insights and contribute to the development of innovative solutions.
+
+    Beyond my professional endeavors, I'm deeply passionate about fostering diversity and inclusion in the tech industry, particularly in empowering women to pursue and excel in STEM fields. I firmly believe that a diverse workforce leads to greater innovation and success, and I actively support initiatives aimed at bridging the gender gap in technology.
+
+    In addition to my dedication to software development, I'm an avid tennis enthusiast, finding solace and rejuvenation on the court in my spare time. This passion for tennis not only provides a welcome escape from the demands of work but also serves as a source of inspiration and motivation, fueling my drive to continuously learn and grow both personally and professionally.
+
+    Overall, I bring a unique blend of technical expertise, leadership acumen, and a commitment to diversity and personal enrichment to every project and endeavor I undertake.
+  image: |
+    assets/images/mentors/hersi_kopani.jpeg
+  languages: English, Spanish
+  availability: []
+  skills:
+    experience: 5-7 Years
+    years: 7
+    mentee: |
+      As a mentor, I am seeking a mentee who possesses a genuine passion for coding and a sincere desire to leverage their technical skills to make a positive impact on society. I am eager to work with individuals who not only excel in coding but also exhibit a strong sense of social responsibility and an ambition to contribute to meaningful change through technology. I value enthusiasm, dedication, and a willingness to learn and grow, and I am excited to support a mentee who shares these qualities and aspirations.
+    areas:
+    - Backend Developer
+    - Frontend Developer
+    - Project Management
+    - DevOps
+    - Security
+    languages: Python, JavaScript, Kotlin, Scala, Java
+    focus:
+    - Grow from beginner to mid-level
+    - Switch from IC to management position
+    - Change specialisation within IT
+    - Switch career to IT
+    - Grow from mid-level to senior-level
+    extra: |
+      1. Coding Best Practices: Delve into techniques for writing clean, maintainable, and efficient code, including code organization, naming conventions, and code documentation.
+
+      2. Version Control Systems (VCS): Explore the fundamentals of using Git or other VCS tools effectively, including branching strategies, resolving merge conflicts, and collaborating with teams.
+
+      3. **Software Architecture Design:** Discuss principles of software architecture, such as microservices, monolithic architectures, and design patterns, and how to make informed architectural decisions.
+
+      4. Performance Optimization: Cover strategies for optimizing code performance, including profiling, identifying bottlenecks, and implementing optimizations without sacrificing code readability.
+
+      5. Security Practices in Development: Review common security vulnerabilities, such as injection attacks, cross-site scripting (XSS), and how to implement secure coding practices to mitigate risks.
+
+      6. Testing Strategies: Explore different testing methodologies, such as unit testing, integration testing, and end-to-end testing, and how to incorporate them into the development process effectively.
+
+      7. Continuous Integration/Continuous Deployment (CI/CD): Discuss the importance of CI/CD pipelines in software development, setting up automated builds, tests, and deployments, and integrating them into the development workflow.
+
+      8. Scalability and Performance :Examine techniques for designing scalable and high-performance systems, including load balancing, caching strategies, and horizontal/vertical scaling.
+
+      9. Cloud Computing Technologies :such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Serverless computing, and how to leverage cloud services effectively in development projects.
+
+      10. Emerging Technologies and Trends: Stay updated on the latest technologies and trends in the tech industry, such as artificial intelligence, machine learning, blockchain, and discuss their potential applications in software development projects.
+  network:
+  - linkedin: https://www.linkedin.com/in/hersi-kopani/

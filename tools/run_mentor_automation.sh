@@ -12,4 +12,4 @@ pip install -r requirements.txt
 # mode "a" for APPEND new mentors from the xlsx table to the existing mentors.yml
 # mode "w" for WRITE all mentors from the xlsx table to mentors.yml
 # CURRENT_PERIOD: use "default" or "long-term" ("long-term" if during long-term registration period)
-python3 automation_mentors.py samples/mentors.xlsx ../_data/mentors.yml default a 0
+python3 automation_mentors.py samples/mentors.xlsx ../_data/mentors.yml long-term w 0

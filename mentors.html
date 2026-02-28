@@ -106,8 +106,12 @@ image: /assets/images/default-seo-thumbnail.png
                                 {% endif %}
                                 <span>{% include icons/question-fill.svg %}</span>
                             </p>
+                            {% if mentor.num_mentee > 0 %}
+                            <p class="card-text content-justify"><label>Long-Term Mentee Slots</label>:
+                                {{mentor.num_mentee}}</p>
+                            {% endif %}
                             {% if mentor.hours > 0 %}
-                            <p class="card-text content-justify"><label>Hours available per month</label>:
+                            <p class="card-text content-justify"><label>Monthly Ad-Hoc Hours</label>:
                                 {{mentor.hours}}</p>
                             {% endif %}
                             <p class="card-text content-justify"><label>Ideal Mentee</label>: {{mentor.skills.mentee}}
