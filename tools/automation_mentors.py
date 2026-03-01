@@ -392,12 +392,8 @@ def get_all_mentors_in_yml_format(yml_file_path, xlsx_file_path, current_period,
         if not df_yml_row.empty:
             mentor = xlsx_to_yaml_parser(df_mentors.iloc[row],
                                         df_yml_row['Index'].item(),
-                                        current_period,
-                                        df_yml_row['Disabled'].item(),
-                                        df_yml_row['Sort'].item(),
-                                        df_yml_row['Matched'].item(),
-                                        df_yml_row['Num_mentee'].item())
-            logging.info(f"For {mentor_name} use index, disabled and sort from mentors.yml file")
+                                        current_period)
+            logging.info(f"For {mentor_name} use their existing index {df_yml_row['Index'].item()} from mentors.yml file")
         else:
             mentor = xlsx_to_yaml_parser(df_mentors.iloc[row],
                                         new_index,
