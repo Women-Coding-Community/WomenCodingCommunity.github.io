@@ -2085,3 +2085,22 @@
     path: https://www.meetup.com/women-coding-community/events/313257077/
     title: View meetup event
     target: _target
+
+- title: |
+    Java Bootcamp: The Grand Finale Hack Hour
+  description: |
+    The Women Coding Community (WCC) is wrapping up our Java Fullstack Bootcamp with a high-energy, hands-on Hack Hour session.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: FRI, MAR 13, 2026
+  expiration: "20260313"
+  host: ""
+  speaker: ""
+  time: 06:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/4/0/7/600_532957895.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313574241/
+    title: View meetup event
+    target: _target
