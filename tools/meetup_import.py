@@ -60,6 +60,7 @@ class WebLink(BaseModel):
 
 class MeetupEvents(BaseModel):
     title: str
+    uid: str
     description: str
     category_style: Optional[str] = "tech-talk"
     category_name: Optional[str] = "Tech Talk"
@@ -191,6 +192,7 @@ def get_upcoming_meetups_from_ical_file(ical_path: str) -> list[MeetupEvents]:
         date = date_obj.strftime("%a, %b %d, %Y").upper()
         time = event.begin.datetime.strftime("%I:%M %p %Z")
         url = event.url or ""
+        uid = event.uid
 
         full_description = (event.description or "").strip()
 
@@ -230,6 +232,7 @@ def get_upcoming_meetups_from_ical_file(ical_path: str) -> list[MeetupEvents]:
                 speaker=speaker,
                 image=Image(path=image_url, alt="WCC Meetup event image"),
                 link=WebLink(path=url),
+                uid=uid,
             )
         )
     return upcoming_meetups
@@ -241,20 +244,13 @@ def process_meetup_data(meetup: dict) -> dict:
     meetup["expiration"] = QuotedString(meetup["expiration"])
     meetup["host"] = QuotedString(meetup.get("host", ""))
     meetup["speaker"] = QuotedString(meetup.get("speaker", ""))
+    meetup["uid"] = to_quoted_str(meetup.get("uid", ""))
     if "image" in meetup:
         meetup["image"]["path"] = to_quoted_str(meetup["image"]["path"])
         meetup["image"]["alt"] = to_quoted_str(meetup["image"]["alt"])
     if "link" in meetup and "title" in meetup["link"]:
         meetup["link"]["title"] = to_quoted_str(meetup["link"]["title"])
     return meetup
-
-# --- Create a unique key for an event using "title - date" ----
-def get_event_key(event):
-    return f"{event.get('title').strip()} - {event.get('date')}"
-
-# --- Get a Set of keys for existing events ----
-def get_existing_event_keys(events):
-    return {get_event_key(e) for e in events}
 
 # --- Get existing events in yml file ----
 def load_existing_events_from_file(file_path):
@@ -278,6 +274,21 @@ def append_events_to_yaml_file(file_path, data):
         logging.error(f"Error appending new events to file '{file_path}': {e}")
         raise
 
+def get_event_key(event: dict) -> str:
+    return event.get("uid", "")
+
+def get_existing_event_keys(existing_events: list[dict]) -> set:
+    return {get_event_key(event) for event in existing_events}
+
+def get_added_events(upcoming_events: list[dict], existing_events: list[dict]) -> list[dict]:
+    existing_keys = get_existing_event_keys(existing_events)
+    added_events = []
+    for event in upcoming_events:
+        event_key = get_event_key(event)
+        if event_key not in existing_keys:
+            added_events.append(event)
+    return added_events
+
 # --- Script Start ---
 def fetch_events():
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -289,7 +300,7 @@ def fetch_events():
     upcoming_events = get_upcoming_meetups_from_ical_file(ical_file_path)
 
     existing_events = load_existing_events_from_file(yml_file_path)
-    existing_keys = get_existing_event_keys(existing_events)
+    existing_keys = {event.get("uid") for event in existing_events}
     added_events = []
     
     logging.info("Upcoming Meetup Events:")
@@ -297,7 +308,7 @@ def fetch_events():
         
         logging.info(f"{event.title}")
         formatted_event = process_meetup_data(event.model_dump())
-        event_key = get_event_key(formatted_event)
+        event_key = formatted_event["uid"]
 
         if event_key not in existing_keys:
             added_events.append(formatted_event)
