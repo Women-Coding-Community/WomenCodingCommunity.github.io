@@ -238,32 +238,35 @@ def get_upcoming_meetups_from_ical_file(ical_path: str) -> list[MeetupEvent]:
     return upcoming_meetups
 
 # --- Processing and output ---
+def build_event_uid(title: str, date: str) -> str:
+    normalized_title = "_".join((title or "").split()).replace(",", "").replace("&", "").lower()
+    normalized_date = "_".join((date or "").split()).replace(",", "").lower()
+    return f"{normalized_title}_{normalized_date}"
+
+
+def add_missing_uid_fields(events: list[dict]) -> list[dict]:
+    for event in events:
+        if not event.get("uid"):
+            event["uid"] = build_event_uid(event.get("title", ""), event.get("expiration", event.get("date", "")))
+    return events
+
 def process_meetup_data(meetup: MeetupEvent) -> dict:
     meetup["title"] = to_literal_str(meetup["title"])
     meetup["description"] = to_literal_str(meetup["description"])
     meetup["expiration"] = QuotedString(meetup["expiration"])
-    meetup["host"] = QuotedString(meetup["host"])
-    meetup["speaker"] = QuotedString(meetup["speaker"])
     meetup["uid"] = to_quoted_str(meetup["uid"])
+    try: 
+        meetup["host"] = QuotedString(meetup["host"])
+        meetup["speaker"] = QuotedString(meetup["speaker"])
+        
+    except KeyError:
+        pass # optional fields
     if meetup.get("image"):
         meetup["image"]["path"] = to_quoted_str(meetup["image"]["path"])
         meetup["image"]["alt"] = to_quoted_str(meetup["image"]["alt"])
     if meetup.get("link") and meetup["link"].get("title"):
         meetup["link"]["title"] = to_quoted_str(meetup["link"]["title"])
     return meetup
-
-
-def build_event_uid(title: str, date: str) -> str:
-    normalized_title = " ".join((title or "").split())
-    normalized_date = " ".join((date or "").split())
-    return f"{normalized_title} - {normalized_date}"
-
-
-def add_missing_uid_fields(events: list[dict]) -> list[dict]:
-    for event in events:
-        if not event.get("uid"):
-            event["uid"] = build_event_uid(event.get("title", ""), event.get("date", ""))
-    return events
 
 # --- Get existing events in yml file ----
 def load_existing_events_from_file(file_path):
@@ -293,25 +296,29 @@ def get_event_key(event: Union[MeetupEvent, dict]) -> str:
         return event.get("uid") or build_event_uid(event.get("title", ""), event.get("date", ""))
     return event.uid or build_event_uid(event.title, event.date)
 
-def get_existing_event_keys(existing_events: list[dict]) -> set:
-    return {get_event_key(event) for event in existing_events}
-
-def get_added_events(upcoming_events: list[MeetupEvent], existing_events: list[dict]) -> list[MeetupEvent]:
-    existing_keys = get_existing_event_keys(existing_events)
-    added_events = []
-
+def add_upcoming_events_to_existing_events(upcoming_events: list[MeetupEvent], existing_events: list[dict]) -> list[dict]:
+    all_events_dict = {get_event_key(event): event for event in existing_events}
+    added_event_count = 0
     logging.info("Upcoming Meetup Events:")
-    for event in upcoming_events:
-        logging.info(f"{event.title}")
-        formatted_event = process_meetup_data(event.model_dump())
-        event_key = get_event_key(formatted_event)
-
-        if event_key not in existing_keys:
-            added_events.append(formatted_event)
-            existing_keys.add(event_key)
-        else:
+    for future_event in upcoming_events:
+        event_key = get_event_key(future_event)
+        all_events_dict[event_key] = future_event.model_dump()
+        if event_key in all_events_dict:
             logging.info(f"{event_key} already exists in events.yml")
-    return added_events
+        else:
+            added_event_count += 1
+    logging.info(f"Added {added_event_count} new event(s) to events.yml.")
+    return list(all_events_dict.values())
+
+def write_all_events_to_yaml_file(file_path, all_events: list[dict]):
+    try:
+        with open(file_path, "w") as file:
+            for event in all_events:
+                file.write("\n")
+                file.write(yaml.dump([process_meetup_data(event)], sort_keys=False, width=2000))
+    except (IOError, yaml.YAMLError) as e:
+        logging.error(f"Error writing events to file '{file_path}': {e}")
+        raise
 
 # --- Script Start ---
 def fetch_events():
@@ -323,14 +330,9 @@ def fetch_events():
     logging.info("Params: iCal URL: %s yml: %s", ical_file_path, yml_file_path)
     upcoming_events = get_upcoming_meetups_from_ical_file(ical_file_path)
     existing_events = load_existing_events_from_file(yml_file_path)
-    added_events = get_added_events(upcoming_events, existing_events)
+    all_events = add_upcoming_events_to_existing_events(upcoming_events, existing_events)
 
-    if len(added_events) > 0:
-        append_events_to_yaml_file(yml_file_path, added_events)
-        logging.info(f"Added {len(added_events)} new event(s) to events.yml.")
-    else:
-        logging.info("No new events to add.")
-
+    write_all_events_to_yaml_file(yml_file_path, all_events)
 
 if __name__ == "__main__":
     fetch_events()
