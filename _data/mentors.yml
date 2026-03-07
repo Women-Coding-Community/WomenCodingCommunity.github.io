@@ -1570,3 +1570,214 @@
       10. Emerging Technologies and Trends: Stay updated on the latest technologies and trends in the tech industry, such as artificial intelligence, machine learning, blockchain, and discuss their potential applications in software development projects.
   network:
   - linkedin: https://www.linkedin.com/in/hersi-kopani/
+
+- name: Nataliia Zablotska
+  disabled: false
+  matched: false
+  sort: 10
+  num_mentee: 1
+  hours: 2
+  type: long-term
+  index: 96
+  location: 'London '
+  position: Software engineer, Bauer Media Outdoor UK
+  bio: |
+    Before I ever touched code, I spent five years managing projects. That experience didn't go away when I became a software engineer - it quietly became one of my biggest strengths.
+
+    Now I'm a software engineer at Bauer Media Outdoor in London, working with JavaScript/TypeScript. I remember how hard that first break feels to land, and I'm here to help women get through that door - and feel completely certain they belong on the other side.
+  image: |
+    assets/images/mentors/nataliia_zablotska.jpeg
+  languages: English, Ukranian
+  availability: []
+  skills:
+    experience: 1 -2 Years
+    years: 2
+    mentee: |
+      I'm looking for career switchers who are ready to put in the work. You're self-motivated and disciplined, but could use some structure, guidance, and support to land that first role in tech. If you're serious about making the switch and just need someone in your corner to help you get there, we'll be a great fit.
+    areas:
+    - Frontend Developer
+    - Fullstack Developer
+    - Project Management
+    languages: Javascript
+    focus:
+    - Switch career to IT
+    extra: |
+      Resume Review, Preparation for the Technical Interview, Finding opportunities to apply, Pair Programming 
+  network:
+  - linkedin: https://www.linkedin.com/in/nataliia-zablotska
+
+- name: Laura Cabantous-Taylor
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 2
+  hours: 4
+  type: both
+  index: 97
+  location: Stockbridge, UK
+  position: Software Engineer, BBC
+  bio: |
+    I'm a Backend engineer with 4+ years of experience building reliable, distributed backend services at scale. I work primarily with Scala, with additional experience in Java, Python and TypeScript, and strong hands-on experience with AWS.
+
+    I transitioned into Tech after 15 years in HR, giving me a unique perspective on career change, professional growth, and the challenges faced by those entering the industry later. I'm particularly passionate about supporting women and career switchers as they build confidence, prepare for interviews, and progress their engineering careers.
+  image: |
+    assets/images/mentors/laura_cabantous-taylor.jpeg
+  languages: English, French
+  availability: [5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 4-5 Years
+    years: 5
+    mentee: |
+      I'm particularly keen to support career switchers and early-career engineers, especially those transitioning into backend roles. I enjoy working with mentees who are motivated to grow their technical confidence, prepare for interviews, and navigate their first years in the industry.
+    areas:
+    - Backend Developer
+    - DevOps
+    - Distributed Systems
+    - Project Management
+    - QA
+    languages: Java, Python, Scala
+    focus:
+    - Grow from beginner to mid-level
+    - Switch career to IT
+    extra: |
+      - Resume review
+      - Interview preparation (technical, system design, behavioural)
+      - Career switching into Tech
+      - Backend engineering fundamentals
+      - AWS fundamentals
+      - Working with event-driven architectures
+      - Navigating your first role in Tech
+      - Practical use of AI/LLMs for productivity
+      - Imposter syndrome & confidence building in Tech
+      - Soft skills for software engineers
+      - Career growth from Junior to Mid-level
+  network:
+  - linkedin: https://www.linkedin.com/in/lauracabantoustaylor/
+
+- name: Wil Thomason
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 2
+  hours: 2
+  type: both
+  index: 98
+  location: Cambridge, MA, USA
+  position: Robotics Research Scientist, Robotics and AI Institute
+  bio: |
+    PhD Computer Science with focus on robotics; postdoc in robotics. https://scholar.google.com/citations?user=qsIX7joAAAAJ&hl=en&oi=ao for overview of publications. Mostly focused on TAMP, long-horizon manipulation, hardware acceleration, motion planning, and (more recently) robot learning for manipulation.
+  image: |
+    assets/images/mentors/wil_thomason.jpeg
+  languages: English
+  availability: [5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: |
+      People with questions about academic vs. industry research, or interest in becoming/growing as roboticists.
+    areas:
+    - Machine Learning
+    - Backend Developer
+    languages: Python, C++, Rust
+    focus:
+    - Grow from mid-level to senior-level
+    - Grow from beginner to mid-level
+    - Grow beyond senior level
+    - Change specialisation within IT
+    - Switch career to IT
+    extra: |
+      Software development, resume review, interview prep, robotics, machine learning
+  network:
+  - linkedin: https://www.linkedin.com/in/wbthomason/
+  - website: https://wbthomason.com/
+
+- name: Oluwasetemi Ojo
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 5
+  hours: 5
+  type: both
+  index: 99
+  location: 'Kingston, Jamaica '
+  position: Frontend Engineer Instructor, AltSchool Africa
+  bio: |
+    I'm a Senior Full Stack Engineer with 7+ years of experience specializing in React, TypeScript, and Node.js — with a deep passion for building production-grade frontend experiences and teaching others to do the same.
+    Over the course of my career, I've worked across startups and education platforms, shipping real products used by real people. One of my most significant achievements was leading a migration from Create React App to Vite at Fluna, which resulted in a 75% reduction in load times — a meaningful win for both users and the engineering team.
+    Beyond the code, I've mentored over 5,000 students at AltSchool Africa, helping shape the next generation of software engineers across the continent. Teaching isn't a side interest for me — it's core to how I work and who I am.
+  image: |
+    assets/images/mentors/oluwasetemi_ojo.jpeg
+  languages: English
+  availability: [5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: |
+      I'm looking for a mentee who is hungry to grow — someone who takes initiative, shows up consistently, and isn't afraid to ask questions or sit with hard problems. Ideally, they're early in their software engineering journey (0–2 years) and have already taken their first steps: written some code, built something small, and felt the itch to go deeper.
+    areas:
+    - Fullstack Developer
+    - Frontend Developer
+    - Backend Developer
+    languages: Javascript, Kotlin
+    focus:
+    - Grow from beginner to mid-level
+    - Switch career to IT
+    - Grow from mid-level to senior-level
+    - Grow beyond senior level
+    extra: |
+      Modern JavaScript & TypeScript (Advanced Patterns & Best Practices)
+      React & Frontend Architecture (Component Design, Performance, Scalability)
+      Full Stack Development (Node.js, APIs, Database Design)
+      Breaking into AI Engineering (Getting Started, Tools, Mindset Shift)
+      Building AI-Powered Web Experiences
+      Real-Time Frontend Development (WebSockets, SSE, Live Data)
+      Performance Optimization (Core Web Vitals, Bundling, Load Time)
+  network:
+  - linkedin: https://linkedin.com/in/setemiojo
+  - website: https://www.oluwasetemi.dev/links
+
+- name: Aruma Ezinne Jennifer
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 3
+  hours: 4
+  type: ad-hoc
+  index: 100
+  location: Nigeria
+  position: Product manager, MycoverGenius
+  bio: |+
+    Jennifer is a Product Manager at MyCoverGenius with over 3 years of experience building customer-centric digital products across insurtech and B2C platforms. She has led products from discovery to launch, working closely with engineering, design, QA, operations, and marketing teams to deliver solutions that drive real outcomes.
+
+    At MyCoverGenius, Jennifer has managed the end-to-end launch of the MyCover mobile app (iOS & Android), led the development of a cross-border health insurance platform for Nigerians in the diaspora, and partnered with engineers to optimize claims workflows, reducing processing time by 40%. Her work has contributed to increased user engagement, improved policy renewals, and stronger product-market fit 
+
+    With a background in product strategy, agile delivery, and data-driven decision-making, Jennifer brings a deeply cross-functional mindset to product building. She believes the best products emerge when PMs, developers, designers, DevOps, and security teams collaborate early, share context, and take collective ownership of outcomes.
+
+    Beyond her core role, Jennifer is active in tech and product communities, where she supports learning, mentorship, and conversations around building meaningful products and inclusive technology practices. 
+
+
+  image: |
+    assets/images/mentors/aruma_ezinne_jennifer.jpeg
+  languages: English
+  availability: [5, 8, 9, 10, 11]
+  skills:
+    experience: 2-4 Years
+    years: 4
+    mentee: |
+      Someone who is ready to learn, grow, and explore. Someone who doesn't make excuses but finds a way to be present and make things work. 
+    areas:
+    - Product Management
+    - Project Management
+    languages: ''
+    focus:
+    - Grow from beginner to mid-level
+    - Switch career to IT
+    - Change specialisation within IT
+    extra: |
+      Product thinking as a product manager
+      product manager's career roadmap 
+      Problem/solution validation while building product
+  network:
+  - linkedin: https://www.linkedin.com/in/ezinne-jennifer-aruma-951ba4186/
+  - instagram: 
+      https://www.instagram.com/ezynnedimma?igsh=MWg0dXN2cTNhcnh0cw%3D%3D&utm_source=qr
