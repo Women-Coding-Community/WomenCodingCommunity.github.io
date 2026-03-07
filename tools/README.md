@@ -73,6 +73,11 @@ Afterwards, run the command below:
 sh run_meetup_import.sh
 ```
 
+##### C2) Tests
+
+Run the tests by running the following command from within the virtual environment `python -m pytest test/meetup_import_test.py` to ensure the correct dependencies are installed.
+To activate the virtual environment: `source myenv\bin\activate`
+
 **Note:** 
 - New data will be appended to [`events.yml`](../_data/events.yml). Verify that all events details are formatted correctly, manually update if needed.
 
@@ -118,5 +123,6 @@ Hence, to run the GHA workflow, you only need to provide:
   - the month value (e.g 9 for September)
 
 For more information on the GC service account configurations, you can read the [README](blog_automation/README.md) in the blog automation folder.
+
 
 

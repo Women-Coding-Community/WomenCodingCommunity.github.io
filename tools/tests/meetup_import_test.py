@@ -5,6 +5,9 @@ import yaml
 from unittest import mock
 import requests
 from meetup_import import (
+    WebLink,
+    add_missing_uid_fields,
+    build_event_uid,
     clean_name,
     get_hosts_and_speakers,
     clean_description,
@@ -12,13 +15,15 @@ from meetup_import import (
     get_event_image_url,
     to_literal_str,
     to_quoted_str,
+    get_event_key,
     LiteralString,
     QuotedString,
     NoQuoteString,
-    get_event_key,
-    get_existing_event_keys,
+    MeetupEvent,
+    Image,
     load_existing_events_from_file,
-    process_meetup_data
+    process_meetup_data,
+    add_upcoming_events_to_existing_events,
 )
 
 def test_clean_name_variants():
@@ -88,14 +93,50 @@ def test_to_literal_and_quoted_str():
     assert isinstance(to_quoted_str('Hello!'), QuotedString)
     assert isinstance(to_quoted_str('Simple'), NoQuoteString)
 
-def test_get_event_key():
-    event = {'title': '  Talk ', 'date': 'JAN 1, 2025'}
-    assert get_event_key(event) == 'Talk - JAN 1, 2025'
+def test_build_event_uid_formats_title_and_date():
+    uid = build_event_uid(' Writing Club with Women Coding Community\n', 'THU, JUN 13, 2024')
+    assert uid == 'writing_club_with_women_coding_community_thu_jun_13_2024'
 
-def test_get_existing_event_keys():
-    events = [{'title': 'A', 'date': '1'}, {'title': 'B', 'date': '2'}]
-    keys = get_existing_event_keys(events)
-    assert len(keys) == 2 and all(isinstance(k, str) for k in keys)
+def test_add_missing_uid_fields_backfills_only_missing_uids():
+    events = [
+        {'title': 'Event A', 'date': 'JAN 1, 2025'},
+        {'title': 'Event B', 'date': 'JAN 2, 2025', 'uid': 'existing-uid'}
+    ]
+    updated = add_missing_uid_fields(events)
+    assert updated[0]['uid'] == 'event_a_jan_1_2025'
+    assert updated[1]['uid'] == 'existing-uid'
+
+def test_no_new_events_are_added_if_all_events_exist():
+    existing_events = [{'title': 'Talk', 'date': 'JAN 1, 2025', 'uid': 'talk-jan-1-2025', 'description': ''}]
+    existing_keys = [get_event_key(event) for event in existing_events]
+    new_event = MeetupEvent(title='Talk (date updated)', date='JAN 2, 2025', uid='talk-jan-1-2025', description='')
+    new_key = get_event_key(new_event)
+    assert new_key in existing_keys
+
+def test_add_upcoming_events_to_existing_events_removes_duplicates():
+    existing = [{'title': 'Talk', 'date': 'JAN 1, 2025', 'uid': 'event-1', 'description': ''}]
+    upcoming = [
+        MeetupEvent(title='Talk', date='JAN 1, 2025', uid='event-1', description=''),
+        MeetupEvent(title='Workshop', date='JAN 2, 2025', uid='event-2', description=''),
+        MeetupEvent(title='Panel', date='JAN 3, 2025', uid='event-3', description='')
+    ]
+    all_events = add_upcoming_events_to_existing_events(upcoming, existing)
+    assert len(all_events) == 3
+    assert([event['uid'] for event in all_events]==['event-1', 'event-2', 'event-3'])
+
+def test_get_added_events_with_empty_existing():
+    existing = []
+    upcoming = [MeetupEvent(title='Talk', date='JAN 1, 2025', uid='event-1', description='')]
+    all_events = add_upcoming_events_to_existing_events(upcoming, existing)
+    assert len(all_events) == 1
+    assert all_events[0]['uid'] == 'event-1'
+
+def test_get_added_events_with_empty_upcoming():
+    existing = [{'title': 'Talk', 'date': 'JAN 1, 2025', 'uid': 'event-1', 'description': ''}]
+    upcoming = []
+    all_events = add_upcoming_events_to_existing_events(upcoming, existing)
+    assert len(all_events) == 1
+    assert all_events[0]['uid'] == 'event-1'
 
 def test_load_existing_events_from_file(tmp_path):
     events = [{'title': 'E1', 'date': 'D1'}]
@@ -111,8 +152,10 @@ def test_load_existing_events_handles_missing_file():
 
 def test_process_meetup_data_fields():
     meetup = {
+        'uid': 'event-123',
         'title': 'Event\nTitle',
         'description': 'Desc\nline',
+        'date': 'JAN 1, 2025',
         'expiration': '20250101',
         'host': 'Host',
         'speaker': 'Speaker',
