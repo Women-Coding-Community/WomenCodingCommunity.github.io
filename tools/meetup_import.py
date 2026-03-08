@@ -62,7 +62,7 @@ class MeetupEvent(BaseModel):
     title: str
     description: str
     category_style: Optional[str] = "tech-talk"
-    uid: str = ""
+    uid: str
     category_name: Optional[str] = "Tech Talk"
     date: str
     expiration: Optional[str] = ""
@@ -238,16 +238,19 @@ def get_upcoming_meetups_from_ical_file(ical_path: str) -> list[MeetupEvent]:
     return upcoming_meetups
 
 # --- Processing and output ---
-def build_event_uid(title: str, date: str) -> str:
+def build_event_uid_from_title_and_date(title: str, date: str) -> str:
+    # This is only necessary for some past events that were missing UIDs
+    # Going forward we should have UIDs for all events from the iCal feed so this is just a fallback
+    # (uid is a required field in MeetupEvent)
     normalized_title = "_".join((title or "").split()).replace(",", "").replace("&", "").lower()
     normalized_date = "_".join((date or "").split()).replace(",", "").lower()
     return f"{normalized_title}_{normalized_date}"
 
 
-def add_missing_uid_fields(events: list[dict]) -> list[dict]:
+def add_missing_uid_fields_for_past_events(events: list[dict]) -> list[dict]:
     for event in events:
         if not event.get("uid"):
-            event["uid"] = build_event_uid(event.get("title", ""), event.get("expiration", event.get("date", "")))
+            event["uid"] = build_event_uid_from_title_and_date(event.get("title", ""), event.get("expiration", event.get("date", "")))
     return events
 
 def process_meetup_data(meetup: MeetupEvent) -> dict:
@@ -257,6 +260,7 @@ def process_meetup_data(meetup: MeetupEvent) -> dict:
     meetup["uid"] = to_quoted_str(meetup["uid"])
     meetup["host"] = QuotedString(meetup.get("host", ""))
     meetup["speaker"] = QuotedString(meetup.get("speaker", ""))
+        
     if meetup.get("image"):
         meetup["image"]["path"] = to_quoted_str(meetup["image"]["path"])
         meetup["image"]["alt"] = to_quoted_str(meetup["image"]["alt"])
@@ -269,7 +273,7 @@ def load_existing_events_from_file(file_path):
     try:
         with open(file_path, "r") as file:
             events = yaml.safe_load(file) or []
-            return add_missing_uid_fields(events)
+            return add_missing_uid_fields_for_past_events(events)
     except FileNotFoundError:
         return []
     except (IOError, yaml.YAMLError) as e:
@@ -289,8 +293,8 @@ def append_events_to_yaml_file(file_path, data):
 
 def get_event_key(event: Union[MeetupEvent, dict]) -> str:
     if isinstance(event, dict):
-        return event.get("uid") or build_event_uid(event.get("title", ""), event.get("date", ""))
-    return event.uid or build_event_uid(event.title, event.date)
+        return event.get("uid") or build_event_uid_from_title_and_date(event.get("title", ""), event.get("date", ""))
+    return event.uid
 
 def add_upcoming_events_to_existing_events(upcoming_events: list[MeetupEvent], existing_events: list[dict]) -> list[dict]:
     all_events_dict = {get_event_key(event): event for event in existing_events}

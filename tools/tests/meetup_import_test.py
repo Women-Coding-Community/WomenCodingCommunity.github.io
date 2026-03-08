@@ -6,13 +6,14 @@ from unittest import mock
 import requests
 from meetup_import import (
     WebLink,
-    add_missing_uid_fields,
-    build_event_uid,
+    add_missing_uid_fields_for_past_events,
+    build_event_uid_from_title_and_date,
     clean_name,
     get_hosts_and_speakers,
     clean_description,
     get_formatted_event_description,
     get_event_image_url,
+    get_upcoming_meetups_from_ical_file,
     to_literal_str,
     to_quoted_str,
     get_event_key,
@@ -94,7 +95,7 @@ def test_to_literal_and_quoted_str():
     assert isinstance(to_quoted_str('Simple'), NoQuoteString)
 
 def test_build_event_uid_formats_title_and_date():
-    uid = build_event_uid(' Writing Club with Women Coding Community\n', 'THU, JUN 13, 2024')
+    uid = build_event_uid_from_title_and_date(' Writing Club with Women Coding Community\n', 'THU, JUN 13, 2024')
     assert uid == 'writing_club_with_women_coding_community_thu_jun_13_2024'
 
 def test_add_missing_uid_fields_backfills_only_missing_uids():
@@ -102,7 +103,7 @@ def test_add_missing_uid_fields_backfills_only_missing_uids():
         {'title': 'Event A', 'date': 'JAN 1, 2025'},
         {'title': 'Event B', 'date': 'JAN 2, 2025', 'uid': 'existing-uid'}
     ]
-    updated = add_missing_uid_fields(events)
+    updated = add_missing_uid_fields_for_past_events(events)
     assert updated[0]['uid'] == 'event_a_jan_1_2025'
     assert updated[1]['uid'] == 'existing-uid'
 
@@ -113,10 +114,10 @@ def test_no_new_events_are_added_if_all_events_exist():
     new_key = get_event_key(new_event)
     assert new_key in existing_keys
 
-def test_add_upcoming_events_to_existing_events_removes_duplicates():
+def test_add_upcoming_events_to_existing_events_removes_duplicates_even_with_changed_title():
     existing = [{'title': 'Talk', 'date': 'JAN 1, 2025', 'uid': 'event-1', 'description': ''}]
     upcoming = [
-        MeetupEvent(title='Talk', date='JAN 1, 2025', uid='event-1', description=''),
+        MeetupEvent(title='Talk (updated)', date='JAN 2, 2025', uid='event-1', description=''),
         MeetupEvent(title='Workshop', date='JAN 2, 2025', uid='event-2', description=''),
         MeetupEvent(title='Panel', date='JAN 3, 2025', uid='event-3', description='')
     ]
