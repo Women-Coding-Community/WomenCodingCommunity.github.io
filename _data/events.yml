@@ -2160,3 +2160,41 @@
     path: https://www.meetup.com/women-coding-community/events/313672586/
     title: View meetup event
     target: _target
+
+- title: |
+    Vibe Coding in London: Java, AI Agents & MCP Hands-On
+  description: |
+    The Women Coding Community (WCC) is celebrating International Women's Week with a high-energy, hands-on Vibe Coding in London.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: FRI, MAR 13, 2026
+  expiration: "20260313"
+  host: ""
+  speaker: ""
+  time: 06:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/7/d/6/c/600_533072108.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313681243/
+    title: View meetup event
+    target: _target
+
+- title: |
+    From Idea to Execution: The Clarity of Building With Purpose
+  description: |
+    From Idea to Execution How to define real user problems, prioritize effectively, and lead cross-functional teams to deliver meaningful results.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, APR 01, 2026
+  expiration: "20260401"
+  host: ""
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/7/d/6/d/600_533072109.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313608754/
+    title: View meetup event
+    target: _target
