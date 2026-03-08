@@ -255,12 +255,8 @@ def process_meetup_data(meetup: MeetupEvent) -> dict:
     meetup["description"] = to_literal_str(meetup["description"])
     meetup["expiration"] = QuotedString(meetup["expiration"])
     meetup["uid"] = to_quoted_str(meetup["uid"])
-    try: 
-        meetup["host"] = QuotedString(meetup["host"])
-        meetup["speaker"] = QuotedString(meetup["speaker"])
-        
-    except KeyError:
-        pass # optional fields
+    meetup["host"] = QuotedString(meetup.get("host", ""))
+    meetup["speaker"] = QuotedString(meetup.get("speaker", ""))
     if meetup.get("image"):
         meetup["image"]["path"] = to_quoted_str(meetup["image"]["path"])
         meetup["image"]["alt"] = to_quoted_str(meetup["image"]["alt"])
