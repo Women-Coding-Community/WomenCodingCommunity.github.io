@@ -65,7 +65,7 @@ class MeetupEvent(BaseModel):
     uid: str
     category_name: Optional[str] = "Tech Talk"
     date: str
-    expiration: Optional[str] = ""
+    expiration: str = ""
     host: Optional[str] = ""
     speaker: Optional[str] = ""
     time: Optional[str] = ""
@@ -297,18 +297,30 @@ def get_event_key(event: Union[MeetupEvent, dict]) -> str:
     return event.uid
 
 def add_upcoming_events_to_existing_events(upcoming_events: list[MeetupEvent], existing_events: list[dict]) -> list[dict]:
+    from datetime import datetime
+
+    # Merge all events by UID (upcoming overwrites existing)
     all_events_dict = {get_event_key(event): event for event in existing_events}
-    added_event_count = 0
-    logging.info("Upcoming Meetup Events:")
     for future_event in upcoming_events:
         event_key = get_event_key(future_event)
         all_events_dict[event_key] = future_event.model_dump()
-        if event_key in all_events_dict:
-            logging.info(f"{event_key} already exists in events.yml")
-        else:
-            added_event_count += 1
-    logging.info(f"Added {added_event_count} new event(s) to events.yml.")
-    return list(all_events_dict.values())
+
+    all_events = list(all_events_dict.values())
+
+    # Split into past and future events based on expiration
+    today = datetime.now().strftime("%Y%m%d")
+    def is_future(event):
+        exp = event.get("expiration", "") if isinstance(event, dict) else getattr(event, "expiration", "")
+        return exp >= today
+
+    past_events = [e for e in all_events if not is_future(e)]
+    future_events = [e for e in all_events if is_future(e)]
+
+    # Sort only the future events by expiration - past events will already be sorted by date
+    future_events_sorted = sorted(future_events, key=lambda e: e.get("expiration", "") if isinstance(e, dict) else getattr(e, "expiration", ""))
+
+    # Concatenate past (already sorted) + sorted future
+    return past_events + future_events_sorted
 
 def write_all_events_to_yaml_file(file_path, all_events: list[dict]):
     try:

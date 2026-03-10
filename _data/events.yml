@@ -2104,7 +2104,7 @@
 - title: |
     Java Bootcamp: The Grand Finale Hack Hour
   description: |
-    The Women Coding Community (WCC) is wrapping up our Java Bootcamp with a high-energy, hands-on Hack Hour session.
+    The Women Coding Community (WCC) is wrapping up our Java Fullstack Bootcamp with a high-energy, hands-on Hack Hour session.
   category_style: tech-talk
   uid: "event_313574241@meetup.com"
   category_name: Tech Talk
@@ -2118,6 +2118,26 @@
     alt: WCC Meetup event image
   link:
     path: https://www.meetup.com/women-coding-community/events/313574241/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Vibe Coding in London: Java, AI Agents & MCP Hands-On
+  description: |
+    The Women Coding Community (WCC) is celebrating International Women's Week with a high-energy, hands-on Vibe Coding in London.
+  category_style: tech-talk
+  uid: "event_313681243@meetup.com"
+  category_name: Tech Talk
+  date: FRI, MAR 13, 2026
+  expiration: "20260313"
+  host: ""
+  speaker: ""
+  time: 06:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/7/d/6/c/600_533072108.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313681243/
     title: View meetup event
     target: _target
 
@@ -2160,8 +2180,27 @@
     title: View meetup event
     target: _target
 
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
+  category_style: tech-talk
+  uid: "event_313672586@meetup.com"
+  category_name: Tech Talk
+  date: TUE, MAR 24, 2026
+  expiration: "20260324"
+  host: "Irina Kamalova"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/b/1/600_533063985.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313672586/
+    title: View meetup event
+    target: _target
+
 - title: |
-    March Book Club: AI Engineering pt 2 and Showcase
+    March Book Club: AI Engineering part 2 and Showcase
   description: |
     Women Coding Community Book Club!  March 2026 Book: AI Engineering by Chip Huyen (continued) With a small showcase of AI engineering projects by WCC members   If you would like to have a say in our next book club read, do join our channel progbookclub.
   category_style: book-club
@@ -2181,9 +2220,9 @@
     target: _target
 
 - title: |
-    From Idea to Execution: The Clarity of Building With Purpose
+    From Idea to Impact: Building Products That Actually Matter
   description: |
-    From Idea to Execution How to define real user problems, prioritize effectively, and lead cross-functional teams to deliver meaningful results.
+    From Idea to Impact: Building Products That Actually Matter How to define real user problems, prioritize effectively, and lead cross-functional teams to deliver meaningful results.
   category_style: tech-talk
   uid: "event_313608754@meetup.com"
   category_name: Tech Talk
@@ -2197,44 +2236,5 @@
     alt: WCC Meetup event image
   link:
     path: https://www.meetup.com/women-coding-community/events/313608754/
-    title: View meetup event
-    target: _target
-
-- title: |
-    Vibe Coding in London: Java, AI Agents & MCP Hands-On
-  description: |
-    The Women Coding Community (WCC) is celebrating International Women's Week with a high-energy, hands-on Vibe Coding in London.
-  category_style: tech-talk
-  uid: "event_313681243@meetup.com"
-  category_name: Tech Talk
-  date: FRI, MAR 13, 2026
-  expiration: "20260313"
-  host: ""
-  speaker: ""
-  time: 06:00 PM GMT
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/7/d/6/c/600_533072108.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/313681243/
-    title: View meetup event
-    target: _target
-
-- title: Design Patterns Course
-  description: |
-    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
-  category_style: tech-talk
-  uid: "event_313672586@meetup.com"
-  category_name: Tech Talk
-  date: TUE, MAR 24, 2026
-  expiration: "20260324"
-  host: "Irina Kamalova"
-  speaker: ""
-  time: 07:00 PM GMT
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/5/d/b/1/600_533063985.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/313672586/
     title: View meetup event
     target: _target
