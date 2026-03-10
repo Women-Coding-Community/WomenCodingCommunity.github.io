@@ -17,6 +17,7 @@
     title: View meetup event
     target: _blank
   uid: "book_club:_the_pragmatic_programmer_20240530"
+  speaker: ""
 
 - title: |
     Getting Started with IaC - An Intro to Terraform
@@ -26,7 +27,7 @@
   category_name: Tech Talk
   date: THU, JUN 6, 2024
   expiration: "20240606"
-  speaker: Sonali Goel, Senior/Lead Engineer
+  speaker: "Sonali Goel, Senior/Lead Engineer"
   time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-tech-talk-060624.jpeg"
@@ -39,6 +40,7 @@
     presentation: /assets/resources/events/tech-talk-060624.pdf
     youtube: https://youtu.be/Kc5hIYvqiUg
   uid: "getting_started_with_iac_-_an_intro_to_terraform_20240606"
+  host: ""
 
 - title: |
     Writing Club with Women Coding Community
@@ -58,6 +60,7 @@
     title: View meetup event
     target: _blank
   uid: "writing_club_with_women_coding_community_20240613"
+  speaker: ""
 
 - title: |
     Polars: A Powerful Alternative To Pandas
@@ -68,7 +71,7 @@
   category_name: Tech Talk
   date: WED, JUL 3, 2024
   expiration: "20240703"
-  speaker: Lasha Dolenjashvili, Data Solutions Architect
+  speaker: "Lasha Dolenjashvili, Data Solutions Architect"
   time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-tech-talk-030724.jpg"
@@ -78,6 +81,7 @@
     title: View meetup event
     target: _blank
   uid: "polars:_a_powerful_alternative_to_pandas_20240703"
+  host: ""
 
 - title: |
     Coding Club with Women Coding Community
@@ -97,6 +101,7 @@
     title: View meetup event
     target: _blank
   uid: "coding_club_with_women_coding_community_20240704"
+  speaker: ""
 
 - title: |
     Writing Club with Women Coding Community
@@ -116,6 +121,7 @@
     title: View meetup event
     target: _blank
   uid: "writing_club_with_women_coding_community_20240711"
+  speaker: ""
 
 - title: |
     Getting started with FaaS: An introduction to AWS Lambda
@@ -126,7 +132,7 @@
   category_name: Tech Talk
   date: WED, JUL 17, 2024
   expiration: "20240717"
-  speaker: Madhura Chaganty, Engineering Manager
+  speaker: "Madhura Chaganty, Engineering Manager"
   time: 7:00 PM to 9:00 PM BST
   image:
     path: "/assets/images/events/event-tech-talk-170724.jpeg"
@@ -139,6 +145,7 @@
     presentation: /assets/resources/events/tech-talk-170724.pdf
     youtube: https://youtu.be/jD-53z8rn0A
   uid: "getting_started_with_faas:_an_introduction_to_aws_lambda_20240717"
+  host: ""
 
 - title: |
     Building Confidence in the Workplace
@@ -148,7 +155,7 @@
   category_name: Career Talk
   date: TUE, JUL 23, 2024
   expiration: "20240723"
-  speaker: Nadia Edwards-Dashti, Co-Founder of Harrington Starr Group
+  speaker: "Nadia Edwards-Dashti, Co-Founder of Harrington Starr Group"
   time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-career-talk-130724.jpeg"
@@ -160,6 +167,7 @@
   resources:
     youtube: https://youtu.be/lbO_icgJGME
   uid: "building_confidence_in_the_workplace_20240723"
+  host: ""
 
 - title: |
     Leveraging FaaS: Hands-on Workshop with AWS Lambda Using NodeJS
@@ -170,7 +178,7 @@
   category_name: Tech Talk
   date: WED, JUL 31, 2024
   expiration: "20240731"
-  speaker: Rasim Sen, Fullstack Developer/Cloud Architect
+  speaker: "Rasim Sen, Fullstack Developer/Cloud Architect"
   time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-tech-talk-170731.jpeg"
@@ -180,6 +188,7 @@
     title: View meetup event
     target: _blank
   uid: "leveraging_faas:_hands-on_workshop_with_aws_lambda_using_nodejs_20240731"
+  host: ""
 
 - title: |
     Kedro: An open-source project for building maintainable data science pipelines
@@ -189,7 +198,7 @@
   category_name: Tech Talk
   date: TUE, AUG 13, 2024
   expiration: "20240813"
-  speaker: Merel Theisen, Principal Software Engineer
+  speaker: "Merel Theisen, Principal Software Engineer"
   time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-tech-talk-20240813.png"
@@ -199,6 +208,7 @@
     title: View meetup event
     target: _blank
   uid: "kedro:_an_open-source_project_for_building_maintainable_data_science_pipelines_20240813"
+  host: ""
 
 - title: |
     Living on the Edge: Understanding Edge Computing on AWS
@@ -208,7 +218,7 @@
   category_name: Tech Talk
   date: TUE, AUG 21, 2024
   expiration: "20240821"
-  speaker: Liliia Rafikova, Software Engineer
+  speaker: "Liliia Rafikova, Software Engineer"
   time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-tech-talk-20240821.png"
@@ -218,6 +228,7 @@
     title: View meetup event
     target: _blank
   uid: "living_on_the_edge:_understanding_edge_computing_on_aws_20240821"
+  host: ""
 
 - title: Volunteer with Women Coding Community
   description: |
@@ -226,7 +237,7 @@
   category_name: Volunteer
   date: WED, SEP 04, 2024
   expiration: "20240904"
-  speaker: Sonali Goel Senior/Lead Engineer at Yoox-Net-a-porter
+  speaker: "Sonali Goel Senior/Lead Engineer at Yoox-Net-a-porter"
   time: 7:00 PM to 8:00 PM BST
   image:
     path: "/assets/images/events/event-volunteer-20240904.png"
@@ -236,6 +247,7 @@
     title: View meetup event
     target: _blank
   uid: "volunteer_with_women_coding_community_20240904"
+  host: ""
 
 - title: |
     Coding Club with Women Coding Community
@@ -295,6 +307,7 @@
     title: View meetup event
     target: _target
   uid: "writing_club_with_women_coding_community_-_learn_about_infographics!_20240912"
+  speaker: ""
 
 - title: |
     TDD/Unit Testing using Node.js and Jest
@@ -2091,7 +2104,7 @@
 - title: |
     Java Bootcamp: The Grand Finale Hack Hour
   description: |
-    The Women Coding Community (WCC) is wrapping up our Java Fullstack Bootcamp with a high-energy, hands-on Hack Hour session.
+    The Women Coding Community (WCC) is wrapping up our Java Bootcamp with a high-energy, hands-on Hack Hour session.
   category_style: tech-talk
   uid: "event_313574241@meetup.com"
   category_name: Tech Talk
@@ -2148,7 +2161,7 @@
     target: _target
 
 - title: |
-    March Book Club: AI Engineering part 2 and Showcase
+    March Book Club: AI Engineering pt 2 and Showcase
   description: |
     Women Coding Community Book Club!  March 2026 Book: AI Engineering by Chip Huyen (continued) With a small showcase of AI engineering projects by WCC members   If you would like to have a say in our next book club read, do join our channel progbookclub.
   category_style: book-club
@@ -2168,9 +2181,9 @@
     target: _target
 
 - title: |
-    From Idea to Impact: Building Products That Actually Matter
+    From Idea to Execution: The Clarity of Building With Purpose
   description: |
-    From Idea to Impact: Building Products That Actually Matter How to define real user problems, prioritize effectively, and lead cross-functional teams to deliver meaningful results.
+    From Idea to Execution How to define real user problems, prioritize effectively, and lead cross-functional teams to deliver meaningful results.
   category_style: tech-talk
   uid: "event_313608754@meetup.com"
   category_name: Tech Talk
@@ -2184,5 +2197,44 @@
     alt: WCC Meetup event image
   link:
     path: https://www.meetup.com/women-coding-community/events/313608754/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Vibe Coding in London: Java, AI Agents & MCP Hands-On
+  description: |
+    The Women Coding Community (WCC) is celebrating International Women's Week with a high-energy, hands-on Vibe Coding in London.
+  category_style: tech-talk
+  uid: "event_313681243@meetup.com"
+  category_name: Tech Talk
+  date: FRI, MAR 13, 2026
+  expiration: "20260313"
+  host: ""
+  speaker: ""
+  time: 06:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/7/d/6/c/600_533072108.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313681243/
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
+  category_style: tech-talk
+  uid: "event_313672586@meetup.com"
+  category_name: Tech Talk
+  date: TUE, MAR 24, 2026
+  expiration: "20260324"
+  host: "Irina Kamalova"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/b/1/600_533063985.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313672586/
     title: View meetup event
     target: _target
