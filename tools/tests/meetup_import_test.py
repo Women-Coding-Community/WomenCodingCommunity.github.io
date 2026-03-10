@@ -127,13 +127,13 @@ def test_add_upcoming_events_to_existing_events_removes_duplicates_even_with_cha
 
 def test_get_added_events_with_empty_existing():
     existing = []
-    upcoming = [MeetupEvent(title='Talk', date='JAN 1, 2025', uid='event-1', description='')]
+    upcoming = [MeetupEvent(title='Talk', date='JAN 1, 2025', expiration='20250101', uid='event-1', description='')]
     all_events = add_upcoming_events_to_existing_events(upcoming, existing)
     assert len(all_events) == 1
     assert all_events[0]['uid'] == 'event-1'
 
 def test_get_added_events_with_empty_upcoming():
-    existing = [{'title': 'Talk', 'date': 'JAN 1, 2025', 'uid': 'event-1', 'description': ''}]
+    existing = [{'title': 'Talk', 'date': 'JAN 1, 2025', 'expiration': '20250101', 'uid': 'event-1', 'description': ''}]
     upcoming = []
     all_events = add_upcoming_events_to_existing_events(upcoming, existing)
     assert len(all_events) == 1
@@ -168,3 +168,14 @@ def test_process_meetup_data_fields():
     assert isinstance(result['expiration'], QuotedString)
     assert isinstance(result['image']['path'], (QuotedString, NoQuoteString))
     assert isinstance(result['link']['title'], (QuotedString, NoQuoteString))
+
+def test_events_are_sorted_by_date_after_adding_upcoming():
+    existing = [
+        {'title': 'Event A', 'date': 'APR 1, 2026', 'expiration': '20260401', 'uid': 'event-a', 'description': ''},
+    ]
+    upcoming = [
+        MeetupEvent(title='Event B', date='MAR 13, 2025', expiration='20250313', uid='event-b', description='')
+    ]
+    all_events = add_upcoming_events_to_existing_events(upcoming, existing)
+    assert len(all_events) == 2
+    assert all_events[0]['uid'] == 'event-b'  # Event B is earlier than Event A
