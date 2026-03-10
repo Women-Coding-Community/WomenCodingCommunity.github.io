@@ -305,7 +305,7 @@ def add_upcoming_events_to_existing_events(upcoming_events: list[MeetupEvent], e
 
     all_events = list(all_events_dict.values())
 
-    # Split into past and future events based on expiration
+    # Split into past and future events based on expiration - note that some existing_events might be in the future
     today = datetime.now().strftime("%Y%m%d")
     def is_future(event):
         exp = event.get("expiration", "") if isinstance(event, dict) else getattr(event, "expiration", "")
