@@ -180,12 +180,9 @@ def get_upcoming_meetups_from_ical_file(ical_path: str) -> list[MeetupEvent]:
     with open(ical_path, "r", encoding="utf-8") as f:
         calendar = Calendar(f.read())
 
-    # sort events to ensure order by event date
-    sorted_events = sorted(calendar.events, key=lambda e: e.begin)
-
     upcoming_meetups: list[MeetupEvent] = []
 
-    for event in sorted_events:
+    for event in calendar.events:
         title = event.name
         date_obj = event.begin.datetime
         expiration = date_obj.strftime("%Y%m%d")
@@ -297,6 +294,7 @@ def get_event_key(event: Union[MeetupEvent, dict]) -> str:
     return event.uid
 
 def add_upcoming_events_to_existing_events(upcoming_events: list[MeetupEvent], existing_events: list[dict]) -> list[dict]:
+    """Merges upcoming events with existing events, removes duplicates based on UID, and sorts by expiration date (upcoming events first)."""
     from datetime import datetime
 
     # Merge all events by UID (upcoming overwrites existing)
