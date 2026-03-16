@@ -5,45 +5,45 @@
   index: 1
   subfolderitems:
     - page: Overview
-      url: mentorship
+      url: https://mentorship.womencodingcommunity.com/mentorship
       breadcrumbs:
         - name: Mentorship
-          link:
+          link: https://mentorship.womencodingcommunity.com/mentorship
     - page: Mentors
-      url: mentors
+      url: https://mentorship.womencodingcommunity.com/mentorship/mentors
       breadcrumbs:
         - name: Mentorship
-          link: mentorship
+          link: https://mentorship.womencodingcommunity.com/mentorship
     - page: Study Groups
-      url: programme-study-group
+      url: https://mentorship.womencodingcommunity.com/mentorship/study-groups
       breadcrumbs:
         - name: Mentorship
-          link: mentorship
+          link: https://mentorship.womencodingcommunity.com/mentorship
     - page: Resources
-      url: mentorship-resources
+      url: https://mentorship.womencodingcommunity.com/mentorship/resources
       breadcrumbs:
         - name: Mentorship
-          link: mentorship
+          link: https://mentorship.womencodingcommunity.com/mentorship
     - page: Code of Conduct
-      url: mentorship-code-of-conduct
+      url: https://mentorship.womencodingcommunity.com/mentorship/code-of-conduct
       breadcrumbs:
         - name: Mentorship
-          link: mentorship
+          link: https://mentorship.womencodingcommunity.com/mentorship
     - page: FAQ
-      url: mentorship-faq
+      url: https://mentorship.womencodingcommunity.com/mentorship/faqs
       breadcrumbs:
         - name: Mentorship
-          link: mentorship
+          link: https://mentorship.womencodingcommunity.com/mentorship
     - page: Long-Term Timeline
-      url: mentorship-long-term-timeline
+      url: https://mentorship.womencodingcommunity.com/mentorship/long-term-timeline
       breadcrumbs:
-      - name: Mentorship
-        link: mentorship
+        - name: Mentorship
+          link: https://mentorship.womencodingcommunity.com/mentorship
     - page: Ad-hoc Timeline
-      url: mentorship-adhoc-timeline
+      url: https://mentorship.womencodingcommunity.com/mentorship/ad-hoc-timeline
       breadcrumbs:
-      - name: Mentorship
-        link: mentorship    
+        - name: Mentorship
+          link: https://mentorship.womencodingcommunity.com/mentorship
 - name: Programmes
   index: 2
   subfolderitems:
