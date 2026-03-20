@@ -2102,6 +2102,7 @@
     target: _target
     resources:
       youtube: https://youtu.be/K6Vr4oMHuEI
+      presentation: https://docs.google.com/presentation/d/1qIiJUr6Lr9io3n3EbFFPiGMpOYdIrM6H/edit?usp=sharing&ouid=106396054396839804673&rtpof=true&sd=true
 
 - title: |
     Java Bootcamp: The Grand Finale Hack Hour
