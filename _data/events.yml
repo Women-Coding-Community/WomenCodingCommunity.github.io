@@ -2257,3 +2257,22 @@
     path: https://www.meetup.com/women-coding-community/events/313778435/
     title: View meetup event
     target: _target
+
+- title: "Capacity Planning \u2013 The Math in System Design"
+  description: |
+    Do you want to design systems that handle real-world loads without breaking a sweat? Do you feel unsure about how mathematical principles can guide your architectural decisions?  This event is designed to demystify the critical role of capacity planning in system design  through real conversations with speakers who have lived experience and professional expertise.
+  category_style: tech-talk
+  uid: "event_313858697@meetup.com"
+  category_name: Tech Talk
+  date: SAT, APR 18, 2026
+  expiration: "20260418"
+  host: "Silke Nodwell"
+  speaker: "Amita Singh"
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/8/1/600_533282945.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313858697/
+    title: View meetup event
+    target: _target
