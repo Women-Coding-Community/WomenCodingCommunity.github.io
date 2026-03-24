@@ -2103,9 +2103,7 @@
     resources:
       presentation:
         - https://docs.google.com/presentation/d/1qIiJUr6Lr9io3n3EbFFPiGMpOYdIrM6H/edit?slide=id.p1#slide=id.p1
-        - https://docs.google.com/presentation/d/1GzJ5OlceIw-fZt6ptiQQY1OgiXxJWv_LKSTZKgBE3uQ/edit?slide=id.p1#slide=id.p1
       youtube: https://youtu.be/K6Vr4oMHuEI
-
 
 - title: |
     Java Bootcamp: The Grand Finale Hack Hour
@@ -2127,6 +2125,8 @@
     title: View meetup event
     target: _target
     resources:
+      presentation:
+        - https://docs.google.com/presentation/d/1GzJ5OlceIw-fZt6ptiQQY1OgiXxJWv_LKSTZKgBE3uQ/edit?slide=id.p1#slide=id.p1
       youtube: https://www.youtube.com/watch?v=x7Fz8BvZb_Q
 
 - title: |
