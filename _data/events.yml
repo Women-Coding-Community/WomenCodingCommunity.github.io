@@ -2228,9 +2228,9 @@
     target: _target
 
 - title: |
-    From Idea to Impact: Building Products That Actually Matter
+    From Idea to Execution: The Clarity of Building With Purpose
   description: |
-    From Idea to Impact: Building Products That Actually Matter How to define real user problems, prioritize effectively, and lead cross-functional teams to deliver meaningful results.
+    From Idea to Execution How to define real user problems, prioritize effectively, and lead cross-functional teams to deliver meaningful results.
   category_style: tech-talk
   uid: "event_313608754@meetup.com"
   category_name: Tech Talk
@@ -2244,5 +2244,62 @@
     alt: WCC Meetup event image
   link:
     path: https://www.meetup.com/women-coding-community/events/313608754/
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
+  category_style: tech-talk
+  uid: "event_314059178@meetup.com"
+  category_name: Tech Talk
+  date: TUE, APR 14, 2026
+  expiration: "20260414"
+  host: "Irina Kamalova"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/e/8/600_533484040.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314059178/
+    title: View meetup event
+    target: _target
+
+- title: "Capacity Planning \u2013 The Math in System Design"
+  description: |
+    Do you want to design systems that handle real-world loads without breaking a sweat? Do you feel unsure about how mathematical principles can guide your architectural decisions?  This event is designed to demystify the critical role of capacity planning in system design  through real conversations with speakers who have lived experience and professional expertise.
+  category_style: tech-talk
+  uid: "event_313858697@meetup.com"
+  category_name: Tech Talk
+  date: SAT, APR 18, 2026
+  expiration: "20260418"
+  host: "Silke Nodwell"
+  speaker: "Amita Singh"
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/6/8/5/8/600_533426712.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313858697/
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
+  category_style: tech-talk
+  uid: "event_314060351@meetup.com"
+  category_name: Tech Talk
+  date: TUE, APR 21, 2026
+  expiration: "20260421"
+  host: "Irina Kamalova"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/f/7/600_533484055.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314060351/
     title: View meetup event
     target: _target
