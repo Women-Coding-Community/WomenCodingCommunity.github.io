@@ -1882,3 +1882,80 @@
   - linkedin: https://www.linkedin.com/in/ezinne-jennifer-aruma-951ba4186/
   - instagram: 
       https://www.instagram.com/ezynnedimma?igsh=MWg0dXN2cTNhcnh0cw%3D%3D&utm_source=qr
+
+- name: Andrew Kozlov
+  disabled: false
+  matched: false
+  sort: 500
+  num_mentee: 3
+  hours: 5
+  type: both
+  index: 101
+  location: Amsterdam, Netherlands
+  position: Principal Engineer, EndGame, ex-JetBrains
+  bio: |
+    Engineering Manager with 10 years of experience in software development and team leadership, including 2+ years in leadership roles. I began my career as a Java/Scala developer, progressively advancing through the Senior+ developer roles to project lead positions, currently managing cross-functional teams and overseeing strategic technical initiatives. Proven track record of optimizing team workflows resulting in improved product delivery. In addition to development, my core value is enhancing other people’s productivity through transparency and appropriate tooling.
+  image: |
+    assets/images/mentors/andrew_kozlov.jpeg
+  languages: English, Russian
+  availability: [5, 6, 7, 8, 9, 10, 11]
+  skills:
+    experience: 10-15 Years
+    years: 15
+    mentee: |
+      Curious. Motivated. Self-disciplined.
+    areas:
+    - Engineering management
+    - Engineering management
+    - Backend Developer
+    - Backend Developer
+    - Project Management
+    languages: Kotlin, Kotlin, Java, Java, Scala
+    focus:
+    - Grow beyond senior level
+    - Switch from IC to management position
+    - Grow beyond senior level
+    - Switch from IC to management position
+    - Grow from mid-level to senior-level
+    extra: |
+      Software engineering; team organization and management; process improvements and refactoring
+  network:
+  - linkedin: www.linkedin.com/in/andrew-d-kozlov
+
+- name: Kirill Sokolov
+  disabled: false
+  matched: false
+  sort: 10
+  num_mentee: 2
+  hours: 0
+  type: long-term
+  index: 102
+  location: London
+  position: Senior software engineer, Meta
+  bio: |
+    Kotlin, Java, Android, Spring, Full Stack, SQL, SRE, System design, Claude, AI
+  image: |
+    assets/images/mentors/kirill_sokolov.jpeg
+  languages: English, Russian
+  availability: []
+  skills:
+    experience: 7-10 Years
+    years: 10
+    mentee: |
+      I can help with a career and development plan, with job interview preparation, and with a change of specialization.
+    areas:
+    - Fullstack Developer
+    - Android
+    - Backend Developer
+    - Engineering management
+    - Site Reliability Engineering
+    languages: Kotlin, Java, Python
+    focus:
+    - Switch career to IT
+    - Grow from beginner to mid-level
+    - Grow from mid-level to senior-level
+    - Change specialisation within IT
+    extra: |
+      Kotlin, Java, Android, Spring, Full Stack, SQL, SRE, System design, Claude
+  network:
+  - linkedin: https://www.linkedin.com/in/falconko/
