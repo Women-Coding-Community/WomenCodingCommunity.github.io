@@ -314,11 +314,12 @@ def add_upcoming_events_to_existing_events(upcoming_events: list[MeetupEvent], e
     past_events = [e for e in all_events if not is_future(e)]
     future_events = [e for e in all_events if is_future(e)]
 
-    # Sort only the future events by expiration - past events will already be sorted by date
+    # Sort both past and future events by expiration date
+    past_events_sorted = sorted(past_events, key=lambda e: e.get("expiration", "") if isinstance(e, dict) else getattr(e, "expiration", ""))
     future_events_sorted = sorted(future_events, key=lambda e: e.get("expiration", "") if isinstance(e, dict) else getattr(e, "expiration", ""))
 
-    # Concatenate past (already sorted) + sorted future
-    return past_events + future_events_sorted
+    # Concatenate sorted past + sorted future
+    return past_events_sorted + future_events_sorted
 
 def write_all_events_to_yaml_file(file_path, all_events: list[dict]):
     try:
