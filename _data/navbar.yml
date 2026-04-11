@@ -1,5 +1,5 @@
 - name: Home
-  link: #empty because now using absolute paths
+  link: https://www.womencodingcommunity.com
   index: 0
 - name: Mentorship
   index: 1
