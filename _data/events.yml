@@ -2303,3 +2303,21 @@
     path: https://www.meetup.com/women-coding-community/events/314060351/
     title: View meetup event
     target: _target
+
+- title: Mentorship Program Launch 2026
+  description: "We\u2019re excited to invite you to the official launch of the Women Coding Community (WCC) Annual Mentorship Program 2026! Whether you\u2019re an aspiring mentee, an experienced mentor, or simply curious about how mentorship can accelerate your growth  this event is for you.\n"
+  category_style: tech-talk
+  uid: "event_314322474@meetup.com"
+  category_name: Tech Talk
+  date: FRI, MAY 01, 2026
+  expiration: "20260501"
+  host: ""
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/7/c/0/600_533738848.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314322474/
+    title: View meetup event
+    target: _target
