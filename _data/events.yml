@@ -2321,3 +2321,43 @@
     path: https://www.meetup.com/women-coding-community/events/314322474/
     title: View meetup event
     target: _target
+
+- title: |
+    May Book Club: Deep Work - Rules for Focused Success in a Distracted World
+  description: |
+    Women Coding Community Book Club!  This month's book: Deep Work: Rules for Focused Success in a Distracted World by Cal Newport  In Deep Work, author and professor Cal Newport flips the narrative on impact in a connected age.
+  category_style: book-club
+  uid: "event_314369910@meetup.com"
+  category_name: Book Club
+  date: WED, MAY 20, 2026
+  expiration: "20260520"
+  host: "Silke Nodwell, Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/8/6/1/600_533794913.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314369910/
+    title: View meetup event
+    target: _target
+
+- title: |
+    June Book Club: Dare to Lead
+  description: |
+    Women Coding Community Book Club!  June Book: Dare to Lead  Leadership is not about titles, status and power over people.
+  category_style: book-club
+  uid: "event_314370379@meetup.com"
+  category_name: Book Club
+  date: MON, JUN 22, 2026
+  expiration: "20260622"
+  host: "Silke Nodwell, Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/9/f/0/600_533795312.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314370379/
+    title: View meetup event
+    target: _target
