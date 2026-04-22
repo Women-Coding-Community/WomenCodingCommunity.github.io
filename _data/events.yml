@@ -2304,6 +2304,25 @@
     title: View meetup event
     target: _target
 
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
+  category_style: tech-talk
+  uid: "event_314404011@meetup.com"
+  category_name: Tech Talk
+  date: TUE, APR 28, 2026
+  expiration: "20260428"
+  host: "Irina Kamalova"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/f/7/600_533484055.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314404011/
+    title: View meetup event
+    target: _target
+
 - title: Mentorship Program Launch 2026
   description: "We\u2019re excited to invite you to the official launch of the Women Coding Community (WCC) Annual Mentorship Program 2026! Whether you\u2019re an aspiring mentee, an experienced mentor, or simply curious about how mentorship can accelerate your growth  this event is for you.\n"
   category_style: tech-talk
@@ -2319,6 +2338,25 @@
     alt: WCC Meetup event image
   link:
     path: https://www.meetup.com/women-coding-community/events/314322474/
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
+  category_style: tech-talk
+  uid: "event_314404622@meetup.com"
+  category_name: Tech Talk
+  date: TUE, MAY 05, 2026
+  expiration: "20260505"
+  host: "Irina Kamalova"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/f/7/600_533484055.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314404622/
     title: View meetup event
     target: _target
 
