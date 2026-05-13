@@ -2360,6 +2360,25 @@
     title: View meetup event
     target: _target
 
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
+  category_style: tech-talk
+  uid: "event_314757864@meetup.com"
+  category_name: Tech Talk
+  date: TUE, MAY 19, 2026
+  expiration: "20260519"
+  host: "Irina Kamalova"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/a/2/d/0/600_533921680.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314757864/
+    title: View meetup event
+    target: _target
+
 - title: |
     May Book Club: Deep Work - Rules for Focused Success in a Distracted World
   description: |
