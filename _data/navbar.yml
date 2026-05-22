@@ -81,8 +81,33 @@
   link: events
   index: 3
 - name: Blog
-  link: blog
   index: 4
+  subfolderitems:
+    - page: All Blogs
+      url: blog
+      breadcrumbs:
+        - name: Blog
+          link:
+    - page: Machine Learning
+      url: blog?category=machine-learning
+      breadcrumbs:
+        - name: Blog
+          link: blog
+    - page: Tech Career
+      url: blog?category=tech-career
+      breadcrumbs:
+        - name: Blog
+          link: blog
+    - page: Career Management
+      url: blog?category=career-management
+      breadcrumbs:
+        - name: Blog
+          link: blog
+    - page: Community learning & Experiences
+      url: blog?category=community-learning-experiences
+      breadcrumbs:
+        - name: Blog
+          link: blog
 - name: About Us
   index: 5
   subfolderitems:
