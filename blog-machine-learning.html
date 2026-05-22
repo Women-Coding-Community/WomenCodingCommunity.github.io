@@ -1,0 +1,98 @@
+---
+layout: default
+title: Machine Learning
+body_class: page list-page list-page-blog
+image: /assets/images/default-seo-thumbnail.png
+---
+
+<div class="container featured-content">
+    <div class="row mt-6 mb-6">
+        <div class="row-content col-12">
+
+            <h1 class="mb-5">Machine Learning Blogs</h1>
+
+            <div class="card-deck">
+
+                {% assign posts = site.categories["machine-learning"] %}
+
+                {% if posts.size == 0 %}
+
+                    <div class="text-center p-5 font-weight-bold lead">
+                        No Machine Learning Posts Yet.
+                    </div>
+
+                {% else %}
+
+                    {% for post in posts %}
+
+                    <div class="col-12 col-md-6 mb-5">
+                        <div class="card-blog card card-m">
+
+                            <a class="cursor-pointer" href="{{post.url}}">
+
+                                <div class="card-media">
+
+                                    {% if post.image %}
+                                        <img src="{{post.image}}" alt="header image for {{post.title}}">
+                                    {% else %}
+                                        <img src="/assets/images/blog/default.jpg"
+                                             alt="header image for {{post.title}}">
+                                    {% endif %}
+
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h2 class="card-title">
+                                        {{post.title}}
+                                    </h2>
+
+                                    <p class="card-short-description content-justify content-overflow">
+                                        {{post.description}}
+                                    </p>
+
+                                    <div class="card-author d-flex mt-2">
+
+                                        <div class="card-author-image">
+                                            <img src="/assets/images/blog/author.png"
+                                                 alt="Author picture">
+                                        </div>
+
+                                        <div class="d-flex flex-column">
+
+                                            <div class="card-author-name">
+                                                {{post.author_name}}
+                                            </div>
+
+                                            <div class="card-author-role">
+                                                {{post.author_role}}
+                                            </div>
+
+                                            <div class="card-author-date">
+                                                {{ post.date | date: "%d.%m.%Y" }}
+                                            </div>
+
+                                            <div>
+                                                <small>#{{post.category}}</small>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+                    </div>
+
+                    {% endfor %}
+
+                {% endif %}
+
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -89,22 +89,22 @@
         - name: Blog
           link:
     - page: Machine Learning
-      url: blog?category=machine-learning
+      url: blog-machine-learning
       breadcrumbs:
         - name: Blog
           link: blog
     - page: Tech Career
-      url: blog?category=tech-career
+      url: blog-tech-career
       breadcrumbs:
         - name: Blog
           link: blog
     - page: Career Management
-      url: blog?category=career-management
+      url: blog-career-management
       breadcrumbs:
         - name: Blog
           link: blog
     - page: Community learning & Experiences
-      url: blog?category=community-learning-experiences
+      url: blog-community-learning-experiences
       breadcrumbs:
         - name: Blog
           link: blog
