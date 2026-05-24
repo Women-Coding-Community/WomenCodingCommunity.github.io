@@ -2419,6 +2419,26 @@
     target: _target
 
 - title: |
+    May Book Club: Deep Work (Rescheduled)
+  description: |
+    Women Coding Community Book Club!  This month's book: Deep Work: Rules for Focused Success in a Distracted World by Cal Newport  In Deep Work, author and professor Cal Newport flips the narrative on impact in a connected age.
+  category_style: book-club
+  uid: "event_314920387@meetup.com"
+  category_name: Book Club
+  date: MON, JUN 01, 2026
+  expiration: "20260601"
+  host: "Silke Nodwell, Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/8/6/1/600_533794913.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314920387/
+    title: View meetup event
+    target: _target
+
+- title: |
     June Book Club: Dare to Lead
   description: |
     Women Coding Community Book Club!  June Book: Dare to Lead  Leadership is not about titles, status and power over people.
