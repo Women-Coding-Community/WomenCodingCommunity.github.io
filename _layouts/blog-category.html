@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% assign posts = site.posts | where: "category", page.category %}
+
+<h1 class="mb-4"></h1>
+
+<div class="card-deck">
+
+{% for post in posts %}
+
+<div class="col-12 col-md-6 mb-5">
+  <div class="card-blog card card-m">
+    <a href="{{ post.url }}">
+
+      <div class="card-media">
+        {% if post.image %}
+          <img src="{{ post.image }}">
+        {% else %}
+          <img src="/assets/images/blog/default.jpg">
+        {% endif %}
+      </div>
+
+      <div class="card-body">
+        <h2 class="card-title">{{ post.title }}</h2>
+        <p>{{ post.description }}</p>
+
+        <div class="card-author d-flex mt-2">
+          <div class="card-author-image">
+            <img src="/assets/images/blog/author.png">
+          </div>
+
+          <div class="d-flex flex-column">
+            <div class="card-author-name">{{ post.author_name }}</div>
+            <div class="card-author-role">{{ post.author_role }}</div>
+            <div class="card-author-date">
+              {{ post.date | date: "%d.%m.%Y" }}
+            </div>
+            <div><small>#{{ post.category }}</small></div>
+          </div>
+        </div>
+
+      </div>
+
+    </a>
+  </div>
+</div>
+
+{% endfor %}
+
+</div>
