@@ -2457,3 +2457,23 @@
     path: https://www.meetup.com/women-coding-community/events/314370379/
     title: View meetup event
     target: _target
+
+- title: |
+    Career & Motherhood: Overcoming Challenges with Davina Schonle
+  description: |
+    Career  Motherhood: Overcoming Challenges with Davina Schonle  Balancing a thriving career while navigating the complexities of motherhood is one of the most rewarding yet challenging journeys a professional can take.
+  category_style: tech-talk
+  uid: "event_315060428@meetup.com"
+  category_name: Tech Talk
+  date: TUE, JUN 23, 2026
+  expiration: "20260623"
+  host: ""
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/9/e/5/600_534527589.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/315060428/
+    title: View meetup event
+    target: _target
