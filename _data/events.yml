@@ -2439,26 +2439,6 @@
     target: _target
 
 - title: |
-    June Book Club: Dare to Lead
-  description: |
-    Women Coding Community Book Club!  June Book: Dare to Lead  Leadership is not about titles, status and power over people.
-  category_style: book-club
-  uid: "event_314370379@meetup.com"
-  category_name: Book Club
-  date: MON, JUN 22, 2026
-  expiration: "20260622"
-  host: "Silke Nodwell, Prabha Venkatesh"
-  speaker: ""
-  time: 07:00 PM BST
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/8/9/f/0/600_533795312.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/314370379/
-    title: View meetup event
-    target: _target
-
-- title: |
     Career & Motherhood: Overcoming Challenges with Davina Schonle
   description: |
     Career  Motherhood: Overcoming Challenges with Davina Schonle  Balancing a thriving career while navigating the complexities of motherhood is one of the most rewarding yet challenging journeys a professional can take.
@@ -2475,5 +2455,25 @@
     alt: WCC Meetup event image
   link:
     path: https://www.meetup.com/women-coding-community/events/315060428/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Jun/July Book Club: Dare to Lead (updated)
+  description: |
+    Women Coding Community Book Club!  June Book: Dare to Lead  Leadership is not about titles, status and power over people.
+  category_style: book-club
+  uid: "event_314370379@meetup.com"
+  category_name: Book Club
+  date: MON, JUL 13, 2026
+  expiration: "20260713"
+  host: "Silke Nodwell, Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/9/f/0/600_533795312.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314370379/
     title: View meetup event
     target: _target
