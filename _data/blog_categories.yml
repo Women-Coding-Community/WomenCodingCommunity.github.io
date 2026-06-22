@@ -1,0 +1,19 @@
+- title: Training and certifications
+  slug: training-and-certifications
+  match: training-and-certifications
+
+- title: Career management
+  slug: career-management
+  match: career-management
+
+- title: Machine Learning
+  slug: machine-learning
+  match: machine-learning
+
+- title: Community learning and experiences
+  slug: community-learning
+  match: community-learning
+
+- title: Tech career
+  slug: tech-career
+  match: tech-career
