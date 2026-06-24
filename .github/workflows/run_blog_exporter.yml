@@ -1,0 +1,92 @@
+name: Import Meetup Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 7 * * *' # check for new blogs at 7:00am
+jobs:
+  check-for-changes:
+    if: github.repository == 'Women-Coding-Community/WomenCodingCommunity.github.io'
+    runs-on: ubuntu-latest
+    outputs:
+      has_new_rows: ${{ steps.check-blog.outputs.has_new_rows }}
+      new_row_indices: ${{ steps.check-blog.outputs.new_row_indices }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+            path: ~/.cache/pip
+            key: ${{ runner.os }}-pip-${{ hashFiles('tools/requirements.txt') }}
+            restore-keys: |
+                ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+            python -m pip install --upgrade pip
+            pip install -r tools/requirements.txt
+
+      - name: Check for new blog entries
+        id: check-blog
+        run: |
+            cd tools/blog_automation
+            python check_for_new_blogs.py
+
+  # If there are new rows, run the blog_exporter script
+  run-blog-automation:
+      needs: check-for-changes
+      if: needs.check-for-changes.outputs.has_new_rows == 'true'
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v5
+
+        - name: Set up Python
+          uses: actions/setup-python@v5
+          with:
+            python-version: '3.12'
+
+        - name: Cache pip
+          uses: actions/cache@v4
+          with:
+            path: ~/.cache/pip
+            key: ${{ runner.os }}-pip-${{ hashFiles('tools/requirements.txt') }}
+            restore-keys: |
+              ${{ runner.os }}-pip-
+
+        - name: Install dependencies
+          run: |
+            python -m pip install --upgrade pip
+            pip install -r tools/requirements.txt
+
+        - name: Export new blogs
+          run: |
+            cd tools/blog_automation
+            for row_index in ${{ needs.check-for-changes.outputs.new_row_indices }}; do
+              python blog_exporter.py --row_index "$row_index"
+            done
+  
+        - name: Create or Update Pull Request
+          id: create-pr
+          uses: peter-evans/create-pull-request@v7
+          with:
+            token: ${{ secrets.GHA_ACTIONS_ALLOW_TOKEN }}
+            commit-message: "Automated blog import from Google Docs"
+            branch: "automation/import-blog"
+            team-reviewers: "Women-Coding-Community/leaders"
+            title: "Automated import of blog posts"
+            body: |
+                This PR was created automatically by a GitHub Action to import new blog posts.
+                The new blog posts have been added to `_posts/` directory.
+                The `blog_info_snapshot.csv` has been updated to track processed entries.
+            labels: |
+                automation
