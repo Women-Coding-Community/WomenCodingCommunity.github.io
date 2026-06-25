@@ -3,6 +3,15 @@ from blog_exporter import drive_connection, download_image_and_copy_to_repo
 import os
 from pathlib import Path
 
+# This is an integration test: it needs the service account key and live Google
+# Drive access. Skip it when the key is absent (e.g. CI, where fork PRs cannot
+# access secrets) so it doesn't fail the suite.
+_SERVICE_ACCOUNT_KEY = Path(__file__).resolve().parent / "service_account_key.json"
+pytestmark = pytest.mark.skipif(
+    not _SERVICE_ACCOUNT_KEY.exists(),
+    reason="requires service_account_key.json and live Google Drive access",
+)
+
 @pytest.mark.parametrize(
     "example_image", 
     [
