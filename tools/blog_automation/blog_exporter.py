@@ -1,9 +1,11 @@
 import argparse
+import json
 import os
 import re
 import shutil
 import datetime as dt
 from pathlib import Path
+import bleach
 import markdown
 import pandas as pd
 from google.oauth2 import service_account
@@ -12,6 +14,26 @@ from googleapiclient.errors import HttpError
 
 # --- Configuration ---
 SERVICE_ACCOUNT_FILE = 'service_account_key.json'
+# Used when a submission's cover image can't be downloaded (missing/not shared).
+DEFAULT_IMAGE_PATH = '/assets/images/blog/default.jpg'
+
+# Allowlist for sanitizing HTML converted from submitted Google Docs. Covers the
+# formatting blog posts need; everything else (scripts, iframes, event handlers,
+# etc.) is stripped. See _markdown_to_html.
+ALLOWED_TAGS = [
+    'p', 'br', 'hr', 'span',
+    'strong', 'b', 'em', 'i', 'u', 's', 'sub', 'sup', 'small', 'mark',
+    'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+    'ul', 'ol', 'li', 'dl', 'dt', 'dd',
+    'a', 'img',
+    'code', 'pre', 'blockquote',
+    'table', 'thead', 'tbody', 'tr', 'th', 'td', 'caption',
+]
+ALLOWED_ATTRIBUTES = {
+    'a': ['href', 'title', 'rel'],
+    'img': ['src', 'alt', 'title'],
+}
+ALLOWED_PROTOCOLS = ['http', 'https', 'mailto']
 YAML_HEADER = '''---
 layout: post
 title: {title}
@@ -24,6 +46,15 @@ description: {description}
 category: blog
 ---
 '''
+
+def _yaml_scalar(value):
+    """Return a YAML-safe double-quoted scalar.
+
+    Free-text fields (title, description, ...) can contain ``:``, ``&``, quotes
+    etc. that break unquoted YAML front matter. A JSON-encoded string is always a
+    valid YAML double-quoted scalar, so json.dumps gives us correct escaping.
+    """
+    return json.dumps('' if value is None else str(value), ensure_ascii=False)
 
 def _current_directory():
     return os.path.dirname(os.path.abspath(__file__))
@@ -51,9 +82,10 @@ def _today_date_str():
     return dt.date.today().isoformat()
 
 def _create_blog_filename_with_date(doc_name, date_str):
-    formatted_blog_title = doc_name.lower().replace(' ', '-').strip()
-    filename = f"{date_str}-{formatted_blog_title}"
-    return filename
+    # Slugify: lowercase, and collapse any run of non-alphanumeric characters
+    # (spaces, ':', ',', etc.) into a single hyphen so the filename is valid.
+    slug = re.sub(r'[^a-z0-9]+', '-', doc_name.lower()).strip('-')
+    return f"{date_str}-{slug}"
 
 def _get_doc_name_from_drive(doc_id, drive):
     """Fetch document name from Google Drive."""
@@ -75,18 +107,34 @@ def _get_doc_content_as_markdown(doc_id, drive):
         return None
 
 def _markdown_to_html(markdown_text):
-    """Convert Markdown to HTML with custom formatting."""
+    """Convert Markdown to HTML with custom formatting.
+
+    Blog content comes from community-submitted Google Docs, which can contain
+    arbitrary raw HTML. We sanitize the converted HTML against an explicit
+    allowlist so a submitted document cannot inject <script>, event handlers or
+    javascript: URLs into the published (public) site.
+    """
     html = markdown.markdown(markdown_text)
-    
+
     # Remove <strong> tags from inside heading tags
     html = re.sub(r'<h(\d)><strong>(.+?)</strong></h\1>', r'<h\1>\2</h\1>', html)
-    
+
     # Remove the first heading if present
     html = re.sub(r'^<h[1-6]>.*?</h[1-6]>\s*', '', html, flags=re.DOTALL)
-    
-    # Wrap the body in <div class="text-justify">
+
+    # Strip anything outside the allowlist (drops <script>, on* handlers, etc.)
+    html = bleach.clean(
+        html,
+        tags=ALLOWED_TAGS,
+        attributes=ALLOWED_ATTRIBUTES,
+        protocols=ALLOWED_PROTOCOLS,
+        strip=True,
+    )
+
+    # Wrap the body in <div class="text-justify"> (added after sanitizing, so the
+    # wrapper we control is never stripped).
     html_body = f'<div class="text-justify">\n{html}\n</div>'
-    
+
     return html_body
 
 def _download_blog_image(blog_image_drive_link, drive):
@@ -106,6 +154,11 @@ def _download_blog_image(blog_image_drive_link, drive):
         print(f'{file_id=}')
         file_metadata = drive.files().get(fileId=file_id, fields='name, mimeType').execute()
         file_name = file_metadata['name']
+
+        mime_type = file_metadata.get('mimeType', '')
+        if not mime_type.startswith('image/'):
+            print(f"WARNING: cover file is '{mime_type}', not an image ({file_name}); skipping.")
+            return None
 
         request = drive.files().get_media(fileId=file_id)
         file_content = request.execute()
@@ -142,61 +195,58 @@ def _copy_image_to_blog_assets(image_path, blog_filename):
 
 def download_image_and_copy_to_repo(image_link, blog_filename, drive):
     downloaded_image_path = _download_blog_image(image_link, drive)
-    # if downloaded_image_path is not None:
-    #     image_path_relative = _get_image_path_from_blog_filename_and_image_extension(
-    #         blog_filename, image_extension=downloaded_image_path.split('.')[-1]
-    #     )
+    if downloaded_image_path is None:
+        # Image missing or not shared with the service account; caller falls back
+        # to the default cover image.
+        return None
 
     image_path_relative = _copy_image_to_blog_assets(
-        downloaded_image_path, 
+        downloaded_image_path,
         blog_filename
     )
 
     os.remove(downloaded_image_path)  # Clean up temp file
-    
+
     return image_path_relative
 
 
-def export_blog_from_csv_row(row_index, csv_path=None, doc_id_override=None, date=None):
+def export_blog(blog_info, date=None, doc_id_override=None):
     """
-    Export a blog from a CSV row.
-    
+    Export a single blog into a Jekyll post (HTML) plus its cover image.
+
     Args:
-        row_index: Index of the row in the CSV
-        csv_path: Path to CSV file (defaults to blog_info_snapshot.csv in current dir)
-        doc_id_override: Optional Google Doc ID to override the one in CSV
-        date: Blog post date (defaults to today)
-    
+        blog_info: Mapping (dict / pandas Series) with the keys produced by
+            blog_info_from_spreadsheet._extract_and_rename_relevant_fields:
+            doc_id, author_name, author_role, description, source, image_link.
+        date: Blog post date (defaults to today).
+        doc_id_override: Optional Google Doc ID to use instead of blog_info['doc_id'].
+
     Returns:
-        blog_filename if successful, None otherwise
+        blog_filename if successful, None otherwise.
     """
-    if csv_path is None:
-        csv_path = os.path.join(_current_directory(), 'blog_info_snapshot.csv')
-    
     if date is None:
         date = _today_date_str()
-    
-    # Read CSV and get row
-    try:
-        df = pd.read_csv(csv_path, index_col=0)
-        blog_info_ser = df.iloc[row_index]
-    except (FileNotFoundError, IndexError) as e:
-        print(f"ERROR: Could not read CSV row {row_index}\n{e}")
-        return None
-    
+
+    blog_info_ser = blog_info
+
     # Determine doc_id
     doc_id = doc_id_override or blog_info_ser.get('doc_id')
-    
+
     if pd.isna(doc_id) or not doc_id:
-        print(f"SKIP: Row {row_index} has no doc_id (external blog link)")
+        print("SKIP: row has no doc_id (external blog link)")
         raise ValueError("No doc_id found in spreadsheet row. Please specify a doc_id_override.")
-    
+
     # Connect to Google Drive
     drive = drive_connection()
     
     # 1. Get document name and content
     doc_name = _get_doc_name_from_drive(doc_id, drive)
     doc_content = _get_doc_content_as_markdown(doc_id, drive)
+    if doc_name is None or doc_content is None:
+        raise ValueError(
+            f"Could not fetch Google Doc {doc_id} - it may not exist, not be a "
+            f"native Google Doc, or not be shared with the service account."
+        )
     blog_filename = _create_blog_filename_with_date(doc_name, date)
     
     # 2. Convert to HTML
@@ -210,24 +260,28 @@ def export_blog_from_csv_row(row_index, csv_path=None, doc_id_override=None, dat
 
     
     yaml_header = YAML_HEADER.format(
-        title=doc_name.title(),
+        title=_yaml_scalar(doc_name),
         date=date,
-        author_name=author_name,
-        author_role=author_role,
+        author_name=_yaml_scalar(author_name),
+        author_role=_yaml_scalar(author_role),
         image_path='[IMAGE_PATH]',  # Placeholder, will update after image download
-        image_source=source,
-        description=description
+        image_source=_yaml_scalar(source),
+        description=_yaml_scalar(description)
     )
     
-    # 4. Download image if available
+    # 4. Download cover image; fall back to the default if it's missing or not
+    #    shared with the service account, so a bad image never blocks the post.
+    image_path_relative = None
     image_link = blog_info_ser.get('image_link')
     if image_link:
         image_path_relative = download_image_and_copy_to_repo(
             image_link, blog_filename=blog_filename, drive=drive
         )
-        if image_path_relative:
-            yaml_header = yaml_header.replace('[IMAGE_PATH]', image_path_relative)
-    
+    if not image_path_relative:
+        print(f"WARNING: no usable cover image for '{doc_name}'; using default cover.")
+        image_path_relative = DEFAULT_IMAGE_PATH
+    yaml_header = yaml_header.replace('[IMAGE_PATH]', image_path_relative)
+
     # 5. Combine and save
     final_html = yaml_header + '\n' + html_body
     
@@ -243,14 +297,26 @@ def export_blog_from_csv_row(row_index, csv_path=None, doc_id_override=None, dat
 
 
 if __name__ == "__main__":
-    # example usage: python blog_exporter.py # this will export the blog from the last row of the CSV
-    parser = argparse.ArgumentParser(description="Export a blog from CSV row into HTML.")
-    parser.add_argument(
-        "--row_index", type=int, default=-1, help="Index of the row in blog_info_snapshot.csv"
-    )
-    parser.add_argument("--csv_path", help="Path to CSV file (default: blog_info_snapshot.csv)")
-    parser.add_argument("--doc_id", help="Override doc_id from CSV")
+    # Ad-hoc single-blog export, handy for testing a Google Doc renders correctly:
+    #   python blog_exporter.py --doc_id <DOC_ID> --author_name "Jane Doe"
+    parser = argparse.ArgumentParser(description="Export a single blog Doc into an HTML post.")
+    parser.add_argument("--doc_id", required=True, help="Google Doc ID to export.")
+    parser.add_argument("--author_name", default="")
+    parser.add_argument("--author_role", default="")
+    parser.add_argument("--description", default="")
+    parser.add_argument("--source", default="")
+    parser.add_argument("--image_link", default="", help="Google Drive link to the cover image.")
     parser.add_argument("--date", help="Date for blog post (YYYY-MM-DD). Defaults to today.")
-    
+
     args = parser.parse_args()
-    export_blog_from_csv_row(args.row_index, args.csv_path, args.doc_id, args.date)
+    export_blog(
+        {
+            "doc_id": args.doc_id,
+            "author_name": args.author_name,
+            "author_role": args.author_role,
+            "description": args.description,
+            "source": args.source,
+            "image_link": args.image_link,
+        },
+        date=args.date,
+    )
