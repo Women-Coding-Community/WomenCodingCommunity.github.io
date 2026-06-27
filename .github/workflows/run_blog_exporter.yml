@@ -1,0 +1,72 @@
+name: Publish reviewed blogs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 7 * * *' # daily at 07:00 UTC: publish any newly reviewed blogs
+
+jobs:
+  publish-blogs:
+    if: github.repository == 'Women-Coding-Community/WomenCodingCommunity.github.io'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-blog-${{ hashFiles('tools/blog_automation/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-blog-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r tools/blog_automation/requirements.txt
+
+      - name: Write service account key
+        run: echo "$SERVICE_ACCOUNT_KEY" > tools/blog_automation/service_account_key.json
+        env:
+          SERVICE_ACCOUNT_KEY: ${{ secrets.BLOG_AUTOMATION_SERVICE_ACCOUNT }}
+
+      - name: Export reviewed blogs
+        run: |
+          cd tools/blog_automation
+          python publish_reviewed_blogs.py
+
+      - name: Remove service account key
+        if: always()
+        run: rm -f tools/blog_automation/service_account_key.json
+
+      - name: Create or Update Pull Request
+        id: create-pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GHA_ACTIONS_ALLOW_TOKEN }}
+          commit-message: "Automated import of reviewed blog posts"
+          branch: "automation/import-blog"
+          team-reviewers: "Women-Coding-Community/leaders"
+          title: "Automated import of reviewed blog posts"
+          body: |
+            This PR was created automatically by a GitHub Action.
+
+            It contains every blog marked `isReviewedandApproved` (and not yet
+            `isPublished`) in the submissions spreadsheet:
+            - new posts under `_posts/`
+            - cover images under `assets/images/blog/`
+
+            The spreadsheet's `isPublished` column has already been set to TRUE for
+            these rows. Please review the rendered posts before merging.
+          labels: |
+            automation
+          add-paths: |
+            _posts/**
+            assets/images/blog/**
