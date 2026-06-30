@@ -3,7 +3,7 @@ name: Publish reviewed blogs
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 7 * * *' # daily at 07:00 UTC: publish any newly reviewed blogs
+    - cron: '0 7 * * 1' # weekly on Mondays at 07:00 UTC: publish newly reviewed blogs
 
 jobs:
   publish-blogs:
@@ -52,7 +52,7 @@ jobs:
         with:
           token: ${{ secrets.GHA_ACTIONS_ALLOW_TOKEN }}
           commit-message: "Automated import of reviewed blog posts"
-          branch: "automation/import-blog"
+          branch: "automation/import-blog-${{ github.run_id }}"
           team-reviewers: "Women-Coding-Community/leaders"
           title: "Automated import of reviewed blog posts"
           body: |
@@ -65,6 +65,10 @@ jobs:
 
             The spreadsheet's `isPublished` column has already been set to TRUE for
             these rows. Please review the rendered posts before merging.
+
+            If you close this PR **without merging**, reset `isPublished` to
+            FALSE in the spreadsheet for these rows — otherwise they won't be
+            re-exported and the blogs will be silently dropped.
           labels: |
             automation
           add-paths: |

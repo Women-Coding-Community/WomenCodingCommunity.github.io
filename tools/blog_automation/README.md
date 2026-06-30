@@ -98,9 +98,9 @@ turns a reviewed blog into a draft pull request automatically.
 1. In the submissions spreadsheet (the **Form Responses 1** sheet), set the row's
    **`isReviewedandApproved`** cell to **`TRUE`** once the draft is reviewed.
    Leave **`isPublished`** blank/`FALSE`.
-2. Within a day (or immediately via **Actions → Publish reviewed blogs → Run
-   workflow**) the action exports the blog, sets that row's **`isPublished`** to
-   `TRUE` in the sheet, and opens/updates a PR
+2. On the next weekly run (Mondays, or immediately via **Actions → Publish
+   reviewed blogs → Run workflow**) the action exports the blog, sets that row's
+   **`isPublished`** to `TRUE` in the sheet, and opens a PR
    (`Automated import of reviewed blog posts`) with the new post and cover image.
 3. **Review the rendered post and merge.**
 
