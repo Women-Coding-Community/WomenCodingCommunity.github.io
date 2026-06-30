@@ -17,10 +17,10 @@ To allow our scripts to access Google Drive and export documents, you need to cr
 👉 **Note:** You need the **Project Editor** or **Owner** role on this project to create service accounts and keys.  
 If you’re the one who created the project, you already have these permissions.
 
-### 1. Enable the Drive API
+### 1. Enable the Drive and Sheets APIs
 1. In the left menu, go to **APIs & Services → Library**.
-2. Search for **Google Drive API**.
-3. Click **Enable**.
+2. Search for **Google Drive API** and click **Enable**.
+3. Search for **Google Sheets API** and click **Enable** (needed to read the submissions spreadsheet).
 
 ### 2. Create a Service Account
 1. In the left menu, go to **IAM & Admin → Service Accounts**.
@@ -47,6 +47,7 @@ If you’re the one who created the project, you already have these permissions.
 4. Give it at least **Viewer** access.
 5. Save changes.  
    - Now the service account can read/export files in that folder or doc.
+6. Repeat the **Share** step for the **blog submissions spreadsheet** (the Google Form responses sheet), giving the service account **Editor** access. Editor (not just Viewer) is required because the pipeline writes `isPublished = TRUE` back to a row after exporting it.
 
 ---
 
@@ -75,8 +76,53 @@ Then the **Document ID** is:
 
 Use this ID in your scripts when exporting the document.
 
-## Run Automation
+## Export a single blog manually (for testing)
 1. Activate virtual environment: `source venv/bin/activate`
-2. Run the script: `python doc_to_html_conversion.py <DOC_ID>`
+2. Export one Google Doc into a post:
+   `python blog_exporter.py --doc_id <DOC_ID> --author_name "Jane Doe" --image_link "<DRIVE_IMAGE_LINK>"`
+
+This is handy to check a Doc renders correctly. The full pipeline below reads all
+of this metadata from the spreadsheet automatically.
+
+## Tests
+
+Run `pytest test_blog_exporter.py`
+
+## CI/CD pipeline: publish a blog when you mark it reviewed
+
+The Google Sheet is the **single source of truth** — there is no local CSV. The
+GitHub Action [`.github/workflows/run_blog_exporter.yml`](../../.github/workflows/run_blog_exporter.yml)
+turns a reviewed blog into a draft pull request automatically.
+
+### How to publish a blog (the editor's workflow)
+1. In the submissions spreadsheet (the **Form Responses 1** sheet), set the row's
+   **`isReviewedandApproved`** cell to **`TRUE`** once the draft is reviewed.
+   Leave **`isPublished`** blank/`FALSE`.
+2. On the next weekly run (Mondays, or immediately via **Actions → Publish
+   reviewed blogs → Run workflow**) the action exports the blog, sets that row's
+   **`isPublished`** to `TRUE` in the sheet, and opens a PR
+   (`Automated import of reviewed blog posts`) with the new post and cover image.
+3. **Review the rendered post and merge.**
+
+### What runs
+`publish_reviewed_blogs.py` reads the sheet and exports every row where
+`isReviewedandApproved` is `TRUE` and `isPublished` is not `TRUE`. Because the
+`isPublished` flag is written straight back to the sheet, a blog is never exported
+twice — and the existing backlog (already `isPublished = TRUE`) is left alone.
+
+> The draft must be a **native Google Doc** (Drive can only export those to
+> Markdown). If a submitter uploaded a `.docx`/`.pdf`, open it and do
+> **File → Save as Google Docs** first, otherwise that row is skipped with an error.
+
+### One-time repo setup
+- **Service account needs Editor access to the spreadsheet** (see setup step 4) so
+  the pipeline can write back `isPublished`.
+- **Secret `BLOG_AUTOMATION_SERVICE_ACCOUNT`** — paste the full contents of
+  `service_account_key.json` into a repository secret with this name
+  (Settings → Secrets and variables → Actions). The workflow writes it to disk at
+  runtime and deletes it afterwards; the key is never committed.
+- **Secret `GHA_ACTIONS_ALLOW_TOKEN`** — already used by the other automations; it
+  lets the action open the pull request.
+
 
 
