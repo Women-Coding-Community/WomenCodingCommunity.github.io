@@ -2477,3 +2477,23 @@
     path: https://www.meetup.com/women-coding-community/events/314370379/
     title: View meetup event
     target: _target
+
+- title: |
+    AI Learning Series - From Prompts to Harness
+  description: |
+    6 months   6 hands-on sessions   we build every session   Demo Day finale   IMPORTANT: To join, RSVP here:  https:forms.
+  category_style: tech-talk
+  uid: "event_315585716@meetup.com"
+  category_name: Tech Talk
+  date: TUE, JUL 21, 2026
+  expiration: "20260721"
+  host: ""
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/9/e/1/600_535103009.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/315585716/
+    title: View meetup event
+    target: _target
