@@ -46,6 +46,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install -r certificate_automation/requirements.txt
+          pip install -r blog_automation/requirements.txt
 
       - name: Run pytest
         run: |
