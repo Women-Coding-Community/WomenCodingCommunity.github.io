@@ -2497,3 +2497,23 @@
     path: https://www.meetup.com/women-coding-community/events/315585716/
     title: View meetup event
     target: _target
+
+- title: |
+    Tools & Boundaries: MCP, Plugins, Permissions, Hooks
+  description: |
+    The Harness Series: Stop Prompting, Start Delegating Six monthly hands-on sessions.
+  category_style: tech-talk
+  uid: "event_316023624@meetup.com"
+  category_name: Tech Talk
+  date: TUE, AUG 18, 2026
+  expiration: "20260818"
+  host: ""
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/d/2/b/0/600_535553936.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/316023624/
+    title: View meetup event
+    target: _target
