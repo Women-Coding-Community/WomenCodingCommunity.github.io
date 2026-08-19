@@ -2517,3 +2517,23 @@
     path: https://www.meetup.com/women-coding-community/events/316023624/
     title: View meetup event
     target: _target
+
+- title: |
+    Sep Book Club: Head First Software Architecture
+  description: |
+    Women Coding Community Book Club!  September Book: Head First Software Architecture  If you're a software developer looking for a quick on-ramp to software architecture, this handy guide is a great place to start.
+  category_style: book-club
+  uid: "event_316178199@meetup.com"
+  category_name: Book Club
+  date: MON, SEP 28, 2026
+  expiration: "20260928"
+  host: "Silke Nodwell, Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/d/9/9/4/600_535735700.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/316178199/
+    title: View meetup event
+    target: _target
