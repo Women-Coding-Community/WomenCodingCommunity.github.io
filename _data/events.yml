@@ -2519,6 +2519,26 @@
     target: _target
 
 - title: |
+    Small Models in Practice: Gemma 4, Four Ways
+  description: |
+    AI is changing how we build software, and staying relevant means knowing how to actually work with agents, not just prompt them.
+  category_style: tech-talk
+  uid: "event_316459100@meetup.com"
+  category_name: Tech Talk
+  date: TUE, SEP 15, 2026
+  expiration: "20260915"
+  host: ""
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/d/f/e/2/600_536037314.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/316459100/
+    title: View meetup event
+    target: _target
+
+- title: |
     Sep Book Club: Head First Software Architecture
   description: |
     Women Coding Community Book Club!  September Book: Head First Software Architecture  If you're a software developer looking for a quick on-ramp to software architecture, this handy guide is a great place to start.
