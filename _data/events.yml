@@ -2557,3 +2557,23 @@
     path: https://www.meetup.com/women-coding-community/events/316178199/
     title: View meetup event
     target: _target
+
+- title: |
+    Architect, Mentor & Learn: Join the WCC Platform Open Source Projects
+  description: |
+    Are you an experienced engineer, tech lead, DevOps specialist, QA automation engineer, or UX designer looking for a meaningful way to give back, practice technical leadership, and mentor the next generation in tech? Or are you an early-career developer, career switcher, or student eager to learn directly from seasoned industry professionals and gain authentic, production-grade work experience for your CV?  At Women Coding Community (WCC), our open-source platform ecosystem is where collaborative tech leadership and hands-on learning come together! We are expanding our entire platform ecosystem  powering our public community website, content management, events calendar, and our flagship Mentorship Matching Programme.
+  category_style: tech-talk
+  uid: "event_316602114@meetup.com"
+  category_name: Tech Talk
+  date: THU, OCT 08, 2026
+  expiration: "20261008"
+  host: ""
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/6/d/7/e/600_536188030.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/316602114/
+    title: View meetup event
+    target: _target
