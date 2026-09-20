@@ -46,7 +46,7 @@ jobs:
         id: create-pr
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.GHA_ACTIONS_ALLOW_TOKEN }}
+          token: ${{ secrets.GHA_ACTIONS_ALLOW_TOKEN }} # @khairahscorner to renew
           commit-message: "Automated import of Meetup events"
           branch: "automation/import-meetup-events"
           team-reviewers: "Women-Coding-Community/leaders"
@@ -54,15 +54,14 @@ jobs:
           body: |
             This PR was created automatically by a GitHub Action to import upcoming Meetup events.
             Only `_data/events.yml` should be updated.
-          labels: |
-            automation, auto-approve
+          labels: "automation, auto-approve"
 
       - name: Wait for required checks
         if: steps.create-pr.outputs.pull-request-number
         run: |
-            gh pr checks ${{ steps.create-pr.outputs.pull-request-number }} --watch
+            gh pr checks ${{ steps.create-pr.outputs.pull-request-number }} --watch --fail-fast
         env:
-          GITHUB_TOKEN: ${{ secrets.GHA_ACTIONS_ALLOW_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GHA_ACTIONS_ALLOW_TOKEN }} # @khairahscorner to renew
 
       - name: Auto-approve PR
         if: steps.create-pr.outputs.pull-request-number
@@ -71,7 +70,7 @@ jobs:
             gh pr review ${{ steps.create-pr.outputs.pull-request-number }} --approve
             echo "PR approved"
         env:
-          GITHUB_TOKEN: ${{ secrets.GHA_APPROVAL_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GHA_APPROVAL_TOKEN }}  # @Deejarh to renew
 
       - name: Auto-merge PR
         if: steps.create-pr.outputs.pull-request-number
@@ -83,4 +82,4 @@ jobs:
               --delete-branch
             echo "Auto-merge completed"
         env:
-          GITHUB_TOKEN: ${{ secrets.GHA_ACTIONS_ALLOW_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GHA_ACTIONS_ALLOW_TOKEN }} # @khairahscorner to renew
