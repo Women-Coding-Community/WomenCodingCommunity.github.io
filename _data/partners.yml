@@ -83,8 +83,33 @@
   type: event
   link: "https://www.devoxx.co.uk"
   description: |
-    Ready to level up your dev skills and dive into the latest tech? Women Coding Community is thrilled to collaborate with <a href="https://www.womentech.net/en-es/node/102994" target="_blank">Devoxx UK!</a> Join expert practitioners from around the world as we explore Java, Cloud, AI, Data, Security, Architecture, Dev Culture, and more.
+    Ready to level up your dev skills and dive into the latest tech? Women Coding Community is thrilled to collaborate with <a href="https://www.devoxx.co.uk"" target="_blank">Devoxx UK!</a> Join expert practitioners from around the world as we explore Java, Cloud, AI, Data, Security, Architecture, Dev Culture, and more.
   image:
     path: "/assets/images/partners/devoxx.png"
     alt: Conference logo
   page_show: false
+
+- name: Nandos
+  type: org
+  link: "https://www.nandos.co.uk/"
+  description: |
+    <p><a href="https://www.nandos.co.uk/" target="_blank">Nando's</a> is the home of PERi-PERi. The legendary flame-grilled chicken loved all around the world. From their first restaurant in South Africa to thousands of tables today, they’ve been serving up good vibes, great food, and a whole lot of heart.</p>
+    <p>At Nando’s, they’re all about people, their teams, their customers, and their communities. They bring the heat every day, making sure everyone who walks through their doors leaves feeling a little warmer, a little happier, and a lot more full.</p>
+    <p>They’re growing fast, but they’re staying true to what makes them them: passion, pride, and PERi-PERi. So if you’ve got fire in your belly and you’re ready to make magic happen, come join the Nando’s family. Because great experiences start with Nando’s.</p>
+  image:
+    path: "/assets/images/partners/Nandos.png"
+    alt: Nando’s logo
+  page_show: true
+
+- name: apidays London
+  type: event
+  link: "https://www.apidays.global/events/london"
+  description: |
+    Women Coding Community is excited to be partnering with <a href="https://www.apidays.global/events/london" target="_blank">apidays London.</a>
+    APIs are the invisible layer connecting businesses, ideas, and entire industries. apidays brings together the builders, the thinkers, and the decision-makers shaping the API-first world..
+  image:
+    path: "/assets/images/partners/apidays.png"
+    alt: apidays logo
+  page_show: false
+
+

@@ -13,6 +13,13 @@
 
   .card {
     border: none;
+
+    img {
+      height: 80px;
+      width: 100%;
+      object-fit: contain;
+      padding: 8px;
+    }
   }
 }
 
