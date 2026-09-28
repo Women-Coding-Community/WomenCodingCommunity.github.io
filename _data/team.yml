@@ -163,3 +163,23 @@
       link: https://www.linkedin.com/in/badmus-damola-taiwo-643438158/
     - name: github
       link: https://github.com/Deejarh
+
+- name: Sonika Janagill
+  image: /assets/images/team/25.png
+  position: WCC Lead
+  comment: Lead Engineer & Google Developer Expert
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/sonikaj/
+    - name: github
+      link: https://github.com/sonikajanagill
+
+- name: Sowmiya Ravikumar
+  image: /assets/images/team/26.jpg
+  position: WCC Lead
+  comment: Data Engineer
+  network:
+    - name: linkedin
+      link: https://www.linkedin.com/in/sowmiya-ravikumar/
+    - name: github
+      link: https://github.com/Sowmiya07

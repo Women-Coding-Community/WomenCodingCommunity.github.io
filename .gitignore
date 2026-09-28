@@ -26,3 +26,6 @@ tools/certificate_automation/data/input/templates/
 tools/certificate_automation/data/input/*.csv
 tools/certificate_automation/data/output/
 tools/samples/
+
+.jekyll-metadata
+.vscode/
