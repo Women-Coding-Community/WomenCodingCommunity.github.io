@@ -88,19 +88,6 @@
     path: "/assets/images/partners/devoxx.png"
     alt: Conference logo
   page_show: false
-
-- name: Nandos
-  type: org
-  link: "https://www.nandos.co.uk/"
-  description: |
-    <p><a href="https://www.nandos.co.uk/" target="_blank">Nando's</a> is the home of PERi-PERi. The legendary flame-grilled chicken loved all around the world. From their first restaurant in South Africa to thousands of tables today, they’ve been serving up good vibes, great food, and a whole lot of heart.</p>
-    <p>At Nando’s, they’re all about people, their teams, their customers, and their communities. They bring the heat every day, making sure everyone who walks through their doors leaves feeling a little warmer, a little happier, and a lot more full.</p>
-    <p>They’re growing fast, but they’re staying true to passion, pride, and PERi-PERi. So if you’ve got fire in your belly and you’re ready to make magic happen, join the Nando’s family. Because great experiences start with Nando’s.</p>
-  image:
-    path: "/assets/images/partners/Nandos.png"
-    alt: Nando’s logo
-  page_show: true
-
 - name: apidays London
   type: event
   link: "https://www.apidays.global/events/london"
