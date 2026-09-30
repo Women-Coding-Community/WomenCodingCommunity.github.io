@@ -88,6 +88,17 @@
     path: "/assets/images/partners/devoxx.png"
     alt: Conference logo
   page_show: false
+
+- name: Nandos
+  type: org
+  link: "https://www.nandos.co.uk/"
+  description: |
+    <p><a href="https://www.nandos.co.uk/" target="_blank">Nando's</a> is famous for its flame-grilled PERi-PERi and with over 500 restaurants across the UK and Ireland, and more than 20,000 Nandocas (that's what they call employees), it is committed to creating exceptional experiences for both its people and customers. Tech and engineering is at the heart of how they make this happen. The drive to deliver seamless, innovative and unique products through diverse perspectives and collaboration is what sets them apart.</p>
+  image:
+    path: "/assets/images/partners/Nandos.png"
+    alt: Nando’s logo
+  page_show: true
+
 - name: apidays London
   type: event
   link: "https://www.apidays.global/events/london"
