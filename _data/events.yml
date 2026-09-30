@@ -2577,3 +2577,22 @@
     path: https://www.meetup.com/women-coding-community/events/316602114/
     title: View meetup event
     target: _target
+
+- title: |
+    WCC Anniversary: Celebrating Success
+  description: One more year.
+  category_style: tech-talk
+  uid: "event_316755568@meetup.com"
+  category_name: Tech Talk
+  date: THU, OCT 29, 2026
+  expiration: "20261029"
+  host: ""
+  speaker: ""
+  time: 06:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/6/0/0/e/600_536364590.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/316755568/
+    title: View meetup event
+    target: _target
