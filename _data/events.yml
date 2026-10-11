@@ -2596,3 +2596,23 @@
     path: https://www.meetup.com/women-coding-community/events/316755568/
     title: View meetup event
     target: _target
+
+- title: |
+    November Book Club: Lean In
+  description: |
+    Women Coding Community Book Club!  November Book: Lean In  A landmark manifesto" (The New York Times) that's a revelatory, inspiring call to action and a blueprint for individual growth that will empower women around the world to achieve their full potential.
+  category_style: book-club
+  uid: "event_316838317@meetup.com"
+  category_name: Book Club
+  date: MON, NOV 16, 2026
+  expiration: "20261116"
+  host: "Silke Nodwell, Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/6/9/5/5/600_536546965.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/316838317/
+    title: View meetup event
+    target: _target
