@@ -2579,6 +2579,26 @@
     target: _target
 
 - title: |
+    Sub-Agents & Specialisation
+  description: |
+    AI is changing how we build software, and staying relevant means knowing how to actually work with agents, not just prompt them.
+  category_style: tech-talk
+  uid: "event_316974596@meetup.com"
+  category_name: Tech Talk
+  date: TUE, OCT 20, 2026
+  expiration: "20261020"
+  host: ""
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/5/1/5/600_536601781.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/316974596/
+    title: View meetup event
+    target: _target
+
+- title: |
     WCC Anniversary: Celebrating Success
   description: One more year.
   category_style: tech-talk
