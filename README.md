@@ -16,6 +16,12 @@ Please, find more information on our [website](https://womencodingcommunity.com)
 
 # Contributing
 
+> [!CAUTION]
+> **This repo is no longer accepting new contributions.** Please contribute to the following repositories instead:
+> - [wcc-frontend](https://github.com/Women-Coding-Community/wcc-frontend)
+> - [wcc-backend](https://github.com/Women-Coding-Community/wcc-backend)
+> - [wcc-qa](https://github.com/Women-Coding-Community/wcc-qa)
+
 This website acts as a project to help introduce people to the Open Source community, and allow transition from newcomers to contributors easier.
 
 We welcome your contributions! 💕 To contribute to this repo, follow the [contributing guidelines](CONTRIBUTING.md).
