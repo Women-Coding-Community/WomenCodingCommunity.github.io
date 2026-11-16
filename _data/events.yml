@@ -2656,3 +2656,23 @@
     path: https://www.meetup.com/women-coding-community/events/317373732/
     title: View meetup event
     target: _target
+
+- title: |
+    Book Club: Foundations for Keeping AI Responsible
+  description: |
+    Women Coding Community Book Club!  January Book: Foundations for Keeping AI Responsible  When an AI decision is challenged, can your system justify it? In production, an AI decision depends on more than a model.
+  category_style: book-club
+  uid: "event_317439289@meetup.com"
+  category_name: Book Club
+  date: MON, JAN 25, 2027
+  expiration: "20270125"
+  host: "Silke Nodwell, Prabha Venkatesh"
+  speaker: "Madhura Chaganty (Author)"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/0/8/c/600_537152908.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/317439289/
+    title: View meetup event
+    target: _target
