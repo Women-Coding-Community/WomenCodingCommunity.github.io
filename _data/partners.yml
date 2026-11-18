@@ -110,4 +110,13 @@
     alt: apidays logo
   page_show: false
 
-
+- name: Re:Build
+  type: event
+  link: "https://rebuildcon.uk/"
+  description: |
+    <p>Women Coding Community is proud to be a community partner of Re:Build, a new two-day developer conference in London on 5 &amp; 6 May 2027 at the Business Design Centre.</p>
+    <p>Re:Build is about the developer as a person: the craft, the community and how our work is changing. Expect short stage talks that flow into roundtables and real conversations.</p>
+  image:
+    path: "/assets/images/partners/rebuild.png"
+    alt: Re:Build logo
+  page_show: false
