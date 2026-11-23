@@ -8,10 +8,9 @@
                 deployment on cloud, on-premise, embedded, and in edge computing environments, allows developers and
                 organizations to meet the needs of their applications, without needing to worry about scalability or
                 keeping data consistent across multiple different database platforms.</p>
-            <p>SurrealDB have also established the Women in Rust community, a meetup group where women can connect,
-                collaborate, and grow their skills in Rust To learn more and get started with SurrealDB in just visit
-                <a href="http://surrealdb.com" target="_blank">surrealdb.com</a>
-      </p>
+    <p>SurrealDB have also established the Women in Rust community, a meetup group where women can connect, collaborate, and grow their skills in Rust To learn more and get started with SurrealDB in just visit 
+    <a href="http://surrealdb.com" target="_blank">surrealdb.com</a>
+    </p>
   image:
     path: "/assets/images/partners/surrealdb.png"
     alt: SurrealDB logo
@@ -58,26 +57,26 @@
     alt: GitHub logo
   page_show: true
 
-- name: O'Reilly
+- name: Nandos
   type: org
-  link: "https://www.oreilly.com/"
+  link: "https://www.nandos.co.uk/"
   description: |
-    <p><a href="https://www.oreilly.com/" target="_blank">O’Reilly’s</a> mission is to change the world by sharing the knowledge of innovators. </p>
-    <p>The learning platform offers exclusive live training, interactive learning, a certification experience, books, videos, and more, making it easier for customers to develop the expertise they need to get ahead.</p>
+    <p><a href="https://www.nandos.co.uk/" target="_blank">Nando's</a> is famous for its flame-grilled PERi-PERi and with over 500 restaurants across the UK and Ireland, and more than 20,000 Nandocas (that's what they call employees), it is committed to creating exceptional experiences for both its people and customers. Tech and engineering is at the heart of how they make this happen. The drive to deliver seamless, innovative and unique products through diverse perspectives and collaboration is what sets them apart.</p>
   image:
-    path: "/assets/images/partners/oreilly.png"
-    alt: O’Reilly logo
+    path: "/assets/images/partners/Nandos.png"
+    alt: Nando’s logo
   page_show: true
 
-- name: Women In Tech Global Conference
-  type: event
-  link: "https://www.womentech.net/en-es/node/102994"
+- name: Re:Build
+  type: org
+  link: "https://rebuildcon.uk/"
   description: |
-    We are thrilled to introduce our new partnership with <a href="https://www.womentech.net/en-es/node/102994" target="_blank">Women In Tech Global Conference.</a> The conference will bring women in tech, and allies together through an interactive platform with virtual and in-person sessions.
+    <p><a href="https://rebuildcon.uk" target="_blank">Re:Build</a> is a new two-day developer conference on 5 & 6 May 2027 at the Business Design Centre in Islington, London. It's built around the developer as a person rather than the latest technology trend, and looks at three questions: what we build, how we build it, and who we become in an industry being reshaped by AI.</p>
+    <p>Short stage talks lead into roundtables and The Conversation, a new 90-minute format where the room works through the questions that matter together. Re:Build is proud to partner with Women Coding Community and is committed to a welcoming event for everyone, guided by its Code of Respect. Find out more at <a href="https://rebuildcon.uk" target="_blank">rebuildcon.uk</a>.</p>
   image:
-    path: "/assets/images/partners/WomenInTech.png"
-    alt: Conference logo
-  page_show: false
+    path: "/assets/images/partners/rebuild.png"
+    alt: Re:Build logo
+  page_show: true
 
 - name: Devoxx - UK
   type: event
@@ -89,16 +88,6 @@
     alt: Conference logo
   page_show: false
 
-- name: Nandos
-  type: org
-  link: "https://www.nandos.co.uk/"
-  description: |
-    <p><a href="https://www.nandos.co.uk/" target="_blank">Nando's</a> is famous for its flame-grilled PERi-PERi and with over 500 restaurants across the UK and Ireland, and more than 20,000 Nandocas (that's what they call employees), it is committed to creating exceptional experiences for both its people and customers. Tech and engineering is at the heart of how they make this happen. The drive to deliver seamless, innovative and unique products through diverse perspectives and collaboration is what sets them apart.</p>
-  image:
-    path: "/assets/images/partners/Nandos.png"
-    alt: Nando’s logo
-  page_show: true
-
 - name: apidays London
   type: event
   link: "https://www.apidays.global/events/london"
@@ -108,15 +97,4 @@
   image:
     path: "/assets/images/partners/apidays.png"
     alt: apidays logo
-  page_show: false
-
-- name: Re:Build
-  type: event
-  link: "https://rebuildcon.uk/"
-  description: |
-    <p>Women Coding Community is proud to be a community partner of Re:Build, a new two-day developer conference in London on 5 &amp; 6 May 2027 at the Business Design Centre.</p>
-    <p>Re:Build is about the developer as a person: the craft, the community and how our work is changing. Expect short stage talks that flow into roundtables and real conversations.</p>
-  image:
-    path: "/assets/images/partners/rebuild.png"
-    alt: Re:Build logo
   page_show: false
